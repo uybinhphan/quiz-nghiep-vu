@@ -1,14 +1,22 @@
 [
   {
-    "name": "Kiến thức chung-150 câu",
-    "file": "./data/Kiến thức chung-150 câu.json"
+    "name": "1. Tín dụng khách hàng doanh nghiệp",
+    "file": "./data/1. Tín dụng khách hàng doanh nghiệp.json"
   },
   {
-    "name": "Kỹ năng quản lý-150 câu",
-    "file": "./data/Kỹ năng quản lý-150 câu.json"
+    "name": "17.Bộ câu hỏi Kiến thức chung",
+    "file": "./data/17.Bộ câu hỏi Kiến thức chung.json"
   },
   {
-    "name": "Nghiệp vụ tín dụng-300 câu",
-    "file": "./data/Nghiệp vụ tín dụng-300 câu.json"
+    "name": "19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên",
+    "file": "./data/19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên.json"
+  },
+  {
+    "name": "2. Thẩm định",
+    "file": "./data/2. Thẩm định.json"
+  },
+  {
+    "name": "3. Tín dụng khách hàng cá nhân",
+    "file": "./data/3. Tín dụng khách hàng cá nhân.json"
   }
 ]
