@@ -4,19 +4,23 @@
     "file": "./data/1. Tín dụng khách hàng doanh nghiệp.json"
   },
   {
-    "name": "17.Bộ câu hỏi Kiến thức chung",
-    "file": "./data/17.Bộ câu hỏi Kiến thức chung.json"
-  },
-  {
-    "name": "19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên",
-    "file": "./data/19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên.json"
-  },
-  {
     "name": "2. Thẩm định",
     "file": "./data/2. Thẩm định.json"
   },
   {
     "name": "3. Tín dụng khách hàng cá nhân",
     "file": "./data/3. Tín dụng khách hàng cá nhân.json"
+  },
+  {
+    "name": "8. Kế toán giao dịch khách hàng",
+    "file": "./data/8. Kế toán giao dịch khách hàng.json"
+  },
+  {
+    "name": "17. Bộ câu hỏi Kiến thức chung",
+    "file": "./data/17. Bộ câu hỏi Kiến thức chung.json"
+  },
+  {
+    "name": "19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên",
+    "file": "./data/19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên.json"
   }
 ]
