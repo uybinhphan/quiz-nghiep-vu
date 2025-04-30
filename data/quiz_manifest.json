@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Kiến thức chung-150 câu",
+    "file": "./data/Kiến thức chung-150 câu.json"
+  },
+  {
+    "name": "Kỹ năng quản lý-150 câu",
+    "file": "./data/Kỹ năng quản lý-150 câu.json"
+  },
+  {
+    "name": "Nghiệp vụ tín dụng-300 câu",
+    "file": "./data/Nghiệp vụ tín dụng-300 câu.json"
+  }
+]

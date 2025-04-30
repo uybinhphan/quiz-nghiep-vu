@@ -2,10 +2,9 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <!-- IMPORTANT: Viewport meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App - GitHub Pages</title>
-    <!-- No SheetJS library needed here -->
+    <!-- No external JS libraries needed unless added for other features -->
     <style>
         * { /* Apply border-box universally */
             box-sizing: border-box;
@@ -62,11 +61,11 @@
             margin-bottom: 30px; padding: 20px; border: 1px solid var(--card-border-color); border-radius: 8px;
             background-color: var(--bg-color); text-align: left; transition: background-color 0.3s ease, border-color 0.3s ease;
          }
-         #drive-file-list { /* Reusing this ID for the button container */
-            display: flex; flex-direction: column; gap: 10px; margin-bottom: 15px;
+         #drive-file-list { /* Renamed, but keeping ID for consistency */
+            display: flex; flex-direction: column; gap: 10px; margin-bottom: 15px; min-height: 30px; /* Space for loading msg */
          }
-         .drive-file-button { /* Reusing this class for button styling */
-             padding: 10px 15px; background-color: var(--primary-color); color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; text-align: left; font-size: 1em;
+         .drive-file-button { /* Button styling */
+             padding: 10px 15px; background-color: var(--primary-color); color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; text-align: left; font-size: 1em; word-break: break-word; /* Handle long filenames */
          }
          .drive-file-button:hover { filter: brightness(1.1); }
          .drive-file-button:disabled { background-color: var(--disabled-bg-color); color: var(--disabled-text-color); cursor: not-allowed; opacity: 0.6; }
@@ -113,9 +112,9 @@
          #theme-toggle-btn:hover { background-color: var(--button-hover-bg); }
          #theme-toggle-btn::after { content: var(--theme-toggle-icon); margin-left: 5px; }
          #question-container { background-color: var(--bg-color); padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid var(--card-border-color); margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile); transition: background-color 0.3s ease, border-color 0.3s ease; }
-         #question-text { font-size: 1.4em; margin-bottom: 20px; color: var(--text-color); line-height: 1.4; white-space: pre-wrap; }
+         #question-text { font-size: 1.4em; margin-bottom: 20px; color: var(--text-color); line-height: 1.4; white-space: pre-wrap; word-break: break-word;}
          #answers { display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 20px; }
-         .answer-btn { display: block; width: 100%; padding: 12px 15px; background-color: var(--button-default-bg); border: 1px solid var(--button-default-border); border-radius: 5px; text-align: left; font-size: 1em; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease; color: var(--text-color); white-space: pre-wrap; min-height: calc(1.6em + 24px); }
+         .answer-btn { display: block; width: 100%; padding: 12px 15px; background-color: var(--button-default-bg); border: 1px solid var(--button-default-border); border-radius: 5px; text-align: left; font-size: 1em; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease; color: var(--text-color); white-space: pre-wrap; min-height: calc(1.6em + 24px); word-break: break-word;}
          .answer-btn:hover:not(:disabled) { background-color: var(--button-hover-bg); border-color: var(--secondary-color); }
          .answer-btn:disabled { cursor: not-allowed; background-color: var(--disabled-bg-color); color: var(--disabled-text-color); border-color: var(--card-border-color); opacity: 0.7; }
          .answer-btn.selected { border-width: 2px; font-weight: bold; }
@@ -123,7 +122,7 @@
          .answer-btn.incorrect { background-color: var(--danger-color) !important; border-color: var(--danger-color) !important; color: white !important; filter: brightness(0.9); }
          .answer-btn.reveal-correct { background-color: var(--success-feedback-bg) !important; border-color: var(--success-color) !important; color: var(--success-feedback-text) !important; font-weight: bold; }
          body.dark-theme .answer-btn.reveal-correct { background-color: #2ea043 !important; border-color: #56d364 !important; color: white !important; }
-         #source { margin-top: 15px; padding: 10px; border-radius: 5px; font-size: 0.95em; min-height: 1.5em; margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile); background-color: var(--source-bg); color: var(--source-text); border: 1px solid var(--card-border-color); font-style: italic; display: none; white-space: pre-wrap; margin-bottom: 15px; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; }
+         #source { margin-top: 15px; padding: 10px; border-radius: 5px; font-size: 0.95em; min-height: 1.5em; margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile); background-color: var(--source-bg); color: var(--source-text); border: 1px solid var(--card-border-color); font-style: italic; display: none; white-space: pre-wrap; margin-bottom: 15px; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; word-break: break-word;}
 
          /* --- NAVIGATION AREA --- */
          #navigation { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding: 0 var(--app-padding-mobile) 10px; }
@@ -193,10 +192,10 @@
         <!-- How to Use Section -->
         <details id="usage-details" open>
             <summary>Hướng dẫn sử dụng & Định dạng Excel</summary>
-            <div>
+             <div>
                 <p><strong>Cách dùng:</strong></p>
                 <ol>
-                    <li>Chọn một bộ câu hỏi từ danh sách bên dưới.</li>
+                    <li>Chọn một bộ câu hỏi từ danh sách bên dưới (tên bộ câu hỏi lấy từ tên file Excel gốc).</li>
                     <li>(Tùy chọn) Tick "Xáo trộn" <i>trước khi</i> chọn bộ câu hỏi để câu hỏi hiện ngẫu nhiên.</li>
                     <li>Quiz sẽ bắt đầu sau khi dữ liệu được tải.</li>
                     <li>Trả lời bằng cách nhấn vào đáp án.</li>
@@ -215,7 +214,7 @@
                      <li>Cột G: <code>Đáp án đúng</code> (Số 1-4)</li>
                      <li>Cột H: <code>Trích dẫn nguồn</code> (Tùy chọn)</li>
                  </ul>
-                 <p><em>Lưu ý: Dòng đầu tiên phải là tên các cột này (không phân biệt hoa thường). Cần chạy script `convert.js` để tạo file JSON tương ứng trong thư mục `data/` sau khi sửa file Excel.</em></p>
+                 <p><em>Lưu ý: Dòng đầu tiên phải là tên các cột này (không phân biệt hoa thường). Đặt file Excel trong thư mục `quizzes/`. Chạy script `node convert.js` để tạo/cập nhật các file JSON tương ứng và file `quiz_manifest.json` trong thư mục `data/` sau khi sửa file Excel. Commit và push thư mục `data/` cùng `index.html` lên GitHub.</em></p>
             </div>
         </details>
 
@@ -223,7 +222,8 @@
         <div id="select-section">
              <h2>Chọn Bộ Câu Hỏi</h2>
              <div id="drive-file-list">
-                 <!-- Buttons for JSON files will be added here by JavaScript -->
+                 <!-- Buttons for JSON files will be loaded here by JavaScript -->
+                 <p>Đang tải danh sách bộ câu hỏi...</p>
              </div>
              <p id="status-message"></p>
              <div id="shuffle-option">
@@ -351,17 +351,9 @@
         let reviewWrongOnly = false;
         let wrongAnswerIndices = [];
         let currentWrongAnswerReviewIndex = 0;
-        let currentFileName = ""; // Will store the display name (e.g., "Bộ Câu Hỏi 1")
+        let currentFileName = ""; // Will store the display name (filename from manifest)
         const MOBILE_BREAKPOINT = 700;
-
-        // --- Define Available Quizzes (Relative paths from index.html) ---
-        const AVAILABLE_QUIZZES = [
-            { id: "quiz1", name: "Bộ Câu Hỏi 1", file: "data/quiz1.json" },
-            { id: "quiz2", name: "Bộ Câu Hỏi 2", file: "data/quiz2.json" },
-            { id: "quiz3", name: "Bộ Câu Hỏi 3", file: "data/quiz3.json" },
-            // Add more entries here if you have more JSON files in the 'data' folder
-            // { id: "quiz4", name: "Another Quiz", file: "data/quiz4.json" },
-        ];
+        const MANIFEST_PATH = 'data/quiz_manifest.json'; // Path to the manifest file
 
         // --- THEME FUNCTIONS ---
         function applyInitialTheme() { const savedTheme = localStorage.getItem('theme'); if (savedTheme === 'dark') { bodyElement.classList.add('dark-theme'); } else { bodyElement.classList.remove('dark-theme'); } updateThemeToggleButton(); }
@@ -375,7 +367,6 @@
         // --- Mobile Layout Detection ---
         function applyMobileLayout() {
             const isMobile = window.innerWidth < MOBILE_BREAKPOINT;
-            // console.log(`[Layout Check] Window width: ${window.innerWidth}, Is Mobile Layout: ${isMobile}`);
             if (isMobile) {
                 bodyElement.classList.add('mobile-layout');
                 bodyElement.classList.remove('desktop-layout');
@@ -419,22 +410,63 @@
         function shuffleArray(array) { for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [array[i], array[j]] = [array[j], array[i]]; } }
 
         // --- JSON Loading Logic ---
-        function displayQuizOptions() {
+        function loadQuizManifest() {
+            console.log(`[Manifest] Fetching quiz manifest from ${MANIFEST_PATH}...`);
+            hideError();
+            driveFileListContainer.innerHTML = '<p>Đang tải danh sách bộ câu hỏi...</p>'; // Loading message
+            statusMessage.textContent = "";
+            shuffleCheckbox.disabled = true;
+
+            // Add cache buster to URL to try and avoid caching issues with the manifest
+            const cacheBuster = `?t=${new Date().getTime()}`;
+
+            fetch(MANIFEST_PATH + cacheBuster) // Fetch the manifest file
+                .then(response => {
+                    if (!response.ok) {
+                        if (response.status === 404) {
+                             throw new Error(`Không tìm thấy tệp kê khai ${MANIFEST_PATH}. Hãy chạy script \`node convert.js\` và đảm bảo tệp được đẩy lên GitHub.`);
+                        } else {
+                            throw new Error(`Lỗi mạng khi tải ${MANIFEST_PATH} (${response.status}): ${response.statusText}`);
+                        }
+                    }
+                    return response.json();
+                })
+                .then(quizList => {
+                    console.log("[Manifest] Success, received:", quizList);
+                    displayQuizOptions(quizList); // Pass the fetched list to display function
+                })
+                .catch(error => {
+                    console.error("[Manifest Error]", error);
+                    showError(`Không thể tải danh sách bộ câu hỏi: ${error.message}`);
+                    driveFileListContainer.innerHTML = ''; // Clear loading message on error
+                    statusMessage.textContent = "Lỗi tải danh sách.";
+                });
+        }
+
+        function displayQuizOptions(quizList) {
             console.log("[UI] Displaying quiz options...");
             hideError();
-            driveFileListContainer.innerHTML = ''; // Clear previous content
+            driveFileListContainer.innerHTML = ''; // Clear loading message or previous buttons
             statusMessage.textContent = "Vui lòng chọn một bộ câu hỏi.";
 
-            if (!AVAILABLE_QUIZZES || AVAILABLE_QUIZZES.length === 0) {
-                showError("Không có bộ câu hỏi nào được định nghĩa. Kiểm tra biến AVAILABLE_QUIZZES trong index.html.");
+            if (!quizList || !Array.isArray(quizList)) {
+                 showError("Dữ liệu danh sách bộ câu hỏi không hợp lệ (không phải mảng).");
+                 return;
+            }
+             if (quizList.length === 0) {
+                showError("Không tìm thấy bộ câu hỏi nào trong tệp kê khai. Hãy chạy script `node convert.js` và kiểm tra thư mục 'data'.");
                 return;
             }
 
-            AVAILABLE_QUIZZES.forEach(quiz => {
+            quizList.forEach(quiz => {
+                if (!quiz || typeof quiz.name !== 'string' || typeof quiz.file !== 'string') {
+                    console.warn("Skipping invalid entry in manifest:", quiz);
+                    return; // Skip invalid entries
+                }
                 const btn = document.createElement('button');
-                btn.classList.add('drive-file-button'); // Reuse class for styling
-                btn.textContent = quiz.name;
-                btn.dataset.quizFile = quiz.file; // Store JSON file path
+                btn.classList.add('drive-file-button');
+                btn.textContent = quiz.name; // Use name from manifest (filename)
+                btn.dataset.quizFile = quiz.file; // Use file path from manifest (e.g., data/quiz1.json)
                 btn.dataset.quizName = quiz.name; // Store display name
                 btn.addEventListener('click', () => loadQuizFromJson(quiz.file, quiz.name));
                 driveFileListContainer.appendChild(btn);
@@ -451,12 +483,14 @@
             shuffleCheckbox.disabled = true;
             currentFileName = quizName; // Store the display name
 
-            fetch(jsonFilePath)
+             // Add cache buster to individual quiz files too
+            const cacheBuster = `?t=${new Date().getTime()}`;
+
+            fetch(jsonFilePath + cacheBuster)
                 .then(response => {
                     if (!response.ok) {
-                        // Try to provide more specific feedback for common errors
                         if (response.status === 404) {
-                            throw new Error(`Không tìm thấy tệp ${jsonFilePath}. Đảm bảo tệp tồn tại trong thư mục 'data/' và tên tệp đúng.`);
+                            throw new Error(`Không tìm thấy tệp ${jsonFilePath}. Đảm bảo tệp tồn tại và tên đúng.`);
                         } else {
                             throw new Error(`Lỗi mạng (${response.status}): ${response.statusText}`);
                         }
@@ -470,42 +504,35 @@
                 .catch(error => {
                     console.error("[Fetch Error]", error);
                     showError(`Lỗi tải dữ liệu cho "${quizName}": ${error.message}`);
-                    // Re-enable controls only on the selection screen
                     showSelectScreen(); // Go back to selection on error
                 });
         }
 
         // --- Data Processing and Quiz Start ---
         function processQuizData(jsonData) {
-             console.log(`[Processing] Processing ${jsonData.length} questions from JSON.`);
+             console.log(`[Processing] Processing ${jsonData.length} questions from JSON for "${currentFileName}".`);
              try {
                  if (!Array.isArray(jsonData)) { throw new Error("Dữ liệu tải về không phải là một mảng câu hỏi hợp lệ."); }
 
                  if (jsonData.length > 0) {
-                     // Basic validation of the first question object structure (optional but helpful)
                      const firstQ = jsonData[0];
                      if (typeof firstQ.question !== 'string' || !Array.isArray(firstQ.options) || typeof firstQ.correctAnswerIndex !== 'number') {
-                         console.warn("[Processing] Dữ liệu JSON có vẻ không đúng cấu trúc mong đợi.", firstQ);
-                         // Don't throw error yet, maybe only some are bad, but log warning
+                         console.warn("[Processing] Dữ liệu JSON có vẻ không đúng cấu trúc mong đợi:", firstQ);
+                         // Consider showing a warning to the user or stopping?
                      }
-
-                     originalQuizData = [...jsonData]; // Store original order
-                     quizData = [...jsonData];         // Data to use
-
+                     originalQuizData = [...jsonData];
+                     quizData = [...jsonData];
                      if (shuffleCheckbox.checked) {
                          console.log("[Quiz Prep] Shuffling enabled. Shuffling...");
                          shuffleArray(quizData);
                      }
-
                      statusMessage.textContent = `Đã tải: ${currentFileName} (${quizData.length} câu)`;
                      usageDetails.classList.add('hidden');
                      selectSection.classList.add('hidden');
                      selectSection.style.display = 'none';
-
-                     startQuiz(); // Start the quiz UI
-
+                     startQuiz();
                  } else {
-                     throw new Error("Tệp câu hỏi JSON không chứa câu hỏi hợp lệ nào.");
+                     throw new Error(`Tệp câu hỏi JSON cho "${currentFileName}" không chứa câu hỏi hợp lệ nào.`);
                  }
              } catch (error) {
                  console.error("[Error Handler] Error during JSON processing:", error);
@@ -527,7 +554,7 @@
 
             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
             quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
-            console.log("[UI Update] quizSection display set to 'block'. Is it rendered?:", quizSection.offsetParent !== null);
+            console.log("[UI Update] quizSection display set to 'block'.");
 
             navControls.classList.remove('hidden');
             reviewControls.classList.add('hidden');
@@ -537,21 +564,13 @@
         }
 
         function displayQuestion(index) {
-             // console.log(`---> [displayQuestion] Index: ${index}`); // Reduce console noise
              currentQuestionIndex = index;
              if (index < 0 || index >= quizData.length || !quizData[index]) {
-                  console.error(`---> [displayQuestion] ERROR: Invalid index ${index} or missing data. Quiz length: ${quizData.length}`);
-                  showError("Lỗi hiển thị câu hỏi. Vui lòng thử tải lại.");
+                  console.error(`[Display Error] Invalid index ${index} or missing data. Quiz length: ${quizData.length}`);
+                  showError(`Lỗi hiển thị câu hỏi số ${index + 1}. Vui lòng thử tải lại.`);
                   return;
              }
-
              const currentQuestion = quizData[index];
-             // Basic check for expected properties
-             if (typeof currentQuestion.question !== 'string' || !Array.isArray(currentQuestion.options) || typeof currentQuestion.correctAnswerIndex !== 'number') {
-                 showError(`Lỗi dữ liệu câu hỏi số ${index + 1}. Cấu trúc không hợp lệ.`);
-                 console.error("Invalid question structure:", currentQuestion);
-                 // Maybe skip this question or stop the quiz? For now, try to display what we can.
-             }
 
              questionText.textContent = currentQuestion.question || "[Lỗi: Thiếu câu hỏi]";
              answersContainer.innerHTML = ''; sourceDiv.textContent = '';
@@ -585,13 +604,11 @@
                   jumpToInput.max = quizData.length;
                   jumpToInput.placeholder = (index + 1).toString();
              }
-
              restoreAnswerState(index);
 
              if (isReviewMode) {
                  answersContainer.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
-                 navControls.classList.add('hidden');
-                 reviewControls.classList.remove('hidden');
+                 navControls.classList.add('hidden'); reviewControls.classList.remove('hidden');
                  settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
                  clearAutoAdvanceTimer(); timerBar.classList.remove('timer-active');
                  toggleFilterBtn.textContent = reviewWrongOnly ? "Xem tất cả câu" : "Chỉ xem câu sai";
@@ -614,7 +631,6 @@
                   nextBtn.textContent = (isLastQuestion && !isReviewMode) ? 'Hoàn thành' : 'Câu sau';
                   nextBtn.disabled = (!isReviewMode && !isAnswered) || (isReviewMode && isLastQuestion);
               }
-
              settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
         }
 
@@ -634,9 +650,8 @@
                 const selectedBtn = buttons[userAnswerIndex];
                 if (selectedBtn) {
                     selectedBtn.classList.add('selected');
-                    if (parseInt(userAnswerIndex, 10) === correctIdx) {
-                        selectedBtn.classList.add('correct');
-                    } else {
+                    if (parseInt(userAnswerIndex, 10) === correctIdx) { selectedBtn.classList.add('correct'); }
+                    else {
                         selectedBtn.classList.add('incorrect');
                         if (buttons[correctIdx]) { buttons[correctIdx].classList.add('reveal-correct'); }
                     }
@@ -650,14 +665,11 @@
 
         function handleAnswerSelection(selectedButton) {
              if (isReviewMode || questionsAnswered[currentQuestionIndex]) return;
-
              clearAutoAdvanceTimer();
              const selectedIndex = parseInt(selectedButton.dataset.index, 10);
              const currentQuestion = quizData[currentQuestionIndex];
-             // Check if question data is valid before proceeding
              if (!currentQuestion || typeof currentQuestion.correctAnswerIndex !== 'number') {
-                 showError(`Lỗi dữ liệu cho câu hỏi ${currentQuestionIndex + 1}. Không thể xử lý câu trả lời.`);
-                 return;
+                 showError(`Lỗi dữ liệu cho câu hỏi ${currentQuestionIndex + 1}.`); return;
              }
              const correctIndex = currentQuestion.correctAnswerIndex;
              userAnswers[currentQuestionIndex] = selectedIndex; questionsAnswered[currentQuestionIndex] = true;
@@ -675,7 +687,7 @@
              sourceDiv.textContent = `Nguồn: ${currentQuestion.source || 'N/A'}`;
              sourceDiv.classList.remove('hidden'); sourceDiv.style.display = 'block';
              scoreText.textContent = `Điểm: ${score}`;
-             nextBtn.disabled = false; // Enable next button after answering
+             nextBtn.disabled = false;
 
              if (currentQuestionIndex === quizData.length - 1) { nextBtn.textContent = 'Hoàn thành'; }
 
@@ -692,7 +704,7 @@
             clearAutoAdvanceTimer();
             quizSection.classList.add('hidden'); quizSection.style.display = 'none';
             resultsSection.classList.remove('hidden'); resultsSection.style.display = 'block';
-            finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length} (${currentFileName})`; // Use display name
+            finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length} (${currentFileName})`;
             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
             settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
         }
@@ -700,14 +712,8 @@
         function restartQuiz() {
             if (!quizData || quizData.length === 0) { showSelectScreen(); return; }
             console.log(`[Action] Restarting quiz: ${currentFileName}`);
-            // Reset based on original data and shuffle checkbox state
             quizData = [...originalQuizData];
-            if (shuffleCheckbox.checked) {
-                console.log("[Restart] Reshuffling data based on checkbox state.");
-                shuffleArray(quizData);
-            } else {
-                console.log("[Restart] Using original order (shuffle checkbox unchecked).");
-            }
+            if (shuffleCheckbox.checked) { shuffleArray(quizData); }
             startQuiz();
         }
 
@@ -742,16 +748,12 @@
         function toggleReviewFilter() {
              if (!isReviewMode) return;
              reviewWrongOnly = !reviewWrongOnly;
-
              if (reviewWrongOnly) {
                  console.log("[Filter] Activating 'Wrong Only' filter.");
                  if (wrongAnswerIndices.length === 0) { alert("Chúc mừng! Bạn đã trả lời đúng tất cả các câu đã làm."); reviewWrongOnly = false; return; }
                  currentWrongAnswerReviewIndex = 0;
                  currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex];
-             } else {
-                 console.log("[Filter] Deactivating 'Wrong Only' filter.");
-                 // currentQuestionIndex is already correct from the wrong list or user navigation
-             }
+             } else { console.log("[Filter] Deactivating 'Wrong Only' filter."); }
              displayQuestion(currentQuestionIndex);
          }
 
@@ -770,17 +772,18 @@
 
             selectSection.classList.remove('hidden'); selectSection.style.display = 'block';
             shuffleCheckbox.disabled = false; // Ensure shuffle is enabled
+            driveFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false); // Ensure buttons are enabled
 
-            displayQuizOptions(); // Display buttons for JSON files
+            loadQuizManifest(); // Load the manifest to display options
         }
 
         // --- Run on script load ---
         document.addEventListener('DOMContentLoaded', () => {
             console.log("[Init] DOM Loaded. Applying theme and initial settings.");
             applyInitialTheme();
-            applyMobileLayout(); // Apply layout based on initial width
+            applyMobileLayout();
             updateTimerDisplayAndControls();
-            showSelectScreen(); // Start by showing quiz selection
+            showSelectScreen();
             if (usageDetails.hasAttribute('open')) { usageDetails.open = true; }
         });
          window.addEventListener('load', () => {
