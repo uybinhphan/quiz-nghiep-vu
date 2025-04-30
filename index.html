@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App - GitHub Pages</title>
-    <!-- No external JS libraries needed unless added for other features -->
     <style>
         * { /* Apply border-box universally */
             box-sizing: border-box;
@@ -61,11 +60,11 @@
             margin-bottom: 30px; padding: 20px; border: 1px solid var(--card-border-color); border-radius: 8px;
             background-color: var(--bg-color); text-align: left; transition: background-color 0.3s ease, border-color 0.3s ease;
          }
-         #drive-file-list { /* Renamed, but keeping ID for consistency */
-            display: flex; flex-direction: column; gap: 10px; margin-bottom: 15px; min-height: 30px; /* Space for loading msg */
+         #drive-file-list { /* Button container */
+            display: flex; flex-direction: column; gap: 10px; margin-bottom: 15px; min-height: 30px;
          }
          .drive-file-button { /* Button styling */
-             padding: 10px 15px; background-color: var(--primary-color); color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; text-align: left; font-size: 1em; word-break: break-word; /* Handle long filenames */
+             padding: 10px 15px; background-color: var(--primary-color); color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; text-align: left; font-size: 1em; word-break: break-word;
          }
          .drive-file-button:hover { filter: brightness(1.1); }
          .drive-file-button:disabled { background-color: var(--disabled-bg-color); color: var(--disabled-text-color); cursor: not-allowed; opacity: 0.6; }
@@ -160,50 +159,80 @@
          #error-message { color: var(--danger-color); margin-top: 15px; font-weight: bold; padding: 0 var(--app-padding-mobile); min-height: 1.2em; }
          .hidden { display: none !important; }
 
-         /* --- RESPONSIVE DESIGN (Using JS class) --- */
-         .mobile-layout body { padding: 0; }
-         .mobile-layout #app { padding: 0; box-shadow: none; border-radius: 0; max-width: 100%; border: none; }
-         .mobile-layout #usage-details { border-radius: 0; border-left: none; border-right: none; margin-bottom: 10px; }
-         .mobile-layout #select-section { padding: 20px var(--app-padding-mobile); margin-bottom: 15px; border-radius: 0; border-left: none; border-right: none; }
-         .mobile-layout #auto-advance-timer-bar { margin-left: 0; margin-right: 0; border-radius: 0; }
-         .mobile-layout #quiz-header { padding: 10px var(--app-padding-mobile); margin-top: 10px; margin-bottom: 10px; justify-content: space-between; }
-         .mobile-layout #question-container { padding: 15px var(--app-padding-mobile); margin-left: 0; margin-right: 0; border-radius: 0; border-left: none; border-right: none; margin-bottom: 15px; }
-         .mobile-layout #source { margin-left: 0; margin-right: 0; padding-left: var(--app-padding-mobile); padding-right: var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
-         .mobile-layout #navigation { padding: 15px var(--app-padding-mobile) 10px; justify-content: center; }
-         .mobile-layout #nav-controls, .mobile-layout #review-controls { order: -1; margin-right: 0; width: 100%; justify-content: center; margin-bottom: 10px; }
-         .mobile-layout #nav-prev-next { margin-left: 0; width: 100%; justify-content: space-between; }
-         .mobile-layout #results-section { padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
-         .mobile-layout h1 { font-size: 1.6em; }
-         .mobile-layout h2 { font-size: 1.4em; }
-         .mobile-layout #question-text { font-size: 1.1em; }
-         .mobile-layout .answer-btn { font-size: 0.9em; }
-         .mobile-layout .nav-btn { font-size: 0.85em; padding: 8px 12px; }
-         .mobile-layout #settings-menu { right: 5px; top: 45px; }
-         .mobile-layout #results-controls { flex-direction: column; gap: 10px; align-items: center; }
-         .mobile-layout #restart-btn, .mobile-layout #review-btn, .mobile-layout #back-to-select-btn { width: 80%; max-width: 300px; }
-         /* --- End of .mobile-layout rules --- */
+         /* --- RESPONSIVE DESIGN (Standard CSS Media Query) --- */
+         @media (max-width: 700px) {
+             body {
+                 padding: 0;
+             }
+             #app {
+                 padding: 0; box-shadow: none; border-radius: 0; max-width: 100%; border: none;
+             }
+             #usage-details {
+                 border-radius: 0; border-left: none; border-right: none; margin-bottom: 10px;
+             }
+             #select-section {
+                 padding: 20px var(--app-padding-mobile); margin-bottom: 15px; border-radius: 0; border-left: none; border-right: none;
+             }
+             #auto-advance-timer-bar {
+                 margin-left: 0; margin-right: 0; border-radius: 0;
+             }
+             #quiz-header {
+                 padding: 10px var(--app-padding-mobile); margin-top: 10px; margin-bottom: 10px; justify-content: space-between;
+             }
+             #question-container {
+                 padding: 15px var(--app-padding-mobile); margin-left: 0; margin-right: 0; border-radius: 0; border-left: none; border-right: none; margin-bottom: 15px;
+             }
+             #source {
+                 margin-left: 0; margin-right: 0; padding-left: var(--app-padding-mobile); padding-right: var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none;
+             }
+             #navigation {
+                 padding: 15px var(--app-padding-mobile) 10px; justify-content: center;
+             }
+             #nav-controls, #review-controls {
+                 order: -1; margin-right: 0; width: 100%; justify-content: center; margin-bottom: 10px;
+             }
+             #nav-prev-next {
+                 margin-left: 0; width: 100%; justify-content: space-between;
+             }
+             #results-section {
+                 padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none;
+             }
+             h1 { font-size: 1.6em; }
+             h2 { font-size: 1.4em; }
+             #question-text { font-size: 1.1em; }
+             .answer-btn { font-size: 0.9em; }
+             .nav-btn { font-size: 0.85em; padding: 8px 12px; }
+             #settings-menu { right: 5px; top: 45px; }
+             #results-controls {
+                 flex-direction: column; gap: 10px; align-items: center;
+             }
+             #restart-btn, #review-btn, #back-to-select-btn {
+                 width: 80%; max-width: 300px;
+             }
+         }
+         /* --- End of Media Query --- */
 
     </style>
 </head>
-<body class=""> <!-- Theme and layout classes managed by JS -->
+<body class=""> <!-- Theme class managed by JS -->
     <div id="app">
-        <h1>Quiz App</h1> <!-- Updated Title -->
+        <h1>Quiz App</h1>
 
         <!-- How to Use Section -->
         <details id="usage-details" open>
             <summary>Hướng dẫn sử dụng & Định dạng Excel</summary>
              <div>
-                <p><strong>Cách dùng:</strong></p>
-                <ol>
-                    <li>Chọn một bộ câu hỏi từ danh sách bên dưới (tên bộ câu hỏi lấy từ tên file Excel gốc).</li>
-                    <li>(Tùy chọn) Tick "Xáo trộn" <i>trước khi</i> chọn bộ câu hỏi để câu hỏi hiện ngẫu nhiên.</li>
-                    <li>Quiz sẽ bắt đầu sau khi dữ liệu được tải.</li>
-                    <li>Trả lời bằng cách nhấn vào đáp án.</li>
-                    <li>Sử dụng nút "Câu trước", "Câu sau", hoặc nhập số câu vào ô "Đến:" để di chuyển.</li>
-                    <li>Nhấn biểu tượng ⚙️ để chỉnh tốc độ tự chuyển câu hoặc đổi giao diện Sáng/Tối.</li>
-                    <li>Khi hoàn thành, xem kết quả và có thể làm lại (bộ câu hỏi hiện tại), xem lại bài làm, hoặc quay lại chọn bộ câu hỏi khác.</li>
-                </ol>
-                <!-- <p><strong>Định dạng cột Excel (Dùng để tạo file JSON):</strong></p>
+                 <p><strong>Cách dùng:</strong></p>
+                 <ol>
+                     <li>Chọn một bộ câu hỏi từ danh sách bên dưới (tên bộ câu hỏi lấy từ tên file Excel gốc).</li>
+                     <li>(Tùy chọn) Tick "Xáo trộn" <i>trước khi</i> chọn bộ câu hỏi để câu hỏi hiện ngẫu nhiên.</li>
+                     <li>Quiz sẽ bắt đầu sau khi dữ liệu được tải.</li>
+                     <li>Trả lời bằng cách nhấn vào đáp án.</li>
+                     <li>Sử dụng nút "Câu trước", "Câu sau", hoặc nhập số câu vào ô "Đến:" để di chuyển.</li>
+                     <li>Nhấn biểu tượng ⚙️ để chỉnh tốc độ tự chuyển câu hoặc đổi giao diện Sáng/Tối.</li>
+                     <li>Khi hoàn thành, xem kết quả và có thể làm lại (bộ câu hỏi hiện tại), xem lại bài làm, hoặc quay lại chọn bộ câu hỏi khác.</li>
+                 </ol>
+                 <p><strong>Định dạng cột Excel (Dùng để tạo file JSON):</strong></p>
                  <ul>
                      <li>Cột A: <code>STT</code> (Không bắt buộc)</li>
                      <li>Cột B: <code>Câu hỏi</code></li>
@@ -214,15 +243,14 @@
                      <li>Cột G: <code>Đáp án đúng</code> (Số 1-4)</li>
                      <li>Cột H: <code>Trích dẫn nguồn</code> (Tùy chọn)</li>
                  </ul>
-                 <p><em>Lưu ý: Dòng đầu tiên phải là tên các cột này (không phân biệt hoa thường). Đặt file Excel trong thư mục `quizzes/`. Chạy script `node convert.js` để tạo/cập nhật các file JSON tương ứng và file `quiz_manifest.json` trong thư mục `data/` sau khi sửa file Excel. Commit và push thư mục `data/` cùng `index.html` lên GitHub.</em></p> -->
-            </div>
+                 <p><em>Lưu ý: Dòng đầu tiên phải là tên các cột này (không phân biệt hoa thường). Đặt file Excel trong thư mục `quizzes/`. Chạy script `node convert.js` để tạo/cập nhật các file JSON tương ứng và file `quiz_manifest.json` trong thư mục `data/` sau khi sửa file Excel. Commit và push thư mục `data/` cùng `index.html` lên GitHub.</em></p>
+             </div>
         </details>
 
         <!-- Select Section -->
         <div id="select-section">
              <h2>Chọn Bộ Câu Hỏi</h2>
              <div id="drive-file-list">
-                 <!-- Buttons for JSON files will be loaded here by JavaScript -->
                  <p>Đang tải danh sách bộ câu hỏi...</p>
              </div>
              <p id="status-message"></p>
@@ -352,8 +380,8 @@
         let wrongAnswerIndices = [];
         let currentWrongAnswerReviewIndex = 0;
         let currentFileName = ""; // Will store the display name (filename from manifest)
-        const MOBILE_BREAKPOINT = 700;
         const MANIFEST_PATH = 'data/quiz_manifest.json'; // Path to the manifest file
+        // REMOVED: const MOBILE_BREAKPOINT = 700;
 
         // --- THEME FUNCTIONS ---
         function applyInitialTheme() { const savedTheme = localStorage.getItem('theme'); if (savedTheme === 'dark') { bodyElement.classList.add('dark-theme'); } else { bodyElement.classList.remove('dark-theme'); } updateThemeToggleButton(); }
@@ -364,17 +392,8 @@
         function toggleSettingsMenu() { settingsMenu.classList.toggle('menu-active'); settingsMenu.classList.toggle('hidden'); }
         document.addEventListener('click', function(event) { if (settingsMenu.classList.contains('menu-active') && !settingsMenu.contains(event.target) && !settingsBtn.contains(event.target)) { settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); } });
 
-        // --- Mobile Layout Detection ---
-        function applyMobileLayout() {
-            const isMobile = window.innerWidth < MOBILE_BREAKPOINT;
-            if (isMobile) {
-                bodyElement.classList.add('mobile-layout');
-                bodyElement.classList.remove('desktop-layout');
-            } else {
-                bodyElement.classList.remove('mobile-layout');
-                bodyElement.classList.add('desktop-layout');
-            }
-        }
+        // --- Mobile Layout Detection (REMOVED) ---
+        // function applyMobileLayout() { ... }
 
         // --- Event Listeners ---
         settingsBtn.addEventListener('click', toggleSettingsMenu);
@@ -394,8 +413,8 @@
         answersContainer.addEventListener('click', (event) => { if (event.target.classList.contains('answer-btn') && !event.target.disabled) { handleAnswerSelection(event.target); } });
         timerDecreaseBtn.addEventListener('click', decreaseTimer);
         timerIncreaseBtn.addEventListener('click', increaseTimer);
-        window.addEventListener('orientationchange', applyMobileLayout);
-        window.addEventListener('resize', applyMobileLayout);
+        // REMOVED: window.addEventListener('orientationchange', applyMobileLayout);
+        // REMOVED: window.addEventListener('resize', applyMobileLayout);
 
         // --- Core Quiz Functions (Timer, Navigation, Shuffle, Reload) ---
         function decreaseTimer() { if (!isReviewMode && autoAdvanceDuration > MIN_TIMER) { autoAdvanceDuration -= TIMER_STEP; updateTimerDisplayAndControls(); } }
@@ -413,32 +432,27 @@
         function loadQuizManifest() {
             console.log(`[Manifest] Fetching quiz manifest from ${MANIFEST_PATH}...`);
             hideError();
-            driveFileListContainer.innerHTML = '<p>Đang tải danh sách bộ câu hỏi...</p>'; // Loading message
+            driveFileListContainer.innerHTML = '<p>Đang tải danh sách bộ câu hỏi...</p>';
             statusMessage.textContent = "";
             shuffleCheckbox.disabled = true;
-
-            // Add cache buster to URL to try and avoid caching issues with the manifest
             const cacheBuster = `?t=${new Date().getTime()}`;
 
-            fetch(MANIFEST_PATH + cacheBuster) // Fetch the manifest file
+            fetch(MANIFEST_PATH + cacheBuster)
                 .then(response => {
                     if (!response.ok) {
-                        if (response.status === 404) {
-                             throw new Error(`Không tìm thấy tệp kê khai ${MANIFEST_PATH}. Hãy chạy script \`node convert.js\` và đảm bảo tệp được đẩy lên GitHub.`);
-                        } else {
-                            throw new Error(`Lỗi mạng khi tải ${MANIFEST_PATH} (${response.status}): ${response.statusText}`);
-                        }
+                        if (response.status === 404) { throw new Error(`Không tìm thấy tệp kê khai ${MANIFEST_PATH}. Hãy chạy script \`node convert.js\` và đảm bảo tệp được đẩy lên GitHub.`); }
+                        else { throw new Error(`Lỗi mạng khi tải ${MANIFEST_PATH} (${response.status}): ${response.statusText}`); }
                     }
                     return response.json();
                 })
                 .then(quizList => {
                     console.log("[Manifest] Success, received:", quizList);
-                    displayQuizOptions(quizList); // Pass the fetched list to display function
+                    displayQuizOptions(quizList);
                 })
                 .catch(error => {
                     console.error("[Manifest Error]", error);
                     showError(`Không thể tải danh sách bộ câu hỏi: ${error.message}`);
-                    driveFileListContainer.innerHTML = ''; // Clear loading message on error
+                    driveFileListContainer.innerHTML = '';
                     statusMessage.textContent = "Lỗi tải danh sách.";
                 });
         }
@@ -446,28 +460,19 @@
         function displayQuizOptions(quizList) {
             console.log("[UI] Displaying quiz options...");
             hideError();
-            driveFileListContainer.innerHTML = ''; // Clear loading message or previous buttons
+            driveFileListContainer.innerHTML = '';
             statusMessage.textContent = "Vui lòng chọn một bộ câu hỏi.";
 
-            if (!quizList || !Array.isArray(quizList)) {
-                 showError("Dữ liệu danh sách bộ câu hỏi không hợp lệ (không phải mảng).");
-                 return;
-            }
-             if (quizList.length === 0) {
-                showError("Không tìm thấy bộ câu hỏi nào trong tệp kê khai. Hãy chạy script `node convert.js` và kiểm tra thư mục 'data'.");
-                return;
-            }
+            if (!quizList || !Array.isArray(quizList)) { showError("Dữ liệu danh sách bộ câu hỏi không hợp lệ."); return; }
+            if (quizList.length === 0) { showError("Không tìm thấy bộ câu hỏi nào trong tệp kê khai."); return; }
 
             quizList.forEach(quiz => {
-                if (!quiz || typeof quiz.name !== 'string' || typeof quiz.file !== 'string') {
-                    console.warn("Skipping invalid entry in manifest:", quiz);
-                    return; // Skip invalid entries
-                }
+                if (!quiz || typeof quiz.name !== 'string' || typeof quiz.file !== 'string') { console.warn("Skipping invalid entry in manifest:", quiz); return; }
                 const btn = document.createElement('button');
                 btn.classList.add('drive-file-button');
-                btn.textContent = quiz.name; // Use name from manifest (filename)
-                btn.dataset.quizFile = quiz.file; // Use file path from manifest (e.g., data/quiz1.json)
-                btn.dataset.quizName = quiz.name; // Store display name
+                btn.textContent = quiz.name;
+                btn.dataset.quizFile = quiz.file;
+                btn.dataset.quizName = quiz.name;
                 btn.addEventListener('click', () => loadQuizFromJson(quiz.file, quiz.name));
                 driveFileListContainer.appendChild(btn);
             });
@@ -481,30 +486,25 @@
             statusMessage.textContent = `Đang tải dữ liệu cho "${quizName}"...`;
             driveFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = true);
             shuffleCheckbox.disabled = true;
-            currentFileName = quizName; // Store the display name
-
-             // Add cache buster to individual quiz files too
+            currentFileName = quizName;
             const cacheBuster = `?t=${new Date().getTime()}`;
 
             fetch(jsonFilePath + cacheBuster)
                 .then(response => {
                     if (!response.ok) {
-                        if (response.status === 404) {
-                            throw new Error(`Không tìm thấy tệp ${jsonFilePath}. Đảm bảo tệp tồn tại và tên đúng.`);
-                        } else {
-                            throw new Error(`Lỗi mạng (${response.status}): ${response.statusText}`);
-                        }
+                        if (response.status === 404) { throw new Error(`Không tìm thấy tệp ${jsonFilePath}.`); }
+                        else { throw new Error(`Lỗi mạng (${response.status}): ${response.statusText}`); }
                     }
                     return response.json();
                 })
                 .then(jsonData => {
                     console.log("[Fetch Success] Received JSON data.");
-                    processQuizData(jsonData); // Pass the parsed JSON array
+                    processQuizData(jsonData);
                 })
                 .catch(error => {
                     console.error("[Fetch Error]", error);
                     showError(`Lỗi tải dữ liệu cho "${quizName}": ${error.message}`);
-                    showSelectScreen(); // Go back to selection on error
+                    showSelectScreen();
                 });
         }
 
@@ -513,12 +513,10 @@
              console.log(`[Processing] Processing ${jsonData.length} questions from JSON for "${currentFileName}".`);
              try {
                  if (!Array.isArray(jsonData)) { throw new Error("Dữ liệu tải về không phải là một mảng câu hỏi hợp lệ."); }
-
                  if (jsonData.length > 0) {
                      const firstQ = jsonData[0];
                      if (typeof firstQ.question !== 'string' || !Array.isArray(firstQ.options) || typeof firstQ.correctAnswerIndex !== 'number') {
                          console.warn("[Processing] Dữ liệu JSON có vẻ không đúng cấu trúc mong đợi:", firstQ);
-                         // Consider showing a warning to the user or stopping?
                      }
                      originalQuizData = [...jsonData];
                      quizData = [...jsonData];
@@ -537,7 +535,7 @@
              } catch (error) {
                  console.error("[Error Handler] Error during JSON processing:", error);
                  showError(`Lỗi xử lý dữ liệu câu hỏi: ${error.message}.`);
-                 showSelectScreen(); // Go back to selection on error
+                 showSelectScreen();
              }
          }
 
@@ -554,7 +552,6 @@
 
             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
             quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
-            console.log("[UI Update] quizSection display set to 'block'.");
 
             navControls.classList.remove('hidden');
             reviewControls.classList.add('hidden');
@@ -567,8 +564,7 @@
              currentQuestionIndex = index;
              if (index < 0 || index >= quizData.length || !quizData[index]) {
                   console.error(`[Display Error] Invalid index ${index} or missing data. Quiz length: ${quizData.length}`);
-                  showError(`Lỗi hiển thị câu hỏi số ${index + 1}. Vui lòng thử tải lại.`);
-                  return;
+                  showError(`Lỗi hiển thị câu hỏi số ${index + 1}.`); return;
              }
              const currentQuestion = quizData[index];
 
@@ -712,9 +708,9 @@
         function restartQuiz() {
             if (!quizData || quizData.length === 0) { showSelectScreen(); return; }
             console.log(`[Action] Restarting quiz: ${currentFileName}`);
-            quizData = [...originalQuizData];
-            if (shuffleCheckbox.checked) { shuffleArray(quizData); }
-            startQuiz();
+            quizData = [...originalQuizData]; // Get a fresh copy of original data for this quiz
+            if (shuffleCheckbox.checked) { shuffleArray(quizData); } // Re-shuffle if needed
+            startQuiz(); // Reset UI and state
         }
 
         function startReviewMode() {
@@ -771,25 +767,22 @@
             usageDetails.classList.remove('hidden');
 
             selectSection.classList.remove('hidden'); selectSection.style.display = 'block';
-            shuffleCheckbox.disabled = false; // Ensure shuffle is enabled
-            driveFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false); // Ensure buttons are enabled
+            shuffleCheckbox.disabled = false;
+            driveFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
 
             loadQuizManifest(); // Load the manifest to display options
         }
 
         // --- Run on script load ---
         document.addEventListener('DOMContentLoaded', () => {
-            console.log("[Init] DOM Loaded. Applying theme and initial settings.");
+            console.log("[Init] DOM Loaded.");
             applyInitialTheme();
-            applyMobileLayout();
+            // REMOVED: applyMobileLayout(); - CSS media query handles this now
             updateTimerDisplayAndControls();
             showSelectScreen();
             if (usageDetails.hasAttribute('open')) { usageDetails.open = true; }
         });
-         window.addEventListener('load', () => {
-             console.log("[Init] Window Loaded.");
-             applyMobileLayout(); // Re-apply just in case layout shifted
-         });
+         // REMOVED: window.addEventListener('load', applyMobileLayout);
 
     </script>
 
