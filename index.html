@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ôn kiểm tra nghiệp vụ</title>
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <!-- End Confetti Library -->
+
     <style>
         * { /* Apply border-box universally */
             box-sizing: border-box;
@@ -178,122 +183,60 @@
 
         /* --- Resume Confirmation Modal Styles --- */
         #resume-modal-overlay {
-            position: fixed; /* Sit on top of the page content */
-            inset: 0; /* Cover the entire viewport */
-            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000; /* High z-index to be on top */
-            opacity: 0; /* Start hidden */
-            visibility: hidden;
-            transition: opacity 0.3s ease, visibility 0s linear 0.3s; /* Fade transition */
+            position: fixed; inset: 0; background-color: rgba(0, 0, 0, 0.6);
+            display: flex; justify-content: center; align-items: center;
+            z-index: 1000; opacity: 0; visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0s linear 0.3s;
         }
         #resume-modal-overlay:not(.hidden) {
-            opacity: 1;
-            visibility: visible;
+            opacity: 1; visibility: visible;
             transition: opacity 0.3s ease, visibility 0s linear 0s;
         }
-
         #resume-modal {
-            background-color: var(--card-bg-color);
-            padding: 25px 30px;
-            border-radius: 8px;
-            box-shadow: 0 5px 15px var(--shadow-color);
-            text-align: center;
-            max-width: 90%; /* Responsive width */
-            width: 400px; /* Max width on larger screens */
-            border: 1px solid var(--card-border-color);
-            transform: scale(0.95); /* Start slightly scaled down */
-            transition: transform 0.3s ease;
+            background-color: var(--card-bg-color); padding: 25px 30px; border-radius: 8px;
+            box-shadow: 0 5px 15px var(--shadow-color); text-align: center;
+            max-width: 90%; width: 400px; border: 1px solid var(--card-border-color);
+            transform: scale(0.95); transition: transform 0.3s ease;
         }
-         #resume-modal-overlay:not(.hidden) #resume-modal {
-            transform: scale(1); /* Scale up when visible */
-        }
-
-
-        #resume-modal h3 {
-            color: var(--primary-color);
-            margin-top: 0;
-            margin-bottom: 15px;
-            font-size: 1.4em;
-        }
-
-        #resume-modal p {
-            color: var(--text-color);
-            margin-bottom: 25px;
-            font-size: 1em;
-            line-height: 1.5;
-        }
-
-        #resume-modal-buttons {
-            display: flex;
-            justify-content: center; /* Center buttons */
-            gap: 15px; /* Space between buttons */
-        }
-
+         #resume-modal-overlay:not(.hidden) #resume-modal { transform: scale(1); }
+        #resume-modal h3 { color: var(--primary-color); margin-top: 0; margin-bottom: 15px; font-size: 1.4em; }
+        #resume-modal p { color: var(--text-color); margin-bottom: 25px; font-size: 1em; line-height: 1.5; }
+        #resume-modal-buttons { display: flex; justify-content: center; gap: 15px; }
         .modal-btn {
-            padding: 10px 20px;
-            border-radius: 5px;
-            border: none;
-            font-size: 1em;
-            cursor: pointer;
-            transition: filter 0.2s ease, background-color 0.2s ease;
-            min-width: 120px;
+            padding: 10px 20px; border-radius: 5px; border: none; font-size: 1em;
+            cursor: pointer; transition: filter 0.2s ease, background-color 0.2s ease; min-width: 120px;
         }
-        .modal-btn:hover {
-            filter: brightness(1.1);
-        }
-         .modal-btn.primary {
-             background-color: var(--primary-color);
-             color: white;
-         }
-          body.dark-theme .modal-btn.primary {
-               /* Keep primary button color consistent, text color changes */
-               color: #121212; /* Example dark text for contrast */
-          }
-           body.dark-theme .modal-btn.primary:hover {
-               color: #121212;
-          }
-
-         .modal-btn.secondary {
-             background-color: var(--secondary-color);
-             color: white;
-         }
-          body.dark-theme .modal-btn.secondary {
-              /* Keep secondary button color consistent */
-              color: white;
-          }
+        .modal-btn:hover { filter: brightness(1.1); }
+         .modal-btn.primary { background-color: var(--primary-color); color: white; }
+          body.dark-theme .modal-btn.primary { color: #121212; }
+          body.dark-theme .modal-btn.primary:hover { color: #121212; }
+         .modal-btn.secondary { background-color: var(--secondary-color); color: white; }
+         body.dark-theme .modal-btn.secondary { background-color: var(--secondary-color); color: white; }
          /* --- End Modal Styles --- */
 
-         /* --- RESPONSIVE DESIGN (Standard CSS Media Query) --- */
+         /* --- RESPONSIVE DESIGN --- */
          @media (max-width: 700px) {
              body { padding: 0; }
              #app { padding: 0; box-shadow: none; border-radius: 0; max-width: 100%; border: none; }
-             h1 { font-size: 1.6em; }
-             h2 { font-size: 1.4em; }
+             h1 { font-size: 1.6em; } h2 { font-size: 1.4em; }
              #quiz-title { font-size: 1em; margin-bottom: 1em; padding: 0 var(--app-padding-mobile); }
              #usage-details { border-radius: 0; border-left: none; border-right: none; margin-bottom: 10px; }
              #select-section { padding: 20px var(--app-padding-mobile); margin-bottom: 15px; border-radius: 0; border-left: none; border-right: none; }
              #auto-advance-timer-bar { margin-left: 0; margin-right: 0; border-radius: 0; }
-             #quiz-header { padding: 10px var(--app-padding-mobile); margin-top: 10px; margin-bottom: 10px; justify-content: space-between; }
-             #question-container { padding: 15px var(--app-padding-mobile); margin-left: 0; margin-right: 0; border-radius: 0; border-left: none; border-right: none; margin-bottom: 15px; }
-             #source { margin-left: 0; margin-right: 0; padding-left: var(--app-padding-mobile); padding-right: var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
+             #quiz-header { padding: 10px var(--app-padding-mobile); margin-top: 10px; margin-bottom: 10px; }
+             #question-container { padding: 15px var(--app-padding-mobile); margin: 0 0 15px 0; border-radius: 0; border-left: none; border-right: none; }
+             #source { margin: 0 0 15px 0; padding-left: var(--app-padding-mobile); padding-right: var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
              #navigation { padding: 15px var(--app-padding-mobile) 10px; justify-content: center; }
              #nav-controls, #review-controls { order: -1; margin-right: 0; width: 100%; justify-content: center; margin-bottom: 10px; }
              #nav-prev-next { margin-left: 0; width: 100%; justify-content: space-between; }
              #results-section { padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
-             #question-text { font-size: 1.1em; }
-             .answer-btn { font-size: 0.9em; }
-             .nav-btn { font-size: 0.85em; padding: 8px 12px; }
-             /* Settings Menu Position (Mobile) - 'top' removed, handled by JS */
+             #question-text { font-size: 1.1em; } .answer-btn { font-size: 0.9em; } .nav-btn { font-size: 0.85em; padding: 8px 12px; }
              #settings-menu { right: 5px; }
              #results-controls { flex-direction: column; gap: 10px; align-items: center; }
              #restart-btn, #review-btn, #back-to-select-btn { width: 80%; max-width: 300px; }
              /* Modal on mobile */
              #resume-modal { width: 90%; padding: 20px; }
-             #resume-modal h3 { font-size: 1.2em; }
-             #resume-modal p { font-size: 0.95em; }
+             #resume-modal h3 { font-size: 1.2em; } #resume-modal p { font-size: 0.95em; }
              .modal-btn { font-size: 0.9em; padding: 8px 15px; min-width: 100px; }
          }
          /* --- End of Media Query --- */
@@ -481,7 +424,7 @@
              else if (selectSection.classList.contains('hidden') === false) { currentView = 'select'; }
 
             if (currentView === 'select') {
-                if (localStorage.getItem(STORAGE_KEY)) { clearState(); }
+                if (localStorage.getItem(STORAGE_KEY)) { clearState(); } // Clear if we explicitly land on select screen
                 return;
             }
 
@@ -495,9 +438,13 @@
                 const savedStateJSON = localStorage.getItem(STORAGE_KEY);
                 if (!savedStateJSON) return null;
                 const savedState = JSON.parse(savedStateJSON);
-                if (!savedState || typeof savedState.view !== 'string' || (savedState.view !== 'select' && !savedState.quizName)) { console.warn("[State] Invalid saved state, clearing."); clearState(); return null; }
-                if (savedState.view === 'select') { clearState(); return null; }
+                // More robust validation
+                if (!savedState || typeof savedState.view !== 'string' || typeof savedState.quizName !== 'string' || !Array.isArray(savedState.quizData) || typeof savedState.currentQuestionIndex !== 'number' || typeof savedState.userAnswers !== 'object') {
+                    console.warn("[State] Invalid saved state structure, clearing."); clearState(); return null;
+                }
+                if (savedState.view === 'select') { clearState(); return null; } // Don't restore 'select' view
 
+                // Restore state variables
                 currentFileName = savedState.quizName || "";
                 originalQuizData = savedState.originalQuizData || [];
                 quizData = savedState.quizData || [];
@@ -512,7 +459,8 @@
                 autoAdvanceDuration = savedState.autoAdvanceDuration || 500;
                 shuffleCheckbox.checked = savedState.shuffleChecked || false;
 
-                if (quizData.length === 0) { console.warn("[State] Restored quizData empty, clearing."); clearState(); return null; }
+                // Data integrity checks
+                if (quizData.length === 0 && savedState.view !== 'select') { console.warn("[State] Restored quizData empty, clearing."); clearState(); return null; }
                 if (currentQuestionIndex >= quizData.length) { console.warn("[State] Restored index out of bounds, resetting."); currentQuestionIndex = 0; }
 
                 console.log("[State] Found valid saved state:", savedState.view);
@@ -603,7 +551,9 @@
              resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
              usageDetails.classList.add('hidden'); // Keep usage hidden when restoring
 
+             // Determine view from loaded state (already loaded into globals by loadState)
              const viewToRestore = localStorage.getItem(STORAGE_KEY) ? JSON.parse(localStorage.getItem(STORAGE_KEY)).view : null;
+
 
              if (viewToRestore === 'quiz') {
                  quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
@@ -627,10 +577,10 @@
         function updateTimerDisplayAndControls() { timerDurationDisplay.textContent = (autoAdvanceDuration / 1000).toFixed(1) + 's'; timerDecreaseBtn.disabled = isReviewMode || autoAdvanceDuration <= MIN_TIMER; timerIncreaseBtn.disabled = isReviewMode || autoAdvanceDuration >= MAX_TIMER; timerBar.style.setProperty('--timer-duration', autoAdvanceDuration + 'ms'); }
         function clearAutoAdvanceTimer() { if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; } timerBar.classList.remove('timer-active'); timerBar.style.animation = 'none'; void timerBar.offsetWidth; timerBar.style.animation = null; }
         function navigatePrevious() { clearAutoAdvanceTimer(); let changed = false; if (reviewWrongOnly) { if (currentWrongAnswerReviewIndex > 0) { currentWrongAnswerReviewIndex--; currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; changed = true; } } else { if (currentQuestionIndex > 0) { currentQuestionIndex--; changed = true; } } if (changed) { displayQuestion(currentQuestionIndex); saveState(); } }
-        function navigateNext() { clearAutoAdvanceTimer(); let changed = false; let finished = false; if (reviewWrongOnly) { if (currentWrongAnswerReviewIndex < wrongAnswerIndices.length - 1) { currentWrongAnswerReviewIndex++; currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; changed = true; } } else { if (currentQuestionIndex < quizData.length - 1) { currentQuestionIndex++; changed = true; } else if (!isReviewMode) { finished = true; } } if (changed) { displayQuestion(currentQuestionIndex); saveState(); } else if (finished) { showResults(); /* saveState is called in showResults */ } }
+        function navigateNext() { clearAutoAdvanceTimer(); let changed = false; let finished = false; if (reviewWrongOnly) { if (currentWrongAnswerReviewIndex < wrongAnswerIndices.length - 1) { currentWrongAnswerReviewIndex++; currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; changed = true; } } else { if (currentQuestionIndex < quizData.length - 1) { currentQuestionIndex++; changed = true; } else if (!isReviewMode) { finished = true; } } if (changed) { displayQuestion(currentQuestionIndex); saveState(); } else if (finished) { showResults(); /* Calls saveState */ } }
         function handleJumpToQuestion() { if (!quizData || quizData.length === 0) return; const targetNum = parseInt(jumpToInput.value, 10); let maxQuestions, targetIndex = -1; let changed = false; if (reviewWrongOnly) { maxQuestions = wrongAnswerIndices.length; if (!isNaN(targetNum) && targetNum >= 1 && targetNum <= maxQuestions) { currentWrongAnswerReviewIndex = targetNum - 1; targetIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; if (targetIndex !== currentQuestionIndex) changed = true; } else { alert(`Vui lòng nhập số thứ tự câu sai hợp lệ từ 1 đến ${maxQuestions}.`); } } else { maxQuestions = quizData.length; if (!isNaN(targetNum) && targetNum >= 1 && targetNum <= maxQuestions) { targetIndex = targetNum - 1; if (targetIndex !== currentQuestionIndex) changed = true; } else { alert(`Vui lòng nhập số câu hợp lệ từ 1 đến ${maxQuestions}.`); } } if (changed) { clearAutoAdvanceTimer(); currentQuestionIndex = targetIndex; displayQuestion(currentQuestionIndex); saveState(); } jumpToInput.value = ''; }
-        function handleShuffleNow() { if (isReviewMode || !quizData || quizData.length === 0) return; console.log("[Action] Shuffling current questions..."); shuffleArray(quizData); restartQuiz(true); /* restartQuiz calls saveState */ }
-        function handleReloadOriginal() { if (isReviewMode || !originalQuizData || originalQuizData.length === 0) { alert("Không có dữ liệu gốc để tải lại."); return; } console.log("[Action] Reloading original question order..."); quizData = [...originalQuizData]; restartQuiz(); /* restartQuiz calls saveState */ }
+        function handleShuffleNow() { if (isReviewMode || !quizData || quizData.length === 0) return; console.log("[Action] Shuffling current questions..."); shuffleArray(quizData); restartQuiz(true); }
+        function handleReloadOriginal() { if (isReviewMode || !originalQuizData || originalQuizData.length === 0) { alert("Không có dữ liệu gốc để tải lại."); return; } console.log("[Action] Reloading original question order..."); quizData = [...originalQuizData]; restartQuiz(); }
         function shuffleArray(array) { for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [array[i], array[j]] = [array[j], array[i]]; } }
 
         // --- JSON Loading Logic ---
@@ -659,7 +609,9 @@
         function loadQuizFromJson(jsonFilePath, quizName) {
             console.log(`[Fetch] Requesting ${quizName} from ${jsonFilePath}`); hideError();
             statusMessage.textContent = `Đang tải "${quizName}"...`; quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = true); shuffleCheckbox.disabled = true;
-            originalQuizData = []; quizData = []; score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false;
+            // Clear previous quiz state before loading new
+            originalQuizData = []; quizData = []; score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
+
             currentFileName = quizName; quizTitleElement.textContent = quizName; quizTitleElement.classList.remove('hidden');
             const cacheBuster = `?t=${new Date().getTime()}`;
             fetch(jsonFilePath + cacheBuster)
@@ -679,24 +631,20 @@
                  if (shuffleCheckbox.checked) { console.log("[Prep] Shuffling..."); shuffleArray(quizData); }
                  statusMessage.textContent = `Đã tải: ${currentFileName} (${quizData.length} câu)`;
                  usageDetails.classList.add('hidden'); selectSection.classList.add('hidden'); selectSection.style.display = 'none';
-                 startQuiz(); // Start the quiz UI
-                 saveState(); // Save the initial state right after starting
+                 startQuiz(); // Start UI
+                 saveState(); // Save initial state after starting
 
              } catch (error) { console.error("[Processing Error]", error); showError(`Lỗi xử lý dữ liệu: ${error.message}.`); showSelectScreen(); }
          }
 
         // --- Quiz Start and Display Functions ---
-        function startQuiz(wasShuffledOrRestarted = false) { // Renamed param for clarity
+        function startQuiz(wasShuffledOrRestarted = false) {
             console.log("[Mode] Starting Quiz");
              // Reset progress only if explicitly told to (restarting/shuffling)
-             // Loading state is handled before this in DOMContentLoaded/restoreSavedSession
              if (wasShuffledOrRestarted) {
                  currentQuestionIndex = 0; score = 0; userAnswers = {}; questionsAnswered = {}; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
                  console.log("[Mode] State reset for restart/shuffle.");
-             } else {
-                  console.log("[Mode] Continuing quiz from existing or newly loaded state.");
              }
-
             clearAutoAdvanceTimer(); hideError(); updateTimerDisplayAndControls();
             jumpToInput.max = (quizData && quizData.length > 0) ? quizData.length : 1; jumpToInput.value = ''; jumpLabel.textContent = "Đến câu:";
              usageDetails.classList.add('hidden'); selectSection.classList.add('hidden'); selectSection.style.display = 'none';
@@ -705,7 +653,7 @@
             settingsBtn.disabled = false; settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
             quizTitleElement.textContent = currentFileName; quizTitleElement.classList.remove('hidden');
             displayQuestion(currentQuestionIndex);
-            // Initial state is saved after processQuizData or restartQuiz
+            // Initial state is saved after processQuizData or restartQuiz calls this
         }
         function displayQuestion(index) {
              currentQuestionIndex = index;
@@ -752,7 +700,18 @@
 
         // --- Results/Restart/Review Functions ---
         function showResults() {
-            console.log("[Mode] Showing Results"); isReviewMode = false; reviewWrongOnly = false; clearAutoAdvanceTimer();
+            console.log("[Mode] Showing Results");
+
+            // --- Trigger Confetti ---
+            if (!isReviewMode) { // Only fire when finishing quiz, not exiting review
+                console.log("[Effect] Triggering confetti!");
+                if (typeof confetti === 'function') {
+                     confetti({ particleCount: 150, spread: 90, origin: { y: 0.6 }, zIndex: 1050 });
+                } else { console.warn("[Effect] Confetti function not found."); }
+            }
+            // --- End Confetti Trigger ---
+
+            isReviewMode = false; reviewWrongOnly = false; clearAutoAdvanceTimer();
             quizSection.classList.add('hidden'); quizSection.style.display = 'none'; resultsSection.classList.remove('hidden'); resultsSection.style.display = 'block';
             finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length}`; quizTitleElement.textContent = currentFileName; quizTitleElement.classList.remove('hidden');
             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
@@ -760,13 +719,9 @@
         }
         function restartQuiz(wasShuffled = false) {
              if (!quizData || quizData.length === 0) { showSelectScreen(); return; } console.log(`[Action] Restarting quiz: ${currentFileName}`);
-             // Reset progress state
              score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
-             // Handle data order
              if (!wasShuffled) { quizData = [...originalQuizData]; if (shuffleCheckbox.checked) { console.log("[Action] Re-shuffling for restart."); shuffleArray(quizData); } }
-             // Else: quizData already shuffled by handleShuffleNow
-             startQuiz(true); // Start UI, indicate state was reset
-             saveState(); // Save the fresh state
+             startQuiz(true); saveState();
          }
         function startReviewMode() {
              if (!quizData || quizData.length === 0 || Object.keys(userAnswers).length === 0) { alert("Chưa có gì để xem lại!"); return; }
@@ -776,16 +731,14 @@
              isReviewMode = true; reviewWrongOnly = false; currentQuestionIndex = 0; currentWrongAnswerReviewIndex = 0;
              clearAutoAdvanceTimer(); updateTimerDisplayAndControls();
              resultsSection.classList.add('hidden'); resultsSection.style.display = 'none'; quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
-             displayQuestion(currentQuestionIndex);
-             saveState(); // Save state upon entering review
+             displayQuestion(currentQuestionIndex); saveState();
         }
         function exitReviewMode() { console.log("[Mode] Exiting Review"); isReviewMode = false; reviewWrongOnly = false; showResults(); /* Calls saveState */ }
         function toggleReviewFilter() {
              if (!isReviewMode) return; reviewWrongOnly = !reviewWrongOnly;
              if (reviewWrongOnly) { console.log("[Filter] Wrong Only ON."); if (wrongAnswerIndices.length === 0) { alert("Chúc mừng! Tất cả đều đúng."); reviewWrongOnly = false; toggleFilterBtn.classList.remove('filter-active'); return; } currentWrongAnswerReviewIndex = 0; currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; }
              else { console.log("[Filter] Wrong Only OFF."); }
-             displayQuestion(currentQuestionIndex);
-             saveState(); // Save state after toggling filter
+             displayQuestion(currentQuestionIndex); saveState();
          }
 
         // --- Utility Functions ---
@@ -795,18 +748,14 @@
         function showSelectScreen(preventClear = false) {
              console.log("[UI] Show Select Screen" + (preventClear ? " (no state clear)" : ""));
              if (!preventClear) { clearState(); } // Clear state ONLY if called by user action
-             // Reset state variables fully
              originalQuizData = []; quizData = []; currentFileName = ""; score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
              clearAutoAdvanceTimer(); hideError();
-             // Reset UI visibility
              quizSection.classList.add('hidden'); quizSection.style.display = 'none'; resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
              usageDetails.classList.remove('hidden'); // Show usage on select screen
              quizTitleElement.textContent = ''; quizTitleElement.classList.add('hidden');
              selectSection.classList.remove('hidden'); selectSection.style.display = 'block'; shuffleCheckbox.disabled = false;
-             // Clear/reset controls
              quizFileListContainer.innerHTML = '<p>Đang tải danh sách...</p>'; statusMessage.textContent = ""; errorMessage.textContent = ''; errorMessage.classList.add('hidden');
              settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
-             // Load the manifest
              loadQuizManifest();
          }
 
