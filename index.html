@@ -104,10 +104,10 @@
          #settings-btn { background: none; border: none; font-size: 1.6em; cursor: pointer; padding: 0 5px; line-height: 1; color: var(--text-color); order: 5; transition: opacity 0.2s ease; }
          #settings-btn:disabled { opacity: 0.5; cursor: not-allowed; }
          #settings-btn::after { content: var(--settings-icon); }
-         /* Adjusted Settings Menu Position */
+         /* Adjusted Settings Menu Position - REMOVED 'top' */
          #settings-menu {
              display: none; position: absolute;
-             top: 50px; /* Adjusted top position */
+             /* top is set dynamically by JS */
              right: var(--app-padding-mobile);
              background-color: var(--menu-bg); border: 1px solid var(--menu-border);
              border-radius: 6px; padding: 15px; box-shadow: 0 4px 12px var(--shadow-color);
@@ -158,8 +158,8 @@
          #shuffle-now-btn:hover:not(:disabled) { filter: brightness(1.1); }
          #reload-original-btn { background-color: var(--secondary-color); color: white; }
          #reload-original-btn:hover:not(:disabled) { filter: brightness(1.1); }
-         #back-to-select-quiz-btn { background-color: var(--secondary-color); } /* Added button style */
-         #back-to-select-quiz-btn:hover:not(:disabled) { filter: brightness(1.1); } /* Added button style */
+         #back-to-select-quiz-btn { background-color: var(--secondary-color); }
+         #back-to-select-quiz-btn:hover:not(:disabled) { filter: brightness(1.1); }
 
          /* --- RESULTS SECTION --- */
          #results-section { display: none; text-align: center; padding: 30px var(--app-padding-mobile); background-color: var(--bg-color); border-radius: 8px; border: 1px solid var(--card-border-color); transition: background-color 0.3s ease, border-color 0.3s ease; }
@@ -224,10 +224,10 @@
              #question-text { font-size: 1.1em; }
              .answer-btn { font-size: 0.9em; }
              .nav-btn { font-size: 0.85em; padding: 8px 12px; }
-             /* Adjusted Settings Menu Position (Mobile) */
+             /* Adjusted Settings Menu Position (Mobile) - REMOVED 'top' */
              #settings-menu {
                  right: 5px;
-                 top: 45px; /* Adjusted mobile top position */
+                 /* top is set dynamically by JS */
              }
              #results-controls {
                  flex-direction: column; gap: 10px; align-items: center;
@@ -251,7 +251,7 @@
             <summary>Hướng dẫn sử dụng</summary>
              <div>
                  <ol>
-                     <li>Chọn một bộ câu hỏi từ danh sách bên dưới.</li>
+                     <li>Chọn một bộ câu hỏi từ danh sách bên dưới (tên bộ câu hỏi lấy từ tên file Excel gốc).</li>
                      <li>(Tùy chọn) Tick "Xáo trộn" <i>trước khi</i> chọn bộ câu hỏi để câu hỏi hiện ngẫu nhiên.</li>
                      <li>Quiz sẽ bắt đầu sau khi dữ liệu được tải.</li>
                      <li>Trả lời bằng cách nhấn vào đáp án.</li>
@@ -259,7 +259,6 @@
                      <li>Nhấn biểu tượng ⚙️ để chỉnh tốc độ tự chuyển câu hoặc đổi giao diện Sáng/Tối.</li>
                      <li>Khi hoàn thành, xem kết quả và có thể làm lại (bộ câu hỏi hiện tại), xem lại bài làm, hoặc quay lại chọn bộ câu hỏi khác.</li>
                  </ol>
-                 <!-- Excel Format Details -->
              </div>
         </details>
 
@@ -311,17 +310,17 @@
             </div>
             <div id="source" class="hidden">...</div>
             <div id="navigation">
-                <div id="nav-controls" class="hidden">
+                <div id="nav-controls" class="hidden"> <!-- Contains buttons for during quiz -->
                     <button id="restart-practice-btn" class="nav-btn">Làm lại</button>
                     <button id="shuffle-now-btn" class="nav-btn">Xáo trộn</button>
                     <button id="reload-original-btn" class="nav-btn">Thứ tự gốc</button>
-                    <button id="back-to-select-quiz-btn" class="nav-btn">Chọn bộ khác</button> <!-- Added Button -->
+                    <button id="back-to-select-quiz-btn" class="nav-btn">Chọn bộ khác</button> <!-- Back to selection -->
                 </div>
-                <div id="review-controls" class="hidden">
+                <div id="review-controls" class="hidden"> <!-- Contains buttons for review mode -->
                     <button id="exit-review-btn" class="nav-btn">Thoát xem lại</button>
                     <button id="toggle-filter-btn" class="nav-btn">Chỉ xem câu sai</button>
                 </div>
-                <div id="nav-prev-next">
+                <div id="nav-prev-next"> <!-- Contains Prev/Next buttons -->
                     <button id="prev-btn" class="nav-btn">Câu trước</button>
                     <button id="next-btn" class="nav-btn">Câu sau</button>
                 </div>
@@ -370,7 +369,7 @@
         const finalScoreText = document.getElementById('final-score');
         const restartBtn = document.getElementById('restart-btn');
         const reviewBtn = document.getElementById('review-btn');
-        const backToSelectBtn = document.getElementById('back-to-select-btn');
+        const backToSelectBtn = document.getElementById('back-to-select-btn'); // From results screen
         const errorMessage = document.getElementById('error-message');
         const jumpNav = document.getElementById('jump-nav');
         const jumpLabel = document.getElementById('jump-label');
@@ -408,8 +407,50 @@
         function updateThemeToggleButton() { /* Icon handled by CSS */ }
 
         // --- SETTINGS MENU FUNCTIONS ---
-        function toggleSettingsMenu() { settingsMenu.classList.toggle('menu-active'); settingsMenu.classList.toggle('hidden'); }
-        document.addEventListener('click', function(event) { if (settingsMenu.classList.contains('menu-active') && !settingsMenu.contains(event.target) && !settingsBtn.contains(event.target)) { settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); } });
+        function toggleSettingsMenu() {
+            settingsMenu.classList.toggle('menu-active');
+            settingsMenu.classList.toggle('hidden');
+
+            if (settingsMenu.classList.contains('menu-active')) {
+                // Calculate position dynamically when showing the menu
+                try {
+                    const btnRect = settingsBtn.getBoundingClientRect();
+                    const appRect = document.getElementById('app').getBoundingClientRect(); // Get app container bounds
+
+                    // Calculate the desired top position for the menu:
+                    // (button's top relative to viewport - app's top relative to viewport) = button's top relative to app
+                    // Add the button's height to position below it
+                    // Add a small gap (e.g., 5px)
+                    const menuTop = (btnRect.top - appRect.top) + btnRect.height + 5; // 5px gap below button
+
+                    settingsMenu.style.top = `${menuTop}px`;
+
+                    // Optional: Prevent menu going off-screen vertically (basic example)
+                    const menuRect = settingsMenu.getBoundingClientRect();
+                    if (menuRect.bottom > window.innerHeight) {
+                         // If menu bottom is below viewport, adjust top
+                         const newTop = menuTop - (menuRect.bottom - window.innerHeight) - 10; // Move up slightly more than needed
+                         settingsMenu.style.top = `${Math.max(0, newTop)}px`; // Ensure it doesn't go above app top
+                    }
+
+                } catch (e) {
+                    console.error("Error calculating menu position:", e);
+                    // Fallback positioning if calculation fails? Or just rely on default flow?
+                    // settingsMenu.style.top = '60px'; // Simple fallback
+                }
+            }
+             // No need to reset 'top' when hiding, as it's recalculated on show
+        }
+        // Listener to close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (settingsMenu.classList.contains('menu-active') &&
+                !settingsMenu.contains(event.target) &&
+                !settingsBtn.contains(event.target))
+            {
+                settingsMenu.classList.remove('menu-active');
+                settingsMenu.classList.add('hidden');
+            }
+        });
 
         // --- Event Listeners ---
         settingsBtn.addEventListener('click', toggleSettingsMenu);
@@ -419,10 +460,10 @@
         restartPracticeBtn.addEventListener('click', restartQuiz);
         shuffleNowBtn.addEventListener('click', handleShuffleNow);
         reloadOriginalBtn.addEventListener('click', handleReloadOriginal);
-        backToSelectQuizBtn.addEventListener('click', showSelectScreen); // Added listener
+        backToSelectQuizBtn.addEventListener('click', showSelectScreen); // Added listener for quiz screen button
         restartBtn.addEventListener('click', restartQuiz);
         reviewBtn.addEventListener('click', startReviewMode);
-        backToSelectBtn.addEventListener('click', showSelectScreen); // Existing listener on results screen
+        backToSelectBtn.addEventListener('click', showSelectScreen); // Listener for results screen button
         exitReviewBtn.addEventListener('click', exitReviewMode);
         toggleFilterBtn.addEventListener('click', toggleReviewFilter);
         jumpToBtn.addEventListener('click', handleJumpToQuestion);
@@ -432,9 +473,9 @@
         timerIncreaseBtn.addEventListener('click', increaseTimer);
 
         // --- Core Quiz Functions ---
-        // decreaseTimer, increaseTimer, updateTimerDisplayAndControls, clearAutoAdvanceTimer
-        // navigatePrevious, navigateNext, handleJumpToQuestion
-        // handleShuffleNow, handleReloadOriginal, shuffleArray remain unchanged
+        // (decreaseTimer, increaseTimer, updateTimerDisplayAndControls, clearAutoAdvanceTimer,
+        // navigatePrevious, navigateNext, handleJumpToQuestion, handleShuffleNow,
+        // handleReloadOriginal, shuffleArray remain unchanged)
         function decreaseTimer() { if (!isReviewMode && autoAdvanceDuration > MIN_TIMER) { autoAdvanceDuration -= TIMER_STEP; updateTimerDisplayAndControls(); } }
         function increaseTimer() { if (!isReviewMode && autoAdvanceDuration < MAX_TIMER) { autoAdvanceDuration += TIMER_STEP; updateTimerDisplayAndControls(); } }
         function updateTimerDisplayAndControls() { timerDurationDisplay.textContent = (autoAdvanceDuration / 1000).toFixed(1) + 's'; timerDecreaseBtn.disabled = isReviewMode || autoAdvanceDuration <= MIN_TIMER; timerIncreaseBtn.disabled = isReviewMode || autoAdvanceDuration >= MAX_TIMER; timerBar.style.setProperty('--timer-duration', autoAdvanceDuration + 'ms'); }
@@ -448,8 +489,8 @@
 
 
         // --- JSON Loading Logic ---
-        // loadQuizManifest, displayQuizOptions, loadQuizFromJson remain unchanged
-        function loadQuizManifest() {
+        // (loadQuizManifest, displayQuizOptions, loadQuizFromJson remain unchanged)
+         function loadQuizManifest() {
             console.log(`[Manifest] Fetching quiz manifest from ${MANIFEST_PATH}...`);
             hideError();
             quizFileListContainer.innerHTML = '<p>Đang tải danh sách bộ câu hỏi...</p>';
@@ -534,7 +575,7 @@
 
 
         // --- Data Processing and Quiz Start ---
-        // processQuizData remains unchanged
+        // (processQuizData remains unchanged)
         function processQuizData(jsonData) {
              console.log(`[Processing] Processing ${jsonData.length} questions from JSON for "${currentFileName}".`);
              try {
@@ -565,9 +606,8 @@
              }
          }
 
-
         // --- Quiz Start and Display Functions ---
-        // startQuiz remains unchanged
+        // (startQuiz remains unchanged)
         function startQuiz() {
             console.log("[Mode] Starting Quiz (Normal Mode)");
             isReviewMode = false; reviewWrongOnly = false;
@@ -581,14 +621,14 @@
             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
             quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
 
-            navControls.classList.remove('hidden'); // Show quiz nav controls (includes new back button)
-            reviewControls.classList.add('hidden');
+            navControls.classList.remove('hidden'); // Show quiz nav controls
+            reviewControls.classList.add('hidden'); // Hide review controls
             settingsBtn.disabled = false; settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
 
             displayQuestion(currentQuestionIndex);
         }
 
-        // displayQuestion remains unchanged
+        // (displayQuestion remains unchanged)
         function displayQuestion(index) {
              currentQuestionIndex = index;
              if (index < 0 || index >= quizData.length || !quizData[index]) {
@@ -633,16 +673,16 @@
 
              if (isReviewMode) {
                  answersContainer.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
-                 navControls.classList.add('hidden'); // Hide normal controls in review
-                 reviewControls.classList.remove('hidden'); // Show review controls
+                 navControls.classList.add('hidden');
+                 reviewControls.classList.remove('hidden');
                  settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
                  clearAutoAdvanceTimer(); timerBar.classList.remove('timer-active');
                  toggleFilterBtn.textContent = reviewWrongOnly ? "Xem tất cả câu" : "Chỉ xem câu sai";
                  toggleFilterBtn.classList.toggle('filter-active', reviewWrongOnly);
                  toggleFilterBtn.disabled = wrongAnswerIndices.length === 0 && !reviewWrongOnly;
              } else {
-                 navControls.classList.remove('hidden'); // Show normal controls during quiz
-                 reviewControls.classList.add('hidden'); // Hide review controls
+                 navControls.classList.remove('hidden');
+                 reviewControls.classList.add('hidden');
                  settingsBtn.disabled = false; settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
                  updateTimerDisplayAndControls();
              }
@@ -658,10 +698,10 @@
                   nextBtn.textContent = (isLastQuestion && !isReviewMode) ? 'Hoàn thành' : 'Câu sau';
                   nextBtn.disabled = (!isReviewMode && !isAnswered) || (isReviewMode && isLastQuestion);
               }
-             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
+             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); // Ensure menu is closed on question change
         }
 
-        // restoreAnswerState remains unchanged
+        // (restoreAnswerState remains unchanged)
         function restoreAnswerState(questionIndex) {
             const userAnswerIndex = userAnswers[questionIndex];
             const buttons = answersContainer.querySelectorAll('.answer-btn');
@@ -691,7 +731,7 @@
             }
         }
 
-        // handleAnswerSelection remains unchanged
+        // (handleAnswerSelection remains unchanged)
         function handleAnswerSelection(selectedButton) {
              if (isReviewMode || questionsAnswered[currentQuestionIndex]) return;
              clearAutoAdvanceTimer();
@@ -728,7 +768,7 @@
 
 
         // --- Results/Restart/Review Functions ---
-        // showResults remains unchanged
+        // (showResults, restartQuiz, startReviewMode, exitReviewMode, toggleReviewFilter remain unchanged)
         function showResults() {
             console.log("[Mode] Showing Results");
             isReviewMode = false; reviewWrongOnly = false;
@@ -739,8 +779,6 @@
             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
             settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
         }
-
-        // restartQuiz remains unchanged
         function restartQuiz() {
             if (!quizData || quizData.length === 0) { showSelectScreen(); return; }
             console.log(`[Action] Restarting quiz: ${currentFileName}`);
@@ -748,8 +786,6 @@
             if (shuffleCheckbox.checked) { shuffleArray(quizData); }
             startQuiz();
         }
-
-        // startReviewMode remains unchanged
         function startReviewMode() {
              if (!quizData || quizData.length === 0) return;
              console.log("[Mode] Entering Review Mode");
@@ -771,16 +807,12 @@
 
              displayQuestion(currentQuestionIndex);
         }
-
-        // exitReviewMode remains unchanged
         function exitReviewMode() {
             console.log("[Mode] Exiting Review Mode");
             isReviewMode = false; reviewWrongOnly = false;
             currentWrongAnswerReviewIndex = 0;
             showResults();
         }
-
-        // toggleReviewFilter remains unchanged
         function toggleReviewFilter() {
              if (!isReviewMode) return;
              reviewWrongOnly = !reviewWrongOnly;
@@ -795,11 +827,11 @@
 
 
         // --- Utility Functions ---
-        // showError, hideError remain unchanged
+        // (showError, hideError remain unchanged)
         function showError(message) { console.error("[UI Error]", message); errorMessage.textContent = message; errorMessage.classList.remove('hidden'); }
         function hideError() { errorMessage.textContent = ''; errorMessage.classList.add('hidden'); }
 
-        // showSelectScreen updated to reset UI state fully
+        // (showSelectScreen updated to ensure clean state)
         function showSelectScreen() {
             console.log("[UI Update] Returning to Select Screen");
             // Reset state variables
@@ -810,7 +842,7 @@
             // Reset UI sections
             quizSection.classList.add('hidden'); quizSection.style.display = 'none';
             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
-            usageDetails.classList.remove('hidden');
+            usageDetails.classList.remove('hidden'); // Show usage details again
 
             // Hide and clear the quiz title
             quizTitleElement.textContent = '';
@@ -821,8 +853,12 @@
             shuffleCheckbox.disabled = false;
             quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
 
-            // Reset other UI elements if needed (e.g., status message)
-            statusMessage.textContent = ""; // Clear any loading messages
+            // Reset other UI elements
+            statusMessage.textContent = ""; // Clear any loading/status messages
+            errorMessage.textContent = ''; // Clear any previous error messages
+            errorMessage.classList.add('hidden');
+            settingsMenu.classList.remove('menu-active'); // Ensure settings menu is closed
+            settingsMenu.classList.add('hidden');
 
             // Re-load the manifest to show quiz options
             loadQuizManifest();
