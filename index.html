@@ -104,10 +104,9 @@
          #settings-btn { background: none; border: none; font-size: 1.6em; cursor: pointer; padding: 0 5px; line-height: 1; color: var(--text-color); order: 5; transition: opacity 0.2s ease; }
          #settings-btn:disabled { opacity: 0.5; cursor: not-allowed; }
          #settings-btn::after { content: var(--settings-icon); }
-         /* Adjusted Settings Menu Position - REMOVED 'top' */
+         /* Settings Menu Position - 'top' removed, handled by JS */
          #settings-menu {
              display: none; position: absolute;
-             /* top is set dynamically by JS */
              right: var(--app-padding-mobile);
              background-color: var(--menu-bg); border: 1px solid var(--menu-border);
              border-radius: 6px; padding: 15px; box-shadow: 0 4px 12px var(--shadow-color);
@@ -177,64 +176,125 @@
          #error-message { color: var(--danger-color); margin-top: 15px; font-weight: bold; padding: 0 var(--app-padding-mobile); min-height: 1.2em; }
          .hidden { display: none !important; }
 
+        /* --- Resume Confirmation Modal Styles --- */
+        #resume-modal-overlay {
+            position: fixed; /* Sit on top of the page content */
+            inset: 0; /* Cover the entire viewport */
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000; /* High z-index to be on top */
+            opacity: 0; /* Start hidden */
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0s linear 0.3s; /* Fade transition */
+        }
+        #resume-modal-overlay:not(.hidden) {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.3s ease, visibility 0s linear 0s;
+        }
+
+        #resume-modal {
+            background-color: var(--card-bg-color);
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px var(--shadow-color);
+            text-align: center;
+            max-width: 90%; /* Responsive width */
+            width: 400px; /* Max width on larger screens */
+            border: 1px solid var(--card-border-color);
+            transform: scale(0.95); /* Start slightly scaled down */
+            transition: transform 0.3s ease;
+        }
+         #resume-modal-overlay:not(.hidden) #resume-modal {
+            transform: scale(1); /* Scale up when visible */
+        }
+
+
+        #resume-modal h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        #resume-modal p {
+            color: var(--text-color);
+            margin-bottom: 25px;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        #resume-modal-buttons {
+            display: flex;
+            justify-content: center; /* Center buttons */
+            gap: 15px; /* Space between buttons */
+        }
+
+        .modal-btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1em;
+            cursor: pointer;
+            transition: filter 0.2s ease, background-color 0.2s ease;
+            min-width: 120px;
+        }
+        .modal-btn:hover {
+            filter: brightness(1.1);
+        }
+         .modal-btn.primary {
+             background-color: var(--primary-color);
+             color: white;
+         }
+          body.dark-theme .modal-btn.primary {
+               /* Keep primary button color consistent, text color changes */
+               color: #121212; /* Example dark text for contrast */
+          }
+           body.dark-theme .modal-btn.primary:hover {
+               color: #121212;
+          }
+
+         .modal-btn.secondary {
+             background-color: var(--secondary-color);
+             color: white;
+         }
+          body.dark-theme .modal-btn.secondary {
+              /* Keep secondary button color consistent */
+              color: white;
+          }
+         /* --- End Modal Styles --- */
+
          /* --- RESPONSIVE DESIGN (Standard CSS Media Query) --- */
          @media (max-width: 700px) {
-             body {
-                 padding: 0;
-             }
-             #app {
-                 padding: 0; box-shadow: none; border-radius: 0; max-width: 100%; border: none;
-             }
+             body { padding: 0; }
+             #app { padding: 0; box-shadow: none; border-radius: 0; max-width: 100%; border: none; }
              h1 { font-size: 1.6em; }
              h2 { font-size: 1.4em; }
-             #quiz-title {
-                 font-size: 1em; margin-bottom: 1em;
-                 padding: 0 var(--app-padding-mobile);
-            }
-             #usage-details {
-                 border-radius: 0; border-left: none; border-right: none; margin-bottom: 10px;
-             }
-             #select-section {
-                 padding: 20px var(--app-padding-mobile); margin-bottom: 15px; border-radius: 0; border-left: none; border-right: none;
-             }
-             #auto-advance-timer-bar {
-                 margin-left: 0; margin-right: 0; border-radius: 0;
-             }
-             #quiz-header {
-                 padding: 10px var(--app-padding-mobile); margin-top: 10px; margin-bottom: 10px; justify-content: space-between;
-             }
-             #question-container {
-                 padding: 15px var(--app-padding-mobile); margin-left: 0; margin-right: 0; border-radius: 0; border-left: none; border-right: none; margin-bottom: 15px;
-             }
-             #source {
-                 margin-left: 0; margin-right: 0; padding-left: var(--app-padding-mobile); padding-right: var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none;
-             }
-             #navigation {
-                 padding: 15px var(--app-padding-mobile) 10px; justify-content: center;
-             }
-             #nav-controls, #review-controls {
-                 order: -1; margin-right: 0; width: 100%; justify-content: center; margin-bottom: 10px;
-             }
-             #nav-prev-next {
-                 margin-left: 0; width: 100%; justify-content: space-between;
-             }
-             #results-section {
-                 padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none;
-             }
+             #quiz-title { font-size: 1em; margin-bottom: 1em; padding: 0 var(--app-padding-mobile); }
+             #usage-details { border-radius: 0; border-left: none; border-right: none; margin-bottom: 10px; }
+             #select-section { padding: 20px var(--app-padding-mobile); margin-bottom: 15px; border-radius: 0; border-left: none; border-right: none; }
+             #auto-advance-timer-bar { margin-left: 0; margin-right: 0; border-radius: 0; }
+             #quiz-header { padding: 10px var(--app-padding-mobile); margin-top: 10px; margin-bottom: 10px; justify-content: space-between; }
+             #question-container { padding: 15px var(--app-padding-mobile); margin-left: 0; margin-right: 0; border-radius: 0; border-left: none; border-right: none; margin-bottom: 15px; }
+             #source { margin-left: 0; margin-right: 0; padding-left: var(--app-padding-mobile); padding-right: var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
+             #navigation { padding: 15px var(--app-padding-mobile) 10px; justify-content: center; }
+             #nav-controls, #review-controls { order: -1; margin-right: 0; width: 100%; justify-content: center; margin-bottom: 10px; }
+             #nav-prev-next { margin-left: 0; width: 100%; justify-content: space-between; }
+             #results-section { padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
              #question-text { font-size: 1.1em; }
              .answer-btn { font-size: 0.9em; }
              .nav-btn { font-size: 0.85em; padding: 8px 12px; }
-             /* Adjusted Settings Menu Position (Mobile) - REMOVED 'top' */
-             #settings-menu {
-                 right: 5px;
-                 /* top is set dynamically by JS */
-             }
-             #results-controls {
-                 flex-direction: column; gap: 10px; align-items: center;
-             }
-             #restart-btn, #review-btn, #back-to-select-btn {
-                 width: 80%; max-width: 300px;
-             }
+             /* Settings Menu Position (Mobile) - 'top' removed, handled by JS */
+             #settings-menu { right: 5px; }
+             #results-controls { flex-direction: column; gap: 10px; align-items: center; }
+             #restart-btn, #review-btn, #back-to-select-btn { width: 80%; max-width: 300px; }
+             /* Modal on mobile */
+             #resume-modal { width: 90%; padding: 20px; }
+             #resume-modal h3 { font-size: 1.2em; }
+             #resume-modal p { font-size: 0.95em; }
+             .modal-btn { font-size: 0.9em; padding: 8px 15px; min-width: 100px; }
          }
          /* --- End of Media Query --- */
 
@@ -248,10 +308,10 @@
 
         <!-- How to Use Section -->
         <details id="usage-details" open>
-            <summary>Hướng dẫn sử dụng</summary>
+             <summary>Hướng dẫn sử dụng</summary>
              <div>
                  <ol>
-                     <li>Chọn một bộ câu hỏi từ danh sách bên dưới (tên bộ câu hỏi lấy từ tên file Excel gốc).</li>
+                     <li>Chọn một bộ câu hỏi từ danh sách bên dưới.</li>
                      <li>(Tùy chọn) Tick "Xáo trộn" <i>trước khi</i> chọn bộ câu hỏi để câu hỏi hiện ngẫu nhiên.</li>
                      <li>Quiz sẽ bắt đầu sau khi dữ liệu được tải.</li>
                      <li>Trả lời bằng cách nhấn vào đáp án.</li>
@@ -290,7 +350,6 @@
                  <button id="settings-btn" title="Cài đặt"></button>
             </div>
              <div id="settings-menu" class="hidden">
-                <!-- Settings Items -->
                 <div class="settings-item">
                     <label>Tự chuyển (giây):</label>
                     <div id="timer-control">
@@ -310,17 +369,17 @@
             </div>
             <div id="source" class="hidden">...</div>
             <div id="navigation">
-                <div id="nav-controls" class="hidden"> <!-- Contains buttons for during quiz -->
+                <div id="nav-controls" class="hidden">
                     <button id="restart-practice-btn" class="nav-btn">Làm lại</button>
                     <button id="shuffle-now-btn" class="nav-btn">Xáo trộn</button>
                     <button id="reload-original-btn" class="nav-btn">Thứ tự gốc</button>
-                    <button id="back-to-select-quiz-btn" class="nav-btn">Chọn bộ khác</button> <!-- Back to selection -->
+                    <button id="back-to-select-quiz-btn" class="nav-btn">Chọn bộ khác</button>
                 </div>
-                <div id="review-controls" class="hidden"> <!-- Contains buttons for review mode -->
+                <div id="review-controls" class="hidden">
                     <button id="exit-review-btn" class="nav-btn">Thoát xem lại</button>
                     <button id="toggle-filter-btn" class="nav-btn">Chỉ xem câu sai</button>
                 </div>
-                <div id="nav-prev-next"> <!-- Contains Prev/Next buttons -->
+                <div id="nav-prev-next">
                     <button id="prev-btn" class="nav-btn">Câu trước</button>
                     <button id="next-btn" class="nav-btn">Câu sau</button>
                 </div>
@@ -337,7 +396,21 @@
                 <button id="back-to-select-btn">Chọn bộ câu hỏi khác</button>
             </div>
         </div>
-    </div>
+
+        <!-- Resume Confirmation Modal -->
+        <div id="resume-modal-overlay" class="hidden">
+            <div id="resume-modal">
+                <h3 id="resume-modal-title">Tiếp tục phiên làm việc?</h3>
+                <p id="resume-modal-text">Bạn có muốn tiếp tục bài làm dở dang?</p>
+                <div id="resume-modal-buttons">
+                    <button id="resume-btn-yes" class="modal-btn primary">Tiếp tục</button>
+                    <button id="resume-btn-no" class="modal-btn secondary">Bắt đầu mới</button>
+                </div>
+            </div>
+        </div>
+        <!-- End Resume Confirmation Modal -->
+
+    </div> <!-- End of #app -->
 
     <script>
         // --- DOM Element References ---
@@ -363,13 +436,13 @@
         const restartPracticeBtn = document.getElementById('restart-practice-btn');
         const shuffleNowBtn = document.getElementById('shuffle-now-btn');
         const reloadOriginalBtn = document.getElementById('reload-original-btn');
-        const backToSelectQuizBtn = document.getElementById('back-to-select-quiz-btn'); // Added reference
+        const backToSelectQuizBtn = document.getElementById('back-to-select-quiz-btn');
         const exitReviewBtn = document.getElementById('exit-review-btn');
         const toggleFilterBtn = document.getElementById('toggle-filter-btn');
         const finalScoreText = document.getElementById('final-score');
         const restartBtn = document.getElementById('restart-btn');
         const reviewBtn = document.getElementById('review-btn');
-        const backToSelectBtn = document.getElementById('back-to-select-btn'); // From results screen
+        const backToSelectBtn = document.getElementById('back-to-select-btn');
         const errorMessage = document.getElementById('error-message');
         const jumpNav = document.getElementById('jump-nav');
         const jumpLabel = document.getElementById('jump-label');
@@ -381,25 +454,89 @@
         const settingsBtn = document.getElementById('settings-btn');
         const settingsMenu = document.getElementById('settings-menu');
         const themeToggleButton = document.getElementById('theme-toggle-btn');
+        // Modal references
+        const resumeModalOverlay = document.getElementById('resume-modal-overlay');
+        const resumeModalText = document.getElementById('resume-modal-text');
+        const resumeBtnYes = document.getElementById('resume-btn-yes');
+        const resumeBtnNo = document.getElementById('resume-btn-no');
+
 
         // --- Quiz State Variables ---
-        let originalQuizData = [];
-        let quizData = [];
-        let currentQuestionIndex = 0;
-        let score = 0;
-        let userAnswers = {};
-        let questionsAnswered = {};
-        let autoAdvanceTimer = null;
-        let autoAdvanceDuration = 500;
-        const TIMER_STEP = 100;
-        const MIN_TIMER = 500;
-        const MAX_TIMER = 2000;
-        let isReviewMode = false;
-        let reviewWrongOnly = false;
-        let wrongAnswerIndices = [];
-        let currentWrongAnswerReviewIndex = 0;
+        let originalQuizData = []; let quizData = []; let currentQuestionIndex = 0;
+        let score = 0; let userAnswers = {}; let questionsAnswered = {};
+        let autoAdvanceTimer = null; let autoAdvanceDuration = 500;
+        const TIMER_STEP = 100; const MIN_TIMER = 500; const MAX_TIMER = 5000;
+        let isReviewMode = false; let reviewWrongOnly = false;
+        let wrongAnswerIndices = []; let currentWrongAnswerReviewIndex = 0;
         let currentFileName = "";
         const MANIFEST_PATH = 'data/quiz_manifest.json';
+
+        // --- State Persistence ---
+        const STORAGE_KEY = 'quizAppState';
+
+        function saveState() {
+            let currentView = 'select';
+             if (quizSection.classList.contains('hidden') === false) { currentView = 'quiz'; }
+             else if (resultsSection.classList.contains('hidden') === false) { currentView = 'results'; }
+             else if (selectSection.classList.contains('hidden') === false) { currentView = 'select'; }
+
+            if (currentView === 'select') {
+                if (localStorage.getItem(STORAGE_KEY)) { clearState(); }
+                return;
+            }
+
+            const state = { view: currentView, quizName: currentFileName, originalQuizData: originalQuizData, quizData: quizData, currentQuestionIndex: currentQuestionIndex, userAnswers: userAnswers, questionsAnswered: questionsAnswered, score: score, isReviewMode: isReviewMode, reviewWrongOnly: reviewWrongOnly, wrongAnswerIndices: wrongAnswerIndices, currentWrongAnswerReviewIndex: currentWrongAnswerReviewIndex, autoAdvanceDuration: autoAdvanceDuration, shuffleChecked: shuffleCheckbox.checked };
+            try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); console.log("[State] Saved state:", currentView, "Quiz:", currentFileName || 'N/A', "Q:", (currentQuestionIndex + 1) || '?'); }
+            catch (e) { console.error("[State] Error saving state:", e); }
+        }
+
+        function loadState() {
+            try {
+                const savedStateJSON = localStorage.getItem(STORAGE_KEY);
+                if (!savedStateJSON) return null;
+                const savedState = JSON.parse(savedStateJSON);
+                if (!savedState || typeof savedState.view !== 'string' || (savedState.view !== 'select' && !savedState.quizName)) { console.warn("[State] Invalid saved state, clearing."); clearState(); return null; }
+                if (savedState.view === 'select') { clearState(); return null; }
+
+                currentFileName = savedState.quizName || "";
+                originalQuizData = savedState.originalQuizData || [];
+                quizData = savedState.quizData || [];
+                currentQuestionIndex = savedState.currentQuestionIndex || 0;
+                userAnswers = savedState.userAnswers || {};
+                questionsAnswered = savedState.questionsAnswered || {};
+                score = savedState.score || 0;
+                isReviewMode = savedState.isReviewMode || false;
+                reviewWrongOnly = savedState.reviewWrongOnly || false;
+                wrongAnswerIndices = savedState.wrongAnswerIndices || [];
+                currentWrongAnswerReviewIndex = savedState.currentWrongAnswerReviewIndex || 0;
+                autoAdvanceDuration = savedState.autoAdvanceDuration || 500;
+                shuffleCheckbox.checked = savedState.shuffleChecked || false;
+
+                if (quizData.length === 0) { console.warn("[State] Restored quizData empty, clearing."); clearState(); return null; }
+                if (currentQuestionIndex >= quizData.length) { console.warn("[State] Restored index out of bounds, resetting."); currentQuestionIndex = 0; }
+
+                console.log("[State] Found valid saved state:", savedState.view);
+                return savedState;
+            } catch (e) { console.error("[State] Error loading state:", e); clearState(); return null; }
+        }
+
+        function clearState() {
+            try { localStorage.removeItem(STORAGE_KEY); console.log("[State] Cleared saved state."); }
+            catch (e) { console.error("[State] Error clearing state:", e); }
+        }
+        // --- End State Persistence ---
+
+         // --- Resume Modal Functions ---
+         function showResumeModal(message) {
+             resumeModalText.textContent = message; // Set the specific message
+             resumeModalOverlay.classList.remove('hidden');
+         }
+
+         function hideResumeModal() {
+             resumeModalOverlay.classList.add('hidden');
+         }
+         // --- End Resume Modal Functions ---
+
 
         // --- THEME FUNCTIONS ---
         function applyInitialTheme() { const savedTheme = localStorage.getItem('theme'); if (savedTheme === 'dark') { bodyElement.classList.add('dark-theme'); } else { bodyElement.classList.remove('dark-theme'); } updateThemeToggleButton(); }
@@ -408,471 +545,300 @@
 
         // --- SETTINGS MENU FUNCTIONS ---
         function toggleSettingsMenu() {
-            settingsMenu.classList.toggle('menu-active');
-            settingsMenu.classList.toggle('hidden');
-
+            settingsMenu.classList.toggle('menu-active'); settingsMenu.classList.toggle('hidden');
             if (settingsMenu.classList.contains('menu-active')) {
-                // Calculate position dynamically when showing the menu
                 try {
-                    const btnRect = settingsBtn.getBoundingClientRect();
-                    const appRect = document.getElementById('app').getBoundingClientRect(); // Get app container bounds
-
-                    // Calculate the desired top position for the menu:
-                    // (button's top relative to viewport - app's top relative to viewport) = button's top relative to app
-                    // Add the button's height to position below it
-                    // Add a small gap (e.g., 5px)
-                    const menuTop = (btnRect.top - appRect.top) + btnRect.height + 5; // 5px gap below button
-
-                    settingsMenu.style.top = `${menuTop}px`;
-
-                    // Optional: Prevent menu going off-screen vertically (basic example)
-                    const menuRect = settingsMenu.getBoundingClientRect();
-                    if (menuRect.bottom > window.innerHeight) {
-                         // If menu bottom is below viewport, adjust top
-                         const newTop = menuTop - (menuRect.bottom - window.innerHeight) - 10; // Move up slightly more than needed
-                         settingsMenu.style.top = `${Math.max(0, newTop)}px`; // Ensure it doesn't go above app top
-                    }
-
-                } catch (e) {
-                    console.error("Error calculating menu position:", e);
-                    // Fallback positioning if calculation fails? Or just rely on default flow?
-                    // settingsMenu.style.top = '60px'; // Simple fallback
-                }
+                    const btnRect = settingsBtn.getBoundingClientRect(); const appRect = document.getElementById('app').getBoundingClientRect();
+                    const menuTop = (btnRect.top - appRect.top) + btnRect.height + 5; settingsMenu.style.top = `${menuTop}px`;
+                    const menuRect = settingsMenu.getBoundingClientRect(); if (menuRect.bottom > window.innerHeight) { const newTop = menuTop - (menuRect.bottom - window.innerHeight) - 10; settingsMenu.style.top = `${Math.max(0, newTop)}px`; }
+                } catch (e) { console.error("Error calculating menu position:", e); }
             }
-             // No need to reset 'top' when hiding, as it's recalculated on show
         }
-        // Listener to close menu when clicking outside
-        document.addEventListener('click', function(event) {
-            if (settingsMenu.classList.contains('menu-active') &&
-                !settingsMenu.contains(event.target) &&
-                !settingsBtn.contains(event.target))
-            {
-                settingsMenu.classList.remove('menu-active');
-                settingsMenu.classList.add('hidden');
-            }
-        });
+        document.addEventListener('click', function(event) { if (settingsMenu.classList.contains('menu-active') && !settingsMenu.contains(event.target) && !settingsBtn.contains(event.target)) { settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); } });
 
         // --- Event Listeners ---
-        settingsBtn.addEventListener('click', toggleSettingsMenu);
-        themeToggleButton.addEventListener('click', toggleTheme);
-        prevBtn.addEventListener('click', navigatePrevious);
-        nextBtn.addEventListener('click', navigateNext);
-        restartPracticeBtn.addEventListener('click', restartQuiz);
-        shuffleNowBtn.addEventListener('click', handleShuffleNow);
-        reloadOriginalBtn.addEventListener('click', handleReloadOriginal);
-        backToSelectQuizBtn.addEventListener('click', showSelectScreen); // Added listener for quiz screen button
-        restartBtn.addEventListener('click', restartQuiz);
-        reviewBtn.addEventListener('click', startReviewMode);
-        backToSelectBtn.addEventListener('click', showSelectScreen); // Listener for results screen button
-        exitReviewBtn.addEventListener('click', exitReviewMode);
-        toggleFilterBtn.addEventListener('click', toggleReviewFilter);
-        jumpToBtn.addEventListener('click', handleJumpToQuestion);
+        settingsBtn.addEventListener('click', toggleSettingsMenu); themeToggleButton.addEventListener('click', toggleTheme);
+        prevBtn.addEventListener('click', navigatePrevious); nextBtn.addEventListener('click', navigateNext);
+        restartPracticeBtn.addEventListener('click', restartQuiz); shuffleNowBtn.addEventListener('click', handleShuffleNow);
+        reloadOriginalBtn.addEventListener('click', handleReloadOriginal); backToSelectQuizBtn.addEventListener('click', showSelectScreen);
+        restartBtn.addEventListener('click', restartQuiz); reviewBtn.addEventListener('click', startReviewMode);
+        backToSelectBtn.addEventListener('click', showSelectScreen); exitReviewBtn.addEventListener('click', exitReviewMode);
+        toggleFilterBtn.addEventListener('click', toggleReviewFilter); jumpToBtn.addEventListener('click', handleJumpToQuestion);
         jumpToInput.addEventListener('keypress', (event) => { if (event.key === 'Enter') { event.preventDefault(); handleJumpToQuestion(); } });
         answersContainer.addEventListener('click', (event) => { if (event.target.classList.contains('answer-btn') && !event.target.disabled) { handleAnswerSelection(event.target); } });
-        timerDecreaseBtn.addEventListener('click', decreaseTimer);
-        timerIncreaseBtn.addEventListener('click', increaseTimer);
+        timerDecreaseBtn.addEventListener('click', decreaseTimer); timerIncreaseBtn.addEventListener('click', increaseTimer);
+        // Modal listeners
+        resumeBtnYes.addEventListener('click', handleResumeYes);
+        resumeBtnNo.addEventListener('click', handleResumeNo);
+
+
+        // --- Functions to Handle Modal Button Clicks ---
+        function handleResumeYes() {
+            console.log("[Init] User chose YES (Resume).");
+            hideResumeModal();
+            restoreSavedSession(); // Proceed with restoring state
+        }
+
+        function handleResumeNo() {
+            console.log("[Init] User chose NO (Start Fresh).");
+            hideResumeModal();
+            clearState(); // Clear the declined state
+            updateTimerDisplayAndControls(); // Reset timer display
+            showSelectScreen(true); // Show select screen, prevent state clear again
+            // Ensure usage details visibility is correct for a fresh start
+            if (usageDetails.hasAttribute('open')) { usageDetails.open = true; usageDetails.classList.remove('hidden'); }
+            else { usageDetails.classList.add('hidden'); }
+        }
+
+        // --- Function to contain the state restoration logic ---
+        function restoreSavedSession() {
+             console.log(`[Init] Restoring saved session...`);
+             updateTimerDisplayAndControls(); // Uses restored autoAdvanceDuration
+             quizTitleElement.textContent = currentFileName; // Uses restored quizName
+             quizTitleElement.classList.remove('hidden');
+
+             // Ensure only the target section is visible
+             selectSection.classList.add('hidden'); selectSection.style.display = 'none';
+             quizSection.classList.add('hidden'); quizSection.style.display = 'none';
+             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
+             usageDetails.classList.add('hidden'); // Keep usage hidden when restoring
+
+             const viewToRestore = localStorage.getItem(STORAGE_KEY) ? JSON.parse(localStorage.getItem(STORAGE_KEY)).view : null;
+
+             if (viewToRestore === 'quiz') {
+                 quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
+                 navControls.classList.toggle('hidden', isReviewMode); reviewControls.classList.toggle('hidden', !isReviewMode);
+                 settingsBtn.disabled = isReviewMode; settingsBtn.style.opacity = isReviewMode ? '0.5' : ''; settingsBtn.style.cursor = isReviewMode ? 'not-allowed' : '';
+                 jumpToInput.max = (quizData && quizData.length > 0) ? quizData.length : 1;
+                 displayQuestion(currentQuestionIndex);
+             } else if (viewToRestore === 'results') {
+                 resultsSection.classList.remove('hidden'); resultsSection.style.display = 'block';
+                 showResults(); // Re-run showResults to ensure UI is consistent
+             } else {
+                  console.warn("[Restore Error] Could not determine view, starting fresh.");
+                  handleResumeNo(); // Fallback to starting fresh
+             }
+        }
+
 
         // --- Core Quiz Functions ---
-        // (decreaseTimer, increaseTimer, updateTimerDisplayAndControls, clearAutoAdvanceTimer,
-        // navigatePrevious, navigateNext, handleJumpToQuestion, handleShuffleNow,
-        // handleReloadOriginal, shuffleArray remain unchanged)
-        function decreaseTimer() { if (!isReviewMode && autoAdvanceDuration > MIN_TIMER) { autoAdvanceDuration -= TIMER_STEP; updateTimerDisplayAndControls(); } }
-        function increaseTimer() { if (!isReviewMode && autoAdvanceDuration < MAX_TIMER) { autoAdvanceDuration += TIMER_STEP; updateTimerDisplayAndControls(); } }
+        function decreaseTimer() { if (!isReviewMode && autoAdvanceDuration > MIN_TIMER) { autoAdvanceDuration -= TIMER_STEP; updateTimerDisplayAndControls(); saveState(); } }
+        function increaseTimer() { if (!isReviewMode && autoAdvanceDuration < MAX_TIMER) { autoAdvanceDuration += TIMER_STEP; updateTimerDisplayAndControls(); saveState(); } }
         function updateTimerDisplayAndControls() { timerDurationDisplay.textContent = (autoAdvanceDuration / 1000).toFixed(1) + 's'; timerDecreaseBtn.disabled = isReviewMode || autoAdvanceDuration <= MIN_TIMER; timerIncreaseBtn.disabled = isReviewMode || autoAdvanceDuration >= MAX_TIMER; timerBar.style.setProperty('--timer-duration', autoAdvanceDuration + 'ms'); }
-        function clearAutoAdvanceTimer() { if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; } timerBar.classList.remove('timer-active'); timerBar.style.animation = 'none'; void timerBar.offsetWidth; /* trigger reflow */ timerBar.style.animation = null; }
-        function navigatePrevious() { clearAutoAdvanceTimer(); if (reviewWrongOnly) { if (currentWrongAnswerReviewIndex > 0) { currentWrongAnswerReviewIndex--; currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; displayQuestion(currentQuestionIndex); } } else { if (currentQuestionIndex > 0) { currentQuestionIndex--; displayQuestion(currentQuestionIndex); } } }
-        function navigateNext() { clearAutoAdvanceTimer(); if (reviewWrongOnly) { if (currentWrongAnswerReviewIndex < wrongAnswerIndices.length - 1) { currentWrongAnswerReviewIndex++; currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; displayQuestion(currentQuestionIndex); } } else { if (currentQuestionIndex < quizData.length - 1) { currentQuestionIndex++; displayQuestion(currentQuestionIndex); } else if (!isReviewMode) { showResults(); } } }
-        function handleJumpToQuestion() { if (!quizData || quizData.length === 0) return; const targetNum = parseInt(jumpToInput.value, 10); let maxQuestions, targetIndex; if (reviewWrongOnly) { maxQuestions = wrongAnswerIndices.length; if (isNaN(targetNum) || targetNum < 1 || targetNum > maxQuestions) { alert(`Vui lòng nhập số thứ tự câu sai hợp lệ từ 1 đến ${maxQuestions}.`); } else { currentWrongAnswerReviewIndex = targetNum - 1; targetIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; if (targetIndex !== currentQuestionIndex) { clearAutoAdvanceTimer(); currentQuestionIndex = targetIndex; displayQuestion(currentQuestionIndex); } } } else { maxQuestions = quizData.length; if (isNaN(targetNum) || targetNum < 1 || targetNum > maxQuestions) { alert(`Vui lòng nhập số câu hợp lệ từ 1 đến ${maxQuestions}.`); } else { targetIndex = targetNum - 1; if (targetIndex !== currentQuestionIndex) { clearAutoAdvanceTimer(); currentQuestionIndex = targetIndex; displayQuestion(currentQuestionIndex); } } } jumpToInput.value = ''; }
-        function handleShuffleNow() { if (isReviewMode || !quizData || quizData.length === 0) return; console.log("[Action] Shuffling current questions..."); shuffleArray(quizData); restartQuiz(); }
-        function handleReloadOriginal() { if (isReviewMode || !originalQuizData || originalQuizData.length === 0) { alert("Không có dữ liệu gốc để tải lại."); return; } console.log("[Action] Reloading original question order..."); quizData = [...originalQuizData]; restartQuiz(); }
+        function clearAutoAdvanceTimer() { if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; } timerBar.classList.remove('timer-active'); timerBar.style.animation = 'none'; void timerBar.offsetWidth; timerBar.style.animation = null; }
+        function navigatePrevious() { clearAutoAdvanceTimer(); let changed = false; if (reviewWrongOnly) { if (currentWrongAnswerReviewIndex > 0) { currentWrongAnswerReviewIndex--; currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; changed = true; } } else { if (currentQuestionIndex > 0) { currentQuestionIndex--; changed = true; } } if (changed) { displayQuestion(currentQuestionIndex); saveState(); } }
+        function navigateNext() { clearAutoAdvanceTimer(); let changed = false; let finished = false; if (reviewWrongOnly) { if (currentWrongAnswerReviewIndex < wrongAnswerIndices.length - 1) { currentWrongAnswerReviewIndex++; currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; changed = true; } } else { if (currentQuestionIndex < quizData.length - 1) { currentQuestionIndex++; changed = true; } else if (!isReviewMode) { finished = true; } } if (changed) { displayQuestion(currentQuestionIndex); saveState(); } else if (finished) { showResults(); /* saveState is called in showResults */ } }
+        function handleJumpToQuestion() { if (!quizData || quizData.length === 0) return; const targetNum = parseInt(jumpToInput.value, 10); let maxQuestions, targetIndex = -1; let changed = false; if (reviewWrongOnly) { maxQuestions = wrongAnswerIndices.length; if (!isNaN(targetNum) && targetNum >= 1 && targetNum <= maxQuestions) { currentWrongAnswerReviewIndex = targetNum - 1; targetIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; if (targetIndex !== currentQuestionIndex) changed = true; } else { alert(`Vui lòng nhập số thứ tự câu sai hợp lệ từ 1 đến ${maxQuestions}.`); } } else { maxQuestions = quizData.length; if (!isNaN(targetNum) && targetNum >= 1 && targetNum <= maxQuestions) { targetIndex = targetNum - 1; if (targetIndex !== currentQuestionIndex) changed = true; } else { alert(`Vui lòng nhập số câu hợp lệ từ 1 đến ${maxQuestions}.`); } } if (changed) { clearAutoAdvanceTimer(); currentQuestionIndex = targetIndex; displayQuestion(currentQuestionIndex); saveState(); } jumpToInput.value = ''; }
+        function handleShuffleNow() { if (isReviewMode || !quizData || quizData.length === 0) return; console.log("[Action] Shuffling current questions..."); shuffleArray(quizData); restartQuiz(true); /* restartQuiz calls saveState */ }
+        function handleReloadOriginal() { if (isReviewMode || !originalQuizData || originalQuizData.length === 0) { alert("Không có dữ liệu gốc để tải lại."); return; } console.log("[Action] Reloading original question order..."); quizData = [...originalQuizData]; restartQuiz(); /* restartQuiz calls saveState */ }
         function shuffleArray(array) { for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [array[i], array[j]] = [array[j], array[i]]; } }
 
-
         // --- JSON Loading Logic ---
-        // (loadQuizManifest, displayQuizOptions, loadQuizFromJson remain unchanged)
-         function loadQuizManifest() {
-            console.log(`[Manifest] Fetching quiz manifest from ${MANIFEST_PATH}...`);
-            hideError();
-            quizFileListContainer.innerHTML = '<p>Đang tải danh sách bộ câu hỏi...</p>';
-            statusMessage.textContent = "";
-            shuffleCheckbox.disabled = true;
+        function loadQuizManifest() {
+            console.log(`[Manifest] Fetching ${MANIFEST_PATH}...`); hideError();
+            quizFileListContainer.innerHTML = '<p>Đang tải danh sách...</p>'; statusMessage.textContent = ""; shuffleCheckbox.disabled = true;
             const cacheBuster = `?t=${new Date().getTime()}`;
-
             fetch(MANIFEST_PATH + cacheBuster)
-                .then(response => {
-                    if (!response.ok) {
-                        if (response.status === 404) { throw new Error(`Không tìm thấy tệp kê khai ${MANIFEST_PATH}. Hãy chạy script \`node convert.js\` và đảm bảo tệp được đẩy lên GitHub.`); }
-                        else { throw new Error(`Lỗi mạng khi tải ${MANIFEST_PATH} (${response.status}): ${response.statusText}`); }
-                    }
-                    return response.json();
-                })
-                .then(quizList => {
-                    console.log("[Manifest] Success, received:", quizList);
-                    displayQuizOptions(quizList);
-                })
-                .catch(error => {
-                    console.error("[Manifest Error]", error);
-                    showError(`Không thể tải danh sách bộ câu hỏi: ${error.message}`);
-                    quizFileListContainer.innerHTML = '';
-                    statusMessage.textContent = "Lỗi tải danh sách.";
-                });
+                .then(response => { if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`); return response.json(); })
+                .then(quizList => { console.log("[Manifest] Success:", quizList); displayQuizOptions(quizList); })
+                .catch(error => { console.error("[Manifest Error]", error); showError(`Không tải được danh sách: ${error.message}`); quizFileListContainer.innerHTML = ''; statusMessage.textContent = "Lỗi."; });
         }
-
         function displayQuizOptions(quizList) {
-            console.log("[UI] Displaying quiz options...");
-            hideError();
-            quizFileListContainer.innerHTML = '';
-            statusMessage.textContent = "Vui lòng chọn một bộ câu hỏi.";
-
-            if (!quizList || !Array.isArray(quizList)) { showError("Dữ liệu danh sách bộ câu hỏi không hợp lệ."); return; }
-            if (quizList.length === 0) { showError("Không tìm thấy bộ câu hỏi nào trong tệp kê khai."); return; }
-
-            quizList.forEach(quiz => {
-                if (!quiz || typeof quiz.name !== 'string' || typeof quiz.file !== 'string') { console.warn("Skipping invalid entry in manifest:", quiz); return; }
-                const btn = document.createElement('button');
-                btn.classList.add('quiz-file-button');
-                btn.textContent = quiz.name;
-                btn.dataset.quizFile = quiz.file;
-                btn.dataset.quizName = quiz.name;
-                btn.addEventListener('click', () => loadQuizFromJson(quiz.file, quiz.name));
-                quizFileListContainer.appendChild(btn);
-            });
-            shuffleCheckbox.disabled = false;
-            quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
-        }
-
+             console.log("[UI] Displaying options..."); hideError();
+             quizFileListContainer.innerHTML = ''; statusMessage.textContent = "Vui lòng chọn bộ câu hỏi.";
+             if (!quizList || !Array.isArray(quizList) || quizList.length === 0) { showError("Không tìm thấy bộ câu hỏi nào."); return; }
+             quizList.forEach(quiz => {
+                 if (!quiz || typeof quiz.name !== 'string' || typeof quiz.file !== 'string') { console.warn("Skipping invalid manifest entry:", quiz); return; }
+                 const btn = document.createElement('button'); btn.classList.add('quiz-file-button'); btn.textContent = quiz.name;
+                 btn.dataset.quizFile = quiz.file; btn.dataset.quizName = quiz.name;
+                 btn.addEventListener('click', () => loadQuizFromJson(quiz.file, quiz.name));
+                 quizFileListContainer.appendChild(btn);
+             });
+             shuffleCheckbox.disabled = false; quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
+         }
         function loadQuizFromJson(jsonFilePath, quizName) {
-            console.log(`[Fetch] Requesting data for quiz: ${quizName} from ${jsonFilePath}`);
-            hideError();
-            statusMessage.textContent = `Đang tải dữ liệu cho "${quizName}"...`;
-            quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = true);
-            shuffleCheckbox.disabled = true;
-            currentFileName = quizName;
-
-            quizTitleElement.textContent = quizName;
-            quizTitleElement.classList.remove('hidden');
-
+            console.log(`[Fetch] Requesting ${quizName} from ${jsonFilePath}`); hideError();
+            statusMessage.textContent = `Đang tải "${quizName}"...`; quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = true); shuffleCheckbox.disabled = true;
+            originalQuizData = []; quizData = []; score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false;
+            currentFileName = quizName; quizTitleElement.textContent = quizName; quizTitleElement.classList.remove('hidden');
             const cacheBuster = `?t=${new Date().getTime()}`;
-
             fetch(jsonFilePath + cacheBuster)
-                .then(response => {
-                    if (!response.ok) {
-                        if (response.status === 404) { throw new Error(`Không tìm thấy tệp ${jsonFilePath}.`); }
-                        else { throw new Error(`Lỗi mạng (${response.status}): ${response.statusText}`); }
-                    }
-                    return response.json();
-                })
-                .then(jsonData => {
-                    console.log("[Fetch Success] Received JSON data.");
-                    processQuizData(jsonData);
-                })
-                .catch(error => {
-                    console.error("[Fetch Error]", error);
-                    showError(`Lỗi tải dữ liệu cho "${quizName}": ${error.message}`);
-                    showSelectScreen();
-                });
+                .then(response => { if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`); return response.json(); })
+                .then(jsonData => { console.log("[Fetch] Success."); processQuizData(jsonData); })
+                .catch(error => { console.error("[Fetch Error]", error); showError(`Lỗi tải "${quizName}": ${error.message}`); showSelectScreen(); });
         }
 
 
         // --- Data Processing and Quiz Start ---
-        // (processQuizData remains unchanged)
         function processQuizData(jsonData) {
-             console.log(`[Processing] Processing ${jsonData.length} questions from JSON for "${currentFileName}".`);
+             console.log(`[Processing] ${jsonData.length} questions for "${currentFileName}".`);
              try {
-                 if (!Array.isArray(jsonData)) { throw new Error("Dữ liệu tải về không phải là một mảng câu hỏi hợp lệ."); }
-                 if (jsonData.length > 0) {
-                     const firstQ = jsonData[0];
-                     if (typeof firstQ.question !== 'string' || !Array.isArray(firstQ.options) || typeof firstQ.correctAnswerIndex !== 'number') {
-                         console.warn("[Processing] Dữ liệu JSON có vẻ không đúng cấu trúc mong đợi:", firstQ);
-                     }
-                     originalQuizData = [...jsonData];
-                     quizData = [...jsonData];
-                     if (shuffleCheckbox.checked) {
-                         console.log("[Quiz Prep] Shuffling enabled. Shuffling...");
-                         shuffleArray(quizData);
-                     }
-                     statusMessage.textContent = `Đã tải: ${currentFileName} (${quizData.length} câu)`;
-                     usageDetails.classList.add('hidden');
-                     selectSection.classList.add('hidden');
-                     selectSection.style.display = 'none';
-                     startQuiz();
-                 } else {
-                     throw new Error(`Tệp câu hỏi JSON cho "${currentFileName}" không chứa câu hỏi hợp lệ nào.`);
-                 }
-             } catch (error) {
-                 console.error("[Error Handler] Error during JSON processing:", error);
-                 showError(`Lỗi xử lý dữ liệu câu hỏi: ${error.message}.`);
-                 showSelectScreen();
-             }
+                 if (!Array.isArray(jsonData) || jsonData.length === 0) throw new Error("Dữ liệu không hợp lệ.");
+                 const firstQ = jsonData[0]; if (typeof firstQ.question !== 'string' || !Array.isArray(firstQ.options) || typeof firstQ.correctAnswerIndex !== 'number') console.warn("[Processing] Cấu trúc dữ liệu lạ:", firstQ);
+                 originalQuizData = [...jsonData]; quizData = [...jsonData];
+                 if (shuffleCheckbox.checked) { console.log("[Prep] Shuffling..."); shuffleArray(quizData); }
+                 statusMessage.textContent = `Đã tải: ${currentFileName} (${quizData.length} câu)`;
+                 usageDetails.classList.add('hidden'); selectSection.classList.add('hidden'); selectSection.style.display = 'none';
+                 startQuiz(); // Start the quiz UI
+                 saveState(); // Save the initial state right after starting
+
+             } catch (error) { console.error("[Processing Error]", error); showError(`Lỗi xử lý dữ liệu: ${error.message}.`); showSelectScreen(); }
          }
 
         // --- Quiz Start and Display Functions ---
-        // (startQuiz remains unchanged)
-        function startQuiz() {
-            console.log("[Mode] Starting Quiz (Normal Mode)");
-            isReviewMode = false; reviewWrongOnly = false;
-            currentQuestionIndex = 0; score = 0; userAnswers = {}; questionsAnswered = {};
+        function startQuiz(wasShuffledOrRestarted = false) { // Renamed param for clarity
+            console.log("[Mode] Starting Quiz");
+             // Reset progress only if explicitly told to (restarting/shuffling)
+             // Loading state is handled before this in DOMContentLoaded/restoreSavedSession
+             if (wasShuffledOrRestarted) {
+                 currentQuestionIndex = 0; score = 0; userAnswers = {}; questionsAnswered = {}; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
+                 console.log("[Mode] State reset for restart/shuffle.");
+             } else {
+                  console.log("[Mode] Continuing quiz from existing or newly loaded state.");
+             }
+
             clearAutoAdvanceTimer(); hideError(); updateTimerDisplayAndControls();
-
-            jumpToInput.max = (quizData && quizData.length > 0) ? quizData.length : 1;
-            jumpToInput.value = '';
-            jumpLabel.textContent = "Đến câu:";
-
-            resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
-            quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
-
-            navControls.classList.remove('hidden'); // Show quiz nav controls
-            reviewControls.classList.add('hidden'); // Hide review controls
+            jumpToInput.max = (quizData && quizData.length > 0) ? quizData.length : 1; jumpToInput.value = ''; jumpLabel.textContent = "Đến câu:";
+             usageDetails.classList.add('hidden'); selectSection.classList.add('hidden'); selectSection.style.display = 'none';
+            resultsSection.classList.add('hidden'); resultsSection.style.display = 'none'; quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
+            navControls.classList.remove('hidden'); reviewControls.classList.add('hidden');
             settingsBtn.disabled = false; settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
-
+            quizTitleElement.textContent = currentFileName; quizTitleElement.classList.remove('hidden');
             displayQuestion(currentQuestionIndex);
+            // Initial state is saved after processQuizData or restartQuiz
         }
-
-        // (displayQuestion remains unchanged)
         function displayQuestion(index) {
              currentQuestionIndex = index;
-             if (index < 0 || index >= quizData.length || !quizData[index]) {
-                  console.error(`[Display Error] Invalid index ${index} or missing data. Quiz length: ${quizData.length}`);
-                  showError(`Lỗi hiển thị câu hỏi số ${index + 1}.`); return;
-             }
+             if (index < 0 || !quizData || index >= quizData.length || !quizData[index]) { console.error(`[Display Error] Invalid index ${index}. Quiz length: ${quizData?.length}`); showError(`Lỗi hiển thị câu ${index + 1}.`); return; }
              const currentQuestion = quizData[index];
-
              questionText.textContent = currentQuestion.question || "[Lỗi: Thiếu câu hỏi]";
-             answersContainer.innerHTML = ''; sourceDiv.textContent = '';
-             sourceDiv.classList.add('hidden'); sourceDiv.style.display = 'none';
-
-             (currentQuestion.options || []).forEach((option, optionIndex) => {
-                 const btn = document.createElement('button');
-                 btn.classList.add('answer-btn');
-                 btn.textContent = option || "(Đáp án trống)";
-                 btn.dataset.index = optionIndex;
-                 answersContainer.appendChild(btn);
-             });
-
+             answersContainer.innerHTML = ''; sourceDiv.textContent = ''; sourceDiv.classList.add('hidden'); sourceDiv.style.display = 'none';
+             (currentQuestion.options || []).forEach((option, optionIndex) => { const btn = document.createElement('button'); btn.classList.add('answer-btn'); btn.textContent = option || "(Trống)"; btn.dataset.index = optionIndex; answersContainer.appendChild(btn); });
              scoreText.textContent = `Điểm: ${score}`;
-
              if (isReviewMode) {
-                  if (reviewWrongOnly) {
-                      progressText.textContent = `Câu sai ${currentWrongAnswerReviewIndex + 1} / ${wrongAnswerIndices.length}`;
-                      jumpLabel.textContent = "Đến câu sai số:";
-                      jumpToInput.max = wrongAnswerIndices.length || 1;
-                      jumpToInput.placeholder = wrongAnswerIndices.length > 0 ? (currentWrongAnswerReviewIndex + 1).toString() : '0';
-                  } else {
-                      progressText.textContent = `Xem lại: Câu ${index + 1} / ${quizData.length}`;
-                      jumpLabel.textContent = "Đến câu:";
-                      jumpToInput.max = quizData.length;
-                      jumpToInput.placeholder = (index + 1).toString();
-                  }
-             } else {
-                  progressText.textContent = `Câu ${index + 1} / ${quizData.length}`;
-                  jumpLabel.textContent = "Đến câu:";
-                  jumpToInput.max = quizData.length;
-                  jumpToInput.placeholder = (index + 1).toString();
-             }
+                 if (reviewWrongOnly) { progressText.textContent = `Câu sai ${currentWrongAnswerReviewIndex + 1} / ${wrongAnswerIndices.length}`; jumpLabel.textContent = "Đến sai số:"; jumpToInput.max = wrongAnswerIndices.length || 1; jumpToInput.placeholder = wrongAnswerIndices.length > 0 ? (currentWrongAnswerReviewIndex + 1).toString() : '0'; }
+                 else { progressText.textContent = `Xem lại: Câu ${index + 1} / ${quizData.length}`; jumpLabel.textContent = "Đến câu:"; jumpToInput.max = quizData.length; jumpToInput.placeholder = (index + 1).toString(); }
+             } else { progressText.textContent = `Câu ${index + 1} / ${quizData.length}`; jumpLabel.textContent = "Đến câu:"; jumpToInput.max = quizData.length; jumpToInput.placeholder = (index + 1).toString(); }
              restoreAnswerState(index);
-
-             if (isReviewMode) {
-                 answersContainer.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
-                 navControls.classList.add('hidden');
-                 reviewControls.classList.remove('hidden');
-                 settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
-                 clearAutoAdvanceTimer(); timerBar.classList.remove('timer-active');
-                 toggleFilterBtn.textContent = reviewWrongOnly ? "Xem tất cả câu" : "Chỉ xem câu sai";
-                 toggleFilterBtn.classList.toggle('filter-active', reviewWrongOnly);
-                 toggleFilterBtn.disabled = wrongAnswerIndices.length === 0 && !reviewWrongOnly;
-             } else {
-                 navControls.classList.remove('hidden');
-                 reviewControls.classList.add('hidden');
-                 settingsBtn.disabled = false; settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
-                 updateTimerDisplayAndControls();
-             }
-
-             if (reviewWrongOnly) {
-                  prevBtn.disabled = (currentWrongAnswerReviewIndex <= 0);
-                  nextBtn.disabled = (currentWrongAnswerReviewIndex >= wrongAnswerIndices.length - 1);
-                  nextBtn.textContent = 'Câu sau';
-              } else {
-                  prevBtn.disabled = (index <= 0);
-                  const isLastQuestion = index === quizData.length - 1;
-                  const isAnswered = questionsAnswered[index];
-                  nextBtn.textContent = (isLastQuestion && !isReviewMode) ? 'Hoàn thành' : 'Câu sau';
-                  nextBtn.disabled = (!isReviewMode && !isAnswered) || (isReviewMode && isLastQuestion);
-              }
-             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); // Ensure menu is closed on question change
+             navControls.classList.toggle('hidden', isReviewMode); reviewControls.classList.toggle('hidden', !isReviewMode);
+             settingsBtn.disabled = isReviewMode; settingsBtn.style.opacity = isReviewMode ? '0.5' : ''; settingsBtn.style.cursor = isReviewMode ? 'not-allowed' : '';
+             if(isReviewMode){ clearAutoAdvanceTimer(); timerBar.classList.remove('timer-active'); toggleFilterBtn.textContent = reviewWrongOnly ? "Xem tất cả" : "Chỉ xem sai"; toggleFilterBtn.classList.toggle('filter-active', reviewWrongOnly); toggleFilterBtn.disabled = wrongAnswerIndices.length === 0 && !reviewWrongOnly; }
+             else { updateTimerDisplayAndControls(); }
+             if (reviewWrongOnly) { prevBtn.disabled = (currentWrongAnswerReviewIndex <= 0); nextBtn.disabled = (currentWrongAnswerReviewIndex >= wrongAnswerIndices.length - 1); nextBtn.textContent = 'Câu sau'; }
+             else { prevBtn.disabled = (index <= 0); const isLast = index === quizData.length - 1; const isAnswered = questionsAnswered[index]; nextBtn.textContent = (isLast && !isReviewMode) ? 'Hoàn thành' : 'Câu sau'; nextBtn.disabled = (!isReviewMode && !isAnswered) || (isReviewMode && isLast); }
+             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
         }
-
-        // (restoreAnswerState remains unchanged)
         function restoreAnswerState(questionIndex) {
-            const userAnswerIndex = userAnswers[questionIndex];
-            const buttons = answersContainer.querySelectorAll('.answer-btn');
-            const q = quizData[questionIndex];
-            if (!q) return;
-            const correctIdx = q.correctAnswerIndex;
-
-            buttons.forEach(b => {
-                b.disabled = isReviewMode || userAnswerIndex !== undefined;
-                b.classList.remove('selected', 'correct', 'incorrect', 'reveal-correct');
-            });
-
-            if (userAnswerIndex !== undefined) {
-                const selectedBtn = buttons[userAnswerIndex];
-                if (selectedBtn) {
-                    selectedBtn.classList.add('selected');
-                    if (parseInt(userAnswerIndex, 10) === correctIdx) { selectedBtn.classList.add('correct'); }
-                    else {
-                        selectedBtn.classList.add('incorrect');
-                        if (buttons[correctIdx]) { buttons[correctIdx].classList.add('reveal-correct'); }
-                    }
-                }
-                sourceDiv.textContent = `Nguồn: ${q.source || 'N/A'}`;
-                sourceDiv.classList.remove('hidden'); sourceDiv.style.display = 'block';
-            } else {
-                 sourceDiv.classList.add('hidden'); sourceDiv.style.display = 'none';
-            }
+            const userAnswerIndex = userAnswers[questionIndex]; const buttons = answersContainer.querySelectorAll('.answer-btn');
+            const q = quizData[questionIndex]; if (!q) return; const correctIdx = q.correctAnswerIndex;
+            buttons.forEach((b, idx) => { b.disabled = isReviewMode || (userAnswerIndex !== undefined); b.classList.remove('selected', 'correct', 'incorrect', 'reveal-correct');
+                if (userAnswerIndex !== undefined) { const answerIdx = parseInt(b.dataset.index, 10); if (answerIdx === userAnswerIndex) { b.classList.add('selected'); b.classList.add(userAnswerIndex === correctIdx ? 'correct' : 'incorrect'); } else if (userAnswerIndex !== correctIdx && answerIdx === correctIdx) { b.classList.add('reveal-correct'); } } });
+            if (userAnswerIndex !== undefined || isReviewMode) { sourceDiv.textContent = `Nguồn: ${q.source || 'N/A'}`; sourceDiv.classList.remove('hidden'); sourceDiv.style.display = 'block'; }
+            else { sourceDiv.classList.add('hidden'); sourceDiv.style.display = 'none'; }
         }
-
-        // (handleAnswerSelection remains unchanged)
         function handleAnswerSelection(selectedButton) {
-             if (isReviewMode || questionsAnswered[currentQuestionIndex]) return;
-             clearAutoAdvanceTimer();
-             const selectedIndex = parseInt(selectedButton.dataset.index, 10);
-             const currentQuestion = quizData[currentQuestionIndex];
-             if (!currentQuestion || typeof currentQuestion.correctAnswerIndex !== 'number') {
-                 showError(`Lỗi dữ liệu cho câu hỏi ${currentQuestionIndex + 1}.`); return;
-             }
-             const correctIndex = currentQuestion.correctAnswerIndex;
+             if (isReviewMode || questionsAnswered[currentQuestionIndex]) return; clearAutoAdvanceTimer();
+             const selectedIndex = parseInt(selectedButton.dataset.index, 10); const currentQuestion = quizData[currentQuestionIndex]; if (!currentQuestion) return; const correctIndex = currentQuestion.correctAnswerIndex;
              userAnswers[currentQuestionIndex] = selectedIndex; questionsAnswered[currentQuestionIndex] = true;
-
-             const allButtons = answersContainer.querySelectorAll('.answer-btn');
-             allButtons.forEach(b => b.disabled = true);
-             selectedButton.classList.add('selected');
-             let isCorrect = (selectedIndex === correctIndex);
-
-             if (isCorrect) { score++; selectedButton.classList.add('correct'); }
-             else {
-                 selectedButton.classList.add('incorrect');
-                 if (allButtons[correctIndex]) { allButtons[correctIndex].classList.add('reveal-correct'); }
-             }
-             sourceDiv.textContent = `Nguồn: ${currentQuestion.source || 'N/A'}`;
-             sourceDiv.classList.remove('hidden'); sourceDiv.style.display = 'block';
-             scoreText.textContent = `Điểm: ${score}`;
-             nextBtn.disabled = false;
-
+             const allButtons = answersContainer.querySelectorAll('.answer-btn'); allButtons.forEach(b => b.disabled = true); selectedButton.classList.add('selected');
+             let isCorrect = (selectedIndex === correctIndex); if (isCorrect) { score++; selectedButton.classList.add('correct'); } else { selectedButton.classList.add('incorrect'); if (allButtons[correctIndex]) { allButtons[correctIndex].classList.add('reveal-correct'); } }
+             sourceDiv.textContent = `Nguồn: ${currentQuestion.source || 'N/A'}`; sourceDiv.classList.remove('hidden'); sourceDiv.style.display = 'block';
+             scoreText.textContent = `Điểm: ${score}`; nextBtn.disabled = false;
              if (currentQuestionIndex === quizData.length - 1) { nextBtn.textContent = 'Hoàn thành'; }
-
-             if (isCorrect && currentQuestionIndex < quizData.length - 1 && autoAdvanceDuration > 0) {
-                 timerBar.classList.add('timer-active');
-                 autoAdvanceTimer = setTimeout(() => { autoAdvanceTimer = null; navigateNext(); }, autoAdvanceDuration);
-             }
+             if (isCorrect && currentQuestionIndex < quizData.length - 1 && autoAdvanceDuration > 0) { timerBar.classList.add('timer-active'); autoAdvanceTimer = setTimeout(() => { autoAdvanceTimer = null; navigateNext(); }, autoAdvanceDuration); }
+             saveState(); // Save state after answering
         }
 
 
         // --- Results/Restart/Review Functions ---
-        // (showResults, restartQuiz, startReviewMode, exitReviewMode, toggleReviewFilter remain unchanged)
         function showResults() {
-            console.log("[Mode] Showing Results");
-            isReviewMode = false; reviewWrongOnly = false;
-            clearAutoAdvanceTimer();
-            quizSection.classList.add('hidden'); quizSection.style.display = 'none';
-            resultsSection.classList.remove('hidden'); resultsSection.style.display = 'block';
-            finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length}`;
-            settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
-            settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
+            console.log("[Mode] Showing Results"); isReviewMode = false; reviewWrongOnly = false; clearAutoAdvanceTimer();
+            quizSection.classList.add('hidden'); quizSection.style.display = 'none'; resultsSection.classList.remove('hidden'); resultsSection.style.display = 'block';
+            finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length}`; quizTitleElement.textContent = currentFileName; quizTitleElement.classList.remove('hidden');
+            settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
+            saveState(); // Save state when showing results
         }
-        function restartQuiz() {
-            if (!quizData || quizData.length === 0) { showSelectScreen(); return; }
-            console.log(`[Action] Restarting quiz: ${currentFileName}`);
-            quizData = [...originalQuizData];
-            if (shuffleCheckbox.checked) { shuffleArray(quizData); }
-            startQuiz();
-        }
+        function restartQuiz(wasShuffled = false) {
+             if (!quizData || quizData.length === 0) { showSelectScreen(); return; } console.log(`[Action] Restarting quiz: ${currentFileName}`);
+             // Reset progress state
+             score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
+             // Handle data order
+             if (!wasShuffled) { quizData = [...originalQuizData]; if (shuffleCheckbox.checked) { console.log("[Action] Re-shuffling for restart."); shuffleArray(quizData); } }
+             // Else: quizData already shuffled by handleShuffleNow
+             startQuiz(true); // Start UI, indicate state was reset
+             saveState(); // Save the fresh state
+         }
         function startReviewMode() {
-             if (!quizData || quizData.length === 0) return;
-             console.log("[Mode] Entering Review Mode");
-             wrongAnswerIndices = [];
-             quizData.forEach((q, index) => {
-                 const userAnswer = userAnswers[index];
-                 if (userAnswer !== undefined && userAnswer !== q.correctAnswerIndex) { wrongAnswerIndices.push(index); }
-             });
-             console.log(`[Review Prep] Found ${wrongAnswerIndices.length} wrong answers.`);
-
-             isReviewMode = true; reviewWrongOnly = false;
-             currentQuestionIndex = 0;
+             if (!quizData || quizData.length === 0 || Object.keys(userAnswers).length === 0) { alert("Chưa có gì để xem lại!"); return; }
+             console.log("[Mode] Entering Review"); wrongAnswerIndices = [];
+             quizData.forEach((q, index) => { const userAnswer = userAnswers[index]; if (userAnswer !== undefined && userAnswer !== q.correctAnswerIndex) { wrongAnswerIndices.push(index); } });
+             console.log(`[Review] Found ${wrongAnswerIndices.length} wrong answers.`);
+             isReviewMode = true; reviewWrongOnly = false; currentQuestionIndex = 0; currentWrongAnswerReviewIndex = 0;
              clearAutoAdvanceTimer(); updateTimerDisplayAndControls();
-
-             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
-             quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
-             navControls.classList.add('hidden');
-             reviewControls.classList.remove('hidden');
-
+             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none'; quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
              displayQuestion(currentQuestionIndex);
+             saveState(); // Save state upon entering review
         }
-        function exitReviewMode() {
-            console.log("[Mode] Exiting Review Mode");
-            isReviewMode = false; reviewWrongOnly = false;
-            currentWrongAnswerReviewIndex = 0;
-            showResults();
-        }
+        function exitReviewMode() { console.log("[Mode] Exiting Review"); isReviewMode = false; reviewWrongOnly = false; showResults(); /* Calls saveState */ }
         function toggleReviewFilter() {
-             if (!isReviewMode) return;
-             reviewWrongOnly = !reviewWrongOnly;
-             if (reviewWrongOnly) {
-                 console.log("[Filter] Activating 'Wrong Only' filter.");
-                 if (wrongAnswerIndices.length === 0) { alert("Chúc mừng! Bạn đã trả lời đúng tất cả các câu đã làm."); reviewWrongOnly = false; return; }
-                 currentWrongAnswerReviewIndex = 0;
-                 currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex];
-             } else { console.log("[Filter] Deactivating 'Wrong Only' filter."); }
+             if (!isReviewMode) return; reviewWrongOnly = !reviewWrongOnly;
+             if (reviewWrongOnly) { console.log("[Filter] Wrong Only ON."); if (wrongAnswerIndices.length === 0) { alert("Chúc mừng! Tất cả đều đúng."); reviewWrongOnly = false; toggleFilterBtn.classList.remove('filter-active'); return; } currentWrongAnswerReviewIndex = 0; currentQuestionIndex = wrongAnswerIndices[currentWrongAnswerReviewIndex]; }
+             else { console.log("[Filter] Wrong Only OFF."); }
              displayQuestion(currentQuestionIndex);
+             saveState(); // Save state after toggling filter
          }
 
-
         // --- Utility Functions ---
-        // (showError, hideError remain unchanged)
         function showError(message) { console.error("[UI Error]", message); errorMessage.textContent = message; errorMessage.classList.remove('hidden'); }
         function hideError() { errorMessage.textContent = ''; errorMessage.classList.add('hidden'); }
 
-        // (showSelectScreen updated to ensure clean state)
-        function showSelectScreen() {
-            console.log("[UI Update] Returning to Select Screen");
-            // Reset state variables
-            originalQuizData = []; quizData = []; currentFileName = ""; score = 0; userAnswers = {}; questionsAnswered = {};
-            currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false;
-            clearAutoAdvanceTimer(); hideError();
-
-            // Reset UI sections
-            quizSection.classList.add('hidden'); quizSection.style.display = 'none';
-            resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
-            usageDetails.classList.remove('hidden'); // Show usage details again
-
-            // Hide and clear the quiz title
-            quizTitleElement.textContent = '';
-            quizTitleElement.classList.add('hidden');
-
-            // Show select section and enable controls
-            selectSection.classList.remove('hidden'); selectSection.style.display = 'block';
-            shuffleCheckbox.disabled = false;
-            quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
-
-            // Reset other UI elements
-            statusMessage.textContent = ""; // Clear any loading/status messages
-            errorMessage.textContent = ''; // Clear any previous error messages
-            errorMessage.classList.add('hidden');
-            settingsMenu.classList.remove('menu-active'); // Ensure settings menu is closed
-            settingsMenu.classList.add('hidden');
-
-            // Re-load the manifest to show quiz options
-            loadQuizManifest();
-        }
+        function showSelectScreen(preventClear = false) {
+             console.log("[UI] Show Select Screen" + (preventClear ? " (no state clear)" : ""));
+             if (!preventClear) { clearState(); } // Clear state ONLY if called by user action
+             // Reset state variables fully
+             originalQuizData = []; quizData = []; currentFileName = ""; score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
+             clearAutoAdvanceTimer(); hideError();
+             // Reset UI visibility
+             quizSection.classList.add('hidden'); quizSection.style.display = 'none'; resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
+             usageDetails.classList.remove('hidden'); // Show usage on select screen
+             quizTitleElement.textContent = ''; quizTitleElement.classList.add('hidden');
+             selectSection.classList.remove('hidden'); selectSection.style.display = 'block'; shuffleCheckbox.disabled = false;
+             // Clear/reset controls
+             quizFileListContainer.innerHTML = '<p>Đang tải danh sách...</p>'; statusMessage.textContent = ""; errorMessage.textContent = ''; errorMessage.classList.add('hidden');
+             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
+             // Load the manifest
+             loadQuizManifest();
+         }
 
 
         // --- Run on script load ---
         document.addEventListener('DOMContentLoaded', () => {
-            console.log("[Init] DOM Loaded.");
-            applyInitialTheme();
-            updateTimerDisplayAndControls();
-            showSelectScreen(); // Start by showing the selection screen
-            if (usageDetails.hasAttribute('open')) { usageDetails.open = true; }
-        });
+             console.log("[Init] DOM Loaded.");
+             applyInitialTheme(); // Apply theme early
+
+             const restoredState = loadState(); // Attempt to load state
+
+             if (restoredState) { // If state exists AND is valid
+                // Use Custom Modal
+                const resumeQuizName = restoredState.quizName || "Unknown Quiz";
+                const resumeQuestionNum = (restoredState.currentQuestionIndex || 0) + 1;
+                const resumeTotalQuestions = restoredState.quizData?.length || "?";
+                let resumeMessage = `Bạn có một bài làm dở dang cho "${resumeQuizName}"`;
+                if (restoredState.view === 'quiz') { resumeMessage += ` (đang ở câu ${resumeQuestionNum}/${resumeTotalQuestions}). Bạn có muốn tiếp tục không?`; }
+                else if (restoredState.view === 'results') { resumeMessage += ` (đang ở màn hình kết quả). Bạn có muốn xem lại không?`; }
+                else { resumeMessage += `. Bạn có muốn tiếp tục không?`; } // Fallback
+                showResumeModal(resumeMessage); // Show modal, logic continues in button handlers
+
+             } else {
+                 // No valid state to restore, start fresh automatically
+                 console.log("[Init] No valid state, starting fresh.");
+                 updateTimerDisplayAndControls(); // Set initial timer display
+                 showSelectScreen(true); // Show select screen, prevent state clear
+                 // Decide initial visibility of usage details
+                  if (usageDetails.hasAttribute('open')) { usageDetails.open = true; usageDetails.classList.remove('hidden'); }
+                  else { usageDetails.classList.add('hidden'); }
+             }
+         });
 
     </script>
 </body>
