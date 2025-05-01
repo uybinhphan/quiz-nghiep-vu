@@ -45,7 +45,14 @@
         /* --- BASE STYLES --- */
          body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; background-color: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px; display: flex; justify-content: center; align-items: flex-start; min-height: 100vh; transition: background-color 0.3s ease, color 0.3s ease; }
          #app { background-color: var(--card-bg-color); padding: var(--app-padding); border-radius: 8px; box-shadow: 0 4px 12px var(--shadow-color); width: 100%; max-width: 700px; text-align: center; border: 1px solid var(--card-border-color); transition: background-color 0.3s ease, border-color 0.3s ease; position: relative; }
-         h1, h2 { color: var(--primary-color); margin-bottom: 1em; }
+         /* Adjusted Title Margins */
+         h1 { color: var(--primary-color); margin-bottom: 0.5em; }
+         h2 { color: var(--primary-color); margin-bottom: 0.5em; }
+         #quiz-title {
+            font-size: 1.1em; color: var(--secondary-color);
+            margin-top: -0.25em; margin-bottom: 1.5em;
+            font-weight: normal;
+         }
 
          /* --- HOW TO USE SECTION --- */
          #usage-details { margin-bottom: 20px; text-align: left; border: 1px dashed var(--secondary-color); border-radius: 5px; background-color: var(--bg-color); transition: all 0.3s ease-out; opacity: 1; max-height: 1000px; overflow: hidden;}
@@ -60,14 +67,14 @@
             margin-bottom: 30px; padding: 20px; border: 1px solid var(--card-border-color); border-radius: 8px;
             background-color: var(--bg-color); text-align: left; transition: background-color 0.3s ease, border-color 0.3s ease;
          }
-         #drive-file-list { /* Button container */
+         #quiz-file-list {
             display: flex; flex-direction: column; gap: 10px; margin-bottom: 15px; min-height: 30px;
          }
-         .drive-file-button { /* Button styling */
+         .quiz-file-button {
              padding: 10px 15px; background-color: var(--primary-color); color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; text-align: left; font-size: 1em; word-break: break-word;
          }
-         .drive-file-button:hover { filter: brightness(1.1); }
-         .drive-file-button:disabled { background-color: var(--disabled-bg-color); color: var(--disabled-text-color); cursor: not-allowed; opacity: 0.6; }
+         .quiz-file-button:hover { filter: brightness(1.1); }
+         .quiz-file-button:disabled { background-color: var(--disabled-bg-color); color: var(--disabled-text-color); cursor: not-allowed; opacity: 0.6; }
 
          #status-message {
              display: block; margin-top: 5px; margin-bottom: 15px; color: var(--secondary-color); font-style: italic; min-height: 1.2em;
@@ -97,7 +104,16 @@
          #settings-btn { background: none; border: none; font-size: 1.6em; cursor: pointer; padding: 0 5px; line-height: 1; color: var(--text-color); order: 5; transition: opacity 0.2s ease; }
          #settings-btn:disabled { opacity: 0.5; cursor: not-allowed; }
          #settings-btn::after { content: var(--settings-icon); }
-         #settings-menu { display: none; position: absolute; top: 55px; right: var(--app-padding-mobile); background-color: var(--menu-bg); border: 1px solid var(--menu-border); border-radius: 6px; padding: 15px; box-shadow: 0 4px 12px var(--shadow-color); z-index: 10; min-width: 200px; transition: background-color 0.3s ease, border-color 0.3s ease; }
+         /* Adjusted Settings Menu Position */
+         #settings-menu {
+             display: none; position: absolute;
+             top: 50px; /* Adjusted top position */
+             right: var(--app-padding-mobile);
+             background-color: var(--menu-bg); border: 1px solid var(--menu-border);
+             border-radius: 6px; padding: 15px; box-shadow: 0 4px 12px var(--shadow-color);
+             z-index: 10; min-width: 200px;
+             transition: background-color 0.3s ease, border-color 0.3s ease;
+         }
          #settings-menu.menu-active { display: block; }
          .settings-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
          .settings-item label { font-size: 0.95em; color: var(--text-color); margin-right: 10px; }
@@ -142,6 +158,8 @@
          #shuffle-now-btn:hover:not(:disabled) { filter: brightness(1.1); }
          #reload-original-btn { background-color: var(--secondary-color); color: white; }
          #reload-original-btn:hover:not(:disabled) { filter: brightness(1.1); }
+         #back-to-select-quiz-btn { background-color: var(--secondary-color); } /* Added button style */
+         #back-to-select-quiz-btn:hover:not(:disabled) { filter: brightness(1.1); } /* Added button style */
 
          /* --- RESULTS SECTION --- */
          #results-section { display: none; text-align: center; padding: 30px var(--app-padding-mobile); background-color: var(--bg-color); border-radius: 8px; border: 1px solid var(--card-border-color); transition: background-color 0.3s ease, border-color 0.3s ease; }
@@ -167,7 +185,12 @@
              #app {
                  padding: 0; box-shadow: none; border-radius: 0; max-width: 100%; border: none;
              }
-
+             h1 { font-size: 1.6em; }
+             h2 { font-size: 1.4em; }
+             #quiz-title {
+                 font-size: 1em; margin-bottom: 1em;
+                 padding: 0 var(--app-padding-mobile);
+            }
              #usage-details {
                  border-radius: 0; border-left: none; border-right: none; margin-bottom: 10px;
              }
@@ -198,12 +221,14 @@
              #results-section {
                  padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none;
              }
-             h1 { font-size: 1.6em; }
-             h2 { font-size: 1.4em; }
              #question-text { font-size: 1.1em; }
              .answer-btn { font-size: 0.9em; }
              .nav-btn { font-size: 0.85em; padding: 8px 12px; }
-             #settings-menu { right: 5px; top: 45px; }
+             /* Adjusted Settings Menu Position (Mobile) */
+             #settings-menu {
+                 right: 5px;
+                 top: 45px; /* Adjusted mobile top position */
+             }
              #results-controls {
                  flex-direction: column; gap: 10px; align-items: center;
              }
@@ -219,13 +244,14 @@
     <div id="app">
         <h1>Ôn kiểm tra nghiệp vụ</h1>
         <h2>Đợt 1 - 2025</h2>
+        <h2 id="quiz-title" class="hidden"></h2> <!-- Quiz Title -->
+
         <!-- How to Use Section -->
         <details id="usage-details" open>
-            <summary>Hướng dẫn sử dụng & Định dạng Excel</summary>
+            <summary>Hướng dẫn sử dụng</summary>
              <div>
-                 <p><strong>Cách dùng:</strong></p>
                  <ol>
-                     <li>Chọn một bộ câu hỏi từ danh sách bên dưới (tên bộ câu hỏi lấy từ tên file Excel gốc).</li>
+                     <li>Chọn một bộ câu hỏi từ danh sách bên dưới.</li>
                      <li>(Tùy chọn) Tick "Xáo trộn" <i>trước khi</i> chọn bộ câu hỏi để câu hỏi hiện ngẫu nhiên.</li>
                      <li>Quiz sẽ bắt đầu sau khi dữ liệu được tải.</li>
                      <li>Trả lời bằng cách nhấn vào đáp án.</li>
@@ -233,25 +259,14 @@
                      <li>Nhấn biểu tượng ⚙️ để chỉnh tốc độ tự chuyển câu hoặc đổi giao diện Sáng/Tối.</li>
                      <li>Khi hoàn thành, xem kết quả và có thể làm lại (bộ câu hỏi hiện tại), xem lại bài làm, hoặc quay lại chọn bộ câu hỏi khác.</li>
                  </ol>
-                 <!-- <p><strong>Định dạng cột Excel (Dùng để tạo file JSON):</strong></p>
-                 <ul>
-                     <li>Cột A: <code>STT</code> (Không bắt buộc)</li>
-                     <li>Cột B: <code>Câu hỏi</code></li>
-                     <li>Cột C: <code>Đáp án 1</code></li>
-                     <li>Cột D: <code>Đáp án 2</code></li>
-                     <li>Cột E: <code>Đáp án 3</code></li>
-                     <li>Cột F: <code>Đáp án 4</code></li>
-                     <li>Cột G: <code>Đáp án đúng</code> (Số 1-4)</li>
-                     <li>Cột H: <code>Trích dẫn nguồn</code> (Tùy chọn)</li>
-                 </ul>
-                 <p><em>Lưu ý: Dòng đầu tiên phải là tên các cột này (không phân biệt hoa thường). Đặt file Excel trong thư mục `quizzes/`. Chạy script `node convert.js` để tạo/cập nhật các file JSON tương ứng và file `quiz_manifest.json` trong thư mục `data/` sau khi sửa file Excel. Commit và push thư mục `data/` cùng `index.html` lên GitHub.</em></p> -->
+                 <!-- Excel Format Details -->
              </div>
         </details>
 
         <!-- Select Section -->
         <div id="select-section">
              <h2>Chọn Bộ Câu Hỏi</h2>
-             <div id="drive-file-list">
+             <div id="quiz-file-list">
                  <p>Đang tải danh sách bộ câu hỏi...</p>
              </div>
              <p id="status-message"></p>
@@ -276,6 +291,7 @@
                  <button id="settings-btn" title="Cài đặt"></button>
             </div>
              <div id="settings-menu" class="hidden">
+                <!-- Settings Items -->
                 <div class="settings-item">
                     <label>Tự chuyển (giây):</label>
                     <div id="timer-control">
@@ -299,6 +315,7 @@
                     <button id="restart-practice-btn" class="nav-btn">Làm lại</button>
                     <button id="shuffle-now-btn" class="nav-btn">Xáo trộn</button>
                     <button id="reload-original-btn" class="nav-btn">Thứ tự gốc</button>
+                    <button id="back-to-select-quiz-btn" class="nav-btn">Chọn bộ khác</button> <!-- Added Button -->
                 </div>
                 <div id="review-controls" class="hidden">
                     <button id="exit-review-btn" class="nav-btn">Thoát xem lại</button>
@@ -320,15 +337,16 @@
                 <button id="review-btn">Xem lại bài làm</button>
                 <button id="back-to-select-btn">Chọn bộ câu hỏi khác</button>
             </div>
-        </div>        
+        </div>
     </div>
 
     <script>
         // --- DOM Element References ---
         const bodyElement = document.body;
+        const quizTitleElement = document.getElementById('quiz-title');
         const usageDetails = document.getElementById('usage-details');
         const selectSection = document.getElementById('select-section');
-        const driveFileListContainer = document.getElementById('drive-file-list'); // Button container
+        const quizFileListContainer = document.getElementById('quiz-file-list');
         const statusMessage = document.getElementById('status-message');
         const shuffleCheckbox = document.getElementById('shuffle-checkbox');
         const quizSection = document.getElementById('quiz-section');
@@ -346,6 +364,7 @@
         const restartPracticeBtn = document.getElementById('restart-practice-btn');
         const shuffleNowBtn = document.getElementById('shuffle-now-btn');
         const reloadOriginalBtn = document.getElementById('reload-original-btn');
+        const backToSelectQuizBtn = document.getElementById('back-to-select-quiz-btn'); // Added reference
         const exitReviewBtn = document.getElementById('exit-review-btn');
         const toggleFilterBtn = document.getElementById('toggle-filter-btn');
         const finalScoreText = document.getElementById('final-score');
@@ -380,9 +399,8 @@
         let reviewWrongOnly = false;
         let wrongAnswerIndices = [];
         let currentWrongAnswerReviewIndex = 0;
-        let currentFileName = ""; // Will store the display name (filename from manifest)
-        const MANIFEST_PATH = 'data/quiz_manifest.json'; // Path to the manifest file
-        // REMOVED: const MOBILE_BREAKPOINT = 700;
+        let currentFileName = "";
+        const MANIFEST_PATH = 'data/quiz_manifest.json';
 
         // --- THEME FUNCTIONS ---
         function applyInitialTheme() { const savedTheme = localStorage.getItem('theme'); if (savedTheme === 'dark') { bodyElement.classList.add('dark-theme'); } else { bodyElement.classList.remove('dark-theme'); } updateThemeToggleButton(); }
@@ -393,9 +411,6 @@
         function toggleSettingsMenu() { settingsMenu.classList.toggle('menu-active'); settingsMenu.classList.toggle('hidden'); }
         document.addEventListener('click', function(event) { if (settingsMenu.classList.contains('menu-active') && !settingsMenu.contains(event.target) && !settingsBtn.contains(event.target)) { settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); } });
 
-        // --- Mobile Layout Detection (REMOVED) ---
-        // function applyMobileLayout() { ... }
-
         // --- Event Listeners ---
         settingsBtn.addEventListener('click', toggleSettingsMenu);
         themeToggleButton.addEventListener('click', toggleTheme);
@@ -404,9 +419,10 @@
         restartPracticeBtn.addEventListener('click', restartQuiz);
         shuffleNowBtn.addEventListener('click', handleShuffleNow);
         reloadOriginalBtn.addEventListener('click', handleReloadOriginal);
+        backToSelectQuizBtn.addEventListener('click', showSelectScreen); // Added listener
         restartBtn.addEventListener('click', restartQuiz);
         reviewBtn.addEventListener('click', startReviewMode);
-        backToSelectBtn.addEventListener('click', showSelectScreen);
+        backToSelectBtn.addEventListener('click', showSelectScreen); // Existing listener on results screen
         exitReviewBtn.addEventListener('click', exitReviewMode);
         toggleFilterBtn.addEventListener('click', toggleReviewFilter);
         jumpToBtn.addEventListener('click', handleJumpToQuestion);
@@ -414,10 +430,11 @@
         answersContainer.addEventListener('click', (event) => { if (event.target.classList.contains('answer-btn') && !event.target.disabled) { handleAnswerSelection(event.target); } });
         timerDecreaseBtn.addEventListener('click', decreaseTimer);
         timerIncreaseBtn.addEventListener('click', increaseTimer);
-        // REMOVED: window.addEventListener('orientationchange', applyMobileLayout);
-        // REMOVED: window.addEventListener('resize', applyMobileLayout);
 
-        // --- Core Quiz Functions (Timer, Navigation, Shuffle, Reload) ---
+        // --- Core Quiz Functions ---
+        // decreaseTimer, increaseTimer, updateTimerDisplayAndControls, clearAutoAdvanceTimer
+        // navigatePrevious, navigateNext, handleJumpToQuestion
+        // handleShuffleNow, handleReloadOriginal, shuffleArray remain unchanged
         function decreaseTimer() { if (!isReviewMode && autoAdvanceDuration > MIN_TIMER) { autoAdvanceDuration -= TIMER_STEP; updateTimerDisplayAndControls(); } }
         function increaseTimer() { if (!isReviewMode && autoAdvanceDuration < MAX_TIMER) { autoAdvanceDuration += TIMER_STEP; updateTimerDisplayAndControls(); } }
         function updateTimerDisplayAndControls() { timerDurationDisplay.textContent = (autoAdvanceDuration / 1000).toFixed(1) + 's'; timerDecreaseBtn.disabled = isReviewMode || autoAdvanceDuration <= MIN_TIMER; timerIncreaseBtn.disabled = isReviewMode || autoAdvanceDuration >= MAX_TIMER; timerBar.style.setProperty('--timer-duration', autoAdvanceDuration + 'ms'); }
@@ -429,11 +446,13 @@
         function handleReloadOriginal() { if (isReviewMode || !originalQuizData || originalQuizData.length === 0) { alert("Không có dữ liệu gốc để tải lại."); return; } console.log("[Action] Reloading original question order..."); quizData = [...originalQuizData]; restartQuiz(); }
         function shuffleArray(array) { for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [array[i], array[j]] = [array[j], array[i]]; } }
 
+
         // --- JSON Loading Logic ---
+        // loadQuizManifest, displayQuizOptions, loadQuizFromJson remain unchanged
         function loadQuizManifest() {
             console.log(`[Manifest] Fetching quiz manifest from ${MANIFEST_PATH}...`);
             hideError();
-            driveFileListContainer.innerHTML = '<p>Đang tải danh sách bộ câu hỏi...</p>';
+            quizFileListContainer.innerHTML = '<p>Đang tải danh sách bộ câu hỏi...</p>';
             statusMessage.textContent = "";
             shuffleCheckbox.disabled = true;
             const cacheBuster = `?t=${new Date().getTime()}`;
@@ -453,7 +472,7 @@
                 .catch(error => {
                     console.error("[Manifest Error]", error);
                     showError(`Không thể tải danh sách bộ câu hỏi: ${error.message}`);
-                    driveFileListContainer.innerHTML = '';
+                    quizFileListContainer.innerHTML = '';
                     statusMessage.textContent = "Lỗi tải danh sách.";
                 });
         }
@@ -461,7 +480,7 @@
         function displayQuizOptions(quizList) {
             console.log("[UI] Displaying quiz options...");
             hideError();
-            driveFileListContainer.innerHTML = '';
+            quizFileListContainer.innerHTML = '';
             statusMessage.textContent = "Vui lòng chọn một bộ câu hỏi.";
 
             if (!quizList || !Array.isArray(quizList)) { showError("Dữ liệu danh sách bộ câu hỏi không hợp lệ."); return; }
@@ -470,24 +489,28 @@
             quizList.forEach(quiz => {
                 if (!quiz || typeof quiz.name !== 'string' || typeof quiz.file !== 'string') { console.warn("Skipping invalid entry in manifest:", quiz); return; }
                 const btn = document.createElement('button');
-                btn.classList.add('drive-file-button');
+                btn.classList.add('quiz-file-button');
                 btn.textContent = quiz.name;
                 btn.dataset.quizFile = quiz.file;
                 btn.dataset.quizName = quiz.name;
                 btn.addEventListener('click', () => loadQuizFromJson(quiz.file, quiz.name));
-                driveFileListContainer.appendChild(btn);
+                quizFileListContainer.appendChild(btn);
             });
             shuffleCheckbox.disabled = false;
-            driveFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
+            quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
         }
 
         function loadQuizFromJson(jsonFilePath, quizName) {
             console.log(`[Fetch] Requesting data for quiz: ${quizName} from ${jsonFilePath}`);
             hideError();
             statusMessage.textContent = `Đang tải dữ liệu cho "${quizName}"...`;
-            driveFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = true);
+            quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = true);
             shuffleCheckbox.disabled = true;
             currentFileName = quizName;
+
+            quizTitleElement.textContent = quizName;
+            quizTitleElement.classList.remove('hidden');
+
             const cacheBuster = `?t=${new Date().getTime()}`;
 
             fetch(jsonFilePath + cacheBuster)
@@ -509,7 +532,9 @@
                 });
         }
 
+
         // --- Data Processing and Quiz Start ---
+        // processQuizData remains unchanged
         function processQuizData(jsonData) {
              console.log(`[Processing] Processing ${jsonData.length} questions from JSON for "${currentFileName}".`);
              try {
@@ -540,7 +565,9 @@
              }
          }
 
+
         // --- Quiz Start and Display Functions ---
+        // startQuiz remains unchanged
         function startQuiz() {
             console.log("[Mode] Starting Quiz (Normal Mode)");
             isReviewMode = false; reviewWrongOnly = false;
@@ -554,13 +581,14 @@
             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
             quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
 
-            navControls.classList.remove('hidden');
+            navControls.classList.remove('hidden'); // Show quiz nav controls (includes new back button)
             reviewControls.classList.add('hidden');
             settingsBtn.disabled = false; settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
 
             displayQuestion(currentQuestionIndex);
         }
 
+        // displayQuestion remains unchanged
         function displayQuestion(index) {
              currentQuestionIndex = index;
              if (index < 0 || index >= quizData.length || !quizData[index]) {
@@ -605,14 +633,16 @@
 
              if (isReviewMode) {
                  answersContainer.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
-                 navControls.classList.add('hidden'); reviewControls.classList.remove('hidden');
+                 navControls.classList.add('hidden'); // Hide normal controls in review
+                 reviewControls.classList.remove('hidden'); // Show review controls
                  settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
                  clearAutoAdvanceTimer(); timerBar.classList.remove('timer-active');
                  toggleFilterBtn.textContent = reviewWrongOnly ? "Xem tất cả câu" : "Chỉ xem câu sai";
                  toggleFilterBtn.classList.toggle('filter-active', reviewWrongOnly);
                  toggleFilterBtn.disabled = wrongAnswerIndices.length === 0 && !reviewWrongOnly;
              } else {
-                 navControls.classList.remove('hidden'); reviewControls.classList.add('hidden');
+                 navControls.classList.remove('hidden'); // Show normal controls during quiz
+                 reviewControls.classList.add('hidden'); // Hide review controls
                  settingsBtn.disabled = false; settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
                  updateTimerDisplayAndControls();
              }
@@ -631,6 +661,7 @@
              settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
         }
 
+        // restoreAnswerState remains unchanged
         function restoreAnswerState(questionIndex) {
             const userAnswerIndex = userAnswers[questionIndex];
             const buttons = answersContainer.querySelectorAll('.answer-btn');
@@ -660,6 +691,7 @@
             }
         }
 
+        // handleAnswerSelection remains unchanged
         function handleAnswerSelection(selectedButton) {
              if (isReviewMode || questionsAnswered[currentQuestionIndex]) return;
              clearAutoAdvanceTimer();
@@ -694,26 +726,30 @@
              }
         }
 
+
         // --- Results/Restart/Review Functions ---
+        // showResults remains unchanged
         function showResults() {
             console.log("[Mode] Showing Results");
             isReviewMode = false; reviewWrongOnly = false;
             clearAutoAdvanceTimer();
             quizSection.classList.add('hidden'); quizSection.style.display = 'none';
             resultsSection.classList.remove('hidden'); resultsSection.style.display = 'block';
-            finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length} (${currentFileName})`;
+            finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length}`;
             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
             settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
         }
 
+        // restartQuiz remains unchanged
         function restartQuiz() {
             if (!quizData || quizData.length === 0) { showSelectScreen(); return; }
             console.log(`[Action] Restarting quiz: ${currentFileName}`);
-            quizData = [...originalQuizData]; // Get a fresh copy of original data for this quiz
-            if (shuffleCheckbox.checked) { shuffleArray(quizData); } // Re-shuffle if needed
-            startQuiz(); // Reset UI and state
+            quizData = [...originalQuizData];
+            if (shuffleCheckbox.checked) { shuffleArray(quizData); }
+            startQuiz();
         }
 
+        // startReviewMode remains unchanged
         function startReviewMode() {
              if (!quizData || quizData.length === 0) return;
              console.log("[Mode] Entering Review Mode");
@@ -730,11 +766,13 @@
 
              resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
              quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
-             navControls.classList.add('hidden'); reviewControls.classList.remove('hidden');
+             navControls.classList.add('hidden');
+             reviewControls.classList.remove('hidden');
 
              displayQuestion(currentQuestionIndex);
         }
 
+        // exitReviewMode remains unchanged
         function exitReviewMode() {
             console.log("[Mode] Exiting Review Mode");
             isReviewMode = false; reviewWrongOnly = false;
@@ -742,6 +780,7 @@
             showResults();
         }
 
+        // toggleReviewFilter remains unchanged
         function toggleReviewFilter() {
              if (!isReviewMode) return;
              reviewWrongOnly = !reviewWrongOnly;
@@ -754,37 +793,51 @@
              displayQuestion(currentQuestionIndex);
          }
 
+
         // --- Utility Functions ---
+        // showError, hideError remain unchanged
         function showError(message) { console.error("[UI Error]", message); errorMessage.textContent = message; errorMessage.classList.remove('hidden'); }
         function hideError() { errorMessage.textContent = ''; errorMessage.classList.add('hidden'); }
 
+        // showSelectScreen updated to reset UI state fully
         function showSelectScreen() {
             console.log("[UI Update] Returning to Select Screen");
+            // Reset state variables
             originalQuizData = []; quizData = []; currentFileName = ""; score = 0; userAnswers = {}; questionsAnswered = {};
+            currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false;
             clearAutoAdvanceTimer(); hideError();
 
+            // Reset UI sections
             quizSection.classList.add('hidden'); quizSection.style.display = 'none';
             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
             usageDetails.classList.remove('hidden');
 
+            // Hide and clear the quiz title
+            quizTitleElement.textContent = '';
+            quizTitleElement.classList.add('hidden');
+
+            // Show select section and enable controls
             selectSection.classList.remove('hidden'); selectSection.style.display = 'block';
             shuffleCheckbox.disabled = false;
-            driveFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
+            quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
 
-            loadQuizManifest(); // Load the manifest to display options
+            // Reset other UI elements if needed (e.g., status message)
+            statusMessage.textContent = ""; // Clear any loading messages
+
+            // Re-load the manifest to show quiz options
+            loadQuizManifest();
         }
+
 
         // --- Run on script load ---
         document.addEventListener('DOMContentLoaded', () => {
             console.log("[Init] DOM Loaded.");
             applyInitialTheme();
-            // REMOVED: applyMobileLayout(); - CSS media query handles this now
             updateTimerDisplayAndControls();
-            showSelectScreen();
+            showSelectScreen(); // Start by showing the selection screen
             if (usageDetails.hasAttribute('open')) { usageDetails.open = true; }
         });
-         // REMOVED: window.addEventListener('load', applyMobileLayout);
 
-    </script>    
+    </script>
 </body>
 </html>
