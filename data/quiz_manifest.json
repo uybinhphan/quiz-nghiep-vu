@@ -12,12 +12,20 @@
     "file": "./data/3. Tín dụng khách hàng cá nhân.json"
   },
   {
+    "name": "5. Thanh toán quốc tế và Tài trợ thương mại",
+    "file": "./data/5. Thanh toán quốc tế và Tài trợ thương mại.json"
+  },
+  {
     "name": "8. Kế toán giao dịch khách hàng",
     "file": "./data/8. Kế toán giao dịch khách hàng.json"
   },
   {
     "name": "17. Bộ câu hỏi Kiến thức chung",
     "file": "./data/17. Bộ câu hỏi Kiến thức chung.json"
+  },
+  {
+    "name": "18. Bộ câu hỏi Kiến thức kỹ năng quản lý cấp phòng",
+    "file": "./data/18. Bộ câu hỏi Kiến thức kỹ năng quản lý cấp phòng.json"
   },
   {
     "name": "19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên",
