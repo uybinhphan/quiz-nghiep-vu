@@ -1,9 +1,8 @@
 // Service Worker for Quiz App
 const CACHE_NAME = 'quiz-app-v1';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  // Add CSS/JS if needed
+  './index.html',
+  // Add other assets like './data/quiz_manifest.json', './main.js', etc.
 ];
 
 // Pre-cache core assets on install
