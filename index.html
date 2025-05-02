@@ -395,6 +395,54 @@
             opacity: 0.9;
         }
 
+        /* --- SETTINGS MENU STYLES --- */
+        #settings-dialog {
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px var(--shadow-color);
+            padding: 20px 30px;
+            max-width: 350px;
+            width: 90vw;
+            background-color: var(--menu-bg);
+            border: 1px solid var(--menu-border);
+            color: var(--text-color);
+        }
+        
+        #settings-dialog::backdrop {
+            background: rgba(0, 0, 0, 0.6);
+        }
+        
+        #settings-dialog form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        #settings-dialog menu {
+            display: flex;
+            justify-content: flex-end;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #settings-dialog button[value="close"] {
+            padding: 8px 16px;
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        #settings-dialog button[value="close"]:hover {
+            filter: brightness(1.1);
+        }
+        
+        @media (max-width: 700px) {
+            #settings-dialog {
+                padding: 15px 20px;
+            }
+        }
     </style>
 </head>
 <body class=""> <!-- Theme class managed by JS -->
@@ -448,20 +496,26 @@
                  <div id="score">Điểm: 0</div>
                  <button id="settings-btn" title="Cài đặt"></button>
             </div>
-             <div id="settings-menu" class="hidden">
-                <div class="settings-item">
-                    <label>Tự chuyển (giây):</label>
-                    <div id="timer-control">
-                        <button id="timer-decrease-btn" title="Giảm">-</button>
-                        <span id="timer-duration-display">0.5s</span>
-                        <button id="timer-increase-btn" title="Tăng">+</button>
+            <!-- Replace settings menu with dialog -->
+            <dialog id="settings-dialog">
+                <form method="dialog">
+                    <div class="settings-item">
+                        <label for="timer-control">Tự chuyển (giây):</label>
+                        <div id="timer-control">
+                            <button id="timer-decrease-btn" type="button" title="Giảm">-</button>
+                            <span id="timer-duration-display">0.5s</span>
+                            <button id="timer-increase-btn" type="button" title="Tăng">+</button>
+                        </div>
                     </div>
-                </div>
-                <div class="settings-item">
-                    <label>Giao diện:</label>
-                    <button id="theme-toggle-btn"></button>
-                </div>
-            </div>
+                    <div class="settings-item">
+                        <label for="theme-toggle-btn">Giao diện:</label>
+                        <button id="theme-toggle-btn" type="button"></button>
+                    </div>
+                    <menu>
+                        <button value="close">Đóng</button>
+                    </menu>
+                </form>
+            </dialog>
             <div id="question-container">
                 <h2 id="question-text">...</h2>
                 <div id="answers"></div>
@@ -552,7 +606,6 @@
         const timerIncreaseBtn = document.getElementById('timer-increase-btn');
         const timerDurationDisplay = document.getElementById('timer-duration-display');
         const settingsBtn = document.getElementById('settings-btn');
-        const settingsMenu = document.getElementById('settings-menu');
         const themeToggleButton = document.getElementById('theme-toggle-btn');
         // Modal references
         const resumeModalOverlay = document.getElementById('resume-modal-overlay');
@@ -651,19 +704,19 @@
 
         // --- SETTINGS MENU FUNCTIONS ---
         function toggleSettingsMenu() {
-            settingsMenu.classList.toggle('menu-active'); settingsMenu.classList.toggle('hidden');
-            if (settingsMenu.classList.contains('menu-active')) {
-                try {
-                    const btnRect = settingsBtn.getBoundingClientRect(); const appRect = document.getElementById('app').getBoundingClientRect();
-                    const menuTop = (btnRect.top - appRect.top) + btnRect.height + 5; settingsMenu.style.top = `${menuTop}px`;
-                    const menuRect = settingsMenu.getBoundingClientRect(); if (menuRect.bottom > window.innerHeight) { const newTop = menuTop - (menuRect.bottom - window.innerHeight) - 10; settingsMenu.style.top = `${Math.max(0, newTop)}px`; }
-                } catch (e) { console.error("Error calculating menu position:", e); }
+            const settingsDialog = document.getElementById('settings-dialog');
+            if (settingsDialog.open) {
+                settingsDialog.close();
+            } else {
+                settingsDialog.showModal();
             }
         }
-        document.addEventListener('click', function(event) { if (settingsMenu.classList.contains('menu-active') && !settingsMenu.contains(event.target) && !settingsBtn.contains(event.target)) { settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); } });
+
+        // Update event listeners
+        settingsBtn.addEventListener('click', toggleSettingsMenu);
+        themeToggleButton.addEventListener('click', toggleTheme);
 
         // --- Event Listeners ---
-        settingsBtn.addEventListener('click', toggleSettingsMenu); themeToggleButton.addEventListener('click', toggleTheme);
         prevBtn.addEventListener('click', navigatePrevious); nextBtn.addEventListener('click', navigateNext);
         restartPracticeBtn.addEventListener('click', restartQuiz); shuffleNowBtn.addEventListener('click', handleShuffleNow);
         reloadOriginalBtn.addEventListener('click', handleReloadOriginal); backToSelectQuizBtn.addEventListener('click', showSelectScreen);
@@ -955,7 +1008,11 @@
              else { updateTimerDisplayAndControls(); }
              if (reviewWrongOnly) { prevBtn.disabled = (currentWrongAnswerReviewIndex <= 0); nextBtn.disabled = (currentWrongAnswerReviewIndex >= wrongAnswerIndices.length - 1); nextBtn.textContent = 'Câu sau'; }
              else { prevBtn.disabled = (index <= 0); const isLast = index === quizData.length - 1; const isAnswered = questionsAnswered[index]; nextBtn.textContent = (isLast && !isReviewMode) ? 'Hoàn thành' : 'Câu sau'; nextBtn.disabled = (!isReviewMode && !isAnswered) || (isReviewMode && isLast); }
-             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
+             // Remove old settings menu handling
+             const settingsDialog = document.getElementById('settings-dialog');
+             if (settingsDialog) {
+                 settingsDialog.close();
+             }
         }
         function restoreAnswerState(questionIndex) {
             const userAnswerIndex = userAnswers[questionIndex]; const buttons = answersContainer.querySelectorAll('.answer-btn');
@@ -995,7 +1052,7 @@
             isReviewMode = false; reviewWrongOnly = false; clearAutoAdvanceTimer();
             quizSection.classList.add('hidden'); quizSection.style.display = 'none'; resultsSection.classList.remove('hidden'); resultsSection.style.display = 'block';
             finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length}`; quizTitleElement.textContent = currentFileName; quizTitleElement.classList.remove('hidden');
-            settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden'); settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
+            settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
             saveState(); // Save state when showing results
         }
         function restartQuiz(wasShuffled = false) {
@@ -1061,7 +1118,7 @@
              }
              
              statusMessage.textContent = ""; errorMessage.textContent = ''; errorMessage.classList.add('hidden');
-             settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
+             settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
              
              // Check if manifest is already cached before reloading
              const cachedManifest = sessionStorage.getItem('quizManifest');
