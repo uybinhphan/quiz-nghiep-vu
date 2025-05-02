@@ -28,11 +28,14 @@ jobs:
       - name: Install Dependencies
         run: npm ci
         
-      - name: Optimize CSS and JavaScript
+      - name: Install HTML Minifier
+        run: npm install html-minifier -g
+        
+      - name: Minify HTML/CSS/JS
         run: |
-          # Minify the CSS
-          npx clean-css-cli@5 index.html -o temp.html
-          mv temp.html index.html
+          # Use html-minifier which can properly handle HTML with embedded CSS and JS
+          html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --minify-css true --minify-js true index.html -o index.min.html
+          mv index.min.html index.html
       
       - name: Compress JSON Files
         run: |
