@@ -337,7 +337,15 @@
              #nav-controls, #review-controls { order: -1; margin-right: 0; width: 100%; justify-content: center; margin-bottom: 10px; }
              #nav-prev-next { margin-left: 0; width: 100%; justify-content: space-between; }
              #results-section { padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
-             #question-text { font-size: 1.1em; } .answer-btn { font-size: 0.9em; } .nav-btn { font-size: 0.85em; padding: 8px 12px; }
+             #question-text { font-size: 1.1em; } 
+             /* Larger answer buttons on mobile */
+             .answer-btn { 
+                 font-size: 1.05em; 
+                 padding: 16px 18px; 
+                 margin-bottom: 5px;
+                 min-height: 3em;
+             }
+             .nav-btn { font-size: 0.85em; padding: 8px 12px; }
              #settings-menu { right: 5px; }
              #results-controls { flex-direction: column; gap: 10px; align-items: center; }
              #restart-btn, #review-btn, #back-to-select-btn { width: 80%; max-width: 300px; }
@@ -347,6 +355,45 @@
              .modal-btn { font-size: 0.9em; padding: 8px 15px; min-width: 100px; }
          }
          /* --- End of Media Query --- */
+         
+        /* --- Touch Swipe Support --- */
+        #question-container {
+            touch-action: pan-y;
+            position: relative;
+        }
+        
+        /* Swipe indicators that appear when swiping */
+        .swipe-indicator {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: var(--card-bg-color);
+            color: var(--primary-color);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            box-shadow: 0 2px 10px var(--shadow-color);
+            pointer-events: none;
+            z-index: 100;
+        }
+        
+        .swipe-left {
+            left: 15px;
+        }
+        
+        .swipe-right {
+            right: 15px;
+        }
+        
+        .swipe-active {
+            opacity: 0.9;
+        }
 
     </style>
 </head>
@@ -1077,6 +1124,89 @@
              }
          });
 
+    </script>
+
+    <!-- Add swipe gesture functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Create swipe indicators
+            const questionContainer = document.getElementById('question-container');
+            if (!questionContainer) return;
+            
+            // Create swipe indicator elements
+            const leftIndicator = document.createElement('div');
+            leftIndicator.className = 'swipe-indicator swipe-left';
+            leftIndicator.innerHTML = '&lsaquo;';
+            
+            const rightIndicator = document.createElement('div');
+            rightIndicator.className = 'swipe-indicator swipe-right';
+            rightIndicator.innerHTML = '&rsaquo;';
+            
+            // Add indicators to question container
+            questionContainer.appendChild(leftIndicator);
+            questionContainer.appendChild(rightIndicator);
+            
+            // Touch tracking variables
+            let touchStartX = 0;
+            let touchEndX = 0;
+            const minSwipeDistance = 75; // Minimum distance to count as a swipe
+            
+            // Handle touch start
+            questionContainer.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+            
+            // Handle touch move to show indicators
+            questionContainer.addEventListener('touchmove', (e) => {
+                const currentX = e.changedTouches[0].screenX;
+                const diffX = currentX - touchStartX;
+                
+                // Clear both indicators first
+                leftIndicator.classList.remove('swipe-active');
+                rightIndicator.classList.remove('swipe-active');
+                
+                // Show appropriate indicator based on swipe direction
+                if (diffX > 30) { // Small threshold to show indicator
+                    leftIndicator.classList.add('swipe-active');
+                } else if (diffX < -30) {
+                    rightIndicator.classList.add('swipe-active');
+                }
+            }, { passive: true });
+            
+            // Handle touch end for navigation
+            questionContainer.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+                
+                // Hide indicators
+                setTimeout(() => {
+                    leftIndicator.classList.remove('swipe-active');
+                    rightIndicator.classList.remove('swipe-active');
+                }, 300);
+            }, { passive: true });
+            
+            // Process the swipe
+            function handleSwipe() {
+                const diffX = touchEndX - touchStartX;
+                
+                // Check if swipe was long enough
+                if (Math.abs(diffX) < minSwipeDistance) return;
+                
+                if (diffX > 0) {
+                    // Swipe right to left (previous question)
+                    const prevButton = document.getElementById('prev-btn');
+                    if (prevButton && !prevButton.disabled) {
+                        navigatePrevious();
+                    }
+                } else {
+                    // Swipe left to right (next question)
+                    const nextButton = document.getElementById('next-btn');
+                    if (nextButton && !nextButton.disabled) {
+                        navigateNext();
+                    }
+                }
+            }
+        });
     </script>
 </body>
 </html>
