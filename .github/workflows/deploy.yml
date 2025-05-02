@@ -26,7 +26,7 @@ jobs:
           node-version: '16'
           
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
         
       - name: Install HTML Minifier
         run: npm install html-minifier -g
@@ -34,7 +34,7 @@ jobs:
       - name: Minify HTML/CSS/JS
         run: |
           # Use html-minifier which can properly handle HTML with embedded CSS and JS
-          html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --minify-css true --minify-js true index.html -o index.min.html
+          npx html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --minify-css true --minify-js true index.html -o index.min.html
           mv index.min.html index.html
       
       - name: Compress JSON Files
