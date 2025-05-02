@@ -1,0 +1,21 @@
+{
+  "name": "quiz-nghiep-vu",
+  "version": "1.0.0",
+  "description": "Quiz application for professional skills testing",
+  "main": "index.html",
+  "scripts": {
+    "convert": "node convert.js",
+    "compress": "node compress-json.js",
+    "optimize": "npm run compress && npx clean-css-cli@5 index.html -o temp.html && mv temp.html index.html",
+    "build": "npm run convert && npm run optimize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2"
+  }
+}
