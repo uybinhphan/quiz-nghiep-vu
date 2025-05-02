@@ -81,8 +81,109 @@
          .quiz-file-button:hover { filter: brightness(1.1); }
          .quiz-file-button:disabled { background-color: var(--disabled-bg-color); color: var(--disabled-text-color); cursor: not-allowed; opacity: 0.6; }
 
+         /* New dropdown styles */
+         #quiz-file-select {
+             width: 100%;
+             padding: 10px 15px;
+             font-size: 1em;
+             border: 1px solid var(--card-border-color);
+             border-radius: 5px;
+             background-color: var(--button-default-bg);
+             color: var(--text-color);
+             cursor: pointer;
+             transition: border-color 0.3s ease;
+             margin-bottom: 15px;
+             -webkit-appearance: none;
+             -moz-appearance: none;
+             appearance: none;
+             background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+             background-repeat: no-repeat;
+             background-position: right 10px center;
+             background-size: 1em;
+         }
+         #quiz-file-select:hover {
+             border-color: var(--primary-color);
+         }
+         #quiz-file-select:disabled {
+             background-color: var(--disabled-bg-color);
+             color: var(--disabled-text-color);
+             cursor: not-allowed;
+             opacity: 0.6;
+         }
+         #quiz-file-select option {
+             padding: 10px;
+             background-color: var(--button-default-bg);
+             color: var(--text-color);
+         }
+
+         /* Custom dropdown styles */
+         .custom-dropdown {
+             position: relative;
+             width: 100%;
+             margin-bottom: 15px;
+         }
+         .dropdown-button {
+             width: 100%;
+             padding: 10px 15px;
+             font-size: 1em;
+             border: 1px solid var(--card-border-color);
+             border-radius: 5px;
+             background-color: var(--button-default-bg);
+             color: var(--text-color);
+             cursor: pointer;
+             text-align: left;
+             transition: border-color 0.3s ease;
+             position: relative;
+         }
+         .dropdown-button:hover {
+             border-color: var(--primary-color);
+         }
+         .dropdown-button:disabled {
+             background-color: var(--disabled-bg-color);
+             color: var(--disabled-text-color);
+             cursor: not-allowed;
+             opacity: 0.6;
+         }
+         .dropdown-button::after {
+             content: '▼';
+             position: absolute;
+             right: 15px;
+             top: 50%;
+             transform: translateY(-50%);
+             font-size: 0.8em;
+         }
+         .dropdown-options {
+             position: absolute;
+             top: 100%;
+             left: 0;
+             right: 0;
+             background-color: var(--button-default-bg);
+             border: 1px solid var(--card-border-color);
+             border-radius: 5px;
+             margin-top: 5px;
+             max-height: 300px;
+             overflow-y: auto;
+             z-index: 1000;
+             display: none;
+             box-shadow: 0 4px 12px var(--shadow-color);
+         }
+         .dropdown-options.show {
+             display: block;
+         }
+         .dropdown-option {
+             padding: 10px 15px;
+             cursor: pointer;
+             transition: background-color 0.2s ease;
+         }
+         .dropdown-option:hover {
+             background-color: var(--button-hover-bg);
+         }
+
          #status-message {
-             display: block; margin-top: 5px; margin-bottom: 15px; color: var(--secondary-color); font-style: italic; min-height: 1.2em;
+             display: none; margin-top: 5px; margin-bottom: 15px; color: var(--secondary-color); font-style: italic; min-height: 1.2em;
+         }
+         #status-message:not(:empty) {
+             display: block;
          }
          #shuffle-option { margin-top: 15px; margin-bottom: 15px; }
          #shuffle-option label { margin-left: 8px; cursor: pointer; color: var(--secondary-color); font-weight: normal; }
@@ -269,7 +370,9 @@
         <div id="select-section">
              <h2>Chọn Bộ Câu Hỏi</h2>
              <div id="quiz-file-list">
-                 <p>Đang tải danh sách bộ câu hỏi...</p>
+                 <select id="quiz-file-select">
+                     <option value="">Đang tải danh sách bộ câu hỏi...</option>
+                 </select>
              </div>
              <p id="status-message"></p>
              <div id="shuffle-option">
@@ -362,6 +465,7 @@
         const usageDetails = document.getElementById('usage-details');
         const selectSection = document.getElementById('select-section');
         const quizFileListContainer = document.getElementById('quiz-file-list');
+        let quizFileSelect = document.getElementById('quiz-file-select');
         const statusMessage = document.getElementById('status-message');
         const shuffleCheckbox = document.getElementById('shuffle-checkbox');
         const quizSection = document.getElementById('quiz-section');
@@ -585,32 +689,109 @@
 
         // --- JSON Loading Logic ---
         function loadQuizManifest() {
-            console.log(`[Manifest] Fetching ${MANIFEST_PATH}...`); hideError();
-            quizFileListContainer.innerHTML = '<p>Đang tải danh sách...</p>'; statusMessage.textContent = ""; shuffleCheckbox.disabled = true;
+            console.log(`[Manifest] Starting to fetch ${MANIFEST_PATH}...`); 
+            hideError();
+            
+            if (!quizFileSelect) {
+                console.error("[Manifest Error] Quiz file select element not found");
+                showError("Lỗi: Không tìm thấy phần tử chọn câu hỏi");
+                return;
+            }
+
+            // Reset select element
+            quizFileSelect.innerHTML = '<option value="">Đang tải danh sách...</option>';
+            quizFileSelect.disabled = true;
+            statusMessage.textContent = ""; 
+            shuffleCheckbox.disabled = true;
+
             const cacheBuster = `?t=${new Date().getTime()}`;
+            console.log(`[Manifest] Fetching with URL: ${MANIFEST_PATH}${cacheBuster}`);
+            
             fetch(MANIFEST_PATH + cacheBuster)
-                .then(response => { if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`); return response.json(); })
-                .then(quizList => { console.log("[Manifest] Success:", quizList); displayQuizOptions(quizList); })
-                .catch(error => { console.error("[Manifest Error]", error); showError(`Không tải được danh sách: ${error.message}`); quizFileListContainer.innerHTML = ''; statusMessage.textContent = "Lỗi."; });
+                .then(response => {
+                    console.log("[Manifest] Response status:", response.status);
+                    if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`);
+                    return response.json();
+                })
+                .then(quizList => {
+                    console.log("[Manifest] Successfully loaded quiz list:", quizList);
+                    if (!Array.isArray(quizList)) {
+                        throw new Error("Dữ liệu không hợp lệ: Danh sách không phải mảng");
+                    }
+                    displayQuizOptions(quizList);
+                })
+                .catch(error => { 
+                    console.error("[Manifest Error]", error); 
+                    showError(`Không tải được danh sách: ${error.message}`); 
+                    quizFileSelect.innerHTML = '<option value="">Lỗi tải danh sách</option>';
+                    statusMessage.textContent = "Lỗi."; 
+                });
         }
+
         function displayQuizOptions(quizList) {
-             console.log("[UI] Displaying options..."); hideError();
-             quizFileListContainer.innerHTML = ''; statusMessage.textContent = "Vui lòng chọn bộ câu hỏi.";
-             if (!quizList || !Array.isArray(quizList) || quizList.length === 0) { showError("Không tìm thấy bộ câu hỏi nào."); return; }
-             quizList.forEach(quiz => {
-                 if (!quiz || typeof quiz.name !== 'string' || typeof quiz.file !== 'string') { console.warn("Skipping invalid manifest entry:", quiz); return; }
-                 const btn = document.createElement('button'); btn.classList.add('quiz-file-button'); btn.textContent = quiz.name;
-                 btn.dataset.quizFile = quiz.file; btn.dataset.quizName = quiz.name;
-                 btn.addEventListener('click', () => loadQuizFromJson(quiz.file, quiz.name));
-                 quizFileListContainer.appendChild(btn);
-             });
-             shuffleCheckbox.disabled = false; quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = false);
-         }
+            console.log("[UI] Starting to display options..."); 
+            hideError();
+            
+            if (!quizFileSelect) {
+                console.error("[UI Error] Quiz file select element not found");
+                showError("Lỗi hiển thị danh sách câu hỏi");
+                return;
+            }
+
+            console.log("[UI] Select element found, clearing options");
+            // Clear existing options
+            quizFileSelect.innerHTML = '';
+            
+            // Add default option
+            const defaultOption = document.createElement('option');
+            defaultOption.value = "";
+            defaultOption.textContent = "Vui lòng chọn bộ câu hỏi";
+            quizFileSelect.appendChild(defaultOption);
+            console.log("[UI] Added default option");
+            
+            // Add quiz options
+            if (quizList && Array.isArray(quizList) && quizList.length > 0) {
+                console.log(`[UI] Adding ${quizList.length} quiz options`);
+                quizList.forEach((quiz, index) => {
+                    console.log(`[UI] Processing quiz ${index + 1}:`, quiz);
+                    if (quiz && typeof quiz.name === 'string' && typeof quiz.file === 'string') {
+                        const option = document.createElement('option');
+                        option.value = quiz.file;
+                        option.textContent = quiz.name;
+                        option.dataset.quizName = quiz.name;
+                        quizFileSelect.appendChild(option);
+                        console.log(`[UI] Added option for: ${quiz.name}`);
+                    } else {
+                        console.warn("[UI] Skipping invalid quiz item:", quiz);
+                    }
+                });
+            } else {
+                console.warn("[UI] No valid quiz items found in list");
+            }
+            
+            // Update UI state
+            quizFileSelect.disabled = false;
+            shuffleCheckbox.disabled = false;
+            
+            // Only show status message if there are no options
+            if (!quizList || quizList.length === 0) {
+                statusMessage.textContent = "Không tìm thấy bộ câu hỏi nào.";
+                statusMessage.style.display = "block";
+            } else {
+                statusMessage.textContent = "";
+                statusMessage.style.display = "none";
+            }
+            
+            console.log("[UI] Finished displaying options. Current select options:", quizFileSelect.options.length);
+        }
+
         function loadQuizFromJson(jsonFilePath, quizName) {
             console.log(`[Fetch] Requesting ${quizName} from ${jsonFilePath}`); hideError();
-            statusMessage.textContent = `Đang tải "${quizName}"...`; quizFileListContainer.querySelectorAll('button').forEach(btn => btn.disabled = true); shuffleCheckbox.disabled = true;
-            // Clear previous quiz state before loading new
-            originalQuizData = []; quizData = []; score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
+            statusMessage.textContent = `Đang tải "${quizName}"...`; 
+            if (quizFileSelect) {
+                quizFileSelect.disabled = true;
+            }
+            shuffleCheckbox.disabled = true;
 
             currentFileName = quizName; quizTitleElement.textContent = quizName; quizTitleElement.classList.remove('hidden');
             const cacheBuster = `?t=${new Date().getTime()}`;
@@ -754,7 +935,28 @@
              usageDetails.classList.remove('hidden'); // Show usage on select screen
              quizTitleElement.textContent = ''; quizTitleElement.classList.add('hidden');
              selectSection.classList.remove('hidden'); selectSection.style.display = 'block'; shuffleCheckbox.disabled = false;
-             quizFileListContainer.innerHTML = '<p>Đang tải danh sách...</p>'; statusMessage.textContent = ""; errorMessage.textContent = ''; errorMessage.classList.add('hidden');
+             
+             // Clear and reset the quiz file list container
+             if (quizFileListContainer) {
+                 quizFileListContainer.innerHTML = '';
+                 const select = document.createElement('select');
+                 select.id = 'quiz-file-select';
+                 select.innerHTML = '<option value="">Đang tải danh sách...</option>';
+                 select.disabled = true;
+                 
+                 // Add event listener to the new select element
+                 select.addEventListener('change', function() {
+                     const selectedOption = this.options[this.selectedIndex];
+                     if (selectedOption && selectedOption.value) {
+                         loadQuizFromJson(selectedOption.value, selectedOption.dataset.quizName);
+                     }
+                 });
+                 
+                 quizFileListContainer.appendChild(select);
+                 quizFileSelect = select; // Update the reference
+             }
+             
+             statusMessage.textContent = ""; errorMessage.textContent = ''; errorMessage.classList.add('hidden');
              settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
              loadQuizManifest();
          }
@@ -763,11 +965,28 @@
         // --- Run on script load ---
         document.addEventListener('DOMContentLoaded', () => {
              console.log("[Init] DOM Loaded.");
-             applyInitialTheme(); // Apply theme early
+             applyInitialTheme();
 
-             const restoredState = loadState(); // Attempt to load state
+             // Initialize select element
+             if (quizFileSelect) {
+                 console.log("[Init] Setting up quiz select");
+                 // Remove any existing event listeners
+                 const newSelect = quizFileSelect.cloneNode(true);
+                 quizFileSelect.parentNode.replaceChild(newSelect, quizFileSelect);
+                 quizFileSelect = newSelect;
 
-             if (restoredState) { // If state exists AND is valid
+                 // Add event listener
+                 quizFileSelect.addEventListener('change', function() {
+                     const selectedOption = this.options[this.selectedIndex];
+                     if (selectedOption && selectedOption.value) {
+                         loadQuizFromJson(selectedOption.value, selectedOption.dataset.quizName);
+                     }
+                 });
+             }
+
+             const restoredState = loadState();
+
+             if (restoredState) {
                 // Use Custom Modal
                 const resumeQuizName = restoredState.quizName || "Unknown Quiz";
                 const resumeQuestionNum = (restoredState.currentQuestionIndex || 0) + 1;
