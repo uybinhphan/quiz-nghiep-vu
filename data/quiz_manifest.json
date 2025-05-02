@@ -12,12 +12,52 @@
     "file": "./data/3. Tín dụng khách hàng cá nhân.json"
   },
   {
+    "name": "4. Xử lý nợ",
+    "file": "./data/4. Xử lý nợ.json"
+  },
+  {
     "name": "5. Thanh toán quốc tế và Tài trợ thương mại",
     "file": "./data/5. Thanh toán quốc tế và Tài trợ thương mại.json"
   },
   {
+    "name": "6. Kế hoạch và quản lý rủi ro",
+    "file": "./data/6. Kế hoạch và quản lý rủi ro.json"
+  },
+  {
+    "name": "7. Kế toán giao dịch nội bộ",
+    "file": "./data/7. Kế toán giao dịch nội bộ.json"
+  },
+  {
     "name": "8. Kế toán giao dịch khách hàng",
     "file": "./data/8. Kế toán giao dịch khách hàng.json"
+  },
+  {
+    "name": "9. Tiền tệ kho quỹ",
+    "file": "./data/9. Tiền tệ kho quỹ.json"
+  },
+  {
+    "name": "10. Kiểm tra giám sát nội bộ",
+    "file": "./data/10. Kiểm tra giám sát nội bộ.json"
+  },
+  {
+    "name": "11. Công nghệ thông tin",
+    "file": "./data/11. Công nghệ thông tin.json"
+  },
+  {
+    "name": "12. Nhân sự - Tiền lương",
+    "file": "./data/12. Nhân sự - Tiền lương.json"
+  },
+  {
+    "name": "13. Pháp chế",
+    "file": "./data/13. Pháp chế.json"
+  },
+  {
+    "name": "14. Xây dựng cơ bản, quản trị hành chính",
+    "file": "./data/14. Xây dựng cơ bản, quản trị hành chính.json"
+  },
+  {
+    "name": "15. Văn thư, lễ tân",
+    "file": "./data/15. Văn thư, lễ tân.json"
   },
   {
     "name": "17. Bộ câu hỏi Kiến thức chung",
