@@ -2,7 +2,6 @@
 // This script compresses the JSON quiz files to improve loading speed
 const fs = require('fs');
 const path = require('path');
-const zlib = require('zlib'); // Using Node.js built-in zlib module
 
 // Configuration
 const DATA_DIR = './data';
