@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ôn kiểm tra nghiệp vụ</title>
-
-    <!-- Confetti Library -->
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    
+    <!-- Caching directives for GitHub Pages -->
+    <meta http-equiv="Cache-Control" content="max-age=86400">
+    
+    <!-- Preconnect to CDN resources -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    
+    <!-- Confetti Library - Load asynchronously -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js" async></script>
     <!-- End Confetti Library -->
 
     <style>
@@ -517,6 +523,7 @@
         let wrongAnswerIndices = []; let currentWrongAnswerReviewIndex = 0;
         let currentFileName = "";
         const MANIFEST_PATH = 'data/quiz_manifest.json';
+        let loadedQuizzes = {}; // Cache for loaded quiz data
 
         // --- State Persistence ---
         const STORAGE_KEY = 'quizAppState';
@@ -688,6 +695,7 @@
         function shuffleArray(array) { for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [array[i], array[j]] = [array[j], array[i]]; } }
 
         // --- JSON Loading Logic ---
+        // Improved manifest loading with caching and error handling
         function loadQuizManifest() {
             console.log(`[Manifest] Starting to fetch ${MANIFEST_PATH}...`); 
             hideError();
@@ -704,7 +712,24 @@
             statusMessage.textContent = ""; 
             shuffleCheckbox.disabled = true;
 
-            const cacheBuster = `?t=${new Date().getTime()}`;
+            // Use cached copy if available in sessionStorage
+            const cachedManifest = sessionStorage.getItem('quizManifest');
+            if (cachedManifest) {
+                try {
+                    const manifestData = JSON.parse(cachedManifest);
+                    console.log("[Manifest] Using cached manifest data");
+                    displayQuizOptions(manifestData);
+                    return;
+                } catch (e) {
+                    console.warn("[Manifest] Failed to parse cached manifest:", e);
+                    // Continue with fetch if cache parsing fails
+                }
+            }
+
+            // Only add cacheBuster in development, remove it for production
+            const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' 
+                ? `?t=${new Date().getTime()}` : '';
+            
             console.log(`[Manifest] Fetching with URL: ${MANIFEST_PATH}${cacheBuster}`);
             
             fetch(MANIFEST_PATH + cacheBuster)
@@ -718,6 +743,8 @@
                     if (!Array.isArray(quizList)) {
                         throw new Error("Dữ liệu không hợp lệ: Danh sách không phải mảng");
                     }
+                    // Cache the manifest
+                    sessionStorage.setItem('quizManifest', JSON.stringify(quizList));
                     displayQuizOptions(quizList);
                 })
                 .catch(error => { 
@@ -786,19 +813,45 @@
         }
 
         function loadQuizFromJson(jsonFilePath, quizName) {
-            console.log(`[Fetch] Requesting ${quizName} from ${jsonFilePath}`); hideError();
+            console.log(`[Fetch] Requesting ${quizName} from ${jsonFilePath}`); 
+            hideError();
             statusMessage.textContent = `Đang tải "${quizName}"...`; 
             if (quizFileSelect) {
                 quizFileSelect.disabled = true;
             }
             shuffleCheckbox.disabled = true;
 
-            currentFileName = quizName; quizTitleElement.textContent = quizName; quizTitleElement.classList.remove('hidden');
-            const cacheBuster = `?t=${new Date().getTime()}`;
+            currentFileName = quizName; 
+            quizTitleElement.textContent = quizName; 
+            quizTitleElement.classList.remove('hidden');
+            
+            // Check if already in cache
+            if (loadedQuizzes[jsonFilePath]) {
+                console.log("[Fetch] Using cached quiz data");
+                processQuizData(loadedQuizzes[jsonFilePath]);
+                return;
+            }
+
+            // Only add cacheBuster in development
+            const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' 
+                ? `?t=${new Date().getTime()}` : '';
+                
             fetch(jsonFilePath + cacheBuster)
-                .then(response => { if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`); return response.json(); })
-                .then(jsonData => { console.log("[Fetch] Success."); processQuizData(jsonData); })
-                .catch(error => { console.error("[Fetch Error]", error); showError(`Lỗi tải "${quizName}": ${error.message}`); showSelectScreen(); });
+                .then(response => { 
+                    if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`); 
+                    return response.json(); 
+                })
+                .then(jsonData => { 
+                    console.log("[Fetch] Success.");
+                    // Cache the quiz data
+                    loadedQuizzes[jsonFilePath] = jsonData;
+                    processQuizData(jsonData); 
+                })
+                .catch(error => { 
+                    console.error("[Fetch Error]", error); 
+                    showError(`Lỗi tải "${quizName}": ${error.message}`); 
+                    showSelectScreen(); 
+                });
         }
 
 
@@ -928,7 +981,11 @@
 
         function showSelectScreen(preventClear = false) {
              console.log("[UI] Show Select Screen" + (preventClear ? " (no state clear)" : ""));
-             if (!preventClear) { clearState(); } // Clear state ONLY if called by user action
+             if (!preventClear) { 
+                clearState(); 
+                // Clear quiz cache when explicitly returning to select screen
+                loadedQuizzes = {};
+             }
              originalQuizData = []; quizData = []; currentFileName = ""; score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
              clearAutoAdvanceTimer(); hideError();
              quizSection.classList.add('hidden'); quizSection.style.display = 'none'; resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
@@ -958,7 +1015,19 @@
              
              statusMessage.textContent = ""; errorMessage.textContent = ''; errorMessage.classList.add('hidden');
              settingsMenu.classList.remove('menu-active'); settingsMenu.classList.add('hidden');
-             loadQuizManifest();
+             
+             // Check if manifest is already cached before reloading
+             const cachedManifest = sessionStorage.getItem('quizManifest');
+             if (cachedManifest) {
+                 try {
+                     const manifestData = JSON.parse(cachedManifest);
+                     displayQuizOptions(manifestData);
+                 } catch (e) {
+                     loadQuizManifest(); // Fall back to loading if cache parse fails
+                 }
+             } else {
+                 loadQuizManifest();
+             }
          }
 
 
