@@ -15,7 +15,7 @@ quiz-nghiep-vu/
 └── quizzes/           # Source Excel files directory
 ```
 
-## Client-Side Application (index.html)
+## Client-Side Application ([index.html](mdc:index.html))
 
 ### Core Requirements
 - Single-page web application using pure HTML, CSS, and JavaScript
@@ -79,7 +79,7 @@ quiz-nghiep-vu/
 - Clean, modern layout
 - Proper spacing and positioning
 
-## Data Conversion Script (convert.js)
+## Data Conversion Script ([convert.js](mdc:convert.js))
 
 ### Dependencies
 - Node.js
