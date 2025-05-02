@@ -1,0 +1,153 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Quiz Application Project Rules
+
+## Project Structure
+```
+quiz-nghiep-vu/
+├── index.html          # Main client-side application
+├── convert.js          # Excel to JSON conversion script
+├── data/              # Generated JSON files directory
+│   └── quiz_manifest.json  # Auto-generated quiz manifest
+└── quizzes/           # Source Excel files directory
+```
+
+## Client-Side Application (index.html)
+
+### Core Requirements
+- Single-page web application using pure HTML, CSS, and JavaScript
+- No external frameworks (React, Vue, Angular)
+- Uses canvas-confetti via CDN for visual effects
+- Fully client-side, suitable for static hosting
+
+### Data Structure
+- Quiz manifest: `data/quiz_manifest.json`
+  ```json
+  [
+    {
+      "name": "Display Name",
+      "file": "data/quiz_filename.json"
+    }
+  ]
+  ```
+- Quiz data files: `data/*.json`
+  ```json
+  [
+    {
+      "question": "Question text?",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswerIndex": 0,
+      "source": "Optional source text"
+    }
+  ]
+  ```
+
+### UI Components
+- Quiz selection screen with:
+  - Quiz list (dropdown menu)
+  - Shuffle checkbox
+  - Quiz title display
+- Quiz interface with:
+  - Question display
+  - Answer buttons
+  - Progress indicator
+  - Score display
+  - Navigation controls
+  - Settings menu
+- Results screen with:
+  - Final score
+  - Confetti effect
+  - Action buttons
+- Review mode with:
+  - Question navigation
+  - Answer highlighting
+  - Filter toggle
+  - Source display
+
+### State Management
+- Uses localStorage (key: 'quizAppState')
+- Saves state on significant actions
+- Handles session resumption via modal
+- Clears state on intentional exit
+
+### Styling
+- Responsive design with media queries
+- Light/dark theme using CSS variables
+- Clean, modern layout
+- Proper spacing and positioning
+
+## Data Conversion Script (convert.js)
+
+### Dependencies
+- Node.js
+- xlsx library (`npm install xlsx`)
+
+### Input Format
+Excel files in `./quizzes/` with columns:
+- A: STT (Optional)
+- B: Câu hỏi (Required)
+- C: Đáp án 1 (Required)
+- D: Đáp án 2 (Required)
+- E: Đáp án 3 (Required)
+- F: Đáp án 4 (Required)
+- G: Đáp án đúng (Required, 1-4)
+- H: Trích dẫn nguồn (Optional)
+
+### Processing Rules
+- Skip temporary Excel files (~$*)
+- Validate required fields
+- Convert 1-based to 0-based answer indices
+- Handle errors gracefully
+- Generate pretty-printed JSON
+
+### Output
+- JSON files in `./data/`
+- Manifest file: `data/quiz_manifest.json`
+- Sorted alphabetically by quiz name
+
+## Development Guidelines
+
+### Code Style
+- Use meaningful variable names
+- Include descriptive comments
+- Follow consistent formatting
+- Handle errors appropriately
+
+### Testing
+- Test Excel file processing
+- Verify JSON output format
+- Check client-side functionality
+- Validate state persistence
+- Test responsive design
+
+### Performance
+- Optimize JSON file sizes
+- Minimize DOM operations
+- Use efficient event handlers
+- Cache DOM references
+
+### Security
+- Sanitize user inputs
+- Validate file paths
+- Handle fetch errors
+- Protect against XSS
+
+### Accessibility
+- Use semantic HTML
+- Provide keyboard navigation
+- Include ARIA attributes
+- Ensure color contrast
+
+### Browser Support
+- Target modern browsers
+- Use feature detection
+- Provide fallbacks
+- Test cross-browser compatibility
+
+
+
+
+
