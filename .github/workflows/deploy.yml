@@ -26,7 +26,7 @@ jobs:
           node-version: '16'
           
       - name: Install Dependencies
-        run: npm ci
+        run: npm install
         
       - name: Install HTML Minifier
         run: npm install html-minifier -g
