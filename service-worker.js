@@ -1,8 +1,10 @@
 // Service Worker for Quiz App
 const CACHE_NAME = 'quiz-app-v1';
 const ASSETS_TO_CACHE = [
+  './',
   './index.html',
-  // Add other assets like './data/quiz_manifest.json', './main.js', etc.
+  './data/quiz_manifest.json',
+  'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js'
 ];
 
 // Pre-cache core assets on install
@@ -27,29 +29,44 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Network-first strategy for all same-origin GET requests
+// Network-first strategy for all requests
 self.addEventListener('fetch', event => {
-  if (
-    event.request.method !== 'GET' ||
-    !event.request.url.startsWith(self.location.origin)
-  ) {
+  // Skip non-GET requests
+  if (event.request.method !== 'GET') {
     return;
   }
 
   event.respondWith(
     fetch(event.request)
-      .then(networkResponse => {
-        // Only cache valid, basic (same-origin) responses
-        if (
-          networkResponse &&
-          networkResponse.status === 200 &&
-          networkResponse.type === 'basic'
-        ) {
-          const responseClone = networkResponse.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseClone));
+      .then(response => {
+        // Clone the response before using it
+        const responseToCache = response.clone();
+        
+        // Cache the response if it's valid
+        if (response && response.status === 200) {
+          caches.open(CACHE_NAME)
+            .then(cache => cache.put(event.request, responseToCache))
+            .catch(err => console.error('Cache put error:', err));
         }
-        return networkResponse;
+        
+        return response;
       })
-      .catch(() => caches.match(event.request))
+      .catch(() => {
+        // If network fails, try to get from cache
+        return caches.match(event.request)
+          .then(cachedResponse => {
+            if (cachedResponse) {
+              return cachedResponse;
+            }
+            // If not in cache, return a basic offline page
+            return new Response('Offline', {
+              status: 503,
+              statusText: 'Service Unavailable',
+              headers: new Headers({
+                'Content-Type': 'text/plain'
+              })
+            });
+          });
+      })
   );
 }); 
