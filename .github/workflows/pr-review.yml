@@ -41,11 +41,4 @@ jobs:
             test
             ci
             chore
-          requireScope: true
-          ignoreLabels: |
-            wip
-            draft
-            do-not-merge
-          headerPattern: ^(?<type>feat|fix|perf|docs|style|refactor|test|ci|chore)\((?<scope>[^)]+)\):\s(?<subject>.+)$
-          validateSingleCommit: false
-          validateSingleCommitMatchesPrTitle: false
+
