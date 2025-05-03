@@ -1,17 +1,19 @@
 name: Release
 
 on:
-  push:
-    tags:
-      - 'v*'
+  pull_request:
+    branches: [ main ]
+    types: [closed]
+  workflow_dispatch:
 
 jobs:
   release:
+    if: ${{ github.event.pull_request.merged == true }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Required for standard-version to work properly
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -22,13 +24,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Release
-        run: npx standard-version
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push changes
+      - name: Create release
         run: |
+          npx standard-version
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git push --follow-tags origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
