@@ -38,6 +38,7 @@ The Quiz Nghiệp Vụ Application is a client-side web application designed for
    - Source citation display
    - Progress tracking
    - Timer functionality
+   - **Keyboard shortcuts** for faster navigation
 
 3. **Results Interface**
    - Score display
