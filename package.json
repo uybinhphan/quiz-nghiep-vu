@@ -1,9 +1,10 @@
 {
   "name": "quiz-nghiep-vu",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Quiz application for professional skills testing",
   "main": "index.html",
   "scripts": {
+    "release": "standard-version",
     "convert": "node convert.js",
     "compress": "node compress-json.js",
     "optimize": "npm run compress && html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --minify-css true --minify-js true index.html -o index.min.html && mv index.min.html index.html",
@@ -21,6 +22,7 @@
     "@eslint/js": "^9.25.1",
     "eslint": "^9.25.1",
     "globals": "^16.0.0",
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "standard-version": "^9.5.0"
   }
 }
