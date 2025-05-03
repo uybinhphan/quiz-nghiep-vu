@@ -1,72 +1,145 @@
-# Quiz Nghiệp Vụ Application
+# Quiz Application Specification
 
-A client-side quiz application that loads question data from JSON files.
+## Overview
+The Quiz Nghiệp Vụ Application is a client-side web application designed for professional skills testing in Vietnamese. It provides an interactive platform for users to practice and test their knowledge across various professional domains through quizzes.
 
-## GitHub Pages Optimization
+## Architecture
 
-This application has been optimized for hosting on GitHub Pages with the following improvements:
+### Client-Side Architecture
+- Single-page application (SPA) built with vanilla JavaScript, HTML, and CSS
+- No server-side processing - all operations happen client-side
+- PWA (Progressive Web App) features with service worker support
+- Responsive design that works on desktop and mobile devices
 
-1. **JSON Compression** - Quiz data is minified to reduce transfer size
-2. **Browser Caching** - Cache-Control headers via meta tags to enable browser caching
-3. **In-memory Caching** - Client-side caching to avoid redundant data fetching
-4. **Lazy Loading** - Scripts and resources are loaded only when needed
-5. **CSS Optimization** - CSS is minified during build
-6. **Resource Hints** - Preconnect to CDN resources
+### Data Architecture
+- Quiz data stored in JSON format
+- Data pipeline: Excel files → JSON conversion → JSON compression
+- Client-side caching for improved performance
 
-## Development Setup
+### Language Support
+- Primary interface language: Vietnamese
+- Quiz content, instructions, and UI elements are in Vietnamese
+- Column headers in Excel files use Vietnamese terminology (e.g., "Câu hỏi", "Đáp án đúng")
 
-1. Clone this repository
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Run the conversion script to process Excel files into JSON:
-   ```
-   npm run convert
-   ```
+## Features
 
-## Optimization Process
+### Core Features
+1. **Quiz Selection Interface**
+   - Dropdown/button-based selection of quiz categories
+   - Visual indication of quiz selection
+   - Shuffle option for randomizing questions
 
-### Step 1: Compress JSON Files
+2. **Quiz Interface**
+   - Question display with multiple-choice options
+   - Answer selection and verification
+   - Source citation display
+   - Progress tracking
+   - Timer functionality
 
-The application uses many large JSON files which impact loading time. We optimize these files using:
+3. **Results Interface**
+   - Score display
+   - Performance statistics
+   - Answer review capability (can view all questions or only wrong-answer questions)
+   - Option to restart or select a new quiz
+   - Visual celebration (confetti) on completion
 
+### Technical Features
+1. **Optimization**
+   - JSON compression for reduced file sizes
+   - Client-side caching via service worker
+   - CSS and HTML minification
+   - Lazy loading of external resources
+
+2. **Theme Support**
+   - Light and dark theme options
+   - Persistent theme preference storage
+
+3. **Settings**
+   - Customizable quiz options
+   - UI preference settings
+
+## Data Structure
+
+### Quiz Data Format
+Each quiz is stored as a JSON array of question objects with the following structure:
+```json
+{
+  "question": "Nội dung câu hỏi",
+  "options": [
+    "Đáp án 1",
+    "Đáp án 2",
+    "Đáp án 3",
+    "Đáp án 4"
+  ],
+  "correctAnswerIndex": 0, // Zero-based index (0-3)
+  "source": "Trích dẫn nguồn"
+}
 ```
-npm run compress
+
+### Quiz Manifest
+A central manifest file (`quiz_manifest.json`) maintains an index of all available quizzes:
+```json
+[
+  {
+    "name": "Quiz Name/Category",
+    "file": "data/quiz-filename.json",
+    "size": 12345 // File size in bytes (for progress indication)
+  },
+  ...
+]
 ```
 
-This creates minified versions of all JSON files in the `data-compressed` directory.
+## Build and Development Process
 
-### Step 2: Optimize HTML/CSS
+### Development Environment
+- Node.js for build scripts
+- Development workflow with npm scripts
+- Support for Vietnamese character encoding (UTF-8)
 
-We minify the CSS in the index.html file:
+### Build Pipeline
+1. **Data Conversion**: Excel to JSON conversion using the `xlsx` library
+   - Command: `npm run convert`
+   - Reads from `./quizzes` directory
+   - Outputs to `./data` directory
 
-```
-npm run optimize
-```
+2. **Optimization**: Compression and minification
+   - JSON compression: `npm run compress`
+   - HTML minification: Part of `npm run optimize`
+   - Combined process: `npm run build`
 
-### Step 3: Automated Deployment
+3. **Deployment**: GitHub Pages optimized
+   - Automated via GitHub Actions workflow
 
-The GitHub Actions workflow automates the optimization and deployment process. When you push to the main branch:
+## Performance Optimization
 
-1. The workflow compresses all JSON files
-2. It minifies the HTML/CSS
-3. It deploys the optimized files to GitHub Pages
+### Network Optimization
+- Compressed JSON files to reduce transfer size
+- Browser caching via Cache-Control headers
+- Service worker for offline capability and faster loading
 
-## Manual Optimization for GitHub Pages
+### Runtime Optimization
+- In-memory caching to prevent redundant data fetching
+- Lazy loading of non-essential resources
+- Minified CSS and HTML for faster parsing
 
-If you're not using GitHub Actions:
+## Browser Compatibility
+- Modern web browsers (Chrome, Firefox, Safari, Edge)
+- Mobile browsers on iOS and Android
+- Progressive enhancement for older browsers
 
-1. Run the build process:
-   ```
-   npm run build
-   ```
+## Future Enhancements
+1. Offline mode with full functionality
+2. Enhanced statistics and analytics
+3. User accounts and progress tracking
+4. Additional quiz formats beyond multiple-choice
 
-2. Copy the contents of the root directory to your GitHub Pages branch (usually `gh-pages`).
+## Limitations
+- Maximum quiz file size determined by client-side memory constraints
+- Requires JavaScript to be enabled
+- Limited offline capability with current implementation
 
-## Performance Considerations
-
-- The quiz application now caches loaded quiz data in memory to prevent reloading
-- The manifest file is cached in sessionStorage to speed up subsequent page loads
-- Cache-Control headers tell browsers to cache resources for 24 hours
-- The confetti library is loaded asynchronously to avoid blocking rendering 
+## Localization
+- UI text and labels in Vietnamese
+- Error messages and instructions in Vietnamese
+- Date and time formats following Vietnamese conventions
+- Quiz categories reflect Vietnamese professional domains and specializations 
