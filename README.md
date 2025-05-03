@@ -95,6 +95,7 @@ A central manifest file (`quiz_manifest.json`) maintains an index of all availab
 - Node.js for build scripts
 - Development workflow with npm scripts
 - Support for Vietnamese character encoding (UTF-8)
+- Semantic versioning with standard-version
 
 ### Build Pipeline
 1. **Data Conversion**: Excel to JSON conversion using the `xlsx` library

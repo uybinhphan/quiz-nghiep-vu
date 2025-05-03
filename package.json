@@ -9,7 +9,8 @@
     "optimize": "npm run compress && html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --minify-css true --minify-js true index.html -o index.min.html && mv index.min.html index.html",
     "build": "npm run convert && npm run optimize",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,23 @@
     "@eslint/js": "^9.25.1",
     "eslint": "^9.25.1",
     "globals": "^16.0.0",
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "standard-version": "^9.5.0"
+  },
+  "standard-version": {
+    "path": "CHANGELOG.md",
+    "types": [
+      {"type": "feat", "section": "Features"},
+      {"type": "fix", "section": "Bug Fixes"},
+      {"type": "docs", "section": "Documentation Changes"},
+      {"type": "style", "section": "Styles"},
+      {"type": "refactor", "section": "Code Refactoring"},
+      {"type": "perf", "section": "Performance Improvements"},
+      {"type": "test", "section": "Tests"},
+      {"type": "build", "section": "Build System"},
+      {"type": "ci", "section": "Continuous Integration"},
+      {"type": "chore", "section": "Chores"},
+      {"type": "revert", "section": "Reverts"}
+    ]
   }
 }
