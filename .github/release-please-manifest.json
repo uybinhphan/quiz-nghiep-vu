@@ -1,0 +1,5 @@
+{
+  "handleGHRelease": true,
+  "releaseLabels": ["autorelease: pending", "type: release"],
+  "prerelease": false
+} 
