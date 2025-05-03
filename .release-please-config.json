@@ -5,6 +5,9 @@
   "bump-patch-for-minor-pre-major": true,
   "include-v-in-tag": true,
   "pull-request-title-pattern": "chore(release): release ${version}",
+  "handle-gh-release": true,
+  "release-labels": ["autorelease: pending", "type: release"],
+  "prerelease": false,
   "changelog-sections": [
     { "type": "feat", "section": "Features", "hidden": false },
     { "type": "fix", "section": "Bug Fixes", "hidden": false },
