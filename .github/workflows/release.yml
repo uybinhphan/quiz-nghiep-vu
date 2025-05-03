@@ -1,4 +1,4 @@
-name: Release Please
+name: Release
 
 on:
   pull_request:
@@ -8,30 +8,47 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+  pages: write
+  id-token: write
 
 jobs:
-  release-please:
-    # Only run when PRs are merged, not just closed
+  release:
     if: ${{ github.event.pull_request.merged == true }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      
-      - uses: google-github-actions/release-please-action@v3
-        id: release
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          command: manifest
-          config-file: .release-please-config.json
-          manifest-file: .github/release-please.yml
-          default-branch: main
-          
-      # Only run deployment if a new release was created
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Set git identity
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Create release
+        run: npx standard-version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          tags: true
+
+      # Trigger deploy workflow instead of deploying directly
       - name: Trigger deploy workflow
-        if: ${{ steps.release.outputs.release_created }}
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

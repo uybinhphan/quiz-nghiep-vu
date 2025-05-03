@@ -1,6 +1,0 @@
-handleGHRelease: true
-manifest-file: .release-please-config.json
-releaseLabels:
-  - "autorelease: pending"
-  - "type: release"
-prerelease: false 
