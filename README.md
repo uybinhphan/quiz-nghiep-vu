@@ -193,3 +193,19 @@ We welcome contributions to improve the Quiz Nghiệp Vụ application. Please f
 ## Release Process
 
 This project uses [release-please](https://github.com/googleapis/release-please) for automated versioning and changelog generation. 
+
+### How Releases Work
+
+1. **Conventional Commits**: We use conventional commit messages (feat:, fix:, etc.) to automatically determine version bumps.
+   - `feat:` - Triggers a minor version bump (1.1.0 -> 1.2.0)
+   - `fix:` - Triggers a patch version bump (1.1.0 -> 1.1.1)
+   - `feat!:` or `breaking change:` - Triggers a major version bump (1.1.0 -> 2.0.0)
+
+2. **Automated Workflow**: When commits are merged to main, release-please:
+   - Creates or updates a release PR with changelog updates
+   - When that PR is merged, creates a tagged release
+   - Triggers the deployment workflow
+
+3. **Deployment**: After a new release is created, the deployment workflow automatically:
+   - Builds and optimizes the application
+   - Deploys to GitHub Pages 
