@@ -27,6 +27,13 @@ jobs:
           manifest-file: .github/release-please-manifest.json
           default-branch: main
           
+      # Debug output to help troubleshoot
+      - name: Debug Release Please Output
+        run: |
+          echo "Release created: ${{ steps.release.outputs.release_created }}"
+          echo "Release tag name: ${{ steps.release.outputs.tag_name }}"
+          echo "All outputs: ${{ toJson(steps.release.outputs) }}"
+          
       # The deployment workflow will only trigger if a new release was created
       - name: Trigger deploy workflow
         if: ${{ steps.release.outputs.release_created }}
