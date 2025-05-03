@@ -1,55 +1,46 @@
 name: Release
 
 on:
-  pull_request:
+  push:
     branches: [ main ]
-    types: [closed]
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
+  pull-requests: write
 
 jobs:
-  release:
-    if: ${{ github.event.pull_request.merged == true }}
+  release-please:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
+      - name: Release Please
+        uses: google-github-actions/release-please-action@v3
+        id: release
         with:
-          fetch-depth: 0
-
+          release-type: node
+          package-name: quiz-nghiep-vu
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+          
+      # Only run the following steps if a release was created
+      - name: Checkout 🛎️
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@v3
+        
       - name: Set up Node.js
+        if: ${{ steps.release.outputs.release_created }}
         uses: actions/setup-node@v3
         with:
           node-version: '18'
           cache: 'npm'
-
+          
       - name: Install dependencies
+        if: ${{ steps.release.outputs.release_created }}
         run: npm ci
-
-      - name: Set git identity
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-
-      - name: Create release
-        run: npx standard-version
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          tags: true
-
-      # Trigger deploy workflow instead of deploying directly
+          
+      # Trigger deploy workflow after release is created
       - name: Trigger deploy workflow
+        if: ${{ steps.release.outputs.release_created }}
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           event-type: trigger-deploy
