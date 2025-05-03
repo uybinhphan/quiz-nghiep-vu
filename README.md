@@ -1,4 +1,7 @@
-# Quiz Application Specification
+# Quiz Nghiệp Vụ Application
+
+[![Release](https://github.com/uybinhphan/quiz-nghiep-vu/actions/workflows/release.yml/badge.svg)](https://github.com/uybinhphan/quiz-nghiep-vu/actions/workflows/release.yml)
+[![Deploy](https://github.com/uybinhphan/quiz-nghiep-vu/actions/workflows/deploy.yml/badge.svg)](https://github.com/uybinhphan/quiz-nghiep-vu/actions/workflows/deploy.yml)
 
 ## Overview
 The Quiz Nghiệp Vụ Application is a client-side web application designed for professional skills testing in Vietnamese. It provides an interactive platform for users to practice and test their knowledge across various professional domains through quizzes.
@@ -95,6 +98,7 @@ A central manifest file (`quiz_manifest.json`) maintains an index of all availab
 - Node.js for build scripts
 - Development workflow with npm scripts
 - Support for Vietnamese character encoding (UTF-8)
+- ESLint for code quality
 
 ### Build Pipeline
 1. **Data Conversion**: Excel to JSON conversion using the `xlsx` library
@@ -107,8 +111,24 @@ A central manifest file (`quiz_manifest.json`) maintains an index of all availab
    - HTML minification: Part of `npm run optimize`
    - Combined process: `npm run build`
 
-3. **Deployment**: GitHub Pages optimized
-   - Automated via GitHub Actions workflow
+### CI/CD Pipeline
+
+1. **Pull Request Workflow**
+   - Automated PR validation with semantic commit checks
+   - Code linting and quality checks
+   - Ensures all code changes follow project standards
+
+2. **Release Workflow**
+   - Automatic versioning using semantic versioning
+   - Changelog generation based on commit messages
+   - Git tag creation for each release
+   - Triggered automatically when PRs are merged to main
+
+3. **Deployment**
+   - Automated deployment to GitHub Pages
+   - Minification and optimization of assets
+   - Triggered by the release workflow
+   - Zero-downtime deployment
 
 ## Performance Optimization
 
@@ -127,11 +147,37 @@ A central manifest file (`quiz_manifest.json`) maintains an index of all availab
 - Mobile browsers on iOS and Android
 - Progressive enhancement for older browsers
 
+## Contributing
+
+We welcome contributions to improve the Quiz Nghiệp Vụ application. Please follow these steps to contribute:
+
+1. **Fork the repository**
+2. **Create a feature branch**
+   - Use a descriptive name that reflects your changes
+3. **Make your changes**
+   - Follow the code style and conventions
+   - Add tests if applicable
+4. **Commit your changes**
+   - Use semantic commit messages (e.g., `feat: add new feature`, `fix: resolve bug`)
+   - Include a scope in your commit message (e.g., `feat(ui): add dark mode toggle`)
+5. **Create a Pull Request**
+   - Provide a clear description of your changes
+   - Reference any related issues
+
+### Development Workflow
+
+1. **Setup**: Clone the repository and run `npm install`
+2. **Development**: Make your changes and test locally
+3. **Linting**: Run `npm run lint` to check for code quality issues
+4. **Building**: Run `npm run build` to ensure your changes build correctly
+5. **Pull Request**: Submit your changes for review
+
 ## Future Enhancements
 1. Offline mode with full functionality
 2. Enhanced statistics and analytics
 3. User accounts and progress tracking
 4. Additional quiz formats beyond multiple-choice
+5. Modernize the tech stack with React and Next.js
 
 ## Limitations
 - Maximum quiz file size determined by client-side memory constraints
