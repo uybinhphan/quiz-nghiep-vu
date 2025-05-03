@@ -188,4 +188,8 @@ We welcome contributions to improve the Quiz Nghiệp Vụ application. Please f
 - UI text and labels in Vietnamese
 - Error messages and instructions in Vietnamese
 - Date and time formats following Vietnamese conventions
-- Quiz categories reflect Vietnamese professional domains and specializations 
+- Quiz categories reflect Vietnamese professional domains and specializations
+
+## Release Process
+
+This project uses [release-please](https://github.com/googleapis/release-please) for automated versioning and changelog generation. 
