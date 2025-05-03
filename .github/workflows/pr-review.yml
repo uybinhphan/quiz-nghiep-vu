@@ -47,4 +47,5 @@ jobs:
             draft
             do-not-merge
           headerPattern: ^(?<type>feat|fix|perf|docs|style|refactor|test|ci|chore)\((?<scope>[^)]+)\):\s(?<subject>.+)$
-          validateSingleCommit: true
+          validateSingleCommit: false
+          validateSingleCommitMatchesPrTitle: false
