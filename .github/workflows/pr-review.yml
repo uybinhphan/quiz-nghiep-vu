@@ -32,13 +32,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           types: |
-            - feat
-            - fix
-            - perf
-            - docs
-            - style
-            - refactor
-            - test
-            - ci
-            - chore
+            feat
+            fix
+            perf
+            docs
+            style
+            refactor
+            test
+            ci
+            chore
       
