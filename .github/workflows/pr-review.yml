@@ -23,8 +23,8 @@ jobs:
         run: npm run lint
 
       - name: Run tests
-        run: npm test
         if: ${{ contains(github.event.pull_request.labels.*.name, 'needs-tests') }}
+        run: npm test
 
       - name: Check commit messages
         uses: amannn/action-semantic-pull-request@v5
@@ -41,4 +41,4 @@ jobs:
             test
             ci
             chore
-      
+
