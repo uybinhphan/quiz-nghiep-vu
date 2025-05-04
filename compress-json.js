@@ -29,7 +29,7 @@ try {
     manifest.forEach(item => {
         const oldPath = item.file;
         const fileName = path.basename(oldPath);
-        item.file = `${OUTPUT_DIR}/${fileName}`;
+        item.file = `./data/${fileName}`;
         
         // Add size information for client-side progress indication
         const filePath = path.join(__dirname, oldPath);
