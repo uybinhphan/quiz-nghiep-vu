@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.0...v1.0.1) (2025-05-04)
+
+
+### Bug Fixes
+
+* deploy only runs after release ([#26](https://github.com/uybinhphan/quiz-nghiep-vu/issues/26)) ([f867379](https://github.com/uybinhphan/quiz-nghiep-vu/commit/f867379bf62b069afe228dadd1a9249502dc97fb))
+
 ## 1.0.0 (2025-05-03)
 
 
