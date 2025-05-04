@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.1...v1.0.2) (2025-05-04)
+
+
+### Bug Fixes
+
+* Remove setting secret in readme ([#29](https://github.com/uybinhphan/quiz-nghiep-vu/issues/29)) ([4c43cc4](https://github.com/uybinhphan/quiz-nghiep-vu/commit/4c43cc44ec4daff0deb99be84934f6fff167ba86))
+
 ## [1.0.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.0...v1.0.1) (2025-05-04)
 
 
