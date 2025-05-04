@@ -133,11 +133,8 @@ A central manifest file (`quiz_manifest.json`) maintains an index of all availab
 4. **Setup Instructions**
    - Configure GitHub Pages:
      1. Go to Repository Settings > Pages > Build and Deployment
-     2. Select "GitHub Actions" as the source
-   - Configure Release Token:
-     1. Go to Repository Settings > Actions secrets and variables > Repository secrets
-     2. Add a new secret named `RELEASE_PLEASE_TOKEN`
-     3. Set the value to a GitHub Personal Access Token with `repo` scope
+     2. Select "Deploy from a branch" as the source
+     3. Set the branch to `gh-pages`
 
 ## Performance Optimization
 
