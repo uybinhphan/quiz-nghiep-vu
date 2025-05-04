@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write  # Needed for label creation
 
 jobs:
   release-please:
@@ -19,7 +20,7 @@ jobs:
         with:
           release-type: node
           package-name: quiz-nghiep-vu
-          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           
       # Only run the following steps if a release was created
       - name: Checkout 🛎️
@@ -42,5 +43,5 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           event-type: trigger-deploy
