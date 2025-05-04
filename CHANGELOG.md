@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.2...v1.0.3) (2025-05-04)
+
+
+### Bug Fixes
+
+* **deploy:** correct manifest paths from ./data-compressed/ to data/ ([#33](https://github.com/uybinhphan/quiz-nghiep-vu/issues/33)) ([6853326](https://github.com/uybinhphan/quiz-nghiep-vu/commit/68533269275ba9d253c3ff5d2aaecaf842e64626))
+
 ## [1.0.2](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.1...v1.0.2) (2025-05-04)
 
 
