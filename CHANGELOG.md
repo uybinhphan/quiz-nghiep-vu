@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.4...v1.0.5) (2025-05-05)
+
+
+### Bug Fixes
+
+* change navigation buttons positions ([#38](https://github.com/uybinhphan/quiz-nghiep-vu/issues/38)) ([caa4e35](https://github.com/uybinhphan/quiz-nghiep-vu/commit/caa4e350aed5632f6c91877d9555863230496b03))
+
 ## [1.0.4](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.3...v1.0.4) (2025-05-05)
 
 
