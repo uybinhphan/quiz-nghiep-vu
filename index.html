@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ôn kiểm tra nghiệp vụ</title>
-    
+
     <!-- Caching directives for GitHub Pages -->
     <meta http-equiv="Cache-Control" content="max-age=86400">
-    
+
     <!-- Preconnect to CDN resources -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    
+
     <!-- GoatCounter analytics -->
     <script data-goatcounter="https://uybinh3.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
@@ -61,24 +61,24 @@
         }
 
         /* --- BASE STYLES --- */
-         body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
-            line-height: 1.6; 
-            background-color: var(--bg-color); 
-            color: var(--text-color); 
-            margin: 0; 
-            padding: 20px; 
+         body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
             min-height: 100vh;
             display: grid;
             place-items: center;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
-         #app { 
+         #app {
             display: grid;
-            grid-template-rows: auto auto 1fr auto;
-            grid-template-areas: 
+            grid-template-rows: auto auto 1fr auto; /* Header, Progress (or now empty), Content, Navigation */
+            grid-template-areas:
                 "header"
-                "progress"
+                "progress" /* Keep this area name for structure, even if empty */
                 "content"
                 "navigation";
             gap: var(--grid-gap);
@@ -91,7 +91,7 @@
             border: 1px solid var(--card-border-color);
             transition: all 0.3s ease;
          }
-         
+
          /* Header area */
          .quiz-header {
             grid-area: header;
@@ -101,16 +101,19 @@
             text-align: center;
             gap: 0.5em;
          }
-         
-         /* Progress area */
+
+         /* Progress area (now empty or repurposed) */
          .progress-container {
             grid-area: progress;
             width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            /* Removed flex as it's likely empty or repurposed */
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* Add some height if needed or remove if truly empty */
+            min-height: 10px; /* Example: Small gap */
          }
-         
+
          /* Main content area */
          .quiz-content {
             grid-area: content;
@@ -118,44 +121,50 @@
             flex-direction: column;
             gap: var(--grid-gap);
          }
-         
-         /* Navigation area */
+
+         /* Navigation area (Bottom controls) */
          .quiz-navigation {
             grid-area: navigation;
             display: flex;
-            justify-content: space-between;
+            justify-content: center; /* Center remaining controls */
+            align-items: center;
+            flex-wrap: wrap;
             gap: 15px;
             padding-top: 20px;
-            border-top: 1px solid var(--card-border-color);
+            border-top: 1px solid var(--card-border-color); /* Keep top border here */
          }
-         
+
          /* Responsive adjustments */
          @media (max-width: 768px) {
             #app {
                 padding: var(--app-padding-mobile);
                 border-radius: 8px;
             }
-            
+
             .quiz-navigation {
-                flex-direction: column;
-                gap: 10px;
-                padding-top: 15px;
+                /* Keep centering */
+                 justify-content: center;
+                 /* Ensure controls still stack if needed, wrap is better */
+                 flex-direction: row;
+                 gap: 10px;
+                 padding-top: 15px;
+                 padding-bottom: 10px; /* Add some bottom padding */
             }
          }
-         
+
          /* Adjusted Title Margins */
-         h1 { 
+         h1 {
             color: var(--primary-color);
             margin: 0;
             font-size: 1.8em;
          }
-         h2 { 
+         h2 {
             color: var(--primary-color);
             margin: 0;
             font-size: 1.4em;
          }
          #quiz-title {
-            font-size: 1.1em; 
+            font-size: 1.1em;
             color: var(--secondary-color);
             margin: 0;
             font-weight: normal;
@@ -211,7 +220,8 @@
             font-family: monospace;
             color: var(--text-color);
             font-size: 0.9em;
-        }  /* --- SELECT SECTION --- */
+        }
+        /* --- SELECT SECTION --- */
          #select-section {
             margin-bottom: 30px; padding: 20px; border: 1px solid var(--card-border-color); border-radius: 8px;
             background-color: var(--bg-color); text-align: left; transition: background-color 0.3s ease, border-color 0.3s ease;
@@ -225,7 +235,6 @@
          .quiz-file-button:hover { filter: brightness(1.1); }
          .quiz-file-button:disabled { background-color: var(--disabled-bg-color); color: var(--disabled-text-color); cursor: not-allowed; opacity: 0.6; }
 
-         /* New dropdown styles */
          #quiz-file-select {
              width: 100%;
              padding: 10px 15px;
@@ -259,8 +268,6 @@
              background-color: var(--button-default-bg);
              color: var(--text-color);
          }
-
-         /* Custom dropdown styles */
          .custom-dropdown {
              position: relative;
              width: 100%;
@@ -323,43 +330,6 @@
              background-color: var(--button-hover-bg);
          }
 
-         .answer-option {
-            padding: 15px;
-            background-color: var(--button-default-bg);
-            border: 2px solid var(--card-border-color);
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-align: left;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-weight: 500;
-        }
-        
-        .answer-option:hover {
-            transform: translateX(5px);
-            border-color: var(--primary-color);
-            background-color: rgba(67, 56, 202, 0.05);
-        }
-        
-        .answer-option.selected {
-            border-color: var(--primary-color);
-            background-color: rgba(67, 56, 202, 0.1);
-        }
-        
-        .answer-option.correct {
-            border-color: var(--success-color);
-            background-color: var(--success-feedback-bg);
-            color: var(--success-feedback-text);
-        }
-        
-        .answer-option.incorrect {
-            border-color: var(--danger-color);
-            background-color: var(--danger-feedback-bg);
-            color: var(--danger-feedback-text);
-        }
-
          #status-message {
              display: none; margin-top: 5px; margin-bottom: 15px; color: var(--secondary-color); font-style: italic; min-height: 1.2em;
          }
@@ -378,7 +348,18 @@
          #auto-advance-timer-bar.timer-active { display: block; }
          #auto-advance-timer-bar.timer-active::after { width: 100%; animation-name: countdown; animation-duration: var(--timer-duration); animation-timing-function: linear; animation-fill-mode: forwards; }
          @keyframes countdown { from { width: 100%; } to { width: 0%; } }
-         #quiz-header { display: flex; justify-content: space-between; align-items: center; margin-top: 15px; margin-bottom: 15px; flex-wrap: wrap; gap: 15px; padding: 0 var(--app-padding-mobile); }
+         #quiz-header { /* Header within the quiz section */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px; /* Reduced top margin */
+            margin-bottom: 10px; /* Reduced bottom margin */
+            flex-wrap: wrap;
+            gap: 10px; /* Reduced gap */
+            padding: 0 var(--app-padding-mobile);
+            /* border-bottom: 1px solid var(--card-border-color); /* Optional: border below header */
+            /* padding-bottom: 10px; /* Padding for the optional border */
+         }
          #progress { font-size: 0.9em; color: var(--secondary-color); font-weight: bold; flex-shrink: 0; }
          #jump-nav { display: flex; align-items: center; gap: 5px; font-size: 0.9em; }
          #jump-nav label { color: var(--secondary-color); }
@@ -391,28 +372,46 @@
          #settings-btn { background: none; border: none; font-size: 1.6em; cursor: pointer; padding: 0 5px; line-height: 1; color: var(--text-color); order: 5; transition: opacity 0.2s ease; }
          #settings-btn:disabled { opacity: 0.5; cursor: not-allowed; }
          #settings-btn::after { content: var(--settings-icon); }
-         /* Settings Menu Position - 'top' removed, handled by JS */
-         #settings-menu {
-             display: none; position: absolute;
-             right: var(--app-padding-mobile);
-             background-color: var(--menu-bg); border: 1px solid var(--menu-border);
-             border-radius: 6px; padding: 15px; box-shadow: 0 4px 12px var(--shadow-color);
-             z-index: 10; min-width: 200px;
+
+        /* Style for the moved Prev/Next buttons container */
+        #quiz-section > #nav-prev-next { /* Direct child selector */
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 10px var(--app-padding-mobile) 15px; /* Top padding + Bottom padding */
+            margin-bottom: 15px; /* Space before question container */
+            border-bottom: 1px solid var(--card-border-color); /* Visual separator */
+            order: 1; /* Ensure it comes after quiz-header */
+        }
+
+        #settings-dialog { /* Dialog styling remains same */
+            border: none; border-radius: 8px; box-shadow: 0 4px 12px var(--shadow-color); padding: 20px 30px;
+            max-width: 350px; width: 90vw; background-color: var(--menu-bg); border: 1px solid var(--menu-border); color: var(--text-color);
+        }
+        #settings-dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
+        #settings-dialog form { display: flex; flex-direction: column; gap: 15px; }
+        #settings-dialog menu { display: flex; justify-content: flex-end; margin: 0; padding: 0; }
+        #settings-dialog button[value="close"] { padding: 8px 16px; background-color: var(--secondary-color); color: white; border: none; border-radius: 4px; cursor: pointer; }
+        #settings-dialog button[value="close"]:hover { filter: brightness(1.1); }
+        .settings-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+        .settings-item label { font-size: 0.95em; color: var(--text-color); margin-right: 10px; }
+        .settings-item:last-child { margin-bottom: 0; }
+        #timer-control { display: flex; align-items: center; gap: 8px; font-size: 0.9em; color: var(--secondary-color); }
+        #timer-control button { font-size: 1.1em; line-height: 1; padding: 2px 8px; min-width: 25px; cursor: pointer; border: 1px solid var(--button-default-border); background-color: var(--button-default-bg); color: var(--secondary-color); border-radius: 4px; transition: background-color 0.2s ease, border-color 0.2s ease; }
+        #timer-control button:hover:not(:disabled) { background-color: var(--button-hover-bg); }
+        #timer-control button:disabled { background-color: var(--disabled-bg-color); color: var(--disabled-text-color); cursor: not-allowed; opacity: 0.6;}
+        #timer-duration-display { font-weight: bold; min-width: 35px; text-align: center; color: var(--text-color); }
+        #theme-toggle-btn { background-color: var(--button-default-bg); border: 1px solid var(--button-default-border); font-size: 1.1em; color: var(--text-color); padding: 4px 10px; border-radius: 4px; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease; }
+        #theme-toggle-btn:hover { background-color: var(--button-hover-bg); }
+        #theme-toggle-btn::after { content: var(--theme-toggle-icon); margin-left: 5px; }
+
+        #question-container {
+             background-color: var(--bg-color); padding: 20px; border-radius: 8px;
+             /* Removed margin-bottom here, spacing handled by #nav-prev-next margin */
+             border: 1px solid var(--card-border-color); margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile);
              transition: background-color 0.3s ease, border-color 0.3s ease;
+             order: 2; /* Ensure it comes after prev/next buttons */
          }
-         #settings-menu.menu-active { display: block; }
-         .settings-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
-         .settings-item label { font-size: 0.95em; color: var(--text-color); margin-right: 10px; }
-         .settings-item:last-child { margin-bottom: 0; }
-         #timer-control { display: flex; align-items: center; gap: 8px; font-size: 0.9em; color: var(--secondary-color); }
-         #timer-control button { font-size: 1.1em; line-height: 1; padding: 2px 8px; min-width: 25px; cursor: pointer; border: 1px solid var(--button-default-border); background-color: var(--button-default-bg); color: var(--secondary-color); border-radius: 4px; transition: background-color 0.2s ease, border-color 0.2s ease; }
-         #timer-control button:hover:not(:disabled) { background-color: var(--button-hover-bg); }
-         #timer-control button:disabled { background-color: var(--disabled-bg-color); color: var(--disabled-text-color); cursor: not-allowed; opacity: 0.6;}
-         #timer-duration-display { font-weight: bold; min-width: 35px; text-align: center; color: var(--text-color); }
-         #theme-toggle-btn { background-color: var(--button-default-bg); border: 1px solid var(--button-default-border); font-size: 1.1em; color: var(--text-color); padding: 4px 10px; border-radius: 4px; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease; }
-         #theme-toggle-btn:hover { background-color: var(--button-hover-bg); }
-         #theme-toggle-btn::after { content: var(--theme-toggle-icon); margin-left: 5px; }
-         #question-container { background-color: var(--bg-color); padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid var(--card-border-color); margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile); transition: background-color 0.3s ease, border-color 0.3s ease; }
          #question-text { font-size: 1.4em; margin-bottom: 20px; color: var(--text-color); line-height: 1.4; white-space: pre-wrap; word-break: break-word;}
          #answers { display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 20px; }
          .answer-btn { display: block; width: 100%; padding: 12px 15px; background-color: var(--button-default-bg); border: 1px solid var(--button-default-border); border-radius: 5px; text-align: left; font-size: 1em; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease; color: var(--text-color); white-space: pre-wrap; min-height: calc(1.6em + 24px); word-break: break-word;}
@@ -423,17 +422,27 @@
          .answer-btn.incorrect { background-color: var(--danger-color) !important; border-color: var(--danger-color) !important; color: white !important; filter: brightness(0.9); }
          .answer-btn.reveal-correct { background-color: var(--success-feedback-bg) !important; border-color: var(--success-color) !important; color: var(--success-feedback-text) !important; font-weight: bold; }
          body.dark-theme .answer-btn.reveal-correct { background-color: #2ea043 !important; border-color: #56d364 !important; color: white !important; }
-         #source { margin-top: 15px; padding: 10px; border-radius: 5px; font-size: 0.95em; min-height: 1.5em; margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile); background-color: var(--source-bg); color: var(--source-text); border: 1px solid var(--card-border-color); font-style: italic; display: none; white-space: pre-wrap; margin-bottom: 15px; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; word-break: break-word;}
+         #source { margin-top: 15px; padding: 10px; border-radius: 5px; font-size: 0.95em; min-height: 1.5em; margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile); background-color: var(--source-bg); color: var(--source-text); border: 1px solid var(--card-border-color); font-style: italic; display: none; white-space: pre-wrap; margin-bottom: 15px; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; word-break: break-word; order: 3; /* After question container */}
 
-         /* --- NAVIGATION AREA --- */
-         #navigation { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding: 0 var(--app-padding-mobile) 10px; }
-         #nav-controls { display: flex; gap: 10px; margin-right: auto; flex-wrap: wrap; }
-         #review-controls { display: flex; gap: 10px; margin-right: auto; flex-wrap: wrap;}
+         /* --- BOTTOM NAVIGATION AREA (Controls Only) --- */
+         #navigation {
+             /* Grid area defined in #app */
+             display: flex;
+             justify-content: center; /* Center the remaining controls */
+             align-items: center;
+             flex-wrap: wrap;
+             gap: 10px;
+             /* Padding handled by .quiz-navigation */
+             /* border-top is now on .quiz-navigation */
+             order: 4; /* Ensure it's last in the quiz section flow */
+         }
+         #nav-controls { display: flex; gap: 10px; /* Removed margin-right: auto */ flex-wrap: wrap; }
+         #review-controls { display: flex; gap: 10px; /* Removed margin-right: auto */ flex-wrap: wrap;}
          #exit-review-btn { background-color: var(--warning-color); color: #212529; }
          body.dark-theme #exit-review-btn { color: #121212; }
          #toggle-filter-btn { background-color: var(--info-color); color: white; }
          #toggle-filter-btn.filter-active { background-color: var(--filter-active-color); font-weight: bold;}
-         #nav-prev-next { display: flex; gap: 10px; margin-left: auto; }
+         /* #nav-prev-next styling is now #quiz-section > #nav-prev-next */
          .nav-btn { padding: 10px 15px; font-size: 0.9em; border: none; border-radius: 5px; cursor: pointer; background-color: var(--secondary-color); color: white; transition: background-color 0.3s ease; white-space: nowrap; }
          .nav-btn:hover:not(:disabled) { filter: brightness(1.1); }
          .nav-btn:disabled { background-color: var(--disabled-bg-color); color: var(--disabled-text-color); cursor: not-allowed; opacity: 0.6; }
@@ -450,13 +459,13 @@
          /* --- RESULTS SECTION --- */
          #results-section { display: none; text-align: left; padding: 30px var(--app-padding-mobile); background-color: var(--bg-color); border-radius: 8px; border: 1px solid var(--card-border-color); transition: background-color 0.3s ease, border-color 0.3s ease; }
          #final-score { font-size: 1.2em; margin-bottom: 20px; color: var(--text-color); font-weight: 500; }
-         #results-controls { display: flex; gap: 10px; margin-top: 20px; }
+         #results-controls { display: flex; gap: 10px; margin-top: 20px; flex-wrap: wrap; justify-content: center; } /* Allow wrap and center */
          #restart-btn, #review-btn, #back-to-select-btn {
              padding: 12px 25px; font-size: 1.1em; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;
          }
          #restart-btn { background-color: var(--primary-color); color: white; }
          #review-btn { background-color: var(--success-color); color: white; }
-         #back-to-select-btn { background-color: var(--secondary-color); color: white; margin-top: 10px; }
+         #back-to-select-btn { background-color: var(--secondary-color); color: white; /* Removed margin-top: 10px; handled by gap */ }
          #restart-btn:hover, #review-btn:hover, #back-to-select-btn:hover { filter: brightness(1.1); }
 
          /* --- UTILITY CLASSES --- */
@@ -505,38 +514,58 @@
              #usage-details { border-radius: 0; border-left: none; border-right: none; margin-bottom: 10px; }
              #select-section { padding: 20px var(--app-padding-mobile); margin-bottom: 15px; border-radius: 0; border-left: none; border-right: none; }
              #auto-advance-timer-bar { margin-left: 0; margin-right: 0; border-radius: 0; }
-             #quiz-header { padding: 10px var(--app-padding-mobile); margin-top: 10px; margin-bottom: 10px; }
+             #quiz-header { padding: 10px var(--app-padding-mobile); margin-top: 10px; margin-bottom: 5px; } /* Reduced bottom margin */
+
+             /* Moved Prev/Next buttons on mobile */
+            #quiz-section > #nav-prev-next {
+                 padding: 5px var(--app-padding-mobile) 10px; /* Adjust padding */
+                 margin-bottom: 10px; /* Slightly less margin */
+                 border-bottom-width: 1px; /* Ensure border stays */
+             }
+
              #question-container { padding: 15px var(--app-padding-mobile); margin: 0 0 15px 0; border-radius: 0; border-left: none; border-right: none; }
              #source { margin: 0 0 15px 0; padding-left: var(--app-padding-mobile); padding-right: var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
-             #navigation { padding: 15px var(--app-padding-mobile) 10px; justify-content: center; }
-             #nav-controls, #review-controls { order: -1; margin-right: 0; width: 100%; justify-content: center; margin-bottom: 10px; }
-             #nav-prev-next { margin-left: 0; width: 100%; justify-content: space-between; }
+
+             /* Bottom Navigation on mobile */
+             #navigation {
+                 padding: 10px var(--app-padding-mobile) 10px; /* Adjust padding */
+                 justify-content: center; /* Keep centered */
+                 /* Removed order overrides as they might conflict with new structure */
+                 /* #nav-controls, #review-controls { order: -1; margin-right: 0; width: 100%; justify-content: center; margin-bottom: 10px; } */
+                 /* Removed width/justify overrides for #nav-prev-next as it's moved */
+                 /* #nav-prev-next { margin-left: 0; width: 100%; justify-content: space-between; } */
+                 flex-direction: row; /* Ensure controls stay in a row if space allows */
+             }
+             .quiz-navigation { /* Container for bottom nav */
+                padding-top: 10px; /* Less top padding */
+             }
+
+
              #results-section { padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
-             #question-text { font-size: 1.1em; } 
-             /* Larger answer buttons on mobile */
-             .answer-btn { 
-                 font-size: 1.05em; 
-                 padding: 16px 18px; 
+             #question-text { font-size: 1.1em; }
+             .answer-btn {
+                 font-size: 1.05em;
+                 padding: 16px 18px;
                  margin-bottom: 5px;
                  min-height: 3em;
              }
              .nav-btn { font-size: 0.85em; padding: 8px 12px; }
-             #settings-menu { right: 5px; }
+             #settings-dialog { padding: 15px 20px; } /* Settings Dialog mobile */
+             #settings-menu { right: 5px; } /* Old menu style, likely unused */
              #results-controls { flex-direction: column; gap: 10px; align-items: center; }
              #restart-btn, #review-btn, #back-to-select-btn { width: 80%; max-width: 300px; }
-             /* Modal on mobile */
              #resume-modal { width: 90%; padding: 20px; }
              #resume-modal h3 { font-size: 1.2em; } #resume-modal p { font-size: 0.95em; }
              .modal-btn { font-size: 0.9em; padding: 8px 15px; min-width: 100px; }
          }
          /* --- End of Media Query --- */
-         
+
         /* --- Touch Swipe Support --- */
         #question-container {
             touch-action: pan-y;
             position: relative;
         }
-        
+
         /* Swipe indicators that appear when swiping */
         .swipe-indicator {
             position: absolute;
@@ -557,72 +586,16 @@
             pointer-events: none;
             z-index: 100;
         }
-        
-        .swipe-left {
-            left: 15px;
-        }
-        
-        .swipe-right {
-            right: 15px;
-        }
-        
-        .swipe-active {
-            opacity: 0.9;
-        }
 
-        /* --- SETTINGS MENU STYLES --- */
-        #settings-dialog {
-            border: none;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px var(--shadow-color);
-            padding: 20px 30px;
-            max-width: 350px;
-            width: 90vw;
-            background-color: var(--menu-bg);
-            border: 1px solid var(--menu-border);
-            color: var(--text-color);
-        }
-        
-        #settings-dialog::backdrop {
-            background: rgba(0, 0, 0, 0.6);
-        }
-        
-        #settings-dialog form {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-        
-        #settings-dialog menu {
-            display: flex;
-            justify-content: flex-end;
-            margin: 0;
-            padding: 0;
-        }
-        
-        #settings-dialog button[value="close"] {
-            padding: 8px 16px;
-            background-color: var(--secondary-color);
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        
-        #settings-dialog button[value="close"]:hover {
-            filter: brightness(1.1);
-        }
-        
-        @media (max-width: 700px) {
-            #settings-dialog {
-                padding: 15px 20px;
-            }
-        }
+        .swipe-left { left: 15px; }
+        .swipe-right { right: 15px; }
+        .swipe-active { opacity: 0.9; }
+
     </style>
 </head>
 <body class=""> <!-- Theme class managed by JS -->
     <div id="app">
-        <div class="quiz-header">
+        <div class="quiz-header"> <!-- Stays as the overall app header -->
             <h1>Ôn kiểm tra nghiệp vụ</h1>
             <h2>Đợt 1 - 2025</h2>
             <h2 id="quiz-title" class="hidden"></h2> <!-- Quiz Title -->
@@ -662,8 +635,11 @@
 
         <!-- Quiz Section -->
         <div id="quiz-section" class="hidden">
+            <!-- Timer bar first -->
             <div id="auto-advance-timer-bar"></div>
-            <div id="quiz-header">
+
+            <!-- Quiz specific header (progress, score, etc.) -->
+            <div id="quiz-header"> <!-- This div now contains only progress/jump/score/settings -->
                  <div id="progress">Câu 1 / 10</div>
                  <div id="jump-nav">
                      <label for="jump-to-input" id="jump-label">Đến:</label>
@@ -673,7 +649,15 @@
                  <div id="score">Điểm: 0</div>
                  <button id="settings-btn" title="Cài đặt"></button>
             </div>
-            <!-- Replace settings menu with dialog -->
+
+            <!-- MOVED PREV/NEXT BUTTONS HERE -->
+            <div id="nav-prev-next">
+                <button id="prev-btn" class="nav-btn">Câu trước</button>
+                <button id="next-btn" class="nav-btn">Câu sau</button>
+            </div>
+            <!-- END MOVED BUTTONS -->
+
+            <!-- Settings Dialog -->
             <dialog id="settings-dialog">
                 <form method="dialog">
                     <div class="settings-item">
@@ -693,12 +677,18 @@
                     </menu>
                 </form>
             </dialog>
+
+            <!-- Question Content -->
             <div id="question-container">
                 <h2 id="question-text">...</h2>
                 <div id="answers"></div>
             </div>
+
+            <!-- Source Information -->
             <div id="source" class="hidden">...</div>
-            <div id="navigation">
+
+            <!-- Bottom Navigation Area (Now only for controls like restart, shuffle, back etc.) -->
+            <div id="navigation" class="quiz-navigation"> <!-- Added quiz-navigation class for consistency -->
                 <div id="nav-controls" class="hidden">
                     <button id="restart-practice-btn" class="nav-btn">Làm lại</button>
                     <button id="shuffle-now-btn" class="nav-btn">Xáo trộn</button>
@@ -709,12 +699,9 @@
                     <button id="exit-review-btn" class="nav-btn">Thoát xem lại</button>
                     <button id="toggle-filter-btn" class="nav-btn">Chỉ xem câu sai</button>
                 </div>
-                <div id="nav-prev-next">
-                    <button id="prev-btn" class="nav-btn">Câu trước</button>
-                    <button id="next-btn" class="nav-btn">Câu sau</button>
-                </div>
+                <!-- nav-prev-next div has been moved out -->
             </div>
-        </div>
+        </div> <!-- End of #quiz-section -->
 
         <!-- Results Section -->
         <div id="results-section" class="hidden">
@@ -762,8 +749,8 @@
         const scoreText = document.getElementById('score');
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
-        const navControls = document.getElementById('nav-controls');
-        const reviewControls = document.getElementById('review-controls');
+        const navControls = document.getElementById('nav-controls'); // Bottom controls (restart, etc)
+        const reviewControls = document.getElementById('review-controls'); // Bottom review controls
         const restartPracticeBtn = document.getElementById('restart-practice-btn');
         const shuffleNowBtn = document.getElementById('shuffle-now-btn');
         const reloadOriginalBtn = document.getElementById('reload-original-btn');
@@ -789,6 +776,9 @@
         const resumeModalText = document.getElementById('resume-modal-text');
         const resumeBtnYes = document.getElementById('resume-btn-yes');
         const resumeBtnNo = document.getElementById('resume-btn-no');
+        // Navigation container references
+        const navPrevNextContainer = document.getElementById('nav-prev-next'); // Container for moved buttons
+        const bottomNavigationContainer = document.getElementById('navigation'); // Container for bottom controls
 
 
         // --- Quiz State Variables ---
@@ -889,20 +879,27 @@
             }
         }
 
-        // Update event listeners
-        settingsBtn.addEventListener('click', toggleSettingsMenu);
-        themeToggleButton.addEventListener('click', toggleTheme);
-
         // --- Event Listeners ---
-        prevBtn.addEventListener('click', navigatePrevious); nextBtn.addEventListener('click', navigateNext);
-        restartPracticeBtn.addEventListener('click', restartQuiz); shuffleNowBtn.addEventListener('click', handleShuffleNow);
-        reloadOriginalBtn.addEventListener('click', handleReloadOriginal); backToSelectQuizBtn.addEventListener('click', showSelectScreen);
-        restartBtn.addEventListener('click', restartQuiz); reviewBtn.addEventListener('click', startReviewMode);
-        backToSelectBtn.addEventListener('click', showSelectScreen); exitReviewBtn.addEventListener('click', exitReviewMode);
-        toggleFilterBtn.addEventListener('click', toggleReviewFilter); jumpToBtn.addEventListener('click', handleJumpToQuestion);
+        prevBtn.addEventListener('click', navigatePrevious); // Moved button
+        nextBtn.addEventListener('click', navigateNext); // Moved button
+        // Bottom controls listeners remain the same
+        restartPracticeBtn.addEventListener('click', restartQuiz);
+        shuffleNowBtn.addEventListener('click', handleShuffleNow);
+        reloadOriginalBtn.addEventListener('click', handleReloadOriginal);
+        backToSelectQuizBtn.addEventListener('click', showSelectScreen);
+        exitReviewBtn.addEventListener('click', exitReviewMode);
+        toggleFilterBtn.addEventListener('click', toggleReviewFilter);
+        // Other listeners
+        restartBtn.addEventListener('click', restartQuiz); // Results screen
+        reviewBtn.addEventListener('click', startReviewMode); // Results screen
+        backToSelectBtn.addEventListener('click', showSelectScreen); // Results screen
+        jumpToBtn.addEventListener('click', handleJumpToQuestion);
         jumpToInput.addEventListener('keypress', (event) => { if (event.key === 'Enter') { event.preventDefault(); handleJumpToQuestion(); } });
         answersContainer.addEventListener('click', (event) => { if (event.target.classList.contains('answer-btn') && !event.target.disabled) { handleAnswerSelection(event.target); } });
-        timerDecreaseBtn.addEventListener('click', decreaseTimer); timerIncreaseBtn.addEventListener('click', increaseTimer);
+        timerDecreaseBtn.addEventListener('click', decreaseTimer);
+        timerIncreaseBtn.addEventListener('click', increaseTimer);
+        settingsBtn.addEventListener('click', toggleSettingsMenu);
+        themeToggleButton.addEventListener('click', toggleTheme);
         // Modal listeners
         resumeBtnYes.addEventListener('click', handleResumeYes);
         resumeBtnNo.addEventListener('click', handleResumeNo);
@@ -944,9 +941,13 @@
 
 
              if (viewToRestore === 'quiz') {
-                 quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
-                 navControls.classList.toggle('hidden', isReviewMode); reviewControls.classList.toggle('hidden', !isReviewMode);
-                 settingsBtn.disabled = isReviewMode; settingsBtn.style.opacity = isReviewMode ? '0.5' : ''; settingsBtn.style.cursor = isReviewMode ? 'not-allowed' : '';
+                 quizSection.classList.remove('hidden'); quizSection.style.display = 'block'; // Should be grid or block depending on outer container
+                 // Control visibility based on restored review mode state
+                 navControls.classList.toggle('hidden', isReviewMode); // Bottom controls
+                 reviewControls.classList.toggle('hidden', !isReviewMode); // Bottom review controls
+                 settingsBtn.disabled = isReviewMode;
+                 settingsBtn.style.opacity = isReviewMode ? '0.5' : '';
+                 settingsBtn.style.cursor = isReviewMode ? 'not-allowed' : '';
                  jumpToInput.max = (quizData && quizData.length > 0) ? quizData.length : 1;
                  displayQuestion(currentQuestionIndex);
              } else if (viewToRestore === 'results') {
@@ -972,163 +973,74 @@
         function shuffleArray(array) { for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [array[i], array[j]] = [array[j], array[i]]; } }
 
         // --- JSON Loading Logic ---
-        // Improved manifest loading with caching and error handling
         function loadQuizManifest() {
-            console.log(`[Manifest] Starting to fetch ${MANIFEST_PATH}...`); 
+            console.log(`[Manifest] Starting to fetch ${MANIFEST_PATH}...`);
             hideError();
-            
-            if (!quizFileSelect) {
-                console.error("[Manifest Error] Quiz file select element not found");
-                showError("Lỗi: Không tìm thấy phần tử chọn câu hỏi");
-                return;
-            }
 
-            // Reset select element
-            quizFileSelect.innerHTML = '<option value="">Đang tải danh sách...</option>';
-            quizFileSelect.disabled = true;
-            statusMessage.textContent = ""; 
-            shuffleCheckbox.disabled = true;
+            if (!quizFileSelect) { console.error("[Manifest Error] Quiz file select element not found"); showError("Lỗi: Không tìm thấy phần tử chọn câu hỏi"); return; }
 
-            // Use cached copy if available in sessionStorage
+            quizFileSelect.innerHTML = '<option value="">Đang tải danh sách...</option>'; quizFileSelect.disabled = true; statusMessage.textContent = ""; shuffleCheckbox.disabled = true;
+
             const cachedManifest = sessionStorage.getItem('quizManifest');
             if (cachedManifest) {
-                try {
-                    const manifestData = JSON.parse(cachedManifest);
-                    console.log("[Manifest] Using cached manifest data");
-                    displayQuizOptions(manifestData);
-                    return;
-                } catch (e) {
-                    console.warn("[Manifest] Failed to parse cached manifest:", e);
-                    // Continue with fetch if cache parsing fails
-                }
+                try { const manifestData = JSON.parse(cachedManifest); console.log("[Manifest] Using cached manifest data"); displayQuizOptions(manifestData); return; }
+                catch (e) { console.warn("[Manifest] Failed to parse cached manifest:", e); }
             }
 
-            // Only add cacheBuster in development, remove it for production
-            const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' 
-                ? `?t=${new Date().getTime()}` : '';
-            
+            const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? `?t=${new Date().getTime()}` : '';
             console.log(`[Manifest] Fetching with URL: ${MANIFEST_PATH}${cacheBuster}`);
-            
+
             fetch(MANIFEST_PATH + cacheBuster)
-                .then(response => {
-                    console.log("[Manifest] Response status:", response.status);
-                    if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`);
-                    return response.json();
-                })
+                .then(response => { if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`); return response.json(); })
                 .then(quizList => {
-                    console.log("[Manifest] Successfully loaded quiz list:", quizList);
-                    if (!Array.isArray(quizList)) {
-                        throw new Error("Dữ liệu không hợp lệ: Danh sách không phải mảng");
-                    }
-                    // Cache the manifest
-                    sessionStorage.setItem('quizManifest', JSON.stringify(quizList));
-                    displayQuizOptions(quizList);
+                    console.log("[Manifest] Successfully loaded quiz list:", quizList); if (!Array.isArray(quizList)) throw new Error("Dữ liệu không hợp lệ: Danh sách không phải mảng");
+                    sessionStorage.setItem('quizManifest', JSON.stringify(quizList)); displayQuizOptions(quizList);
                 })
-                .catch(error => { 
-                    console.error("[Manifest Error]", error); 
-                    showError(`Không tải được danh sách: ${error.message}`); 
-                    quizFileSelect.innerHTML = '<option value="">Lỗi tải danh sách</option>';
-                    statusMessage.textContent = "Lỗi."; 
-                });
+                .catch(error => { console.error("[Manifest Error]", error); showError(`Không tải được danh sách: ${error.message}`); quizFileSelect.innerHTML = '<option value="">Lỗi tải danh sách</option>'; statusMessage.textContent = "Lỗi."; });
         }
 
         function displayQuizOptions(quizList) {
-            console.log("[UI] Starting to display options..."); 
+            console.log("[UI] Starting to display options...");
             hideError();
-            
-            if (!quizFileSelect) {
-                console.error("[UI Error] Quiz file select element not found");
-                showError("Lỗi hiển thị danh sách câu hỏi");
-                return;
-            }
+
+            if (!quizFileSelect) { console.error("[UI Error] Quiz file select element not found"); showError("Lỗi hiển thị danh sách câu hỏi"); return; }
 
             console.log("[UI] Select element found, clearing options");
-            // Clear existing options
             quizFileSelect.innerHTML = '';
-            
-            // Add default option
-            const defaultOption = document.createElement('option');
-            defaultOption.value = "";
-            defaultOption.textContent = "Vui lòng chọn bộ câu hỏi";
-            quizFileSelect.appendChild(defaultOption);
+            const defaultOption = document.createElement('option'); defaultOption.value = ""; defaultOption.textContent = "Vui lòng chọn bộ câu hỏi"; quizFileSelect.appendChild(defaultOption);
             console.log("[UI] Added default option");
-            
-            // Add quiz options
+
             if (quizList && Array.isArray(quizList) && quizList.length > 0) {
                 console.log(`[UI] Adding ${quizList.length} quiz options`);
                 quizList.forEach((quiz, index) => {
                     console.log(`[UI] Processing quiz ${index + 1}:`, quiz);
                     if (quiz && typeof quiz.name === 'string' && typeof quiz.file === 'string') {
-                        const option = document.createElement('option');
-                        option.value = quiz.file;
-                        option.textContent = quiz.name;
-                        option.dataset.quizName = quiz.name;
-                        quizFileSelect.appendChild(option);
-                        console.log(`[UI] Added option for: ${quiz.name}`);
-                    } else {
-                        console.warn("[UI] Skipping invalid quiz item:", quiz);
-                    }
+                        const option = document.createElement('option'); option.value = quiz.file; option.textContent = quiz.name; option.dataset.quizName = quiz.name; quizFileSelect.appendChild(option); console.log(`[UI] Added option for: ${quiz.name}`);
+                    } else { console.warn("[UI] Skipping invalid quiz item:", quiz); }
                 });
-            } else {
-                console.warn("[UI] No valid quiz items found in list");
-            }
-            
-            // Update UI state
-            quizFileSelect.disabled = false;
-            shuffleCheckbox.disabled = false;
-            
-            // Only show status message if there are no options
-            if (!quizList || quizList.length === 0) {
-                statusMessage.textContent = "Không tìm thấy bộ câu hỏi nào.";
-                statusMessage.style.display = "block";
-            } else {
-                statusMessage.textContent = "";
-                statusMessage.style.display = "none";
-            }
-            
+            } else { console.warn("[UI] No valid quiz items found in list"); }
+
+            quizFileSelect.disabled = false; shuffleCheckbox.disabled = false;
+
+            if (!quizList || quizList.length === 0) { statusMessage.textContent = "Không tìm thấy bộ câu hỏi nào."; statusMessage.style.display = "block"; }
+            else { statusMessage.textContent = ""; statusMessage.style.display = "none"; }
             console.log("[UI] Finished displaying options. Current select options:", quizFileSelect.options.length);
         }
 
         function loadQuizFromJson(jsonFilePath, quizName) {
-            console.log(`[Fetch] Requesting ${quizName} from ${jsonFilePath}`); 
-            hideError();
-            statusMessage.textContent = `Đang tải "${quizName}"...`; 
-            if (quizFileSelect) {
-                quizFileSelect.disabled = true;
-            }
-            shuffleCheckbox.disabled = true;
+            console.log(`[Fetch] Requesting ${quizName} from ${jsonFilePath}`);
+            hideError(); statusMessage.textContent = `Đang tải "${quizName}"...`;
+            if (quizFileSelect) { quizFileSelect.disabled = true; } shuffleCheckbox.disabled = true;
 
-            currentFileName = quizName; 
-            quizTitleElement.textContent = quizName; 
-            quizTitleElement.classList.remove('hidden');
-            
-            // Check if already in cache
-            if (loadedQuizzes[jsonFilePath]) {
-                console.log("[Fetch] Using cached quiz data");
-                processQuizData(loadedQuizzes[jsonFilePath]);
-                return;
-            }
+            currentFileName = quizName; quizTitleElement.textContent = quizName; quizTitleElement.classList.remove('hidden');
 
-            // Only add cacheBuster in development
-            const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' 
-                ? `?t=${new Date().getTime()}` : '';
-                
+            if (loadedQuizzes[jsonFilePath]) { console.log("[Fetch] Using cached quiz data"); processQuizData(loadedQuizzes[jsonFilePath]); return; }
+
+            const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? `?t=${new Date().getTime()}` : '';
             fetch(jsonFilePath + cacheBuster)
-                .then(response => { 
-                    if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`); 
-                    return response.json(); 
-                })
-                .then(jsonData => { 
-                    console.log("[Fetch] Success.");
-                    // Cache the quiz data
-                    loadedQuizzes[jsonFilePath] = jsonData;
-                    processQuizData(jsonData); 
-                })
-                .catch(error => { 
-                    console.error("[Fetch Error]", error); 
-                    showError(`Lỗi tải "${quizName}": ${error.message}`); 
-                    showSelectScreen(); 
-                });
+                .then(response => { if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`); return response.json(); })
+                .then(jsonData => { console.log("[Fetch] Success."); loadedQuizzes[jsonFilePath] = jsonData; processQuizData(jsonData); })
+                .catch(error => { console.error("[Fetch Error]", error); showError(`Lỗi tải "${quizName}": ${error.message}`); showSelectScreen(); });
         }
 
 
@@ -1151,7 +1063,6 @@
         // --- Quiz Start and Display Functions ---
         function startQuiz(wasShuffledOrRestarted = false) {
             console.log("[Mode] Starting Quiz");
-             // Reset progress only if explicitly told to (restarting/shuffling)
              if (wasShuffledOrRestarted) {
                  currentQuestionIndex = 0; score = 0; userAnswers = {}; questionsAnswered = {}; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
                  console.log("[Mode] State reset for restart/shuffle.");
@@ -1159,12 +1070,13 @@
             clearAutoAdvanceTimer(); hideError(); updateTimerDisplayAndControls();
             jumpToInput.max = (quizData && quizData.length > 0) ? quizData.length : 1; jumpToInput.value = ''; jumpLabel.textContent = "Đến câu:";
              usageDetails.classList.add('hidden'); selectSection.classList.add('hidden'); selectSection.style.display = 'none';
-            resultsSection.classList.add('hidden'); resultsSection.style.display = 'none'; quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
+            resultsSection.classList.add('hidden'); resultsSection.style.display = 'none'; quizSection.classList.remove('hidden'); quizSection.style.display = 'block'; // Was 'grid'
+            // Show/hide bottom controls based on mode
             navControls.classList.remove('hidden'); reviewControls.classList.add('hidden');
             settingsBtn.disabled = false; settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
             quizTitleElement.textContent = currentFileName; quizTitleElement.classList.remove('hidden');
             displayQuestion(currentQuestionIndex);
-            // Initial state is saved after processQuizData or restartQuiz calls this
+            // Initial state saved after processQuizData or restartQuiz
         }
         function displayQuestion(index) {
              currentQuestionIndex = index;
@@ -1179,17 +1091,17 @@
                  else { progressText.textContent = `Xem lại: Câu ${index + 1} / ${quizData.length}`; jumpLabel.textContent = "Đến câu:"; jumpToInput.max = quizData.length; jumpToInput.placeholder = (index + 1).toString(); }
              } else { progressText.textContent = `Câu ${index + 1} / ${quizData.length}`; jumpLabel.textContent = "Đến câu:"; jumpToInput.max = quizData.length; jumpToInput.placeholder = (index + 1).toString(); }
              restoreAnswerState(index);
-             navControls.classList.toggle('hidden', isReviewMode); reviewControls.classList.toggle('hidden', !isReviewMode);
+             // Show/hide bottom controls based on mode
+             navControls.classList.toggle('hidden', isReviewMode);
+             reviewControls.classList.toggle('hidden', !isReviewMode);
              settingsBtn.disabled = isReviewMode; settingsBtn.style.opacity = isReviewMode ? '0.5' : ''; settingsBtn.style.cursor = isReviewMode ? 'not-allowed' : '';
              if(isReviewMode){ clearAutoAdvanceTimer(); timerBar.classList.remove('timer-active'); toggleFilterBtn.textContent = reviewWrongOnly ? "Xem tất cả" : "Chỉ xem sai"; toggleFilterBtn.classList.toggle('filter-active', reviewWrongOnly); toggleFilterBtn.disabled = wrongAnswerIndices.length === 0 && !reviewWrongOnly; }
              else { updateTimerDisplayAndControls(); }
+             // Update Prev/Next button states (moved buttons)
              if (reviewWrongOnly) { prevBtn.disabled = (currentWrongAnswerReviewIndex <= 0); nextBtn.disabled = (currentWrongAnswerReviewIndex >= wrongAnswerIndices.length - 1); nextBtn.textContent = 'Câu sau'; }
              else { prevBtn.disabled = (index <= 0); const isLast = index === quizData.length - 1; const isAnswered = questionsAnswered[index]; nextBtn.textContent = (isLast && !isReviewMode) ? 'Hoàn thành' : 'Câu sau'; nextBtn.disabled = (!isReviewMode && !isAnswered) || (isReviewMode && isLast); }
-             // Remove old settings menu handling
-             const settingsDialog = document.getElementById('settings-dialog');
-             if (settingsDialog) {
-                 settingsDialog.close();
-             }
+
+             const settingsDialog = document.getElementById('settings-dialog'); if (settingsDialog) { settingsDialog.close(); }
         }
         function restoreAnswerState(questionIndex) {
             const userAnswerIndex = userAnswers[questionIndex]; const buttons = answersContainer.querySelectorAll('.answer-btn');
@@ -1206,7 +1118,7 @@
              const allButtons = answersContainer.querySelectorAll('.answer-btn'); allButtons.forEach(b => b.disabled = true); selectedButton.classList.add('selected');
              let isCorrect = (selectedIndex === correctIndex); if (isCorrect) { score++; selectedButton.classList.add('correct'); } else { selectedButton.classList.add('incorrect'); if (allButtons[correctIndex]) { allButtons[correctIndex].classList.add('reveal-correct'); } }
              sourceDiv.textContent = `Nguồn: ${currentQuestion.source || 'N/A'}`; sourceDiv.classList.remove('hidden'); sourceDiv.style.display = 'block';
-             scoreText.textContent = `Điểm: ${score}`; nextBtn.disabled = false;
+             scoreText.textContent = `Điểm: ${score}`; nextBtn.disabled = false; // Enable moved next button
              if (currentQuestionIndex === quizData.length - 1) { nextBtn.textContent = 'Hoàn thành'; }
              if (isCorrect && currentQuestionIndex < quizData.length - 1 && autoAdvanceDuration > 0) { timerBar.classList.add('timer-active'); autoAdvanceTimer = setTimeout(() => { autoAdvanceTimer = null; navigateNext(); }, autoAdvanceDuration); }
              saveState(); // Save state after answering
@@ -1216,21 +1128,12 @@
         // --- Results/Restart/Review Functions ---
         function showResults() {
             console.log("[Mode] Showing Results");
-
-            // --- Trigger Confetti ---
-            if (!isReviewMode) { // Only fire when finishing quiz, not exiting review
-                console.log("[Effect] Triggering confetti!");
-                if (typeof confetti === 'function') {
-                     confetti({ particleCount: 150, spread: 90, origin: { y: 0.6 }, zIndex: 1050 });
-                } else { console.warn("[Effect] Confetti function not found."); }
-            }
-            // --- End Confetti Trigger ---
-
+            if (!isReviewMode) { console.log("[Effect] Triggering confetti!"); if (typeof confetti === 'function') { confetti({ particleCount: 150, spread: 90, origin: { y: 0.6 }, zIndex: 1050 }); } else { console.warn("[Effect] Confetti function not found."); } }
             isReviewMode = false; reviewWrongOnly = false; clearAutoAdvanceTimer();
             quizSection.classList.add('hidden'); quizSection.style.display = 'none'; resultsSection.classList.remove('hidden'); resultsSection.style.display = 'block';
             finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length}`; quizTitleElement.textContent = currentFileName; quizTitleElement.classList.remove('hidden');
             settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
-            saveState(); // Save state when showing results
+            saveState();
         }
         function restartQuiz(wasShuffled = false) {
              if (!quizData || quizData.length === 0) { showSelectScreen(); return; } console.log(`[Action] Restarting quiz: ${currentFileName}`);
@@ -1245,7 +1148,7 @@
              console.log(`[Review] Found ${wrongAnswerIndices.length} wrong answers.`);
              isReviewMode = true; reviewWrongOnly = false; currentQuestionIndex = 0; currentWrongAnswerReviewIndex = 0;
              clearAutoAdvanceTimer(); updateTimerDisplayAndControls();
-             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none'; quizSection.classList.remove('hidden'); quizSection.style.display = 'block';
+             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none'; quizSection.classList.remove('hidden'); quizSection.style.display = 'block'; // was grid
              displayQuestion(currentQuestionIndex); saveState();
         }
         function exitReviewMode() { console.log("[Mode] Exiting Review"); isReviewMode = false; reviewWrongOnly = false; showResults(); /* Calls saveState */ }
@@ -1262,53 +1165,26 @@
 
         function showSelectScreen(preventClear = false) {
              console.log("[UI] Show Select Screen" + (preventClear ? " (no state clear)" : ""));
-             if (!preventClear) { 
-                clearState(); 
-                // Clear quiz cache when explicitly returning to select screen
-                loadedQuizzes = {};
-             }
+             if (!preventClear) { clearState(); loadedQuizzes = {}; }
              originalQuizData = []; quizData = []; currentFileName = ""; score = 0; userAnswers = {}; questionsAnswered = {}; currentQuestionIndex = 0; isReviewMode = false; reviewWrongOnly = false; wrongAnswerIndices = []; currentWrongAnswerReviewIndex = 0;
              clearAutoAdvanceTimer(); hideError();
              quizSection.classList.add('hidden'); quizSection.style.display = 'none'; resultsSection.classList.add('hidden'); resultsSection.style.display = 'none';
-             usageDetails.classList.remove('hidden'); // Show usage on select screen
+             usageDetails.classList.remove('hidden');
              quizTitleElement.textContent = ''; quizTitleElement.classList.add('hidden');
              selectSection.classList.remove('hidden'); selectSection.style.display = 'block'; shuffleCheckbox.disabled = false;
-             
-             // Clear and reset the quiz file list container
+
              if (quizFileListContainer) {
-                 quizFileListContainer.innerHTML = '';
-                 const select = document.createElement('select');
-                 select.id = 'quiz-file-select';
-                 select.innerHTML = '<option value="">Đang tải danh sách...</option>';
-                 select.disabled = true;
-                 
-                 // Add event listener to the new select element
-                 select.addEventListener('change', function() {
-                     const selectedOption = this.options[this.selectedIndex];
-                     if (selectedOption && selectedOption.value) {
-                         loadQuizFromJson(selectedOption.value, selectedOption.dataset.quizName);
-                     }
-                 });
-                 
-                 quizFileListContainer.appendChild(select);
-                 quizFileSelect = select; // Update the reference
+                 quizFileListContainer.innerHTML = ''; const select = document.createElement('select'); select.id = 'quiz-file-select'; select.innerHTML = '<option value="">Đang tải danh sách...</option>'; select.disabled = true;
+                 select.addEventListener('change', function() { const selectedOption = this.options[this.selectedIndex]; if (selectedOption && selectedOption.value) { loadQuizFromJson(selectedOption.value, selectedOption.dataset.quizName); } });
+                 quizFileListContainer.appendChild(select); quizFileSelect = select;
              }
-             
+
              statusMessage.textContent = ""; errorMessage.textContent = ''; errorMessage.classList.add('hidden');
              settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
-             
-             // Check if manifest is already cached before reloading
+
              const cachedManifest = sessionStorage.getItem('quizManifest');
-             if (cachedManifest) {
-                 try {
-                     const manifestData = JSON.parse(cachedManifest);
-                     displayQuizOptions(manifestData);
-                 } catch (e) {
-                     loadQuizManifest(); // Fall back to loading if cache parse fails
-                 }
-             } else {
-                 loadQuizManifest();
-             }
+             if (cachedManifest) { try { const manifestData = JSON.parse(cachedManifest); displayQuizOptions(manifestData); } catch (e) { loadQuizManifest(); } }
+             else { loadQuizManifest(); }
          }
 
 
@@ -1317,42 +1193,22 @@
              console.log("[Init] DOM Loaded.");
              applyInitialTheme();
 
-             // Initialize select element
              if (quizFileSelect) {
                  console.log("[Init] Setting up quiz select");
-                 // Remove any existing event listeners
-                 const newSelect = quizFileSelect.cloneNode(true);
-                 quizFileSelect.parentNode.replaceChild(newSelect, quizFileSelect);
-                 quizFileSelect = newSelect;
-
-                 // Add event listener
-                 quizFileSelect.addEventListener('change', function() {
-                     const selectedOption = this.options[this.selectedIndex];
-                     if (selectedOption && selectedOption.value) {
-                         loadQuizFromJson(selectedOption.value, selectedOption.dataset.quizName);
-                     }
-                 });
+                 const newSelect = quizFileSelect.cloneNode(true); quizFileSelect.parentNode.replaceChild(newSelect, quizFileSelect); quizFileSelect = newSelect;
+                 quizFileSelect.addEventListener('change', function() { const selectedOption = this.options[this.selectedIndex]; if (selectedOption && selectedOption.value) { loadQuizFromJson(selectedOption.value, selectedOption.dataset.quizName); } });
              }
 
              const restoredState = loadState();
-
              if (restoredState) {
-                // Use Custom Modal
-                const resumeQuizName = restoredState.quizName || "Unknown Quiz";
-                const resumeQuestionNum = (restoredState.currentQuestionIndex || 0) + 1;
-                const resumeTotalQuestions = restoredState.quizData?.length || "?";
-                let resumeMessage = `Bạn có một bài làm dở dang cho "${resumeQuizName}"`;
+                const resumeQuizName = restoredState.quizName || "Unknown Quiz"; const resumeQuestionNum = (restoredState.currentQuestionIndex || 0) + 1; const resumeTotalQuestions = restoredState.quizData?.length || "?"; let resumeMessage = `Bạn có một bài làm dở dang cho "${resumeQuizName}"`;
                 if (restoredState.view === 'quiz') { resumeMessage += ` (đang ở câu ${resumeQuestionNum}/${resumeTotalQuestions}). Bạn có muốn tiếp tục không?`; }
                 else if (restoredState.view === 'results') { resumeMessage += ` (đang ở màn hình kết quả). Bạn có muốn xem lại không?`; }
-                else { resumeMessage += `. Bạn có muốn tiếp tục không?`; } // Fallback
-                showResumeModal(resumeMessage); // Show modal, logic continues in button handlers
-
+                else { resumeMessage += `. Bạn có muốn tiếp tục không?`; }
+                showResumeModal(resumeMessage);
              } else {
-                 // No valid state to restore, start fresh automatically
                  console.log("[Init] No valid state, starting fresh.");
-                 updateTimerDisplayAndControls(); // Set initial timer display
-                 showSelectScreen(true); // Show select screen, prevent state clear
-                 // Decide initial visibility of usage details
+                 updateTimerDisplayAndControls(); showSelectScreen(true);
                   if (usageDetails.hasAttribute('open')) { usageDetails.open = true; usageDetails.classList.remove('hidden'); }
                   else { usageDetails.classList.add('hidden'); }
              }
@@ -1363,83 +1219,15 @@
     <!-- Add swipe gesture functionality -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Create swipe indicators
-            const questionContainer = document.getElementById('question-container');
-            if (!questionContainer) return;
-            
-            // Create swipe indicator elements
-            const leftIndicator = document.createElement('div');
-            leftIndicator.className = 'swipe-indicator swipe-left';
-            leftIndicator.innerHTML = '&lsaquo;';
-            
-            const rightIndicator = document.createElement('div');
-            rightIndicator.className = 'swipe-indicator swipe-right';
-            rightIndicator.innerHTML = '&rsaquo;';
-            
-            // Add indicators to question container
-            questionContainer.appendChild(leftIndicator);
-            questionContainer.appendChild(rightIndicator);
-            
-            // Touch tracking variables
-            let touchStartX = 0;
-            let touchEndX = 0;
-            const minSwipeDistance = 75; // Minimum distance to count as a swipe
-            
-            // Handle touch start
-            questionContainer.addEventListener('touchstart', (e) => {
-                touchStartX = e.changedTouches[0].screenX;
-            }, { passive: true });
-            
-            // Handle touch move to show indicators
-            questionContainer.addEventListener('touchmove', (e) => {
-                const currentX = e.changedTouches[0].screenX;
-                const diffX = currentX - touchStartX;
-                
-                // Clear both indicators first
-                leftIndicator.classList.remove('swipe-active');
-                rightIndicator.classList.remove('swipe-active');
-                
-                // Show appropriate indicator based on swipe direction
-                if (diffX > 30) { // Small threshold to show indicator
-                    leftIndicator.classList.add('swipe-active');
-                } else if (diffX < -30) {
-                    rightIndicator.classList.add('swipe-active');
-                }
-            }, { passive: true });
-            
-            // Handle touch end for navigation
-            questionContainer.addEventListener('touchend', (e) => {
-                touchEndX = e.changedTouches[0].screenX;
-                handleSwipe();
-                
-                // Hide indicators
-                setTimeout(() => {
-                    leftIndicator.classList.remove('swipe-active');
-                    rightIndicator.classList.remove('swipe-active');
-                }, 300);
-            }, { passive: true });
-            
-            // Process the swipe
-            function handleSwipe() {
-                const diffX = touchEndX - touchStartX;
-                
-                // Check if swipe was long enough
-                if (Math.abs(diffX) < minSwipeDistance) return;
-                
-                if (diffX > 0) {
-                    // Swipe right to left (previous question)
-                    const prevButton = document.getElementById('prev-btn');
-                    if (prevButton && !prevButton.disabled) {
-                        navigatePrevious();
-                    }
-                } else {
-                    // Swipe left to right (next question)
-                    const nextButton = document.getElementById('next-btn');
-                    if (nextButton && !nextButton.disabled) {
-                        navigateNext();
-                    }
-                }
-            }
+            const questionContainer = document.getElementById('question-container'); if (!questionContainer) return;
+            const leftIndicator = document.createElement('div'); leftIndicator.className = 'swipe-indicator swipe-left'; leftIndicator.innerHTML = '‹';
+            const rightIndicator = document.createElement('div'); rightIndicator.className = 'swipe-indicator swipe-right'; rightIndicator.innerHTML = '›';
+            questionContainer.appendChild(leftIndicator); questionContainer.appendChild(rightIndicator);
+            let touchStartX = 0; let touchEndX = 0; const minSwipeDistance = 75;
+            questionContainer.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, { passive: true });
+            questionContainer.addEventListener('touchmove', (e) => { const currentX = e.changedTouches[0].screenX; const diffX = currentX - touchStartX; leftIndicator.classList.remove('swipe-active'); rightIndicator.classList.remove('swipe-active'); if (diffX > 30) { leftIndicator.classList.add('swipe-active'); } else if (diffX < -30) { rightIndicator.classList.add('swipe-active'); } }, { passive: true });
+            questionContainer.addEventListener('touchend', (e) => { touchEndX = e.changedTouches[0].screenX; handleSwipe(); setTimeout(() => { leftIndicator.classList.remove('swipe-active'); rightIndicator.classList.remove('swipe-active'); }, 300); }, { passive: true });
+            function handleSwipe() { const diffX = touchEndX - touchStartX; if (Math.abs(diffX) < minSwipeDistance) return; if (diffX > 0) { const prevButton = document.getElementById('prev-btn'); if (prevButton && !prevButton.disabled) { navigatePrevious(); } } else { const nextButton = document.getElementById('next-btn'); if (nextButton && !nextButton.disabled) { navigateNext(); } } }
         });
     </script>
 
@@ -1448,12 +1236,8 @@
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('service-worker.js')
-                    .then(registration => {
-                        console.log('[Service Worker] Registration successful:', registration);
-                    })
-                    .catch(error => {
-                        console.error('[Service Worker] Registration failed:', error);
-                    });
+                    .then(registration => { console.log('[Service Worker] Registration successful:', registration); })
+                    .catch(error => { console.error('[Service Worker] Registration failed:', error); });
             });
         }
     </script>
