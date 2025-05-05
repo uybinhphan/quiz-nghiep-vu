@@ -72,19 +72,19 @@
     "file": "./data/19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên.json"
   },
   {
-    "name": "Phó Giám đôc-Kiến thức chung-150 câu",
-    "file": "./data/Phó Giám đôc-Kiến thức chung-150 câu.json"
+    "name": "PGĐ-Kiến thức chung-150 câu",
+    "file": "./data/PGĐ-Kiến thức chung-150 câu.json"
   },
   {
-    "name": "Phó Giám đốc-Kỹ năng quản lý-150 câu",
-    "file": "./data/Phó Giám đốc-Kỹ năng quản lý-150 câu.json"
+    "name": "PGĐ-Kỹ năng quản lý-150 câu",
+    "file": "./data/PGĐ-Kỹ năng quản lý-150 câu.json"
   },
   {
-    "name": "Phó Giám đốc-Nghiệp vụ kế toán-300 câu",
-    "file": "./data/Phó Giám đốc-Nghiệp vụ kế toán-300 câu.json"
+    "name": "PGĐ-Nghiệp vụ kế toán-300 câu",
+    "file": "./data/PGĐ-Nghiệp vụ kế toán-300 câu.json"
   },
   {
-    "name": "Phó Giám đốc-Nghiệp vụ tín dụng-300 câu",
-    "file": "./data/Phó Giám đốc-Nghiệp vụ tín dụng-300 câu.json"
+    "name": "PGĐ-Nghiệp vụ tín dụng-300 câu",
+    "file": "./data/PGĐ-Nghiệp vụ tín dụng-300 câu.json"
   }
 ]
