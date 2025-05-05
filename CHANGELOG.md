@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.3...v1.0.4) (2025-05-05)
+
+
+### Bug Fixes
+
+* add new quiz data ([#36](https://github.com/uybinhphan/quiz-nghiep-vu/issues/36)) ([d04cef0](https://github.com/uybinhphan/quiz-nghiep-vu/commit/d04cef06545d572af4c4f99385eca0eb140b5f11))
+
 ## [1.0.3](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.2...v1.0.3) (2025-05-04)
 
 
