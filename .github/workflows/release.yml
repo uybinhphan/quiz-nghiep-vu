@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Release Please
-        uses: google-github-actions/release-please-action@v3
+        uses: googleapis/release-please-action@v4 # Use the latest major version from googleapis
         id: release
         with:
           release-type: node
