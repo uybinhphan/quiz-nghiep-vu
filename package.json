@@ -1,6 +1,6 @@
 {
   "name": "quiz-nghiep-vu",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Quiz application for professional skills testing",
   "main": "index.html",
   "scripts": {

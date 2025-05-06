@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.5...v1.0.6) (2025-05-06)
+
+
+### Bug Fixes
+
+* package-name in release.yml ([#41](https://github.com/uybinhphan/quiz-nghiep-vu/issues/41)) ([fa92d4f](https://github.com/uybinhphan/quiz-nghiep-vu/commit/fa92d4f82ac98ba10fa9e0f9148fb81b798d6087))
+
 ## [1.0.5](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.4...v1.0.5) (2025-05-05)
 
 

@@ -4,89 +4,101 @@
 [![Deploy](https://github.com/uybinhphan/quiz-nghiep-vu/actions/workflows/deploy.yml/badge.svg)](https://github.com/uybinhphan/quiz-nghiep-vu/actions/workflows/deploy.yml)
 
 ## Overview
-The Quiz Nghiệp Vụ Application is a client-side web application designed for professional skills testing in Vietnamese. It provides an interactive platform for users to practice and test their knowledge across various professional domains through quizzes.
+The Quiz Nghiệp Vụ Application is a client-side web application designed for professional skills testing in Vietnamese. It provides an interactive platform for users to practice and test their knowledge across various professional domains through quizzes, running entirely in the user's browser.
 
 ## Architecture
 
 ### Client-Side Architecture
-- Single-page application (SPA) built with vanilla JavaScript, HTML, and CSS
-- No server-side processing - all operations happen client-side
-- PWA (Progressive Web App) features with service worker support
-- Responsive design that works on desktop and mobile devices
+- Single-page application (SPA) built with vanilla JavaScript, HTML, and CSS.
+- Main layout managed using CSS Grid (`#app`) and CSS Variables for flexible theming (light/dark).
+- No server-side processing required for core quiz functionality.
+- PWA (Progressive Web App) features enabled via a service worker for caching.
+- Responsive design adapting to desktop and mobile viewports.
 
 ### Data Architecture
-- Quiz data stored in JSON format
-- Data pipeline: Excel files → JSON conversion → JSON compression
-- Client-side caching for improved performance
+- Quiz data stored in JSON format, loaded dynamically based on user selection.
+- Data pipeline (external to the running app): Excel files → JSON conversion → JSON compression (handled during build process).
+- Client-side caching of quiz manifest (`sessionStorage`) and loaded quiz data (`loadedQuizzes` object) for performance.
 
 ### Language Support
-- Primary interface language: Vietnamese
-- Quiz content, instructions, and UI elements are in Vietnamese
-- Column headers in Excel files use Vietnamese terminology (e.g., "Câu hỏi", "Đáp án đúng")
+- Primary interface language: Vietnamese (`lang="vi"`).
+- Quiz content, instructions, UI elements (buttons, labels, messages), and settings are in Vietnamese.
+- Expected column headers in source Excel files use Vietnamese terminology (e.g., "Câu hỏi", "Đáp án đúng").
 
 ## Features
 
 ### Core Features
-1. **Quiz Selection Interface**
-   - Dropdown/button-based selection of quiz categories
-   - Visual indication of quiz selection
-   - Shuffle option for randomizing questions
-
-2. **Quiz Interface**
-   - Question display with multiple-choice options
-   - Answer selection and verification
-   - Source citation display
-   - Progress tracking
-   - Timer functionality
-
-3. **Results Interface**
-   - Score display
-   - Performance statistics
-   - Answer review capability (can view all questions or only wrong-answer questions)
-   - Option to restart or select a new quiz
-   - Visual celebration (confetti) on completion
+1.  **"How to Use" Section:** An expandable section (`<details>`) providing initial guidance.
+2.  **Quiz Selection Interface (`#select-section`)**
+    *   Loads available quizzes from a manifest file (`data/quiz_manifest.json`).
+    *   Uses a standard HTML `<select>` dropdown (`#quiz-file-select`) for quiz selection.
+    *   Displays loading/status messages (`#status-message`).
+    *   Provides an option (`#shuffle-checkbox`) to shuffle questions *before* starting a quiz.
+3.  **Quiz Interface (`#quiz-section`)**
+    *   Displays the current question (`#question-text`) with multiple-choice answer buttons (`#answers .answer-btn`).
+    *   Immediate feedback on answer selection (correct/incorrect highlighting).
+    *   Displays the source/citation for the current question (`#source`) after answering or in review mode.
+    *   Tracks progress (`#progress`: "Câu X / Y") and score (`#score`).
+    *   Navigation:
+        *   "Câu trước" (`#prev-btn`) / "Câu sau" (`#next-btn`) buttons placed below the header, above the question.
+        *   Jump-to-question functionality using a number input (`#jump-nav`).
+        *   Swipe gesture support (left/right) on the question container (`#question-container`) for mobile navigation.
+    *   Optional auto-advance timer (`#auto-advance-timer-bar`) visually showing countdown after a correct answer.
+    *   Settings Dialog (`#settings-dialog`): Accessible via '⚙️' button (`#settings-btn`) to adjust auto-advance duration and toggle theme (light/dark).
+    *   In-quiz controls (`#nav-controls`, `#review-controls`): Restart (same quiz), Shuffle Now, Reload Original Order, Back to Selection, Exit Review, Filter Wrong Answers.
+4.  **Results Interface (`#results-section`)**
+    *   Displays the final score (`#final-score`: "Điểm cuối cùng: X / Y").
+    *   Visual celebration (confetti animation) on completion.
+    *   Options (`#results-controls`):
+        *   Restart the same quiz (`#restart-btn`).
+        *   Review answers (`#review-btn`), with an option to filter for incorrect answers only (`#toggle-filter-btn`).
+        *   Go back to the quiz selection screen (`#back-to-select-btn`).
 
 ### Technical Features
-1. **Optimization**
-   - JSON compression for reduced file sizes
-   - Client-side caching via service worker
-   - CSS and HTML minification
-   - Lazy loading of external resources
-
-2. **Theme Support**
-   - Light and dark theme options
-   - Persistent theme preference storage
-
-3. **Settings**
-   - Customizable quiz options
-   - UI preference settings
+1.  **State Persistence:**
+    *   Uses `localStorage` (`STORAGE_KEY = 'quizAppState'`) to save the current session state (view, quiz name, data, progress, answers, score, settings like timer duration).
+    *   Prompts the user (`#resume-modal-overlay`) on page load if a previous session is found, offering to resume or start fresh.
+2.  **PWA Features:**
+    *   Includes a Service Worker (`service-worker.js`) for asset caching, enabling faster loads and potential basic offline access to previously visited quizzes.
+3.  **Optimization:**
+    *   Uses `<link rel="preconnect">` for potential CDN resources.
+    *   Loads external libraries (`canvas-confetti`) asynchronously (`async`).
+    *   Client-side caching of fetched quiz data.
+    *   *Build-time optimizations:* JSON compression, HTML/CSS minification (managed by CI/CD).
+4.  **Theme Support:**
+    *   Light and dark themes implemented using CSS Variables.
+    *   Theme preference is saved in `localStorage` and applied automatically on subsequent visits.
+    *   Toggle available in the settings dialog.
+5.  **Settings Persistence:** Auto-advance timer duration is saved as part of the application state.
+6.  **Analytics:** Includes GoatCounter for privacy-friendly analytics.
+7.  **Swipe Gesture Support:** Enhances mobile UX with touch-based navigation.
 
 ## Data Structure
 
 ### Quiz Data Format
-Each quiz is stored as a JSON array of question objects with the following structure:
+Each quiz is stored as a JSON array of question objects. Example structure:
 ```json
 {
-  "question": "Nội dung câu hỏi",
+  "question": "Nội dung câu hỏi...",
   "options": [
-    "Đáp án 1",
-    "Đáp án 2",
-    "Đáp án 3",
-    "Đáp án 4"
+    "Đáp án A",
+    "Đáp án B",
+    "Đáp án C",
+    "Đáp án D"
   ],
-  "correctAnswerIndex": 0, // Zero-based index (0-3)
-  "source": "Trích dẫn nguồn"
+  "correctAnswerIndex": 0, // Zero-based index of the correct option
+  "source": "Nguồn tham khảo..."
 }
 ```
 
-### Quiz Manifest
-A central manifest file (`quiz_manifest.json`) maintains an index of all available quizzes:
+### Quiz Manifest (`data/quiz_manifest.json`)
+A central JSON file listing available quizzes:
 ```json
 [
   {
-    "name": "Quiz Name/Category",
-    "file": "data/quiz-filename.json",
-    "size": 12345 // File size in bytes (for progress indication)
+    "name": "Tên bộ câu hỏi",
+    "file": "data/ten-file-quiz.json"
+    // "size" field might exist but isn't currently used in index.html
   },
   ...
 ]
@@ -95,103 +107,85 @@ A central manifest file (`quiz_manifest.json`) maintains an index of all availab
 ## Build and Development Process
 
 ### Development Environment
-- Node.js for build scripts
-- Development workflow with npm scripts
-- Support for Vietnamese character encoding (UTF-8)
-- ESLint for code quality
+- Requires Node.js for running build scripts.
+- Uses `npm` scripts for development tasks (linting, building).
+- Assumes UTF-8 encoding for handling Vietnamese characters.
+- ESLint configured for code quality checks.
 
-### Build Pipeline
-1. **Data Conversion**: Excel to JSON conversion using the `xlsx` library
-   - Command: `npm run convert`
-   - Reads from `./quizzes` directory
-   - Outputs to `./data` directory
+### Build Pipeline (via npm scripts)
+1.  **Data Conversion**: `npm run convert` - Converts Excel files (from `./quizzes`) to JSON format (in `./data`) using the `xlsx` library.
+2.  **Optimization**: `npm run compress` (compresses JSON), `npm run optimize` (may include HTML/CSS minification), `npm run build` (combines steps).
 
-2. **Optimization**: Compression and minification
-   - JSON compression: `npm run compress`
-   - HTML minification: Part of `npm run optimize`
-   - Combined process: `npm run build`
+### CI/CD Pipeline (GitHub Actions)
 
-### CI/CD Pipeline
+1.  **Pull Request Workflow (`release.yml`? likely validation):**
+    *   Validates PRs, checks semantic commit messages.
+    *   Runs linters and quality checks.
+2.  **Release Workflow (`release.yml`):**
+    *   Handles semantic versioning based on commit messages.
+    *   Generates changelogs.
+    *   Creates Git tags for releases.
+    *   Triggered on merges to the main branch.
+3.  **Deployment Workflow (`deploy.yml`):**
+    *   Deploys the application to GitHub Pages.
+    *   Includes asset optimization (minification, compression).
+    *   Triggered by the release workflow (or pushes to main).
 
-1. **Pull Request Workflow**
-   - Automated PR validation with semantic commit checks
-   - Code linting and quality checks
-   - Ensures all code changes follow project standards
-
-2. **Release Workflow**
-   - Automatic versioning using semantic versioning
-   - Changelog generation based on commit messages
-   - Git tag creation for each release
-   - Triggered automatically when PRs are merged to main
-
-3. **Deployment**
-   - Automated deployment to GitHub Pages
-   - Minification and optimization of assets
-   - Triggered by the release workflow
-   - Zero-downtime deployment
-
-4. **Setup Instructions**
-   - Configure GitHub Pages:
-     1. Go to Repository Settings > Pages > Build and Deployment
-     2. Select "Deploy from a branch" as the source
-     3. Set the branch to `gh-pages`
+4.  **Setup Instructions (GitHub Pages):**
+    *   Configure repository settings: Pages > Build and Deployment.
+    *   Source: "Deploy from a branch".
+    *   Branch: `gh-pages` (or as configured in the deploy workflow).
 
 ## Performance Optimization
 
 ### Network Optimization
-- Compressed JSON files to reduce transfer size
-- Browser caching via Cache-Control headers
-- Service worker for offline capability and faster loading
+- JSON files are compressed during the build process (reduces download size).
+- Browser caching utilized via `Cache-Control` headers (set by GitHub Pages or server).
+- Service Worker provides robust caching for static assets and potentially API calls (manifest).
+- Asynchronous loading of non-critical JavaScript (`canvas-confetti`).
+- Preconnect hints for CDNs.
 
 ### Runtime Optimization
-- In-memory caching to prevent redundant data fetching
-- Lazy loading of non-essential resources
-- Minified CSS and HTML for faster parsing
+- In-memory caching (`loadedQuizzes`) prevents re-fetching the same quiz data within a session.
+- Efficient DOM manipulation (updates specific elements rather than full re-renders).
+- Minified CSS/HTML (build step) leads to faster browser parsing.
 
 ## Browser Compatibility
-- Modern web browsers (Chrome, Firefox, Safari, Edge)
-- Mobile browsers on iOS and Android
-- Progressive enhancement for older browsers
+- Designed for modern web browsers (latest versions of Chrome, Firefox, Safari, Edge).
+- Responsive design targets mobile browsers on iOS and Android.
+- Functionality relies heavily on JavaScript being enabled.
 
 ## Contributing
 
-We welcome contributions to improve the Quiz Nghiệp Vụ application. Please follow these steps to contribute:
+Contributions are welcome! Please follow these general steps:
 
-1. **Fork the repository**
-2. **Create a feature branch**
-   - Use a descriptive name that reflects your changes
-3. **Make your changes**
-   - Follow the code style and conventions
-   - Add tests if applicable
-4. **Commit your changes**
-   - Use semantic commit messages (e.g., `feat: add new feature`, `fix: resolve bug`)
-   - Include a scope in your commit message (e.g., `feat(ui): add dark mode toggle`)
-5. **Create a Pull Request**
-   - Provide a clear description of your changes
-   - Reference any related issues
+1.  Fork the repository.
+2.  Create a feature branch (e.g., `git checkout -b feat/add-timer-pause`).
+3.  Make your changes, adhering to existing code style.
+4.  Commit your changes using semantic commit messages (e.g., `feat(timer): add pause button`).
+5.  Run linters (`npm run lint`) and build (`npm run build`) locally if applicable.
+6.  Push to your fork and create a Pull Request with a clear description.
 
 ### Development Workflow
 
-1. **Setup**: Clone the repository and run `npm install`
-2. **Development**: Make your changes and test locally
-3. **Linting**: Run `npm run lint` to check for code quality issues
-4. **Building**: Run `npm run build` to ensure your changes build correctly
-5. **Pull Request**: Submit your changes for review
+1.  **Setup**: Clone the repo, run `npm install`.
+2.  **Develop**: Make code changes. Test by opening `index.html` locally (or using a simple local server).
+3.  **Lint**: Run `npm run lint`.
+4.  **Build**: Run `npm run build` (especially if modifying data or build scripts).
+5.  **Submit PR**.
 
-## Future Enhancements
-1. Offline mode with full functionality
-2. Enhanced statistics and analytics
-3. User accounts and progress tracking
-4. Additional quiz formats beyond multiple-choice
-5. Modernize the tech stack with React and Next.js
+## Future Enhancements (Potential Ideas)
+1.  More robust offline mode using the service worker.
+2.  User accounts for tracking progress across sessions/devices.
+3.  More detailed statistics and performance analysis.
+4.  Support for different question types (e.g., fill-in-the-blank, matching).
+5.  Refactoring to a modern framework like React/Vue/Svelte for better maintainability (as mentioned in the original README).
 
 ## Limitations
-- Maximum quiz file size determined by client-side memory constraints
-- Requires JavaScript to be enabled
-- Limited offline capability with current implementation
+- Performance may degrade with extremely large quiz files due to client-side processing and memory limits.
+- Requires JavaScript enabled in the browser.
+- Offline capability is primarily based on browser/service worker caching; full offline *functionality* (starting a *new*, uncached quiz offline) is likely not supported.
 
 ## Localization
-- UI text and labels in Vietnamese
-- Error messages and instructions in Vietnamese
-- Date and time formats following Vietnamese conventions
-- Quiz categories reflect Vietnamese professional domains and specializations 
+- The application interface is currently hardcoded in Vietnamese. Adapting for other languages would require significant refactoring for internationalization (i18n).
+- Assumes quiz data content is in Vietnamese.
