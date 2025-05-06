@@ -19,7 +19,6 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: quiz-nghiep-vu
           token: ${{ secrets.GITHUB_TOKEN }}
           
       # Only run the following steps if a release was created
