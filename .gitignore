@@ -1,9 +1,0 @@
-node_modules/ 
-data-compressed/
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Temp files
-*.log
-npm-debug.log*
