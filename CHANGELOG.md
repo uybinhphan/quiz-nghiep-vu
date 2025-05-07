@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.6...v1.1.0) (2025-05-07)
+
+
+### Features
+
+* Enhance data handling, filenaming, and deployment pipeline ([#43](https://github.com/uybinhphan/quiz-nghiep-vu/issues/43)) ([33de58c](https://github.com/uybinhphan/quiz-nghiep-vu/commit/33de58c834b25f1ffe908a58c0c9125d20eff852))
+
 ## [1.0.6](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.5...v1.0.6) (2025-05-06)
 
 
