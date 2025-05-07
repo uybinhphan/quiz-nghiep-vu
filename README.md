@@ -17,7 +17,7 @@ The Quiz Nghiệp Vụ Application is a client-side web application designed for
 
 ### Data Architecture
 - Quiz data stored in JSON format, loaded dynamically based on user selection.
-- Data pipeline (external to the running app): Excel files → JSON conversion → JSON compression (handled during build process).
+- Data pipeline (handled during build process): Excel files → JSON conversion (with slugified filenames) → JSON compression.
 - Client-side caching of quiz manifest (`sessionStorage`) and loaded quiz data (`loadedQuizzes` object) for performance.
 
 ### Language Support
@@ -31,7 +31,7 @@ The Quiz Nghiệp Vụ Application is a client-side web application designed for
 1.  **"How to Use" Section:** An expandable section (`<details>`) providing initial guidance.
 2.  **Quiz Selection Interface (`#select-section`)**
     *   Loads available quizzes from a manifest file (`data/quiz_manifest.json`).
-    *   Uses a standard HTML `<select>` dropdown (`#quiz-file-select`) for quiz selection.
+    *   Uses a standard HTML `<select>` dropdown (`#quiz-file-select`) for quiz selection (displays original Vietnamese quiz names).
     *   Displays loading/status messages (`#status-message`).
     *   Provides an option (`#shuffle-checkbox`) to shuffle questions *before* starting a quiz.
 3.  **Quiz Interface (`#quiz-section`)**
@@ -56,7 +56,7 @@ The Quiz Nghiệp Vụ Application is a client-side web application designed for
 
 ### Technical Features
 1.  **State Persistence:**
-    *   Uses `localStorage` (`STORAGE_KEY = 'quizAppState'`) to save the current session state (view, quiz name, data, progress, answers, score, settings like timer duration).
+    *   Uses `localStorage` (`STORAGE_KEY = 'quizAppState'`) to save the current session state (view, quiz display name, data, progress, answers, score, settings like timer duration).
     *   Prompts the user (`#resume-modal-overlay`) on page load if a previous session is found, offering to resume or start fresh.
 2.  **PWA Features:**
     *   Includes a Service Worker (`service-worker.js`) for asset caching, enabling faster loads and potential basic offline access to previously visited quizzes.
@@ -76,33 +76,40 @@ The Quiz Nghiệp Vụ Application is a client-side web application designed for
 ## Data Structure
 
 ### Quiz Data Format
-Each quiz is stored as a JSON array of question objects. Example structure:
+Each quiz is stored as a JSON file with a slugified (ASCII-safe) name (e.g., `data/bo-de-ke-toan.json`). The content of the file is an object:
 ```json
 {
-  "question": "Nội dung câu hỏi...",
-  "options": [
-    "Đáp án A",
-    "Đáp án B",
-    "Đáp án C",
-    "Đáp án D"
-  ],
-  "correctAnswerIndex": 0, // Zero-based index of the correct option
-  "source": "Nguồn tham khảo..."
+  "originalDisplayName": "Bộ Đề Kế Toán", // Original UTF-8 display name from Excel filename
+  "questions": [
+    {
+      "question": "Nội dung câu hỏi...",
+      "options": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "correctAnswerIndex": 0, // Zero-based index of the correct option
+      "source": "Nguồn tham khảo..."
+    }
+    // ... more questions
+  ]
 }
 ```
 
 ### Quiz Manifest (`data/quiz_manifest.json`)
-A central JSON file listing available quizzes:
+A central JSON file listing available quizzes. This file is generated and processed during the build.
 ```json
 [
   {
-    "name": "Tên bộ câu hỏi",
-    "file": "data/ten-file-quiz.json"
-    // "size" field might exist but isn't currently used in index.html
+    "name": "Bộ Đề Kế Toán", // Original UTF-8 display name, shown in the UI
+    "file": "data/bo-de-ke-toan.json", // Path to the slugified JSON data file client fetches
+    "size": 12345 // Original (uncompressed) file size in bytes, added during build
   },
-  ...
+  // ... more quiz entries
 ]
 ```
+The `"size"` field (original file size in bytes) is added during the build process by `compress-json.js` and could be used by the client for loading progress if needed.
 
 ## Build and Development Process
 
@@ -113,8 +120,11 @@ A central JSON file listing available quizzes:
 - ESLint configured for code quality checks.
 
 ### Build Pipeline (via npm scripts)
-1.  **Data Conversion**: `npm run convert` - Converts Excel files (from `./quizzes`) to JSON format (in `./data`) using the `xlsx` library.
-2.  **Optimization**: `npm run compress` (compresses JSON), `npm run optimize` (may include HTML/CSS minification), `npm run build` (combines steps).
+1.  **Data Conversion**: `npm run convert` - Converts Excel files (from `./quizzes`) to JSON format. Output JSON files are placed in `./data` with slugified filenames. The JSON content includes the original UTF-8 display name, and a `quiz_manifest.json` is generated with these display names and paths to the slugified files.
+2.  **Optimization**:
+    *   `npm run compress`: Compresses JSON files from `./data` into a `./data-compressed` directory. It also processes `quiz_manifest.json`, updates quiz file paths to point to the client-expected `./data/` structure for deployed files, adds file size information, and minifies it into `./data-compressed`.
+    *   `npm run optimize`: Runs `npm run compress` and then minifies `index.html` in place.
+    *   `npm run build`: Combines `npm run convert` and `npm run optimize` for a full local build.
 
 ### CI/CD Pipeline (GitHub Actions)
 
@@ -128,8 +138,11 @@ A central JSON file listing available quizzes:
     *   Triggered on merges to the main branch.
 3.  **Deployment Workflow (`deploy.yml`):**
     *   Deploys the application to GitHub Pages.
-    *   Includes asset optimization (minification, compression).
-    *   Triggered by the release workflow (or pushes to main).
+    *   Includes data conversion from Excel (`npm run convert`).
+    *   Includes JSON processing and compression (`node compress-json.js`).
+    *   Includes HTML minification.
+    *   Stages only necessary built files (e.g., minified `index.html`, the processed `data/` directory containing compressed JSONs and the final manifest, `service-worker.js`) into a temporary `dist/` folder.
+    *   Deploys the content of the `dist/` folder to the `gh-pages` branch for a clean deployment.
 
 4.  **Setup Instructions (GitHub Pages):**
     *   Configure repository settings: Pages > Build and Deployment.
@@ -139,7 +152,7 @@ A central JSON file listing available quizzes:
 ## Performance Optimization
 
 ### Network Optimization
-- JSON files are compressed during the build process (reduces download size).
+- JSON files are compressed (minified) during the build process (reduces download size).
 - Browser caching utilized via `Cache-Control` headers (set by GitHub Pages or server).
 - Service Worker provides robust caching for static assets and potentially API calls (manifest).
 - Asynchronous loading of non-critical JavaScript (`canvas-confetti`).
