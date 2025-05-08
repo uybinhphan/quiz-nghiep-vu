@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.1.0...v1.2.0) (2025-05-08)
+
+
+### Features
+
+* Implement Top Navigation Bar and Sticky Quiz HeaderDevelop ([#45](https://github.com/uybinhphan/quiz-nghiep-vu/issues/45)) ([0839fb3](https://github.com/uybinhphan/quiz-nghiep-vu/commit/0839fb349bdeb31cb260cda00812a974583d7cbd))
+
 ## [1.1.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.0.6...v1.1.0) (2025-05-07)
 
 
