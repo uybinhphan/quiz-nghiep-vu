@@ -43,6 +43,7 @@
             --filter-active-color: var(--danger-color); /* Color for active filter button */
             --grid-gap: 20px;
             --card-padding: 25px;
+            --navbar-height: 50px; /* Approximate height for potential use */
         }
         body.dark-theme {
              /* Dark Theme Overrides */
@@ -67,21 +68,16 @@
             background-color: var(--bg-color);
             color: var(--text-color);
             margin: 0;
-            padding: 20px;
+            padding: 20px; /* Padding for body, app has its own */
             min-height: 100vh;
             display: grid;
             place-items: center;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
          #app {
-            display: grid;
-            grid-template-rows: auto auto 1fr auto; /* Header, Progress (or now empty), Content, Navigation */
-            grid-template-areas:
-                "header"
-                "progress" /* Keep this area name for structure, even if empty */
-                "content"
-                "navigation";
-            gap: var(--grid-gap);
+            display: flex;
+            flex-direction: column;
+            /* Removed grid layout, children will flow and use margins for gaps */
             max-width: 800px;
             width: 100%;
             background-color: var(--card-bg-color);
@@ -92,58 +88,96 @@
             transition: all 0.3s ease;
          }
 
-         /* Header area */
-         .quiz-header {
-            grid-area: header;
+         /* --- Top Navigation Bar --- */
+         #top-navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: calc(var(--grid-gap) * 0.75); /* Spacing below navbar */
+            margin-bottom: calc(var(--grid-gap) * 0.75); /* Spacing below navbar */
+            border-bottom: 1px solid var(--card-border-color);
+            width: 100%; /* Take full width of #app padding box */
+         }
+         .nav-left {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+         }
+         .nav-left a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 0.95em;
+            padding: 5px 0;
+         }
+         .nav-left a:hover, .nav-left a:focus {
+            text-decoration: underline;
+            color: var(--text-color);
+         }
+         /* Settings button is in .nav-right, its existing styles will apply */
+         #settings-btn { /* Styles for settings button, moved from quiz-info-header */
+            background: none; border: none; font-size: 1.6em; cursor: pointer; padding: 0 5px; line-height: 1; color: var(--text-color);
+            /* order: 5; /* No longer needed */
+            transition: opacity 0.2s ease;
+         }
+         #settings-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+         #settings-btn::after { content: var(--settings-icon); }
+
+
+         /* App main title header */
+         .app-main-header { /* Was .quiz-header */
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
             gap: 0.5em;
+            margin-bottom: var(--grid-gap);
          }
 
-         /* Progress area (now empty or repurposed) */
-         .progress-container {
-            grid-area: progress;
-            width: 100%;
-            min-height: 10px; /* Example: Small gap */
+         /* Removed .progress-container styles as element is removed */
+
+         /* Sections like #usage-details, #select-section etc. will have their own margins if needed */
+         #usage-details, #select-section, #quiz-section, #results-section {
+            margin-bottom: var(--grid-gap); /* Standard gap below sections */
+         }
+         #quiz-section:last-child, #results-section:last-child, #select-section:last-child {
+             margin-bottom: 0; /* No margin if it's the last visible element */
          }
 
-         /* Main content area */
-         .quiz-content {
-            grid-area: content;
-            display: flex;
-            flex-direction: column;
-            gap: var(--grid-gap);
-         }
 
-         /* Navigation area (Bottom controls) */
-         .quiz-navigation {
-            grid-area: navigation;
-            display: flex;
-            justify-content: center; /* Center remaining controls */
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-            padding-top: 20px;
-            border-top: 1px solid var(--card-border-color); /* Keep top border here */
-         }
-
-         /* Responsive adjustments */
+         /* Responsive adjustments for #app and #top-navbar */
          @media (max-width: 768px) {
             #app {
                 padding: var(--app-padding-mobile);
                 border-radius: 8px;
             }
-
-            .quiz-navigation {
-                 justify-content: center;
-                 flex-direction: row;
-                 gap: 10px;
-                 padding-top: 15px;
-                 padding-bottom: 10px; 
+            #top-navbar {
+                padding-left: 0; /* Align with app's mobile padding */
+                padding-right: 0;
+                margin-bottom: var(--grid-gap);
+                padding-bottom: var(--grid-gap);
+            }
+            .nav-left {
+                gap: 12px;
+            }
+            .nav-left a {
+                font-size: 0.9em;
+            }
+            #settings-btn {
+                font-size: 1.5em;
             }
          }
+         @media (max-width: 400px) { /* Further adjustments for very small screens */
+            .nav-left {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+            .nav-left a {
+                padding: 2px 0;
+            }
+         }
+
 
          h1 {
             color: var(--primary-color);
@@ -155,7 +189,7 @@
             margin: 0;
             font-size: 1.4em;
          }
-         #quiz-title {
+         #quiz-title { /* This is the one in app-main-header */
             font-size: 1.1em;
             color: var(--secondary-color);
             margin: 0;
@@ -165,7 +199,7 @@
 
          /* --- HOW TO USE SECTION --- */
         #usage-details {
-            margin-bottom: var(--grid-gap);
+            /* margin-bottom: var(--grid-gap); /* Added above */
             text-align: left;
             border: 1px dashed var(--secondary-color);
             border-radius: 8px;
@@ -216,7 +250,8 @@
         }
         /* --- SELECT SECTION --- */
          #select-section {
-            margin-bottom: 30px; padding: 20px; border: 1px solid var(--card-border-color); border-radius: 8px;
+            /* margin-bottom: 30px; /* Replaced by common margin-bottom */
+            padding: 20px; border: 1px solid var(--card-border-color); border-radius: 8px;
             background-color: var(--bg-color); text-align: left; transition: background-color 0.3s ease, border-color 0.3s ease;
          }
          #quiz-file-list {
@@ -269,21 +304,45 @@
 
          /* --- QUIZ SECTION --- */
          #quiz-section { display: none; text-align: left; }
-         #auto-advance-timer-bar { height: 5px; background-color: var(--disabled-bg-color); border-radius: 0; overflow: hidden; display: none; transition: background-color 0.3s ease; --timer-duration: 0.5s; }
+
+         /* --- Sticky Quiz Header --- */
+         #sticky-quiz-header-container {
+            position: sticky;
+            top: -1px; /* To ensure border-bottom is always visible when stuck, adjust if #app has top padding */
+            background-color: var(--card-bg-color); /* Match app background to avoid transparency issues */
+            z-index: 10; /* Below modals (1000), dialogs (native), swipe indicators (100) */
+            /* The padding/margin structure within sticky header should be handled by its children */
+            /* A bottom border will be provided by #nav-prev-next typically */
+         }
+         /* If #app has padding, sticky top needs to account for it if sticking to viewport *through* #app's padding.
+            However, #app is the scrolling container here. So top:0 within #app is fine.
+            The -1px trick is often for when the sticky element itself has a top border that would otherwise be cut off.
+            Let's use top: 0 for now. The padding of #app itself means content won't hit the very screen edge.
+         */
+         #sticky-quiz-header-container {
+            top: calc(0px - var(--app-padding)); /* Experimental: If #app has padding and body scrolls */
+            top: 0; /* Simpler: sticks to top of its scroll container (#app if it scrolls, or body) */
+         }
+
+
+         #auto-advance-timer-bar {
+            height: 5px; background-color: var(--disabled-bg-color); border-radius: 0; overflow: hidden; display: none; transition: background-color 0.3s ease; --timer-duration: 0.5s;
+            /* No margin needed, part of sticky flow */
+         }
          #auto-advance-timer-bar::after { content: ""; display: block; height: 100%; width: 0%; background-color: var(--timer-color); border-radius: 0; animation: none; transition: background-color 0.3s ease; }
          #auto-advance-timer-bar.timer-active { display: block; }
          #auto-advance-timer-bar.timer-active::after { width: 100%; animation-name: countdown; animation-duration: var(--timer-duration); animation-timing-function: linear; animation-fill-mode: forwards; }
          @keyframes countdown { from { width: 100%; } to { width: 0%; } }
          
-         #quiz-section > #quiz-header { /* Header within the quiz section */
+         #quiz-info-header { /* Was #quiz-section > #quiz-header */
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: 15px; 
+            margin-top: 10px; /* Spacing from timer bar or top of sticky container */
             margin-bottom: 10px; 
             flex-wrap: wrap;
             gap: 10px; 
-            padding: 0 var(--app-padding-mobile);
+            padding: 0 var(--app-padding-mobile); /* Consistent padding */
          }
          #progress { font-size: 0.9em; color: var(--secondary-color); font-weight: bold; flex-shrink: 0; }
          #jump-nav { display: flex; align-items: center; gap: 5px; font-size: 0.9em; }
@@ -294,25 +353,26 @@
          #jump-to-btn { padding: 4px 10px; font-size: 0.9em; background-color: var(--secondary-color); color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.2s ease; }
          #jump-to-btn:hover { filter: brightness(1.1); }
          #score { font-size: 1.1em; font-weight: bold; color: var(--primary-color); flex-shrink: 0; }
-         #settings-btn { background: none; border: none; font-size: 1.6em; cursor: pointer; padding: 0 5px; line-height: 1; color: var(--text-color); order: 5; transition: opacity 0.2s ease; }
-         #settings-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-         #settings-btn::after { content: var(--settings-icon); }
+         /* #settings-btn style moved to #top-navbar section */
 
-        #quiz-section > #nav-prev-next { 
+
+        #nav-prev-next { /* Was #quiz-section > #nav-prev-next */
             display: flex;
             justify-content: space-between;
             gap: 10px;
             padding: 10px var(--app-padding-mobile) 15px; 
-            margin-bottom: 15px; 
+            /* margin-bottom: 15px; /* No longer needed, part of sticky header flow */
             border-bottom: 1px solid var(--card-border-color); 
-            order: 1; 
+            /* order: 1; /* No longer needed */
         }
 
         #settings-dialog { 
             border: none; border-radius: 8px; box-shadow: 0 4px 12px var(--shadow-color); padding: 20px 30px;
             max-width: 350px; width: 90vw; background-color: var(--menu-bg); border: 1px solid var(--menu-border); color: var(--text-color);
+            /* z-index needs to be higher than sticky header if it's not a native top-layer element */
+            z-index: 1001; /* If using showModal(), this might not be strictly needed but good for non-native polyfills */
         }
-        #settings-dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
+        #settings-dialog::backdrop { background: rgba(0, 0, 0, 0.6); z-index: 1000;}
         #settings-dialog form { display: flex; flex-direction: column; gap: 15px; }
         #settings-dialog menu { display: flex; justify-content: flex-end; margin: 0; padding: 0; }
         #settings-dialog button[value="close"] { padding: 8px 16px; background-color: var(--secondary-color); color: white; border: none; border-radius: 4px; cursor: pointer; }
@@ -333,7 +393,8 @@
              background-color: var(--bg-color); padding: 20px; border-radius: 8px;
              border: 1px solid var(--card-border-color); margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile);
              transition: background-color 0.3s ease, border-color 0.3s ease;
-             order: 2; 
+             /* order: 2; /* No longer relevant in new quiz-section structure */
+             margin-top: var(--grid-gap); /* Space below sticky header */
          }
          #question-text { font-size: 1.4em; margin-bottom: 20px; color: var(--text-color); line-height: 1.4; white-space: pre-wrap; word-break: break-word;}
          #answers { display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 20px; }
@@ -345,15 +406,16 @@
          .answer-btn.incorrect { background-color: var(--danger-color) !important; border-color: var(--danger-color) !important; color: white !important; filter: brightness(0.9); }
          .answer-btn.reveal-correct { background-color: var(--success-feedback-bg) !important; border-color: var(--success-color) !important; color: var(--success-feedback-text) !important; font-weight: bold; }
          body.dark-theme .answer-btn.reveal-correct { background-color: #2ea043 !important; border-color: #56d364 !important; color: white !important; }
-         #source { margin-top: 15px; padding: 10px; border-radius: 5px; font-size: 0.95em; min-height: 1.5em; margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile); background-color: var(--source-bg); color: var(--source-text); border: 1px solid var(--card-border-color); font-style: italic; display: none; white-space: pre-wrap; margin-bottom: 15px; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; word-break: break-word; order: 3; }
+         #source { margin-top: 15px; padding: 10px; border-radius: 5px; font-size: 0.95em; min-height: 1.5em; margin-left: var(--app-padding-mobile); margin-right: var(--app-padding-mobile); background-color: var(--source-bg); color: var(--source-text); border: 1px solid var(--card-border-color); font-style: italic; display: none; white-space: pre-wrap; margin-bottom: 15px; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; word-break: break-word; /* order: 3; */ }
 
-         #quiz-section > #navigation { /* Direct child selector for bottom nav in quiz section */
+         #quiz-controls-navigation { /* Was #quiz-section > #navigation, ID changed */
              display: flex;
              justify-content: center; 
              align-items: center;
              flex-wrap: wrap;
              gap: 10px;
-             order: 4; 
+             /* order: 4; /* No longer relevant */
+             padding-top: var(--grid-gap); /* Ensure space if it's the last thing in quiz-section */
          }
          #nav-controls { display: flex; gap: 10px; flex-wrap: wrap; }
          #review-controls { display: flex; gap: 10px; flex-wrap: wrap;}
@@ -422,37 +484,61 @@
          .modal-btn.secondary { background-color: var(--secondary-color); color: white; }
          body.dark-theme .modal-btn.secondary { background-color: var(--secondary-color); color: white; }
 
-         /* --- RESPONSIVE DESIGN --- */
+         /* --- RESPONSIVE DESIGN (further adjustments) --- */
          @media (max-width: 700px) {
-             body { padding: 0; }
-             #app { padding: 0; box-shadow: none; border-radius: 0; max-width: 100%; border: none; }
-             h1 { font-size: 1.6em; } h2 { font-size: 1.4em; }
-             #quiz-title { font-size: 1em; margin-bottom: 1em; padding: 0 var(--app-padding-mobile); }
-             #usage-details { border-radius: 0; border-left: none; border-right: none; margin-bottom: 10px; }
-             #select-section { padding: 20px var(--app-padding-mobile); margin-bottom: 15px; border-radius: 0; border-left: none; border-right: none; }
-             #auto-advance-timer-bar { margin-left: 0; margin-right: 0; border-radius: 0; }
-             #quiz-section > #quiz-header { padding: 10px var(--app-padding-mobile); margin-top: 10px; margin-bottom: 5px; }
+             body { padding: 0; } /* Body padding removed, #app takes over */
+             #app {
+                 padding: var(--app-padding-mobile); /* #app specific padding for mobile */
+                 box-shadow: none; border-radius: 0; max-width: 100%; border: none;
+                 /* Remove app padding if children handle it, or adjust children's padding */
+                 padding-left: 0; padding-right: 0; /* Let children like #top-navbar use var(--app-padding-mobile) */
+             }
+             #top-navbar {
+                padding-left: var(--app-padding-mobile);
+                padding-right: var(--app-padding-mobile);
+             }
 
-            #quiz-section > #nav-prev-next {
-                 padding: 5px var(--app-padding-mobile) 10px; 
-                 margin-bottom: 10px; 
+
+             .app-main-header {
+                padding: 0 var(--app-padding-mobile); /* Add padding to app-main-header content */
+             }
+             h1 { font-size: 1.6em; } h2 { font-size: 1.4em; }
+             #quiz-title { font-size: 1em; margin-bottom: 1em; /* padding: 0 var(--app-padding-mobile); Already handled by parent */ }
+
+             #usage-details { border-radius: 0; border-left: none; border-right: none; margin-bottom: 10px; margin-left: calc(-1 * var(--app-padding-mobile)); margin-right: calc(-1 * var(--app-padding-mobile)); padding-left: var(--app-padding-mobile); padding-right: var(--app-padding-mobile);}
+             #select-section { padding: 20px var(--app-padding-mobile); margin-bottom: 15px; border-radius: 0; border-left: none; border-right: none; margin-left: calc(-1 * var(--app-padding-mobile)); margin-right: calc(-1 * var(--app-padding-mobile));}
+             
+             /* Sticky header and its children need padding adjustments if #app padding is removed */
+             #sticky-quiz-header-container {
+                margin-left: calc(-1 * var(--app-padding-mobile));
+                margin-right: calc(-1 * var(--app-padding-mobile));
+                padding-left: var(--app-padding-mobile);
+                padding-right: var(--app-padding-mobile);
+             }
+             #quiz-info-header { /* Child of sticky header */
+                 padding-left: 0; /* Uses parent's padding now */
+                 padding-right: 0;
+                 margin-top: 5px; /* Reduced margin */
+             }
+            #nav-prev-next { /* Child of sticky header */
+                 padding-left: 0; /* Uses parent's padding now */
+                 padding-right: 0;
+                 padding-top: 5px; padding-bottom: 10px;
                  border-bottom-width: 1px; 
              }
 
-             #question-container { padding: 15px var(--app-padding-mobile); margin: 0 0 15px 0; border-radius: 0; border-left: none; border-right: none; }
+
+             #question-container { padding: 15px var(--app-padding-mobile); margin: var(--grid-gap) 0 15px 0; border-radius: 0; border-left: none; border-right: none; }
              #source { margin: 0 0 15px 0; padding-left: var(--app-padding-mobile); padding-right: var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
 
-             #quiz-section > #navigation {
+             #quiz-controls-navigation {
                  padding: 10px var(--app-padding-mobile) 10px; 
                  justify-content: center; 
                  flex-direction: row; 
              }
-             .quiz-navigation { 
-                padding-top: 10px; 
-             }
+             /* .quiz-navigation class was on #app for grid, not relevant now for general responsive */
 
-
-             #results-section { padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; }
+             #results-section { padding: 20px var(--app-padding-mobile); border-radius: 0; border-left: none; border-right: none; margin-left: calc(-1 * var(--app-padding-mobile)); margin-right: calc(-1 * var(--app-padding-mobile));}
              #question-text { font-size: 1.1em; }
              .answer-btn {
                  font-size: 1.05em;
@@ -468,6 +554,21 @@
              #resume-modal h3 { font-size: 1.2em; } #resume-modal p { font-size: 0.95em; }
              .modal-btn { font-size: 0.9em; padding: 8px 15px; min-width: 100px; }
          }
+         /* Correcting sticky header behavior when #app has 0 padding on mobile */
+         @media (max-width: 700px) {
+            #sticky-quiz-header-container {
+                top: 0; /* Should stick to viewport top as #app edge is viewport edge */
+                margin-left: 0; /* No negative margin needed if parent #app has no padding */
+                margin-right: 0;
+                /* padding-left/right already set to var(--app-padding-mobile) which is fine */
+             }
+             #app { /* Revisit mobile padding for app itself */
+                /* padding-left: var(--app-padding-mobile); */
+                /* padding-right: var(--app-padding-mobile); */
+                /* If #app has 0 padding, then children like .app-main-header, #top-navbar need their own full padding */
+             }
+         }
+
 
         /* --- Touch Swipe Support --- */
         #question-container {
@@ -501,11 +602,23 @@
 </head>
 <body class=""> <!-- Theme class managed by JS -->
     <div id="app">
-        <div class="quiz-header"> <!-- Stays as the overall app header -->
+        <nav id="top-navbar">
+            <div class="nav-left">
+                <a href="#" id="nav-home-link">Trang chủ</a>
+                <a href="#" id="nav-about-link">Giới thiệu</a> <!-- Placeholder for now -->
+            </div>
+            <div class="nav-right">
+                <button id="settings-btn" title="Cài đặt"></button> <!-- Moved here -->
+            </div>
+        </nav>
+
+        <div class="app-main-header"> <!-- Was .quiz-header -->
             <h1>Ôn kiểm tra nghiệp vụ</h1>
             <h2>Đợt 1 - 2025</h2>
-            <h2 id="quiz-title" class="hidden"></h2> <!-- Quiz Title -->
+            <h2 id="quiz-title" class="hidden"></h2> <!-- Quiz Title for current quiz -->
         </div>
+
+        <!-- .progress-container div removed -->
 
         <details id="usage-details" open>
              <summary>Hướng dẫn sử dụng</summary>
@@ -538,21 +651,22 @@
         </div>
 
         <div id="quiz-section" class="hidden">
-            <div id="auto-advance-timer-bar"></div>
-            <div id="quiz-header"> 
-                 <div id="progress">Câu 1 / 10</div>
-                 <div id="jump-nav">
-                     <label for="jump-to-input" id="jump-label">Đến:</label>
-                     <input type="number" id="jump-to-input" min="1">
-                     <button id="jump-to-btn">Đi</button>
-                 </div>
-                 <div id="score">Điểm: 0</div>
-                 <button id="settings-btn" title="Cài đặt"></button>
-            </div>
-
-            <div id="nav-prev-next">
-                <button id="prev-btn" class="nav-btn">Câu trước</button>
-                <button id="next-btn" class="nav-btn">Câu sau</button>
+            <div id="sticky-quiz-header-container">
+                <div id="auto-advance-timer-bar"></div>
+                <div id="quiz-info-header"> <!-- Was #quiz-section > #quiz-header -->
+                     <div id="progress">Câu 1 / 10</div>
+                     <div id="jump-nav">
+                         <label for="jump-to-input" id="jump-label">Đến:</label>
+                         <input type="number" id="jump-to-input" min="1">
+                         <button id="jump-to-btn">Đi</button>
+                     </div>
+                     <div id="score">Điểm: 0</div>
+                     <!-- Settings button moved to #top-navbar -->
+                </div>
+                <div id="nav-prev-next"> <!-- Contains Prev/Next buttons -->
+                    <button id="prev-btn" class="nav-btn">Câu trước</button>
+                    <button id="next-btn" class="nav-btn">Câu sau</button>
+                </div>
             </div>
             
             <dialog id="settings-dialog">
@@ -582,7 +696,7 @@
 
             <div id="source" class="hidden">...</div>
 
-            <div id="navigation" class="quiz-navigation"> 
+            <div id="quiz-controls-navigation" class="quiz-navigation"> <!-- ID changed from 'navigation' -->
                 <div id="nav-controls" class="hidden">
                     <button id="restart-practice-btn" class="nav-btn">Làm lại</button>
                     <button id="shuffle-now-btn" class="nav-btn">Xáo trộn</button>
@@ -665,7 +779,9 @@
         const resumeBtnYes = document.getElementById('resume-btn-yes');
         const resumeBtnNo = document.getElementById('resume-btn-no');
         const navPrevNextContainer = document.getElementById('nav-prev-next'); 
-        const bottomNavigationContainer = document.getElementById('navigation'); 
+        const bottomNavigationContainer = document.getElementById('quiz-controls-navigation'); // ID Updated
+        const navHomeLink = document.getElementById('nav-home-link');
+        const navAboutLink = document.getElementById('nav-about-link');
 
 
         // --- Quiz State Variables ---
@@ -815,6 +931,20 @@
         themeToggleButton.addEventListener('click', toggleTheme);
         resumeBtnYes.addEventListener('click', handleResumeYes);
         resumeBtnNo.addEventListener('click', handleResumeNo);
+        if (navHomeLink) {
+            navHomeLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                showSelectScreen(false); // Go to home, clear state
+            });
+        }
+        if (navAboutLink) {
+            navAboutLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                // Placeholder for About page functionality
+                alert('Trang "Giới thiệu" đang được xây dựng.');
+            });
+        }
+
 
         function handleResumeYes() {
             console.log("[Init] User chose YES (Resume).");
@@ -844,11 +974,14 @@
              usageDetails.classList.add('hidden'); 
 
              const viewToRestore = localStorage.getItem(STORAGE_KEY) ? JSON.parse(localStorage.getItem(STORAGE_KEY)).view : null;
+             
+             settingsBtn.disabled = false; // Settings button is global now, enable it unless in review/results.
 
              if (viewToRestore === 'quiz') {
                  quizSection.classList.remove('hidden'); quizSection.style.display = 'block'; 
                  navControls.classList.toggle('hidden', isReviewMode); 
                  reviewControls.classList.toggle('hidden', !isReviewMode); 
+                 // Settings button state depends on isReviewMode
                  settingsBtn.disabled = isReviewMode;
                  settingsBtn.style.opacity = isReviewMode ? '0.5' : '';
                  settingsBtn.style.cursor = isReviewMode ? 'not-allowed' : '';
@@ -856,6 +989,7 @@
                  displayQuestion(currentQuestionIndex);
              } else if (viewToRestore === 'results') {
                  resultsSection.classList.remove('hidden'); resultsSection.style.display = 'block';
+                 settingsBtn.disabled = true; // Disable settings on results screen
                  showResults(); 
              } else {
                   console.warn("[Restore Error] Could not determine view, starting fresh.");
@@ -1008,7 +1142,10 @@
             resultsSection.classList.add('hidden'); resultsSection.style.display = 'none'; 
             quizSection.classList.remove('hidden'); quizSection.style.display = 'block'; 
             navControls.classList.remove('hidden'); reviewControls.classList.add('hidden');
-            settingsBtn.disabled = false; settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
+            
+            settingsBtn.disabled = false; // Enable settings button when quiz starts
+            settingsBtn.style.opacity = ''; settingsBtn.style.cursor = '';
+
             quizTitleElement.textContent = currentQuizDisplayName; 
             quizTitleElement.classList.remove('hidden');
             displayQuestion(currentQuestionIndex);
@@ -1029,7 +1166,11 @@
              restoreAnswerState(index);
              navControls.classList.toggle('hidden', isReviewMode);
              reviewControls.classList.toggle('hidden', !isReviewMode);
-             settingsBtn.disabled = isReviewMode; settingsBtn.style.opacity = isReviewMode ? '0.5' : ''; settingsBtn.style.cursor = isReviewMode ? 'not-allowed' : '';
+             
+             settingsBtn.disabled = isReviewMode; // Disable settings in review mode
+             settingsBtn.style.opacity = isReviewMode ? '0.5' : '';
+             settingsBtn.style.cursor = isReviewMode ? 'not-allowed' : '';
+
              if(isReviewMode){ clearAutoAdvanceTimer(); timerBar.classList.remove('timer-active'); toggleFilterBtn.textContent = reviewWrongOnly ? "Xem tất cả" : "Chỉ xem sai"; toggleFilterBtn.classList.toggle('filter-active', reviewWrongOnly); toggleFilterBtn.disabled = wrongAnswerIndices.length === 0 && !reviewWrongOnly; }
              else { updateTimerDisplayAndControls(); }
              if (reviewWrongOnly) { prevBtn.disabled = (currentWrongAnswerReviewIndex <= 0); nextBtn.disabled = (currentWrongAnswerReviewIndex >= wrongAnswerIndices.length - 1); nextBtn.textContent = 'Câu sau'; }
@@ -1067,7 +1208,8 @@
             finalScoreText.textContent = `Điểm cuối cùng: ${score} / ${quizData.length}`; 
             quizTitleElement.textContent = currentQuizDisplayName; 
             quizTitleElement.classList.remove('hidden');
-            settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
+            settingsBtn.disabled = true; // Disable settings button on results screen
+            settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
             saveState();
         }
 
@@ -1122,7 +1264,10 @@
              }
 
              statusMessage.textContent = ""; errorMessage.textContent = ''; errorMessage.classList.add('hidden');
-             settingsBtn.disabled = true; settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
+             
+             settingsBtn.disabled = true; // Disable settings button on select screen
+             settingsBtn.style.opacity = '0.5'; settingsBtn.style.cursor = 'not-allowed';
+
 
              const cachedManifest = sessionStorage.getItem('quizManifest');
              if (cachedManifest) { 
