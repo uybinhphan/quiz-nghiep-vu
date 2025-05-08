@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.0...v1.2.1) (2025-05-08)
+
+
+### Bug Fixes
+
+* **layout:** Increase top padding for sticky quiz header ([#47](https://github.com/uybinhphan/quiz-nghiep-vu/issues/47)) ([e00fedf](https://github.com/uybinhphan/quiz-nghiep-vu/commit/e00fedf015b1beba259812b7067d34debba6e1cf))
+
 ## [1.2.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.1.0...v1.2.0) (2025-05-08)
 
 
