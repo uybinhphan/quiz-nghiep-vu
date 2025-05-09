@@ -485,12 +485,12 @@
                 border-right: none;
                 /* margin-left: 0; /* Covered by #app's lack of padding */
                 /* margin-right: 0; /* Covered by #app's lack of padding */
-                padding-left: var(--app-padding-mobile); 
-                padding-right: var(--app-padding-mobile);
+                /* padding-left: var(--app-padding-mobile);  */ 
+                /* padding-right: var(--app-padding-mobile); */
              }
              /* For quiz-section, its children like question-container might need margin adjustment if they were expecting parent padding */
              #sticky-quiz-header-container {
-                margin-right: calc(-1 * var(--app-padding-mobile));
+                /* margin-right: calc(-1 * var(--app-padding-mobile)); */
                 padding-left: var(--app-padding-mobile); /* Then re-apply padding for content */
                 padding-right: var(--app-padding-mobile);
                 padding-top: var(--app-padding-mobile); /* Added to give more space at the top */
@@ -583,8 +583,8 @@
     <div id="app">
         <nav id="top-navbar">
             <div class="nav-left">
-                <a href="#" id="nav-home-link">Trang chủ</a>
-                <a href="#" id="nav-about-link">Giới thiệu</a> <!-- Placeholder for now -->
+                <!-- <a href="#" id="nav-home-link">Trang chủ</a> -->
+                <!-- <a href="#" id="nav-about-link">Giới thiệu</a> -->
             </div>
             <div class="nav-right">
                 <button id="settings-btn" title="Cài đặt"></button> <!-- Moved here -->
@@ -629,8 +629,8 @@
         </div>
 
         <div id="quiz-section" class="hidden">
+            <div id="auto-advance-timer-bar"></div>
             <div id="sticky-quiz-header-container">
-                <div id="auto-advance-timer-bar"></div>
                 <div id="quiz-info-header"> 
                      <div id="progress">Câu 1 / 10</div>
                      <div id="jump-nav">
