@@ -3,20 +3,23 @@ description: Quiz Application Project Rules
 globs: 
 alwaysApply: false
 ---
-# Quiz Application Project Rules
+# Quiz Application Documentation
 
 ## Project Structure
 ```
 quiz-nghiep-vu/
 ├── index.html          # Main client-side application
 ├── convert.js          # Excel to JSON conversion script
-├── data/              # Generated JSON files directory
+├── compress-json.js    # JSON optimization script
+├── data/               # Generated JSON files directory
 │   └── quiz_manifest.json  # Auto-generated quiz manifest
-├── quizzes/           # Source Excel files directory
-├── README.md          # Project documentation
-└── .github/workflows/ # CI/CD configuration files
-    ├── release.yml    # Release automation workflow
-    └── deploy.yml     # Deployment workflow
+├── quizzes/            # Source Excel files directory
+├── service-worker.js   # PWA service worker for caching/offline support
+├── README.md           # Project documentation
+└── .github/workflows/  # CI/CD configuration files
+    ├── release.yml     # Release automation workflow
+    ├── deploy.yml      # Deployment workflow
+    └── pr-review.yml   # PR validation workflow
 ```
 
 ## Client-Side Application (index.html)
@@ -36,20 +39,23 @@ quiz-nghiep-vu/
     {
       "name": "Display Name",
       "file": "data/quiz_filename.json",
-      "size": 12345 // File size in bytes (for progress indication)
+      "size": 12345
     }
   ]
   ```
 - Quiz data files: `data/*.json`
   ```json
-  [
-    {
-      "question": "Question text?",
-      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
-      "correctAnswerIndex": 0,
-      "source": "Optional source text"
-    }
-  ]
+  {
+    "originalDisplayName": "Display Name",
+    "questions": [
+      {
+        "question": "Question text?",
+        "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+        "correctAnswerIndex": 0,
+        "source": "Optional source text"
+      }
+    ]
+  }
   ```
 
 ### UI Components
@@ -99,7 +105,6 @@ quiz-nghiep-vu/
 
 ### Input Format
 Excel files in `./quizzes/` with columns:
-- A: STT (Optional)
 - B: Câu hỏi (Required)
 - C: Đáp án 1 (Required)
 - D: Đáp án 2 (Required)
@@ -113,13 +118,16 @@ Excel files in `./quizzes/` with columns:
 - Validate required fields
 - Convert 1-based to 0-based answer indices
 - Handle errors gracefully
-- Generate pretty-printed JSON
+- Generate properly formatted JSON
+- Slugify filenames for web compatibility
 
-### Output
-- JSON files in `./data/`
-- Manifest file: `data/quiz_manifest.json`
-- Sorted alphabetically by quiz name
-- File size included in manifest for progress indicators
+## Data Optimization (compress-json.js)
+
+### Processing
+- Minifies JSON files (removes whitespace)
+- Updates manifest file paths
+- Adds file size information to manifest
+- Outputs to ./data-compressed directory
 
 ## Optimization Pipeline
 
@@ -185,7 +193,6 @@ Excel files in `./quizzes/` with columns:
 - Mobile browsers on iOS and Android
 - Use feature detection
 - Provide fallbacks
-- Progressive enhancement for older browsers
 
 ### Offline Support
 - Service worker for offline capability
@@ -195,11 +202,3 @@ Excel files in `./quizzes/` with columns:
 ### Localization
 - UI text and labels in Vietnamese
 - Error messages and instructions in Vietnamese
-- Date and time formats following Vietnamese conventions
-
-## Future Enhancements (For Reference)
-1. Enhanced offline mode with full functionality
-2. Enhanced statistics and analytics
-3. User accounts and progress tracking
-4. Additional quiz formats beyond multiple-choice
-5. Modernized tech stack with React and Next.js
