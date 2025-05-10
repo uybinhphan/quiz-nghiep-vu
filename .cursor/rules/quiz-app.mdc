@@ -1,7 +1,7 @@
 ---
-description: Quiz Application Project Rules
+description: 
 globs: 
-alwaysApply: false
+alwaysApply: true
 ---
 # Quiz Application Documentation
 
