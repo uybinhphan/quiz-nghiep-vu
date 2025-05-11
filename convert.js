@@ -183,7 +183,10 @@ console.log(`\nGenerating manifest file in '${jsonDir}'...`);
 const manifestPath = path.join(jsonDir, manifestFilename);
 try {
     // Sort the manifest alphabetically by the original display name
-    generatedManifestEntries.sort((a, b) => a.name.localeCompare(b.name, 'vi', { sensitivity: 'base' }));
+    generatedManifestEntries.sort((a, b) => {
+        const collator = new Intl.Collator('vi', { numeric: true, sensitivity: 'base' });
+        return collator.compare(a.name, b.name);
+    });
 
     fs.writeFileSync(manifestPath, JSON.stringify(generatedManifestEntries, null, 2));
     console.log(`Generated manifest with ${generatedManifestEntries.length} quizzes: '${manifestPath}'`);
