@@ -1,3 +1,5 @@
+/* global confetti */
+
 import * as dom from './dom-elements.js';
 import * as state from './state.js';
 import * as config from './config.js';
