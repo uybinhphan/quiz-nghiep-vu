@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.2...v1.2.3) (2025-05-11)
+
+
+### Bug Fixes
+
+* **deploy:** add js folder to dist for gh-page ([#52](https://github.com/uybinhphan/quiz-nghiep-vu/issues/52)) ([e1cd57a](https://github.com/uybinhphan/quiz-nghiep-vu/commit/e1cd57a794303762e5934b6f10785c601e429279))
+
 ## [1.2.2](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.1...v1.2.2) (2025-05-11)
 
 
