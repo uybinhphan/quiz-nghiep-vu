@@ -10,6 +10,17 @@ The Quiz Nghiệp Vụ Application is a client-side web application designed for
 ```
 quiz-nghiep-vu/
 ├── index.html          # Main client-side application
+├── js/                 # Directory for JavaScript modules
+│   ├── app.js              # Main application logic and orchestrator
+│   ├── config.js           # Configuration constants
+│   ├── dom-elements.js     # DOM element references
+│   ├── quiz-core.js        # Core quiz logic (navigation, answers, results)
+│   ├── quiz-service.js     # Service for loading quiz data and manifest
+│   ├── service-worker-loader.js # Service worker registration
+│   ├── state.js            # Application state management
+│   ├── swipe.js            # Swipe navigation handling
+│   ├── theme.js            # Theme (light/dark) management
+│   └── ui-helpers.js       # UI utility functions (modals, view changes)
 ├── convert.js          # Excel to JSON conversion script
 ├── compress-json.js    # JSON optimization script
 ├── data/               # Generated JSON files directory
@@ -26,7 +37,8 @@ quiz-nghiep-vu/
 ## Architecture
 
 ### Client-Side Architecture
-- Single-page application (SPA) built with vanilla JavaScript, HTML, and CSS.
+- Single-page application (SPA) built with vanilla HTML, CSS, and JavaScript (ES6 modules).
+- JavaScript is organized into modules within the `js/` directory, with `js/app.js` as the main entry point.
 - Main layout managed using CSS Grid (`#app`) and CSS Variables for flexible theming (light/dark).
 - No server-side processing required for core quiz functionality.
 - PWA (Progressive Web App) features enabled via a service worker for caching.

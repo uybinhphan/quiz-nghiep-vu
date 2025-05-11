@@ -6,31 +6,46 @@ alwaysApply: true
 # Quiz Application Documentation
 
 ## Project Structure
+
 ```
 quiz-nghiep-vu/
-├── index.html          # Main client-side application
-├── convert.js          # Excel to JSON conversion script
-├── compress-json.js    # JSON optimization script
-├── data/               # Generated JSON files directory
-│   └── quiz_manifest.json  # Auto-generated quiz manifest
-├── quizzes/            # Source Excel files directory
-├── service-worker.js   # PWA service worker for caching/offline support
-├── README.md           # Project documentation
-└── .github/workflows/  # CI/CD configuration files
-    ├── release.yml     # Release automation workflow
-    ├── deploy.yml      # Deployment workflow
-    └── pr-review.yml   # PR validation workflow
+├── index.html # Main client-side application
+├── js/ # Directory for JavaScript modules
+│ ├── app.js # Main application logic and orchestrator
+│ ├── config.js # Configuration constants
+│ ├── dom-elements.js # DOM element references
+│ ├── quiz-core.js # Core quiz logic (navigation, answers, results)
+│ ├── quiz-service.js # Service for loading quiz data and manifest
+│ ├── service-worker-loader.js # Service worker registration
+│ ├── state.js # Application state management
+│ ├── swipe.js # Swipe navigation handling
+│ ├── theme.js # Theme (light/dark) management
+│ └── ui-helpers.js # UI utility functions (modals, view changes)
+├── convert.js # Excel to JSON conversion script
+├── compress-json.js # JSON optimization script
+├── data/ # Generated JSON files directory
+│ └── quiz_manifest.json # Auto-generated quiz manifest
+├── quizzes/ # Source Excel files directory
+├── service-worker.js # PWA service worker for caching/offline support
+├── README.md # Project documentation
+└── .github/workflows/ # CI/CD configuration files
+├── release.yml # Release automation workflow
+├── deploy.yml # Deployment workflow
+└── pr-review.yml # PR validation workflow
 ```
+
 
 ## Client-Side Application (index.html)
 
 ### Core Requirements
-- Single-page web application using pure HTML, CSS, and JavaScript
-- No external frameworks (React, Vue, Angular)
-- Uses canvas-confetti via CDN for visual effects
-- Fully client-side, suitable for static hosting
-- Progressive Web App (PWA) features with service worker support
-- Vietnamese as primary interface language
+- Single-page web application using pure HTML, CSS, and JavaScript.
+- JavaScript is structured using ES6 modules located in the `js/` directory.
+- The main entry point for JavaScript is `js/app.js`, loaded via `<script type="module" src="js/app.js" defer></script>`.
+- No external frameworks (React, Vue, Angular).
+- Uses canvas-confetti via CDN for visual effects.
+- Fully client-side, suitable for static hosting.
+- Progressive Web App (PWA) features with service worker support.
+- Vietnamese as primary interface language.
 
 ### Data Structure
 - Quiz manifest: `data/quiz_manifest.json`
@@ -202,3 +217,4 @@ Excel files in `./quizzes/` with columns:
 ### Localization
 - UI text and labels in Vietnamese
 - Error messages and instructions in Vietnamese
+
