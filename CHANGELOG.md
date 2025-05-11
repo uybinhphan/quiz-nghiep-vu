@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.1...v1.2.2) (2025-05-11)
+
+
+### Bug Fixes
+
+* update convert.js to fix sorting filename ([c807f96](https://github.com/uybinhphan/quiz-nghiep-vu/commit/c807f964e09ab601fb0400ccec7612f2aaced757))
+
 ## [1.2.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.0...v1.2.1) (2025-05-08)
 
 
