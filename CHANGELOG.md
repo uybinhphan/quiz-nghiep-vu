@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.3...v1.2.4) (2025-05-17)
+
+
+### Bug Fixes
+
+* update excel files ([#54](https://github.com/uybinhphan/quiz-nghiep-vu/issues/54)) ([c464f22](https://github.com/uybinhphan/quiz-nghiep-vu/commit/c464f22cc44458d54879937594f3e01c6c2b1657))
+
 ## [1.2.3](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.2...v1.2.3) (2025-05-11)
 
 
