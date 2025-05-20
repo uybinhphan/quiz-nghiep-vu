@@ -147,16 +147,26 @@ A central JSON file listing available quizzes:
 
 ### Development Environment
 - Requires Node.js for running build scripts.
-- Uses `npm` scripts for development tasks.
+- Uses `pnpm` as the package manager for dependency management and scripts.
 - Assumes UTF-8 encoding for handling Vietnamese characters.
 - ESLint configured for code quality checks.
 
+### Setup
+1. Install `pnpm` globally if not already installed:
+   ```bash
+   npm install -g pnpm
+   ```
+2. Install project dependencies:
+   ```bash
+   pnpm install
+   ```
+
 ### Build Pipeline
-1. **Data Conversion**: `npm run convert` - Converts Excel files to JSON format.
+1. **Data Conversion**: `pnpm run convert` - Converts Excel files to JSON format.
 2. **Optimization**:
-   * `npm run compress`: Compresses JSON files and updates the manifest.
-   * `npm run optimize`: Runs compression and minifies HTML.
-   * `npm run build`: Full build process (convert + optimize).
+   * `pnpm run compress`: Compresses JSON files and updates the manifest.
+   * `pnpm run optimize`: Runs compression and minifies HTML.
+   * `pnpm run build`: Full build process (convert + optimize).
 
 ### CI/CD Pipeline (GitHub Actions)
 1. **PR Workflow**: Validates PRs and runs quality checks.
@@ -187,3 +197,47 @@ Contributions are welcome! Please follow these general steps:
 3. More detailed statistics and performance analysis.
 4. Support for different question types.
 5. Refactoring to a modern framework for better maintainability.
+
+### Using NVM and Installing PNPM Cleanly
+
+To ensure a minimal and portable setup, you can use `nvm` (Node Version Manager) to manage Node.js versions and install `pnpm` cleanly without global pollution. This approach is fully user-scoped and reversible.
+
+#### Steps to Install PNPM with NVM
+
+1. **Install and Load NVM** (if not already installed):
+   ```bash
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+   source ~/.nvm/nvm.sh
+   ```
+
+2. **Use the Latest LTS Version of Node.js**:
+   ```bash
+   nvm install --lts
+   nvm use --lts
+   ```
+
+3. **Enable Corepack and Install PNPM**:
+   ```bash
+   corepack enable
+   corepack prepare pnpm@latest --activate
+   ```
+
+4. **Verify Installation**:
+   ```bash
+   pnpm -v
+   ```
+
+#### Uninstall Instructions
+To fully revert the setup:
+```bash
+corepack disable
+rm -rf ~/.cache/pnpm
+```
+
+#### Optional: Add to Dotfiles
+To ensure `pnpm` is always available in new shells, add the following to your `~/.zshrc` or `~/.bashrc`:
+```bash
+# Ensure pnpm is available via corepack
+corepack enable
+corepack prepare pnpm@latest --activate
+```
