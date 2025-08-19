@@ -72,19 +72,23 @@
     "file": "./data/19-bo-cau-hoi-tieu-chuan-tac-phong-giao-dich-vien.json"
   },
   {
-    "name": "PGĐ-Kiến thức chung-150 câu",
-    "file": "./data/pgd-kien-thuc-chung-150-cau.json"
+    "name": "20. PGĐ-Kiến thức chung-150 câu",
+    "file": "./data/20-pgd-kien-thuc-chung-150-cau.json"
   },
   {
-    "name": "PGĐ-Kỹ năng quản lý-150 câu",
-    "file": "./data/pgd-ky-nang-quan-ly-150-cau.json"
+    "name": "21. PGĐ-Kỹ năng quản lý-150 câu",
+    "file": "./data/21-pgd-ky-nang-quan-ly-150-cau.json"
   },
   {
-    "name": "PGĐ-Nghiệp vụ kế toán-300 câu",
-    "file": "./data/pgd-nghiep-vu-ke-toan-300-cau.json"
+    "name": "22. PGĐ-Nghiệp vụ kế toán-300 câu",
+    "file": "./data/22-pgd-nghiep-vu-ke-toan-300-cau.json"
   },
   {
-    "name": "PGĐ-Nghiệp vụ tín dụng-300 câu",
-    "file": "./data/pgd-nghiep-vu-tin-dung-300-cau.json"
+    "name": "23. PGĐ-Nghiệp vụ tín dụng-300 câu",
+    "file": "./data/23-pgd-nghiep-vu-tin-dung-300-cau.json"
+  },
+  {
+    "name": "24. Bộ câu hỏi hội thi Agribanker làm chủ công nghệ trong kỷ nguyên số",
+    "file": "./data/24-bo-cau-hoi-hoi-thi-agribanker-lam-chu-cong-nghe-trong-ky-nguyen-so.json"
   }
 ]
