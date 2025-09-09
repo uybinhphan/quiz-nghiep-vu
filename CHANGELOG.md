@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.5](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.4...v1.2.5) (2025-09-09)
+
+
+### Bug Fixes
+
+* update file thi ky nguyen so ([#57](https://github.com/uybinhphan/quiz-nghiep-vu/issues/57)) ([36ffb5c](https://github.com/uybinhphan/quiz-nghiep-vu/commit/36ffb5cfe23fbc00fd69624bb0b7f9210f6cf048))
+* update file thi ky nguyen so v2 ([ce79be0](https://github.com/uybinhphan/quiz-nghiep-vu/commit/ce79be0da965384bfbd2853aff355adbee51acb3))
+
 ## [1.2.4](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.3...v1.2.4) (2025-05-17)
 
 
