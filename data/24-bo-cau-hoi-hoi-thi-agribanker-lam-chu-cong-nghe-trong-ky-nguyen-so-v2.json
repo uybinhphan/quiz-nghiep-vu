@@ -1,19 +1,19 @@
 {
-  "originalDisplayName": "24. Bộ câu hỏi hội thi Agribanker làm chủ công nghệ trong kỷ nguyên số",
+  "originalDisplayName": "24. Bộ câu hỏi hội thi Agribanker làm chủ công nghệ trong kỷ nguyên số v2",
   "questions": [
     {
       "question": "Số dư tối thiểu đối với tài khoản thanh toán mở bằng phương thức điện tử?",
       "options": [
-        "Số dư bằng không tại thời điểm mở. Ngay sau khi khách hàng thực hiện giao dịch lần đầu trên tài khoản thanh toán, khách hàng phải duy trì số dư tối thiểu trên tài khoản thanh toán theo quy định của Agribank",
+        "Số dư bằng không tại thời điểm mở. Ngay sau khi khách hàng thực hiện giao dịch lần đầu trên tài khoản thanh toán, khách hàng phải duy trì số dư tối thiểu trên tài khoản thanh toán theo quy định của Agribank",
         "Agribank không quy định số dư tối thiểu đối với tài khoản thanh toán",
         "50.000 VNĐ/10 đơn vị tiền tệ",
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 9 Quy định số 3325/QĐ-NHNo-TCKT ngày 30/09/2024"
+      "source": "Khoản 3 Điều 9 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
-      "question": "Theo Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024, Người đại diện theo pháp luật được hiểu là:",
+      "question": "Theo Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024, Người đại diện theo pháp luật được hiểu là:",
       "options": [
         "Cá nhân được luật quy định, được Ủy ban nhân dân cấp xã cử, được Tòa án chỉ định hoặc được người có năng lực hành vi dân sự đầy đủ lựa chọn làm người giám hộ để thực hiện việc chăm sóc, bảo vệ quyền, lợi ích hợp pháp của người được giám hộ.",
         "Cá nhân, pháp nhân được luật quy định, được Ủy ban nhân dân cấp xã cử, được Tòa án chỉ định hoặc được người có năng lực hành vi dân sự đầy đủ lựa chọn làm người giám hộ để thực hiện việc chăm sóc, bảo vệ quyền, lợi ích hợp pháp của người được giám hộ.",
@@ -21,10 +21,10 @@
         "Người đại diện theo quyết định của cơ quan nhà nước có thẩm quyền, theo điều lệ của pháp nhân hoặc theo quy định của pháp luật."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 8 Điều 3 Quy định số 3325/QyD-NHNo-TCKT ngày 30/09/2024"
+      "source": "Khoản 8 Điều 3 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
-      "question": "Theo Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024, Bản sao điện tử được hiểu là:",
+      "question": "Theo Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024, Bản sao điện tử được hiểu là:",
       "options": [
         "Bản chụp dưới dạng điện tử từ bản chính dạng văn bản giấy hoặc tập tin có nội dung ghi đầy đủ, chính xác như nội dung ghi trong sổ gốc, bản chính dạng văn bản giấy.",
         "Bản sao từ bản gốc đã được đóng dấu bởi công chứng viên có thẩm quyền xác nhận rằng có nội dung, hình thức tương đồng với bản gốc (sao y bản chính)",
@@ -32,7 +32,7 @@
         "Bản sao của dữ liệu gốc và lưu trữ ở một địa điểm an toàn, nhằm mục đích bảo vệ thông tin khỏi nguy cơ mất mát, hư hỏng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 20 Điều 3 Quy định số 3325/QĐ-NHNo-TCKT ngày 30/09/2024"
+      "source": "Khoản 20 Điều 3 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
       "question": "Agribank được chủ động trích Nợ quá số dư tối thiểu trên tài khoản thanh toán của khách hàng trong trường hợp nào?",
@@ -43,7 +43,7 @@
         "Trường hợp trích nợ tài khoản của khách hàng để mở tài khoản tiền gửi trực tuyến"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 5 Điều 9 Quy định số 3325/QĐ-NHNo-TCKT ngày 30/09/2024"
+      "source": "khoản 5 Điều 9 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024"
     },
     {
       "question": "Các hình thức của tài khoản thanh toán trong hệ thống Agribank:",
@@ -54,7 +54,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1, Điều 4 Quy định số 3325/QĐ-NHNo-TCKT ngày 30/09/2024"
+      "source": "Khoản 1, Điều 4 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
       "question": "Chủ tài khoản có quyền nào sau đây?",
@@ -65,40 +65,40 @@
         "Tất cả các phương án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 25 Quy định số 3325/QĐ-NHNo-TCKT ngày 30/09/2024"
+      "source": "Khoản 1 Điều 25 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
       "question": "Các giấy tờ trong hồ sơ mở tài khoản thanh toán trong hệ thống Agribank phải đáp ứng yêu cầu nào sau đây?",
       "options": [
         "Giấy tờ hồ sơ mở tài khoản của khách hàng là bản chính.",
         "Giấy tờ hồ sơ mở tài khoản của khách hàng là bản sao.",
-        "Giấy tờ hồ sơ mở tài khoản của khách hàng phải là bản sao được xuất trình cùng bản chính để đối chiếu theo quy định của Agribank",
+        "Giấy tờ hồ sơ mở tài khoản của khách hàng phải là bản sao được xuất trình cùng bản chính để đối chiếu theo quy định của Agribank.",
         "Đáp án 1 và 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 4 Điều 10 Quy định số 3325/QĐ-NHNo-TCKT ngày 30/09/2024"
+      "source": "Khoản 4 Điều 10 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
-      "question": "Tài khoản thanh toán không hoạt động là gì?",
+      "question": "Tài khoản thanh toán không hoạt động là gì?",
       "options": [
         "Tài khoản thanh toán đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 12 (mười hai) tháng liên tục kể từ ngày không đủ số dư tối thiểu.",
-        "Tài khoản thanh toán đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 36 (ba mươi sáu) tháng liên tục kể từ ngày không đủ số dư tối thiểu.",
+        "Tài khoản thanh toán đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 36 (ba mươi sáu) tháng liên tục kể từ ngày không đủ số dư tối thiểu.",
         "Tài khoản thanh toán không đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 12 (mười hai) tháng liên tục kể từ ngày không đủ số dư tối thiểu.",
-        "Tài khoản thanh toán không đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 36 (ba mươi sáu) tháng liên tục kể từ ngày không đủ số dư tối thiểu."
+        "Tài khoản thanh toán không đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 36 (ba mươi sáu) tháng liên tục kể từ ngày không đủ số dư tối thiểu."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 10, Điều 3 Quy định số 3325/QĐ-NHNo-TCKT ngày 30/09/2024"
+      "source": "Khoản 10, Điều 3 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
       "question": "Đối với phí dịch vụ phát sinh bằng đồng tiền khác với đồng tiền quy định trong biểu phí, đơn vị cung ứng dịch vụ thực hiện:",
       "options": [
-        "Áp dụng mã phí tương ứng và quy đổi tương đương theo tỷ giá mua tại thời điểm thu phí.",
         "Áp dụng mã phí tương ứng và quy đổi tương đương theo tỷ giá bán tại thời điểm thu phí.",
+        "Áp dụng mã phí tương ứng và quy đổi tương đương theo tỷ giá mua tại thời điểm thu phí.",
         "Áp dụng mã phí tương ứng và quy đổi tương đương theo tỷ giá cơ bản tại thời điểm thu phí.",
         "Áp dụng mã phí tương ứng và quy đổi tương đương theo tỷ giá chéo tại thời điểm thu phí."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 5 Quy chế số 369/QC-HDTV-TCKT ngày 19/6/2023"
+      "source": "Khoản 4 Điều 5 Quy chế số 369/QC-HĐTV-TCKT ngày 19/6/2023"
     },
     {
       "question": "Đối với các loại phí thu tự động toàn hệ thống, việc miễn phí dịch vụ thực hiện phải được:",
@@ -115,8 +115,8 @@
       "question": "Quy chế quản lý phí dịch vụ trong hệ thống Agribank quy định tại văn bản nào?",
       "options": [
         "369/QC-HĐTV-TCKT",
-        "936/QyD-HDTV-TCKT",
-        "919/QĐ-HĐTV-TCKT",
+        "936/QyĐ-HĐTV-TCKT",
+        "919/QyĐ-HĐTV-TCKT",
         "169/QTr-NHNo-TCKT"
       ],
       "correctAnswerIndex": 0,
@@ -126,18 +126,18 @@
       "question": "Theo quy định tại Quy chế số 369/QC-HĐTV-TCKT, miễn phí dịch vụ là gì?",
       "options": [
         "Agribank không thu phí dịch vụ khi khách hàng sử dụng dịch vụ có thu phí của Agribank",
-        "Agribank thu phí dịch vụ thấp hơn so với mức phí quy định trong biểu phí hiện hành khi khách hàng sử dụng dịch vụ có thu phí của Agribank.",
+        "Agribank thu phí dịch vụ thấp hơn so với mức phí quy định trong biểu phí hiện hành khi khách hàng sử dụng dịch vụ có thu phí của Agribank",
         "Agribank thu phí của khách hàng theo quy định tại Biểu phí hiện hành sau đó hoàn trả lại phần phí đã thu sau khi hết thời gian Hợp đồng cung ứng dịch vụ với khách hàng",
         "Agribank hoàn trả lại ngay trong ngày phần phí đã thu của khách hàng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 6 Điều 3 Quy chế số 369/QĐ-HДTV-TCKT ngày 19/6/2023"
+      "source": "Khoản 6 Điều 3 Quy chế số 369/QĐ-HĐTV-TCKT ngày 19/6/2023"
     },
     {
       "question": "Theo quy định tại Quy chế số 369/QC-HĐTV-TCKT, giảm phí dịch vụ là gì?",
       "options": [
         "Agribank không thu phí dịch vụ khi khách hàng sử dụng dịch vụ có thu phí của Agribank",
-        "Agribank thu phí dịch vụ thấp hơn so với mức phí quy định trong biểu phí hiện hành khi khách hàng sử dụng dịch vụ có thu phí của Agribank.",
+        "Agribank thu phí dịch vụ thấp hơn so với mức phí quy định trong biểu phí hiện hành khi khách hàng sử dụng dịch vụ có thu phí của Agribank",
         "Agribank thu phí của khách hàng theo quy định tại Biểu phí hiện hành sau đó hoàn trả lại một phần phí đã thu sau khi hết thời gian Hợp đồng cung ứng dịch vụ với khách hàng",
         "Agribank hoàn trả lại một phần phí đã thu trong ngày"
       ],
@@ -172,7 +172,7 @@
         "Theo quy định của Giám đốc chi nhánh loại I",
         "Theo quy định của Tổng Giám đốc",
         "Agribank không cung cấp dịch vụ cho 1 khách hàng tại nhiều chi nhánh khác nhau",
-        "Các chi nhánh loại 1 trên cùng địa bàn thống nhất áp dụng 1 mức phí"
+        "Các chi nhánh loại I trên cùng địa bàn thống nhất áp dụng 1 mức phí"
       ],
       "correctAnswerIndex": 1,
       "source": "Khoản 2 Điều 10 Quy chế số 369/QC-HĐTV-TCKT ngày 19/6/2023"
@@ -186,7 +186,7 @@
         "Là phương thức nhận biết khách hàng thông qua thiết bị nhận biết khách hàng (ATM, CDM), không cần gặp mặt trực tiếp khách hàng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 14 Điều 3 Quy định số 3325/QĐ-NHNo-TCKT ngày 30/09/2024"
+      "source": "Khoản 14 Điều 3 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
       "question": "Khi nhận được đề nghị tra soát, khiếu nại của khách hàng do nghi ngờ có gian lận hoặc tổn thất, Chi nhánh thực hiện:",
@@ -197,10 +197,10 @@
         "Liên hệ với các đơn vị xử lý theo quy định"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a khoản 3 Điều 20 Quy định số 3325/QyD-NHNo-TCKT ngày 30/09/2024"
+      "source": "Điểm a khoản 3 Điều 20 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
-      "question": "Chậm nhất ngày bao nhiêu hàng tháng, Chi nhánh Agribank cập nhật và cung cấp thông tin các tài khoản có dấu hiệu gian lận, lừa đảo, vi phạm pháp luật theo quy định của NHNN gửi Trung tâm Quản lý rủi ro phi tín dụng để tổng hợp?",
+      "question": "Chậm nhất ngày bao nhiêu hàng tháng, Chi nhánh Agribank cập nhật và cung cấp thông tin các tài khoản có dấu hiệu gian lận, lừa đảo, vi phạm pháp luật theo quy định của NHNN gửi Trung tâm Quản lý rủi ro phi tín dụng để tổng hợp?",
       "options": [
         "ngày 05",
         "ngày 10",
@@ -208,13 +208,13 @@
         "ngày 20"
       ],
       "correctAnswerIndex": 0,
-      "source": "điểm d Khoản 2 Điều 27 Quy định số 3325/QyD-NHNo-TCKT ngày 30/09/2024"
+      "source": "điểm đ Khoản 2 Điều 27 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/09/2024"
     },
     {
       "question": "Khách hàng đăng ký dịch vụ Agribank tại Agribank sau đó muốn hủy dịch vụ và yêu cầu hoàn trả lại số tiền đã trả phí cho những ngày trong tháng không còn sử dụng dịch vụ, Đơn vị cung ứng dịch vụ thực hiện:",
       "options": [
         "Hoàn trả lại phí dịch vụ đã thu",
-        "Không hoàn trả lại phí dịch vụ và giải thích cho khách hàng. Agribank chỉ hoàn phí trong trường hợp dịch vụ không thực hiện được do sai sót, sự cố từ phía Agribank",
+        "Không hoàn trả lại phí dịch vụ và giải thích cho khách hàng Agribank chỉ hoàn phí trong trường hợp dịch vụ không thực hiện được do sai sót, sự cố từ phía Agribank",
         "Trình Tổng Giám đốc (Qua Ban Tài chính Kế toán) để xem xét, quyết định",
         "Trình Tổng Giám đốc (Qua Đơn vị quản lý chính sách khách hàng tại Trụ sở chính) để xem xét, quyết định"
       ],
@@ -259,7 +259,7 @@
       "options": [
         "Mã khoá bảo mật được quy định riêng cho từng khách hàng để chứng thực quyền hạn, trách nhiệm mà mình được phép thực hiện.",
         "Mã khoá bảo mật được quy định riêng cho cán bộ ngân hàng để chứng thực quyền hạn, trách nhiệm mà mình được phép thực hiện.",
-        "Mã khoá bảo mật được quy định riêng cho từng cá nhân (khách hàng và cán bộ ngân hàng) để chứng thực quyền hạn, trách nhiệm mà mình được phép thực hiện. Chữ ký điện tử trên chứng từ điện tử có giá trị như chữ ký tay trên chứng từ giấy.",
+        "Mã khoá bảo mật được quy định riêng cho từng cá nhân (khách hàng và cán bộ ngân hàng) để chứng thực quyền hạn, trách nhiệm mà mình được phép thực hiện. Chữ ký điện tử trên chứng từ điện từ có giá trị như chữ ký tay trên chứng từ giấy.",
         "Chữ ký trên từng trang của chứng từ do khách hàng ký hoặc người được ủy quyền ký thay"
       ],
       "correctAnswerIndex": 2,
@@ -274,7 +274,7 @@
         "Liên hệ về Trụ sở chính để xem xét, giải quyết"
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 1 Điều 26 Quy định số 3325/QĐ-NHNo-TCKT ngày 30/9/2024"
+      "source": "khoản 1 Điều 26 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024"
     },
     {
       "question": "Phê duyệt cho vay vượt thẩm quyền gồm những cấp nào?",
@@ -295,13 +295,13 @@
         "Hội đồng tín dụng CN loại I, Giám đốc CN loại I, Giám đốc CN loại II",
         "Giám đốc CN loại I, Giám đốc CN loại II, Giám đốc Phòng giao dịch"
       ],
-      "correctAnswerIndex": 2,
-      "source": "Khoản 3 Điều 28 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 1546/QC-HĐTV-TD"
+      "correctAnswerIndex": 0,
+      "source": "Khoản 3 Điều 28 QC 656/QC-HĐTV- TD được sửa đổi, bổ sung tại QC 1546/QC-HĐTV-TD"
     },
     {
       "question": "Agribank xem xét quyết định cơ cấu lại thời hạn trả nợ khi khách hàng đáp ứng điều kiện nào?",
       "options": [
-        "Khách hàng không có khả năng trả nợ đúng hạn (gốc và/hoặc lãi tiền vay) theo thỏa thuận và có đề nghị kiêm phương án trả nợ đến thời hạn sau khi cơ cấu lại thời hạn trả nợ của khách hàng.",
+        "Khách hàng không có khả năng trả nợ đúng hạn (gốc và/hoặc lãi tiền vay) theo thỏa thuận và có đề nghị kiêm phương án trả nợ đến thời hạn sau khi cơ cấu thời hạn trả nợ của khách hàng.",
         "Khách hàng được Agribank đánh giá là có khả năng trả đầy đủ gốc và/hoặc lãi tiền vay theo kỳ hạn, thời hạn trả nợ sau khi cơ cấu lại thời hạn trả nợ.",
         "Việc cơ cấu lại thời hạn trả nợ phù hợp với khả năng tài chính của Agribank.",
         "Tất cả đáp án trên"
@@ -318,40 +318,40 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a, b, c Khoản 2 Điều 35 QC 656/QC-HDTV-TD được sửa đổi, bổ sung tại QC 579/QC-HDTV-TD"
+      "source": "Điểm a, b, c Khoản 2 Điều 35 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 579/QC-HĐTV-TD"
     },
     {
       "question": "Kiểm tra tình hình hoạt động kinh doanh đối với khách hàng vay vốn tại Agribank nơi cho vay gồm các nội dung nào?",
       "options": [
-        "Dư nợ vay, số lãi phải trả đến ngày kiểm tra, Tình hình tài chính; đánh giá tiến độ và khả năng trả nợ.",
-        "Biện pháp tổ chức triển khai và tiến độ thực hiện dự án, phương án; đánh giá phương án sử dụng vốn và khả năng trả nợ của khách hàng.",
+        "Dư nợ vay, số lãi phải trả đến ngày kiểm tra; Tình hình tài chính; đánh giá tiến độ và khả năng trả nợ;",
+        "Biện pháp tổ chức triển khai và tiến độ thực hiện dự án, phương án; đánh giá phương án sử dụng vốn và khả năng trả nợ của khách hàng;",
         "Thu thập thông tin xếp hạng khách hàng theo quy định của Agribank; Các nội dung khác (nếu có).",
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b Khoản 2 Điều 63 QyÐ 2268/QyĐ-NHNo-TD"
+      "source": "Điểm b Khoản 2 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
-      "question": "Theo quy định hiện hành của Tổng giám đốc, Agribank nơi cho vay phải thực hiện đối chiếu dư nợ đối với khách hàng pháp nhân như thế nào?",
+      "question": "Theo quy định hiện hành của Tổng giám đốc, Agribank nơi cho vay phải thực hiện đối chiếu dư nợ đối với khách hàng pháp nhân như thế nào?",
       "options": [
-        "100% khách hàng pháp nhân.",
-        "100% khách hàng pháp nhân có dư nợ từ 5 tỷ đồng trở lên.",
-        "100% khách hàng pháp nhân có dư nợ từ 10 tỷ đồng trở lên.",
-        "100% khách hàng pháp nhân có dư nợ từ 15 tỷ đồng trở lên."
+        "100% khách hàng pháp nhân.",
+        "100% khách hàng pháp nhân có dư nợ từ 5 tỷ đồng trở lên.",
+        "100% khách hàng pháp nhân có dư nợ từ 10 tỷ đồng trở lên.",
+        "100% khách hàng pháp nhân có dư nợ từ 15 tỷ đồng trở lên."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 5 Điều 63 QyÐ 2268/QyĐ-NHNo-TD"
+      "source": "Điểm a Khoản 5 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khách hàng là Doanh nghiệp tư nhân được đánh giá có tài chính minh bạch, lành mạnh để áp dụng lãi suất cho vay tối đa theo quy định của NHNN phải đáp ứng các tiêu chí nào?",
       "options": [
-        "Xếp hạng khách hàng từ A1 đến A4 theo quy định xếp hạng tín dụng nội bộ của Agribank.",
+        "Xếp  hạng khách hàng từ A1 đến A4 theo quy định xếp hạng tín dụng nội bộ của Agribank.",
         "Không có nợ nhóm 2 trở lên trong 36 tháng liền kề thời điểm vay vốn (khách hàng phải có quan hệ tín dụng với Agribank liên tục 36 tháng gần nhất tại thời điểm xét duyệt cho vay).",
         "Vốn đối ứng tham gia tối thiểu 10%/Tổng nhu cầu vốn. Báo cáo tài chính năm gần nhất phải được kiểm toán và không có yếu tố ngoại trừ trọng yếu.",
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Mục 2 PL số 02/TCMB-QĐ theo QyĐ 2268/QyD-NHNo-TD"
+      "source": "Mục 2 PL số 02/TCMB-QĐ theo QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Thành viên hộ gia đình, cá nhân có quyền sử dụng đất nông nghiệp được nhà nước giao trong hạn mức, quyền sở hữu tài sản gắn liền với đất được thế chấp tài sản như thế nào?",
@@ -362,10 +362,10 @@
         "Không được thế chấp quyền sử dụng đất, tài sản thuộc sở hữu của mình gắn liền với đất."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 1 Điều 8 QĐ 2929/QyĐ-NHNo-TD đã được sửa đổi, bổ sung tại QĐ 3838/QyD-NHNo-TD"
+      "source": "Điểm a Khoản 1 Điều 8 QĐ 2929/QyĐ-NHNo-TD đã được sửa đổi, bổ sung tại QĐ 3838/QyĐ-NHNo-TD"
     },
     {
-      "question": "Agribank nơi cấp tín dụng thực hiện kiểm tra tài sản thế chấp khác (không phải là hàng hóa luân chuyển trong sản xuất kinh doanh; tài sản hình thành trong tương lai; Quyền đòi nợ, quyền sử dụng đất, quyền sử dụng đất và tài sản gắn liền với đất, tài sản bảo đảm gắn liền với đất) tối thiểu?",
+      "question": "Agribank nơi cấp tín dụng thực hiện kiểm tra tài sản thế chấp khác (không phải là hàng hóa luân chuyển trong sản xuất kinh doanh; tài sản hình thành trong tương lai; Quyền đòi nợ; quyền sử dụng đất, quyền sử dụng đất và tài sản gắn liền với đất, tài sản bảo đảm gắn liền với đất) tối thiểu?",
       "options": [
         "01 tháng kiểm tra 01 lần.",
         "03 tháng kiểm tra 01 lần.",
@@ -384,7 +384,7 @@
         "01 bản chính và 03 bản sao y."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b Khoản 4 Điều 19 QC 346/QC-HDTV-TD"
+      "source": "Điểm b Khoản 4 Điều 19 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Trong trường hợp bảo lãnh ngân hàng (trừ trường hợp bảo lãnh đối ứng, xác nhận bảo lãnh), thời hạn Agribank thực hiện nghĩa vụ bảo lãnh khi nhận được đủ hồ sơ yêu cầu thực hiện nghĩa vụ bảo lãnh hợp lệ trong vòng bao nhiêu ngày?",
@@ -409,26 +409,26 @@
       "source": "Khoản 38 Điều 3 QC 346/QC-HĐTV-TD"
     },
     {
-      "question": "Tại chi nhánh có Bộ phân thẩm định/Phòng Thẩm định và khoản bảo lãnh phải qua bộ phận Thẩm định/Phòng Thẩm định, Người thẩm định gồm bao nhiêu người?",
+      "question": "Tại chi nhánh có Bộ phận thẩm định/Phòng Thẩm định và khoản bảo lãnh phải qua bộ phận Thẩm định/Phòng Thẩm định, Người thẩm định gồm bao nhiêu người?",
       "options": [
-        "Tối thiểu 02 (hai) người do lãnh đạo bộ phận Thẩm định/Phòng Thẩm định cử",
+        "Tối thiểu 02 (hai) người do lãnh đạo bộ phận Thẩm định/Phòng Thẩm định cử.",
         "Tối thiểu 02 (hai) người trong đó phải có lãnh đạo bộ phận Thẩm định/Phòng Thẩm định",
         "Tối đa 02 (hai) người trong đó phải có lãnh đạo bộ phận Thẩm định/Phòng Thẩm định.",
         "Tối đa 02 (hai) người do lãnh đạo bộ phận Thẩm định/Phòng Thẩm định cử."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm c Khoản 1 Điều 15 Quy định 1445 /QyD-NHNo-TD"
+      "source": "Điểm e Khoản 1 Điều 15 Quy định 1445 /QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với cho vay dài hạn thời hạn xem xét và quyết định cho vay tại Agribank nơi cho vay kể từ ngày nhận đủ hồ sơ, thông tin hợp lệ tối đa là bao nhiêu ngày làm việc?",
       "options": [
-        "5 ngày",
+        "5 ngày.",
         "10 ngày.",
         "15 ngày",
         "20 ngày."
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm c Khoản 1 Điều 27 QC 656/QC-HDTV-TD"
+      "source": "Điểm c Khoản 1 Điều 27 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Tổng mức dư nợ cấp tín dụng của Agribank đối với một khách hàng và người có liên quan của khách hàng đó từ ngày 01/7/2024 đến trước ngày 01/01/2026 không được vượt quá bao nhiêu phần trăm vốn tự có của Agribank?",
@@ -439,18 +439,18 @@
         "0.05"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 1 Điều 25 QC 656/QC-HDTV-TD được sửa đổi, bổ sung tại QC 579/QC-HDTV-TD"
+      "source": "Điểm a Khoản 1 Điều 25 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 579/QC-HĐTV-TD"
     },
     {
-      "question": "Thời hạn phê duyệt và quyết định cấp bảo lãnh tối đa kể từ ngày nhận đủ hồ sơ, thông tin hợp lệ tại Agribank nơi cấp bảo lãnh?",
+      "question": "Thời hạn phê duyệt và quyết định cấp bảo lãnh tối đa kể từ ngày nhận đủ hồ sơ, thông tin hợp lệ tại Agribank nơi cấp bảo lãnh?",
       "options": [
-        "Tối đa 05 (năm) ngày làm việc; Các khoản cấp bảo lãnh thông qua Hội đồng tín dụng được cộng thêm tối đa 5 (năm) ngày làm việc.",
+        "Tối đa 05 (năm) ngày làm việc; Các khoản cấp bảo lãnh thông qua Hội đồng tín dụng được cộng thêm tối đa 5 (năm) ngày làm việc.",
         "Thời hạn quyết định cấp bảo lãnh tối đa 05 ngày làm việc. Trường hợp đã cấp bảo lãnh theo hạn mức, thời hạn cấp bảo lãnh từng lần tối đa 02 ngày làm việc.",
-        "Tối đa 10 (mười) ngày làm việc; Các khoản cấp bảo lãnh thông qua Hội đồng tín dụng được cộng thêm tối đa 3 (ba) ngày làm việc.",
-        "Tối đa 5 (năm) ngày làm việc; Các khoản cấp bảo lãnh thông qua Hội đồng tín dụng được cộng thêm tối đa 3 (ba) ngày làm việc."
+        "Tối đa 10 (mười) ngày làm việc; Các khoản cấp bảo lãnh thông qua Hội đồng tín dụng được cộng thêm tối đa 3 (ba) ngày làm việc.",
+        "Tối đa 5 (năm) ngày làm việc; Các khoản cấp bảo lãnh thông qua Hội đồng tín dụng được cộng thêm tối đa 3 (ba) ngày làm việc."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 10 QĐ 1445 QyD-NHNo-TD"
+      "source": "Khoản 1 Điều 10 QĐ 1445 /QyĐ-NHNo-TD"
     },
     {
       "question": "SWIFT (Society for Worldwide Interbank Financial Telecommunication) là?",
@@ -461,7 +461,7 @@
         "Tổ chức Viễn thông tài chính liên ngân hàng."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm d Khoản 1 Điều 3 QĐ 1445/QĐ-NHNO-TD"
+      "source": "Điểm d Khoản 1 Điều 3 QĐ 1445 /QyĐ-NHNo-TD"
     },
     {
       "question": "Ngày 05/03/2023, Chi nhánh A phát hành bảo lãnh bảo hành cho Công ty B (bên nhận bảo lãnh là Công ty C, thời hạn bảo lãnh 02 năm kể từ ngày phát hành bảo lãnh). Ngày 05/02/2025, Chi nhánh A nhận được yêu cầu thực hiện nghĩa vụ bảo lãnh của Công ty C. Người quản lý bảo lãnh tại CN A phải làm gì khi nhận được yêu cầu từ Công ty C?",
@@ -472,18 +472,18 @@
         "Chậm nhất ngày 06/02/2025, Người quản lý bảo lãnh phải thực hiện kiểm tra Hồ sơ đòi tiền, đối chiếu với các điều kiện thực hiện nghĩa vụ bảo lãnh tại Quy định về bảo lãnh của Agribank"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm d khoản 1 Điều 32 Quy định 1445/QĐ-NHNo-TD"
+      "source": "Điểm d khoản 1 Điều 32 Quy định 1445/QyĐ-NHNo-TD"
     },
     {
       "question": "Ông B có tài sản là Đất thuê trả tiền thuê hàng năm thì Agribank nhận thế chấp như nào?",
       "options": [
         "Nhận đất thuê trả tiền hàng năm",
-        "Nhận đất thuê trả tiền hàng năm và tài sản gắn liền với đất",
+        "Nhận đất thuê trả tiền hàng năm và  tài sản gắn liền với đất",
         "Chỉ nhận thế chấp tài sản thuộc sở hữu của bên bảo đảm gắn liền với đất",
         "Không nhận đất thuê trả tiền hàng năm và tài sản gắn liền với đất"
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 2 Điều 7,8,9 Quyết định 2929/QyD-NHNo-TD được sửa đổi, bổ sung tại QĐ 3838/QyD-NHNo-TD"
+      "source": "khoản 2 Điều 7,8,9 Quyết định 2929/QyĐ-NHNo-TD được sửa đổi, bổ sung tại QĐ 3838/QyĐ-NHNo-TD"
     },
     {
       "question": "Hộ gia đình ông X mang 4 tài sản là quyền sử dụng đất đến để xin thế chấp vay vốn tại Agribank. Tài sản được phép nhận thế chấp được nhận là?",
@@ -494,29 +494,29 @@
         "Đất thuê tại khu công nghiệp D trả tiền thuê đất hằng năm."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Điều 8 Quy định 2929/QĐ-NHNo-TD được sửa đổi, bổ sung tại QĐ 3838/QĐ-NHNO-TD"
+      "source": "Khoản 3 Điều 8 Quy định 2929/QyĐ-NHNo-TD được sửa đổi, bổ sung tại QĐ 3838/QyĐ-NHNo-TD"
     },
     {
-      "question": "Khách hàng cá nhân A không có nơi cư trú thuộc địa bản cho vay của chi nhánh X. Khách hàng cá nhân A có tài khoản nhận lương tại chi nhánh X và đề nghị vay vốn chi nhánh X với nguồn trả nợ từ lương. Nhận định nào sau đây là đúng?",
+      "question": "Khách hàng cá nhân A không có nơi cư trú thuộc địa bàn cho vay của chi nhánh X. Khách hàng cá nhân A có tài khoản nhận lương tại chi nhánh X và đề nghị vay vốn chi nhánh X với nguồn trả nợ từ lương. Nhận định nào sau đây là đúng?",
       "options": [
-        "Chi nhánh X không được cho vay khách hàng A vì không đúng địa bản của cho vay chi nhánh X.",
+        "Chi nhánh X không được cho vay khách hàng A vì không đúng địa bàn của cho vay chi nhánh X.",
         "Chi nhánh X được cho vay khách hàng A mà không cần trình Tổng Giám đốc chấp thuận cho vay nếu khách hàng đáp ứng đủ điều kiện vay vốn.",
         "Chi nhánh X chỉ được cho vay khách hàng A sau khi được Tổng Giám đốc chấp thuận vay ngoài địa bàn.",
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm a Khoản 2 Điều 7 QĐ 2268/QĐ-NHNo-TD được sửa đổi, bổ sung tại QĐ 1799/QyD-NHNO-TD"
+      "source": "Điểm a Khoản 2 Điều 7 QĐ 2268/QyĐ-NHNo-TD được sửa đổi, bổ sung tại QĐ 1799/QyĐ-NHNo-TD"
     },
     {
-      "question": "Công ty A có tỷ lệ vốn đối ứng tham gia Phương án sử dụng vốn (dự án vay vốn trung hạn) là 50% và đã giải ngân 25% vốn đối ứng cho dự án (có đủ tài liệu chứng minh), vậy ngân hàng sẽ giải ngân vốn vay như thế nào?",
+      "question": "Công  ty A có tỷ lệ vốn đối ứng tham gia Phương án sử dụng vốn (dự án vay vốn trung hạn) là 50% và đã giải ngân 25% vốn đối ứng cho dự án (có đủ tài liệu chứng minh), vậy ngân hàng sẽ giải ngân vốn vay như thế nào?",
       "options": [
         "Theo nguyên tắc vốn đối ứng giải ngân trước nên công ty A phải giải ngân hết 50% vào dự án, ngân hàng mới bắt đầu giải ngân.",
         "Sau khi Khách hàng đã giải ngân vốn đối ứng bằng tỷ lệ tối thiểu theo quy định là 25%, việc giải ngân vốn vay và phần còn lại vốn đối ứng do Giám đốc Agribank nơi cho vay quyết định.",
         "Ngân hàng và khách hàng thỏa thuận giải ngân theo tỷ lệ ngay từ đầu dự án vì ngân hàng chỉ cho vay 50% số vốn của dự án.",
-        "Sau khi Khách hàng đã giải ngân vốn đối ứng bằng tỷ lệ tối thiểu theo quy định là 25%, việc giải ngân vốn vay và phần còn lại vẫn đối ứng do Tổng Giám đốc Agribank quyết định."
+        "Sau khi Khách hàng đã giải ngân vốn đối ứng bằng tỷ lệ tối thiểu theo quy định là 25%, việc giải ngân vốn vay và phần còn lại vốn đối ứng do Tổng Giám đốc Agribank quyết định."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 56 QyD 2268/QyD-NHNO-TD"
+      "source": "Khoản 1 Điều 56 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khoản vay của khách hàng A được định kỳ hạn trả nợ gốc, lãi 1 tháng/kỳ, vào ngày 20 hàng tháng, kỳ trả nợ cuối cùng ngày 20/12/2027. Đến nay khách hàng đề nghị thay đổi ngày trả nợ gốc, lãi thành ngày 25 hàng tháng (kỳ trả nợ cuối cùng 20/12/2027), ngân hàng đồng ý theo đề nghị của khách hàng. Theo anh/chị nhận định sau đây là đúng?",
@@ -538,7 +538,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 3 Điều 24 Quy chế 879/QC-HDTV-TD"
+      "source": "Khoản 3 Điều 24 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Khách hàng B có tài sản là quyền sử dụng đất thuộc trường hợp là đất ở xen kẽ với nhà thờ của dòng họ thì Agribank có được nhận làm tài sản bảo đảm không?",
@@ -549,7 +549,7 @@
         "Có nhận làm tài sản bảo đảm chính thức"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Mục II, Phụ lục số 01/PL/TSBĐ kèm theo Quyết định 2929/QyD-NHNo-TD"
+      "source": "Khoản 1 Mục II, Phụ lục số 01/PL/TSBĐ kèm theo Quyết định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Tài khoản thanh toán sử dụng để thực hiện các giao dịch tiền gửi trực tuyến là tài khoản như thế nào?",
@@ -604,7 +604,7 @@
         "Gửi một lần rút một lần"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 4 Quy định 865/QĐ-NHNo-KHCN ngày 18/4/2023"
+      "source": "Điều 4 Quy định 865/QyĐ-NHNo-KHCN ngày 18/4/2023"
     },
     {
       "question": "Đối với sản phẩm Tiền gửi Tích lũy trực tuyến khách hàng có thể chủ động thay đổi ngày gửi tiền định kỳ?",
@@ -615,7 +615,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 7 Quy định số 865/QĐ-NHNo-KHCN ngày 18/4/2023."
+      "source": "Khoản 2 Điều 7 Quy định số 865/QyĐ-NHNo-KHCN ngày 18/4/2023."
     },
     {
       "question": "Thời hạn gửi tiền của Tiền gửi Tích lũy trực tuyến?",
@@ -626,7 +626,7 @@
         "6 tháng đến 36 tháng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 4 Quy định 865/QyD-NHNo-KHCN ngày 18/4/2023"
+      "source": "Khoản 3 Điều 4 Quy định 865/QyĐ-NHNo-KHCN ngày 18/4/2023"
     },
     {
       "question": "Lãi suất áp dụng đối với sản phẩm Tiền gửi Tích lũy trực tuyến là gì?",
@@ -637,7 +637,7 @@
         "Tùy theo thỏa thuận giữa khách hàng và ngân hàng về hình thức lãi suất"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 8 Điều 4 Quy định 865/QyD-NHNo-KHCN ngày 18/4/2023"
+      "source": "Khoản 8 Điều 4 Quy định 865/QyĐ-NHNo-KHCN ngày 18/4/2023"
     },
     {
       "question": "Số tiền gửi tối thiểu của sản phẩm Tiền gửi trực tuyến rút gốc linh hoạt:",
@@ -648,7 +648,7 @@
         "10 triệu đồng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 3 Điều 1 Quy định 3640/QĐ-NHNo-KHCN ngày 30/10/2024"
+      "source": "Điểm a Khoản 3 Điều 1 Quy định 3640/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Khách hàng có số dư còn lại trên tài khoản Tiền gửi trực tuyến rút gốc linh hoạt là 10 triệu đồng. Khách hàng có thể rút một phần gốc tối đa bao nhiêu tiền?",
@@ -659,18 +659,18 @@
         "Không được rút tiền"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm a Khoản 3 Điều 1 Quy định 3640/QĐ-NHNo-KHCN ngày 30/10/2024"
+      "source": "Điểm a Khoản 3 Điều 1 Quy định 3640/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Khách hàng gửi Tiền gửi trực tuyến rút gốc linh hoạt, số dư 10 triệu đồng vào ngày 01/04/2025, lãi suất 5%. Khách hàng rút 1 triệu đồng vào ngày 02/4/2025. Lãi suất áp dụng đối với số tiền 1 triệu đồng rút ra là bao nhiêu (Biết lãi suất không kỳ hạn thấp nhất tại thời điểm 02/4/2025 là 0,1%)",
       "options": [
         "",
-        "0,1%",
+        "0.001",
         "0.05",
-        "2,5%"
+        "0.025"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b Khoản 4 Điều 1 Quy định 3640/QĐ-NHNo-KHCN ngày 30/10/2024"
+      "source": "Điểm b Khoản 4 Điều 1 Quy định 3640/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Sản phẩm Tiền gửi trực tuyến rút gốc linh hoạt có bao nhiêu hình thức chỉ thị đáo hạn?",
@@ -692,7 +692,7 @@
         "10.000.000 VND"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 5 Điều 4 Quy định 2751/QyD-NHNo-KHCN ngày 09/11/2023"
+      "source": "Khoản 5 Điều 4 Quy định 2751/QyĐ-NHNo-KHCN ngày 09/11/2023"
     },
     {
       "question": "Sản phẩm Tiền gửi trực tuyến trả lãi sau định kỳ không huy động kỳ hạn nào sau đây?",
@@ -714,7 +714,7 @@
         "Cả 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 7 Điều 4 Quy định số 2751/QĐ-NHNo-KHCN ngày 09/11/2023."
+      "source": "Khoản 7 Điều 4 Quy định số 2751/QyĐ-NHNo-KHCN ngày 09/11/2023."
     },
     {
       "question": "Dịch vụ Apaybill trên kênh SMS Banking của Agribank là dịch vụ nào sau đây?",
@@ -730,7 +730,7 @@
     {
       "question": "Trong các dịch vụ sau của Agribank dịch vụ nào là dịch vụ phi tài chính trên kênh SMS Banking?",
       "options": [
-        "Tự động thông báo số dư khi tài khoản có biến động, vấn tin số dư và liệt kê 5 giao dịch gần nhất",
+        "Tự động thông báo số dư khi tài khoản có biến động; vấn tin số dư và liệt kê 5 giao dịch gần nhất",
         "Dịch vụ Vntopup và Apaybill",
         "Dịch vụ Vntopup, Apaybill và chuyển khoản trong hệ thống Agribank",
         "Chuyển khoản trong hệ thống Agribank"
@@ -755,7 +755,7 @@
         "Không quy định",
         "Áp dụng mật khẩu do khách hàng lựa chọn",
         "Áp dụng SMS OTP",
-        "Áp dụng Soft OTP/SMS OTP/ Mật khẩu đăng nhập/ xác thực sinh trắc học hoặc kết hợp nhiều phương thực xác thực đối với từng hạn mức giao dịch"
+        "Áp dụng Soft OTP/SMS OTP/ Mật khẩu đăng nhập/ xác thực sinh trắc học  hoặc kết hợp nhiều phương thực xác thực đối với từng hạn mức giao dịch"
       ],
       "correctAnswerIndex": 3,
       "source": "Khoản 1 Điều 11 QĐ 1228 QĐ/NHNo-KHCN"
@@ -769,7 +769,7 @@
         "Áp dụng SMS OTP/ Mật khẩu đăng nhập/ Bảo mật sinh trắc học đối với từng hạn mức giao dịch"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 11 QĐ 1228 QD/NHNo-KHCN"
+      "source": "Khoản 2 Điều 11 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Đơn vị nào sau đây hỗ trợ xử lý khiếu nại về dịch vụ chi trả kiều hối vào tài khoản tiền gửi của khách hàng mở tại Agribank qua hệ thống ngân hàng điện tử?",
@@ -805,7 +805,7 @@
       "source": "Điểm d Khoản 4 Điều 14 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
-      "question": "Agribank dùng dịch vụ ngân hàng điện tử khi toàn bộ TKTT của khách hàng chuyển sang trạng thái như thế nào?",
+      "question": "Agribank dừng dịch vụ ngân hàng điện tử khi toàn bộ TKTT của khách hàng chuyển sang trạng thái như thế nào?",
       "options": [
         "Không hoạt động",
         "Phong tỏa hoạt động",
@@ -813,7 +813,7 @@
         "Cả 1, 2, 3 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b khoản 2 Điều 3 QyĐ 1018/QĐ-NHNo-KHCN"
+      "source": "Điểm b khoản 2 Điều 3 QyĐ 1018/QyĐ-NHNo-KHCN"
     },
     {
       "question": "Khách hàng có quyền yêu cầu Agribank về dịch vụ ngân hàng điện tử",
@@ -824,7 +824,7 @@
         "thay đổi/bổ sung/khóa/hủy dịch vụ"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm 8.2 Điều 8 DKDK QĐ 1018/QyD-NHNo-KHCN"
+      "source": "Điểm 8.2 Điều 8 ĐKDK QĐ 1018/QyĐ-NHNo-KHCN"
     },
     {
       "question": "Đến tháng 6/2025, Agribank đã triển khai bao nhiêu sản phẩm tiền gửi trực tuyến trên Agribank eBanking cho khách hàng tổ chức?",
@@ -835,18 +835,18 @@
         "4"
       ],
       "correctAnswerIndex": 2,
-      "source": "Quy định số 2537/QyD-NHNo-KHDN ngày 24/10/2023; Quy định số 1686/QĐ-NHNo-KHDN ngày 17/6/2025; Quy định số 1704/QĐ-NHNo-KHDN ngày 18/6/2025"
+      "source": "Quy định số 2537/QyĐ-NHNo-KHDN ngày 24/10/2023; Quy định số 1686/QyĐ-NHNo-KHDN ngày 17/6/2025; Quy định số 1704/QyĐ-NHNo-KHDN ngày 18/6/2025"
     },
     {
       "question": "Khách hàng tổ chức có thể thực hiện đóng tài khoản Tiền gửi trực tuyến trên hệ thống Agribank eBanking qua hình thức nào?",
       "options": [
         "Chỉ có thể đóng trực tiếp tại quầy giao dịch",
-        "Có thể đóng trực tiếp tại quầy giao dịch hoặc trên kênh Internet tại địa chỉ https:/ebanking.agribank.com.vn/corporate",
+        "Chỉ có thể đóng trực tiếp tại quầy giao dịch hoặc trên kênh Internet tại địa chỉ https:/ebanking.agribank.com.vn/corporate",
         "Chỉ có thể đóng trực tiếp tại quầy giao dịch hoặc qua ứng dụng Agribank Corporate eBanking",
         "Có thể đóng trực tiếp tại quầy giao dịch, trên kênh Internet tại địa chỉ https:/ebanking.agribank.com.vn/corporate hoặc qua ứng dụng Agribank Corporate eBanking"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 8. Chương II: Quy định số 2537/QĐ-NHNo-KHDN ngày 24/10/2023 của Tổng Giám đốc về sản phẩm Tiền gửi trực tuyến đối với khách hàng tổ chức trên hệ thống Agribank eBanking"
+      "source": "Điều 8. Chương II: Quy định số 2537/QyĐ-NHNo-KHDN ngày 24/10/2023 của Tổng Giám đốc vv sản phẩm Tiền gửi trực tuyến đối với khách hàng tổ chức trên hệ thống Agribank eBanking"
     },
     {
       "question": "Trong các sản phẩm sau, sản phẩm nào Agribank chưa triển khai tới khách hàng doanh nghiệp trên hệ thống Agribank eBanking",
@@ -857,7 +857,7 @@
         "Tiền gửi trả lãi sau định kỳ trực tuyến"
       ],
       "correctAnswerIndex": 2,
-      "source": "Quy định số 2537/QyD-NHNo-KHDN ngày 24/10/2023; Quy định số 1686/QĐ-NHNo-KHDN ngày 17/6/2025; Quy định số 1704/QĐ-NHNO-KHDN ngày 18/6/2025"
+      "source": "Quy định số 2537/QyĐ-NHNo-KHDN ngày 24/10/2023; Quy định số 1686/QyĐ-NHNo-KHDN ngày 17/6/2025; Quy định số 1704/QyĐ-NHNo-KHDN ngày 18/6/2025"
     },
     {
       "question": "Số tiền gửi tối thiểu của sản phẩm Tiền gửi trực tuyến đối với khách hàng tổ chức trên hệ thống Agribank eBanking là bao nhiêu?",
@@ -868,7 +868,7 @@
         "10 triệu"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 1 Quy định số 1510/QyĐ-NHNo-KHDN ngày 28/5/2025 của Tổng Giám đốc về Sửa đổi, bổ sung một số điều của Quy định số 2537/QyĐ-NHNo-KHDN ngày 24/10/2023 của Tổng Giám đốc về sản phẩm Tiền gửi trực tuyến đối với khách hàng tổ chức trên hệ thống Agribank eBanking"
+      "source": "Khoản 2 Điều 1 Quy định số 1510/QyĐ-NHNo-KHDN ngày 28/5/2025 của Tổng Giám đốc về Sửa đổi, bổ sung một số điều của Quy định số 2537/Qy Đ-NHNo-KHDN ngày 24/10/2023 của Tổng Giám đốc về sản phẩm Tiền gửi trực tuyến đối với khách hàng tổ chức trên hệ thống Agribank eBanking"
     },
     {
       "question": "Số tiền rút gốc mỗi lần tối thiểu đối với giao dịch tiền gửi rút gốc linh hoạt trực tuyến của khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking) là:",
@@ -879,7 +879,7 @@
         "10 triệu VND"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 6, Điều 4 Quy định số 1686/QĐ-NHNO-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
+      "source": "Khoản 6, Điều 4 Quy định số 1686/QyĐ-NHNo-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
     },
     {
       "question": "Theo Quy định số 1704/QyĐ-NHNo-KHDN ngày 18/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi trả lãi sau định kỳ trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking), số tiền gửi tối thiểu là bao nhiêu?",
@@ -890,7 +890,7 @@
         "Không quy định số tiền gửi tối thiểu"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 5 Điều 4 Quy định số 1704/QĐ-NHNo-KHDN ngày 18/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi trả lãi sau định kỳ trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
+      "source": "Khoản 5 Điều 4 Quy định số 1704/QyĐ-NHNo-KHDN ngày 18/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi trả lãi sau định kỳ trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
     },
     {
       "question": "Đồng tiền áp dụng đối với sản phẩm Tiền gửi trực tuyến đối với khách hàng tổ chức trên hệ thống Agribank eBanking là:",
@@ -923,7 +923,7 @@
         "01 tháng/ lần, 03 tháng/ lần"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 7, Điều 4, Văn bản số 1704/QĐ-NHNo-KHDN ngày 18/6/2025"
+      "source": "Khoản 7, Điều 4, Văn bản số 1704/QyĐ-NHNo-KHDN ngày 18/6/2025"
     },
     {
       "question": "Ngày mở tài khoản Tiền gửi rút gốc linh hoạt trực tuyến là ngày nào sau đây?",
@@ -934,7 +934,7 @@
         "Ngày do Agribank và khách hàng thỏa thuận"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 5, Điều 2 Quy định số 1686/QĐ-NHNo-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
+      "source": "Khoản 5, Điều 2 Quy định số 1686/QyĐ-NHNo-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
     },
     {
       "question": "Kênh giao dịch đối với tiền gửi rút gốc linh hoạt trực tuyến của khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking) là?",
@@ -945,21 +945,21 @@
         "Cả 3 phương án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 13 Điều 4 Quy định số 1686/QĐ-NHNo-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
+      "source": "Khoản 13 Điều 4 Quy định số 1686/QyĐ-NHNo-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
     },
     {
       "question": "Kênh tiếp nhận thông tin về xử lý tra soát, khiếu nại của sản phẩm tiền gửi rút gốc linh hoạt trực tuyến của khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)?",
       "options": [
         "Tại điểm giao dịch của Agribank",
-        "Qua các kênh hỗ trợ (tổng đài 24/7, email...) của Trung tâm CSKH",
+        "Qua các kênh hỗ trợ (tổng đài 24/7, email…) của Trung tâm CSKH",
         "Cả 1 và 2 đều đúng",
         "Cả 1 và 2 đều sai"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 điều 10 Quy định số 1686/QĐ-NHNo-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
+      "source": "Khoản 1 điều 10 Quy định số 1686/QyĐ-NHNo-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
     },
     {
-      "question": "Mức phí nạp tiền từ tài khoản thanh toán của khách hàng vào tài khoản ví điện tử doanh nghiệp VNPT Pay:",
+      "question": "Mức phí nạp tiền từ tài khoản thanh toán của khách hàng vào tài khoản ví điện tử doan:h nghiệp VNPT Pay:",
       "options": [
         "0,022(%)/ giá trị GD nạp thành công",
         "0,2(%)/ giá trị GD nạp thành công",
@@ -967,7 +967,7 @@
         "0,4(%)/ giá trị GD nạp thành công"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b Khoản 1 Phụ lục 02 tại VB 3250/NHNO-KHDN ngày 05/4/2023"
+      "source": "Điểm b Khoản 1 Phụ lục 02 tại VB 3250/NHNo-KHDN ngày 05/4/2023"
     },
     {
       "question": "Tại màn hình giải ngân trên IPCAS, để đăng ký giải ngân tham gia các chương trình ưu đãi, Chi nhánh phải lựa chọn Mã ưu đãi tại trường nào?",
@@ -1022,7 +1022,7 @@
         "API, SFTP, IBM Message Queue"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3, Điều 8, Quy trình số 3166/QTr-NHΝΟ-ΤΤΚΗ ngày 11/9/2024 về Cung cấp dịch vụ Sổ phụ điện tử đối với Khách hàng"
+      "source": "Khoản 3, Điều 8, Quy trình số 3166/QTr-NHNo-TTKH ngày 11/9/2024 về Cung cấp dịch vụ Sổ phụ điện tử đối với Khách hàng"
     },
     {
       "question": "Trong các nghiệp vụ sau, nghiệp vụ nào Agribank chưa triển khai trên kênh trực tuyến Agribank eBanking dành cho khách hàng tổ chức?",
@@ -1044,7 +1044,7 @@
         "Payment"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 2, Quyết định số 1796/QĐ-NHNΟ-ΤΤΚΗ ngày 16/8/2018 về Ban hành Quy định cung cấp dịch vụ thanh toán hóa đơn trong hệ thống Agribank"
+      "source": "Điều 2, Quyết định số 1796/QĐ-NHNo-TTKH ngày 16/8/2018 về Ban hành Quy định cung cấp dịch vụ thanh toán hóa đơn trong hệ thống Agribank"
     },
     {
       "question": "Ứng dụng được cài đặt trên điện thoại thông minh hoặc máy tính bảng dành cho khách hàng tổ chức sử dụng dịch vụ ngân hàng điện tử của Agribank là gì?",
@@ -1066,7 +1066,7 @@
         "Agribank eBanking và website của Agribank"
       ],
       "correctAnswerIndex": 3,
-      "source": "VB số 8833/NHNO-KHDN ngày 15/9/2022 về triển khai chức năng truy vấn thông tin bảo lãnh trực tuyến"
+      "source": "VB số 8833/NHNo-KHDN ngày 15/9/2022 về triển khai chức năng truy vấn thông tin bảo lãnh trực tuyến"
     },
     {
       "question": "Khách hàng tổ chức A đến giao dịch tại Agribank có nhu cầu sử dụng dịch vụ Ngân hàng điện tử của Agribank trên Internet và Mobile App. Giao dịch viên sẽ tư vấn cho khách hàng đăng ký dịch vụ gì trong các dịch vụ sau?",
@@ -1099,12 +1099,12 @@
         "Sản phẩm tiền gửi tích lũy"
       ],
       "correctAnswerIndex": 0,
-      "source": "Quy định số 1686/QyD-NHNo-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
+      "source": "Quy định số 1686/QyĐ-NHNo-KHDN ngày 17/6/2025 của Tổng Giám đốc Về Sản phẩm Tiền gửi rút gốc linh hoạt trực tuyến đối với khách hàng tổ chức trên kênh ngân hàng điện tử (E-Banking)"
     },
     {
-      "question": "Đối với việc phát hành thẻ trên kênh điện tử, mỗi khách hàng chỉ được phát hành tối đa bao nhiêu thẻ/năm/tài khoản?",
+      "question": "Đối với việc phát hành thẻ trên kênh điện tử, mỗi khách hàng chỉ được phát hành tối đa bao nhiêu thẻ/năm/tài khoản ?",
       "options": [
-        "5",
+        "05",
         "10",
         "15",
         "20"
@@ -1121,18 +1121,18 @@
         "Đáp án 01 và 02"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1, Điều 28, Quy định số 2239/QyĐ-NHNO-TTT ngày 31/7/2024."
+      "source": "Khoản 1, Điều 28, Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Chủ thẻ tín dụng nội địa (Lộc Việt) có thể thanh toán dư nợ của thẻ tại đâu?",
       "options": [
         "Trên ứng dụng Agribank Plus",
         "Tại quầy giao dịch",
-        "Tại thiết bị chấp nhận thẻ",
+        "Tại  thiết bị chấp nhận thẻ",
         "Đáp án 01 và 02"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2, Điều 6 Quy định số 2239/QyĐ-NHNO-TTT ngày 31/7/2024."
+      "source": "Khoản 2, Điều 6  Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Chủ thẻ của Agribank có thể kích hoạt thẻ tại đâu?",
@@ -1143,36 +1143,36 @@
         "Đáp án 01 và 03"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 24 Quy định số 2239/QĐ-NHNo-TTT ngày 31/7/2024."
+      "source": "Điều 24 Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Chủ thẻ có thể được cấp mã PIN tại đâu ?",
       "options": [
         "Tại quầy giao dịch của Agribank",
         "Tại các kênh điện tử của Agribank",
-        "Tại thiết bị chấp nhận thẻ",
+        "Tại  thiết bị chấp nhận thẻ",
         "Đáp án 01 và 02"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 24 Quy định số 2239/QyD-NHNo-TTT ngày 31/7/2024."
+      "source": "Điều 24 Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Chủ thẻ thực hiện đổi mã PIN qua những kênh nào?",
       "options": [
         "Tại ATM của Agribank",
         "Trên kênh điện tử của Agribank",
-        "Tại thiết bị chấp nhận thẻ",
+        "Tại  thiết bị chấp nhận thẻ",
         "Đáp án 01 và 02"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 6 Quy định số 2239/QyD-NHNo-TTT ngày 31/7/2024."
+      "source": "Điều 6 Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Hạn mức thanh toán hàng hoá, dịch vụ/ngày của thẻ tín dụng có thể thay đổi tăng tối đa là bao nhiêu?",
       "options": [
-        "Không quá hạn mức tín dụng được cấp",
+        "Không quá hạn mức tín dụng được cấp",
         "Bằng hạn mức thanh toán hàng hoá, dịch vụ",
-        "Bằng hạn mức giao dịch Internet",
+        "Bằng hạn mức giao dịch Internet",
         "Không thể thay đổi"
       ],
       "correctAnswerIndex": 0,
@@ -1187,7 +1187,7 @@
         "Tất các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 19 Quyết định 2086/QĐ-NHNO-TTT ngày 02/10/2020."
+      "source": "Khoản 1 Điều 19 Quyết định 2086/QĐ-NHNo-TTT ngày 02/10/2020."
     },
     {
       "question": "CDM nhận gửi tiền với mệnh giá tối thiểu là bao nhiêu?",
@@ -1198,7 +1198,7 @@
         "50.000 VND"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 4, Điều 8 Quy định số 2239/QyĐ-NHNO-TTT ngày 31/7/2024."
+      "source": "Khoản 4, Điều 8 Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Điều kiện về độ tuổi khách hàng sử dụng dịch vụ tại Agribank Digital:",
@@ -1209,18 +1209,18 @@
         "Trên 18 tuổi"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1, Điều 33 Quy định số 2239/QyĐ-NHNO-TTT ngày 31/7/2024."
+      "source": "Khoản 1, Điều 33 Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
-      "question": "Một trong các điều kiện sử dụng dịch vụ tại Agribank Digital?",
+      "question": "Một trong các điều kiện sử dụng dịch vụ tại Agribank Digital ?",
       "options": [
         "Cá nhân người Việt Nam đủ 18 tuổi trở lên",
         "Khách hàng đang sử dụng dịch vụ SMS Banking và/hoặc Agribank Plus",
         "Có căn cước công dân gắn chip còn hiệu lực",
-        "Tất cả các đáp án trên"
+        "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 33 Quy định số 2239/QĐ-NHNo-TTT ngày 31/7/2024."
+      "source": "Điều 33  Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Qua ứng dụng thanh toán thẻ (SoftPOS): giao dịch thành công hóa đơn được gửi cho chủ thẻ, Đơn vị chấp nhận thanh toán theo hình thức nào?",
@@ -1231,7 +1231,7 @@
         "Giao trực tiếp"
       ],
       "correctAnswerIndex": 0,
-      "source": "Mục b, Khoản 2, Điều 48 Quyết định 2239/QyD-NHNO-TTT ngày 31/7/2024."
+      "source": "Mục b, Khoản 2, Điều 48 Quyết định 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Khách hàng được phép phát hành tối đa bao nhiêu thẻ phi vật lý còn hiệu lực trên một tài khoản trên kênh điện tử hoặc Agribank Digital?",
@@ -1242,7 +1242,7 @@
         "Tối đa 05 (năm) thẻ còn hiệu lực/tài khoản"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3, Điều 28 Quyết định 2239/QĐ-NHNo-TTT ngày 31/7/2024"
+      "source": "Khoản 3, Điều 28 Quyết định 2239/QyĐ-NHNo-TTT ngày 31/7/2024"
     },
     {
       "question": "Chủ thẻ quốc tế nào của Agribank có thể đăng ký nhận thông báo giao dịch qua Email ?",
@@ -1267,7 +1267,7 @@
       "source": "Công văn số 13483/NHNo-TTT ngày 13/11/2023"
     },
     {
-      "question": "Tại Agribank Digital, mỗi khách hàng mở được bao nhiêu tài khoản?",
+      "question": "Tại Agribank Digital, mỗi khách hàng mở được bao nhiêu tài khoản ?",
       "options": [
         "01 (một) tài khoản tại mỗi chi nhánh",
         "02 (hai) tài khoản tại mỗi chi nhánh",
@@ -1275,7 +1275,7 @@
         "05 (năm) tài khoản tại mỗi chi nhánh"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 35 Quyết định 2239/QĐ-NHNo-TTT ngày 31/7/2024"
+      "source": "Khoản 1 Điều 35 Quyết định 2239/QyĐ-NHNo-TTT ngày 31/7/2024"
     },
     {
       "question": "Số dư tối thiểu của tài khoản phát hành thẻ tại thời điểm mở tài khoản tại Agribank Digital là bao nhiêu?",
@@ -1286,7 +1286,7 @@
         "Số dư tối thiểu 200.000 VND"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 35 Quyết định 2239/QĐ-NHNo-TTT ngày 31/7/2024"
+      "source": "Khoản 2 Điều 35 Quyết định 2239/QyĐ-NHNo-TTT ngày 31/7/2024"
     },
     {
       "question": "Khách hàng có thể sử dụng chức năng rút tiền bằng QR tại ATM qua đâu?",
@@ -1300,7 +1300,7 @@
       "source": "Công văn số 13483/NHNo-TTT ngày 13/11/2023"
     },
     {
-      "question": "Đối với khách hàng đã xác thực thông tin, hạn mức giao dịch tài khoản mở tại Agribank Digital?",
+      "question": "Đối với khách hàng đã xác thực thông tin, hạn mức giao dịch tài khoản mở tại Agribank Digital ?",
       "options": [
         "Không quá 50.000.000 VND/tháng",
         "Không quá 100.000.000 VND/tháng",
@@ -1308,7 +1308,7 @@
         "Hạn mức giao dịch theo quy định hiện hành của Agribank"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 35 Quy Định số 2239/QyĐ-NHNO-TTT ngày 31/7/2024"
+      "source": "Khoản 3 Điều 35 Quy Định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024"
     },
     {
       "question": "Chủ thẻ Agribank không trực tiếp đến nhận thẻ mà nhờ người khác đến chi nhánh của Agribank để nhận hộ thẻ. Anh/chị xử lý tình huống này như thế nào?",
@@ -1319,7 +1319,7 @@
         "Có thể trả thẻ nếu người đến nhận mang theo giấy tờ tùy thân của mình và của chủ thẻ."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 23 Quy định số 2239/QyD-NHNo-TTT ngày 31/7/2024."
+      "source": "Điều 23 Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Vào ngày nghỉ nhưng Chủ thẻ cần nộp tiền vào tài khoản thanh toán của mình. Anh/chị tư vấn khách hàng trường hợp này như thế nào?",
@@ -1333,15 +1333,15 @@
       "source": "Khoản 1, Điều 6 Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
-      "question": "Khi thành lập Hội đồng thừa/thiếu quỹ ATM, đối với chi nhánh loại II không có thành phần “Trưởng phòng Kiểm tra, giám sát nội bộ/người được giao nhiệm vụ về công tác kiểm tra, giám sát\". Anh/chị xử lý trường hợp này thế nào để đảm bảo chi nhánh vẫn thành lập Hội đồng đúng theo quy định?",
+      "question": "Khi thành lập Hội đồng thừa/thiếu quỹ ATM, đối với chi nhánh loại II không có thành phần “Trưởng phòng Kiểm tra, giám sát nội bộ/người được giao nhiệm vụ về công tác kiểm tra, giám sát”. Anh/chị xử lý trường hợp này thế nào để đảm bảo chi nhánh vẫn thành lập Hội đồng đúng theo quy định?",
       "options": [
-        "Chi nhánh loại II vẫn thành lập Hội đồng và xin người làm công tác kiểm tra, giám sát từ chi nhánh loại I",
-        "Chi nhánh loại I lập Hội đồng thừa/thiếu quỹ ATM cho chỉ nhánh loại II",
+        "Chi nhánh loại II vẫn thành lập Hội đồng và xin người làm  công tác kiểm tra, giám sát từ chi nhánh loại I",
+        "Chi nhánh loại I lập Hội đồng thừa/thiếu quỹ ATM cho chi nhánh loại II",
         "Không thành lập được Hội đồng thừa/thiếu quỹ ATM",
         "Cả chi nhánh loại I và loại II đều thành lập Hội đồng thừa/thiếu quỹ"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 42 Quy định số 2239/QyD-NHNo-TTT ngày 31/7/2024."
+      "source": "Điều 42  Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Khách hàng của chi nhánh Anh/chị đến chi nhánh khiếu nại lý do đã chuyển khoản trên ứng dụng Agribank Plus nhầm sang tài khoản mở tại Agribank chi nhánh khác. Khách hàng yêu cầu ngân hàng hỗ trợ thu hồi số tiền đã chuyển khoản nhầm cho khách hàng. Anh/Chị xử lý tình huống này thế nào?",
@@ -1352,7 +1352,7 @@
         "Trả lời khách hàng Agribank không chịu trách nhiệm và không thể thu hồi tiền."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 64 Quy định số 2239/QyĐ-NHNO-TTT ngày 31/7/2024."
+      "source": "Khoản 4 Điều 64 Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
       "question": "Trên đường ra sân bay, chủ thẻ của Agribank, có sử dụng ứng dụng Agribank Plus thực hiện chuyển khoản sang ngân hàng ABBank. Tuy nhiên, khách hàng phát hiện ra chuyển nhầm sang tài khoản khác cũng thuộc ABBank. Khách hàng muốn thực hiện yêu cầu hỗ trợ thu hồi tiền gấp, anh/chị tư vấn khách hàng như thế nào?",
@@ -1363,10 +1363,10 @@
         "Hướng dẫn khách hàng thực hiện tra soát, khiếu nại qua kênh điện tử"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 61 Quy định số 2239/QyD-NHNo-TTT ngày 31/7/2024."
+      "source": "Điều 61 Quy định số 2239/QyĐ-NHNo-TTT ngày 31/7/2024."
     },
     {
-      "question": "Khách hàng A có mẹ bị bệnh không thể đến ngân hàng để phát hành thẻ. Tuy nhiên, mẹ khách hàng A lại muốn có 01 thẻ ghi nợ quốc tế để chi tiêu, khách hàng A liên hệ đến chi nhánh anh/chị, anh/chị xử lý tình huống này như thế nào?",
+      "question": "Khách hàng A có mẹ bị bệnh không thể đến ngân hàng để phát hành thẻ. Tuy  nhiên, mẹ khách hàng A lại muốn có 01 thẻ ghi nợ quốc tế để chi tiêu, khách hàng A liên hệ đến chi nhánh anh/chị, anh/chị xử lý tình huống này như thế nào?",
       "options": [
         "Từ chối khách hàng",
         "Yêu cầu khách hàng trực tiếp đến ngân hàng để được phát hành thẻ",
@@ -1380,7 +1380,7 @@
       "question": "ISO20022 là gì?",
       "options": [
         "là Tiêu chuẩn quốc tế gồm nhiều phần do Ủy ban kỹ thuật TC68 về dịch vụ tài chính của ISO biên soạn",
-        "là Tiêu chuẩn Việt Nam gồm nhiều phần do Ủy ban kỹ thuật TC68 về dịch vụ tài chính của ISO biên soạn",
+        "là Tiêu chuẩnViệt Nam gồm nhiều phần do Ủy ban kỹ thuật TC68 về dịch vụ tài chính của ISO biên soạn",
         "là Tiêu chuẩn ASEAN gồm nhiều phần do Ủy ban kỹ thuật TC68 về dịch vụ tài chính của ISO biên soạn",
         "là Tiêu chuẩn EU gồm nhiều phần do Ủy ban kỹ thuật TC68 về dịch vụ tài chính của ISO biên soạn"
       ],
@@ -1392,7 +1392,7 @@
       "options": [
         "là các tin nhắn chuẩn hóa được sử dụng trong hệ thống TARGET 2 của châu Âu để trao đổi thông tin tài chính.",
         "là các tin nhắn chuẩn hóa dựa trên tiêu chuẩn ISO 20022, có cấu trúc XML được sử dụng trong mạng SWIFT để trao đổi thông tin tài chính như thanh toán chuyển tiền, đối chiếu sổ phụ và tra soát liên quan.",
-        "là các tin nhắn chuẩn hóa được sử dụng trong hệ thống thanh toán điện tử Fedwire do Cục Dự trữ Liên bang Hoa Kỳ (Fed) điều hành để trao đổi thông tin tài chính.",
+        "là các tin nhắn chuẩn hóa được sử dụng trong hệ thống thanh toán điện tử Fedwire  do Cục Dự trữ Liên bang Hoa Kỳ (Fed) điều hành để trao đổi thông tin tài chính.",
         ""
       ],
       "correctAnswerIndex": 1,
@@ -1447,7 +1447,7 @@
       "options": [
         "45294",
         "45660",
-        "45656",
+        "30/12/2024",
         "45303"
       ],
       "correctAnswerIndex": 1,
@@ -1509,7 +1509,7 @@
       "source": "Điều 1, Thông tư 64/2024/TT-NHNN ngày 31/12/2024"
     },
     {
-      "question": "Bên thứ ba quy định trong Thông tư 64/2024/TT-NHNN là đối tượng:",
+      "question": "\"Bên thứ ba\" quy định trong Thông tư 64/2024/TT-NHNN là đối tượng:",
       "options": [
         "Cá nhân sử dụng dịch vụ của Ngân hàng",
         "Tổ chức hoặc Ngân hàng khác có thỏa thuận bằng hợp đồng với Ngân hàng trong việc kết nối, xử lý dữ liệu qua Open API để cung ứng dịch vụ cho khách hàng",
@@ -1522,10 +1522,10 @@
     {
       "question": "Nêu những lợi ích cụ thể khi Agribank áp dụng ISO20022 trong thanh toán xuyên biên giới?",
       "options": [
-        "1. Hiệu quả hoạt động cao hơn. 2. Quản lý rủi ro tốt hơn. 3. Dịch vụ khách hàng được cải thiện. 4. Cơ hội đổi mới. 5. Khả năng tương tác cao hơn. 6. Tăng tính linh hoạt.",
-        "1. Dịch vụ khách hàng được cải thiện. 2. Cơ hội đổi mới.",
-        "1. Hiệu quả hoạt động cao hơn. 2. Quản lý rủi ro tốt hơn.",
-        "1. Khả năng tương tác cao hơn. 2. Tăng tính linh hoạt."
+        "1. Hiệu quả hoạt động cao hơn.\r\n2. Quản lý rủi ro tốt hơn.\r\n3. Dịch vụ khách hàng được cải thiện. \r\n4. Cơ hội đổi mới.\r\n5. Khả năng tương tác cao hơn. \r\n6. Tăng tính linh hoạt.",
+        "1. Dịch vụ khách hàng được cải thiện.\r\n2. Cơ hội đổi mới.",
+        "1. Hiệu quả hoạt động cao hơn.\r\n2. Quản lý rủi ro tốt hơn.",
+        "1. Khả năng tương tác cao hơn.\r\n2. Tăng tính linh hoạt."
       ],
       "correctAnswerIndex": 0,
       "source": "https://www.swift.com/standards/iso-20022/supercharge-your-payments-business/chapter-2"
@@ -1534,7 +1534,7 @@
       "question": "Nêu những hiểu biết của bạn về dịch vụ SWIFT GO.",
       "options": [
         "Swift Go được thiết kế để đáp ứng nhu cầu thanh toán trong nước của khách hàng tiêu dùng.",
-        "- Swift Go là giải pháp thanh toán giá trị thấp, được thiết kế đặc biệt để đáp ứng nhu cầu thanh toán xuyên biên giới của khách hàng tiêu dùng và doanh nghiệp vừa và nhỏ. Swift Go có thể được sử dụng để gửi số tiền tương đương lên tới 10.000 đô la. Lợi ích cơ bản của SWIFT GO bao gồm: nhanh chóng và dễ dàng trực tiếp từ tài khoản khách hàng; thanh toán có thể dự đoán được các loại phí; thanh toán trên phạm vi toàn cầu; theo dõi thông tin thanh toán theo thời gian thực; trải nghiệm người dùng đặc biệt, theo đó ngân hàng gửi tiền có thể tùy chỉnh hoàn toàn giao diện của mình để mang đến trải nghiệm thanh toán dễ dàng và trực quan làm hài lòng khách hàng.",
+        "- Swift Go là giải pháp thanh toán giá trị thấp, được thiết kế đặc biệt để đáp ứng nhu cầu thanh toán xuyên biên giới của khách hàng tiêu dùng và doanh nghiệp vừa và nhỏ. Swift Go có thể được sử dụng để gửi số tiền tương đương lên tới 10.000 đô la.\r\n- Lợi ích cơ bản của SWIFT GO bao gồm: nhanh chóng và dễ dàng trực tiếp từ tài khoản khách hàng; thanh toán có thể dự đoán được các loại phí; thanh toán trên  phạm vi toàn cầu; theo dõi thông tin thanh toán theo thời gian thực; trải nghiệm người dùng đặc biệt, theo đó ngân hàng gửi tiền có thể tùy chỉnh hoàn toàn giao diện của mình để mang đến trải nghiệm thanh toán dễ dàng và  trực quan làm hài lòng khách hàng.",
         "Swift Go được thiết kế để đáp ứng nhu cầu thanh toán trong nước của khách hàng doanh nghiệp vừa và nhỏ.",
         "Swift Go là giải pháp thanh toán được thiết kế đặc biệt để đáp ứng nhu cầu thanh toán trong nước của các tập đoàn."
       ],
@@ -1545,9 +1545,9 @@
       "question": "Nêu nội dung chính của dịch vụ Payment Pre - Validation đối với lệnh thanh toán qua SWIFT?",
       "options": [
         "Đây là cơ chế cho phép các ngân hàng kiểm tra ngân hàng người thụ hưởng.",
-        "Đây là cơ chế cho phép ngân hàng dùng lệnh thanh toán.",
-        "Đây là cơ chế cho phép các ngân hàng kiểm tra địa chỉ người thụ hưởng.",
-        "Đây là cơ chế dựa trên API thời gian thực cho phép các ngân hàng gửi lệnh thanh toán qua Swift kiểm tra liền mạch thông tin tài khoản người thụ hưởng với ngân hàng nhận lệnh cuối cùng và thông tin thanh toán. Điều này sẽ cho phép các ngân hàng khắc phục ngay lập tức bất kỳ thông tin không chính xác hoặc bị thiếu nào, giúp giảm thiểu sự chậm trễ và chi phí."
+        "Đây là cơ chế cho phép ngân hàng dừng lệnh thanh toán.",
+        "Đây là cơ chế cho phép các ngân hàng kiểm tra  địa chỉ người thụ hưởng.",
+        "Đây là cơ chế dựa trên API thời gian thực cho phép các ngân hàng gửi lệnh thanh toán qua Swift  kiểm tra liền mạch thông tin tài khoản người thụ hưởng với ngân hàng nhận lệnh cuối cùng và thông tin thanh toán. Điều này sẽ cho phép các ngân hàng khắc phục ngay lập tức bất kỳ thông tin không chính xác hoặc bị thiếu nào, giúp giảm thiểu sự chậm trễ và chi phí."
       ],
       "correctAnswerIndex": 3,
       "source": "https://www.swift.com/products/payment-pre-validation#overview"
@@ -1599,7 +1599,7 @@
     {
       "question": "Trường hợp muốn biết thông tin về một điện báo có được chuyển đến qua SWIFT, chi nhánh xử lý như thế nào?",
       "options": [
-        "Có 2 cách thực hiện: - Cách 1: chi nhánh yêu cầu khách hàng cung cấp số UETR của điện chuyển tiền. Sau đó, chi nhánh kiểm tra trên chương trình SWIFT GPI để biết điện báo có đang được xử lý tại ngân hàng nào trong chuỗi thanh toán, tình trạng xử lý của điện. - Cách 2: chi nhánh liên hệ với Trung tâm Thanh toán (phòng SWIFT) để được hỗ trợ. Chi nhánh cung cấp số tài khoản/ tên người thụ hưởng/số tiền để Trung tâm Thanh toán (phòng SWIFT) có căn cứ tìm kiếm trên hệ thống SWIFT.",
+        "Có 2 cách thực hiện:\r\n- Cách 1: chi nhánh yêu cầu khách hàng cung cấp số UETR của điện chuyển tiền. Sau đó, chi nhánh kiểm tra trên chương trình SWIFT GPI để biết điện báo có đang được xử lý tại ngân hàng nào trong chuỗi thanh toán, tình trạng xử lý của điện.\r\n- Cách 2: chi nhánh liên hệ với Trung tâm Thanh toán (phòng SWIFT) để được hỗ trợ. Chi nhánh cung cấp số tài khoản/ tên người thụ hưởng/số tiền để Trung tâm Thanh toán (phòng SWIFT) có căn cứ tìm kiếm trên hệ thống SWIFT.",
         "Chi nhánh yêu cầu khách hàng cung cấp số UETR của điện chuyển tiền để kiểm tra trên swift.com.",
         "Chi nhánh sử dụng số tài khoản OSB của khách hàng để kiểm tra trên swift.com.",
         "Chi nhánh sử dụng SWIFT CODE của chi nhánh để kiểm tra trên swift.com"
@@ -1611,7 +1611,7 @@
       "question": "Nêu cách xử lý trong trường hợp chi nhánh muốn dừng và đòi lại tiền đối với điện chuyển tiền đã được gửi đi qua hệ thống SWIFT?",
       "options": [
         "Chi nhánh lập lệnh SWIFT tra soát.",
-        "Chi nhánh thực hiện như sau: - Chi nhánh lập lệnh SWIFT tra soát với nội dung yêu cầu dùng và hoàn trả lệnh thanh toán, có gắn số tham chiếu của điện chuyển tiền đi. Sau đó, chi nhánh gửi điện đến Trung tâm Thanh toán để chuyển tiếp tới ngân hàng nhận điện thông qua hệ thống SWIFT. - Đồng thời với việc gửi điện SWIFT tra soát với nội dung như trên, chi nhánh có thể tạo điện hủy trên chương trình SWIFT GPI gửi đến ngân hàng nhận điện thông qua Tracker với mã BIC TRCKCHZZ.",
+        "Chi nhánh thực hiện như sau:\r\n'- Chi nhánh lập lệnh SWIFT tra soát với nội dung yêu cầu dừng và hoàn trả lệnh thanh toán, có gắn số tham chiếu của điện chuyển tiền đi. Sau đó, chi nhánh gửi điện đến Trung tâm Thanh toán để chuyển tiếp tới ngân hàng nhận điện thông qua hệ thống SWIFT.\r\n'- Đồng thời với việc gửi điện SWIFT tra soát với nội dung như trên, chi nhánh có thể tạo điện hủy trên chương trình SWIFT GPI gửi đến ngân hàng nhận điện thông qua Tracker với mã BIC TRCKCHZZ.",
         "Chi nhánh lập lệnh SWIFT đòi tiền.",
         ""
       ],
@@ -1645,14 +1645,14 @@
       "options": [
         "Chuyển trực tiếp đến hệ thống IPCAS",
         "Chuyển thẳng đến Ngân hàng Nhà nước",
-        "Đến thẳng đến các hệ thống thanh toán",
+        "Đến thằng đến các hệ thống thanh toán",
         "Chuyển qua Trục Thanh toán (Payment Hub)"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 32, Điều 1, Quy trình 3717/QTr-NHNO-TTTT ngày 1/11/2024"
+      "source": "Khoản 32, Điều 1, Quy trình 3717/QTr-NHNo-TTTT ngày 1/11/2024"
     },
     {
-      "question": "Chi tiêu cụ thể của Phong trào thi đua \"Bình dân học vụ số\" năm 2026 đối với người lao động trong hệ thống Agribank? (Theo Văn bản 302/HĐTV-TCNS ngày 13/6/2025)",
+      "question": "Chỉ tiêu cụ thể của Phong trào thi đua \"Bình dân học vụ số\" năm 2026 đối với người lao động trong hệ thống Agribank? (Theo Văn bản 302/HĐTV-TCNS ngày 13/6/2025)",
       "options": [
         "100% người lao động trong hệ thống được phổ cập kiến thức về chuyển đổi số, kỹ năng số và sử dụng tốt các nền tảng, dịch vụ số phục vụ cho công việc.",
         "95% người lao động trong hệ thống được phổ cập kiến thức về chuyển đổi số, kỹ năng số và sử dụng tốt các nền tảng, dịch vụ số phục vụ cho công việc.",
@@ -1663,7 +1663,7 @@
       "source": "Điểm 1.2, Khoản 1, Mục III - Văn bản 302/HĐTV-TCNS ngày 13/6/2025 v/v phát động phong trào thi đua \"Cả nước thi đua đổi mới sáng tạo và chuyển đổi số\" và phong trào \"Bình dân học vụ số\"."
     },
     {
-      "question": "Chi tiêu cụ thể của Phong trào thi đua \"Bình dân học vụ số\" năm 2026 đối với các chi nhánh trong hệ thống Agribank? (Theo Văn bản 302/HĐTV-TCNS ngày 13/6/2025)",
+      "question": "Chỉ tiêu cụ thể của Phong trào thi đua \"Bình dân học vụ số\" năm 2026 đối với các chi nhánh trong hệ thống Agribank? (Theo Văn bản 302/HĐTV-TCNS ngày 13/6/2025)",
       "options": [
         "Mỗi chi nhánh có ít nhất 01 sản phẩm phục vụ cho công tác tuyên truyền, truyền thông về Chương trình \"Bình dân học vụ số\" được đưa lên website của Agribank.",
         "Mỗi chi nhánh có ít nhất 01 sản phẩm ứng dụng số để cải tiến, đổi mới quy trình công việc được công nhận, công bố trên website của Agribank.",
@@ -1685,7 +1685,7 @@
       "source": "Mục VI - Văn bản 302/HĐTV-TCNS ngày 13/6/2025 v/v phát động phong trào thi đua \"Cả nước thi đua đổi mới sáng tạo và chuyển đổi số\" và phong trào \"Bình dân học vụ số\"."
     },
     {
-      "question": "Agribank áp dụng Chatbox trợ lý ảo để chăm sóc khách hàng trên các kênh nào?",
+      "question": "Agribank áp dụng Chatbox trợ lý ảo để chăm sóc khách hàng trên các kênh nào?",
       "options": [
         "website Agribank",
         "Website Agribank, Fanpage Agribank",
@@ -1707,7 +1707,7 @@
       "source": "Khoản 1 Mục III Theo Quyết định số 810/QĐ-NHNN ngày 11/5/2021 của Ngân hàng Nhà nước Việt Nam,"
     },
     {
-      "question": "Theo Quyết định số 810/QĐ-NHNN ngày 11/5/2021 của Ngân hàng Nhà nước Việt Nam, mục tiêu đến năm 2025, các nghiệp vụ ngân hàng cho phép khách hàng có thể thực hiện hoàn toàn trên môi trường số tại các tổ chức tín dụng đạt tỷ lệ ít nhất là...?",
+      "question": "Theo Quyết định số 810/QĐ-NHNN ngày 11/5/2021 của Ngân hàng Nhà nước Việt Nam, mục tiêu đến năm 2025, các nghiệp vụ ngân hàng cho  phép khách hàng có thể thực hiện hoàn toàn trên môi trường số tại các tổ chức tín dụng đạt tỷ lệ ít nhất là...?",
       "options": [
         "0.5",
         "0.6",
@@ -1748,7 +1748,7 @@
         "Ban Ngân hàng số"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Phụ lục 02 Quy định 2526/QĐ-NHNo-TTh"
+      "source": "Khoản 1 Phụ lục 02 Quy định 2526/QyĐ-NHNo-TTh"
     },
     {
       "question": "Nguyên tắc triển khai truyền thông trên mạng xã hội?",
@@ -1781,10 +1781,10 @@
         "Người đứng đầu đơn vị"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 17 Mục 2 Chương II Quy chế 878/QC-HDTV-TTh"
+      "source": "Khoản 1 Điều 17 Mục 2 Chương II Quy chế 878/QC-HĐTV-TTh"
     },
     {
-      "question": "Theo Quy định 2526/QĐ-NHNo-TTh đơn vị nào đầu mối phối hợp với các đơn vị liên quan để tiến hành nâng cấp giao diện, các tính năng tiện ích trên Website Agribank?",
+      "question": "Theo Quy định 2526/QyĐ-NHNo-TTh đơn vị nào đầu mối phối hợp với các đơn vị liên quan để tiến hành nâng cấp giao diện, các tính năng tiện ích trên Website Agribank?",
       "options": [
         "Trung tâm Công nghệ thông tin",
         "Ban Truyền thông",
@@ -1795,7 +1795,7 @@
       "source": "Điểm 2.5 Khoản 3 Điều 1 Quy định 2526/QyĐ-NHNo-TTh"
     },
     {
-      "question": "Theo Quy định 8374/VBHN-NHNo-TTh Hiện diện chính thức của Agribank trên mạng xã hội bao gồm?",
+      "question": "Theo Quy định 8374/VBHN-NHNo-TTh, Hiện diện chính thức của Agribank trên mạng xã hội bao gồm?",
       "options": [
         "Facebook, Youtube, Zalo",
         "Facebook, Youtube",
@@ -1809,12 +1809,12 @@
       "question": "Mục tiêu của Việt Nam đến năm 2030 về quy mô kinh tế số là bao nhiêu? (Theo Nghị quyết số 57 ngày 22/12/2024 của Bộ Chính trị)",
       "options": [
         "Đạt tối thiểu 30% GDP.",
-        "Vượt 40% GDP.",
         "Vượt 50% GDP.",
+        "Vượt 40% GDP.",
         "Vượt 60% GDP."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Mục II Nghị quyết 57-NQ/TW ngày 22/12/2024 của Bộ Chính trị về đột phá phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia"
+      "source": "Khoản 1 Mục II Nghị quyết 57-NQ/TW ngày 22/12/2024 của Bộ Chính trị về đột phá phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia."
     },
     {
       "question": "Đối với thông tin điểm báo liên quan đến sự cố công nghệ thông tin, các đơn vị nào có trách nhiệm phối hợp với Ban Truyền thông xử lý?",
@@ -1842,7 +1842,7 @@
       "question": "Đâu là giải pháp truyền thông ứng dụng công nghệ và nền tảng số, AI để triển khai chương trình \"Bình dân học vụ số\" trong hệ thống Agribank?",
       "options": [
         "Nâng cấp đường truyền mạng tại TT CNTT và các đơn vị, mở rộng kết nối hệ thống E-Learning qua Internet",
-        "Xây dựng các phương tiện truyền thông nhằm cung cấp thông tin trên nhiều nền tảng khác nhau (nội bộ, mạng xã hội,...)",
+        "Xây dựng các phương tiện truyền thông nhằm cung cấp thông tin trên nhiều nền tảng khác nhau (nội bộ, mạng xã hội,…)",
         "Nghiên cứu thiết kế các nội dung giới thiệu về kỹ năng số cơ bản tích hợp vào các ứng dụng ngân hàng điện tử của Agribank truyền thông tới khách hàng sử dụng dịch vụ trên nền tảng số của Agribank",
         "đáp án 2 và 3"
       ],
@@ -1865,7 +1865,7 @@
       "options": [
         "Ban Khách hàng cá nhân, Khách hàng doanh nghiệp",
         "Ban Ngân hàng số",
-        "Ban Khách hàng cá nhân, Khách hàng doanh nghiệp, Ngân hàng số và các đơn vị trong hệ thống Agribank",
+        "Ban Khách hàng cá nhân, Khách hàng doanh nghiệp, Ngân hàng số  và các đơn vị trong hệ thống Agribank",
         "Ban Khách hàng cá nhân, Khách hàng doanh nghiệp, Ngân hàng số"
       ],
       "correctAnswerIndex": 2,
@@ -1877,7 +1877,7 @@
         "Agribank Plus, Agribank Retail, Agribank Corporate",
         "Agribank Plus, Internet Banking, Agribank Corporate",
         "Agribank Retail, Agribank Corporate",
-        "Agribank Plus, Agribank Corporate"
+        "Agribank Plus,  Agribank Corporate"
       ],
       "correctAnswerIndex": 0,
       "source": "Website Agribank"
@@ -1902,29 +1902,29 @@
         "Ban Truyền thông"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 3 Điều 1 Văn bản 2526/QĐ-NHNo-TTh ngày 4/7/2025"
+      "source": "Khoản 3 Điều 1 Văn bản 2526/QyĐ-NHNo-TTh ngày 4/7/2025"
     },
     {
-      "question": "Tại Phòng Kế hoạch kinh doanh của một chi nhánh Agribank, một cán bộ trẻ mới về nhận công tác rất đam mê công nghệ và thành thạo các phần mềm ứng dụng số, trong khi quy trình báo cáo tổng hợp dữ liệu hàng tháng của phòng vẫn còn thủ công, mất nhiều thời gian và dễ sai sót. Lãnh đạo phòng muốn thông qua cán bộ trẻ để lan tỏa phong trào \"Bình dân học vụ số\". Theo bạn, lãnh đạo đơn vị sẽ vận dụng cách thức như thế nào để hiện thực hóa số hóa trong hoạt động của đơn vị?",
+      "question": "Tại Phòng Kế hoạch kinh doanh của một chi nhánh Agribank, một cán bộ trẻ mới về nhận công tác rất đam mê công nghệ và thành thạo các phần mềm ứng dụng số, trong khi quy trình báo cáo tổng hợp dữ liệu hàng tháng của phòng vẫn còn thủ công, mất nhiều thời gian và dễ sai sót. Lãnh đạo phòng muốn thông qua cán bộ trẻ để lan tỏa phong trào \"Bình dân học vụ số\". Theo bạn, lãnh đạo đơn vị sẽ vận dụng cách thức như thế nào để hiện thực hóa số hóa trong hoạt động của đơn vị?",
       "options": [
-        "Giao cho cán bộ trẻ xây dựng cách thức tự động hóa các quy trình công việc và chia sẻ với các đồng nghiệp trong phòng",
-        "Giao cho cán bộ trẻ thực hiện các buổi chia sẻ hàng tuần gắn với chủ đề về ứng dụng khoa học công nghệ nhằm hướng dẫn các kỹ năng số phù hợp với khả năng và trình độ của cán bộ trong phòng",
-        "Lan tỏa phong trào tự học số trong cả phòng, trở thành một hoạt động định kỳ: mỗi tuần một chủ đề số, mỗi người một góc học hỏi.",
+        "Giao cho cán bộ trẻ xây dựng cách thức tự động hóa các quy trình công việc và chia sẻ với các đồng nghiệp trong phòng",
+        "Giao cho cán bộ trẻ thực hiện  các buổi chia sẻ hàng tuần gắn với chủ đề về ứng dụng khoa học công nghệ nhằm hướng dẫn các kỹ năng số phù hợp với khả năng và trình độ của cán bộ trong phòng",
+        "Lan tỏa phong trào tự học số trong cả phòng, trở thành một hoạt động định kỳ: mỗi tuần một chủ đề số, mỗi người một góc học hỏi.",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 7 Mục II Công văn số 302/HĐTV-TCNS"
+      "source": "Khoản 7 Mục II Công văn số 302/HĐTV-TCNS"
     },
     {
-      "question": "Chi nhánh A đang triển khai chiến dịch quảng bá sản phẩm mới tuy nhiên, phương thức truyền thông truyền thống (phát tờ rơi, treo băng rôn, quảng cáo trên loa truyền thanh xã...) chưa mang lại hiệu quả cao, khả năng tiếp cận khách hàng còn hạn chế. Trong trường hợp này, là cán bộ của chi nhánh, bạn có thể đề xuất các giải pháp ứng dụng số nào để nâng cao hiệu quả truyền thông?",
+      "question": "Chi nhánh A đang triển khai chiến dịch quảng bá sản phẩm mới tuy nhiên, phương thức truyền thông truyền thống (phát tờ rơi, treo băng rôn, quảng cáo trên loa truyền thanh xã...) chưa mang lại hiệu quả cao, khả năng tiếp cận khách hàng còn hạn chế. Trong trường hợp này, là cán bộ của chi nhánh, bạn có thể đề xuất các giải pháp ứng dụng số nào để nâng cao hiệu quả truyền thông?",
       "options": [
-        "Xây dựng nội dung số hấp dẫn để giới thiệu về sản phẩm mới và quảng bá trên trang fanpage chính thức của chi nhánh đã được TGĐ phê duyệt",
+        "Xây dựng nội dung số hấp dẫn để giới thiệu về sản phẩm mới và quảng bá trên trang fanpage chính thức của chi nhánh đã được TGĐ phê duyệt",
         "Sử dụng tài khoản cá nhân đã được định danh theo quy định của pháp luật để giới thiệu, chia sẻ, lan tỏa chiến dịch của Agribank tới bạn bè, người thân, khách hàng và cộng đồng",
-        "Sử dụng tài khoản cá nhân để tổ chức livestream tư vấn trực tuyến để tăng tương tác.",
+        "Sử dụng tài khoản cá nhân để tổ chức livestream tư vấn trực tuyến để tăng tương tác.",
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 14, tiết e, khoản 2 và Điều 15 khoản 2 Quy định số 8374/VBHN-NHNo-TTh ngày 24/6/2024 về Quy định về quản lý hình ảnh, thương hiệu và hoạt động truyền thông của Agribank trên mạng xã hội"
+      "source": "Điều 14,  tiết e, khoản 2 và Điều 15 khoản 2 Quy định số 8374/VBHN-NHNo-TTh ngày 24/6/2024 về Quy định về quản lý hình ảnh, thương hiệu và hoạt động truyền thông của Agribank trên mạng xã hội"
     },
     {
       "question": "Khách hàng của bạn là ai?",
@@ -1935,7 +1935,7 @@
         "Cả đáp án 1 và 2 đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Phần 1, Mục 1.1. Kỹ năng bán hàng chuyên nghiệp, Slide 5"
+      "source": "Phần 1, Mục 1.1.  Kỹ năng bán hàng chuyên nghiệp, Slide 5"
     },
     {
       "question": "Khách hàng có vai trò gì đối với sự tồn tại và phát triển của một ngân hàng?",
@@ -1946,7 +1946,7 @@
         "Cả đáp án 1 và 2 đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Phần 1, Mục 1.1. Kỹ năng bán hàng chuyên nghiệp, Slide 5"
+      "source": "Phần 1, Mục 1.1.  Kỹ năng bán hàng chuyên nghiệp, Slide 5"
     },
     {
       "question": "Hoạt động chăm sóc khách hàng được hiểu là:",
@@ -1957,13 +1957,13 @@
         "Là việc thực hiện dịch vụ theo đúng hợp đồng."
       ],
       "correctAnswerIndex": 0,
-      "source": "Phần 1, Mục 1.1. Kỹ năng bán hàng chuyên nghiệp, Slide 7"
+      "source": "Phần 1, Mục 1.1.  Kỹ năng bán hàng chuyên nghiệp, Slide 7"
     },
     {
       "question": "Trong thời kỳ công nghệ số, dữ liệu lớn (Big Data) có vai trò gì trong hoạt động chăm sóc khách hàng tại ngân hàng?",
       "options": [
         "Thu thập hành vi và nhu cầu của từng khách hàng với từng loại sản phẩm.",
-        "Đưa ra dự đoán về nhu cầu tiếp theo của khách hàng trong tương lai.",
+        "Đưa ra dự đoán về nhu cầu tiếp theo của khách hàng trong tương lai,",
         "Cá nhân hóa trải nghiệm khách hàng",
         "Tất cả các đáp án trên đều đúng."
       ],
@@ -2001,13 +2001,13 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Phần 2, Mục 2.2. Kỹ năng làm việc trong môi trường áp lực, Slide kỹ năng vượt qua áp lực công việc"
+      "source": "Phần 2, Mục 2.2.  Kỹ năng làm việc trong môi trường áp lực, Slide kỹ năng vượt qua áp lực công việc"
     },
     {
       "question": "Trong môi trường kinh doanh, điều gì là quan trọng nhất khi làm việc nhóm?",
       "options": [
         "Mỗi thành viên phát triển kỹ năng cá nhân riêng biệt",
-        "Các thành viên hợp tác và phát huy các kỹ năng của cá nhân để đạt mục tiêu chung",
+        "Các thành viên hợp tác và phát huy các kỹ năng của  cá nhân để đạt mục tiêu chung",
         "Thành viên chỉ làm việc theo yêu cầu của cấp trên",
         "Mỗi thành viên phải làm việc độc lập để phát huy năng lực cá nhân và không phụ thuộc vào nhóm"
       ],
@@ -2018,8 +2018,8 @@
       "question": "Nguyên nhân chủ yếu dẫn đến việc khách hàng của ngân hàng khiếu nại?",
       "options": [
         "Các đối thủ cạnh tranh đưa ra tin xấu.",
-        "Quy định pháp luật không rõ ràng.",
-        "Sản phẩm và dịch vụ của ngân hàng chưa đảm bảo yêu cầu của khách hàng.",
+        "Quy định pháp luật  không rõ ràng.",
+        "Sản phẩm và dịch vụ  của ngân hàng chưa đảm bảo yêu cầu của khách hàng.",
         "Sản phẩm dịch vụ chưa phù hợp với Thói quen tiêu dùng của khách hàng."
       ],
       "correctAnswerIndex": 2,
@@ -2100,7 +2100,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Customer Experience in the Age of AI\"-Harvard Business Review (tháng 3-4/2022)"
+      "source": "Customer Experience in the Age of AI” – Harvard Business Review (tháng 3–4/2022)"
     },
     {
       "question": "Để thực hiện tiếp thị hiệu quả nhất trong thời kỳ chuyển đổi số, ngân hàng cần ưu tiên điều gì?",
@@ -2111,7 +2111,7 @@
         "Mở rộng mạng lưới điểm giao dịch"
       ],
       "correctAnswerIndex": 1,
-      "source": "Customer Experience in the Age of AI\"- Harvard Business Review (tháng 3-4/2022)"
+      "source": "Customer Experience in the Age of AI” – Harvard Business Review (tháng 3–4/2022)"
     },
     {
       "question": "Khách hàng cao tuổi gặp khó khăn khi sử dụng dịch vụ/ứng dụng ngân hàng số của Agribank. Giao dịch viên nên làm gì để hỗ trợ hiệu quả nhất?",
@@ -2128,7 +2128,7 @@
       "question": "Khách hàng phản ánh gặp lỗi nhiều lần khi giao dịch qua app ngân hàng, điều nào được bạn ưu tiên giải quyết trước khi nhận được phản ánh đó?",
       "options": [
         "Giải thích lỗi kỹ thuật, Ghi nhận sự bất tiện mà khách hàng gặp phải và đề nghị viết đơn khiếu nại",
-        "Ghi nhận sự bất tiện mà khách hàng gặp phải, đồng thời xin lỗi và trấn an khách hàng, mời khách hàng ra quầy giao dịch trực tiếp để thực hiện giao dịch.",
+        "Ghi nhận sự bất tiện mà khách hàng gặp phải, đồng thời xin lỗi và trấn an khách hàng, mời khách hàng ra quầy giao dịch trực tiếp để thực hiện giao dịch",
         "Xin lỗi và trấn an khách hàng, từ chối hỗ trợ vì đang đông khách, hướng dẫn khách gọi tổng đài.",
         "Đề nghị khách hàng viết đơn khiếu nại"
       ],
@@ -2162,14 +2162,14 @@
       "options": [
         "Tiếp tục trình bày nội dung khác để tránh tranh luận với khách hàng.",
         "Ngắt lời khách để bảo vệ quan điểm của mình bằng những kỹ năng và nghiệp vụ sắc bén. Đây cũng chính là cách để bảo vệ thương hiệu cá nhân của bạn.",
-        "Lắng nghe để thấu hiểu ý kiến của khách hàng, thừa nhận có nhiều góc nhìn, và xin phép được làm rõ thêm để khách đồng thuận.",
-        "Dừng phần trình bày lại. Đề nghị khách hàng cùng thảo luận sâu về vấn đề"
+        "Lắng nghe để thấu hiểu ý kiến của khách hàng, thừa nhận có nhiều góc nhìn, và  xin phép được làm rõ thêm để khách đồng thuận.",
+        "Dừng phần trình bày lại. Đề nghị khách hàng cùng thảo luận sâu về vấn đề khách hàng vừa nêu."
       ],
       "correctAnswerIndex": 2,
       "source": "Các nguồn tham khảo khác"
     },
     {
-      "question": "Một khách hàng phản hồi rằng “Agribank luôn quảng bá sản phẩm dịch vụ được cá nhân hóa, nhưng tôi toàn nhận thông tin không liên quan.\" Bạn sẽ phản ứng ra sao?",
+      "question": "Một khách hàng phản hồi rằng “Agribank luôn quảng bá sản phẩm dịch vụ được cá nhân hóa, nhưng tôi toàn nhận thông tin không liên quan.” Bạn sẽ phản ứng ra sao?",
       "options": [
         "Chuyển khách sang nhóm ưu tiên",
         "Gọi điện xác minh lại nhu cầu và cập nhật hồ sơ khách hàng",
@@ -2180,11 +2180,11 @@
       "source": "Thực tế"
     },
     {
-      "question": "Khách hàng được giao dịch viên ngân hàng tư vấn mở tài khoản và đăng ký sử dụng dịch vụ ngân hàng của ngân hàng, tuy nhiên quên không nói về các mức phí. Sau đó khách hàng thấy bị thu phí dịch vụ nên phản ánh với ngân hàng: “Tại sao tôi lại bị trừ phí duy trì tài khoản mà không ai bảo trước?”. Bạn là người tiếp nhận thông tin phản ánh của khách hàng, bạn nên làm gì?",
+      "question": "Khách hàng được giao dịch viên ngân hàng tư vấn mở tài khoản và đăng ký sử dụng dịch vụ ngân hàng của ngân hàng, tuy nhiên quên không nói về các mức phí. Sau đó khách hàng thấy bị thu phí dịch vụ nên phản ánh với ngân hàng: “Tại sao tôi lại bị trừ phí duy trì tài khoản mà không ai báo trước?”. Bạn là người tiếp nhận thông tin phản ánh của khách hàng, bạn nên làm gì?",
       "options": [
-        "Em xin lỗi anh/chị, những loại phí dịch vụ đã quy định trong hợp đồng, anh/chị phải đọc kỹ trước khi mở tài khoản.",
+        "Em xin lỗi anh/chị, những loại  phí dịch vụ đã  quy định trong hợp đồng, anh/chị phải đọc kỹ trước khi mở tài khoản.",
         "Thái độ vui vẻ và giải thích cho khách hàng: \"Anh ơi, bạn giao dịch viên đó là ai ạ? Em chưa bao giờ lại quên thông tin đó, Anh phản ánh gì thì gọi tổng đài hỗ trợ ạ.",
-        "Dạ, em xin lỗi vì sự bất tiện mà anh/chị đã gặp phải này. Em xin phép được giải thích rõ các loại phí để anh/chị nắm rõ ạ. Em xin rút kinh nghiệm ngay để mang đến dịch vụ tốt hơn ạ. Cảm ơn anh/chị đã dành thời gian",
+        "Dạ, em xin lỗi vì sự bất tiện mà anh/chị đã gặp phải này. Em xin phép được giải thích rõ các loại phí để anh/chị nắm rõ  ạ. Em xin rút kinh nghiệm ngay để mang đến dịch vụ tốt hơn ạ. Cảm ơn anh/chị đã dành thời gian",
         "Thái độ cầu thị. \" Lỗi này đúng là do ngân hàng em rồi ạ, em xin lỗi anh/chị, em không hiểu lắm về mức phí này, em sẽ gửi bộ phận hỗ trợ khách hàng để trả lời anh/chị."
       ],
       "correctAnswerIndex": 2,
@@ -2194,8 +2194,8 @@
       "question": "Bạn đang trình bày sản phẩm dịch vụ của Agribank cho một khách hàng. Khách hàng đó bất ngờ phản bác: “Tôi thấy sản phẩm này không có gì khác biệt so với ngân hàng khác!”. Bạn nên ứng xử như nào trong trường hợp này?",
       "options": [
         "Phản biện bằng những ngôn ngữ sắc bén để bảo vệ sản phẩm dịch vụ của Agribank. Đồng thời liệt kê các tính năng nổi bật của sản phẩm để chứng minh sự khác biệt.",
-        "Hỏi lại khách: “Vậy anh/chị đã dùng thử dịch vụ của Agribank chưa ạ?\"",
-        "Giữ bình tĩnh, mỉm cười và nói: “Cảm ơn anh/chị đã chia sẻ thẳng thắn. Em thấy anh/chị rất có lý khi đưa ra nhận xét trên. Tuy nhiên em xin phép làm rõ một vài điểm khác biệt mà nhiều khách hàng của Agribank đánh giá cao ạ\"",
+        "Hỏi lại khách: “Vậy anh/chị đã dùng thử dịch vụ của Agribank chưa ạ?”",
+        "Giữ bình tĩnh, mỉm cười và nói: “Cảm ơn anh/chị đã chia sẻ thẳng thắn. Em thấy anh/chị rất có lý khi đưa ra nhận xét trên. Tuy nhiên em xin phép làm rõ một vài điểm khác biệt mà nhiều khách hàng của Agribank đánh giá cao ạ”",
         "Bỏ qua nhận xét đó và tiếp tục trình bày như kịch bản ban đầu"
       ],
       "correctAnswerIndex": 2,
@@ -2217,7 +2217,7 @@
       "options": [
         "Dụ dỗ đầu tư giả, lợi nhuận cao",
         "Giả mạo danh tính cơ quan, tổ chức",
-        "Thông báo trúng thưởng, khuyến mãi...",
+        "Thông báo trúng thưởng, khuyến mãi…",
         "Tất cả các đáp án đều đúng"
       ],
       "correctAnswerIndex": 3,
@@ -2254,7 +2254,7 @@
         "Người quản trị có thể tự phê duyệt các yêu cầu của mình."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 5, Chương 1 - Qtrinh 1072 Quản trị NSD"
+      "source": "Điều 5, Chương I – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Sử dụng chứng thư số (PKI) sẽ đáp ứng yêu cầu an toàn bảo mật nào sau đây?",
@@ -2276,7 +2276,7 @@
         "Lập phiếu xác nhận user theo mẫu CSUS/07 - Bản xác nhận về việc tiếp nhận mã người dùng và mật khẩu truy cập vào IPCAS"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1.a, 2.a Điều 14 QĐ số 2779/QĐ-NHNO-CNTT"
+      "source": "Khoản 1.a, 2.a Điều 14 QĐ số 2779/QĐ-NHNo-CNTT"
     },
     {
       "question": "Theo QĐ số 2779/QĐ-NHNo-CNTT. Cán bộ được cấp mới mã người dùng, sau khi nhận bàn giao mã người dùng, mật khẩu cần thực hiện",
@@ -2334,15 +2334,15 @@
       "source": "Đào tạo nhận thức ATTT"
     },
     {
-      "question": "Khách hàng tổ chức có thể mở tài khoản Tiền gửi rút gốc linh hoạt trực tuyến trên kênh nào?",
+      "question": "Khách hàng tổ chức có thể mở tài khoản Tiền gửi rút gốc linh hoạt trực tuyến trên kênh nào?",
       "options": [
         "IPCAS",
         "Agribank Plus",
-        "Kênh ngân hàng điện tử (E-Banking)",
-        "Tất cả đáp án"
+        "Kênh ngân hàng điện tử (E-Banking)",
+        "Tất cả đáp án"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 1, Quy định số 1686/QyD-NHNo-KHDN ngày 17/06/2025"
+      "source": "Điều 1, Quy định số 1686/QyĐ-NHNo-KHDN ngày 17/06/2025"
     },
     {
       "question": "Mục đích chính của Quy trình quản trị người sử dụng trên các phần mềm nghiệp vụ của Agribank là gì?",
@@ -2353,7 +2353,7 @@
         "Tổ chức các hoạt động đào tạo cho nhân viên."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 1, Chương 1 - Qtrinh 1072 Quản trị NSD"
+      "source": "Điều 1, Chương I – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Quy trình quản trị người sử dụng được áp dụng cho đối tượng nào?",
@@ -2364,7 +2364,7 @@
         "Áp dụng đối với các đơn vị và cá nhân thuộc Agribank sử dụng các phần mềm nghiệp vụ được tích hợp với hệ thống quản lý định danh Active Directory."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 1, Chương 1 - Qtrinh 1072 Quản trị NSD"
+      "source": "Điều 1, Chương I – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Vai trò chính của \"Giao dịch viên\" trên Phần mềm nghiệp vụ (PMNV) là gì?",
@@ -2375,10 +2375,10 @@
         "Thiết lập các thông số hệ thống."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 5, Chương 1 - Qtrinh 1072 Quản trị NSD"
+      "source": "Điều 5, Chương I – Qtrinh 1072 Quản trị NSD"
     },
     {
-      "question": "Kiểm soát viên có chức năng gì liên quan đến các tác vụ trên Phần mềm nghiệp vụ (PMNV)?",
+      "question": "\"Kiểm soát viên\" có chức năng gì liên quan đến các tác vụ trên Phần mềm nghiệp vụ (PMNV)?",
       "options": [
         "Lập báo cáo thống kê hoạt động.",
         "Phê duyệt đối với các tác vụ cần phê duyệt do giao dịch viên khác thực hiện.",
@@ -2386,7 +2386,7 @@
         "Xử lý các yêu cầu hỗ trợ kỹ thuật."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 5, Chương I - Qtrinh 1072 Quản trị NSD"
+      "source": "Điều 5, Chương I – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Theo nguyên tắc chung của quy trình, người quản trị (bao gồm Người quản trị toàn hệ thống và Người quản trị tại chi nhánh) có quyền thực hiện hoặc phê duyệt các giao dịch khách hàng không?",
@@ -2397,7 +2397,7 @@
         "Không có quyền thực hiện/phê duyệt các giao dịch khách hàng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 5, Chương 1 - Qtrinh 1072 Quản trị NSD"
+      "source": "Điều 5, Chương I – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Để tăng cường bảo mật cho các hệ thống ngân hàng, ngoài việc yêu cầu nhân viên nhập tên đăng nhập và mật khẩu, hiện nay nhiều ngân hàng còn áp dụng thêm các bước xác thực như yêu cầu Soft Token, VPN, nhập mã OTP (mã dùng một lần gửi về điện thoại) hoặc dùng vân tay. Việc sử dụng thêm các phương pháp xác thực này mang lại lợi ích chính nào cho ngân hàng và người dùng?",
@@ -2426,11 +2426,11 @@
       "options": [
         "Chịu trách nhiệm quản lý tài khoản người sử dụng và mật khẩu được giao, sử dụng tuân thủ đúng quy định",
         "Chịu trách nhiệm bảo quản các thiết bị bảo mật được cấp phát theo đúng quy định của Agribank",
-        "Không để lộ mật khẩu truy cập, thông tin được giao quản lý và sử dụng, đồng thời chịu trách nhiệm về các giao dịch, các thông tin do tài khoản người sử dụng được cấp tác nghiệp trên PMNV",
+        "Không để lộ mật khẩu truy cập, thông tin được giao quản lý và sử dụng; đồng thời chịu trách nhiệm về các giao dịch, các thông tin do tài khoản người sử dụng được cấp tác nghiệp trên PMNV",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 19, Chương 3 - Qtrinh 1072 Quản trị NSD"
+      "source": "Điều 19, Chương 3 – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Khái niệm \"Quản trị người sử dụng\" theo \"Quy trình quản trị người sử dụng trên các phần mềm nghiệp vụ của Agribank\" bao gồm những hoạt động nào?",
@@ -2441,10 +2441,10 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Chương 3 - Qtrinh 1072 Quản trị NSD"
+      "source": "Chương 3 – Qtrinh 1072 Quản trị NSD"
     },
     {
-      "question": "Quy trình quản trị người sử dụng trên các phần mềm nghiệp vụ của Agribank quy định những nguyên tắc nào mà người sử dụng nghiêm cấm thực hiện liên quan đến tài khoản và việc tác nghiệp trên PMNV?",
+      "question": "\"Quy trình quản trị người sử dụng trên các phần mềm nghiệp vụ của Agribank\" quy định những nguyên tắc nào mà người sử dụng nghiêm cấm thực hiện liên quan đến tài khoản và việc tác nghiệp trên PMNV?",
       "options": [
         "Nghiêm cấm cho người khác sử dụng tài khoản người sử dụng được giao quản lý và sử dụng",
         "Nghiêm cấm sử dụng tài khoản người sử dụng của người khác để thực hiện tác nghiệp trên PMNV",
@@ -2452,7 +2452,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 19, Chương 3 - Qtrinh 1072 Quản trị NSD"
+      "source": "Điều 19, Chương 3 – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Theo \"Quy trình quản trị người sử dụng trên các phần mềm nghiệp vụ của Agribank\", trạng thái nào dưới đây không phải là một trong các trạng thái chính thức của tài khoản người sử dụng được mô tả?",
@@ -2463,7 +2463,7 @@
         "Đang chờ xử lý"
       ],
       "correctAnswerIndex": 3,
-      "source": "Chương 3 - Qtrinh 1072 Quản trị NSD"
+      "source": "Chương 3 – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "AI trong ngân hàng giúp tăng hiệu quả bằng cách nào?",
@@ -2514,7 +2514,7 @@
       "options": [
         "Mọi thông tin cá nhân",
         "Thông tin ảnh hưởng quyền riêng tư do Chính phủ quy định",
-        "Dữ liệu y tế",
+        "Chỉ dữ liệu y tế",
         "Dữ liệu tài chính"
       ],
       "correctAnswerIndex": 1,
@@ -3075,7 +3075,7 @@
       "options": [
         "Giao tài liệu in",
         "Đào tạo định kỳ qua e-learning và thực hành công nghệ",
-        "Chi đào tạo bên ngoài",
+        "Chỉ đào tạo bên ngoài",
         "Giao tiếp nội bộ qua email"
       ],
       "correctAnswerIndex": 1,
@@ -3093,7 +3093,7 @@
       "source": "Các nguồn tham khảo khác"
     },
     {
-      "question": "Fintech là gì?",
+      "question": "\"Fintech\" là gì?",
       "options": [
         "Công ty phát hành thẻ tín dụng",
         "Doanh nghiệp công nghệ tài chính cung cấp dịch vụ sáng tạo",
@@ -3159,7 +3159,7 @@
       "source": "Các nguồn tham khảo khác"
     },
     {
-      "question": "Thông thường Bộ phận nào của Chi nhánh tiếp nhận và xử lý hồ sơ thực hiện đăng ký khách hàng tổ chức trên hệ thống Agribank eBanking?",
+      "question": "Thông tường Bộ phận nào của Chi nhánh tiếp nhận và xử lý hồ sơ thực hiện đăng ký khách hàng tổ chức trên hệ thống Agribank eBanking?",
       "options": [
         "Phòng Khách hàng cá nhân",
         "Phòng Tổng hợp",
@@ -3195,9 +3195,9 @@
       "question": "Agribank quy định như thế nào về Tên đăng nhập và Mật khẩu đăng nhập dịch vụ Agribank eBanking?",
       "options": [
         "Tên đăng nhập: là số điện thoại di động của khách hàng đăng ký sử dụng dịch vụ; Mật khẩu đăng nhập: Có độ dài tối thiểu 06 ký tự, bao gồm các ký tự chữ, số, có chứa chữ hoa, chữ thường và ký tự đặc biệt.",
-        "Tên đăng nhập có độ dài tối thiểu 06 (sáu) ký tự, không có ký tự đặc biệt, không có dấu cách, không có dấu tiếng Việt. Mật khẩu có độ dài tối thiểu 08 ký tự, bao gồm các ký tự chữ, số, có chứa chữ hoa, chữ thường và ký tự đặc biệt.",
-        "Tên đăng nhập có độ dài tối thiểu 08 ký tự, không được sử dụng toàn bộ ký tự trùng nhau hoặc liên tục theo thứ tự trong bảng chữ cái, chữ số, Mật khẩu đăng nhập: Có độ dài tối thiểu 06 ký tự, bao gồm các ký tự chữ, số, có chứa chữ hoa, chữ thường và ký tự đặc biệt.",
-        "Tên đăng nhập có độ dài tối thiểu 08 ký tự, không được sử dụng toàn bộ ký tự trùng nhau hoặc liên tục theo thứ tự trong bảng chữ cái, chữ số; Người dùng không được thay đổi Tên đăng nhập; Mật khẩu đăng nhập: Có độ dài tối thiểu 08 ký tự, bao gồm các ký tự chữ, số, có chứa chữ hoa, chữ thường và ký tự đặc biệt."
+        "Tên đăng nhập có độ dài tối thiểu 06 (sáu) ký tự; không có ký tự đặc biệt, không có dấu cách, không có dấu tiếng Việt.\r\nMật khẩu có độ dài tối thiểu 08 ký tự, bao gồm các ký tự chữ, số, có chứa chữ hoa, chữ thường và ký tự đặc biệt.",
+        "Tên đăng nhập có độ dài tối thiểu 08 ký tự; không được sử dụng toàn bộ ký tự trùng nhau hoặc liên tục theo thứ tự trong bảng chữ cái, chữ số; Mật khẩu đăng nhập: Có độ dài tối thiểu 06 ký tự, bao gồm các ký tự chữ, số, có chứa chữ hoa, chữ thường và ký tự đặc biệt.",
+        "Tên đăng nhập có độ dài tối thiểu 08 ký tự; không được sử dụng toàn bộ ký tự trùng nhau hoặc liên tục theo thứ tự trong bảng chữ cái, chữ số; Người dùng không được thay đổi Tên đăng nhập; Mật khẩu đăng nhập: Có độ dài tối thiểu 08 ký tự, bao gồm các ký tự chữ, số, có chứa chữ hoa, chữ thường và ký tự đặc biệt."
       ],
       "correctAnswerIndex": 1,
       "source": "Điều 5, Quy trình 4416/QTr-NHNo-NHS"
@@ -3214,7 +3214,7 @@
       "source": "Khoản 1, Điều 17, Quy trình 4416/QTr-NHNo-NHS"
     },
     {
-      "question": "Câu nói sau đúng hay sai: \"Agribank eBanking là hệ thống phần mềm cung cấp dịch vụ ngân hàng điện tử của Agribank thông qua các thiết bị có kết nối internet\"?",
+      "question": "Câu nói sau đúng hay sai: \"Agribank eBanking là hệ thống phần mềm cung cấp dịch vụ ngân hàng điện tử của Agribank thông qua các thiết bị có kết  nối internet\"?",
       "options": [
         "Đúng",
         "Sai",
@@ -3271,7 +3271,7 @@
     {
       "question": "Đâu là định nghĩa của tài khoản mặc định của khách hàng trên hệ thống Agribank eBanking?",
       "options": [
-        "Là tài khoản thanh toán bằng đồng Việt Nam của khách hàng mở tại Agribank, dùng để trả phí duy trì dịch vụ Agribank eBanking và được sử dụng các dịch vụ Agribank eBanking đã đăng ký.",
+        "Là tài khoản thanh toán bằng đồng Việt Nam của khách hàng mở tịa Agribank, dùng để trả phí duy trì dịch vụ Agribank eBanking và được sử dụng các dịch vụ Agribank eBanking đã đăng ký.",
         "Là tài khoản thanh toán, tài khoản tiền gửi của khách hàng mở tại Agribank mà khách hàng đăng ký sử dụng dịch vụ Agribank eBanking.",
         "Là tài khoản bất kỳ của khách hàng Agribank.",
         ""
@@ -3398,7 +3398,7 @@
         "Khi cần hỗ trợ đăng ký tài khoản email"
       ],
       "correctAnswerIndex": 0,
-      "source": "Theo Khoản 1.6 Điều 17 QĐ số 1089/QĐ-NHNo-CNTT"
+      "source": "Theo Khoản 1.b Điều 17 QĐ số 1089/QĐ-NHNo-CNTT"
     },
     {
       "question": "Theo QĐ số 1089/QĐ-NHNo-CNTT. Trước khi triển khai phần mềm do đơn vị tự phát triển, cần thực hiện bước nào sau đây?",
@@ -3431,7 +3431,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 5, Chương 1 - Qtrinh 1072 Quản trị NSD"
+      "source": "Điều 5, Chương I – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Theo Văn bản 1214/NHNo-QLĐT ngày 04/09/2024 của Tổng Giám đốc về Tổ chức tập huấn và triển khai chương trình kiểm kê bằng mã QR tại Agribank, chương trình hỗ trợ các đơn vị thực hiện các công việc nào sau đây trong quá trình kiểm kê?",
@@ -3522,7 +3522,7 @@
       "source": "Các nguồn tham khảo khác"
     },
     {
-      "question": "Điền nốt cụm từ còn thiếu trong mục tiêu tổng quát của Kế hoạch Chuyển đổi số tại Agribank: \"Tận dụng có hiệu quả các cơ hội do cuộc Cách mạng công nghiệp lần thứ tư và quá trình ... đem lại để đẩy nhanh quá trình nghiên cứu ứng dụng công nghệ số trong mọi mặt hoạt động, tăng cường năng lực quản lý và nâng cao chất lượng, hiệu quả hoạt động ngân hàng, xây dựng Agribank thành ngân hàng hiện đại, hàng đầu về chuyển đổi số và bán lẻ tại Việt Nam\"?",
+      "question": "Điền nốt cụm từ còn thiếu trong mục tiêu tổng quát của Kế hoạch Chuyển đổi số tại Agribank: \"Tận dụng có hiệu quả các cơ hội do cuộc Cách mạng công nghiệp lần thứ tư và quá trình …  đem lại để đẩy nhanh quá trình nghiên cứu ứng dụng công nghệ số trong mọi mặt hoạt động, tăng cường năng lực quản lý và nâng cao chất lượng, hiệu quả hoạt động ngân hàng; xây dựng Agribank thành ngân hàng hiện đại, hàng đầu về chuyển đổi số và bán lẻ tại Việt Nam\"?",
       "options": [
         "tài chính toàn diện",
         "phát triển bền vững",
@@ -3566,7 +3566,7 @@
       "source": "Phần V. Mục 1. Kế hoạch Chuyển đổi số tại Agribank - QĐ 620/QĐ-HĐTV-NHS ngày 5/10/2022."
     },
     {
-      "question": "Theo Kế hoạch chuyển đổi số tại Agribank, cần triển khai các mô hình hoạt động, phương pháp phát triển sản phẩm theo hướng nào?",
+      "question": "Theo Kế hoạch chuyển đổi số tại Agribank, cấn triển khai các mô hình hoạt động, phương pháp phát triển sản phẩm theo hướng nào?",
       "options": [
         "Tinh gọn, linh hoạt.",
         "Chắc chắn.",
@@ -3588,7 +3588,7 @@
       "source": "Phần V. Mục 1. Kế hoạch Chuyển đổi số tại Agribank - QĐ 620/QĐ-HĐTV-NHS ngày 5/10/2022."
     },
     {
-      "question": "Điền nốt cụm từ còn thiếu: \"Nâng cấp cơ sở dữ liệu tập trung của Agribank nhằm tăng cường việc thu thập,... dữ liệu từ các điểm tiếp xúc số, từ các nguồn dữ liệu khác\"",
+      "question": "Điền nốt cụm từ còn thiếu: \"Nâng cấp cơ sở dữ liệu tập trung của Agribank nhằm tăng cường việc thu thập,… dữ liệu từ các điểm tiếp xúc số, từ các nguồn dữ liệu khác\"",
       "options": [
         "làm sạch",
         "nâng cấp",
@@ -3599,7 +3599,7 @@
       "source": "Phần V. Mục 2. Kế hoạch Chuyển đổi số tại Agribank - QĐ 620/QĐ-HĐTV-NHS ngày 5/10/2022."
     },
     {
-      "question": "Điền nốt cụm từ còn thiếu: \"Đẩy mạnh phân tích, khai phá tri thức từ dữ liệu phục vụ nhu cầu... sản phẩm, dịch vụ, tối ưu hóa quy trình vận hành, tăng hiệu quả hoạt động.\"",
+      "question": "Điền nốt cụm từ còn thiếu: \"Đẩy mạnh phân tích, khai phá tri thức từ dữ liệu phục vụ nhu cầu… sản phẩm, dịch vụ, tối ưu hóa quy trình vận hành, tăng hiệu quả hoạt động.\"",
       "options": [
         "cá nhân hóa",
         "hợp thức hóa",
@@ -3624,7 +3624,7 @@
       "question": "Việc tăng cường truyền thông nội bộ sẽ giúp gì cho chuyển đổi số tại Agribank?",
       "options": [
         "Tăng cường an ninh, bảo mật.",
-        "Nâng cao nhận thức, đổi mới phát sinh tư duy của cán bộ, người lao động về tầm quan trọng của chuyển đổi số tại Agribank.",
+        "Nâng cao nhận thức, đổi Mới phát sinh tư duy của cán bộ, người lao động về tầm quan trọng của chuyển đổi số tại Agribank.",
         "Cải cách thủ tục hành chính.",
         "Tăng cường cung ứng đa dạng các sản phẩm, dịch vụ số."
       ],
@@ -3648,7 +3648,7 @@
         "Điều chỉnh phí dịch vụ cho khách hàng.",
         "Cung cấp các gói vay ưu đãi cho khách hàng.",
         "Triển khai các chương trình truyền thông, giáo dục tài chính cho khách hàng.",
-        "Đổi mới phát sinh giao diện các quầy giao dịch để tiếp đón khách hàng."
+        "Đổi Mới phát sinh giao diện các quầy giao dịch để tiếp đón khách hàng."
       ],
       "correctAnswerIndex": 2,
       "source": "Phần V. Mục 5. Kế hoạch Chuyển đổi số tại Agribank - QĐ 620/QĐ-HĐTV-NHS ngày 5/10/2022."
@@ -3665,7 +3665,7 @@
       "source": "Khoản 2. điều 1. QĐ 1089/QĐ-NHNo-CNTT ngày 30/5/2019"
     },
     {
-      "question": "Đơn vị trực tiếp sử dụng phần mềm nghiệp vụ được gọi là...?",
+      "question": "Đơn vị trực tiếp sử dụng phần mềm nghiệp vụ được gọi là…?",
       "options": [
         "Bên thứ ba.",
         "Đơn vị viết phần mềm.",
@@ -3723,7 +3723,7 @@
       "question": "Theo anh chị, đâu là nguyên nhân làm lộ lọt dữ liệu cá nhân?",
       "options": [
         "Người dùng thiếu ý thức bảo vệ thông tin cá nhân",
-        "Người dùng sử dụng mạng xã hội",
+        "Người dùng sử dụng mạng xã hội",
         "Có quá nhiều trang mua sắm online",
         ""
       ],
@@ -3821,7 +3821,7 @@
     {
       "question": "Đâu là tiêu chí đánh giá mức độ Trải nghiệm số cho khách hàng Agribank?",
       "options": [
-        "Tần suất Agribank tương tác trên các hiện diện mạng xã hội (Facebook, Zalo, Youtube,...).",
+        "Tần suất Agribank tương tác trên các hiện diện mạng xã hội (Facebook, Zalo, Youtube,…).",
         "Mức độ Agribank dành thêm chi phí để đầu tư vào các hoạt động tiếp thị số (Digital marketing).",
         "Mức độ Agribank sử dụng đối tác số để tiếp thị hệ sinh thái sản phẩm dịch vụ ngân hàng số Agribank làm cơ sở để bán thêm/bán chéo cho khách hàng.",
         "Tất cả phương án trên"
@@ -3933,7 +3933,7 @@
       "options": [
         "Ưu tiên thúc đẩy mạnh mẽ tăng trưởng kinh tế gắn với giữ vững ổn định kinh tế vĩ mô, kiểm soát lạm phát, bảo đảm các cân đối lớn của nền kinh tế và có thặng dư cao",
         "Hoàn thành việc sắp xếp tổ chức bộ máy; tăng cường phân cấp, phân quyền, nâng cao trách nhiệm người đứng đầu; đẩy mạnh hơn nữa công tác phòng, chống tham nhũng, lãng phí, tiêu cực, lợi ích nhóm; siết chặt kỷ luật, kỷ cương hành chính gắn với kiểm tra, giám sát, kiểm soát quyền lực và phân bổ nguồn lực, nâng cao năng lực thực thi",
-        "Hoàn thiện hệ thống kết cấu hạ tầng chiến lược đồng bộ, hiện đại, ưu tiên công trình hạ tầng giao thông trọng điểm, quan trọng quốc gia, hệ thống đường bộ cao tốc, đường sắt tốc độ cao, dự án có tính liên vùng và hạ tầng đô thị lớn, hạ tầng chuyển đổi số, kết nối hệ thống cao tốc với sân bay, cảng biển và triển khai hệ thống đường sắt tốc độ cao, đường sắt đô thị",
+        "Hoàn thiện hệ thống kết cấu hạ tầng chiến lược đồng bộ, hiện đại, ưu tiên công trình hạ tầng giao thông trọng điểm, quan trọng quốc gia, hệ thống đường bộ cao tốc, đường sắt tốc độ cao, các dự án có tính liên vùng và hạ tầng đô thị lớn, hạ tầng chuyển đổi số; kết nối hệ thống cao tốc với sân bay, cảng biển và triển khai hệ thống đường sắt tốc độ cao, đường sắt đô thị",
         "Phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia"
       ],
       "correctAnswerIndex": 3,
@@ -3973,7 +3973,7 @@
       "source": "Các nguồn tham khảo khác"
     },
     {
-      "question": "Việc thường xuyên đưa dữ liệu nội bộ ngân hàng lên trợ lý ảo AI công khai (như ChatGPT, Gemini,...) có thể gây rủi ro gì nghiêm trọng nhất?",
+      "question": "Việc thường xuyên đưa dữ liệu nội bộ ngân hàng lên trợ lý ảo AI công khai (như ChatGPT, Gemini,…) có thể gây rủi ro gì nghiêm trọng nhất?",
       "options": [
         "Tăng chi phí vận hành",
         "Giảm tốc độ xử lý công việc",
@@ -4055,7 +4055,7 @@
         "Tăng lương nhân viên",
         "Tự động xử lý yêu cầu",
         "Giảm giờ làm việc",
-        "Ân thông tin khách hàng"
+        "Ẩn thông tin khách hàng"
       ],
       "correctAnswerIndex": 1,
       "source": "Các nguồn tham khảo khác"
@@ -4118,18 +4118,18 @@
     {
       "question": "Chi nhánh A thuê đối tác bên ngoài phát triển phần mềm hỗ trợ tác nghiệp nội bộ, sau đó tự triển khai sử dụng, không gửi qua Trung tâm Công nghệ thông tin. Hành động này có phù hợp với QĐ số 1089/QĐ-NHNo-CNTT không?",
       "options": [
-        "Có, nếu phần mềm chỉ dùng nội bộ",
+        "Có, nếu phần mềm chỉ dùng nội bộ chi nhánh",
         "Không – mọi phần mềm phải được TTCNTT rà soát, đánh giá tổng thể và phê duyệt trước triển khai",
-        "Có - nếu đã gửi báo cáo định kỳ",
-        "Phụ thuộc vào tính chất dữ liệu"
+        "Có – nếu đã gửi báo cáo định kỳ",
+        "Phụ thuộc vào tính chất dữ liệu phần mềm"
       ],
       "correctAnswerIndex": 1,
-      "source": "Theo Khoản 2 Điều 16 QĐ số 1089/QĐ-NHNO-CNTT"
+      "source": "Theo Khoản 2 Điều 16 QĐ số 1089/QĐ-NHNo-CNTT"
     },
     {
-      "question": "Tài khoản Tiền gửi trực tuyến được mở trên E-Banking có thể tất toán trên Agribank Plus hay không?",
+      "question": "Tài khoản Tiền gửi trực tuyến được mở trên E-Banking có thể tất toán trên Agribank Plus hay không?",
       "options": [
-        "Có",
+        "Có",
         "Không",
         "",
         ""
@@ -4157,7 +4157,7 @@
         "Mượn tài khoản của đồng nghiệp đã có phân quyền phù hợp để tiếp tục công việc trong khi chờ đợi."
       ],
       "correctAnswerIndex": 0,
-      "source": "Chương 2 - Qtrinh 1072 Quản trị NSD"
+      "source": "Chương 2 – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Một cán bộ có kinh nghiệm lâu năm tại Agribank vừa được điều chuyển từ vị trí quản lý tín dụng (có quyền truy cập và phê duyệt nhiều thông tin khách hàng nhạy cảm) sang vị trí mới trong bộ phận phát triển sản phẩm. Hành động nào dưới đây là quan trọng nhất để đảm bảo an toàn hệ thống và tuân thủ quy định khi có sự thay đổi vị trí công tác này?",
@@ -4168,7 +4168,7 @@
         "Chỉ cần cập nhật thông tin về vị trí mới của cán bộ trên hồ sơ nhân sự, không cần vội vàng thay đổi quyền truy cập trên Phần mềm nghiệp vụ (PMNV)"
       ],
       "correctAnswerIndex": 2,
-      "source": "Chương 3 - Qtrinh 1072 Quản trị NSD"
+      "source": "Chương 3 – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Anh Hùng là cán bộ tại một Ban nghiệp vụ ở Agribank, hiện đang có một tài khoản người sử dụng duy nhất trên PMNV để thực hiện các nghiệp vụ của mình. Anh Hùng muốn được cấp thêm một tài khoản thứ hai với quyền hạn chế hơn để sử dụng cho mục đích tra cứu dữ liệu và báo cáo nội bộ mà không lo ảnh hưởng đến tài khoản chính. Theo Quy trình quản trị người sử dụng của Agribank, yêu cầu cấp thêm tài khoản cho anh Hùng có được chấp thuận không?",
@@ -4179,7 +4179,7 @@
         "Có, nếu có sự chấp thuận của Đơn vị chủ trì CNTT."
       ],
       "correctAnswerIndex": 2,
-      "source": "Chương 1 - Qtrinh 1072 Quản trị NSD"
+      "source": "Chương 1 – Qtrinh 1072 Quản trị NSD"
     },
     {
       "question": "Trong quá trình giao dịch với khách hàng, bạn phát hiện một số trường hợp thông tin khách hàng (địa chỉ, CCCD, số điện thoại...) không khớp hoặc bị thiếu sót trên hệ thống ngân hàng. Hành động nào dưới đây là phù hợp nhất để đảm bảo chất lượng dữ liệu?",
@@ -4212,7 +4212,7 @@
         "Hỏi lại cấp trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "Câu hỏi tình huống, Luật bảo vệ dữ liệu cá nhân số 91/2025/QH15"
+      "source": "Luật bảo vệ dữ liệu cá nhân số 91/2025/QH15"
     },
     {
       "question": "Bạn là nhân viên tín dụng tại một ngân hàng. Chatbot AI gợi ý rằng khách hàng A có khả năng không đủ điều kiện vay, dù bạn biết rằng người này từng có lịch sử trả nợ tốt. Bạn sẽ:",
@@ -4263,7 +4263,7 @@
       "options": [
         "Hướng dẫn khách kiểm tra tín hiệu mạng và thử lại",
         "Gợi ý khách hàng đổi điện thoại khác đời mới hơn",
-        "Yêu cầu khách đến chi nhánh Agribank gần nhất để nhân viên ngân hàng trực tiếp kiểm tra",
+        "Yêu cầu khách đến chi nhánh Agribank gần nhất  để nhân viên ngân hàng trực tiếp kiểm tra",
         "Khuyên khách đổi App ngân hàng khác cho dễ sử dụng"
       ],
       "correctAnswerIndex": 0,
