@@ -8,11 +8,91 @@ import { startQuiz, shuffleArray } from './quiz-core.js'; // shuffleArray will a
 // though current approach re-clones the select element.
 let quizSelectionChangeListener = null;
 
+function ensureRelativePath(path) {
+    if (typeof path !== 'string') return '';
+    if (/^https?:\/\//i.test(path)) return path;
+    if (path.startsWith('./') || path.startsWith('../')) return path;
+    if (path.startsWith('/')) return `.${path}`;
+    return `./${path}`;
+}
+
+function buildCandidatePaths(rawPath) {
+    if (typeof rawPath !== 'string') return [];
+    const trimmed = rawPath.trim();
+    if (!trimmed) return [];
+    if (/^https?:\/\//i.test(trimmed)) return [trimmed];
+
+    const candidates = new Set();
+    const normalizedPrimary = ensureRelativePath(trimmed);
+    candidates.add(normalizedPrimary);
+
+    if (trimmed.includes('data-compress')) {
+        candidates.add(ensureRelativePath(trimmed.replace('data-compress', 'data')));
+    }
+    if (trimmed.includes('data-compressed')) {
+        candidates.add(ensureRelativePath(trimmed.replace('data-compressed', 'data')));
+    }
+
+    return Array.from(candidates);
+}
+
+function attemptFetchWithFallback(paths, cacheBuster) {
+    let lastError = null;
+
+    const tryIndex = (index) => {
+        if (index >= paths.length) {
+            if (lastError) throw lastError;
+            throw new Error('Không thể tải dữ liệu quiz.');
+        }
+
+        const targetPath = paths[index];
+
+        return fetch(targetPath + cacheBuster)
+            .then(response => {
+                if (!response.ok) {
+                    const error = new Error(`Lỗi mạng ${response.status} khi tải ${targetPath}`);
+                    error.status = response.status;
+                    throw error;
+                }
+                return response.json().then(jsonData => ({ jsonData, path: targetPath }));
+            })
+            .catch(error => {
+                console.warn(`[Fetch] Attempt ${index + 1} failed for ${targetPath}:`, error);
+                lastError = error;
+                if (index === paths.length - 1) {
+                    throw error;
+                }
+                return tryIndex(index + 1);
+            });
+    };
+
+    return tryIndex(0);
+}
+
 function handleQuizSelectionChange() {
     const selectedOption = dom.quizFileSelect.options[dom.quizFileSelect.selectedIndex];
     if (selectedOption && selectedOption.value) {
-        console.log(`[Event] Quiz selected: DisplayName="${selectedOption.dataset.quizDisplayName}", FilePath="${selectedOption.value}"`);
-        loadQuizFromJson(selectedOption.value, selectedOption.dataset.quizDisplayName);
+        let candidatePaths = [];
+        if (selectedOption.dataset.quizPaths) {
+            try {
+                const parsedPaths = JSON.parse(selectedOption.dataset.quizPaths);
+                if (Array.isArray(parsedPaths)) {
+                    candidatePaths = parsedPaths;
+                }
+            } catch (error) {
+                console.warn("[Event] Failed to parse stored quiz paths for option.", error);
+            }
+        }
+        if (candidatePaths.length === 0) {
+            candidatePaths = buildCandidatePaths(selectedOption.value);
+        }
+        if (candidatePaths.length === 0) {
+            console.error("[Event] No valid file paths available for selected quiz option.");
+            ui.showError("Không tìm thấy đường dẫn hợp lệ cho bộ câu hỏi đã chọn.");
+            return;
+        }
+        console.log(`[Event] Quiz selected: DisplayName="${selectedOption.dataset.quizDisplayName}", FilePaths="${candidatePaths.join(', ')}"`);
+        loadQuizFromJson(candidatePaths, selectedOption.dataset.quizDisplayName);
     } else {
         console.log("[Event] Quiz selection cleared or invalid (no value).");
     }
@@ -116,7 +196,13 @@ export function displayQuizOptions(quizList) {
         quizList.forEach((quiz) => {
             if (quiz && typeof quiz.name === 'string' && typeof quiz.file === 'string') {
                 const option = document.createElement('option');
-                option.value = quiz.file;
+                const candidatePaths = buildCandidatePaths(quiz.file);
+                if (!candidatePaths.length) {
+                    console.warn("[UI] Skipping quiz item due to invalid file path:", quiz);
+                    return;
+                }
+                option.value = candidatePaths[0];
+                option.dataset.quizPaths = JSON.stringify(candidatePaths);
                 option.textContent = quiz.name;
                 option.dataset.quizDisplayName = quiz.name;
                 dom.quizFileSelect.appendChild(option);
@@ -142,8 +228,22 @@ export function displayQuizOptions(quizList) {
     attachQuizSelectListenerInternal(); // Attach listener after options are populated
 }
 
-export function loadQuizFromJson(jsonFilePath, quizDisplayName) {
-    console.log(`[Fetch] Requesting "${quizDisplayName}" from ${jsonFilePath}`);
+export function loadQuizFromJson(jsonFilePathOrList, quizDisplayName) {
+    const candidatePaths = Array.isArray(jsonFilePathOrList)
+        ? jsonFilePathOrList
+        : buildCandidatePaths(jsonFilePathOrList);
+    const validPaths = candidatePaths
+        .map(path => (typeof path === 'string' ? path.trim() : ''))
+        .filter(path => path);
+
+    if (validPaths.length === 0) {
+        console.error(`[Fetch Error] No valid paths to load "${quizDisplayName}". Input:`, jsonFilePathOrList);
+        ui.showError(`Không tìm thấy đường dẫn hợp lệ cho "${quizDisplayName}".`);
+        return;
+    }
+
+    const primaryPath = validPaths[0];
+    console.log(`[Fetch] Requesting "${quizDisplayName}" starting with ${primaryPath}`);
     ui.hideError();
     if (dom.statusMessage) dom.statusMessage.textContent = `Đang tải "${quizDisplayName}"...`;
     if (dom.quizFileSelect) dom.quizFileSelect.disabled = true;
@@ -155,25 +255,26 @@ export function loadQuizFromJson(jsonFilePath, quizDisplayName) {
         dom.quizTitleElement.classList.remove('hidden');
     }
 
-    if (state.loadedQuizzes[jsonFilePath]) {
-        console.log("[Fetch] Using cached quiz data for", jsonFilePath);
-        processQuizData(state.loadedQuizzes[jsonFilePath]);
+    const cachedPath = validPaths.find(path => state.loadedQuizzes[path]);
+    if (cachedPath) {
+        console.log("[Fetch] Using cached quiz data for", cachedPath);
+        processQuizData(state.loadedQuizzes[cachedPath]);
         return;
     }
 
     const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? `?t=${new Date().getTime()}` : '';
-    fetch(jsonFilePath + cacheBuster)
-        .then(response => {
-            if (!response.ok) throw new Error(`Lỗi mạng ${response.status} khi tải ${jsonFilePath}`);
-            return response.json();
-        })
-        .then(jsonData => {
-            console.log("[Fetch] Success for", jsonFilePath, jsonData);
-            state.loadedQuizzes[jsonFilePath] = jsonData; // Cache it
+    attemptFetchWithFallback(validPaths, cacheBuster)
+        .then(({ jsonData, path: successfulPath }) => {
+            console.log("[Fetch] Success for", successfulPath, jsonData);
+            validPaths.forEach(path => {
+                if (!state.loadedQuizzes[path]) {
+                    state.loadedQuizzes[path] = jsonData;
+                }
+            });
             processQuizData(jsonData);
         })
         .catch(error => {
-            console.error("[Fetch Error] for " + jsonFilePath, error);
+            console.error("[Fetch Error] for " + validPaths.join(', '), error);
             ui.showError(`Lỗi tải "${quizDisplayName}": ${error.message}`);
             ui.showSelectScreenView(); // Go back to select screen on error
         });
