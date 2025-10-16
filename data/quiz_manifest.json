@@ -2,57 +2,57 @@
   {
     "name": "1. Tín dụng khách hàng doanh nghiệp",
     "file": "./data-compressed/1-tin-dung-khach-hang-doanh-nghiep.json",
-    "size": 164157
+    "size": 175727
   },
   {
     "name": "2. Thẩm định",
     "file": "./data-compressed/2-tham-dinh.json",
-    "size": 137555
+    "size": 154524
   },
   {
     "name": "3. Tín dụng khách hàng cá nhân",
     "file": "./data-compressed/3-tin-dung-khach-hang-ca-nhan.json",
-    "size": 140695
+    "size": 156297
   },
   {
     "name": "4. Xử lý nợ",
     "file": "./data-compressed/4-xu-ly-no.json",
-    "size": 134231
+    "size": 150140
   },
   {
     "name": "5. Thanh toán quốc tế và Tài trợ thương mại",
     "file": "./data-compressed/5-thanh-toan-quoc-te-va-tai-tro-thuong-mai.json",
-    "size": 113649
+    "size": 122149
   },
   {
     "name": "7. Kế toán giao dịch nội bộ ",
     "file": "./data-compressed/7-ke-toan-giao-dich-noi-bo.json",
-    "size": 117792
+    "size": 134459
   },
   {
     "name": "8. Kế toán giao dịch khách hàng",
     "file": "./data-compressed/8-ke-toan-giao-dich-khach-hang.json",
-    "size": 134561
+    "size": 153759
   },
   {
     "name": "9. Kiểm ngân",
     "file": "./data-compressed/9-kiem-ngan.json",
-    "size": 106102
+    "size": 124308
   },
   {
     "name": "11. Công nghệ thông tin",
     "file": "./data-compressed/11-cong-nghe-thong-tin.json",
-    "size": 113062
+    "size": 125838
   },
   {
     "name": "12. Nhân sự - Tiền lương",
     "file": "./data-compressed/12-nhan-su-tien-luong.json",
-    "size": 138945
+    "size": 156675
   },
   {
     "name": "13. Pháp chế",
     "file": "./data-compressed/13-phap-che.json",
-    "size": 112778
+    "size": 125887
   },
   {
     "name": "14. Xây dựng cơ bản, quản trị hành chính",
@@ -62,21 +62,21 @@
   {
     "name": "15. Văn thư, lễ tân",
     "file": "./data-compressed/15-van-thu-le-tan.json",
-    "size": 110815
+    "size": 124602
   },
   {
     "name": "17a. Kiến thức chung",
     "file": "./data-compressed/17a-kien-thuc-chung.json",
-    "size": 185672
+    "size": 209737
   },
   {
     "name": "17b. Quản lý cấp phòng",
     "file": "./data-compressed/17b-quan-ly-cap-phong.json",
-    "size": 41212
+    "size": 54029
   },
   {
     "name": "17c. Tiêu chuẩn tác phong GDV",
     "file": "./data-compressed/17c-tieu-chuan-tac-phong-gdv.json",
-    "size": 13998
+    "size": 15337
   }
 ]
