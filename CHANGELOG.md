@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.1...v1.3.2) (2025-10-16)
+
+
+### Bug Fixes
+
+* change page title and add copyright text at footer ([bfc29c7](https://github.com/uybinhphan/quiz-nghiep-vu/commit/bfc29c74d2ac997feac56053af8ad6216ec1adfe))
+
 ## [1.3.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.0...v1.3.1) (2025-10-16)
 
 
