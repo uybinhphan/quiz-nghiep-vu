@@ -47,6 +47,7 @@ export function updateQuizState(newState) {
     wrongAnswerIndices = newState.wrongAnswerIndices !== undefined ? newState.wrongAnswerIndices : wrongAnswerIndices;
     currentWrongAnswerReviewIndex = newState.currentWrongAnswerReviewIndex !== undefined ? newState.currentWrongAnswerReviewIndex : currentWrongAnswerReviewIndex;
     autoAdvanceDuration = newState.autoAdvanceDuration !== undefined ? newState.autoAdvanceDuration : autoAdvanceDuration;
+    autoAdvanceTimer = newState.autoAdvanceTimer !== undefined ? newState.autoAdvanceTimer : autoAdvanceTimer;
     if (newState.shuffleChecked !== undefined) shuffleCheckbox.checked = newState.shuffleChecked;
 }
 
@@ -57,7 +58,7 @@ export function resetQuizState() {
     score = 0;
     userAnswers = {};
     questionsAnswered = {};
-    // autoAdvanceTimer is handled by timer controls
+    autoAdvanceTimer = null;
     // autoAdvanceDuration might be preserved or reset based on preference - currently preserved
     isReviewMode = false;
     reviewWrongOnly = false;
@@ -141,6 +142,7 @@ export function loadState() {
         wrongAnswerIndices = savedState.wrongAnswerIndices || [];
         currentWrongAnswerReviewIndex = savedState.currentWrongAnswerReviewIndex || 0;
         autoAdvanceDuration = savedState.autoAdvanceDuration || 500; // Use default if not in saved state
+        autoAdvanceTimer = null;
         shuffleCheckbox.checked = savedState.shuffleChecked || false;
 
 
