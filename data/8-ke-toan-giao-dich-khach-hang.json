@@ -1,325 +1,6 @@
 {
-  "originalDisplayName": "8. Kế toán giao dịch khách hàng",
+  "originalDisplayName": "8. Kế toán giao dịch khách hàng",
   "questions": [
-    {
-      "question": "Có thể chi lại các bó tiền đã thu của Giao dịch viên, Phòng giao dịch cho chính Giao dịch viên, Phòng giao dịch đó trong trường hợp nào?",
-      "options": [
-        "Giao dịch viên, Phòng giao dịch đã kiểm đếm, niêm phong, bàn giao theo bó tiền theo quy định.",
-        "Không được sử dụng các bó tiền đã thu của Giao dịch viên, Phòng Giao dịch để chi lại cho chính Giao dịch viên, Phòng Giao dịch đó",
-        "Giao dịch viên, Phòng giao dịch đã kiểm đếm, niêm phong, bàn giao theo túi tiền theo quy định.",
-        "Giao dịch viên, Phòng giao dịch đã kiểm đếm, niêm phong, bàn giao theo bao tiền theo quy định."
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Điểm c Khoản 2 Điều 8 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Công tác tổng kiểm kê tiền mặt, tài sản được thực hiện vào thời điểm nào trong năm?",
-      "options": [
-        "0 giờ ngày 01/01.",
-        "0 giờ các ngày 01/01 và 01/7.",
-        "0 giờ các ngày 01/01 và 01/12.",
-        "0 giờ các ngày 01/01; 01/4; 01/06; 01/12."
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Khoản 1, Điều 52 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Cuối giờ giao dịch buổi sáng, ai là người chứng kiến Giao dịch viên cho tiền mặt, ấn chỉ quan trọng vào thùng/hòm/túi niêm phong trước khi gửi bảo quản theo quy định?",
-      "options": [
-        "Giám đốc chi nhánh.",
-        "Trưởng phòng Khách hàng Doanh nghiệp.",
-        "Trưởng phòng Tổng hợp.",
-        "Lãnh đạo phòng/tổ Kế toán và Ngân quỹ/Phòng giao dịch"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Cuối ngày làm việc chìa khóa két sắt sử dụng hàng ngày của GDV gửi bảo quản tại đâu?",
-      "options": [
-        "Két sắt riêng của Giao dịch viên uy tín.",
-        "Két sắt trong kho tiền do Thủ kho quản lý.",
-        "Két sắt của Lãnh đạo phòng/bộ phận kế toán/ Lãnh đạo Phòng giao dịch hoặc két sắt của phòng nghiệp vụ có 02 ổ khóa.",
-        "Két sắt của Giám đốc chi nhánh."
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Tiết (iv) điểm b Mục 1 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Để quản lý, nắm bắt thực trạng toàn bộ tiền mặt, tài sản và điều hành kịp thời hoạt động kho quỹ, Giám đốc Chi nhánh phải trực tiếp tham gia kiểm kê tiền mặt, tài sản tối thiểu bao nhiêu lần trong tháng?",
-      "options": [
-        "01 lần trong tháng.",
-        "03 lần trong tháng.",
-        "05 lần trong tháng.",
-        "06 lần trong tháng."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Điểm e Khoản 1 Điều 14 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Ai là người ký lệnh điều chuyển tiền mặt, tài sản trong nội bộ chi nhánh (bao gồm cả thu, chi tiền mặt lưu động tại địa chỉ của khách hàng) ?",
-      "options": [
-        "Giám đốc chi nhánh.",
-        "Trưởng phòng Tổng hợp",
-        "Trưởng phòng Kế toán và Ngân quỹ.",
-        "Trưởng phòng Khách hàng doanh nghiệp"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Điểm c Khoản 3 Điều 41 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Khi thực hiện tổ chức kiểm đếm tiền mặt sau giao nhận giữa các Chi nhánh loại II trong cùng Chi nhánh loại I quản lý, Chi nhánh loại II thực hiện:",
-      "options": [
-        "Đơn vị nhận tiền phải thành lập Hội đồng kiểm đếm.",
-        "Thời hạn kiểm đếm tối đa là 05 ngày làm việc kể từ ngày nhận tiền.",
-        "Đơn vị giao tiền phải cử người chứng kiến, hoặc có văn bản thông báo cho đơn vị nhận tiền tự tổ chức kiểm đếm mà không có người chứng kiến của đơn vị giao.",
-        "Tất cả các đáp án trên."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Tiết (ii) điểm a Khoản 2 Điều 9 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Định kỳ kiểm tra, kiểm kê tiền mặt, tài sản tại đơn vị phải thực hiện khi nào?",
-      "options": [
-        "Kiểm tra toàn diện công tác đảm bảo an toàn kho quỹ và tổng kiểm kê tiền mặt, tài sản mỗi năm 2 lần, thời điểm 0 giờ ngày 01 tháng 01 và ngày 01 tháng 07",
-        "Kiểm kê tiền mặt, tài sản bảo quản trong kho tiền mỗi tháng 01 lần, thời điểm 0 giờ ngày 01 hàng tháng.",
-        "Kiểm tra, kiểm kê đột xuất.",
-        "Cả 1 và 2"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Điều 52 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, đối tượng nào không được vào kho tiền?",
-      "options": [
-        "Phó phòng Kế toán và Ngân quỹ được ủy quyền là thành viên Ban Quản lý kho tiền",
-        "Thủ kho tiền",
-        "Giao dịch viên Quầy loại 1",
-        "Kiểm ngân được Giám đốc cho phép vào ra kho tiền bằng văn bản"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Điều 32 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, Đối tượng nào sau đây được bố trí làm Thủ kho tiền, Thủ quỹ chính, Thủ quỹ?",
-      "options": [
-        "Bố, mẹ của Trưởng đơn vị, Phó trưởng đơn vị",
-        "Con đẻ, con nuôi của Trưởng đơn vị, Phó trưởng đơn vị",
-        "Vợ, chồng, Anh, chị, em của Trưởng đơn vị, Phó trưởng đơn vị",
-        "Cán bộ có phẩm chất đạo đức tốt và không có quan hệ nhân thân với Trưởng đơn vị, Phó trưởng đơn vị."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 1, Điều 20 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, Đối tượng nào sau đây không được bố trí làm Thủ kho/Thủ quỹ?",
-      "options": [
-        "Vợ hoặc chồng, bố, mẹ, con đẻ, con nuôi, anh, chị, em ruột (kể cả anh, chị, em ruột vợ hoặc chồng) của Trưởng phòng Kiểm tra giám sát nội bộ",
-        "Vợ hoặc chồng, bố, mẹ, con đẻ, con nuôi, anh, chị, em ruột (kể cả anh, chị, em ruột vợ hoặc chồng) của Trưởng đơn vị, Phó trưởng đơn vị",
-        "Anh, chị, em họ của Trưởng đơn vị, Phó trưởng đơn vị",
-        "Anh, chị, em họ của Trưởng Phòng Kế Toán và Ngân quỹ"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Khoản 1, Điều 20 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Đối với những nơi có đường giao thông khó khăn, hoặc vùng sông nước … không thể đi xe ô tô thì số tiền vận chuyển một lần không được vượt quá bao nhiêu?",
-      "options": [
-        "200 triệu đồng.",
-        "300 triệu đồng.",
-        "500 triệu đồng.",
-        "1 tỷ đồng."
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Khoản 4, Điều 43 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Đối với Phòng giao dịch không có kho tiền, phải bảo quản tiền mặt và tài sản trong giờ nghỉ buổi trưa ở trong két sắt có mấy ổ khóa?",
-      "options": [
-        "01 ổ khóa.",
-        "02 ổ khóa.",
-        "03 ổ khóa.",
-        "04 ổ khóa."
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Tiết (ii) điểm b Khoản 2 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Đối với số tiền nhận theo túi niêm phong và đã ghi có vào tài khoản khách hàng, đơn vị thực hiện như thế nào?",
-      "options": [
-        "Kiểm đếm ngay sau khi khách hàng rời khỏi quầy",
-        "Tổ chức kiểm đếm sau 5 ngày làm việc",
-        "Bảo quản trong kho, kiểm đếm khi đưa vào sử dụng",
-        "Tổ chức kiểm đếm ngay vào ngày làm việc tiếp theo"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 7 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Giám đốc Phòng giao dịch ủy quyền cho Phó Giám đốc tham gia Ban quản lý kho tiền phải được cấp thẩm quyền nào phê duyệt?",
-      "options": [
-        "Giám đốc Chi nhánh quản lý.",
-        "Tổng Giám đốc Agribank.",
-        "Hội đồng thành viên Agribank.",
-        "Trưởng ban Kiểm soát Agribank."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Điểm a khoản 1 Điều 23 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Giao dịch viên có được chi cho khách hàng bao tiền còn nguyên niêm phong (trừ trường hợp kiểm đếm sau) không?",
-      "options": [
-        "Có",
-        "Không",
-        "Có, nếu được Lãnh đạo đồng ý.",
-        "Có, nếu Giao dịch viên thỏa thuận được với khách hàng."
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Điểm đ, Khoản 3, Điều 4 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Giao dịch viên quỹ không được thực hiện nhiệm vụ gì?",
-      "options": [
-        "Thực hiện nhập/xuất (in/out) tiền mặt, tài sản trên hệ thống IPCAS với Giao dịch viên",
-        "Không được trực tiếp thu/chi tiền mặt với khách hàng",
-        "Thực hiện giao dịch với khách hàng",
-        "Cuối ngày làm việc phải thực hiện đối chiếu với Thủ quỹ chính/Thủ quỹ để đảm bảo khớp đúng giữa tiền mặt, tài sản quý, giấy tờ có giá, ấn chỉ quan trọng tồn quỹ thực tế với tồn quỹ trên cân đối, sổ sách"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "điểm b Khoản 2 Điều 17 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Các hình thức kiểm đếm tiền mặt giao nhận giữa Chi nhánh Agribank với NHNN bao gồm:",
-      "options": [
-        "Kiểm đếm tờ, miếng ngay.",
-        "Không kiểm đếm tờ, miếng mà chấp nhận đủ số tiền.",
-        "Thành lập Hội đồng kiểm đếm",
-        "Tất cả các đáp án trên."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 1, Điều 9 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Hình thức tổ chức kiểm kê khi có sự thay thế Thủ kho tiền:",
-      "options": [
-        "Kiểm kê từng phần/ một phần tiền mặt, tài sản trong kho tiền.",
-        "Kiểm kê toàn bộ tiền mặt và tài sản thuộc phạm vi được giao, quản lý.",
-        "Không phải tổ chức kiểm kê.",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Khoản 1, Điều 54 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Hộp chìa khóa dự phòng cửa kho tiền có 02 ổ khóa do ai giữ?",
-      "options": [
-        "Thủ kho và Trưởng phòng Kế toán & Ngân quỹ.",
-        "Giám đốc và Thủ kho tiền.",
-        "Giám đốc và Trưởng phòng Kế toán & Ngân quỹ.",
-        "Trưởng phòng Kế toán & Ngân quỹ và Giao dịch viên."
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Tiết (iii) điểm a mục 2 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Kẹp chì trong niêm phong túi, bao tiền là gì?",
-      "options": [
-        "là một phương pháp sử dụng kìm chuyên dùng kẹp hai đầu dây đã buộc miệng túi, bao, thùng tiền qua viên chì.",
-        "là một phương pháp niêm phong sử dụng kìm chuyên dùng kẹp hai đầu dây đã buộc miệng túi, bao, thùng tiền qua viên chì. Sau khi kẹp, dấu hiệu tên, ký hiệu riêng của đơn vị có tiền phải nổi rõ, đầy đủ trên bề mặt viên chì.",
-        "là một phương pháp niêm phong sử dụng kẹp sắt kẹp hai đầu dây đã buộc miệng túi, bao, thùng tiền qua viên chì.",
-        "là việc sử dụng kìm chuyên dùng kẹp hai đầu dây đã buộc miệng túi, bao, thùng tiền qua viên chì."
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Điểm h Khoản 2 Điều 2 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Khi có công việc phải nghỉ phép, Thủ kho tiền được ủy quyền nhiệm vụ trong Ban quản lý kho tiền cho đối tượng nào?",
-      "options": [
-        "Phụ kho.",
-        "Thủ kho tiền không được ủy quyền.",
-        "Giao dịch viên quầy loại 1.",
-        "Kiểm ngân."
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Khoản 4 Điều 23 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Khi đóng thếp tiền, băng giấy được quấn ở vị trí nào?",
-      "options": [
-        "1/2 chiều ngang thếp tiền.",
-        "1/3 chiều ngang thếp tiền.",
-        "1/3 chiều dài thếp tiền.",
-        "1/2 chiều dài thếp tiền."
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Điểm a mục 1 và điểm a mục 2 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Khi ra khỏi kho tiền, ai là người ra cuối cùng ?",
-      "options": [
-        "Giám đốc.",
-        "Kiểm ngân",
-        "Trưởng phòng/bộ phận kế toán/Tổ trưởng Tổ kế toán ngân quỹ",
-        "Thủ kho tiền."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 1, Điều 34 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Khi tổ chức thu, chi tiền mặt tại địa chỉ của khách hàng, Giám đốc Chi nhánh có trách nhiệm gì?",
-      "options": [
-        "Ban hành Quyết định thành lập Tổ thu, chi tiền mặt tại địa chỉ khách hàng",
-        "Tổ chức áp tải, bảo vệ tiền trên đường vận chuyển theo quy định.",
-        "Ban hành nội quy làm việc của tổ thu, chi tiền mặt tại địa chỉ khách hàng",
-        "Tất cả các đáp án trên."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 7 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Khi tổ chức tiếp nhận hàng đặc biệt vận chuyển đến nơi nhận, trách nhiệm của đơn vị nhận hàng là gì?",
-      "options": [
-        "Tổ chức tiếp nhận sau 02 ngày làm việc.",
-        "Tổ chức tiếp nhận trong vòng 36 tiếng.",
-        "Tổ chức tiếp nhận hàng nhanh nhất theo đúng quy định (kể cả ngoài giờ làm việc hoặc ngày nghỉ) để đưa hàng vào kho tiền bảo quản an toàn.",
-        "Tổ chức tiếp nhận sau 03 ngày làm việc."
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Điều 47 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Khi vận chuyển hàng đặc biệt bằng máy bay đến chi nhánh đóng tại vùng hải đảo, cần đảm bảo điều kiện gì sau đây?",
-      "options": [
-        "Giám đốc chi nhánh phải ban hành quy định cụ thể giao trách nhiệm cho từng thành viên trong Tổ vận chuyển hàng đặc biệt.",
-        "Hàng đặc biệt bảo quản trong thùng/hòm tôn chuyên dụng/vali loại tốt, có khóa tốt, được khóa chắc chắn và niêm phong theo quy định.",
-        "Tổ vận chuyển được trang bị công cụ, dụng cụ hỗ trợ bảo vệ, phải có phương án bảo vệ được Giám đốc chi nhánh loại I phê duyệt đảm bảo an toàn tuyệt đối tài sản",
-        "Tất cả các đáp án trên."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 43 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Khi vận chuyển hàng đặc biệt theo đường dài hoặc qua đêm cần nghỉ dọc đường, không được để xe chở hàng đặc biệt tại những nơi nào sau đây?",
-      "options": [
-        "Trụ sở chi nhánh Agribank.",
-        "Ngân hàng Nhà nước.",
-        "Đơn vị công an, quân đội.",
-        "Khách sạn."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 45 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
-    },
-    {
-      "question": "Hạn mức giao dịch tiền mặt là:",
-      "options": [
-        "Giá trị tối thiểu của một giao dịch tiền mặt mà Giao dịch viên được phép thực hiện.",
-        "Số dư tiền mặt tối đa Giao dịch viên được phép duy trì tại quầy bất kỳ thời điểm nào trong ngày giao dịch.",
-        "Giá trị tối đa của một giao dịch bằng tiền mặt mà Giao dịch viên được phép thực hiện thu - chi tiền mặt và hạch toán kế toán.",
-        "Số dư tiền mặt tối thiểu Giao dịch viên được phép duy trì tại quầy bất kỳ thời điểm nào trong ngày giao dịch."
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Khoản 22 Điều 2, Quyết định số 919/QĐ-HĐTV-TCKT ngày 06/12/2023"
-    },
     {
       "question": "Loại chứng từ nào do ngân hàng lập sai, Giao dịch viên có thể tự hủy bỏ?",
       "options": [
@@ -329,7 +10,7 @@
         "Chứng từ thuộc loại ấn chỉ quan trọng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 8 Điều 5, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Hạn mức tồn quỹ tiền mặt là:",
@@ -340,7 +21,7 @@
         "Số dư tiền mặt tối thiểu Giao dịch viên được phép duy trì tại quầy bất kỳ thời điểm nào trong ngày giao dịch."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 2, Quy định  919/QyĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây sai?",
@@ -351,7 +32,7 @@
         "Chứng từ ghi sổ được lập trên cơ sở chứng từ gốc hoặc chứng từ gốc kiêm chứng từ ghi sổ"
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết b Khoản 1 Điều 3, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Theo mục đích sử dụng và nội dung nghiệp vụ kinh tế phát sinh, chứng từ được chia thành:",
@@ -362,7 +43,7 @@
         "Chứng từ tiền mặt và chứng từ chuyển khoản."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 3, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Agribank, chứng từ gốc là gì?",
@@ -373,7 +54,7 @@
         "Là chứng từ vừa thể hiện đầy đủ căn cứ pháp lý chứng minh nghiệp vụ kinh tế, tài chính phát sinh vừa phản ánh nghiệp vụ đó đã hạch toán vào sổ sách kế toán."
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết a Khoản 1 Điều 3, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Agribank được quyền từ chối thực hiện giao dịch đối với trường hợp nào sau đây?",
@@ -384,7 +65,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 5, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Trên chứng từ kế toán, chữ viết sử dụng khi khách hàng là người nước ngoài được quy định thế nào?",
@@ -395,7 +76,7 @@
         "Đáp án 1 và 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết a Khoản 4 Điều 5, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Trên chứng từ kế toán, số tiền bằng chữ phải viết thế nào?",
@@ -406,7 +87,7 @@
         "Rõ nghĩa; chữ cái đầu của số tiền bằng chữ phải viết hoa và các chữ còn lại viết chữ thường."
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết d Khoản 4 Điều 5, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Các giao dịch nào sau đây yêu cầu 3 chữ ký của cán bộ ngân hàng trên chứng từ (chữ ký của Giao dịch viên, Kiểm soát viên, Người phê duyệt)?",
@@ -417,7 +98,7 @@
         "Các giao dịch chuyển tiền đi, chuyển tiền đến để chuyển tiếp."
       ],
       "correctAnswerIndex": 1,
-      "source": "Tiết c5 Điểm c Khoản 2 Điều 12, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Giao dịch nào sau đây yêu cầu 02 chữ ký của cán bộ ngân hàng trên chứng từ (chữ ký của Giao dịch viên, Kiểm soát viên)?",
@@ -428,7 +109,7 @@
         "Các giao dịch liên quan đến vốn, quỹ."
       ],
       "correctAnswerIndex": 1,
-      "source": "Tiết b3 Điểm b Khoản 2 Điều 12, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Hạn mức tài khoản thanh toán bù trừ của giao dịch viên (CCA) là gì?",
@@ -439,7 +120,7 @@
         "Giá trị tối thiểu của một giao dịch qua tài khoản CCA mà giao dịch viên được phép thực hiện"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết b Khoản 12, Điều 2 QĐ 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Theo hình thức thể hiện của chứng từ thì chứng từ gồm:",
@@ -450,7 +131,7 @@
         "Chứng từ tiền mặt và chứng từ chuyển khoản."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 3, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Chứng từ kế toán áp dụng trong hệ thống Agribank được phân loại theo tính chất pháp lý, bao gồm:",
@@ -461,7 +142,7 @@
         "Chứng từ gốc, chứng từ ghi sổ, chứng từ gốc kiêm chứng từ ghi sổ."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 3, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Agribank, chứng từ nào sau đây có giá trị thanh toán và ghi sổ ngân hàng?",
@@ -472,7 +153,7 @@
         "Chứng từ được sửa chữa, tẩy xóa."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 4, Điều 5, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Để kiểm soát hoạt động của các Giao dịch viên, Agribank quy định 1 Kiểm soát viên kiểm soát tối đa mấy Giao dịch viên?",
@@ -483,7 +164,7 @@
         "Không giới hạn."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 7 Điều 3, Quyết định 919/QĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Quầy giao dịch loại 1 tại các chi nhánh/phòng giao dịch Agribank có thể bố trí:",
@@ -494,7 +175,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 29 Điều 2, Quyết định số 919/QĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Giám đốc chi nhánh tổ chức hậu kiểm tại Phòng giao dịch theo hình thức nào?",
@@ -505,7 +186,7 @@
         "Tuỳ điều kiện cụ thể, chọn một trong 3 hình thức trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 12, Quyết định số 919/QĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Mẫu chứng từ kế toán do Agribank ban hành gồm:",
@@ -516,7 +197,7 @@
         "Mẫu chứng từ kế toán bắt buộc in sẵn, mẫu chứng từ bắt buộc in từ hệ thống IPCAS và mẫu chứng từ in từ website Agribank."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 2, Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây đúng về mẫu chứng từ kế toán?",
@@ -527,7 +208,7 @@
         "Khách hàng có thể sử dụng mẫu chứng từ chung của tất cả các ngân hàng."
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 5, Mục I, Phần I, Phụ lục 2, Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Giao dịch viên chủ động thực hiện thu nợ trong trường hợp nào?",
@@ -538,7 +219,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "điểm a khoản 2.1 tiểu mục 2 mục I chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Chi nhánh phải duy trì số dư nợ gốc tối thiểu trên hợp đồng tín dụng/giấy nhận nợ (giải ngân từ 2 lần trở lên) đối với khách hàng là pháp nhân và doanh nghiệp tư nhân là bao nhiêu?",
@@ -549,7 +230,7 @@
         "10.000.000 VNĐ"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết i điểm b khoản  2.2 tiểu mục 2 mục I chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Chi nhánh phải duy trì số dư nợ gốc tối thiểu trên hợp đồng tín dụng/giấy nhận nợ (giải ngân từ 2 lần trở lên) đối với khách hàng là cá nhân là bao nhiêu?",
@@ -560,7 +241,7 @@
         "100.000 VNĐ"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết i điểm b khoản  2.2 tiểu mục 2 mục I chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Sau khi nhận được văn bản thông báo của Hội đồng xử lý rủi ro Trụ sở chính, tại chi nhánh hạch toán chậm nhất trong vòng bao nhiêu ngày kể từ ngày nhận được nguồn dự phòng từ Trụ sở chính (riêng trong tháng 12 thực hiện trước ngày 31/12)?",
@@ -571,7 +252,7 @@
         "02 ngày làm việc"
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết ii điểm b khoản 1.4 tiểu mục 1 mục III chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp Agribank nơi cấp tín dụng giữ bản gốc, bản chính giấy tờ chứng minh quyền sở hữu, quyền sử dụng tài sản: Sau khi kiểm tra hồ sơ, chứng từ và hạch toán nhập tài sản bảo đảm:",
@@ -582,7 +263,7 @@
         "Đáp án 1 và 3"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết iii điểm a tiểu mục 1 mục I chương III phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Khi Tăng/giảm giá trị thế chấp tài sản bảo đảm, Giao dịch viên tiếp nhận hồ sơ từ Người quản lý khoản cấp tín dụng gồm:",
@@ -593,7 +274,7 @@
         "Biên bản xác định lại giá trị tài sản bảo đảm"
       ],
       "correctAnswerIndex": 1,
-      "source": "Tiểu mục 1 Mục III chương III phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Trong trường hợp giải tỏa bảo lãnh khi đến hạn, Giao dịch viên tiếp nhận hồ sơ giải tỏa bảo lãnh và cập nhật bổ sung vào Danh mục hồ sơ bảo lãnh gồm:",
@@ -604,7 +285,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a tiểu mục 1 mục III chương II phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp thư bảo lãnh gốc được trả lại sau khi có đề nghị giải tỏa của người quản lý khoản bảo lãnh, giao dịch viên thực hiện:",
@@ -615,7 +296,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm b tiểu mục 3 mục III chương II phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Về quản lý hồ sơ tài sản bảo đảm được giải chấp: Hồ sơ tài sản bảo đảm cấp tín dụng do Giao dịch viên tiếp nhận và quản lý:",
@@ -626,7 +307,7 @@
         "Bàn giao lại cho người quản lý khoản cấp tín dụng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b tiểu mục 4 mục II phần I  Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Đối với khách hàng pháp nhân/ doanh nghiệp tư nhân trong trường hợp cho vay thông thường với những khoản vay giải ngân từ lần thứ hai trở lên thì trong hồ sơ mà người quản lý nợ cho vay bàn giao cho bộ phận kế toán không bao gồm:",
@@ -637,7 +318,7 @@
         "Bản gốc chứng từ hạch toán giải ngân (Giấy lĩnh tiền vay/Ủy nhiệm chi), chứng từ mua bán ngoại tệ (Hợp đồng mua bán ngoại tệ/Yêu cầu chi ngoại tệ, v.v...) .."
       ],
       "correctAnswerIndex": 1,
-      "source": "Tiết ii, điểm a khoản 1.1 tiểu mục 1 mục I chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Giao dịch viên tiếp nhận hồ sơ giải ngân từ Người quản lý nợ cho vay theo quy định với các thông tin: thời hạn vay 12 tháng, nguồn vốn: cho vay thông thường…. sau khi kiểm tra hồ sơ giấy và dữ liệu trên hệ thống  IPCAS giao dịch viên hạch toán :",
@@ -648,7 +329,7 @@
         "Nợ: TK Thích hợp ( tiền mặt, tiền gửi…) \r\nCó: TK 212101 - Cho vay trung hạn thông thường"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1.2 tiểu mục 1 mục I chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Giao dịch viên tiếp nhận hồ sơ giải ngân từ Người quản lý nợ cho vay theo quy định với các thông tin: thời hạn vay 60 tháng, nguồn vốn: cho vay thông thường…. sau khi kiểm tra hồ sơ giấy và dữ liệu trên hệ thống  IPCAS giao dịch viên hạch toán:",
@@ -659,7 +340,7 @@
         "Nợ: TK Thích hợp ( tiền mặt, tiền gửi…) \r\nCó: TK 212101 - Cho vay trung hạn thông thường"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1.2 tiểu mục 1 mục I chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Giao dịch viên tiếp nhận hồ sơ giải ngân từ Người quản lý nợ cho vay theo quy định với các thông tin: thời hạn vay 10 năm, nguồn vốn: cho vay thông thường…. sau khi kiểm tra hồ sơ giấy và dữ liệu trên hệ thống IPCAS giao dịch viên hạch toán:",
@@ -670,7 +351,7 @@
         "Nợ: TK Thích hợp ( tiền mặt, tiền gửi…) \r\nCó: TK 212101 - Cho vay trung hạn thông thường"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1.2 tiểu mục 1 mục I chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Giao dịch viên thu nợ theo Tờ trình thu nợ trong trường hợp nào sau đây?",
@@ -681,7 +362,7 @@
         "Cả đáp án 1 và 3 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "điểm b khoản 2.1 tiểu mục 2 mục I chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp nào không phải duy trì số dư tối thiểu?",
@@ -692,7 +373,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết ii điểm b khoản 2.2 tiểu mục 2 mục I chương I phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Trong trường hợp giải tỏa bảo lãnh trước hạn, Giao dịch viên tiếp nhận hồ sơ giải tỏa bảo lãnh và cập nhật bổ sung vào Danh mục hồ sơ bảo lãnh gồm:",
@@ -703,7 +384,7 @@
         "Đáp án 2 và 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a tiểu mục 1 mục III chương II phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Giá trị ngoại tệ quy đổi ra VNĐ để hạch toán các nghiệp vụ mua bán ngoại tệ được tính theo:",
@@ -714,7 +395,7 @@
         "Tỷ giá mua bán thực tế tại thời điểm phát sinh nghiệp vụ"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 3, tiểu mục I, Mục I Phần II văn bản số 7831/NHNo-TCKT ngày 19/11/2014"
+      "source": "N/A"
     },
     {
       "question": "Đối với giao dịch kỳ hạn mua ngoại tệ, thanh toán VNĐ, tại ngày bắt đầu hiệu lực hợp đồng, xác định giao dịch lỗ (ghi nhận chi phí) khi:",
@@ -725,7 +406,7 @@
         "Tỷ giá mua kỳ hạn nhỏ hơn tỷ giá bán giao ngay"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b, Khoản 1,1 Điều 1, Tiểu mục B.III, Mục II Phần II văn bản số 7831/NHNo-TCKT ngày 19/11/2014"
+      "source": "N/A"
     },
     {
       "question": "Kỳ tính lãi là gì?",
@@ -736,7 +417,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm e khoản 2 Văn bản số 12099/NHNo-TCKT ngày 29/12/2017"
+      "source": "N/A"
     },
     {
       "question": "Số ngày duy trì số dư thực tế là gì?",
@@ -747,7 +428,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a, khoản 4.1 điều 4 Văn bản số 12099/NHNo-TCKT ngày 29/12/2017"
+      "source": "N/A"
     },
     {
       "question": "Phương pháp thu phí dịch vụ theo quy định tại Agribank?",
@@ -758,7 +439,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 8 Quy chế số 369/QC-HĐTV-TCKT ngày 19/6/2023"
+      "source": "N/A"
     },
     {
       "question": "Tỷ lệ chia sẻ phí áp dụng giữa các đơn vị cung ứng dịch vụ là bao nhiêu?",
@@ -769,7 +450,7 @@
         "Đơn vị thực hiện được hưởng 100% phí dịch vụ"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 18 Quy chế số 369/QC-HĐTV-TCKT ngày 19/6/2023"
+      "source": "N/A"
     },
     {
       "question": "Thời hạn miễn, giảm phí dịch vụ đối với khách hàng giao dịch lần đầu tại Agribank là:",
@@ -780,7 +461,7 @@
         "Tối đa không quá 24 tháng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 16 Quy chế số 369/QC-HĐTV-TCKT ngày 19/6/2023"
+      "source": "N/A"
     },
     {
       "question": "Việc sửa đổi, bổ sung hệ thống tài khoản kế toán Agribank do đơn vị nào thực hiện?",
@@ -791,7 +472,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2, Mục I, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Để phản ánh những khoản thanh toán bù trừ giữa các ngân hàng, Agribank sử dụng loại tài khoản nào?",
@@ -802,7 +483,7 @@
         "Tài khoản loại 8: chi phí."
       ],
       "correctAnswerIndex": 2,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Để phản ánh tiền không có giá trị lưu hành, Agribank sử dụng loại tài khoản nào?",
@@ -813,7 +494,7 @@
         "Tài khoản loại 9: các tài khoản ngoài bảng cân đối kế toán."
       ],
       "correctAnswerIndex": 3,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Tài khoản loại 5 (hoạt động thanh toán) dùng để phản ánh:",
@@ -824,7 +505,7 @@
         "Các khoản chi phí của Agribank."
       ],
       "correctAnswerIndex": 1,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Tài khoản loại 4 (các khoản phải trả) dùng để phản ánh:",
@@ -835,7 +516,7 @@
         "Các khoản chi phí của Agribank."
       ],
       "correctAnswerIndex": 1,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Tài khoản loại 2 (hoạt động tín dụng) dùng để phản ánh:",
@@ -846,7 +527,7 @@
         "Các nghiệp vụ thanh toán phát sinh trong hoạt động ngân hàng, những khoản thanh toán bù trừ giữa các ngân hàng và các khoản thanh toán khác."
       ],
       "correctAnswerIndex": 2,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Tài khoản loại 6 (nguồn vốn chủ sở hữu) dùng để phản ánh:",
@@ -857,7 +538,7 @@
         "Các loại nguồn vốn, các quỹ dự trữ, dự phòng rủi ro ... và kết quả kinh doanh của Agribank."
       ],
       "correctAnswerIndex": 3,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Tài khoản loại 7 (thu nhập) dùng để phản ánh:",
@@ -868,7 +549,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Tài khoản loại 8 (chi phí) dùng để phản ánh:",
@@ -879,7 +560,7 @@
         "Các khoản chi phí của Agribank."
       ],
       "correctAnswerIndex": 3,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Tài khoản loại 3 (tài sản cố định và tài sản có khác) phản ánh:",
@@ -890,7 +571,7 @@
         "Các loại nguồn vốn, các quỹ dự trữ, dự phòng rủi ro ... và kết quả kinh doanh của Agribank."
       ],
       "correctAnswerIndex": 2,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Loại tài khoản nào dùng để phản ánh những tài sản hiện có ở Agribank nhưng không thuộc quyền sở hữu của Agribank như: Tài sản nhận giữ hộ, tài sản gán nợ, xiết nợ chờ xử lý?",
@@ -901,7 +582,7 @@
         "Tài khoản loại 7: Thu nhập."
       ],
       "correctAnswerIndex": 2,
-      "source": "Mục III, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Nguồn dự phòng tổn thất các khoản đầu tư, nợ phải thu khó đòi được trích lập và quản lý ở đâu?",
@@ -912,7 +593,7 @@
         "Trích lập và quản lý tại Trụ sở chính"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết a khoản 3 Điều 4 Quyết định 1126/QĐ-HĐTV-TCKT ngày 31/12/2019"
+      "source": "N/A"
     },
     {
       "question": "Thời gian lưu trữ dữ liệu hình ảnh Camera đối với nghiệp vụ kho quỹ tối thiểu bao nhiêu ngày?",
@@ -923,7 +604,7 @@
         "30 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "Mục 2 văn bản số 985/NHNo-TTKQ ngày 24/02/2017"
+      "source": "N/A"
     },
     {
       "question": "Việc ghi hình của hệ thống Camera trước cửa kho tiền, hành lang, gian đệm kho tiền, khu vực xung quanh kho tiền phải đảm bảo liên tục trong bao nhiêu giờ?",
@@ -934,7 +615,7 @@
         "Liên tục 8/8 giờ trong giờ hành chính"
       ],
       "correctAnswerIndex": 0,
-      "source": "Mục 1 văn bản 985/NHNo-TTKQ ngày 24/02/2017"
+      "source": "N/A"
     },
     {
       "question": "Dịch vụ bảo quản tài sản, cho thuê tủ két an toàn bao gồm các tài sản gì?",
@@ -945,7 +626,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 4 Quyết định số 5039/QĐ-NHNo-TTKQ 29/12/2016"
+      "source": "N/A"
     },
     {
       "question": "Theo nguồn gốc phát sinh, chứng từ bao gồm:",
@@ -956,7 +637,7 @@
         "Chứng từ tiền mặt và chứng từ chuyển khoản."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3, Điều 3, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Khoản nợ phải thu khó đòi bao gồm:",
@@ -967,7 +648,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết b khoản 2 Điều 11 Quyết định 1126/QĐ-HĐTV-TCKT ngày 31/12/2019"
+      "source": "N/A"
     },
     {
       "question": "Kiểm soát viên có trách nhiệm nào sau đây?",
@@ -978,7 +659,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b, khoản 3, Điều 7, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Giao dịch viên có trách nhiệm nào sau đây?",
@@ -989,7 +670,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a, khoản 3, Điều 7, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Loại giao dịch nào phải sử dụng mẫu chứng từ kế toán bắt buộc in từ hệ thống IPCAS (mẫu loại I)?",
@@ -1000,7 +681,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Mục III, Phụ lục 1, Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Chứng từ nào sau đây thuộc mẫu chứng từ kế toán bắt buộc in sẵn (mẫu loại P)?",
@@ -1011,7 +692,7 @@
         "Bảng liệt kê giao dịch chi lương."
       ],
       "correctAnswerIndex": 2,
-      "source": "Mục I, Phụ lục 1, Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Khi thực hiện xuất tài sản bảo đảm của bên thứ ba (người vay không phải là chủ sở hữu tài sản), người nhận là ai?",
@@ -1022,7 +703,7 @@
         "Cán bộ quản lý khoản vay"
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết i điểm a Khoản 1 mục II chương III phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Phí chuyển tiền trong hệ thống Agribank (chưa bao gồm VAT) đối với dịch vụ Agribank E-Banking là:",
@@ -1033,7 +714,7 @@
         "0,025%, tối thiểu là 10.000 VNĐ/giao dịch và tối đa là 1.000.000 VNĐ/giao dịch."
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết a Điểm 1.2 Khoản 1 văn bản số 4299/NHNo-TCKT ngày 13/5/2021"
+      "source": "N/A"
     },
     {
       "question": "Nội dung nào sau đây thuộc quy trình xử lý ấn chỉ quan trọng hỏng do lỗi in ấn…?",
@@ -1044,7 +725,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm 2.1 điều 2 mục V phần 2 văn bản số 5556/NHNo-TCKT ngày 28/07/2016"
+      "source": "N/A"
     },
     {
       "question": "Trong quá trình bảo quản ấn chỉ quan trọng, nếu để xảy ra bị mất, thất lạc, chi nhánh phải thực hiện:",
@@ -1055,7 +736,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 5 Điều 3 văn bản số 16666/HD-NHNo-TCKT ngày 30/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Khi chấm dứt Hợp đồng trước hạn đối với dịch vụ bảo quản tài sản, Agribank phải thông báo cho khách hàng trước bao nhiêu ngày?",
@@ -1066,7 +747,7 @@
         "05 ngày làm việc"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 6 Quyết định số 5039/QĐ-NHNo-TTKQ ngày 29/12/2016"
+      "source": "N/A"
     },
     {
       "question": "Việc Ban hành văn bản giao nhiệm vụ cho các thành viên giữ chìa khóa két sắt 03 ổ khóa tại PGD không có kho tiền do ai ban hành?",
@@ -1077,7 +758,7 @@
         "Giám đốc chi nhánh trực tiếp quản lý"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết b, khoản 2 Điều 1 Quy định số 2868/QyĐ - NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Các chi nhánh được làm dịch vụ bảo quản tài sản, cho thuê tủ/két an toàn và các dịch vụ ngân quỹ khác cho khách hàng, thực hiện theo quy định tại văn bản nào của Agribank?",
@@ -1088,7 +769,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Quyết định số 5039/QĐ-NHNo-TTKQ ngày 29/12/2016"
+      "source": "N/A"
     },
     {
       "question": "Trong các giao dịch sau đây, giao dịch nào yêu cầu 3 chữ ký?",
@@ -1099,7 +780,7 @@
         "Giao dịch trích tài khoản thanh toán của khách hàng theo thỏa thuận để thu phí"
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết c2 điểm c Khoản 2 Điều 12 QĐ 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Trong các giao dịch sau đây, giao dịch nào yêu cầu 2 chữ ký?",
@@ -1110,7 +791,7 @@
         "Giao dịch hạch toán ngoại bảng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết b4 điểm b Khoản 2 Điều 12 QĐ 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Trong các câu sau, câu nào là quy định đúng về  chữ ký trên Ủy nhiệm chi?",
@@ -1121,7 +802,7 @@
         "Ký tay từng tờ bằng bút mực màu xanh/đen, không phai màu"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 10 QĐ 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp chứng từ kế toán bị mất hoặc bị hủy hoại, chi nhánh phải thực hiện:",
@@ -1132,7 +813,7 @@
         "Lập biên bản nêu rõ hiện trạng, số lượng, nguyên nhân chứng từ bị mất, bị hủy hoại kèm theo bản thông báo cho các đơn vị trong hệ thống Agribank"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 23 QĐ 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại Quyết định số 599/QĐ-NHNo-TCKT ngày 19/4/2017, Mẫu chứng từ kế toán bắt buộc in sẵn là:",
@@ -1143,7 +824,7 @@
         "Đáp án 2 và 3"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết a khoản 1 Điều 2, Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Để đối chiếu và làm căn cứ chứng minh các giao dịch được phép hạch toán chậm (offline) đã được ghi sổ, Bảng liệt kê các giao dịch phát sinh trong ngày phải có các thông tin cơ bản nào?",
@@ -1154,7 +835,7 @@
         "Số bút toán, thông tin về khách hàng, tài khoản ghi nợ, tài khoản ghi có, số tiền giao dịch, số tham chiếu"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 1 Quyết định 1052/QyĐ-NHNo-TCKT ngày 05/5/2023"
+      "source": "N/A"
     },
     {
       "question": "Số chứng từ là dãy gồm bao nhiêu ký tự?",
@@ -1165,7 +846,7 @@
         "17"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 1 Quyết định 1052/QyĐ-NHNo-TCKT ngày 05/5/2023"
+      "source": "N/A"
     },
     {
       "question": "Ký hiệu chứng từ là một chuỗi gồm bao nhiêu ký tự?",
@@ -1176,7 +857,7 @@
         "10"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Điều 1 Quyết định 1052/QyĐ-NHNo-TCKT ngày 05/5/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại Quyết định số 1052/QĐ-NHNo-TCKT ngày 05/5/2023 của Tổng Giám đốc, số giao dịch là?",
@@ -1187,7 +868,7 @@
         "Số giao dịch được lấy theo số thứ tự chứng từ của từng giao dịch viên trong ngày giao dịch; số giao dịch bao gồm tối đa 10 ký tự"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 3 Điều 1 Quyết định 1052/QyĐ-NHNo-TCKT ngày 05/5/2023"
+      "source": "N/A"
     },
     {
       "question": "Chứng từ sử dụng trong thu phí dịch vụ là?",
@@ -1198,7 +879,7 @@
         "Biên lai giao dịch được in từ hệ thống IPCAS"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 7 Quy chế số 369/QC-HĐTV-TCKT ngày 19/6/2023"
+      "source": "N/A"
     },
     {
       "question": "Mã phí dịch vụ trong hệ thống Agribank là?",
@@ -1209,7 +890,7 @@
         "Mức phí tối đa, tối thiểu hoặc cố định theo các loại phí dịch vụ tương ứng với từng sản phẩm dịch vụ hoặc gói sản phẩm dịch vụ Agribank"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 7 Điều 3 Quy trình số 2679/QTr-NHNo-TCKT ngày 01/11/2023"
+      "source": "N/A"
     },
     {
       "question": "Khi ban hành mới hoặc điều chỉnh, bổ sung Biểu phí dịch vụ, đơn vị cung ứng dịch vụ phải gửi Biểu phí dịch vụ về Ngân hàng Nhà nước trên cùng địa bàn để báo cáo trong thời gian bao lâu?",
@@ -1220,7 +901,7 @@
         "30 ngày kể từ ngày ban hành mới hoặc điều chỉnh, bổ sung"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 13 Quy chế số 369/QĐ-HĐTV-TCKT ngày 19/6/2023"
+      "source": "N/A"
     },
     {
       "question": "Trong quá trình giao dịch, nếu số lần phát sinh giao dịch tiết kiệm của khách hàng vượt quá số trang in sẵn của sổ tiết kiệm, giao dịch viên thực hiện:",
@@ -1231,7 +912,7 @@
         "Chờ đến khi khách hàng tất toán, giao dịch viên viết tay trên trang cuối sổ tiết kiệm thông tin số dư tài khoản và lãi suất tại thời điểm tất toán"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Mục II Văn bản số 5556/NHNo-TCKT ngày 28/7/2016, Phụ lục 2 đính kèm Quyết định số 1019/QĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Người gửi tiền tiết kiệm có thể gửi tiền vào sổ tiết kiệm đã cấp bằng hình thức giao dịch nào?",
@@ -1242,7 +923,7 @@
         "Giao dịch thông qua kênh giao dịch tại Agribank nơi mở tài khoản."
       ],
       "correctAnswerIndex": 0,
-      "source": "tiết a điểm 2.2 khoản 2 Mục I phần II Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp rút tiền gửi tiết kiệm thông qua người ủy quyền, người được giám hộ, người đại diện theo pháp luật. Trên chứng từ rút tiền gửi tiết kiệm in/ghi thông tin của ai?",
@@ -1253,7 +934,7 @@
         "Trên chứng từ rút tiền gửi tiết kiệm in/ghi thông tin của người ủy quyền, người được giám hộ, người đại diện theo pháp luật."
       ],
       "correctAnswerIndex": 0,
-      "source": "tiết b điểm 1.1 khoản 1 Mục II phần II Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Sau khi hoàn thành thủ tục chuyển nhượng sổ tiết kiệm theo quy định, người nhận chuyển nhượng sổ tiết kiệm được hưởng:",
@@ -1264,7 +945,7 @@
         "Tiền gốc và lãi (nếu có) kể từ khi mở tài khoản đến khi chuyển nhượng theo quy định hiện hành đối với từng loại sản phẩm tiền gửi tiết kiệm của Agribank"
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 1 Mục III phần II Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Thông tin trên sổ tiết kiệm sau khi chuyển nhượng theo quy định tại Agribank:",
@@ -1275,7 +956,7 @@
         "Thông tin trên sổ tiết kiệm phải được cập nhật theo số tài khoản, số tiền gốc lãi, lãi suất và thời hạn gửi từ khi chuyển nhượng được cập nhật sang sổ tiết kiệm mới."
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 3 Mục III phần II Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Trong xử lý sai lệch thông tin tiền gửi tiết kiệm, Đơn vị xử lý giao dịch tiết kiệm phải phối hợp triển khai, đối chiếu xác minh thông tin với đơn vị phát hành sổ tiết kiệm bằng các phương thức nào?",
@@ -1286,7 +967,7 @@
         "Điện thoại ghi âm (nếu có), fax, eoffice, mail, mạng nội bộ... đảm bảo an toàn, thuận tiện cho khách hàng thực hiện giao dịch, tuân thủ đúng quy định về nghiệp vụ tiền gửi trong hệ thống Agribank"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết a Điểm 1.4 khoản 1 Mục IV phần II Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại văn bản số 1019/QĐ-NHNo-TCKT ngày 28/4/2023, danh mục mẫu sổ tiết kiệm Agribank đang sử dụng bao gồm:",
@@ -1297,7 +978,7 @@
         "Sổ tiết kiệm không kỳ hạn; sổ tiết kiệm có kỳ hạn; sổ tiết kiệm rút gốc từng phần"
       ],
       "correctAnswerIndex": 1,
-      "source": "Phụ lục 01 Danh mục mẫu sổ tiết kiệm trong hệ thống Agribank đính kèm Văn bản số 1019/QĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Mẫu sổ tiết kiệm 01/STK áp dụng đối với các sản phẩm tiết kiệm nào?",
@@ -1308,7 +989,7 @@
         "Tiết kiệm không kỳ hạn, tiết kiệm có kỳ hạn (bao gồm hình thức trả lãi cuối kỳ, trả lãi trước toàn bộ, tiết kiệm có kỳ hạn có tính chất trả lãi định kỳ), tiết kiệm có kỳ hạn có tính chất gửi góp trong hệ thống Agribank"
       ],
       "correctAnswerIndex": 0,
-      "source": "Phụ lục 01 Danh mục mẫu sổ tiết kiệm trong hệ thống Agribank đính kèm Văn bản số 1019/QĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Mẫu sổ tiết kiệm 02/STK áp dụng đối với các sản phẩm tiết kiệm nào?",
@@ -1319,7 +1000,7 @@
         "Tiết kiệm không kỳ hạn, tiết kiệm có kỳ hạn (bao gồm hình thức trả lãi cuối kỳ, trả lãi trước toàn bộ, tiết kiệm có kỳ hạn có tính chất trả lãi định kỳ), tiết kiệm có kỳ hạn có tính chất gửi góp trong hệ thống Agribank"
       ],
       "correctAnswerIndex": 1,
-      "source": "Phụ lục 01 Danh mục mẫu sổ tiết kiệm trong hệ thống Agribank đính kèm Văn bản số 1019/QĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Agribank, hạch toán dự thu là:",
@@ -1330,7 +1011,7 @@
         "Tính và hạch toán số tiền thực thu  vào tài khoản thu nhập theo hợp đồng hoặc thỏa thuận với khách hàng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 mục II phần  II văn bản số 4774/NHNo-TCKT ngày  17/11/2008"
+      "source": "N/A"
     },
     {
       "question": "Tại thời điểm 30/9/2023 Khách hàng Nguyễn Văn A có khoản nợ ở nhóm 3, Số lãi phải thu được hạch toán:",
@@ -1341,7 +1022,7 @@
         "Không hạch toán thu nhập, thực hiện theo dõi ngoại bảng để đôn đốc thu nợ."
       ],
       "correctAnswerIndex": 3,
-      "source": "điểm a Khoản 2 Điều 17 Quyết định 341/QĐ-NHNN ngày 06/3/2024"
+      "source": "N/A"
     },
     {
       "question": "Agribank hạch toán khoản lãi phải thu từ hoạt động cấp tín dụng đối với:",
@@ -1352,7 +1033,7 @@
         "Khoản nợ được giữ nguyên nhóm nợ đủ tiêu chuẩn do thực hiện chính sách của Nhà nước"
       ],
       "correctAnswerIndex": 0,
-      "source": "điểm a Khoản 2 Điều 17 Quyết định 341/QĐ-NHNN ngày 06/3/2024"
+      "source": "N/A"
     },
     {
       "question": "Số tiền lãi vay của  01 ngày được xác định bằng:",
@@ -1363,7 +1044,7 @@
         "Số dư thực tế * lãi suất tính lãi"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết b Điểm 4.1 khoản 4 văn bản số 12099/NHNo-TCKT ngày  29/12/2017"
+      "source": "N/A"
     },
     {
       "question": "Tại thời điểm 30/9/2023 Khách hàng Nguyễn Văn A có khoản nợ được phân loại là nợ đủ tiêu chuẩn, không phải trích dự phòng rủi ro theo quy định, Số lãi phải thu được hạch toán:",
@@ -1374,7 +1055,7 @@
         "Không hạch toán thu nhập, thực hiện theo dõi ngoại bảng để đôn đốc thu nợ."
       ],
       "correctAnswerIndex": 0,
-      "source": "điểm a Khoản 2 Điều 17 Quyết định 341/QĐ-NHNN ngày 06/3/2024"
+      "source": "N/A"
     },
     {
       "question": "Nguồn dự phòng rủi ro được theo dõi ở loại tài khoản nào?",
@@ -1385,7 +1066,7 @@
         "Loại 8"
       ],
       "correctAnswerIndex": 0,
-      "source": "Quy định số 479/QĐ-NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Agribank nơi cho vay chủ động giải chấp tài sản cầm cố là giấy tờ có giá/thẻ tiết kiệm của khách hàng do Agribank phát hành để thu nợ tất toán khoản vay. Người ký nhận trên phiếu xuất kho là ai?",
@@ -1396,7 +1077,7 @@
         "Không phải ký nhận"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết ii điểm a tiểu mục 1 mục II chương III phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022"
+      "source": "N/A"
     },
     {
       "question": "Hạn mức giao dịch nghiệp vụ của Giao dịch viên là:",
@@ -1407,7 +1088,7 @@
         "Giá trị tối thiểu của một giao dịch mà Giao dịch viên được phép thực hiện giao dịch không cần có sự phê duyệt của Kiểm soát viên ngay tại thời điểm thực hiện giao dịch"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 21 Điều 2 Quyết định số 919/QĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Định mức tồn quỹ cuối ngày là:",
@@ -1418,7 +1099,7 @@
         "Số dư tiền mặt tối đa được phép để tồn quỹ tại thời điểm cuối cùng của ngày giao dịch tại đơn vị"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 26 Điều 2 Quyết định số 919/QĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Dữ liệu đầu vào đối với giao dịch trên kênh điện tử phải được thực hiện hậu kiểm, đối chiếu khi nào?",
@@ -1429,7 +1110,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 11 Quyết định số 919/QĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Quyết định số 32/2021/QĐ-TTG ngày 20/10/2021, Hạn mức tối đa tổ chức bảo hiểm tiền gửi trả cho tất cả các khoản tiền gửi được bảo hiểm của một người tại Agribank khi phát sinh nghĩa vụ trả tiền bảo hiểm:",
@@ -1440,7 +1121,7 @@
         "175.000.000 đồng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 3 Quyết định số 32/2021/QĐ-TTG ngày 20/10/2021 của Thủ tướng chính phủ"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật số 06/2012/QH13 ngày 18/6/2012 của Quốc hội, Quyền của người được bảo hiểm tiền gửi:",
@@ -1451,7 +1132,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 3 luật số 06/20212/QH13 ngày 18/6/2012 của Quốc Hội"
+      "source": "N/A"
     },
     {
       "question": "Điều chỉnh bằng phương thức hủy giao dịch và hạch toán lại khác ngày,  Giao dịch viên lập bao nhiêu liên \"Đề nghị điều chỉnh\"?",
@@ -1462,7 +1143,7 @@
         "04 liên"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 15 QTr 169/Qtr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp thủ quỹ quầy giao dịch thu chi tiền mặt cho nhiều giao dịch viên, tại bất kỳ thời điểm nào trong ngày giao dịch, số dư tồn quỹ tiền mặt thực tế của thủ quỹ phải:",
@@ -1473,7 +1154,7 @@
         "Không cần đối chiếu khớp đúng"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 4 QTr 169/Qtr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Chọn câu trả lời đúng nhất trong các nhận định sau?",
@@ -1484,7 +1165,7 @@
         "Hậu kiểm kiểm tra thông tin, xác thực khách hàng (giao dịch phi tài chính) chỉ được thực hiện tại phòng giao dịch"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 12 QTr số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Thời điểm nào trong ngày giao dịch, số dư tiền mặt thực tế của Giao dịch viên quầy giao dịch loại 2 phải khớp đúng với số dư tồn quỹ tiền mặt của Giao dịch viên đó trên IPCAS?",
@@ -1495,7 +1176,7 @@
         "Đầu giờ giao dịch buổi chiều."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 4, QTr số 169/QTr-NHNo-TCKT ngày 29/1/2024"
+      "source": "N/A"
     },
     {
       "question": "Đầu ngày giao dịch, Giao dịch viên được tiếp quỹ tiền mặt, nhận ấn chỉ quan trọng từ bộ phận nào để thực hiện giao dịch với khách hàng?",
@@ -1506,7 +1187,7 @@
         "Bộ phận kế hoạch."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 4, 169/QTr-NHNo-TCKT ngày 29/1/2024"
+      "source": "N/A"
     },
     {
       "question": "Tại chi nhánh, cuối ngày giao dịch Giao dịch viên quầy loại 2 kiểm tra, đối chiếu, xử lý tiền mặt như thế nào?",
@@ -1517,7 +1198,7 @@
         "Phối hợp cùng Giao dịch viên quỹ đối chiếu tiền mặt thực tế tại quỹ với số dư tiền mặt trên IPCAS, đảm bảo khớp đúng và nộp về quỹ chính."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a khoản 4 Điều 4 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Tại Hội sở chi nhánh việc giao nhận hồ sơ, chứng từ cho bộ phận hậu kiểm được thực hiện tại đâu?",
@@ -1528,7 +1209,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 9 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Nội dung hậu kiểm hồ sơ, chứng từ giao dịch gồm:",
@@ -1539,7 +1220,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 11 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Trong quá trình hậu kiểm nếu phát hiện sai sót thì hậu kiểm viên phải làm gì?",
@@ -1550,7 +1231,7 @@
         "Báo cáo ngay với Giám đốc rồi trực tiếp sửa sai sót."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Điều 11 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Trong quá trình hậu kiểm, trường hợp phát hiện yếu tố bất thường, nghi ngờ tính xác thực của giao dịch, bộ phận hậu kiểm phải làm gì?",
@@ -1561,7 +1242,7 @@
         "Báo cáo với Giám đốc rồi trực tiếp xử lý."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b Khoản 3 Điều 11 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp bộ phận hậu kiểm của Hội sở chi nhánh trực tiếp quản lý tổ chức hậu kiểm tại phòng giao dịch thì số lần tối thiểu hậu kiểm viên xuống hậu kiểm tại phòng giao dịch?",
@@ -1572,7 +1253,7 @@
         "2 lần/tháng."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b Khoản 3 Điều 13 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Agribank, hành vi nào của giao dịch viên bị nghiêm cấm khi giao dịch?",
@@ -1583,7 +1264,7 @@
         "Nộp tiền mặt về bộ phận quỹ khi chưa vượt hạn mức tồn quỹ tiền mặt."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 3 Điều 4 Quy trình 169/QTr-NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Cuối giờ giao dịch buổi sáng, giao dịch viên thực hiện như thế nào để quản lý ấn chỉ quan trọng?",
@@ -1594,7 +1275,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 13 Hướng dẫn số 16666/HD-NHNo-TCKT ngày 30/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Quyết định 2209/QĐ-NHNo-KHNV, đối với trường hợp mở Tiền gửi tiết kiệm chung, Giao dịch viên thực hiện đóng dấu \"TGTK chung\" lên Thẻ tiết kiệm như thế nào?",
@@ -1605,7 +1286,7 @@
         "Đóng vào vị trí trống, mặt trước của Thẻ tiết kiệm."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 11 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
+      "source": "N/A"
     },
     {
       "question": "Tại chi nhánh, cuối ngày giao dịch thủ quỹ quầy giao dịch loại 1 thực hiện:",
@@ -1616,7 +1297,7 @@
         "Đối chiếu số dư tồn quỹ tiền mặt, ấn chỉ quan trọng, giấy tờ có giá… trên hệ thống IPCAS với tồn quỹ tiền mặt thực tế tại bộ phận quỹ đảm bảo khớp đúng trước khi khóa sổ."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b khoản 4 Điều 4 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Chi nhánh loại I phải báo cáo/thông báo ấn chỉ quan trọng bị mất đến những đơn vị nào?",
@@ -1627,7 +1308,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 4 Điều 15 Hướng dẫn số 16666/HD-NHNo-TCKT ngày 30/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Chứng từ kế toán được lập bao nhiêu lần cho mỗi nghiệp vụ kinh tế, tài chính phát sinh?",
@@ -1638,7 +1319,7 @@
         "04 lần"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 5 Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Trong quá trình giao dịch, Giao dịch viên quỹ được thực hiện nhiệm vụ nào?",
@@ -1649,7 +1330,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 9 Quy định 919/QyĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Người bị ký phát khi nhận thông báo về việc tờ séc bị mất phải thực hiện:",
@@ -1660,7 +1341,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 26 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Quy định nào sau đây là đúng về chữ ký của cán bộ ngân hàng và khách hàng trên chứng từ kế toán bằng giấy?",
@@ -1671,7 +1352,7 @@
         "Được ký bằng bút chì"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 10 Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Séc là giấy tờ có giá do ai lập?",
@@ -1682,7 +1363,7 @@
         "Người có liên quan lập"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 2 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Khi nhận được giấy đề nghị cung ứng séc trắng, chi nhánh cung ứng séc phải thực hiện:",
@@ -1693,7 +1374,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 11 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Ấn chỉ quan trọng trong hệ thống Agribank được in tại đâu?",
@@ -1704,7 +1385,7 @@
         "Tập trung thống nhất tại Trụ sở chính"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết a Khoản 2 Điều 3 Hướng dẫn số 16666/HD-NHNo-TCKT ngày 30/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Thành viên tham gia giao dịch không được thực hiện:",
@@ -1715,7 +1396,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 4 Quy định 919/QyĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Sau khi phát hành sổ tiết kiệm cho khách hàng theo đúng quy định, khách hàng yêu cầu thay đổi thông tin kỳ hạn gửi tiền của số tiết kiệm đã phát hành. Giao dịch viên thực hiện:",
@@ -1726,7 +1407,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm 2.2 khoản 2 Mục IV phần II Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Đối với các giao dịch gửi tiền vào sổ tiết kiệm đã cấp qua kênh điện tử, đơn vị giao dịch tiết kiệm và người gửi tiền bổ sung thông tin trên sổ tiết kiệm khi nào?",
@@ -1737,7 +1418,7 @@
         "Khi người gửi tiền đến tất toán sổ tiết kiệm"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm 2.2 khoản 2 Mục I phần II Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Agribank, Khách hàng được quyền đề nghị tra soát, khiếu nại về sử dụng dịch vụ cung ứng séc trong thời hạn bao nhiêu ngày kể từ thời điểm xuất trình để thanh toán séc?",
@@ -1748,7 +1429,7 @@
         "60 ngày"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 23 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp không đủ điều kiện để kéo dài thời hạn gửi tiền theo quy định, vào ngày đến hạn của khoản tiền gửi có kỳ hạn, Agribank thực hiện:",
@@ -1759,7 +1440,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 7 Quyết định 2208/QĐ-NHNo-KHNV ngày 18/10/2019"
+      "source": "N/A"
     },
     {
       "question": "Agribank giao dịch thực hiện kéo dài thời hạn gửi tiền với khách hàng vào ngày đến hạn của khoản tiền gửi có kỳ hạn căn cứ vào?",
@@ -1770,7 +1451,7 @@
         "Thỏa thuận gửi tiền giữa Agribank và khách hàng hoặc văn bản đề nghị kéo dài thời hạn gửi tiền của khách hàng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 7 Quyết định 2208/QĐ-NHNo-KHNV ngày 18/10/2019"
+      "source": "N/A"
     },
     {
       "question": "Người nước ngoài được phép cư trú tại Việt Nam với thời hạn tối thiểu bao lâu thì được gửi tiền gửi có kỳ hạn tại Agribank?",
@@ -1781,7 +1462,7 @@
         "Từ 12 tháng trở lên."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm c khoản 2 Điều 3 Quyết định 656/QĐ-HĐTV-KHNV ngày 15/8/2019"
+      "source": "N/A"
     },
     {
       "question": "Nguyên tắc tính lãi, lãi suất %/năm được tính trên cơ sở một năm là bao nhiêu ngày?",
@@ -1792,7 +1473,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3.1 điều 3 văn bản số 12099/NHNo-TCKT ngày 29/12/2017"
+      "source": "N/A"
     },
     {
       "question": "Hệ thống tài khoản kế toán của Agribank  gồm các tài khoản nào sau đây?",
@@ -1803,7 +1484,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Mục I, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Hệ thống tài khoản kế toán của Agribank được bố trí thành bao nhiêu loại?",
@@ -1814,7 +1495,7 @@
         "9 loại"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 4, Mục I, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Các tài khoản trong bảng cân đối kế toán và các tài khoản ngoài bảng cân đối kế toán được bố trí theo hệ thống số thập phân gồm những cấp nào?",
@@ -1825,7 +1506,7 @@
         "Cấp I, II, IV,V"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm 4.3, Khoản 4 Mục I, Quyết định 479/QĐ/NHNo-TCKT ngày 21/5/2014"
+      "source": "N/A"
     },
     {
       "question": "Đối tượng lập dự phòng phải thu khó đòi?",
@@ -1836,7 +1517,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 11 Quyết định số 1126/QĐ-HĐTV-TCKT ngày 31/12/2019"
+      "source": "N/A"
     },
     {
       "question": "Tỷ lệ trích lập dự phòng nợ phải thu khó đòi đối với nợ phải thu quá hạn thanh toán từ 6 tháng đến dưới 1 năm?",
@@ -1847,7 +1528,7 @@
         "0.7"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết a khoản 1 Điều 12 Quyết định số 1126/QĐ-HĐTV-TCKT ngày 31/12/2019"
+      "source": "N/A"
     },
     {
       "question": "Tỷ lệ trích lập dự phòng nợ phải thu khó đòi đối với nợ phải thu quá hạn thanh toán từ 01 năm đến dưới 02 năm?",
@@ -1858,7 +1539,7 @@
         "0.7"
       ],
       "correctAnswerIndex": 1,
-      "source": "Tiết a khoản 1 Điều 12 Quyết định số 1126/QĐ-HĐTV-TCKT ngày 31/12/2019"
+      "source": "N/A"
     },
     {
       "question": "Tỷ lệ trích lập dự phòng nợ phải thu khó đòi đối với nợ phải thu quá hạn thanh toán từ 02 năm đến dưới 03 năm?",
@@ -1869,7 +1550,7 @@
         "0.9"
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết a khoản 1 Điều 12 Quyết định số 1126/QĐ-HĐTV-TCKT ngày 31/12/2019"
+      "source": "N/A"
     },
     {
       "question": "Tỷ lệ trích lập dự phòng nợ phải thu khó đòi đối với nợ phải thu quá hạn thanh toán từ  03 năm trở lên?",
@@ -1880,7 +1561,7 @@
         "1"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết a khoản 1 Điều 12 Quyết định số 1126/QĐ-HĐTV-TCKT ngày 31/12/2019"
+      "source": "N/A"
     },
     {
       "question": "Định kỳ bao lâu Trụ sở chính thực hiện kiểm kê ấn chỉ quan trọng?",
@@ -1891,7 +1572,7 @@
         "12 tháng/lần"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1, Điều 7, Hướng dẫn số 16666/HD-NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Điều kiện về đội ngũ cán bộ làm công tác kế toán ngân quỹ cần có các yếu tố nào sau đây?",
@@ -1902,7 +1583,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 5 Quy định 919/QyĐ- NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định quản lý và sử dụng công cụ hỗ trợ trong hệ thống Agribank, người được giao sử dụng Công cụ hỗ trợ phải đảm bảo điều kiện nào sau đây?",
@@ -1913,7 +1594,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 10 văn bản số 1339/QĐ-NHNo-VP ngày 09/7/2021."
+      "source": "N/A"
     },
     {
       "question": "Theo quy định quản lý và sử dụng công cụ hỗ trợ trong hệ thống Agribank, Người được giao sử dụng Công cụ hỗ trợ có trách nhiệm nào sau đây?",
@@ -1924,7 +1605,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 10 văn bản số 1339/QĐ-NHNo-VP ngày 09/7/2021."
+      "source": "N/A"
     },
     {
       "question": "Theo quy định quản lý và sử dụng công cụ hỗ trợ trong hệ thống Agribank, các hành vi bị nghiêm cấm:",
@@ -1935,7 +1616,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 5,6,10 Điều 4 văn bản số 1339/QĐ-NHNo-VP ngày 09/7/2021."
+      "source": "N/A"
     },
     {
       "question": "Người được giao nhiệm vụ quản lý, vận hành Camera chịu trách nhiệm:",
@@ -1946,7 +1627,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 văn bản số 985/NHNo-TTKQ ngày 24/02/2017"
+      "source": "N/A"
     },
     {
       "question": "Việc ghi hình của hệ thống camera đối với khu vực quầy quỹ, quầy giao dịch tối thiểu là bao lâu theo quy định tại văn bản 985/NHNo-TTKQ?",
@@ -1957,7 +1638,7 @@
         "7/7 ngày"
       ],
       "correctAnswerIndex": 2,
-      "source": "Mục 1, văn bản 985/NHNo-TTKQ"
+      "source": "N/A"
     },
     {
       "question": "Khi chi nhánh loại I xuất ấn chỉ quan trọng cho chi nhánh loại I khác theo Lệnh điều chuyển của Trụ sở chính, Phiếu xuất kho được lập làm mấy liên?",
@@ -1968,7 +1649,7 @@
         "04 liên"
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết a khoản 1 Điều 9 Hướng dẫn số 16666/HD-NHNo-TCKT ngày 30/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Agribank, trường hợp tờ séc không ghi địa điểm thanh toán thì tờ séc được thanh toán tại đâu?",
@@ -1979,7 +1660,7 @@
         "Đáp án 1 hoặc 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 5 điều 6 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp người ủy quyền giao dịch tiền gửi tiết kiệm muốn thay đổi nội dung ủy quyền, Giao dịch viên hướng dẫn khách hàng thực hiện:",
@@ -1990,7 +1671,7 @@
         "Không thay đổi được nội dung ủy quyền cho đến khi hết thời hạn ủy quyền"
       ],
       "correctAnswerIndex": 2,
-      "source": "điểm 5.3 khoản 5 Điều 20 Quyết định số 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
+      "source": "N/A"
     },
     {
       "question": "Giấy ủy quyền giao dịch tiết kiệm được lập tại địa điểm giao dịch của Agribank phải có xác nhận của ai?",
@@ -2001,7 +1682,7 @@
         "Chứng thực của UBND cấp huyện/xã hoặc chứng thực của tổ chức hành nghề công chứng hoặc người có thẩm quyền của Agribank nơi giao dịch tiền gửi tiết kiệm"
       ],
       "correctAnswerIndex": 0,
-      "source": "điểm 2.1 khoản 2 Điều 20 Quyết định số 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
+      "source": "N/A"
     },
     {
       "question": "Phí chuyển tiền đi khác hệ thống Agribank qua kênh CMS áp dụng với khách hàng tổ chức (Chưa bao gồm VAT) được quy định như thế nào?",
@@ -2012,7 +1693,7 @@
         "0,02%/số tiền giao dịch, tối thiểu 10.000 đồng/giao dịch; tối đa 10.000.000 đồng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Tiết b Điểm 2.2 Khoản 2 văn bản số 4299/NHNo-TCKT ngày 13/5/2021"
+      "source": "N/A"
     },
     {
       "question": "Phí chuyển tiền đi cùng hệ thống Agribank áp dụng với khách hàng tổ chức không có thỏa thuận hợp tác  (Chưa bao gồm VAT) được quy định như thế nào?",
@@ -2023,7 +1704,7 @@
         "Không thu phí"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết a Điểm 2.2 Khoản 2 văn bản số 4299/NHNo-TCKT ngày 13/5/2021"
+      "source": "N/A"
     },
     {
       "question": "Người thụ hưởng phải thông báo cho người ký phát séc trong thời hạn bao nhiêu ngày kể từ ngày séc bị từ chối thanh toán?",
@@ -2034,7 +1715,7 @@
         "04 ngày làm việc"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 4 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Thời hạn xuất trình yêu cầu thanh toán séc là bao nhiêu ngày kể từ ngày ký phát (không tính thời gian diễn ra sự kiện bất khả kháng hoặc trở ngại khách quan)?",
@@ -2045,7 +1726,7 @@
         "15 ngày làm việc"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 18 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Người bị ký phát phải thông báo cho những đơn vị nào khi tờ séc được xuất trình trong thời hạn thanh toán nhưng séc không đủ khả năng thanh toán?",
@@ -2056,7 +1737,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 21 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Séc được ghi trả bằng ngoại tệ nhưng người thụ hưởng cuối cùng là người không được phép thu ngoại tệ theo quy định của pháp luật về quản lý ngoại hối thì số tiền ngoại tệ ghi trên séc được thanh toán:",
@@ -2067,7 +1748,7 @@
         "Bằng đồng Việt Nam theo tỷ giá bán ngoại tệ do Agribank công bố tại thời điểm thanh toán"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 3 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Sau khi phát hành sổ tiết kiệm cho khách hàng theo đúng quy định, khách hàng yêu cầu thay đổi thông tin số tiền gửi của số tiết kiệm đã phát hành. Giao dịch viên thực hiện:",
@@ -2078,7 +1759,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm 2.2 khoản 2 Mục IV phần II Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp người gửi tiền thông qua người giám hộ, người đại diện theo pháp luật, thông tin khách hàng (chủ sở hữu sổ tiết kiệm) in trên sổ tiết kiệm là ai?",
@@ -2089,7 +1770,7 @@
         "Đáp án 1 hoặc 2 theo đăng ký ban đầu của khách hàng"
       ],
       "correctAnswerIndex": 1,
-      "source": "tiểu tiết b tiết 2.1.1 điểm 2.1 khoản 2Phần III Mục A Phụ lục II văn bản số 1019/QyĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp chuyển nhượng sổ tiết kiệm, thông tin khách hàng (chủ sở hữu sổ tiết kiệm) in trên sổ tiết kiệm là ai?",
@@ -2100,7 +1781,7 @@
         "Đáp án 1 hoặc 2 theo đăng ký của khách hàng"
       ],
       "correctAnswerIndex": 1,
-      "source": "tiểu tiết b tiết 2.1.1 điểm 2.1 khoản 2Phần III Mục A Phụ lục II văn bản số 1019/QyĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Đối với sổ tiết kiệm mở theo chương trình khuyến mại, dự thưởng, chi nhánh bổ sung thông tin quản lý bằng hình thức in/đóng dấu khắc sẵn lên trang nào của sổ tiết kiệm?",
@@ -2111,7 +1792,7 @@
         "Giữa trang số 2 và trang số 3"
       ],
       "correctAnswerIndex": 1,
-      "source": "tiểu tiết a tiết 2.1.2 điểm 2.1 khoản 2 Phần III Mục A Phụ lục II văn bản số 1019/QyDD-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Đối với sổ tiết kiệm đã chuyển nhượng, chi nhánh bổ sung thông tin quản lý bằng hình thức in/đóng dấu khắc sẵn lên trang nào của sổ tiết kiệm?",
@@ -2122,7 +1803,7 @@
         "Giữa trang số 2 và trang số 3"
       ],
       "correctAnswerIndex": 1,
-      "source": "tiểu tiết a tiết 2.1.2 điểm 2.1 khoản 2 Phần III Mục A Phụ lục II văn bản số 1019/QyĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Đối với sổ tiết kiệm chung, chi nhánh bổ sung thông tin quản lý bằng hình thức in/đóng dấu khắc sẵn lên trang nào của sổ tiết kiệm?",
@@ -2133,7 +1814,7 @@
         "Giữa trang số 2 và trang số 3"
       ],
       "correctAnswerIndex": 1,
-      "source": "tiểu tiết a tiết 2.1.2 điểm 2.1 khoản 2 Phần III Mục A Phụ lục II văn bản số 1019/QyĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Khi hoàn thành thủ tục tất toán sổ tiết kiệm Mẫu số 01/STK, chi nhánh nơi phát sinh giao dịch thực hiện đóng dấu tất toán trên trang nào của sổ tiết kiệm?",
@@ -2144,7 +1825,7 @@
         "Giữa trang số 2 và trang số 3"
       ],
       "correctAnswerIndex": 2,
-      "source": "tiểu tiết a tiết 2.1.2 điểm 2.1 khoản 2 Phần III Mục A Phụ lục II văn bản số 1019/QyĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Khi hoàn thành thủ tục tất toán sổ tiết kiệm Mẫu số 02/STK, chi nhánh nơi phát sinh giao dịch thực hiện đóng dấu tất toán trên trang nào của sổ tiết kiệm?",
@@ -2155,7 +1836,7 @@
         "Giữa trang số 2 và trang số 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "tiểu tiết a tiết 1.1.2 điểm 1.1 khoản 2 Phần III Mục B Phụ lục II văn bản số 1019/QyĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định về mẫu chứng từ kế toán tại Agribank, kết cấu mẫu chứng từ giao dịch được in từ chương trình IPCAS được chia thành bao nhiêu phần?",
@@ -2166,7 +1847,7 @@
         "5"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết 3 Điều 1 Quy định số 1052/QyDD-NHNo-TCKT ngày 05/5/2023 về sửa đổi, bổ sung Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Giao dịch nào sau đây không bắt buộc phải lập chứng từ theo mẫu?",
@@ -2177,7 +1858,7 @@
         "Đóng tài khoản  tiền gửi tiết kiệm, tất toán giấy tờ có giá; đóng tài khoản thanh toán; Rút lãi định kỳ; Rút tiền từ chuyển tiền phải trả vàng lai"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết 4 Khoản II  Mục A Phần II Phụ lục 02 Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định về mẫu chứng từ kế toán tại Agribank, Giấy nộp tiền được sử dụng trong các giao dịch nào sau đây?",
@@ -2188,7 +1869,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết 2 Khoản III  Mục A Phần II Phụ lục 02 Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định về mẫu chứng từ kế toán tại Agribank, Giấy gửi tiền được sử dụng trong các giao dịch nào sau đây?",
@@ -2199,7 +1880,7 @@
         "Giao dịch tiền gửi thanh toán, giấy tờ có giá đối với khách hàng theo quy định hiện hành"
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết 1 Khoản I  Mục A Phần II Phụ lục 02 Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định về mẫu chứng từ kế toán tại Agribank, Ủy nhiệm chi được sử dụng trong các giao dịch nào sau đây?",
@@ -2210,7 +1891,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết 2 Khoản IV  Mục A Phần II Phụ lục 02 Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định về mẫu chứng từ kế toán tại Agribank, Giấy rút tiền được sử dụng trong các giao dịch nào sau đây?",
@@ -2221,7 +1902,7 @@
         "Đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiết 3 Khoản II  Mục A Phần II Phụ lục 02 Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Tiền gửi không được bảo hiểm tại Agribank bao gồm:",
@@ -2232,29 +1913,18 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Mục 3 Văn bản 615/NHNo-TCKT ngày 29/01/2013"
+      "source": "N/A"
     },
     {
-      "question": "Phí đăng ký sử dụng dịch vụ Agribank eBanking (chưa bao gồm VAT) của Agribank hiện nay được quy định như thế nào?",
+      "question": "Phí thường niên thẻ Lộc Việt trong năm đầu là:",
       "options": [
-        "30.000 VNĐ/năm đối với khách hàng cá nhân và  100.000 VNĐ/năm đối với khách hàng tổ chức.",
-        "50.000 VNĐ/năm đối với khách hàng cá nhân và  100.000 VNĐ/năm đối với khách hàng tổ chức.",
-        "50.000 VNĐ/năm đối với khách hàng cá nhân và  200.000 VNĐ/năm đối với khách hàng tổ chức.",
-        "Agribank chưa thu phí dịch vụ"
+        "50.000 đồng",
+        "100.000 đồng",
+        "150.000 đồng",
+        "Miễn phí"
       ],
       "correctAnswerIndex": 3,
-      "source": "Dịch vụ Ngân hàng điện tử, Phụ lục I, II đính  kèm Quy định số 2929/QĐ-NHNo-TCKT ngày 22/8/2024"
-    },
-    {
-      "question": "Phí duy trì dịch vụ SMS Banking (chưa bao gồm VAT) là:",
-      "options": [
-        "50.000 đồng/ tài khoản/ tháng đối với khách hàng tổ chức và 10.000 đồng / tài khoản/ tháng đối với khách hàng cá nhân",
-        "50.000 đồng/ tài khoản/ tháng đối với khách hàng tổ chức và 13.200 đồng / tài khoản/ tháng đối với khách hàng cá nhân",
-        "55.000 đồng/ tài khoản/ tháng đối với khách hàng tổ chức và 9.500 đồng / tài khoản/ tháng đối với khách hàng cá nhân",
-        "44.000 đồng/ tài khoản/ tháng đối với khách hàng tổ chức và 9.500 đồng / tài khoản/ tháng đối với khách hàng cá nhân"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Dịch vụ Ngân hàng điện tử, Phụ lục I, II đính  kèm Quy định số 2929/QĐ-NHNo-TCKT ngày 22/8/2024"
+      "source": "N/A"
     },
     {
       "question": "Phí duy trì dịch vụ Agribank Plus (chưa VAT) là?",
@@ -2265,7 +1935,7 @@
         "44.000 đồng/ tài khoản/ tháng đối với khách hàng tổ chức và 9.500 đồng / tài khoản/ tháng đối với khách hàng cá nhân"
       ],
       "correctAnswerIndex": 2,
-      "source": "Dịch vụ Ngân hàng điện tử, Phụ lục I, II đính  kèm Quy định số 2929/QĐ-NHNo-TCKT ngày 22/8/2024"
+      "source": "N/A"
     },
     {
       "question": "Phí phát hành mới thẻ Lộc Việt tại Agribank là:",
@@ -2276,7 +1946,7 @@
         "150.000 đồng/thẻ"
       ],
       "correctAnswerIndex": 0,
-      "source": "Dịch vụ thẻ, Phụ lục I đính kèm Quy định số 2929/QĐ-NHNo-TCKT ngày 22/8/2024"
+      "source": "N/A"
     },
     {
       "question": "Agribank không thu phí trả nợ trước hạn trong trường hợp nào?",
@@ -2287,7 +1957,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Phí liên quan đến hoạt động cho vay, Phụ lục I, II đính kèm Quy định số 2929/QĐ-NHNo-TCKT ngày 22/8/2024"
+      "source": "N/A"
     },
     {
       "question": "Phí xác nhận số dư TK tiền gửi, tiền vay bằng Tiếng Việt?",
@@ -2298,7 +1968,7 @@
         "50.000 đồng /1 bản đầu tiên /1 tài khoản/1 thời điểm. 10.000 đồng/cho 1 bản tiếp theo (mức phí chưa bao gồm VAT)"
       ],
       "correctAnswerIndex": 1,
-      "source": "Dịch vụ khác, Phụ lục I đính kèm Quy định số 2929/QĐ-NHNo-TCKT ngày 22/8/2024"
+      "source": "N/A"
     },
     {
       "question": "Phí cung cấp sao kê chi tiết giao dịch theo yêu cầu của khách hàng đối với các giao dịch trong vòng 1 năm kể từ ngày yêu cầu tại chi nhánh khác nơi mở tài khoản (chi nhánh giao dịch)?",
@@ -2309,7 +1979,7 @@
         "15.000 đồng/trang, không quy định mức tối thiểu (mức phí chưa bao gồm VAT)"
       ],
       "correctAnswerIndex": 1,
-      "source": "Dịch vụ khác, Phụ lục I đính kèm Quy định số 2929/QĐ-NHNo-TCKT ngày 22/8/2024"
+      "source": "N/A"
     },
     {
       "question": "Mức phí tối thiểu áp dụng trong trường hợp khách hàng vay trả nợ trước hạn trong ngày:",
@@ -2320,7 +1990,7 @@
         "2.000.000 VNĐ"
       ],
       "correctAnswerIndex": 2,
-      "source": "Phí liên quan đến hoạt động cho vay, Phụ lục I, II đính kèm Quy định số 2929/QĐ-NHNo-TCKT ngày 22/8/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại Quyết định số 1052/QĐ-NHNo-TCKT ngày 05/5/2023 của Tổng Giám đốc, số bút toán là?",
@@ -2331,7 +2001,7 @@
         "Số thứ tự giao dịch trong ngày được hạch toán vào sổ kế toán trên hệ thống IPCAS theo từng giao dịch viên"
       ],
       "correctAnswerIndex": 3,
-      "source": "tiết đ Khoản 5 Điều 1 Quyết định 1052/QyĐ-NHNo-TCKT ngày 05/5/2023"
+      "source": "N/A"
     },
     {
       "question": "Khách hàng có nhu cầu đóng tài khoản thanh toán đã mở tại Agribank, Giao dịch viên hướng dẫn khách hàng:",
@@ -2342,7 +2012,7 @@
         "Đáp án 1 và 3 đều đúng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Gạch đầu dòng thứ 5, Khoản 4 mục II. Mẫu Giấy rút tiền Mục A Phần II Phụ lục 02 đính kèm văn bản 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp khách hàng đề nghị sử dụng mẫu chứng từ tự thiết kế, in ấn từ hệ thống quản lý của khách hàng thì mẫu chứng từ cần phải được sự chấp thuận của:",
@@ -2353,7 +2023,7 @@
         "Trưởng phòng Kế toán tại Chi nhánh nơi khách hàng mở tài khoản"
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 5, Mục I, Phần I, Phụ lục 2, Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại Quyết định số 599/QĐ-NHNo-TCKT ngày 19/4/2017 của Tổng Giám Đốc, Agribank có bao nhiêu mẫu chứng từ kế toán bắt buộc in sẵn?",
@@ -2364,7 +2034,7 @@
         "11"
       ],
       "correctAnswerIndex": 3,
-      "source": "Phụ lục 01 Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Mã sản phẩm áp dụng đối với tài khoản thanh toán của khách hàng cá nhân nước ngoài (không bao gồm tài khoản tiền gửi chuyên dùng):",
@@ -2375,7 +2045,7 @@
         "239"
       ],
       "correctAnswerIndex": 0,
-      "source": "Văn bản số 9279/NHNo-TCKT ngày 10/7/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định trong tổ chức giao dịch kế toán, đâu không phải là hành vi bị nghiêm cấm?",
@@ -2386,7 +2056,7 @@
         "Các thành viên tham gia giao dịch mang tài sản, tiền bạc, tư trang vào trong quầy giao dịch."
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 4 Quyết định số 919/QĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Agribank, đâu không phải là nhiệm vụ của Giao dịch viên quỹ khi tham gia giao dịch kế toán?",
@@ -2397,7 +2067,7 @@
         "Thực hiện xử lý, hạch toán giao dịch nhập/xuất tiền mặt với Giao dịch viên trong đơn vị và Giao dịch viên quỹ của Phòng giao dịch trực thuộc."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 9 Quyết định số 919/QĐ-HĐTV-TCKT ngày 06/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Khi xử lý sai sót, Giao dịch viên điều chỉnh bằng phương thức hạch toán ngược vế và khác ngày giao dịch gốc, hồ sơ, chứng từ bao gồm:",
@@ -2408,7 +2078,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b khoản 2 Điều 15 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Khi hậu kiểm nghiệp vụ mở tài khoản không kỳ hạn (tài khoản thanh toán, tiền gửi tiết kiệm không kỳ hạn), thông tin hậu kiểm bắt buộc bao gồm:",
@@ -2419,7 +2089,7 @@
         "Ngày giao dịch; ngày giá trị (nếu có); loại tiền tệ; tỷ giá (nếu có); số tiền giao dịch; lãi suất; số sổ tiết kiệm (KKH); chữ ký chủ tài khoản, đồng chủ tài khoản, mẫu dấu (nếu có); chữ ký người được ủy quyền (nếu có)."
       ],
       "correctAnswerIndex": 0,
-      "source": "Phần 1 Phụ lục III Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại văn bản số 16666 /HD-NHNo-TCKT ngày 30/12/2023 của Tổng Giám đốc, ấn chỉ quan trọng hỏng bao gồm:",
@@ -2430,7 +2100,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 16 Hướng dẫn số 16666/HD-NHNo-TCKT ngày 30/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Chuyển nhượng séc là gì?",
@@ -2441,7 +2111,7 @@
         "Là việc người bảo lãnh séc chuyển giao quyền sở hữu séc cho người được bảo lãnh bằng hình thức ký trên mặt sau của séc và chuyển giao cho người được bảo lãnh."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 11 Điều 2 Quyết định số 1399/QĐ-NHNo-TCKT ngày 18/8/2017"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp bất khả kháng phải giao dịch offline (sự cố mất điện, mạng bị ngắt, máy in sổ bị hỏng, trường hợp bất khả kháng khác…) giao dịch viên phát hành sổ tiết kiệm thủ công (sử dụng bút để viết thông tin trên sổ tiết kiệm), trên sổ tiết kiệm quy định phải có thêm:",
@@ -2452,7 +2122,7 @@
         "Chữ ký xác nhận của Giám đốc đơn vị (hoặc người được ủy quyền) và đóng dấu lên góc trên bên trái sổ tiết kiệm trước khi giao cho khách hàng."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Mục II Phần I Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại văn bản số 5556/NHNo-TCKT  ngày 28/7/2016, các đơn vị trang bị bút viết tại quầy giao dịch và yêu cầu khách hàng sử dụng bút của Agribank khi lập chứng từ nhằm:",
@@ -2463,7 +2133,7 @@
         "Đảm bảo an toàn tài sản cho khách hàng và Agribank"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 7 Mục II Phần I Văn bản số 5556/NHNo-TCKT ngày 28/7/2016"
+      "source": "N/A"
     },
     {
       "question": "Đối với mẫu sổ tiết kiệm 01/STK, thông tin về khách hàng gửi tiền tiết kiệm in trên trang nào của sổ tiết kiệm?",
@@ -2474,7 +2144,7 @@
         "Trang số 04"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Phần III Mục A Phụ lục II văn bản số 1019/QyĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Đối với mẫu sổ tiết kiệm 02/STK, thông tin về khách hàng gửi tiền tiết kiệm in trên trang nào của sổ tiết kiệm?",
@@ -2485,7 +2155,7 @@
         "Trang số 04"
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 1 Phần III Mục B Phụ lục II văn bản số 1019/QyĐ-NHNo-TCKT ngày 28/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp giải ngân tiền vay để chuyển khoản/chuyển tiền thanh toán, ủy nhiệm chi giải ngân tiền vay được sử dụng là:",
@@ -2496,7 +2166,7 @@
         "Chứng từ gốc của nghiệp vụ tiền vay đồng thời là chứng từ gốc của nghiệp vụ thanh toán."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 4, Mục IV, Phần II, Phụ lục 2, Quyết định 599/QĐ-NHNo-TCKT ngày 19/4/2017"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp các chứng từ nhận từ khách hàng sau giờ giao dịch, thời gian xử lý chứng từ là:",
@@ -2507,7 +2177,7 @@
         "Đầu giờ ngày giao dịch tiếp theo"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm c, khoản 2, Điều 14, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Chứng từ kế toán sao chụp chỉ được thực hiện trong trường hợp nào?",
@@ -2518,7 +2188,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2, Điều 22, Quyết định 1000/QĐ-HĐQT-TCKT ngày 05/7/2011"
+      "source": "N/A"
     },
     {
       "question": "Đối với các dịch vụ trong nước thực hiện bằng đồng Việt Nam, đồng tiền sử dụng đề thanh toán phí là:",
@@ -2529,7 +2199,7 @@
         "VNĐ, EUR"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 5 Quy chế số 369/QC-HĐTV-TCKT ngày 19/6/2023"
+      "source": "N/A"
     },
     {
       "question": "Đối với phí dịch vụ phát sinh bằng đồng tiền khác với đồng tiền quy định trong biểu phí, đơn vị cung ứng dịch vụ áp dụng theo:",
@@ -2540,7 +2210,7 @@
         "Mã phí tương ứng và quy đổi tương đương theo tỷ giá bán tại thời điểm cuối tháng"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 4 Điều 5 Quy chế số 369/QC-HĐTV-TCKT ngày 19/6/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo nguyên tắc quản lý tài sản bảo đảm: việc xuất kho tài sản bảo đảm cấp tín dụng của khách hàng được thực hiện khi nào?",
@@ -2551,7 +2221,7 @@
         "Đáp án 1 hoặc 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "Tiểu mục 1 Mục 1 chương IV phần II Văn bản số 2899 /HD-NHNo-TCKT ngày 14/4/2022."
+      "source": "N/A"
     },
     {
       "question": "Trường hợp giải ngân bằng ủy nhiệm chi chuyển tiền, bút toán chuyển tiền không liền kề bút toán giải ngân, thì trên chứng từ giao dịch của  bút toán giải ngân, GDV cần thực hiện như thế nào?",
@@ -2562,7 +2232,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a khoản 1.3 tiểu mục 1, mục I chương I phần II văn bản số 2899/HD-NHNo-TCKT ngày 14/4/2022."
+      "source": "N/A"
     },
     {
       "question": "Việc tính và thu lãi tiền vay của khách hàng trong thời gian khoanh nợ được thực hiện như thế nào?",
@@ -2573,7 +2243,7 @@
         "Đáp án 1 và 3"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b khoản 2.1 tiểu mục 2, mục III, chương I phần II văn bản số 2899/HD-NHNo-TCKT ngày 14/4/2022."
+      "source": "N/A"
     },
     {
       "question": "Ai là người thực hiện cơ cấu lại thời hạn trả nợ trên IPCAS?",
@@ -2584,7 +2254,7 @@
         "Người quản lý nợ"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b khoản 7.1 tiểu mục 7, mục III, chương I phần II văn bản số 2899/HD-NHNo-TCKT ngày 14/4/2022."
+      "source": "N/A"
     },
     {
       "question": "Ai là người thực hiện đăng ký kỳ hạn trả nợ trên IPCAS?",
@@ -2595,7 +2265,7 @@
         "Giao dịch viên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b khoản 7.1 tiểu mục 7, mục III, chương I phần II văn bản số 2899/HD-NHNo-TCKT ngày 14/4/2022."
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại Thông tư 17/2024-TT-NHNN, tài liệu, thông tin, dữ liệu về giấy tờ tùy thân của khách hàng cá nhân là công dân Việt Nam bao gồm:",
@@ -2606,7 +2276,7 @@
         "Thẻ căn cước công dân hoặc Căn cước điện tử (thông qua việc truy cập vào tài khoản định danh điện tử mức độ 02) hoặc Chứng minh nhân dân hoặc Giấy khai sinh đối với người dưới 14 tuổi"
       ],
       "correctAnswerIndex": 0,
-      "source": "tiết a Khoản 2 Điều 12 Thông tư 17/2024/TT-NHNN ngày 28/6/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại Thông tư 17/2024-TT-NHNN, tài liệu, thông tin, dữ liệu về giấy tờ tùy thân của khách hàng cá nhân nước ngoài bao gồm:",
@@ -2617,7 +2287,7 @@
         "Danh tính điện tử (thông qua việc truy cập vào tài khoản định danh điện tử mức độ 02)."
       ],
       "correctAnswerIndex": 0,
-      "source": "tiết c Khoản 2 Điều 12 Thông tư 17/2024/TT-NHNN ngày 28/6/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại Thông tư 17/2024-TT-NHNN, trường hợp các chủ tài khoản thanh toán chung  có quốc tịch, tình trạng cư trú khác nhau, tài khoản thanh toán chung chỉ được sử dụng trong phạm vi nào?",
@@ -2628,7 +2298,7 @@
         "Phạm vi được phép sử dụng của tất cả các chủ tài khoản thanh toán chung theo quy định pháp luật về phòng chống rửa tiền"
       ],
       "correctAnswerIndex": 0,
-      "source": "tiết e khoản 4 Điều 17 Thông tư 17/2024/TT-NHNN ngày 28/6/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định tại Thông tư 15/2024-TT-NHNN, Các tổ chức cung ứng dịch vụ thanh toán có trách nhiệm phối hợp để xử lý kịp thời các yêu cầu tra soát trong thanh toán ủy nhiệm chi, ủy nhiệm thu trong thời gian bao lâu kể từ thời điểm nhận được yêu cầu tra soát?",
@@ -2639,7 +2309,337 @@
         "04 ngày làm việc"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 7 Điều 6 Thông tư 15/2024/TT-NHNN ngày 28/6/2024"
+      "source": "N/A"
+    },
+    {
+      "question": "Các hình thức của tài khoản thanh toán trong hệ thống Agribank:",
+      "options": [
+        "Tài khoản thanh toán của cá nhân",
+        "Tài khoản thanh toán của tổ chức",
+        "Tài khoản thanh toán chung",
+        "Tất cả các đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Chủ tài khoản có các quyền nào sau đây?",
+      "options": [
+        "Uỷ quyền cho người khác sử dụng tài khoản thanh toán theo quy định pháp luật và Agribank",
+        "Sử dụng số tiền trên tài khoản thanh toán của mình để thực hiện các lệnh thanh toán hợp pháp, hợp lệ",
+        "Lựa chọn và thỏa thuận việc sử dụng các phương tiện thanh toán, dịch vụ và tiện ích thanh toán tại Agribank phù hợp với quy định của NHNN và pháp luật",
+        "Tất cả các đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Agribank có quyền nào về mở và sử dụng tài khoản thanh toán sau đây?",
+      "options": [
+        "Từ chối thực hiện lệnh thanh toán của chủ tài khoản trong trường hợp lệnh thanh toán không hợp pháp, hợp lệ",
+        "Tạm dừng giao dịch thanh toán, rút tiền trên tài khoản thanh toán đối với trường hợp giấy tờ tùy thân của khách hàng hết hiệu lực hoặc hết thời hạn sử dụng",
+        "Quy định về số dư tối thiểu, phạm vi sử dụng, cách thức sử dụng, hạn mức giao dịch trên tài khoản thanh toán và thông báo công khai, hướng dẫn cụ thể để khách hàng biết",
+        "Tất cả các đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Đối tượng cá nhân nào sau đây có thể mở tài khoản thanh toán thông qua người đại diện theo pháp luật?",
+      "options": [
+        "Người từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ theo quy định của pháp luật Việt Nam",
+        "Người đủ 15 tuổi trở lên, không bị mất hoặc hạn chế năng lực hành vi dân sự",
+        "Người chưa đủ 15 tuổi, người bị hạn chế hoặc mất năng lực hành vi dân sự theo quy định của Pháp luật Việt Nam",
+        "Đáp án 2 và 3 đều đúng"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Các giấy tờ trong hồ sơ mở tài khoản thanh toán trong hệ thống Agribank phải đáp ứng yêu cầu nào sau đây?",
+      "options": [
+        "Giấy tờ hồ sơ mở tài khoản của khách hàng là bản chính.",
+        "Giấy tờ hồ sơ mở tài khoản của khách hàng là bản sao.",
+        "Giấy tờ hồ sơ mở tài khoản của khách hàng phải là bản sao được xuất trình cùng bản chính để đối chiếu theo quy định của Agribank.",
+        "Đáp án 1 và 3"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Tài khoản thanh toán không hoạt động là gì?",
+      "options": [
+        "Tài khoản thanh toán đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 12 (mười hai) tháng liên tục kể từ ngày không đủ số dư tối thiểu.",
+        "Tài khoản thanh toán đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 36 (ba mươi sáu) tháng liên tục kể từ ngày không đủ số dư tối thiểu.",
+        "Tài khoản thanh toán không đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 12 (mười hai) tháng liên tục kể từ ngày không đủ số dư tối thiểu.",
+        "Tài khoản thanh toán không đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 36 (ba mươi sáu) tháng liên tục kể từ ngày không đủ số dư tối thiểu."
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Chi nhánh Agribank khác nơi mở tài khoản thanh toán được phép thực hiện nội dung nào liên quan đến tài khoản thanh toán theo yêu cầu của khách hàng?",
+      "options": [
+        "Gửi, rút tiền tuân thủ quy định hiện hành của Agribank về gửi, rút tiền nhiều nơi.",
+        "Đóng tài khoản thanh toán của khách hàng",
+        "Phong tỏa/Chấm dứt phong tỏa  tài khoản thanh toán.",
+        "Đáp án 1 và 3"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Việc sử dụng tài khoản thanh toán của cá nhân là người có khó khăn trong nhận thức, làm chủ hành vi được thực hiện thông qua những người nào sau đây?",
+      "options": [
+        "Người giám hộ",
+        "Người đại diện theo pháp luật.",
+        "Người được ủy quyền",
+        "Đáp án 1 và 2"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Tài khoản thanh toán chung là:",
+      "options": [
+        "Tài khoản thanh toán có ít nhất một chủ thể trở lên cùng đứng tên mở tài khoản tại Agribank. Chủ tài khoản thanh toán chung là tổ chức hoặc cá nhân.",
+        "Tài khoản thanh toán có ít nhất hai chủ thể trở lên cùng đứng tên mở tài khoản tại Agribank. Chủ tài khoản thanh toán chung là tổ chức hoặc cá nhân.",
+        "Tài khoản thanh toán có hai chủ thể cùng đứng tên mở tài khoản tại Agribank. Chủ tài khoản thanh toán chung là tổ chức và cá nhân.",
+        "Tài khoản thanh toán có ít nhất ba chủ thể trở lên cùng đứng tên mở tài khoản tại Agribank. Chủ tài khoản thanh toán chung là tổ chức hoặc cá nhân."
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Agribank nơi giao dịch không phải Agribank nơi mở tài khoản thanh toán không được thực hiện:",
+      "options": [
+        "Đóng tài khoản.",
+        "Cung cấp thông tin, xác nhận số dư, sổ phụ tài khoản thanh toán.",
+        "Phong tỏa/Chấm dứt phong tỏa  tài khoản thanh toán.",
+        "Gửi, rút tiền tuân thủ quy định hiện hành của Agribank về gửi, rút tiền nhiều nơi."
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Agribank có quyền từ chối thực hiện lệnh thanh toán của chủ tài khoản trong các trường hợp nào sau đây?",
+      "options": [
+        "Chủ tài khoản thực hiện đầy đủ các yêu cầu về thủ tục thanh toán.",
+        "Tài khoản thanh toán  đủ số dư.",
+        "Tài khoản thanh toán bị đóng hoặc phong tỏa toàn bộ",
+        "Khi chưa có yêu cầu bằng văn bản của cơ quan nhà nước có thẩm quyền theo quy định của pháp luật"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Agribank nơi mở tài khoản thực hiện đóng tài khoản thanh toán của khách hàng trong trường hợp nào sau đây?",
+      "options": [
+        "Tài khoản thanh toán ở trạng thái tài khoản không hoạt động vượt quá 36 (ba mươi sáu) tháng.",
+        "Tài khoản thanh toán tạm khóa ở trạng thái tài khoản không hoạt động vượt quá 6 tháng.",
+        "Tài khoản thanh toán tạm khóa ở trạng thái tài khoản không hoạt động vượt quá 60 (sáu mươi) ngày.",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Agribank chấm dứt phong tỏa hoặc giải tỏa phong tỏa  tài khoản thanh toán khi nào?",
+      "options": [
+        "Chưa kết thúc thời hạn phong tỏa",
+        "Kết thúc thời hạn phong tỏa và phải có văn bản yêu cầu của cơ quan có thẩm quyền về việc chấm dứt tạm khóa tài khoản thanh toán",
+        "Đã xử lý xong sai sót, nhầm lẫn trong thanh toán chuyển tiền",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Việc chấm dứt phong tỏa tài khoản thanh toán của khách hàng được thực hiện tại đâu?",
+      "options": [
+        "Agribank nơi giao dịch",
+        "Agribank nơi thực hiện phong tỏa tài khoản thanh toán của khách hàng",
+        "Agribank nơi khách hàng mở tài khoản thanh toán",
+        "Tại bất kỳ chi nhánh nào"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Agribank chuyển trạng thái tài khoản thanh toán từ trạng thái hoạt động sang trạng thái tài khoản thanh toán không hoạt động khi nào?",
+      "options": [
+        "Tài khoản thanh toán không đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch trong thời gian 12 (mười hai) tháng liên tục kể từ ngày không đủ số dư tối thiểu",
+        "Tài khoản thanh toán không đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch trong thời gian 06 (sáu) tháng liên tục kể từ ngày không đủ số dư tối thiểu",
+        "Tài khoản thanh toán không đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 12 (mười hai) tháng liên tục kể từ ngày không đủ số dư tối thiểu",
+        "Tài khoản thanh toán không đủ số dư tối thiểu theo quy định của Agribank và không phát sinh giao dịch do chính khách hàng thực hiện trong thời gian 06 (sáu) tháng liên tục kể từ ngày không đủ số dư tối thiểu"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Trường hợp Agribank nơi giao dịch/Đơn vị tham gia xử lý giao dịch thực hiện phong tỏa tài khoản thanh toán không phải là Agribank nơi mở tài khoản thì sau khi phong tỏa phải gửi cho Agribank nơi mở tài khoản văn bản gì?",
+      "options": [
+        "Bản sao thông báo phong tỏa (bản photo có xác nhận của Agribank nơi giao dịch/Đơn vị tham gia xử lý giao dịch) về Agribank nơi mở tài khoản để lưu vào hồ sơ tài khoản thanh toán của khách hàng, Agribank nơi giao dịch/Đơn vị tham gia xử lý giao dịch lưu bản chính",
+        "Văn bản yêu cầu đóng tài khoản",
+        "Văn bản yêu cầu tạm khóa, chấm dứt tạm khóa tài khoản thanh toán của Agribank nơi giao dịch",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Khách hàng mở tài khoản thanh toán bằng phương tiện điện tử, trước khi xác thực thông tin thành công tại quầy giao dịch của Agribank, khách hàng được thực hiện giao dịch/dịch vụ nào?",
+      "options": [
+        "Nhận tiền (ghi Có) vào tài khoản",
+        "Thực hiện dịch vụ thanh toán, chuyển tiền trong phạm vi tổng hạn mức giao dịch ghi Nợ theo quy định của Agribank đối với hình thức mở và sử dụng tài khoản thanh toán bằng phương tiện điện tử",
+        "Thực hiện các giao dịch chuyển khoản để mở tài khoản tiền gửi tiết kiệm, tiền gửi có kỳ hạn của chính khách hàng trong hệ thống Agribank trong phạm vi số dư khả dụng của tài khoản thanh toán (không khống chế hạn mức giao dịch)",
+        "Tất cả các đáp án trên."
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Chủ tài khoản thanh toán mở bằng phương tiện điện tử không được thực hiện giao dịch/hành vi nào?",
+      "options": [
+        "Nhận tiền (ghi Có) vào tài khoản",
+        "Ủy quyền sử dụng tài khoản thanh toán trên các phương tiện điện tử của Agribank",
+        "Thực hiện các giao dịch chuyển khoản để mở tài khoản tiền gửi tiết kiệm, tiền gửi có kỳ hạn của chính khách hàng trong hệ thống Agribank trong phạm vi số dư khả dụng của tài khoản thanh toán (không khống chế hạn mức giao dịch)",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024, Người giám hộ được hiểu là:",
+      "options": [
+        "Cá nhân được luật quy định, được Ủy ban nhân dân cấp xã cử, được Tòa án chỉ định hoặc được người có năng lực hành vi dân sự đầy đủ lựa chọn làm người giám hộ để thực hiện việc chăm sóc, bảo vệ quyền, lợi ích hợp pháp của người được giám hộ.",
+        "Cá nhân, pháp nhân được luật quy định, được Ủy ban nhân dân cấp xã cử, được Tòa án chỉ định hoặc được người có năng lực hành vi dân sự đầy đủ lựa chọn làm người giám hộ cho mình để thực hiện việc chăm sóc, bảo vệ quyền, lợi ích hợp pháp của người được giám hộ.",
+        "Pháp nhân được luật quy định, được Ủy ban nhân dân cấp xã cử, được Tòa án chỉ định hoặc được người có năng lực hành vi dân sự đầy đủ lựa chọn làm người giám hộ để thực hiện việc chăm sóc, bảo vệ quyền, lợi ích hợp pháp của người giám hộ.",
+        "Người đại diện theo quyết định của cơ quan nhà nước có thẩm quyền, theo điều lệ của pháp nhân hoặc theo quy định của pháp luật."
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Số dư tối thiểu đối với tài khoản thanh toán mở bằng phương tiện điện tử?",
+      "options": [
+        "Số dư bằng không tại thời điểm mở. Ngay sau khi khách hàng thực hiện giao dịch lần đầu trên tài khoản thanh toán, khách hàng phải duy trì số dư tối thiểu trên tài khoản thanh toán theo quy định của Agribank",
+        "Agribank không quy định số dư tối thiểu đối với tài khoản thanh toán",
+        "50.000 VNĐ/10 đơn vị tiền tệ",
+        "Số dư bằng không tại thời điểm mở. Sau khi khách hàng thực hiện giao dịch trên TKTT, khách hàng phải duy trì số dư tối thiểu trên tài khoản là 50.000 VNĐ/10 đơn vị tiền tệ"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024, Người đại diện theo pháp luật được hiểu là:",
+      "options": [
+        "Cá nhân được luật quy định, được Ủy ban nhân dân cấp xã cử, được Tòa án chỉ định hoặc được người có năng lực hành vi dân sự đầy đủ lựa chọn làm người giám hộ để thực hiện việc chăm sóc, bảo vệ quyền, lợi ích hợp pháp của người được giám hộ.",
+        "Cá nhân, pháp nhân được luật quy định, được Ủy ban nhân dân cấp xã cử, được Tòa án chỉ định hoặc được người có năng lực hành vi dân sự đầy đủ lựa chọn làm người giám hộ để thực hiện việc chăm sóc, bảo vệ quyền, lợi ích hợp pháp của người được giám hộ.",
+        "Pháp nhân được luật quy định, được Ủy ban nhân dân cấp xã cử, được Tòa án chỉ định hoặc được người có năng lực hành vi dân sự đầy đủ lựa chọn làm người giám hộ để thực hiện việc chăm sóc, bảo vệ quyền, lợi ích hợp pháp của người giám hộ.",
+        "Người đại diện theo quyết định của cơ quan nhà nước có thẩm quyền, theo điều lệ của pháp nhân hoặc theo quy định của pháp luật."
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Trường hợp phát sinh các giao dịch chuyển tiền đến đối với tài khoản đã đóng, Agribank thực hiện:",
+      "options": [
+        "Agribank nơi mở tài khoản hạch toán số tiền chuyển đến vào tài khoản thu nhập bất thường",
+        "Agribank nơi mở tài khoản chuyển trả lệnh thanh toán cho ngân hàng chuyển tiền",
+        "Agribank nơi mở tài khoản thông báo cho khách hàng (nếu có thể) để hướng dẫn khách hàng phối hợp với người chuyển xử lý theo quy định",
+        "Đáp án 2 hoặc 3"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024, Bản sao điện tử được hiểu là:",
+      "options": [
+        "Bản chụp dưới dạng điện tử từ bản chính dạng văn bản giấy hoặc tập tin có nội dung ghi đầy đủ, chính xác như nội dung ghi trong sổ gốc, bản chính dạng văn bản giấy.",
+        "Bản sao từ bản gốc đã được đóng dấu bởi công chứng viên có thẩm quyền xác nhận rằng có nội dung, hình thức tương đồng với bản gốc (sao y bản chính)",
+        "Bản sao chép của bản chính được tạo ra bằng cách sử dụng máy photocopy hoặc máy scan",
+        "Bản sao của dữ liệu gốc và lưu trữ ở một địa điểm an toàn, nhằm mục đích bảo vệ thông tin khỏi nguy cơ mất mát, hư hỏng"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Định danh khách hàng điện tử (eKYC) là gì?",
+      "options": [
+        "Là phương thức nhận biết khách hàng bằng phương tiện điện tử trên nền tảng Internet, không cần gặp mặt trực tiếp khách hàng",
+        "Là phương thức nhận biết khách hàng trên ứng dụng di động, không cần gặp mặt trực tiếp khách hàng",
+        "Là phương thức nhận biết khách hàng thông qua gặp mặt trực tiếp",
+        "Là phương thức nhận biết khách hàng thông qua thiết bị nhận biết khách hàng (ATM, CDM), không cần gặp mặt trực tiếp khách hàng"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024, Người đại diện hợp pháp của tổ chức được hiểu là:\r\n(Chọn đáp án đúng nhất)",
+      "options": [
+        "Người đại diện theo pháp luật của tổ chức",
+        "Người đại diện theo ủy quyền của tổ chức",
+        "Kế toán trưởng (hoặc người phụ trách kế toán)",
+        "Người đại diện theo pháp luật của tổ chức hoặc người đại diện theo ủy quyền của tổ chức"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Khi nhận được đề nghị tra soát, khiếu nại của khách hàng do nghi ngờ có gian lận hoặc tổn thất, Agribank thực hiện:",
+      "options": [
+        "Phong tỏa tài khoản thanh toán và phối hợp với các đơn vị liên quan xử lý theo quy định",
+        "Tạm đóng tài khoản thanh toán và phối hợp với các đơn vị liên quan xử lý theo quy định",
+        "Tạm khóa tài khoản thanh toán và phối hợp với các đơn vị liên quan xử lý theo quy định",
+        "Liên hệ với các đơn vị xử lý theo quy định"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024, Agribank cung cấp thông tin các tài khoản có dấu hiệu gian lận, lừa đảo, vi phạm pháp luật theo quy định của Ngân hàng Nhà nước chậm nhất vào ngày nào trong tháng?",
+      "options": [
+        "ngày 10",
+        "ngày 15",
+        "ngày 20",
+        "ngày 25"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Agribank chủ động trích nợ tài khoản thanh toán của khách hàng và thông báo cho chủ tài khoản thanh toán biết trong các trường hợp nào?",
+      "options": [
+        "Theo thỏa thuận trước bằng văn bản giữa chủ tài khoản thanh toán và Agribank để chi trả các khoản thanh toán thường xuyên, định kỳ hoặc thu các khoản nợ đến hạn, quá hạn, lãi và các chi phí phát sinh",
+        "Theo yêu cầu bằng văn bản của cơ quan nhà nước có thẩm quyền trong việc cưỡng chế thi hành quyết định về xử phạt vi phạm hành chính, quyết định thi hành án, quyết định thu thuế hoặc thực hiện các nghĩa vụ thanh toán khác theo quy định của pháp luật",
+        "Theo yêu cầu hủy lệnh chuyển Có của ngân hàng, chi nhánh ngân hàng nước ngoài phục vụ bên chuyển tiền do ngân hàng, chi nhánh ngân hàng nước ngoài phục vụ bên chuyển tiền phát hiện thấy có sai sót so với lệnh thanh toán của người chuyển tiền đã lập",
+        "Tất cả các đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Chậm nhất ngày bao nhiêu hàng tháng, Chi nhánhh Agribank cập nhật  và cung cấp thông tin các tài khoản có dấu hiệu gian lận, lừa đảo, vi phạm pháp luật theo quy định của NHNN gửi Trung tâm Quản lý rủi ro phi tín dụng để tổng hợp",
+      "options": [
+        "ngày 05",
+        "ngày 10",
+        "ngày 15",
+        "ngày 20"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, các trường hợp nào sau đây được vào kho tiền?",
+      "options": [
+        "Thực hiện lệnh, phiếu xuất, nhập tiền mặt, tài sản trong kho tiền",
+        "Kiểm tra, kiểm kê tiền mặt, tài sản trong kho tiền theo định kỳ hoặc đột xuất",
+        "Sửa chữa, bảo dưỡng, lắp đặt, kiểm tra trang thiết bị trong kho tiền",
+        "Tất cả các đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
     }
   ]
 }

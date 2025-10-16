@@ -1,5 +1,5 @@
 {
-  "originalDisplayName": "19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên",
+  "originalDisplayName": "17c. Tiêu chuẩn tác phong GDV",
   "questions": [
     {
       "question": "Quy định \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\" áp dụng cho đối tượng nào?",
@@ -10,21 +10,21 @@
         "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 1 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Một trong các mục đích của việc thực hiện Quy định \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\" là gì?",
       "options": [
         "Nâng cao chất lượng phục vụ, góp phần nâng cao hình ảnh của Agribank. Mỗi cán bộ Agribank xây dựng hình ảnh, vai trò \"Đại sứ thương hiệu Agribank\"",
         "Nâng cao chất lượng phục vụ, góp phần nâng cao hình ảnh chuyên nghiệp và uy tín của Agribank. Mỗi cán bộ Agribank xây dựng hình ảnh, vai trò \"Đại sứ thương hiệu Agribank\"",
-        "Nâng cao chất lượng phục vụ, góp phần nâng cao hình ảnh chuyên nghiệp và uy tín của Agribank.",
+        "Nâng cao chất lượng phục vụ, góp phần nâng cao hình ảnh chuyên nghiệp và uy tín của Agribank",
         "Mỗi cán bộ Agribank xây dựng hình ảnh, vai trò \"Đại sứ thương hiệu Agribank\""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 4 Điều 2 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
-      "question": "Theo Quy định \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\", Nhân viên giao dịch được giải nghĩa thế nào?",
+      "question": "Theo Quy định \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\", Nhân viên giao dịch được hiểu là:",
       "options": [
         "Nhân viên giao dịch là cán bộ trực tiếp nhận, giải quyết các yêu cầu của khách hàng trong phạm vi trách nhiệm được phân công",
         "Nhân viên giao dịch là cán bộ nghiệp vụ của chi nhánh thuộc bộ phận giao dịch với khách hàng tại quầy giao dịch",
@@ -32,18 +32,18 @@
         "Nhân viên giao dịch là cán bộ nghiệp vụ của chi nhánh thuộc bộ phận giao dịch với khách hàng tại quầy giao dịch và cán bộ trực tiếp nhận, giải quyết các yêu cầu của khách hàng trong phạm vi trách nhiệm được phân công"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 3 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Hãy chọn đáp án không đúng về quy định \"Bên ngoài điểm giao dịch\" theo \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\"?",
       "options": [
         "Bên ngoài điểm giao dịch sạch sẽ, tường không được bong tróc, nứt vỡ hay ố vàng. Sàn ko có rác bẩn, nước đọng",
         "Khu vực để xe sạch sẽ, trường hợp có sử dụng ô che nắng, có thể dùng của thương hiệu khác để quảng cáo chéo",
-        "Khu vực mặt tiền sạch sẽ, đảm bảo mỹ quan, không có vật dụng/hàng quán che khuất tầm nhìn.",
+        "Khu vực mặt tiền sạch sẽ, đảm bảo mỹ quan, không có vật dụng/hàng quán che khuất tầm nhìn",
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm c,d,e Khoản 1 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023, \"Không gian bên ngoài cây ATM\" phải thực hiện  theo nội dung nào?",
@@ -54,7 +54,7 @@
         "Biển hiệu tại cây ATM không bị che khuất, biển sạch sẽ, không phai màu, nứt vỡ"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm a Khoản 2 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Một trong các nội dung quy định về \"Không gian bên ngoài cây ATM\" theo\"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\" là: Biển hiệu tại cây ATM không bị che khuất, biển sạch sẽ, không phai màu, nứt vỡ là:",
@@ -65,40 +65,18 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 2 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023, bên trong điểm giao dịch, nhân viên giao dịch không được phép làm gì?",
       "options": [
         "Ghế ngồi của nhân viên để gối, treo áo",
         "Dán các loại giấy note, đồ trang trí trên máy móc trang thiết bị",
-        "Để dành cốc giấy uống nước cho giao dịch viên",
+        "Cốc dành cho khách hàng phải đảm bảo vệ sinh, ưu tiên cốc giấy",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
-    },
-    {
-      "question": "Quy định Bàn làm việc của nhân viên như thế nào theo \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\"?",
-      "options": [
-        "Bàn làm việc của nhân viên: Giấy tờ, vật dụng văn phòng sắp xếp gọn gàng, con dấu để vào khay.",
-        "Bàn làm việc của nhân viên: Giấy tờ, vật dụng văn phòng sắp xếp gọn gàng, con dấu để vào khay. Không để đồ ăn, nước uống, cốc nước, vật dụng cá nhân/vật dụng trang trí trên bàn làm việc. Giữ vệ sinh bàn sạch sẽ.",
-        "Không để đồ ăn, nước uống, cốc nước, vật dụng cá nhân/vật dụng trang trí trên bàn làm việc.",
-        "Giữ vệ sinh bàn sạch sẽ."
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Điểm i Khoản 3 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
-    },
-    {
-      "question": "Trong trường hợp quầy/bàn giao dịch ngưng phục vụ cần có thông báo \"Xin phép dừng giao dịch\" để khách hàng biết không?",
-      "options": [
-        "Tuỳ chi nhánh quy định",
-        "Tuỳ chi nhánh, phòng giao dịch quy định",
-        "Có",
-        "Không"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Điểm h Khoản 3 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Quy định về sắp xếp tờ rơi và các ấn phẩm maketing như thế nào theo \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\"?",
@@ -109,7 +87,7 @@
         "Đáp án 1 và 3"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm m Khoản 3 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Hãy chọn đáp án không đúng về quy định \"Bên trong điểm giao dịch\" theo Quy định \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\"",
@@ -120,7 +98,7 @@
         "Có thông báo thời gian mở/đóng cửa giao dịch rõ ràng và dễ nhìn, thể hiện đầy đủ thông tin bao gồm: Giờ thực hiện giao dịch, các ngày làm việc trong tuần."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm a,d,g,k Khoản 3 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Quy định về Camera giám sát bên trong điểm giao dịch như thế nào theo \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\"?",
@@ -128,10 +106,10 @@
         "Có Camera giám sát theo quy định của Agribank",
         "Không bắt buộc phải có Camera giám sát",
         "Tuỳ tài chính của chi nhánh để thực hiện lắp đặt Camera",
-        "Không có đáp án đúng"
+        ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm o Khoản 3 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Quy định về Hòm thư góp ý, hoặc đường dây hotline bên trong điểm giao dịch như thế nào theo \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\"?",
@@ -142,7 +120,7 @@
         "Đáp án 2 và 3"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm p Khoản 3 Điều 4 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 999/QyĐ-NHNo-TTh, thái độ ứng xử nào  của nhân viên bảo vệ với khách hàng là không đúng?",
@@ -153,7 +131,7 @@
         "Đáp án 1 và 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 6 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Tác phong của nhân viên giao dịch được quy định như thế nào theo \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\".",
@@ -164,7 +142,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 5 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 999/QyĐ-NHNo-TTh, ứng xử nào của  giao dịch viên với khách hàng là không đúng theo quy định về Tiêu chuẩn Nhân viên giao dịch?",
@@ -172,10 +150,10 @@
         "Nếu khách hàng có nhu cầu giao dịch vào thời gian đóng cửa, cần phải vui vẻ tiếp khách hàng, không được từ chối ngay. Cần giải thích và đưa ra biện pháp giải quyết khác cho khách hàng lựa chọn như: Nhận chứng từ hồ sơ giao dịch để xử lý vào đầu ngày làm việc tiếp theo. Trường hợp khách hàng có nhu cầu giao dịch cấp bách thì báo cáo xin ý kiến chỉ đạo của lãnh đạo",
         "Giao/nhận giấy tờ/hồ sơ bằng hai tay hoặc một tay, tư vấn rõ ràng, dễ hiểu khi khách hàng hỏi",
         "Tư vấn rõ ràng, dễ hiểu, chủ động hướng dẫn đầy đủ các thủ tục, giấy tờ cần thiết cho khách hàng, tránh để khách hàng hỏi trước, hoặc tự tìm hiểu",
-        "Chủ động nhận diện các thắc mắc/băn khoăn của khách hàng để hướng dẫn. Giải thích rõ hơn các điểm khách hàng cần lưu ý để sau này sử dụng sản phẩm không mắc các lỗi/vấn đề mà khách hàng khác đã mắc."
+        "Chủ động nhận diện các thắc mắc/băn khoăn của khách hàng để hướng dẫn. Giải thích rõ hơn các điểm khách hàng cần lưu ý để sau này sử dụng sản phẩm không mắc các lỗi/vấn đề mà khách hàng khác đã mắc"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b,c,e,h Khoản 6 Điều 5 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023, Hình thức của nhân viên giao dịch như nào để đáp ứng được Tiêu chuẩn Nhân viên giao dịch?",
@@ -186,7 +164,7 @@
         "Tuân thủ quy định về trang phục của Agribank; Đầu tóc gọn gàng, trang nhã, phù hợp môi trường công sở, không nhuộm màu sặc sỡ, hoặc nhiều màu, lạ mắt"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 5 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023, Khi khách hàng phàn nàn, Nhân viên giao dịch cần xử lý như thế nào?",
@@ -197,7 +175,7 @@
         "Lắng nghe và giải thích đầy đủ, cặn kẽ cho khách hàng.Trường hợp vấn đề vượt quá tầm kiểm soát hoặc nghiệp vụ, cần nhanh chóng liên hệ cấp có thẩm quyền cao hơn hoặc bộ phận chuyên trách về nghiệp vụ đó để yêu cầu trợ giúp/phối hợp giải quyết."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 5 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 999/QyĐ-NHNo-TTh, không để khách hàng chờ đợi quá bao nhiêu phút trước khi đến lượt giao dịch?",
@@ -208,7 +186,7 @@
         "20 phút"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 7 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 999/QyĐ-NHNo-TTh, tiêu chuẩn Nhân viên giao dịch quy định thế nào khi Kết thúc giao dịch?",
@@ -216,10 +194,32 @@
         "Cảm ơn và cúi chào khách hàng",
         "Cảm ơn và hẹn gặp lại khách hàng khi kết thúc giao dịch",
         "Nhắc nhở khách hàng kiểm tra lại tiền, giấy tờ (nếu có) trước khi rời quầy giao dịch. Cảm ơn và hẹn gặp lại khách hàng khi kết thúc giao dịch",
-        "Nhắc nhở khách hàng kiểm tra lại tiền, giấy tờ (nếu có) trước khi rời quầy giao dịch. Cảm ơn và cúi chào khách hàng"
+        "Nhắc nhở khách hàng kiểm tra lại tiền, giấy tờ (nếu có) trước khi rời quầy giao dịch. Cảm ơn  khách hàng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 8 Điều 5 Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023"
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định 999/QyĐ-NHNo-TTh, Để các cán bộ, nhân viên thực hiện đúng quy định về Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank, Giám đốc Chi nhánh có trách nhiệm gì?",
+      "options": [
+        "Tổ chức tập huấn quán triệt việc thực hiện nội dung Quy định này tới các đơn vị trực thuộc",
+        "Tổ chức phát động phong trào thi đua thực hiện nội dung Quy định này tới các đơn vị trực thuộc",
+        "Tổ chức tuyên truyền, nâng cao ý thức thực hiện nội dung Quy định này tới các đơn vị trực thuộc",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định 999/QyĐ-NHNo-TTh, Giám đốc  Chi nhánh cần làm gì để đảm bảo yêu cầu nâng cao  chất lượng phục vụ khách hàng tại đơn vị?",
+      "options": [
+        "Tổ chức tự đánh giá, kiểm tra hàng ngày việc tuân thủ Quy định 999/QyĐ-NHNo-TTh tại đơn vị",
+        "Bổ sung thêm danh mục nội dung cần đánh giá ngoài Phiếu đánh giá kèm Quy định 999/QyĐ-NHNo-TTh tại đơn vị",
+        "Cả đáp án 1 và 2",
+        "Đề xuất thuê bên thứ ba độc lập tổ chức kiểm tra việc tuân thủ Quy định 999/QyĐ-NHNo-TTh tại đơn vị"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
     }
   ]
 }
