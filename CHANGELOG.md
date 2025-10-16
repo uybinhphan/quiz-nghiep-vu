@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.5...v1.3.0) (2025-10-16)
+
+
+### Features
+
+* Them cau hoi thi dot 2 2025 ([#61](https://github.com/uybinhphan/quiz-nghiep-vu/issues/61)) ([2a9dba3](https://github.com/uybinhphan/quiz-nghiep-vu/commit/2a9dba39989636d64929f9124ed06e3703cd23fb))
+
+
+### Bug Fixes
+
+* auto advance timer persistence and manifest output ([#59](https://github.com/uybinhphan/quiz-nghiep-vu/issues/59)) ([5484b02](https://github.com/uybinhphan/quiz-nghiep-vu/commit/5484b02b68ec3593c3d4556bf8f37cd25e6c184e))
+
 ## [1.2.5](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.4...v1.2.5) (2025-09-09)
 
 
