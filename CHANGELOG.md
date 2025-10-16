@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.0...v1.3.1) (2025-10-16)
+
+
+### Bug Fixes
+
+* normalize quiz data paths ([94a7139](https://github.com/uybinhphan/quiz-nghiep-vu/commit/94a713939e1863da6cf283d4bcca03e134b43a04))
+
 ## [1.3.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.2.5...v1.3.0) (2025-10-16)
 
 
