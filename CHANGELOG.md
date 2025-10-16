@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.2...v1.3.3) (2025-10-16)
+
+
+### Bug Fixes
+
+* sua loi trich dan nguon hien n/a ([#65](https://github.com/uybinhphan/quiz-nghiep-vu/issues/65)) ([3b050c6](https://github.com/uybinhphan/quiz-nghiep-vu/commit/3b050c613ed3f8f0e1d8f46d7497baead1234e33))
+
 ## [1.3.2](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.1...v1.3.2) (2025-10-16)
 
 
