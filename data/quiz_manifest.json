@@ -1,94 +1,66 @@
 [
   {
-    "name": "1. Tín dụng khách hàng doanh nghiệp",
+    "name": "1. Tín dụng khách hàng doanh nghiệp",
     "file": "./data/1-tin-dung-khach-hang-doanh-nghiep.json"
   },
   {
-    "name": "2. Thẩm định",
+    "name": "2. Thẩm định",
     "file": "./data/2-tham-dinh.json"
   },
   {
-    "name": "3. Tín dụng khách hàng cá nhân",
+    "name": "3. Tín dụng khách hàng cá nhân",
     "file": "./data/3-tin-dung-khach-hang-ca-nhan.json"
   },
   {
-    "name": "4. Xử lý nợ",
+    "name": "4. Xử lý nợ",
     "file": "./data/4-xu-ly-no.json"
   },
   {
-    "name": "5. Thanh toán quốc tế và Tài trợ thương mại",
+    "name": "5. Thanh toán quốc tế và Tài trợ thương mại",
     "file": "./data/5-thanh-toan-quoc-te-va-tai-tro-thuong-mai.json"
   },
   {
-    "name": "6. Kế hoạch và quản lý rủi ro",
-    "file": "./data/6-ke-hoach-va-quan-ly-rui-ro.json"
-  },
-  {
-    "name": "7. Kế toán giao dịch nội bộ",
+    "name": "7. Kế toán giao dịch nội bộ ",
     "file": "./data/7-ke-toan-giao-dich-noi-bo.json"
   },
   {
-    "name": "8. Kế toán giao dịch khách hàng",
+    "name": "8. Kế toán giao dịch khách hàng",
     "file": "./data/8-ke-toan-giao-dich-khach-hang.json"
   },
   {
-    "name": "9. Tiền tệ kho quỹ",
-    "file": "./data/9-tien-te-kho-quy.json"
+    "name": "9. Kiểm ngân",
+    "file": "./data/9-kiem-ngan.json"
   },
   {
-    "name": "10. Kiểm tra giám sát nội bộ",
-    "file": "./data/10-kiem-tra-giam-sat-noi-bo.json"
-  },
-  {
-    "name": "11. Công nghệ thông tin",
+    "name": "11. Công nghệ thông tin",
     "file": "./data/11-cong-nghe-thong-tin.json"
   },
   {
-    "name": "12. Nhân sự - Tiền lương",
+    "name": "12. Nhân sự - Tiền lương",
     "file": "./data/12-nhan-su-tien-luong.json"
   },
   {
-    "name": "13. Pháp chế",
+    "name": "13. Pháp chế",
     "file": "./data/13-phap-che.json"
   },
   {
-    "name": "14. Xây dựng cơ bản, quản trị hành chính",
+    "name": "14. Xây dựng cơ bản, quản trị hành chính",
     "file": "./data/14-xay-dung-co-ban-quan-tri-hanh-chinh.json"
   },
   {
-    "name": "15. Văn thư, lễ tân",
+    "name": "15. Văn thư, lễ tân",
     "file": "./data/15-van-thu-le-tan.json"
   },
   {
-    "name": "17. Bộ câu hỏi Kiến thức chung",
-    "file": "./data/17-bo-cau-hoi-kien-thuc-chung.json"
+    "name": "17a. Kiến thức chung",
+    "file": "./data/17a-kien-thuc-chung.json"
   },
   {
-    "name": "18. Bộ câu hỏi Kiến thức kỹ năng quản lý cấp phòng",
-    "file": "./data/18-bo-cau-hoi-kien-thuc-ky-nang-quan-ly-cap-phong.json"
+    "name": "17b. Quản lý cấp phòng",
+    "file": "./data/17b-quan-ly-cap-phong.json"
   },
   {
-    "name": "19. Bộ câu hỏi Tiêu chuẩn tác phong giao dịch viên",
-    "file": "./data/19-bo-cau-hoi-tieu-chuan-tac-phong-giao-dich-vien.json"
-  },
-  {
-    "name": "20. PGĐ-Kiến thức chung-150 câu",
-    "file": "./data/20-pgd-kien-thuc-chung-150-cau.json"
-  },
-  {
-    "name": "21. PGĐ-Kỹ năng quản lý-150 câu",
-    "file": "./data/21-pgd-ky-nang-quan-ly-150-cau.json"
-  },
-  {
-    "name": "22. PGĐ-Nghiệp vụ kế toán-300 câu",
-    "file": "./data/22-pgd-nghiep-vu-ke-toan-300-cau.json"
-  },
-  {
-    "name": "23. PGĐ-Nghiệp vụ tín dụng-300 câu",
-    "file": "./data/23-pgd-nghiep-vu-tin-dung-300-cau.json"
-  },
-  {
-    "name": "24. Bộ câu hỏi hội thi Agribanker làm chủ công nghệ trong kỷ nguyên số v2",
-    "file": "./data/24-bo-cau-hoi-hoi-thi-agribanker-lam-chu-cong-nghe-trong-ky-nguyen-so-v2.json"
+    "name": "17c. Tiêu chuẩn tác phong GDV",
+    "file": "./data/17c-tieu-chuan-tac-phong-gdv.json"
   }
 ]

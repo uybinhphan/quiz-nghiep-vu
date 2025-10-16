@@ -1,5 +1,5 @@
 {
-  "originalDisplayName": "13. Pháp chế",
+  "originalDisplayName": "13. Pháp chế",
   "questions": [
     {
       "question": "Nguyên đơn có quyền lựa chọn Tòa án giải quyết tranh chấp về kinh doanh, thương mại trong trường hợp nào?",
@@ -10,7 +10,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "điểm a, b, c Khoản 1 Điều 40 BLTTDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Người có quyền kháng nghị bản án dân sự của tòa án cấp sơ thẩm là:",
@@ -21,7 +21,7 @@
         "Viện kiểm sát nhân dân cùng cấp"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 278 BLTTDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Chủ thể nào sau đây không phải là người tiến hành tố tụng dân sự?",
@@ -32,7 +32,7 @@
         "Kiểm sát viên."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 46 BLTTDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Tòa án ra bản án nhân danh chủ thể nào sau đây?",
@@ -43,7 +43,7 @@
         "Nước CHXHCN Việt Nam."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 266, khoản 1 Điều 313 BLTTDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Phương án nào sau đây không phải là một trong các quyết định mà Thẩm phán có thể đưa ra trong thời hạn chuẩn bị xét xử?",
@@ -54,7 +54,7 @@
         "Đưa vụ án ra xét xử."
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 3 Điều 203 BLTTDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Thời hạn thực hiện việc sửa đổi, bổ sung đơn khởi kiện:",
@@ -65,7 +65,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 193 BLTTDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Loại yêu cầu nào sau đây thuộc thẩm quyền giải quyết của Tòa án?",
@@ -76,18 +76,18 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 5, 6, 7 Điều 27; Điều 425 BLTTDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Ngày khởi kiện vụ án dân sự được xác định là:",
       "options": [
         "Ngày đương sự nộp đơn khởi kiện tại Tòa án.",
         "Ngày được ghi trên dấu của tổ chức dịch vụ bưu chính nơi gửi.",
-        "Tất cả các đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đúng.",
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 190 BLTTDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Phương án nào sau đây không phải là một trong các biện pháp bảo đảm thi hành án?",
@@ -98,7 +98,7 @@
         "Tạm dừng việc đăng ký, chuyển dịch, thay đổi hiện trạng về tài sản."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Điều 66 Luật THADS 2008, Luật sửa đổi, bổ sung một số điều của Luật THADS 2014"
+      "source": "N/A"
     },
     {
       "question": "Bản án, quyết định dân sự nào sau đây được thi hành theo Luật Thi hành án dân sự 2008, Luật sửa đổi, bổ sung một số điều của Luật Thi hành án dân sự 2014?",
@@ -109,7 +109,7 @@
         "Tất cả các đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 2 Luật THADS 2008, Luật sửa đổi, bổ sung một số điều của Luật THADS 2014"
+      "source": "N/A"
     },
     {
       "question": "Chấp hành viên không được làm những việc nào sau đây?",
@@ -120,18 +120,18 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 21 Luật THADS 2008, Luật sửa đổi, bổ sung một số điều của Luật THADS 2014"
+      "source": "N/A"
     },
     {
       "question": "Thủ trưởng cơ quan thi hành án dân sự chủ động ra quyết định thi hành án đối với phần bản án, quyết định nào sau đây?",
       "options": [
-        "Tịch thu sung quỹ nhà nước, tịch thu tiêu hủy vật chứng, tài sản; các khoản thu khác cho Nhà nước;",
+        "Tịch thu sung quỹ nhà nước, tịch thu tiêu hủy vật chứng, tài sản; các khoản thu khác cho Nhà nước",
         "Yêu cầu thi hành án của người được thi hành án",
         "Yêu cầu thi hành án của cá nhân, cơ quan, tổ chức phải thực hiện nghĩa vụ trong bản án, quyết định được thi hành",
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 36 Luật THADS 2008, Luật sửa đổi, bổ sung một số điều của Luật THADS 2014"
+      "source": "N/A"
     },
     {
       "question": "Phương thức thông báo về việc xử lý tài sản bảo đảm là:",
@@ -142,7 +142,7 @@
         "Tất cả các đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 51 Nghị định 21/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Bên bảo đảm được nhận lại tài sản bảo đảm trong trường hợp:",
@@ -153,7 +153,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 57 Nghị định số 21/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp một tài sản được dùng để bảo đảm thực hiện nhiều nghĩa vụ hoặc được giữ bởi người khác thì văn bản thông báo về việc xử lý tài sản bảo đảm phải được gửi đồng thời cho đối tượng nào? (chọn đáp án đúng nhất)",
@@ -164,18 +164,18 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 3 Điều 51 Nghị định 21/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp một nghĩa vụ được bảo đảm bằng nhiều tài sản mà các bên không có thỏa thuận về việc lựa chọn tài sản bảo đảm để xử lý và pháp luật liên quan không có quy định khác thì bên nhận bảo đảm có quyền:",
       "options": [
         "Lựa chọn tài sản bảo đảm để xử lý.",
         "Xử lý tất cả các tài sản bảo đảm.",
-        "Tất cả các đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đúng.",
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 52 Nghị định 21/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp chủ sở hữu tài sản và bên nhận bảo đảm thỏa thuận dùng tài sản để bảo đảm thực hiện nghĩa vụ của người khác thì áp dụng quy định về:",
@@ -186,18 +186,18 @@
         "Cả đáp án 1 và 2 đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 4 Nghị định số 21/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Cơ quan thi hành án dân sự bao gồm:",
       "options": [
-        "Cơ quan thi hành án dân sự cấp huyện.",
         "Cơ quan thi hành án dân sự cấp tỉnh.",
         "Cơ quan thi hành án cấp quân khu.",
-        "Tất cả các đáp án trên."
+        "Tất cả các đáp án trên.",
+        ""
       ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 13 Luật THADS"
+      "correctAnswerIndex": 2,
+      "source": "N/A"
     },
     {
       "question": "Việc một bên dùng tài sản thuộc sở hữu của mình để bảo đảm thực hiện nghĩa vụ và không giao tài sản cho bên kia được gọi là biện pháp gì?",
@@ -208,7 +208,7 @@
         "Cầm giữ tài sản."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 317 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Văn bản thông báo về việc xử lý tài sản bảo đảm có nội dung chủ yếu là:",
@@ -219,7 +219,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 51 Nghị định số  21/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Văn bản công chứng có hiệu lực khi nào?",
@@ -230,7 +230,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 1 Điều 5 Luật Công chứng năm 2014"
+      "source": "N/A"
     },
     {
       "question": "Sự kiện nào sau đây làm chấm dứt quan hệ đại diện theo ủy quyền?",
@@ -241,7 +241,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 140 BLDS năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Doanh nghiệp chấm dứt sự tồn tại khi:",
@@ -252,7 +252,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 207, 214 Luật Doanh nghiệp năm 2020"
+      "source": "N/A"
     },
     {
       "question": "Tài sản góp vốn vào doanh nghiệp có thể là:",
@@ -263,18 +263,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 34 Luật Doanh nghiệp 2020"
-    },
-    {
-      "question": "Luật doanh nghiệp 2020 điều chỉnh các đối tượng nào sau đây?",
-      "options": [
-        "Doanh nghiệp nhà nước, hợp tác xã, doanh nghiệp có vốn đầu tư nước ngoài",
-        "Các loại hình doanh nghiệp thuộc khu vực tư, bao gồm doanh nghiệp trong và ngoài nước",
-        "Công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh và doanh nghiệp tư nhân, nhóm công ty",
-        "Doanh nghiệp xã hội, doanh nghiệp tư nhân"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Điều 1 Luật Doanh nghiệp năm 2020"
+      "source": "N/A"
     },
     {
       "question": "Chủ doanh nghiệp tư  nhân không được thực hiện quyền nào sau đây?",
@@ -285,7 +274,7 @@
         "Thuê người khác làm Giám đốc hoặc Tổng giám đốc để quản lý, điều hành hoạt động kinh doanh"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Điều 188, khoản 1, khoản 2 Điều 190, khoản 1 Điều 192 Luật Doanh nghiệp năm 2020"
+      "source": "N/A"
     },
     {
       "question": "Chủ thể nào sau đây không có tư cách pháp nhân?",
@@ -296,7 +285,7 @@
         "Công ty Hợp danh"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 46, khoản 2 Điều 74, khoản 2 Điều 111, khoản 2 Điều 177 Luật Doanh nghiệp năm 2020, Điều 3 Luật hợp tác xã năm 2012; Điều 74 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây về Chi nhánh là đúng?",
@@ -307,7 +296,7 @@
         "Chi nhánh là đơn vị phụ thuộc của doanh nghiệp có con dấu và hạch toán độc lập, có quyền tự chủ trong hoạt động sản xuất kinh doanh của mình"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 44 Luật Doanh nghiệp năm 2020"
+      "source": "N/A"
     },
     {
       "question": "Chi nhánh chấm dứt hoạt động trong các trường hợp nào sau đây?",
@@ -318,7 +307,7 @@
         "Cả đáp án 2 và 3 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 213 Luật Doanh nghiệp năm 2020"
+      "source": "N/A"
     },
     {
       "question": "Công ty TNHH có tư cách pháp nhân khi nào?",
@@ -329,18 +318,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 46, khoản 2 Điều 74 Luật Doanh nghiệp 2020"
-    },
-    {
-      "question": "Luật Phá sản 2014 áp dụng đối với chủ thể nào sau đây?",
-      "options": [
-        "Doanh nghiệp tư nhân",
-        "Hợp tác xã",
-        "Công ty TNHH, Công ty Cổ phần",
-        "Tất cả các đáp án trên"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Điều 2 Luật Phá sản 2014"
+      "source": "N/A"
     },
     {
       "question": "Người nào sau đây nộp đơn yêu cầu mở thủ tục phá sản mà không phải nộp lệ phí phá sản?",
@@ -351,7 +329,7 @@
         "Chủ nợ có bảo đảm một phần"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 22 Luật Phá sản năm 2014"
+      "source": "N/A"
     },
     {
       "question": "Đối tượng nào sau đây không có quyền nộp đơn yêu cầu mở thủ tục phá sản doanh nghiệp theo quy định của Luật Phá sản 2014?",
@@ -362,7 +340,7 @@
         "Người lao động khi hết thời hạn 03 tháng kể từ ngày phải thực hiện nghĩa vụ trả lương, các khoản nợ khác đến hạn đối với người lao động mà doanh nghiệp, hợp tác xã không thực hiện nghĩa vụ thanh toán"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1, Điều 5 Luật Phá sản 2014"
+      "source": "N/A"
     },
     {
       "question": "Giao dịch của doanh nghiệp, hợp tác xã mất khả năng thanh toán được thực hiện trong thời gian 06 tháng trước ngày Tòa án ra quyết định mở thủ tục phá sản bị coi là vô hiệu nếu thuộc trường hợp nào sau đây?",
@@ -373,7 +351,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 59 Luật Phá sản năm 2014"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Bộ luật Lao động, Người sử dụng lao động có quyền không chấp thuận cho người lao động được tạm hoãn hợp đồng lao động trong các trường hợp nào sau đây?",
@@ -384,7 +362,7 @@
         "Người lao động mang thai  có xác nhận của bệnh viện về việc tiếp tục làm việc có thể ảnh hưởng xấu tới thai nhi"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 30 Bộ luật Lao động năm 2019"
+      "source": "N/A"
     },
     {
       "question": "Đâu không phải là hình thức xử lý kỷ luật lao động?",
@@ -395,7 +373,7 @@
         "Phạt tiền"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 124 Bộ luật Lao động năm 2019"
+      "source": "N/A"
     },
     {
       "question": "Hành vi nào sau đây bị nghiêm cấm khi xử lý kỷ luật lao động?",
@@ -406,7 +384,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 127 Bộ luật Lao động năm 2019"
+      "source": "N/A"
     },
     {
       "question": "Đâu không phải là thông tin định danh của khách hàng tổ chức?",
@@ -417,18 +395,18 @@
         "Số dư tài khoản của khách hàng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 6, 7 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Người quyết định cung cấp thông tin có quyền từ chối cung cấp thông tin khách hàng cho cơ quan, tổ chức, cá nhân đối với:",
       "options": [
         "Yêu cầu cung cấp thông tin khách hàng không đúng quy định của pháp luật",
-        "Yêu cầu cung cấp thông tin khách hàng bị trùng lắp, hết hiệu lực",
+        "Yêu cầu cung cấp thông tin khách hàng bị trùng lặp, hết hiệu lực",
         "Yêu cầu cung cấp thông tin khách hàng không thuộc phạm vi thông tin khách hàng mà Agribank đang lưu giữ theo quy định của pháp luật",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 1 Điều 21 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Agribank không có trách nhiệm cung cấp loại thông tin khách hàng nào dưới đây cho cơ quan, tổ chức có thẩm quyền khi được yêu cầu?",
@@ -439,7 +417,7 @@
         "Thông tin định danh khách hàng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 4 và khoản 2 Điều 5 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Thời hạn Agribank phải có thông báo cho bên yêu cầu cung cấp thông tin trong trường hợp Agribank từ chối cung cấp thông tin khách hàng:",
@@ -450,7 +428,7 @@
         "Không quá 15 ngày làm việc"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 17 Quy định số 1135/QĐ-HĐTV-PC được sửa đổi, bổ sung bởi khoản 6 Điều 1 Quy định số 355/QyĐ-HĐTV-PC."
+      "source": "N/A"
     },
     {
       "question": "Thông tin khác do Agribank lưu giữ bao gồm:",
@@ -461,7 +439,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 12 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Đối với yêu cầu cung cấp thông tin được gửi trực tiếp đến Trụ sở chính, Tổng Giám đốc có thể ủy quyền lại cho chức danh nào trong hệ thống Agribank quyết định cung cấp thông tin?",
@@ -472,7 +450,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 8 Điều 1 Quy định số 355/QyĐ-HĐTV-PC ngày 01/6/2023 sửa đổi Điều 20 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Giám đốc chi nhánh được phân công, ủy quyền cho ai quyết định việc cung cấp thông tin?",
@@ -483,7 +461,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 8 Điều 1 Quy định số 355/QyĐ-HĐTV-PC ngày 01/6/2023 sửa đổi  Điều 20 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Thông tin nào sau đây không phải thông tin định danh đối với khách hàng cá nhân theo quy định của Agribank?",
@@ -494,7 +472,7 @@
         "Chữ ký điện tử và mẫu chữ ký"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 6 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Cá nhân nào dưới đây có thẩm quyền ký văn bản yêu cầu tổ chức tín dụng cung cấp thông tin khách hàng?",
@@ -505,7 +483,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 13 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Việc yêu cầu tổ chức tín dụng cung cấp thông tin khách hàng được thực hiện theo hình thức nào?",
@@ -516,7 +494,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 14 Quy định 1135/QĐ-HĐTV-PC và khoản 4 Điều 1 Quy định số 355/QyĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Ai là người có thẩm quyền quyết định cung cấp thông tin trong trường hợp yêu cầu cung cấp thông tin về vụ việc giải quyết đơn tố giác của người lao động Agribank có hành vi phạm tội?",
@@ -527,7 +505,7 @@
         "Giám đốc Phòng giao dịch"
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 8 Điều 1 Quy định số 355/QyĐ-HĐTV-PC ngày 01/6/2023 sửa đổi  Điều 20 Quy định 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Trong trường hợp hồ sơ yêu cầu cung cấp thông tin khách hàng chưa đầy đủ theo quy định, đơn vị xử lý cần thực hiện như thế nào?",
@@ -538,7 +516,7 @@
         "Cả đáp án 2 và 3 đều đúng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm b Khoản 1 Điều 16 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Tài liệu chứng minh yêu cầu cung cấp thông tin khách hàng không áp dụng đối với trường hợp nào?",
@@ -549,7 +527,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 5 Điều 1 Quy định số 355/QyĐ-HĐTV-PC sửa đổi, bổ sung điểm c khoản 1 Điều 15 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Sau khi nhận được yêu cầu cung cấp thông tin, đơn vị xử lý phải thực hiện những công việc nào sau đây?",
@@ -560,7 +538,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 16 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Văn bản yêu cầu cung cấp thông tin do cá nhân có thẩm quyền yêu cầu cung cấp thông tin ký phải có các nội dung nào sau đây?",
@@ -571,7 +549,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 5 Điều 1 Quy định số 355/QyĐ-HĐTV-PC sửa đổi, bổ sung điểm a khoản 1 Điều 15 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Thông tin nào sau đây là thông tin về giao dịch của khách hàng?",
@@ -582,7 +560,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 10 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài có trách nhiệm nào sau đây?",
@@ -593,7 +571,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 2 Điều 14 Nghị định 117/2018/NĐ-CP về việc giữ bí mật, cung cấp thông tin khách hàng của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài"
+      "source": "N/A"
     },
     {
       "question": "Thông tin nào dưới đây Agribank được phép cung cấp?",
@@ -604,18 +582,18 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 5, Điều 6 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Thông tin về tài khoản của khách hàng gồm:",
       "options": [
         "Thông tin định danh khách hàng",
         "Thông tin về lãi suất cho vay khách hàng",
-        "Thông tin tên tài khoản, số hiệu tài khoản, số dư tài khoản, thông tin liên quan đến giao dịch nộp tiền, rút tiền, chuyển tiền, nhận tiền của khách hàng.",
+        "Thông tin tên tài khoản, số hiệu tài khoản, số dư tài khoản, thông tin liên quan đến giao dịch nộp tiền, rút tiền, chuyển tiền, nhận tiền của khách hàng",
         "Cả đáp án 1 và 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 7 Quyết định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Agribank, Tổng Giám đốc quyết định cung cấp thông tin trong các trường hợp nào sau đây?",
@@ -626,7 +604,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 8 Điều 1 Quy định số 355/QyĐ-HĐTV-PC sửa đổi, bổ sung khoản 1 Điều 20 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Người quyết định cung cấp thông tin có trách nhiệm nào sau đây?",
@@ -637,7 +615,7 @@
         "Tất cả các đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 21 Quy định số 1135/QĐ-HĐTV-PC được sửa đổi, bổ sung bởi Quy định 355/QyĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Thông tin định danh của khách hàng tổ chức gồm:",
@@ -648,18 +626,18 @@
         "Tất cả các đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 6 Quy định số 1135/QĐ-HĐTV-PC được sửa đổi, bổ sung bởi Quy định 355/QyĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Cá nhân nào sau đây có thẩm quyền ký văn bản yêu cầu cung cấp thông tin khách hàng?",
       "options": [
         "Tổng Thanh tra Chính Phủ",
         "Kiểm toán trưởng kiểm toán nhà nước khu vực",
-        "Phó Chánh Thanh tra huyện",
-        "Tất cả các đáp án trên đều đúng"
+        "Tất cả các đáp án trên đều đúng",
+        ""
       ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 1 Quy định số 355/QyĐ-HĐTV-PC sửa đổi Điều 13 Quy định số 1135/QyĐ-HĐTV-PC"
+      "correctAnswerIndex": 2,
+      "source": "N/A"
     },
     {
       "question": "Đâu là phương thức lựa chọn nhà thầu?",
@@ -670,7 +648,7 @@
         "Cả đáp án 1, 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 30 - 33 Luật đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Hình thức yêu cầu cung cấp thông tin gián tiếp là như thế nào?",
@@ -681,7 +659,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 14 Quy định 1135/QĐ-HĐTV-PC và khoản 4 Điều 1 Quy định số 355/QyĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào là đúng nhất trong các nhận định sau đây?",
@@ -692,7 +670,7 @@
         "Hình thức yêu cầu, cung cấp thông tin  khách hàng bao gồm hình thức trực tiếp và gián tiếp"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 4 Điều 1 Quy định số 355/QyĐ-HĐTV-PC sửa đổi, bổ sung Điều 14 Quy định 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài có trách nhiệm:",
@@ -703,7 +681,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 2 Điều 14 Nghị định số 117/2018/NĐ-CP ngày 11/9/2018"
+      "source": "N/A"
     },
     {
       "question": "Các loại thông tin Agribank có trách nhiệm cung cấp là:",
@@ -714,7 +692,7 @@
         "Thông tin Agribank không lưu giữ"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 4 Quy định số 1135/QĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Bí mật nhà nước được phân thành mấy độ mật theo quy định của Luật Bảo vệ bí mật nhà nước?",
@@ -725,7 +703,7 @@
         "04"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 5 Quy chế  2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Quyền của khách hàng trong việc giữ bí mật, cung cấp thông tin khách hàng:",
@@ -736,7 +714,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 1 Điều 13 Nghị định số 117/2018/NĐ-CP ngày 11/9/2018"
+      "source": "N/A"
     },
     {
       "question": "Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài có quyền nào sau đây trong việc giữ bí mật, cung cấp thông tin khách hàng?",
@@ -747,7 +725,7 @@
         "Thông báo ngay cho khách hàng biết khi nhận được yêu cầu của cơ quan nhà nước có thẩm quyền"
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 1 Điều 14 Nghị định số 117/2018/NĐ-CP ngày 11/9/2018"
+      "source": "N/A"
     },
     {
       "question": "Trong quá trình tổ chức thi hành án, ai là người có thẩm quyền ký văn bản yêu cầu tổ chức tín dụng, chi nhánh ngân hàng nước ngoài cung cấp thông tin khách hàng?",
@@ -758,7 +736,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 7 Điều 13 Quy định số 1135/QĐ-HĐTV-PC sửa đổi bởi khoản 3 Điều 1 Quy định số 355/QyĐ-HĐTV-PC."
+      "source": "N/A"
     },
     {
       "question": "Hành vi nào dưới đây bị nghiêm cấm trong bảo vệ bí mật nhà nước?",
@@ -769,7 +747,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1,3,6 Điều 4 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Thẩm quyền ban hành danh mục bí mật nhà nước theo quy định của Luật Bảo vệ bí mật nhà nước thuộc?",
@@ -780,7 +758,7 @@
         "Chủ tịch nước"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 9 Luật Bảo vệ bí mật nhà nước"
+      "source": "N/A"
     },
     {
       "question": "Thời hạn bảo vệ bí mật nhà nước độ Mật là bao nhiêu năm?",
@@ -791,7 +769,7 @@
         "40 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 14 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Chọn đáp án đúng nhất về căn cứ xác định bí mật nhà nước và độ mật của bí mật nhà nước?",
@@ -802,7 +780,7 @@
         "Danh mục bí mật nhà nước thuộc các lĩnh vực do Thủ tướng Chính phủ ban hành và quy định của Luật Bảo vệ bí mật nhà nước"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 6 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Bí mật nhà nước được giải mật toàn bộ hoặc một phần trong trường hợp nào sau đây?",
@@ -813,7 +791,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 17 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Tiêu hủy tài liệu, vật chứa bí mật nhà nước trong trường hợp nào sau đây?",
@@ -824,7 +802,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 18 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Thẩm quyền quyết định việc cung cấp, chuyển giao bí mật nhà nước cho cơ quan, tổ chức, cá nhân nước ngoài đối với bí mật nhà nước độ Tuyệt mật thuộc?",
@@ -835,7 +813,7 @@
         "Thủ tướng Chính phủ"
       ],
       "correctAnswerIndex": 3,
-      "source": "điểm a khoản 1 Điều 12 Quy chế  2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây là không đúng khi thực hiện sao, chụp tài liệu, vật chứa bí mật nhà nước?",
@@ -846,7 +824,7 @@
         "Việc sao, chụp tài liệu, vật chứa bí mật nhà nước phải tiến hành tại địa điểm bảo đảm an toàn do Trưởng đơn vị trực tiếp quản lý bí mật nhà nước quy định"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 4, 5 Điều 7 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây là không đúng về \"ký thừa ủy quyền\"?",
@@ -857,7 +835,7 @@
         "Văn bản ký thừa ủy quyền được thực hiện theo thể thức và đóng dấu của đơn vị ủy quyền"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 7 Điều 2 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Thể thức văn bản gồm một (một số) thành phần chính nào sau đây?",
@@ -868,7 +846,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 6 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Thành phần nào sau đây không phải là một thành phần chính của thể thức văn bản?",
@@ -879,7 +857,7 @@
         "Số, ký hiệu của văn bản"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm a khoản 2 Điều 6 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Cách trình bày nào sau đây là đúng về thời gian ban hành văn bản?",
@@ -890,7 +868,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 10 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Nội dung nào sau đây thuộc thành phần thể thức bản sao văn bản?",
@@ -901,7 +879,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 21 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "\"Bản sao đầy đủ, chính xác nội dung của bản gốc hoặc bản chính văn bản, được trình bày theo thể thức và kỹ thuật quy định\" là hình thức sao nào sau đây?",
@@ -912,7 +890,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 18 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Căn cứ ban hành văn bản bao gồm:",
@@ -923,7 +901,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a khoản 1 Điều 12 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây là đúng về cách trình bày \"điểm\" trong văn bản?",
@@ -934,7 +912,7 @@
         "Thứ tự các điểm dùng các chữ cái tiếng Việt theo thứ tự bảng chữ cái tiếng Việt, sau có dấu đóng ngoặc đơn, bằng chữ in thường, cỡ chữ bằng cỡ chữ của phần lời văn, kiểu chữ đứng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b khoản 5 Điều 12 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Bản gốc văn bản là:",
@@ -945,7 +923,7 @@
         "Bản hoàn chỉnh về nội dung văn bản, được người có thẩm quyền trực tiếp ký trên văn bản"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 6 Điều 2 Quy định 1738/QĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "\"Văn bản ghi chép diễn biến các nội dung báo cáo, trao đổi, thảo luận và thống nhất trong quá trình giải quyết một vấn đề nào đó hoặc ghi nhận lại việc bàn giao tài sản, công việc, hồ sơ giữa các bên\" là loại văn bản nào sau đây?",
@@ -956,18 +934,7 @@
         "Giấy biên nhận"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm n khoản 2 Điều 3 Quy định 979/QyĐ-NHNo-PC"
-    },
-    {
-      "question": "Trình tự quản lý văn bản đi của Agribank:",
-      "options": [
-        "1. Cấp số, thời gian ban hành văn bản.\r\n2. Đăng ký văn bản đi.\r\n3. Nhân bản, đóng dấu Agribank, đơn vị Agribank, dấu chỉ mức độ mật, khẩn (nếu có).\r\n4. Phát hành, chuyển phát và theo dõi việc chuyển phát văn bản đi.\r\n5. Lưu văn bản đi",
-        "1. Đăng ký văn bản đi.\r\n2. Nhân bản, đóng dấu Agribank, đơn vị Agribank, dấu chỉ mức độ mật, khẩn (nếu có).\r\n3. Phát hành, chuyển phát và theo dõi việc chuyển phát văn bản đi.\r\n4. Lưu văn bản đi",
-        "1. Cấp số, thời gian ban hành văn bản.\r\n2. Đăng ký văn bản đi.\r\n3. Phát hành, chuyển phát và theo dõi việc chuyển phát văn bản đi.\r\n4. Lưu văn bản đi",
-        "1. Đăng ký văn bản đi.\r\n2. Cấp số, thời gian ban hành văn bản.\r\n3. Nhân bản, đóng dấu Agribank, đơn vị Agribank, dấu chỉ mức độ mật, khẩn (nếu có).\r\n4. Lưu văn bản đi"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Điều 5 Quy định 1738/QĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Theo Quyết định số 2664/QĐ-NHNo-PC ngày 01/12/2022 về ủy quyền thực hiện nhiệm vụ, quyền hạn của người đại diện theo pháp luật, trường hợp Trưởng phòng Kế toán đi vắng, Phó phòng Kế toán được ký trên sổ tiết kiệm khi nào?",
@@ -978,18 +945,7 @@
         "Được Trưởng Phòng Kế toán ủy quyền lại từng lần bằng văn bản"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 2 Quyết định 2664/QĐ-NHNo-PC"
-    },
-    {
-      "question": "Nhận định nào sau đây là đúng nhất về Người đại diện theo pháp luật của doanh nghiệp theo quy định của Luật Doanh nghiệp năm 2020?",
-      "options": [
-        "Người đại diện theo pháp luật của doanh nghiệp là cá nhân đại diện cho doanh nghiệp thực hiện các quyền và nghĩa vụ phát sinh từ giao dịch của doanh nghiệp",
-        "Người đại diện theo pháp luật của doanh nghiệp là cá nhân đại diện cho doanh nghiệp thực hiện các quyền và nghĩa vụ phát sinh từ giao dịch của doanh nghiệp, đại diện cho doanh nghiệp với tư cách người yêu cầu giải quyết việc dân sự trước Tòa án",
-        "Người đại diện theo pháp luật của doanh nghiệp là cá nhân đại diện cho doanh nghiệp thực hiện các quyền và nghĩa vụ phát sinh từ giao dịch của doanh nghiệp, đại diện cho doanh nghiệp với tư cách người yêu cầu giải quyết việc dân sự, nguyên đơn, bị đơn, người có quyền lợi, nghĩa vụ liên quan trước Trọng tài, Tòa án",
-        "Người đại diện theo pháp luật của doanh nghiệp là cá nhân đại diện cho doanh nghiệp thực hiện các quyền và nghĩa vụ phát sinh từ giao dịch của doanh nghiệp, đại diện cho doanh nghiệp với tư cách người yêu cầu giải quyết việc dân sự, nguyên đơn, bị đơn, người có quyền lợi, nghĩa vụ liên quan trước Trọng tài, Tòa án và các quyền, nghĩa vụ khác theo quy định của pháp luật"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Điều 12 Luật Doanh nghiệp 2020"
+      "source": "N/A"
     },
     {
       "question": "Phạm vi ủy quyền của Quyết định số 2664/QĐ-NHNo-PC ngày 01/12/2022 về ủy quyền thực hiện nhiệm vụ, quyền hạn của người đại diện theo pháp luật Agribank không bao gồm:",
@@ -1000,7 +956,7 @@
         "Ký kết và thực hiện hợp đồng tiền gửi"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 1 Quyết định 2664/QĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Đối tượng nào sau đây không phải là Người được ủy quyền thường xuyên theo Quyết định số 2665/QĐ-NHNo-PC ngày 01/12/2022 của người đại diện theo pháp luật Agribank về ủy quyền thực hiện quyền, nghĩa vụ tố tụng và thi hành án?",
@@ -1011,7 +967,7 @@
         "Giám đốc Phòng Giao dịch"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 1 Quyết định 2665/QĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Theo Quyết định số 2665/QĐ-NHNo-PC ngày 01/12/2022 của người đại diện theo pháp luật Agribank về ủy quyền thực hiện quyền, nghĩa vụ tố tụng và thi hành án, Giám đốc chi nhánh được ủy quyền lại cho đối tượng nào sau đây?",
@@ -1022,7 +978,7 @@
         "Phó Giám đốc, Trưởng phòng, Phó Trưởng phòng, Giám đốc Phòng giao dịch"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 3 Quyết định 2665/QĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Theo Quyết định số 2665/QĐ-NHNo-PC ngày 01/12/2022 của người đại diện theo pháp luật Agribank về ủy quyền thực hiện quyền, nghĩa vụ tố tụng và thi hành án, Giám đốc chi nhánh không được ủy quyền lại cho đối tượng nào sau đây?",
@@ -1033,7 +989,7 @@
         "Cán bộ pháp chế"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 3 Quyết định 2665/QĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Các hình thức văn bản phân công theo quy định hiện hành của Agribank gồm:",
@@ -1044,7 +1000,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 20 Quyết định 799/QĐ-HĐTV-UBNS"
+      "source": "N/A"
     },
     {
       "question": "Thời hiệu yêu cầu thi hành án dân sự là bao nhiêu năm?",
@@ -1055,7 +1011,7 @@
         "06 năm"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 5 Điều 3, Điều 30 Luật THADS năm 2008, Luật sửa đổi, bổ sung một số điều của Luật THADS năm 2014"
+      "source": "N/A"
     },
     {
       "question": "Thời hiệu yêu cầu thi hành án dân sự quy định \"trong thời hạn 05 năm\" kể từ ngày nào sau đây?",
@@ -1066,7 +1022,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 5 Điều 3, Điều 30 Luật THADS 2008, Luật sửa đổi, bổ sung một số điều của Luật THADS 2014"
+      "source": "N/A"
     },
     {
       "question": "Quyền dân sự được xác lập từ các căn cứ nào sau đây?",
@@ -1077,18 +1033,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 8 Bộ luật dân sự năm 2015"
-    },
-    {
-      "question": "Trường hợp nào sau đây, một bên có quyền hủy bỏ hợp đồng và không phải bồi thường thiệt hại?",
-      "options": [
-        "Bên kia vi phạm hợp đồng là điều kiện hủy bỏ mà các bên đã thỏa thuận",
-        "Bên kia vi phạm nghiêm trọng nghĩa vụ hợp đồng",
-        "Tất cả các đáp án trên đều đúng",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 423 Bộ luật dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Thời điểm chuyển quyền sở hữu đối với quyền tài sản là:",
@@ -1099,7 +1044,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 3 Điều 450 Bộ Luật dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Quyền nào sau đây là quyền của người được thi hành án dân sự?",
@@ -1110,7 +1055,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b, h, i Điều 7 Luật THADS năm 2008, Luật sửa đổi, bổ sung một số điều của Luật THADS năm 2014"
+      "source": "N/A"
     },
     {
       "question": "Quyền sở hữu chấm dứt trong trường hợp nào sau đây?",
@@ -1121,7 +1066,7 @@
         "Tài sản được chuyển giao cho người khác sử dụng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 237, khoản 3 Điều 241 Bộ luật dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Tài sản nào sau đây của người phải thi hành án là cá nhân không được kê biên?",
@@ -1132,7 +1077,7 @@
         "Cả đáp án 1 và 3 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 87 Luật THADS năm 2008, Luật sửa đổi, bổ sung một số điều của Luật THADS năm 2014"
+      "source": "N/A"
     },
     {
       "question": "Chấp hành viên có quyền kê biên, xử lý tài sản của người phải thi hành án đang cầm cố, thế chấp trong các trường hợp nào sau đây?",
@@ -1143,7 +1088,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 90 Luật THADS năm 2008, Luật sửa đổi, bổ sung một số điều của Luật THADS năm 2014,"
+      "source": "N/A"
     },
     {
       "question": "Quyền sở hữu được xác lập đối với tài sản trong trường hợp nào sau đây?",
@@ -1154,7 +1099,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 221 Bộ luật dân sự 2015"
+      "source": "N/A"
     },
     {
       "question": "Nhà đầu tư là tổ chức, cá nhân thực hiện hoạt động đầu tư kinh doanh, gồm:",
@@ -1165,7 +1110,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 18 Điều 3 Luật đầu tư năm 2020"
+      "source": "N/A"
     },
     {
       "question": "Đâu không phải là quyền của bên thế chấp?",
@@ -1176,7 +1121,7 @@
         "Được cho thuê, cho mượn tài sản thế chấp nhưng phải thông báo cho bên thuê, bên mượn biết về việc tài sản cho thuê, cho mượn đang được dùng để thế chấp và phải thông báo cho bên nhận thế chấp biết"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 321 Bộ luật dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Bộ luật tố tụng dân sự 2015, biện pháp nào sau đây không là biện pháp khẩn cấp tạm thời?",
@@ -1187,18 +1132,7 @@
         "Phát mại tài sản của người có nghĩa vụ"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 114 BLTTDS 2015"
-    },
-    {
-      "question": "Trong quá trình giải quyết vụ án hành chính, người khởi kiện có thể yêu cầu Tòa án giải quyết yêu cầu dân sự nào sau đây?",
-      "options": [
-        "Yêu cầu bồi thường thiệt hại do quyết định hành chính gây ra",
-        "Yêu cầu phân chia tài sản",
-        "Yêu cầu giải quyết tranh chấp về xử lý kỷ luật lao động theo hình thức sa thải",
-        "Không được yêu cầu Tòa án giải quyết yêu cầu dân sự trong vụ án hành chính"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Điều 7 Luật Tố tụng hành chính năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Đâu là nhận định đúng về thời hiệu khởi kiện, yêu cầu giải quyết việc dân sự?",
@@ -1209,7 +1143,7 @@
         "Tòa án chỉ áp dụng quy định về thời hiệu theo yêu cầu áp dụng thời hiệu của một bên hoặc các bên với điều kiện yêu cầu này phải được đưa ra trước khi Tòa án cấp sơ thẩm ra bản án, quyết định giải quyết vụ việc.\r\nNgười được hưởng lợi từ việc áp dụng thời hiệu có quyền từ chối áp dụng thời hiệu, trừ trường hợp việc từ chối đó nhằm mục đích trốn tránh thực hiện nghĩa vụ."
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 2 Điều 184 Bộ luật Tố tụng dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây đúng về sở hữu chung của vợ chồng?",
@@ -1220,40 +1154,7 @@
         "Vợ chồng không được ủy quyền cho nhau chiếm hữu, sử dụng, định đoạt tài sản chung"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 213 Bộ luật dân sự 2015"
-    },
-    {
-      "question": "Ngành, nghề đầu tư ra nước ngoài có điều kiện bao gồm:",
-      "options": [
-        "Bảo hiểm",
-        "Ngân hàng",
-        "Tất cả các đáp án trên",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 54 Luật Đầu tư năm 2020"
-    },
-    {
-      "question": "Các hình thức hỗ trợ đầu tư theo Luật Đầu tư bao gồm :",
-      "options": [
-        "Hỗ trợ tín dụng",
-        "Hỗ trợ khoa học, kỹ thuật, chuyển giao công nghệ",
-        "Hỗ trợ nghiên cứu và phát triển",
-        "Tất cả các đáp án trên"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 18 Luật Đầu tư năm 2020"
-    },
-    {
-      "question": "Người nào có thẩm quyền ký văn bản yêu cầu cung cấp thông tin khách hàng trong hệ thống cơ quan điều tra, cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra?",
-      "options": [
-        "Thủ trưởng, Phó Thủ trưởng, điều tra viên các cơ quan điều tra trong hệ thống cơ quan điều tra; cấp trưởng, cấp phó các cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra theo quy định của pháp luật về cơ quan điều tra hình sự.",
-        "Phó Thủ trưởng điều tra viên các cơ quan điều tra trong hệ thống cơ quan điều tra; cấp trưởng, cấp phó các cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra theo quy định của pháp luật về cơ quan điều tra hình sự.",
-        "Thủ trưởng điều tra viên các cơ quan điều tra trong hệ thống cơ quan điều tra; cấp trưởng, cấp phó các cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra theo quy định của pháp luật về cơ quan điều tra hình sự.",
-        "Thủ trưởng, Phó Thủ trưởng, điều tra viên các cơ quan điều tra trong hệ thống cơ quan điều tra; cấp trưởng các cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra theo quy định của pháp luật về cơ quan điều tra hình sự."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Khoản 5 Điều 13 Quy định số 1135/QĐ-HĐTV-PC sửa đổi bởi khoản 3 Điều 1 Quy định số 355/QyĐ-HĐTV-PC."
+      "source": "N/A"
     },
     {
       "question": "Hình thức chứa bí mật nhà nước gồm:",
@@ -1264,7 +1165,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 5 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Người có thẩm quyền xác định bí mật nhà nước, độ mật của bí mật nhà nước của Agribank là:",
@@ -1275,7 +1176,7 @@
         "Giám đốc Chi nhánh loại I"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 6 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây là đúng?",
@@ -1286,7 +1187,7 @@
         "Việc xác định bí mật nhà nước và độ mật của bí mật nhà nước phải căn cứ vào  Luật Bảo vệ bí mật nhà nước"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm a khoản 2 Điều 6 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Nguyên tắc chung trong việc quản lý, sử dụng con dấu Agribank là gì?",
@@ -1297,7 +1198,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 3 Quy chế số 989/QC-HĐTV-PC ngày 15/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Hành vi nào bị nghiêm cấm theo quy định tại Quy chế Con dấu của Agribank số 989/QC-HĐTV-PC ngày 15/12/2023?",
@@ -1308,7 +1209,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 và 2 Điều 4 Quy chế số 989/QC-HĐTV-PC ngày 15/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Hiện nay, số lượng con dấu pháp nhân Agribank là bao nhiêu?",
@@ -1319,7 +1220,7 @@
         "4"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 5 Quy chế số 989/QC-HĐTV-PC ngày 15/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Màu mực con dấu trong hệ thống Agribank là màu nào?",
@@ -1330,7 +1231,7 @@
         "Vàng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 3 Điều 6 Quy chế số 989/QC-HĐTV-PC ngày 15/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Việc giao nhiệm vụ Người giữ con dấu thể hiện bằng hình thức nào?",
@@ -1341,7 +1242,7 @@
         "Bằng hành vi"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 12 Quy chế số 989/QC-HĐTV-PC ngày 15/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Hình thức đóng dấu bao gồm:",
@@ -1352,7 +1253,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 13 Quy chế số 989/QC-HĐTV-PC ngày 15/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Các trường hợp nào được làm mới con dấu?",
@@ -1363,7 +1264,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a khoản 1 Điều 17 và khoản 4 Điều 5 Quy chế số 989/QC-HĐTV-PC ngày 15/12/2023"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây là đúng về điều chỉnh độ mật?",
@@ -1374,7 +1275,7 @@
         "Không được tăng độ mật, giảm độ mật đã được xác định của bí mật nhà nước"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 7 Điều 2 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Tài liệu bí mật nhà nước phải thể hiện nội dung nào sau đây ở mục nơi nhận của tài liệu?",
@@ -1385,7 +1286,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b khoản 4 Điều 6 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Tài liệu bí mật nhà nước không bắt buộc phải thể hiện nội dung nào sau đây ở mục nơi nhận của tài liệu?",
@@ -1396,7 +1297,7 @@
         "Căn cứ đề xuất độ mật"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b khoản 4 Điều 6 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Nội dung tờ trình người có thẩm quyền xác định bí mật nhà nước phải có nội dung nào sau đây?",
@@ -1407,7 +1308,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a khoản 4 Điều 6 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Người có thẩm quyền quyết định việc sao, chụp bí mật nhà nước độ Mật đi, đến của Chi nhánh?",
@@ -1418,7 +1319,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 7 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây là đúng về việc giao tài liệu bí mật nhà nước?",
@@ -1429,7 +1330,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 6 Điều 9 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Thời hạn bảo vệ bí mật nhà nước độ Tối mật là bao nhiêu năm?",
@@ -1440,7 +1341,7 @@
         "40 năm"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b khoản 1 Điều 14 Quy chế 2218/QC-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Người tổ chức làm con dấu có quyền:",
@@ -1451,7 +1352,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 8 Điều 2 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Người giữ con dấu là:",
@@ -1462,7 +1363,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a khoản 1 Điều 12 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Trách nhiệm của Người giữ con dấu là:",
@@ -1473,7 +1374,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 12 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây là đúng về đóng dấu treo?",
@@ -1484,7 +1385,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 13 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Agribank thực hiện theo dõi việc đóng dấu theo hình thức nào sau đây?",
@@ -1495,7 +1396,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 14 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp nào đơn vị được phép làm lại con dấu theo mẫu con dấu đang sử dụng?",
@@ -1506,7 +1407,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 18 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Người có thẩm quyền quyết định điều chỉnh số lượng con dấu của Chi nhánh loại I là ai?",
@@ -1517,7 +1418,7 @@
         "Hội đồng thành viên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 4 Điều 5 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Thẩm quyền quyết định hủy con dấu của Chi nhánh loại I trong trường hợp con dấu cũ đã được thay thế bằng con dấu mới thuộc cấp nào sau đây?",
@@ -1528,7 +1429,7 @@
         "Giám đốc Chi nhánh loại I"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 21 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp con dấu của đơn vị bị hỏng, đơn vị thực hiện thủ tục nào sau đây?",
@@ -1539,7 +1440,7 @@
         "Làm thêm con dấu"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 18 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Đóng dấu treo được sử dụng trong trường hợp nào sau đây?",
@@ -1550,7 +1451,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 13 Quy chế 989/QC-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Giám đốc Chi nhánh loại I được ủy quyền cho đối tượng nào sau đây quyết định ký kết hợp đồng?",
@@ -1561,7 +1462,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 4 Quy định 916/QyĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Cán bộ pháp chế của Chi nhánh loại I tham gia ý kiến về mặt pháp lý đối với nội dung hợp đồng trong trường hợp nào sau đây?",
@@ -1572,18 +1473,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 5 Quy định 916/QyĐ-HĐTV-PC"
-    },
-    {
-      "question": "Nhận định nào sau đây là đúng về số trang văn bản?",
-      "options": [
-        "Đánh số từ 0",
-        "Sử dụng chữ số La Mã",
-        "Không hiển thị số trang thứ nhất",
-        "Vị trí cuối trang của văn bản"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Khoản 4 Điều 4 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Chữ viết tắt đơn vị ban hành, soạn thảo văn bản của Chi nhánh loại II do ai quyết định?",
@@ -1594,7 +1484,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b khoản 2 Điều 9 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "\"Văn bản dùng để trình bày về tình hình hoạt động của một đơn vị hoặc về một vấn đề, sự việc nhất định\" là loại văn bản nào sau đây?",
@@ -1605,7 +1495,7 @@
         "Kế hoạch"
       ],
       "correctAnswerIndex": 0,
-      "source": "điểm h khoản 2 Điều 3 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp Chi nhánh cần gửi văn bản cho Chi nhánh khác để trao đổi công việc thì sử dụng loại văn bản nào sau đây?",
@@ -1616,7 +1506,7 @@
         "Báo cáo"
       ],
       "correctAnswerIndex": 2,
-      "source": "điểm d Khoản 2 Điều 3 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Nhiệm vụ công tác quản lý văn bản theo quy định của Agribank về quản lý văn bản đi, văn bản đến không bao gồm nội dung nào sau đây?",
@@ -1627,7 +1517,7 @@
         "Theo dõi việc giải quyết văn bản đến"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 4 Quy định 1738/QĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Đối tượng nào sau đây là đối tượng được ủy quyền thường xuyên theo Quyết định số 2671/QĐ-NHNo-PC ngày 02/12/2022 về ủy quyền thực hiện thủ tục liên quan đến đăng ký doanh nghiệp?",
@@ -1638,7 +1528,7 @@
         "Giám đốc Phòng giao dịch"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 1 Quyết định 2671/QĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Các hình thức xử phạt chính theo quy định của pháp luật đối với hành vi vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng là gì?",
@@ -1646,10 +1536,10 @@
         "Cảnh cáo",
         "Phạt tiền",
         "Phạt tù",
-        "Đáp án 1,2 đúng"
+        "Đáp án 1, 2 đúng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 3 Nghị định 88/2019/NĐ-CP ngày 14/11/2019"
+      "source": "N/A"
     },
     {
       "question": "Công an nhân dân có thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng không?",
@@ -1660,18 +1550,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 54 Nghị định 88/2019/NĐ-CP ngày 14/11/2019 và các văn bản sửa đổi, bổ sung"
-    },
-    {
-      "question": "Các hình thức xử phạt bổ sung theo quy định của pháp luật đối với hành vi vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng là gì?",
-      "options": [
-        "Tước quyền sử dụng giấy phép có thời hạn đối với: giấy chứng nhận đăng ký đại lý đổi ngoại tệ, giấy chứng nhận đăng ký đại lý đổi tiền của nước có chung biên giới trong thời hạn từ 01 tháng đến 03 tháng; giấy phép thu, chi ngoại tệ và hoạt động ngoại hối khác đối với hoạt động kinh doanh trò chơi điện tử có thưởng dành cho người nước ngoài, hoạt động kinh doanh casino trong thời hạn từ 03 tháng đến 06 tháng; giấy phép kinh doanh mua, bán vàng miếng trong thời hạn từ 06 tháng đến 09 tháng",
-        "Đình chỉ có thời hạn đối với: hoạt động ngoại hối trong thời hạn 03 tháng đến 06 tháng, nghiệp vụ ủy thác trong thời hạn từ 01 tháng đến 03 tháng, hoạt động mua, bán nợ trong thời hạn 03 tháng đến 06 tháng, việc thực hiện hoạt động cung ứng dịch vụ thông tin tín dụng trong thời hạn từ 01 tháng đến 03 tháng, việc sử dụng dịch vụ công nghệ thông tin của bên thứ ba trong thời hạn 01 tháng đến 03 tháng",
-        "Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính, tịch thu ngoại tệ, đồng Việt Nam, tịch thu vàng",
-        "Tất cả các đáp án trên đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 3 Nghị định 88/2019/NĐ-CP ngày 14/11/2019 và các văn bản sửa đổi, bổ sung"
+      "source": "N/A"
     },
     {
       "question": "Theo Bộ luật dân sự 2015, Nghĩa vụ được bảo đảm có thể là nghĩa vụ nào sau đây?",
@@ -1682,7 +1561,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 293 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây không đúng về tài sản bảo đảm?",
@@ -1693,18 +1572,18 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Điều 295 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Bộ luật dân sự 2015 quy định thế nào về Tài sản bảo đảm?",
       "options": [
         "Tài sản bảo đảm phải thuộc quyền sở hữu của bên bảo đảm, trừ trường hợp cầm giữ tài sản, bảo lưu quyền sở hữu.",
         "Tài sản bảo đảm có thể được mô tả chung, nhưng phải xác định được; Tài sản bảo đảm có thể là tài sản hiện có hoặc tài sản hình thành trong tương lai.",
-        "Giá trị của tài sản bảo đảm có thể lớn hơn, bằng hoặc nhỏ hơn giá trị nghĩa vụ được bảo đảm",
-        "Tất cả các đáp án trên đều đúng"
+        "Giá trị của tài sản bảo đảm có thể lớn hơn, bằng hoặc nhỏ hơn giá trị nghĩa vụ được bảo đảm.",
+        "Tất cả các đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 295 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Các trường hợp xử lý tài sản bảo đảm bao gồm:",
@@ -1715,7 +1594,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 299 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp bên nhận bảo đảm không thông báo về việc xử lý tài sản bảo đảm theo quy định mà gây thiệt hại thì có nghĩa vụ như thế nào đối với bên bảo đảm, các bên cùng nhận bảo đảm khác (nếu có)?",
@@ -1726,7 +1605,7 @@
         "Bên nhận bảo đảm chỉ cần bồi thường cho các bên cùng nhận bảo đảm khác"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 300 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Bên bảo đảm và Bên nhận bảo đảm có quyền định giá tài sản thông qua phương thức nào?",
@@ -1737,7 +1616,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 306 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Thứ tự ưu tiên thanh toán giữa các bên cùng nhận tài sản bảo đảm được xác định như thế nào trong trường hợp các biện pháp bảo đảm đều phát sinh hiệu lực đối kháng với người thứ ba?",
@@ -1748,7 +1627,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm a khoản 1 Điều 308 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Thứ tự ưu tiên thanh toán giữa các bên cùng nhận tài sản bảo đảm được xác định như thế nào trong trường hợp có biện pháp bảo đảm phát sinh hiệu lực đối kháng với người thứ ba và có biện pháp bảo đảm không phát sinh hiệu lực đối kháng với người thứ ba?",
@@ -1759,7 +1638,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b khoản 1 Điều 308 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Thứ tự ưu tiên thanh toán giữa các bên cùng nhận tài sản bảo đảm được xác định như thế nào trong trường hợp các biện pháp bảo đảm đều không phát sinh hiệu lực đối kháng với người thứ ba?",
@@ -1770,7 +1649,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm c khoản 1 Điều 308 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Thời điểm biện pháp cầm cố tài sản có hiệu lực đối kháng với người thứ ba?",
@@ -1781,7 +1660,7 @@
         "Cầm cố tài sản có hiệu lực đối kháng với người thứ ba kể từ thời điểm các bên giao kết hợp đồng bảo đảm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 310 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Thời điểm có hiệu lực của Hợp đồng cầm cố tài sản?",
@@ -1792,29 +1671,18 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 310 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Khi nhiều người cùng bảo lãnh một nghĩa vụ thì việc thực hiện nghĩa vụ bảo lãnh được quy định như thế nào?",
       "options": [
         "Tất cả những người cùng bảo lãnh đều phải thực hiện phần nghĩa vụ theo thỏa thuận bảo lãnh đã xác lập",
-        "Khi nhiều người cùng bảo lãnh một nghĩa vụ thì phải liên đới thực hiện việc bảo lãnh, trừ trường hợp có thỏa thuận hoặc pháp luật có quy định bảo lãnh theo các phần độc lập; bên có quyền có thể yêu cầu bất cứ ai trong số những người bảo lãnh liên đới phải thực hiện toàn bộ nghĩa vụ.",
-        "Khi một người trong số những người bảo lãnh liên đới đã thực hiện toàn bộ nghĩa vụ thay cho bên được bảo lãnh thì có quyền yêu cầu những người bảo lãnh còn lại phải thực hiện phần nghĩa vụ của họ đối với mình.",
+        "Khi nhiều người cùng bảo lãnh một nghĩa vụ thì phải liên đới thực hiện việc bảo lãnh, trừ trường hợp có thỏa thuận hoặc pháp luật có quy định bảo lãnh theo các phần độc lập; bên có quyền có thể yêu cầu bất cứ ai trong số những người bảo lãnh liên đới phải thực hiện toàn bộ nghĩa vụ",
+        "Khi một người trong số những người bảo lãnh liên đới đã thực hiện toàn bộ nghĩa vụ thay cho bên được bảo lãnh thì có quyền yêu cầu những người bảo lãnh còn lại phải thực hiện phần nghĩa vụ của họ đối với mình",
         "Cả đáp án 2 và 3 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 338 BLDS 2015"
-    },
-    {
-      "question": "Bên nhận bảo lãnh có được yêu cầu bên bảo lãnh thực hiện nghĩa vụ thay cho bên được bảo lãnh khi nghĩa vụ chưa đến hạn không?",
-      "options": [
-        "Có",
-        "Không",
-        "Theo thỏa thuận của các bên",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 339 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Trong trường hợp bên nhận bảo lãnh có thể bù trừ nghĩa vụ với bên được bảo lãnh thì Bên bảo lãnh có phải thực hiện nghĩa vụ bảo lãnh không?",
@@ -1825,7 +1693,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Điều 339 BLDS 2015"
+      "source": "N/A"
     },
     {
       "question": "Nghĩa vụ phát sinh từ căn cứ nào sau đây?",
@@ -1836,29 +1704,18 @@
         "Tất cả các đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 275 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Bên được ủy quyền được ủy quyền lại cho người khác trong trường hợp nào sau đây?",
       "options": [
         "Có sự đồng ý của bên ủy quyền",
-        "Do sự kiện bất khả kháng nếu không áp dụng ủy quyền lại thì mục đích xác lập, thực hiện giao dịch dân sự vì lợi ích của người ủy quyền không thể thực hiện được.",
+        "Do sự kiện bất khả kháng nếu không áp dụng ủy quyền lại thì mục đích xác lập, thực hiện giao dịch dân sự vì lợi ích của người ủy quyền không thể thực hiện được",
         "Tất cả các đáp án trên đều đúng",
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 564 Bộ luật dân sự năm 2015"
-    },
-    {
-      "question": "Di chúc bằng văn bản bao gồm:",
-      "options": [
-        "Di chúc bằng văn bản không có người làm chứng.",
-        "Di chúc bằng văn bản có người làm chứng.",
-        "Di chúc bằng văn bản có công chứng.",
-        "Tất cả các đáp án trên"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Điều 628 Bộ luật dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Nhận định nào sau đây đúng nhất?",
@@ -1869,40 +1726,7 @@
         "Năng lực pháp luật dân sự của cá nhân có từ khi người đó đủ 18 tuổi."
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 1 Điều 16 Bộ luật dân sự năm 2015"
-    },
-    {
-      "question": "Nhận định nào sau đây đúng nhất?",
-      "options": [
-        "Tiền thuê khoán có thể bằng hiện vật.",
-        "Tiền thuê khoán có thể bằng hiện vật, bằng tiền.",
-        "Tiền thuê khoán có thể bằng hiện vật, bằng tiền hoặc bằng việc thực hiện một công việc.",
-        "Tiền thuê khoán có thể bằng tiền."
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 488 Bộ luật dân sự năm 2015"
-    },
-    {
-      "question": "Nhận định nào sau đây không đúng về hợp đồng mượn tài sản?",
-      "options": [
-        "Bên mượn tài sản phải trả tiền cho bên cho mượn tài sản",
-        "Bên mượn phải trả lại tài sản khi hết thời hạn mượn",
-        "Bên mượn phải trả lại tài sản khi mục đích mượn đã đạt được",
-        "Bên mượn tài sản không phải trả tiền cho bên cho mượn tài sản"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Điều 494 Bộ luật Dân sự năm 2015"
-    },
-    {
-      "question": "Bên mượn tài sản không có quyền nào sau đây?",
-      "options": [
-        "Cho người khác mượn lại tài sản.",
-        "Không phải chịu trách nhiệm về những hao mòn tự nhiên của tài sản mượn.",
-        "Yêu cầu bên cho mượn thanh toán chi phí hợp lý về việc sửa chữa hoặc làm tăng giá trị tài sản mượn, nếu có thỏa thuận.",
-        "Được sử dụng tài sản mượn theo đúng công dụng của tài sản và đúng mục đích đã thỏa thuận."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Điều 496, 497 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Phương thức bảo vệ quyền dân sự bao gồm:",
@@ -1910,32 +1734,32 @@
         "Buộc xin lỗi, cải chính công khai.",
         "Buộc thực hiện nghĩa vụ.",
         "Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự của mình.",
-        "Tất cả các đáp án trên"
+        "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 11 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Căn cứ xác lập quyền đối với bất động sản liền kề bao gồm:",
       "options": [
         "Xác lập do địa thế tự nhiên",
         "Xác lập theo thỏa thuận",
-        "Xác lập theo di chúc.",
+        "Xác lập theo di chúc",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 246 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Vô ý phạm tội là phạm tội trong những trường hợp nào sau đây?",
       "options": [
         "Người phạm tội tuy thấy trước hành vi của mình có thể gây ra hậu quả nguy hại cho xã hội nhưng cho rằng hậu quả đó sẽ không xảy ra hoặc có thể ngăn ngừa được.",
         "Người phạm tội không thấy trước hành vi của mình có thể gây ra hậu quả nguy hại cho xã hội, mặc dù phải thấy trước và có thể thấy trước hậu quả đó.",
-        "Tất cả các đáp án trên",
+        "Tất cả các đáp án trên.",
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 11 Bộ luật Hình sự 2015"
+      "source": "N/A"
     },
     {
       "question": "Sự kiện nào sau đây chấm dứt quyền sở hữu?",
@@ -1946,7 +1770,7 @@
         "Tài sản bị tịch thu"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 237 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Có bao nhiêu biện pháp bảo đảm thực hiện nghĩa vụ dân sự?",
@@ -1957,7 +1781,7 @@
         "10"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 292 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Tài sản nào sau đây được đặt cọc?",
@@ -1968,7 +1792,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 328 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Đâu không phải là hợp đồng?",
@@ -1979,10 +1803,10 @@
         "Hợp đồng phụ"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 385, 402, 624 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
-      "question": "Việc từ chối nhận di sản phải được thể hiện tại thời điểm nảo?",
+      "question": "Việc từ chối nhận di sản phải được thể hiện tại thời điểm nào?",
       "options": [
         "Trước thời điểm phân chia di sản",
         "Thời điểm người có tài sản vừa chết",
@@ -1990,7 +1814,7 @@
         "Thời điểm khai nhận thừa kế"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 620 Bộ luật Dân sự năm 2015"
+      "source": "N/A"
     },
     {
       "question": "Đối tượng nào sau đây không phải là chủ thể của Hợp đồng cấp tín dụng?",
@@ -2001,7 +1825,7 @@
         "Hợp tác xã"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 1 Bộ luật dân sự"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014, đương sự bao gồm?",
@@ -2012,18 +1836,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 3 Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014"
-    },
-    {
-      "question": "Theo quy định của Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014, hệ thống tổ chức thi hành án dân sự bao gồm?",
-      "options": [
-        "Cơ quan quản lý thi hành án dân sự",
-        "Cơ quan thi hành án dân sự",
-        "Tất cả các đáp án trên",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Điều 13 Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014, người được thi hành án là những đối tượng nào?",
@@ -2034,7 +1847,7 @@
         "Người được thi hành án là tổ chức được hưởng quyền, lợi ích trong bản án, quyết định được thi hành"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 3 Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014"
+      "source": "N/A"
     },
     {
       "question": "Cố ý phạm tội là phạm tội trong những trường hợp nào sau đây?",
@@ -2045,7 +1858,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 10 Bộ luật Hình sự 2015"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014, người phải thi hành án là những đối tượng nào?",
@@ -2056,7 +1869,7 @@
         "Người phải thi hành án là tổ chức phải thực hiện nghĩa vụ trong bản án, quyết định được thi hành"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 3 Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014, Người có quyền lợi, nghĩa vụ liên quan bao gồm những đối tượng nào?",
@@ -2067,10 +1880,10 @@
         "Người có quyền lợi, nghĩa vụ liên quan là tổ chức có quyền lợi, nghĩa vụ liên quan trực tiếp đến việc thực hiện quyền, nghĩa vụ thi hành án của đương sự"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 3  Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014"
+      "source": "N/A"
     },
     {
-      "question": "Hãy điền vào chỗ trống: \"... là việc chuyển giao quyền sử dụng đất từ người này sang người khác thông qua hình thức chuyển đổi, chuyển nhượng, thừa kế, tặng cho quyền sử dụng đất, góp vốn bằng quyền sử dụng đất\"",
+      "question": "Hãy điền vào chỗ trống: \"... là việc chuyển giao quyền sử dụng đất từ người này sang người khác thông qua hình thức chuyển đổi, chuyển nhượng, thừa kế, tặng cho quyền sử dụng đất, góp vốn bằng quyền sử dụng đất\"?",
       "options": [
         "Chiếm đất",
         "Chuyển quyền sử dụng đất",
@@ -2078,7 +1891,7 @@
         "Đăng ký Đất đai"
       ],
       "correctAnswerIndex": 1,
-      "source": "khoản 12 Điều 3 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Căn cứ vào mục đích sử dụng, Đất đai được phân loại bao gồm:",
@@ -2089,7 +1902,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 1 Điều 9 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Chọn đáp án đúng nhất:",
@@ -2100,43 +1913,32 @@
         "Đất đang có tranh chấp là đất đang trong quá trình giải quyết tranh chấp bởi các bên liên quan"
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 16 Điều 3 Luật Đất đai 2024"
-    },
-    {
-      "question": "Hãy hoàn thành câu sau: \"Điều chỉnh thời hạn sử dụng đất là việc cơ quan nhà nước có thẩm quyền...\"",
-      "options": [
-        "Cho phép thay đổi mục đích sử dụng đất trong quá trình sử dụng đất",
-        "Cho phép thay đổi chủ thể sử dụng đất trong quá trình sử dụng đất",
-        "Cho phép thay đổi thời hạn sử dụng đất trong quá trình sử dụng đất",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "khoản 17 Điều 3 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Giá đất là?",
       "options": [
-        "giá trị của quyền sử dụng đất tính bằng tiền trên một đơn vị tính",
-        "giá trị của quyền chiếm hữu đất tính bằng tiền trên một đơn vị diện tích đất",
-        "giá quy đổi bằng tiền hoặc hiện vật của quyền sử dụng đất trên một đơn vị diện tích đất",
-        "giá trị của quyền sử dụng đất tính bằng tiền trên một đơn vị diện tích đất"
+        "Giá trị của quyền sử dụng đất tính bằng tiền trên một đơn vị tính",
+        "Giá trị của quyền chiếm hữu đất tính bằng tiền trên một đơn vị diện tích đất",
+        "Giá quy đổi bằng tiền hoặc hiện vật của quyền sử dụng đất trên một đơn vị diện tích đất",
+        "Giá trị của quyền sử dụng đất tính bằng tiền trên một đơn vị diện tích đất"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 19 Điều 3 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Giá trị quyền sử dụng đất là?",
       "options": [
-        "giá trị bằng tiền của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
-        "giá trị bằng đá quý của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
-        "giá trị bằng trái phiếu của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
-        "giá trị bằng giấy tờ có giá của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định"
+        "Giá trị bằng tiền của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
+        "Giá trị bằng đá quý của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
+        "Giá trị bằng trái phiếu của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
+        "Giá trị bằng giấy tờ có giá của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định"
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 20 Điều 3 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
-      "question": "Điền vào chỗ trống: \" …là dữ liệu cá nhân gắn liền với quyền riêng tư của cá nhân mà khi bị xâm phạm sẽ gây ảnh hưởng trực tiếp tới quyền và lợi ích hợp pháp của cá nhân\"",
+      "question": "Điền vào chỗ trống: \" …là dữ liệu cá nhân gắn liền với quyền riêng tư của cá nhân mà khi bị xâm phạm sẽ gây ảnh hưởng trực tiếp tới quyền và lợi ích hợp pháp của cá nhân\"?",
       "options": [
         "Dữ liệu cá nhân tổng hợp",
         "Dữ liệu cá nhân cơ bản",
@@ -2144,7 +1946,7 @@
         "Dữ liệu cá nhân sơ cấp"
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 4 Điều 2 Nghị định 13/2023/NĐ-CP ngày 17/4/2023"
+      "source": "N/A"
     },
     {
       "question": "Đâu là một trong những nguyên tắc sử dụng đất?",
@@ -2155,29 +1957,7 @@
         "Tự do chuyển đổi mục đích sử dụng đất theo nhu cầu thực tế"
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 1 Điều 5 Luật Đất đai 2024"
-    },
-    {
-      "question": "Người sử dụng đất là Tổ chức trong nước bao gồm:",
-      "options": [
-        "Cơ quan nhà nước, cơ quan Đảng Cộng sản Việt Nam, đơn vị vũ trang nhân dân, Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp, đơn vị sự nghiệp công lập và tổ chức khác theo quy định của pháp luật",
-        "Tổ chức kinh tế theo quy định của Luật đầu tư, trừ trường hợp Tổ chức kinh tế có vốn đầu tư nước ngoài",
-        "Đán án 1,2 đều đúng",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "khoản 1 Điều 4 Luật Đất đai 2024"
-    },
-    {
-      "question": "Theo Quy định số 1135/QĐ-HĐTV-PC ngày 31/12/2019 và văn bản sửa đổi, bổ sung, văn bản yêu cầu cung cấp thông tin của Bên yêu cầu phải có những nội dung nào dưới đây?",
-      "options": [
-        "Lý do, mục đích yêu cầu cung cấp thông tin trong đó nêu rõ mối liên quan giữa thông tin cần cung cấp với lý do, mục đích yêu cầu cung cấp thông tin",
-        "Nội dung, phạm vi thông tin, thời hạn cung cấp",
-        "Tất cả các đáp án trên",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Điểm a khoản 1 Điều 15 Quy định số 1135/QĐ-HĐTV-PC ngày 31/12/2019 được sửa đổi bởi khoản 5 Điều 1 Quy định số 355/QyĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Công dân có nghĩa vụ như thế nào đối với Đất đai?",
@@ -2188,7 +1968,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 25 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Một trong những hành vi bị cấm trong lĩnh vực Đất đai là:",
@@ -2199,7 +1979,7 @@
         "Ngăn chặn, xử lý hành vi vi phạm pháp luật về Đất đai"
       ],
       "correctAnswerIndex": 1,
-      "source": "khoản 8 Điều 11 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Cá nhân nào có thẩm quyền yêu cầu Agribank cung cấp thông tin khách hàng?",
@@ -2210,7 +1990,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 1 Quy định số 355/QyĐ-HĐTV-PC"
+      "source": "N/A"
     },
     {
       "question": "Nhóm người sử dụng đất bao gồm thành viên hộ gia đình, cá nhân thì có quyền và nghĩa vụ như thế nào?",
@@ -2221,7 +2001,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "điểm a khoản 2 Điều 27 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Một trong những quyền chung của người sử dụng đất là:",
@@ -2232,7 +2012,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 1 Điều 26 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Luật Đất đai quy định như thế nào về việc công chứng, chứng thực đối với Văn bản về thừa kế quyền sử dụng đất, quyền sử dụng đất và tài sản gắn liền với đất?",
@@ -2243,18 +2023,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "điểm c khoản 3 Điều 27 Luật Đất đai 2024"
-    },
-    {
-      "question": "Pháp luật quy định như thế nào về nghĩa vụ tài chính của người sử dụng đất?",
-      "options": [
-        "Người sử dụng đất thực hiện nghĩa vụ tài chính về Đất đai theo khả năng tài chính của mình",
-        "Người sử dụng đất thực hiện nghĩa vụ tài chính về Đất đai theo quy định của pháp luật",
-        "Người sử dụng đất thực hiện nghĩa vụ tài chính về Đất đai theo thỏa thuận giữa các bên trong giao dịch chuyển nhượng đất",
-        "Người sử dụng đất không phải thực hiện nghĩa vụ tài chính trong mọi trường hợp"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "khoản 3 Điều 31 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Ai có quyền khiếu nại, khởi kiện quyết định hành chính, hành vi hành chính về quản lý Đất đai?",
@@ -2265,29 +2034,18 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 1 Điều 237 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Ai có thẩm quyền quyết định giá đất cụ thể?",
       "options": [
-        "Chủ tịch Ủy ban nhân dân cấp huyện, cấp tỉnh",
-        "Chủ tịch Ủy ban nhân dân cấp huyện, cấp xã",
-        "Chủ tịch Ủy ban nhân dân cấp xã, cấp tỉnh",
-        "Chỉ có Chủ tịch Ủy ban nhân dân cấp tỉnh"
+        "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+        "Chủ tịch Ủy ban nhân dân cấp xã",
+        "Chỉ có Chủ tịch Ủy ban nhân dân cấp tỉnh",
+        "Đáp án 1, 2 đúng"
       ],
-      "correctAnswerIndex": 0,
-      "source": "khoản 2 Điều 160 Luật Đất đai 2024"
-    },
-    {
-      "question": "Trong trường hợp hợp tác sản xuất, kinh doanh với tổ chức, cá nhân, người gốc Việt Nam định cư ở nước ngoài, cá nhân sử dụng đất nông nghiệp hợp pháp có quyền gì?",
-      "options": [
-        "Góp vốn bằng quyền sử dụng đất, tài sản thuộc sở hữu của mình gắn liền với đất",
-        "Góp quyền sử dụng đất",
-        "Tất cả các đáp án trên đều đúng",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "điểm h khoản 1 Điều 37 Luật Đất đai 2024"
+      "correctAnswerIndex": 3,
+      "source": "N/A"
     },
     {
       "question": "Việc cưỡng chế thực hiện quyết định thu hồi đất phải bảo đảm các nguyên tắc nào sau đây?",
@@ -2298,29 +2056,29 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 1 Điều 89 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Mẫu Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất được cấp cho người có quyền sử dụng đất, quyền sở hữu nhà ở, quyền sở hữu công trình xây dựng gắn liền với đất được quy định như thế nào?",
       "options": [
         "Do tổ chức, cá nhân tự xây dựng và được sự chấp thuận của Cơ quan nhà nước trực tiếp cấp giấy chứng nhận",
         "Do từng địa phương xây dựng mẫu phù hợp địa phương mình",
-        "Do Bộ trưởng Bộ Tài nguyên và Môi trường quy định, mẫu áp dụng thống nhất trong cả nước",
+        "Do Bộ trưởng Bộ Nông nghiệp và Môi trường quy định, mẫu áp dụng thống nhất trong cả nước",
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 134 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Ai có thẩm quyền ban hành quyết định cưỡng chế thực hiện quyết định thu hồi đất và tổ chức thực hiện quyết định cưỡng chế?",
       "options": [
-        "Chủ tịch Ủy ban nhân dân cấp huyện",
         "Chủ tịch Ủy ban nhân dân cấp xã",
         "Chủ tịch Ủy ban nhân dân cấp tỉnh",
-        "Thủ tướng chính phủ"
+        "Thủ tướng chính phủ",
+        ""
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 3 Điều 89 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Đối với khu vực đã có bảng giá đất tới từng thửa đất trên cơ sở vùng giá trị, thửa đất chuẩn thì giá đất cụ thể được xác định theo cơ sở nào?",
@@ -2331,7 +2089,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "khoản 4 Điều 160 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Đâu là nội dung của Tranh chấp Đất đai? Chọn đáp án đúng nhất.",
@@ -2342,7 +2100,7 @@
         "Tranh chấp về quan điểm sử dụng đất của người sử dụng đất giữa hai hoặc nhiều bên trong quan hệ Đất đai"
       ],
       "correctAnswerIndex": 1,
-      "source": "khoản 47 Điều 3 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Đăng ký lần đầu đối với Đất đai, tài sản gắn liền với đất được thực hiện trong trường hợp nào sau đây?",
@@ -2353,7 +2111,7 @@
         "Thửa đất đang sử dụng, đã được cấp giấy chứng nhận quyền sử dụng đất mà bị mất giấy chứng nhận"
       ],
       "correctAnswerIndex": 0,
-      "source": "điểm a khoản 1 Điều 132 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Hoạt động lựa chọn nhà thầu để thực hiện gói thầu nào?",
@@ -2364,21 +2122,10 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 2 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
-      "question": "Tổ chức, cá nhân ký hợp đồng với nhà thầu để tham gia thực hiện công việc xây lắp; tư vấn; phi tư vấn; dịch vụ liên quan của gói thầu cung cấp hàng hóa; công việc thuộc gói thầu hỗn hợp gọi là gì?",
-      "options": [
-        "Nhà đầu tư",
-        "Nhà đầu tư liên danh",
-        "Nhà đầu tư độc lập",
-        "Nhà thầu phụ"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Khoản 27 Điều 4 Luật Đấu thầu 2023"
-    },
-    {
-      "question": "Điền vào chỗ trống: Hồ sơ dự thầu, hồ sơ đề xuất là toàn bộ tài liệu do ... lập và nộp cho bên mời thầu theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu.",
+      "question": "Điền vào chỗ trống: \"Hồ sơ dự thầu, hồ sơ đề xuất là toàn bộ tài liệu do ... lập và nộp cho bên mời thầu theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu\"?",
       "options": [
         "Nhà thầu, nhà đầu tư",
         "Bên mời thầu",
@@ -2386,7 +2133,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 23 Điều 4 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Luật Đấu thầu 2023, Giá hợp đồng là gì?",
@@ -2397,18 +2144,18 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 14 Điều 4 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
-      "question": "Chọn đáp án đúng nhất về khái niệm \"Gói thầu\" theo quy định của Luật Đấu thầu 2023",
+      "question": "Chọn đáp án đúng nhất về khái niệm \"Gói thầu\" theo quy định của Luật Đấu thầu 2023?",
       "options": [
-        "là một phần hoặc toàn bộ dự án, dự toán mua sắm, có thể gồm những nội dung mua sắm giống nhau thuộc nhiều dự án hoặc là khối lượng mua sắm một lần, khối lượng mua sắm cho một thời kỳ đối với dự toán mua sắm, mua sắm tập trung.",
-        "là giá do nhà thầu chào trong đơn dự thầu, bao gồm toàn bộ các chi phí để thực hiện gói thầu theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu",
-        "là một hoặc một số hoạt động dịch vụ bao gồm: lập, đánh giá báo cáo quy hoạch, tổng sơ đồ phát triển, kiến trúc",
-        "là quá trình lựa chọn nhà thầu để ký kết, thực hiện hợp đồng cung cấp dịch vụ tư vấn, dịch vụ phi tư vấn"
+        "Là một phần hoặc toàn bộ dự án, dự toán mua sắm, có thể gồm những nội dung mua sắm giống nhau thuộc nhiều dự án hoặc là khối lượng mua sắm một lần, khối lượng mua sắm cho một thời kỳ đối với dự toán mua sắm, mua sắm tập trung",
+        "Là giá do nhà thầu chào trong đơn dự thầu, bao gồm toàn bộ các chi phí để thực hiện gói thầu theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu",
+        "Là một hoặc một số hoạt động dịch vụ bao gồm: lập, đánh giá báo cáo quy hoạch, tổng sơ đồ phát triển, kiến trúc",
+        "Là quá trình lựa chọn nhà thầu để ký kết, thực hiện hợp đồng cung cấp dịch vụ tư vấn, dịch vụ phi tư vấn"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 15 Điều 4 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Gói thầu hỗn hợp là gói thầu thuộc các trường hợp nào?",
@@ -2419,7 +2166,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 16 Điều 4 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Hệ thống công nghệ thông tin do cơ quan quản lý nhà nước về hoạt động đấu thầu xây dựng và quản lý nhằm mục đích thống nhất quản lý thông tin về đấu thầu và thực hiện đấu thầu qua mạng là hệ thống gì?",
@@ -2430,7 +2177,7 @@
         "Hệ thống dịch vụ công"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 18 Điều 4 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Thời điểm đóng thầu là thời điểm nào?",
@@ -2441,7 +2188,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 31 Điều 4 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp hủy thầu, hồ sơ liên quan được lưu trữ trong thời hạn bao lâu kể từ ngày quyết định hủy thầu được ban hành?",
@@ -2452,7 +2199,7 @@
         "20 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 9 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Đối với đấu thầu quốc tế, hồ sơ mời thầu, hồ sơ yêu cầu phải quy định về đồng tiền dự thầu trong hồ sơ dự thầu, hồ sơ đề xuất nhưng không quá bao nhiêu loại tiền tệ?",
@@ -2463,7 +2210,7 @@
         "4 loại"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm a khoản 2 Điều 13 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Đối với chi phí trong nước liên quan đến việc thực hiện gói thầu, dự án, dự án đầu tư kinh doanh, nhà thầu, nhà đầu tư phải chào thầu bằng đồng tiền nào?",
@@ -2474,7 +2221,7 @@
         "Bất kỳ loại đồng tiền nào"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm c khoản 2 Điều 13 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Đối với chi phí ở nước ngoài liên quan đến việc thực hiện gói thầu, dự án, dự án đầu tư kinh doanh, nhà thầu, nhà đầu tư được chào thầu bằng đồng tiền nào?",
@@ -2485,7 +2232,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm d khoản 2 Điều 13 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Nhà thầu, nhà đầu tư phải thực hiện một trong các biện pháp nào sau đây để bảo đảm trách nhiệm dự thầu trong thời gian xác định theo yêu cầu của hồ sơ mời thầu?",
@@ -2496,7 +2243,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 14 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Bảo đảm dự thầu được áp dụng trong trường hợp nào sau đây?",
@@ -2507,7 +2254,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 14 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Hành vi tham gia lập, đồng thời tham gia thẩm định hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu đối với cùng một gói thầu, dự án đầu tư kinh doanh có phải hành vi bị cấm trong hoạt động đấu thầu không?",
@@ -2518,7 +2265,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b khoản 6 Điều 16 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Nhóm đất phi nông nghiệp gồm các loại đất nào sau đây?",
@@ -2529,7 +2276,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 3 Điều 9 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Nhóm đất nông nghiệp không bao gồm loại đất sau đây?",
@@ -2540,51 +2287,51 @@
         "Đất làm muối"
       ],
       "correctAnswerIndex": 0,
-      "source": "khoản 2, 3 Điều 9 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật Đất đai, căn cứ vào mục đích sử dụng, đất đai được chia thành những nhóm nào?",
       "options": [
-        "nhóm đất nông nghiệp",
-        "nhóm đất phi nông nghiệp",
-        "nhóm đất chưa sử dụng",
+        "Nhóm đất nông nghiệp",
+        "Nhóm đất phi nông nghiệp",
+        "Nhóm đất chưa sử dụng",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "khoản 1 Điều 9 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Đất xây dựng công trình sự nghiệp thuộc nhóm đất đai nào?",
       "options": [
-        "nhóm đất nông nghiệp",
-        "nhóm đất phi nông nghiệp",
-        "nhóm đất chưa sử dụng",
+        "Nhóm đất nông nghiệp",
+        "Nhóm đất phi nông nghiệp",
+        "Nhóm đất chưa sử dụng",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 1,
-      "source": "điểm d khoản 3 Điều 9 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Đất trồng cây lâu năm thuộc nhóm đất đai nào?",
       "options": [
-        "nhóm đất nông nghiệp",
-        "nhóm đất phi nông nghiệp",
-        "nhóm đất chưa sử dụng",
+        "Nhóm đất nông nghiệp",
+        "Nhóm đất phi nông nghiệp",
+        "Nhóm đất chưa sử dụng",
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "điểm b khoản 2 Điều 9 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Việc xác định loại đất dựa trên căn cứ nào sau đây?",
       "options": [
         "Giấy chứng nhận quyền sử dụng đất",
         "Quyết định giao đất, cho thuê đất",
-        "quyền của người sử dụng đất",
-        "Đáp án 1,2 đúng"
+        "Quyền của người sử dụng đất",
+        "Đáp án 1, 2 đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "điểm a khoản 1 Điều 10 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Quyền sở hữu đất đai thuộc về chủ thể nào? Chọn đáp án đúng nhất",
@@ -2595,29 +2342,29 @@
         "Cá nhân, tổ chức được giao sử dụng đất"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 12 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Nhà nước trao quyền sử dụng đất cho chủ thể nào?",
       "options": [
         "Công ty cổ phần địa chính",
         "Người sử dụng đất",
-        "Chủ tịch Ủy ban nhân dân huyện",
-        "Văn phòng đăng ký đất đai"
+        "Văn phòng đăng ký đất đai",
+        ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 12 Luật Đất đai 2024"
+      "source": "N/A"
     },
     {
       "question": "Ký thừa ủy quyền là gì?",
       "options": [
-        "là việc người đứng đầu đơn vị ủy quyền cho người đứng đầu đơn vị thuộc cơ cấu tổ chức của mình ký thừa ủy quyền một số văn bản mà mình phải ký",
-        "là việc người đứng đầu thay mặt tập thể lãnh đạo ký các văn bản của đơn vị",
-        "là việc người đứng đầu đơn vị giao người đứng đầu đơn vị thuộc cơ cấu tổ chức của mình ký thừa lệnh một số loại văn bản",
-        "là việc người đứng đầu đơn vị giao cấp phó ký thay các văn bản thuộc lĩnh vực được phân công phụ trách và một số văn bản thuộc thẩm quyền của người đứng đầu"
+        "Là việc người đứng đầu đơn vị ủy quyền cho người đứng đầu đơn vị thuộc cơ cấu tổ chức của mình ký thừa ủy quyền một số văn bản mà mình phải ký",
+        "Là việc người đứng đầu thay mặt tập thể lãnh đạo ký các văn bản của đơn vị",
+        "Là việc người đứng đầu đơn vị giao người đứng đầu đơn vị thuộc cơ cấu tổ chức của mình ký thừa lệnh một số loại văn bản",
+        "Là việc người đứng đầu đơn vị giao cấp phó ký thay các văn bản thuộc lĩnh vực được phân công phụ trách và một số văn bản thuộc thẩm quyền của người đứng đầu"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 5 Điều 2 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Đâu là Văn bản định chế trong hệ thống Agribank?",
@@ -2628,7 +2375,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 3 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
     },
     {
       "question": "Đâu không phải là Văn bản định chế trong hệ thống Agribank?",
@@ -2639,7 +2386,260 @@
         "Thông báo"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 3 Quy định 979/QyĐ-NHNo-PC"
+      "source": "N/A"
+    },
+    {
+      "question": "Hãy chọn đáp án đúng nhất về khái niệm \"Cấp tín dụng\" theo Luật các TCTD?",
+      "options": [
+        "Là việc thỏa thuận để tổ chức, cá nhân sử dụng một khoản tiền hoặc cam kết cho phép sử dụng một khoản tiền theo nguyên tắc có hoàn trả bằng nghiệp vụ cho vay, chiết khấu, cho thuê tài chính, bao thanh toán, bảo lãnh ngân hàng, thư tín dụng và các nghiệp vụ cấp tín dụng khác",
+        "Là việc cung ứng phương tiện thanh toán; thực hiện dịch vụ thanh toán séc, lệnh chi, ủy nhiệm chi, nhờ thu, ủy nhiệm thu, thẻ ngân hàng, dịch vụ thanh toán khác cho khách hàng thông qua tài khoản thanh toán của khách hàng",
+        "Là việc tổ chức tín dụng trực tiếp hoặc ủy thác cho tổ chức khác góp vốn cấu thành vốn điều lệ",
+        "Là việc làm trung gian có thu phí môi giới để thu xếp thực hiện hoạt động ngân hàng và hoạt động kinh doanh khác theo quy định của Luật này giữa các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Điền vào chỗ trống: \"...là hình thức cấp tín dụng thông qua việc mua có kỳ hạn hoặc mua có bảo lưu quyền truy đòi các công cụ chuyển nhượng, giấy tờ có giá khác của bên thụ hưởng trước khi đến hạn thanh toán\"?",
+      "options": [
+        "Bảo lãnh",
+        "Chiết khấu",
+        "Thư tín dụng",
+        "Cho thuê tài chính"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Hoạt động ngân hàng là việc kinh doanh, cung ứng thường xuyên một hoặc một số nghiệp vụ nào sau đây?",
+      "options": [
+        "Nhận tiền gửi",
+        "Cấp tín dụng",
+        "Cung ứng dịch vụ thanh toán qua tài khoản",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Việc Ngân hàng Nhà nước quyết định đặt tổ chức tín dụng dưới sự kiểm soát trực tiếp của Ngân hàng Nhà nước được gọi là:",
+      "options": [
+        "Giám sát đặc biệt",
+        "Kiểm tra đặc biệt",
+        "Kiểm soát đặc biệt",
+        "Kiểm sát đặc biệt"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Đâu là một trong những loại hình ngân hàng?",
+      "options": [
+        "Ngân hàng phi thương mại",
+        "Tổ chức phi tài chính",
+        "Ngân hàng hợp tác xã",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Vốn được cấp của chi nhánh ngân hàng nước ngoài là số tiền do tổ chức nào cấp cho chi nhánh ngân hàng nước ngoài?",
+      "options": [
+        "Ngân hàng nước ngoài",
+        "Ngân hàng thành lập tại Việt Nam",
+        "Ngân hàng nước ngoài và Ngân hàng thành lập tại Việt Nam",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Người đại diện theo pháp luật của tổ chức tín dụng được quy định tại Điều lệ của tổ chức tín dụng và phải là một trong những người sau đây:",
+      "options": [
+        "Chủ tịch Hội đồng quản trị hoặc Chủ tịch Hội đồng thành viên của tổ chức tín dụng",
+        "Tổng giám đốc (Giám đốc) của tổ chức tín dụng",
+        "Đáp án 1, 2 đều đúng",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài có trách nhiệm báo cáo Ngân hàng Nhà nước thông tin liên quan đến nội dung nào? Chọn đáp án đúng nhất",
+      "options": [
+        "Hoạt động kinh doanh",
+        "Người đứng đầu tổ chức tín dụng quyết định nội dung phải báo cáo Ngân hàng Nhà nước",
+        "Bất cứ nội dung nào nếu thấy cần thiết",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Chủ thể nào của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài không được tiết lộ thông tin khách hàng, bí mật kinh doanh của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài? Chọn đáp án đúng nhất",
+      "options": [
+        "Người quản lý, người điều hành, nhân viên",
+        "Nhân viên",
+        "Người quản lý, người lao động",
+        "Do tổ chức tín dụng quy định"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Cơ cấu tổ chức quản lý của tổ chức tín dụng được thành lập dưới hình thức công ty trách nhiệm hữu hạn một thành viên, công ty trách nhiệm hữu hạn hai thành viên trở lên bao gồm?",
+      "options": [
+        "Hội đồng thành viên, Ban kiểm soát, Tổng giám đốc (Giám đốc)",
+        "Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc (Giám đốc)",
+        "Đại hội đồng cổ đông, Ban kiểm soát, Tổng giám đốc (Giám đốc)",
+        "Chủ tịch công ty, Ban kiểm soát, Tổng giám đốc (Giám đốc)"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhiệm kỳ của Tổng giám đốc (Giám đốc) của tổ chức tín dụng là bao nhiêu năm?",
+      "options": [
+        "Không quá 03 năm",
+        "Không quá 05 năm",
+        "Không quá 07 năm",
+        "Không quá 10 năm"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Luật các TCTD, trong các chủ thể sau, ai có thẩm quyền tuyển dụng lao động?",
+      "options": [
+        "Đại hội đồng cổ đông",
+        "Cổ đông biểu quyết",
+        "Tổng Giám đốc (Giám đốc)",
+        "Ban kiểm soát"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Tổ chức tín dụng phải lựa chọn tổ chức kiểm toán độc lập đáp ứng yêu cầu theo quy định của Thống đốc Ngân hàng Nhà nước để kiểm toán báo cáo tài chính và thực hiện dịch vụ bảo đảm đối với hoạt động của hệ thống kiểm soát nội bộ trong việc lập và trình bày báo cáo tài chính trong năm tài chính tiếp theo vào thời điểm nào?",
+      "options": [
+        "Trước khi kết thúc năm dương lịch",
+        "Trước khi kết thúc năm âm lịch",
+        "Do tổ chức tín dụng quyết định",
+        "Trước khi kết thúc năm tài chính"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Tổ chức tín dụng có quyền chấm dứt việc cấp tín dụng, thu hồi nợ trước hạn khi?",
+      "options": [
+        "Phát hiện khách hàng cung cấp thông tin sai sự thật",
+        "Vi phạm nội dung thỏa thuận trong hợp đồng, thỏa thuận cấp tín dụng, hợp đồng bảo đảm",
+        "Tất cả các đáp án trên đều đúng",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Tổ chức tín dụng có quyền quyết định miễn, giảm lãi, phí cho khách hàng theo quy định nào?",
+      "options": [
+        "Quy định chung của các tổ chức tín dụng",
+        "Quy định nội bộ của tổ chức tín dụng",
+        "Thỏa thuận với khách hàng",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhận định nào sau đây là đúng nhất về \"văn bản định chế\" của Agribank?",
+      "options": [
+        "Văn bản định chế là văn bản của Agribank có hiệu lực bắt buộc chung, được áp dụng lặp đi lặp lại nhiều lần đối với các đơn vị, cá nhân trong toàn hệ thống Agribank hoặc các đơn vị, cá nhân nhất định, do cấp thẩm quyền ban hành",
+        "Văn bản định chế là văn bản của Agribank có chứa quy tắc xử sự chung; có hiệu lực bắt buộc chung, được áp dụng lặp đi lặp lại nhiều lần đối với các đơn vị, cá nhân trong toàn hệ thống Agribank hoặc các đơn vị, cá nhân nhất định, do cấp thẩm quyền ban hành",
+        "Văn bản định chế là văn bản của Agribank có chứa quy tắc xử sự chung; có hiệu lực bắt buộc chung, được áp dụng lặp đi lặp lại nhiều lần đối với các đơn vị, cá nhân trong toàn hệ thống Agribank",
+        "Văn bản định chế là văn bản của Agribank có chứa quy tắc xử sự chung; được áp dụng lặp đi lặp lại nhiều lần đối với các đơn vị, cá nhân trong toàn hệ thống Agribank hoặc các đơn vị, cá nhân nhất định, do cấp thẩm quyền ban hành"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Loại văn bản nào sau đây không phải là văn bản định chế?",
+      "options": [
+        "Quy trình",
+        "Hướng dẫn",
+        "Nghị quyết",
+        "Nội quy lao động"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Văn bản định chế giải thích, chỉ dẫn cụ thể việc tổ chức thực hiện các loại văn bản định chế khác là loại văn bản định chế nào sau đây?",
+      "options": [
+        "Hướng dẫn",
+        "Quy trình",
+        "Quy định",
+        "Công văn"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhận định nào sau đây là đúng về nguyên tắc sửa đổi, bổ sung, thay thế, bãi bỏ, đình chỉ thi hành văn bản định chế?",
+      "options": [
+        "Văn bản định chế chỉ được sửa đổi, bổ sung, thay thế, bãi bỏ bằng văn bản định chế của cấp thẩm quyền đã ban hành văn bản định chế đó hoặc cấp thẩm quyền khác theo quy định của pháp luật và Agribank",
+        "Văn bản định chế có thể được ban hành để sửa đổi và bổ sung, thay thế, bãi bỏ các loại văn bản xử lý công việc cụ thể khác",
+        "Hình thức của văn bản định chế sửa đổi, bổ sung, thay thế không nhất thiết phải phù hợp với hình thức của văn bản định chế được sửa đổi, bổ sung, thay thế",
+        "Văn bản định chế chỉ bị đình chỉ thi hành, bãi bỏ bằng văn bản của cơ quan Nhà nước có thẩm quyền"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Văn bản định chế hết hiệu lực toàn bộ trong trường hợp nào sau đây?",
+      "options": [
+        "Được sửa đổi bởi văn bản định chế khác",
+        "Hết thời hạn hiệu lực đã được quy định trong văn bản định chế",
+        "Được bãi bỏ một phần bởi văn bản định chế khác",
+        "Bị tạm đình chỉ thi hành bởi cấp có thẩm quyền"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Trường hợp các văn bản định chế có quy định khác nhau về cùng một vấn đề thì áp dụng:",
+      "options": [
+        "Văn bản định chế ban hành trước",
+        "Văn bản định chế ban hành sau",
+        "Văn bản định chế của cấp thẩm quyền cao hơn",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhận định nào sau đây không đúng đối với văn bản định chế (VBĐC) quy định, hướng dẫn chi tiết văn bản định chế của cấp thẩm quyền cao hơn?",
+      "options": [
+        "VBĐC quy định chi tiết chỉ quy định nội dung được giao",
+        "VBĐC quy định, hướng dẫn chi tiết không quy định lặp lại nội dung của VBĐC giao quy định chi tiết",
+        "Cấp thẩm quyền được giao ban hành văn bản quy định chi tiết không được phân công cho cấp phó ký thay",
+        "Cấp thẩm quyền được giao ban hành văn bản quy định chi tiết không được ủy quyền tiếp cho các cấp dưới"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Văn bản định chế không được quy định hiệu lực trở về trước trong trường hợp nào sau đây?",
+      "options": [
+        "Quy định trách nhiệm nặng hơn",
+        "Quy định trách nhiệm mới đối với hành vi vào thời điểm thực hiện hành vi đó không quy định trách nhiệm",
+        "Quy định quyền, lợi ích của các đối tượng liên quan thấp hơn",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
     }
   ]
 }
