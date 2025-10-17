@@ -59,6 +59,8 @@ jobs:
 
           # Copy js folder
           cp -r js dist/js
+          # Copy css folder for styles
+          cp -r css dist/css
 
           # Copy other essential root files
           if [ -f service-worker.js ]; then cp service-worker.js dist/; fi
