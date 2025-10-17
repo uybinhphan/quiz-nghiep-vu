@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.4.0...v1.4.1) (2025-10-17)
+
+
+### Bug Fixes
+
+* GH Pages deployments were missing the css directory ([00b02ee](https://github.com/uybinhphan/quiz-nghiep-vu/commit/00b02ee47d6e015fa00701b1c37c5d080d68a32a))
+
 ## [1.4.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.3...v1.4.0) (2025-10-17)
 
 
