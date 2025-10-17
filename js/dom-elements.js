@@ -9,8 +9,6 @@ export const statusMessage = document.getElementById('status-message');
 export const shuffleCheckbox = document.getElementById('shuffle-checkbox');
 export const quizSection = document.getElementById('quiz-section');
 export const resultsSection = document.getElementById('results-section');
-export const quizLoadIndicator = document.getElementById('quiz-load-indicator');
-export const prefetchStartBtn = document.getElementById('prefetch-start-btn');
 export const questionText = document.getElementById('question-text');
 export const answersContainer = document.getElementById('answers');
 export const sourceDiv = document.getElementById('source');
@@ -51,15 +49,8 @@ export const bottomNavigationContainer = document.getElementById('quiz-controls-
 export const navHomeLink = document.getElementById('nav-home-link');
 export const navAboutLink = document.getElementById('nav-about-link');
 export const questionContainer = document.getElementById('question-container'); // For swipe
-export const questionSkeleton = document.getElementById('question-skeleton');
-export const toastRoot = document.getElementById('toast-root');
-export const resultsMeter = document.getElementById('results-meter');
-export const resultsMeterLabel = document.getElementById('results-meter-label');
-export const resultAnswered = document.getElementById('result-answered');
-export const resultCorrect = document.getElementById('result-correct');
-export const resultAutoAdvance = document.getElementById('result-auto-advance');
 
 // Function to update quizFileSelect if it's recreated
 export function updateQuizFileSelectElement() {
     quizFileSelect = document.getElementById('quiz-file-select');
-}
+} 

@@ -4,13 +4,9 @@ import * as ui from './ui-helpers.js';
 import * as state from './state.js';
 import { startQuiz, shuffleArray } from './quiz-core.js'; // shuffleArray will also be in quiz-core for now
 
-const QUIZ_CACHE_PREFIX = 'quizCache:';
-
 // Variable to hold the event listener function to ensure it can be added/removed if needed,
 // though current approach re-clones the select element.
 let quizSelectionChangeListener = null;
-let pendingQuiz = null;
-let currentFetchToken = null;
 
 function ensureRelativePath(path) {
     if (typeof path !== 'string') return '';
@@ -73,191 +69,71 @@ function attemptFetchWithFallback(paths, cacheBuster) {
     return tryIndex(0);
 }
 
-function cacheQuizDataForPaths(paths, jsonData) {
-    paths.forEach(path => {
-        state.loadedQuizzes[path] = jsonData;
-        try {
-            sessionStorage.setItem(`${QUIZ_CACHE_PREFIX}${path}`, JSON.stringify(jsonData));
-        } catch (error) {
-            console.warn("[Cache] Unable to persist quiz data in sessionStorage for", path, error);
-        }
-    });
-}
-
-function getQuizFromCache(paths) {
-    for (const path of paths) {
-        if (state.loadedQuizzes[path]) {
-            return { jsonData: state.loadedQuizzes[path], path };
-        }
-        try {
-            const cached = sessionStorage.getItem(`${QUIZ_CACHE_PREFIX}${path}`);
-            if (cached) {
-                const parsed = JSON.parse(cached);
-                state.loadedQuizzes[path] = parsed;
-                return { jsonData: parsed, path };
-            }
-        } catch (error) {
-            console.warn("[Cache] Failed to parse cached quiz data for", path, error);
-        }
-    }
-    return null;
-}
-
-function resetPendingQuiz() {
-    pendingQuiz = null;
-    currentFetchToken = null;
-    ui.setStartButtonAvailability(false);
-    if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = false;
-}
-
 function handleQuizSelectionChange() {
-    const selectedOption = dom.quizFileSelect?.options[dom.quizFileSelect.selectedIndex];
-
-    if (!selectedOption || !selectedOption.value) {
+    const selectedOption = dom.quizFileSelect.options[dom.quizFileSelect.selectedIndex];
+    if (selectedOption && selectedOption.value) {
+        let candidatePaths = [];
+        if (selectedOption.dataset.quizPaths) {
+            try {
+                const parsedPaths = JSON.parse(selectedOption.dataset.quizPaths);
+                if (Array.isArray(parsedPaths)) {
+                    candidatePaths = parsedPaths;
+                }
+            } catch (error) {
+                console.warn("[Event] Failed to parse stored quiz paths for option.", error);
+            }
+        }
+        if (candidatePaths.length === 0) {
+            candidatePaths = buildCandidatePaths(selectedOption.value);
+        }
+        if (candidatePaths.length === 0) {
+            console.error("[Event] No valid file paths available for selected quiz option.");
+            ui.showError("Không tìm thấy đường dẫn hợp lệ cho bộ câu hỏi đã chọn.");
+            return;
+        }
+        console.log(`[Event] Quiz selected: DisplayName="${selectedOption.dataset.quizDisplayName}", FilePaths="${candidatePaths.join(', ')}"`);
+        loadQuizFromJson(candidatePaths, selectedOption.dataset.quizDisplayName);
+    } else {
         console.log("[Event] Quiz selection cleared or invalid (no value).");
-        resetPendingQuiz();
-        ui.setQuizLoadingState(false, '');
-        if (dom.quizTitleElement) {
-            dom.quizTitleElement.textContent = '';
-            dom.quizTitleElement.classList.add('hidden');
-        }
-        return;
     }
-
-    let candidatePaths = [];
-    if (selectedOption.dataset.quizPaths) {
-        try {
-            const parsedPaths = JSON.parse(selectedOption.dataset.quizPaths);
-            if (Array.isArray(parsedPaths)) {
-                candidatePaths = parsedPaths;
-            }
-        } catch (error) {
-            console.warn("[Event] Failed to parse stored quiz paths for option.", error);
-        }
-    }
-    if (candidatePaths.length === 0) {
-        candidatePaths = buildCandidatePaths(selectedOption.value);
-    }
-    if (candidatePaths.length === 0) {
-        console.error("[Event] No valid file paths available for selected quiz option.");
-        ui.showError("Không tìm thấy đường dẫn hợp lệ cho bộ câu hỏi đã chọn.");
-        resetPendingQuiz();
-        return;
-    }
-
-    const displayName = selectedOption.dataset.quizDisplayName || selectedOption.textContent || 'Quiz';
-    console.log(`[Event] Quiz selected: DisplayName="${displayName}", FilePaths="${candidatePaths.join(', ')}"`);
-    prepareQuizForStart(candidatePaths, displayName);
-}
-
-function prepareQuizForStart(candidatePaths, displayName) {
-    const validPaths = candidatePaths
-        .map(path => (typeof path === 'string' ? path.trim() : ''))
-        .filter(path => path);
-
-    if (validPaths.length === 0) {
-        ui.showError(`Không tìm thấy đường dẫn hợp lệ cho "${displayName}".`);
-        resetPendingQuiz();
-        ui.setQuizLoadingState(false, '');
-        return;
-    }
-
-    if (dom.quizTitleElement) {
-        dom.quizTitleElement.textContent = displayName;
-        dom.quizTitleElement.classList.remove('hidden');
-    }
-
-    const cachedData = getQuizFromCache(validPaths);
-    if (cachedData) {
-        pendingQuiz = { displayName, jsonData: cachedData.jsonData, paths: validPaths };
-        currentFetchToken = null;
-        ui.setQuizLoadingState(false, `Đã sẵn sàng: ${displayName}`);
-        ui.setStartButtonAvailability(true);
-        if (dom.statusMessage) {
-            const count = Array.isArray(cachedData.jsonData?.questions) ? cachedData.jsonData.questions.length : '?';
-            dom.statusMessage.textContent = `Đã sẵn sàng: ${displayName} (${count} câu hỏi)`;
-        }
-        if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = false;
-        return;
-    }
-
-    const fetchToken = Symbol('quiz-fetch');
-    currentFetchToken = fetchToken;
-    pendingQuiz = null;
-    ui.setStartButtonAvailability(false);
-    const loadingMessage = `Đang chuẩn bị "${displayName}"...`;
-    ui.setQuizLoadingState(true, loadingMessage);
-    if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = true;
-
-    const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1'
-        ? `?t=${Date.now()}`
-        : '';
-
-    attemptFetchWithFallback(validPaths, cacheBuster)
-        .then(({ jsonData, path }) => {
-            if (currentFetchToken !== fetchToken) {
-                console.log("[Fetch] Ignoring stale response for", path);
-                return;
-            }
-            cacheQuizDataForPaths(validPaths, jsonData);
-            pendingQuiz = { displayName, jsonData, paths: validPaths };
-            currentFetchToken = null;
-            ui.setQuizLoadingState(false, `Đã sẵn sàng: ${displayName}`);
-            ui.setStartButtonAvailability(true);
-            if (dom.statusMessage) {
-                const count = Array.isArray(jsonData?.questions) ? jsonData.questions.length : '?';
-                dom.statusMessage.textContent = `Đã tải: ${displayName} (${count} câu hỏi)`;
-            }
-            if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = false;
-        })
-        .catch(error => {
-            if (currentFetchToken !== fetchToken) {
-                return;
-            }
-            console.error("[Fetch Error] for " + validPaths.join(', '), error);
-            resetPendingQuiz();
-            ui.setQuizLoadingState(false, '');
-            ui.showError(`Lỗi tải "${displayName}": ${error.message}`);
-            if (typeof ui.showToast === 'function') {
-                ui.showToast(`Không thể tải "${displayName}". Vui lòng thử lại.`, { type: 'error' });
-            }
-            if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = false;
-        });
 }
 
 function attachQuizSelectListenerInternal() {
-    if (!dom.quizFileSelect) {
+    if (dom.quizFileSelect) {
+        // Remove old listener if any (though cloning below makes this redundant)
+        if (quizSelectionChangeListener && dom.quizFileSelect.parentNode) {
+             // quizFileSelect.removeEventListener('change', quizSelectionChangeListener);
+        }
+        // Clone and replace to ensure no old listeners are carried over from previous select instances
+        const newSelect = dom.quizFileSelect.cloneNode(true);
+        if (dom.quizFileSelect.parentNode) {
+            dom.quizFileSelect.parentNode.replaceChild(newSelect, dom.quizFileSelect);
+        }
+        // Update the shared DOM element reference in dom-elements.js
+        dom.updateQuizFileSelectElement(); 
+        
+        // Assign the new listener
+        quizSelectionChangeListener = handleQuizSelectionChange;
+        dom.quizFileSelect.addEventListener('change', quizSelectionChangeListener);
+        console.log("[Events] Attached 'change' listener to new quizFileSelect:", dom.quizFileSelect.id);
+    } else {
         console.error("[Events] quizFileSelect element not found for attaching listener.");
-        return;
     }
-
-    const newSelect = dom.quizFileSelect.cloneNode(true);
-    if (dom.quizFileSelect.parentNode) {
-        dom.quizFileSelect.parentNode.replaceChild(newSelect, dom.quizFileSelect);
-    }
-    dom.updateQuizFileSelectElement();
-
-    quizSelectionChangeListener = handleQuizSelectionChange;
-    dom.quizFileSelect.addEventListener('change', quizSelectionChangeListener);
-    console.log("[Events] Attached 'change' listener to new quizFileSelect:", dom.quizFileSelect.id);
 }
 
 export function loadQuizManifest() {
     console.log(`[Manifest] Starting to fetch ${MANIFEST_PATH}...`);
     ui.hideError();
-    resetPendingQuiz();
-
     if (!dom.quizFileSelect) {
         console.error("[Manifest Error] Quiz file select element not found after update.");
         ui.showError("Lỗi: Không tìm thấy phần tử chọn câu hỏi sau cập nhật.");
         return;
     }
-
+    
     dom.quizFileSelect.innerHTML = '<option value="">Đang tải danh sách...</option>';
     dom.quizFileSelect.disabled = true;
     if (dom.statusMessage) dom.statusMessage.textContent = "";
     if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = true;
-    ui.setQuizLoadingState(true, 'Đang tải danh sách bộ câu hỏi...');
 
     const cachedManifest = sessionStorage.getItem('quizManifest');
     if (cachedManifest) {
@@ -265,13 +141,14 @@ export function loadQuizManifest() {
             const manifestData = JSON.parse(cachedManifest);
             console.log("[Manifest] Using cached manifest data");
             displayQuizOptions(manifestData);
+            // attachQuizSelectListenerInternal(); // Listener attached in displayQuizOptions
             return;
         } catch (e) {
             console.warn("[Manifest] Failed to parse cached manifest:", e);
         }
     }
 
-    const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? `?t=${Date.now()}` : '';
+    const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? `?t=${new Date().getTime()}` : '';
     fetch(MANIFEST_PATH + cacheBuster)
         .then(response => {
             if (!response.ok) throw new Error(`Lỗi mạng ${response.status}`);
@@ -282,6 +159,7 @@ export function loadQuizManifest() {
             if (!Array.isArray(quizList)) throw new Error("Dữ liệu không hợp lệ: Danh sách không phải mảng");
             sessionStorage.setItem('quizManifest', JSON.stringify(quizList));
             displayQuizOptions(quizList);
+            // attachQuizSelectListenerInternal(); // Listener attached in displayQuizOptions
         })
         .catch(error => {
             console.error("[Manifest Error]", error);
@@ -290,13 +168,17 @@ export function loadQuizManifest() {
                 dom.quizFileSelect.innerHTML = '<option value="">Lỗi tải danh sách</option>';
             }
             if (dom.statusMessage) dom.statusMessage.textContent = "Lỗi.";
-            ui.setQuizLoadingState(false, '');
         });
 }
 
 export function displayQuizOptions(quizList) {
     console.log("[UI] Starting to display options...");
     ui.hideError();
+    
+    // The quizFileSelect might have been recreated by showSelectScreenView
+    // dom.updateQuizFileSelectElement(); // Ensure we use the current one
+    // This is already handled by attachQuizSelectListenerInternal if we call it here
+    // or if showSelectScreenView correctly updates it.
 
     if (!dom.quizFileSelect) {
         console.error("[UI Error] Quiz file select element not found for displayQuizOptions");
@@ -337,43 +219,65 @@ export function displayQuizOptions(quizList) {
             dom.statusMessage.textContent = "Không tìm thấy bộ câu hỏi nào.";
             dom.statusMessage.style.display = "block";
         }
-    } else if (dom.statusMessage) {
-        dom.statusMessage.textContent = "";
-        dom.statusMessage.style.display = "none";
+    } else {
+        if (dom.statusMessage) {
+            dom.statusMessage.textContent = "";
+            dom.statusMessage.style.display = "none";
+        }
     }
-
-    ui.setQuizLoadingState(false, '');
-    ui.setStartButtonAvailability(false);
     attachQuizSelectListenerInternal(); // Attach listener after options are populated
 }
 
-export function startPreparedQuiz() {
-    if (!pendingQuiz) {
-        if (typeof ui.showToast === 'function') {
-            ui.showToast('Vui lòng chọn bộ câu hỏi trước.', { type: 'warning' });
-        } else {
-            ui.showError('Vui lòng chọn bộ câu hỏi trước.');
-        }
+export function loadQuizFromJson(jsonFilePathOrList, quizDisplayName) {
+    const candidatePaths = Array.isArray(jsonFilePathOrList)
+        ? jsonFilePathOrList
+        : buildCandidatePaths(jsonFilePathOrList);
+    const validPaths = candidatePaths
+        .map(path => (typeof path === 'string' ? path.trim() : ''))
+        .filter(path => path);
+
+    if (validPaths.length === 0) {
+        console.error(`[Fetch Error] No valid paths to load "${quizDisplayName}". Input:`, jsonFilePathOrList);
+        ui.showError(`Không tìm thấy đường dẫn hợp lệ cho "${quizDisplayName}".`);
         return;
     }
 
-    const { displayName, jsonData } = pendingQuiz;
-    console.log(`[Start] Starting quiz "${displayName}" from prefetched data.`);
-    ui.setStartButtonAvailability(false);
-    ui.setQuizLoadingState(false, '');
-    if (dom.prefetchStartBtn) {
-        dom.prefetchStartBtn.disabled = true;
-        dom.prefetchStartBtn.textContent = 'Đang mở...';
+    const primaryPath = validPaths[0];
+    console.log(`[Fetch] Requesting "${quizDisplayName}" starting with ${primaryPath}`);
+    ui.hideError();
+    if (dom.statusMessage) dom.statusMessage.textContent = `Đang tải "${quizDisplayName}"...`;
+    if (dom.quizFileSelect) dom.quizFileSelect.disabled = true;
+    if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = true;
+
+    state.updateQuizState({ currentQuizDisplayName: quizDisplayName });
+    if (dom.quizTitleElement) {
+        dom.quizTitleElement.textContent = quizDisplayName;
+        dom.quizTitleElement.classList.remove('hidden');
     }
 
-    state.updateQuizState({ currentQuizDisplayName: displayName });
-    ui.showQuestionSkeleton();
-    processQuizData(jsonData);
-
-    pendingQuiz = null;
-    if (dom.prefetchStartBtn) {
-        dom.prefetchStartBtn.textContent = 'Bắt đầu luyện tập';
+    const cachedPath = validPaths.find(path => state.loadedQuizzes[path]);
+    if (cachedPath) {
+        console.log("[Fetch] Using cached quiz data for", cachedPath);
+        processQuizData(state.loadedQuizzes[cachedPath]);
+        return;
     }
+
+    const cacheBuster = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? `?t=${new Date().getTime()}` : '';
+    attemptFetchWithFallback(validPaths, cacheBuster)
+        .then(({ jsonData, path: successfulPath }) => {
+            console.log("[Fetch] Success for", successfulPath, jsonData);
+            validPaths.forEach(path => {
+                if (!state.loadedQuizzes[path]) {
+                    state.loadedQuizzes[path] = jsonData;
+                }
+            });
+            processQuizData(jsonData);
+        })
+        .catch(error => {
+            console.error("[Fetch Error] for " + validPaths.join(', '), error);
+            ui.showError(`Lỗi tải "${quizDisplayName}": ${error.message}`);
+            ui.showSelectScreenView(); // Go back to select screen on error
+        });
 }
 
 export function processQuizData(jsonData) {
@@ -388,34 +292,29 @@ export function processQuizData(jsonData) {
             console.warn("[Processing] Cấu trúc câu hỏi đầu tiên có vẻ lạ:", firstQ);
         }
 
-        const newOriginalQuizData = [...jsonData.questions];
+        let newOriginalQuizData = [...jsonData.questions];
         let newQuizData = [...jsonData.questions];
 
         if (dom.shuffleCheckbox && dom.shuffleCheckbox.checked) {
             console.log("[Prep] Shuffling...");
-            shuffleArray(newQuizData);
+            shuffleArray(newQuizData); // Assumes shuffleArray is imported or available
         }
-
+        
         state.updateQuizState({
             originalQuizData: newOriginalQuizData,
             quizData: newQuizData,
+            // currentQuizDisplayName is already set by loadQuizFromJson
         });
 
-        if (dom.statusMessage) dom.statusMessage.textContent = '';
-        ui.showQuizSectionView();
-        startQuiz();
+        if (dom.statusMessage) dom.statusMessage.textContent = `Đã tải: ${state.currentQuizDisplayName} (${state.quizData.length} câu)`;
+        
+        ui.showQuizSectionView(); // Transition to quiz view
+        startQuiz(); // Initialize and display the first question
         state.saveState();
+
     } catch (error) {
         console.error("[Processing Error]", error);
         ui.showError(`Lỗi xử lý dữ liệu: ${error.message}.`);
-        ui.showSelectScreenView();
-    } finally {
-        if (dom.prefetchStartBtn) {
-            dom.prefetchStartBtn.disabled = false;
-        }
-        if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = false;
-        ui.hideQuestionSkeleton();
+        ui.showSelectScreenView(); // Go back to select screen
     }
-}
-
-export { buildCandidatePaths };
+} 

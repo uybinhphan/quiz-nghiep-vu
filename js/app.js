@@ -80,10 +80,6 @@ function initializeEventListeners() {
         quizService.loadQuizManifest();
     });
 
-    if (dom.prefetchStartBtn) dom.prefetchStartBtn.addEventListener('click', () => {
-        quizService.startPreparedQuiz();
-    });
-
     if (dom.jumpToBtn) dom.jumpToBtn.addEventListener('click', quizCore.handleJumpToQuestion);
     if (dom.jumpToInput) {
         dom.jumpToInput.addEventListener('keypress', (event) => {
@@ -122,7 +118,7 @@ function initializeEventListeners() {
     if (dom.navAboutLink) {
         dom.navAboutLink.addEventListener('click', (e) => {
             e.preventDefault();
-            ui.showToast('Trang "Giới thiệu" đang được xây dựng.', { type: 'info' });
+            alert('Trang "Giới thiệu" đang được xây dựng.');
         });
     }
     console.log("[Events] All application event listeners initialized.");
