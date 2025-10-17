@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.3...v1.4.0) (2025-10-17)
+
+
+### Features
+
+* Change to new theme ([#67](https://github.com/uybinhphan/quiz-nghiep-vu/issues/67)) ([b98e74a](https://github.com/uybinhphan/quiz-nghiep-vu/commit/b98e74a352bee148c81545c6cfc05c2a6520d36a))
+
 ## [1.3.3](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.2...v1.3.3) (2025-10-16)
 
 
