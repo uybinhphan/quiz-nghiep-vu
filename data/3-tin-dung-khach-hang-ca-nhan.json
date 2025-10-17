@@ -1,5 +1,5 @@
 {
-  "originalDisplayName": "3. Tín dụng khách hàng cá nhân",
+  "originalDisplayName": "3. Tín dụng khách hàng cá nhân",
   "questions": [
     {
       "question": "Khi gửi Tiết kiệm an sinh, khách hàng gửi số tiền tích lũy mỗi lần tối thiểu là bao nhiêu?",
@@ -10,7 +10,7 @@
         "10.000.000 VND; 1.000 USD; 1.000 EUR"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 4 Quyết định 1717/QĐ-NHNo-NCPT ngày 23/11/2015"
     },
     {
       "question": "Khi có nhu cầu khiếu nại, tra soát về giao dịch Tiền gửi Trực tuyến trên E-Banking, khách hàng có thể khiếu nại, tra soát qua hình thức nào sau đây",
@@ -21,7 +21,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 10 Quyết định 1705/QĐ-NHNo-NCPT ngày 08/8/2018"
     },
     {
       "question": "Khách hàng có thể mở tài khoản Tiền gửi tích lũy trực tuyến bằng đồng tiền nào?",
@@ -32,7 +32,7 @@
         "VND và ngoại tệ"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 4 Quy định số 865/QyĐ-NHNo-KHCN ngày 18/4/2023."
     },
     {
       "question": "Hình thức gửi tiền vào tài khoản Tiền gửi tích lũy trực tuyến",
@@ -43,7 +43,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 9 Điều 4 Quy định số 865/QyĐ-NHNo-KHCN ngày 18/4/2023."
     },
     {
       "question": "Đối với tài khoản Tiền gửi Tích lũy trực tuyến, khách hàng không được hưởng lãi suất trong trường hợp nào?",
@@ -54,7 +54,7 @@
         "Khách hàng đóng sớm tài khoản trong vòng 06 ngày kể từ khi mở tài khoản"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 8 Quy định số 865/QyĐ-NHNo-KHCN ngày 18/4/2023."
     },
     {
       "question": "Khách hàng có thể tra cứu thông tin tài khoản Tiền gửi Tích lũy trực tuyến qua hình thức nào?",
@@ -65,7 +65,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 10 Quy định số 865/QyĐ-NHNo-KHCN ngày 18/4/2023."
     },
     {
       "question": "Agribank nơi cung cấp sản phẩm Tiền gửi Tích lũy trực tuyến cho khách hàng có trách nhiệm:",
@@ -76,7 +76,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 12 Quy định số 865/QyĐ-NHNo-KHCN ngày 18/4/2023."
     },
     {
       "question": "Sản phẩm Tiền gửi trực tuyến trả lãi sau định kỳ gồm những chỉ thị đáo hạn nào?",
@@ -87,7 +87,7 @@
         "Tự động gia hạn gốc, Tự động gia hạn gốc và lãi"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 13 Điều 4 Quy định số 2751/QyĐ-NHNo-KHCN ngày 09/11/2023."
     },
     {
       "question": "Đối với sản phẩm Tiết kiệm hưu trí, số tiền tích lũy mỗi lần tối thiểu bao nhiêu",
@@ -98,7 +98,7 @@
         "5.000.000 VND"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 4 Quyết định số 1996/QĐ-NHNo-NCPT ngày 15/12/2015."
     },
     {
       "question": "Thời hạn gửi của sản phẩm Tiết kiệm hưu trí",
@@ -109,7 +109,7 @@
         "Dưới 24 tháng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 4 Quyết định số 1996/QĐ-NHNo-NCPT ngày 15/12/2015."
     },
     {
       "question": "Mức khuyến khích bằng lãi suất thưởng đối với Tiết kiệm có kỳ hạn lãi suất thả nổi là bao nhiêu",
@@ -120,7 +120,7 @@
         "Tối đa 0,5%/năm/số dư tiền gửi duy trì đến ngày đến hạn"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 6 Quyết định số 1715/QĐ-NHNo-NCPT ngày 23/11/2015."
     },
     {
       "question": "Cá nhân nước ngoài được phép cư trú ở Việt Nam từ 6 tháng trở lên có thể gửi tiền qua sản phẩm tiền gửi nào của Agribank?",
@@ -131,7 +131,7 @@
         "Không được gửi tiền"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 3 Quy định 656/QĐ-HĐTV-KHNV ngày 15/8/2019; Khoản 1 Điều 11 Quyết định 978/QĐ-NHNo-NCPT ngày 18/5/2020"
     },
     {
       "question": "Đối tượng khách hàng nào sau đây được gửi tiền tiết kiệm?",
@@ -142,7 +142,7 @@
         "Cả 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 4 Quyết định 655/QĐ-HĐTV-KHNV ngày 15/8/2019"
     },
     {
       "question": "Agribank nơi giao dịch tiền gửi tiết kiệm phải thực hiện niêm yết công khai những nội dung nào sau đây?",
@@ -153,7 +153,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 16 Quyết định 655/QĐ-HĐTV-KHNV ngày 15/8/2019"
     },
     {
       "question": "Agribank chi trả tiền gửi tiết kiệm cho khách hàng tại đâu?",
@@ -164,7 +164,7 @@
         "Tại Agribank nơi mở thẻ tiết kiệm hoặc tại Agribank khác nơi mở thẻ tiết kiệm"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 16 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Các loại lãi suất của tiền gửi tiết kiệm gồm những loại nào?",
@@ -175,7 +175,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 4 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Theo quy định về tiền gửi tiết kiệm trong hệ thống Agribank, số ngày duy trì số dư tiền gửi thực tế được tính như thế nào?",
@@ -186,7 +186,7 @@
         "Cả 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm c khoản 2 Điều 4 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Khách hàng gửi \"Tiết kiệm linh hoạt\" có thể rút gốc trước hạn tối đa bao nhiêu lần trong thời hạn gửi?",
@@ -197,7 +197,7 @@
         "Không giới hạn số lần rút gốc trước hạn"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 9 Điều 3 Quyết định 1716/QĐ-NHNo-NCPT ngày 23/11/2015"
     },
     {
       "question": "Thời hạn gửi tiền của Sản phẩm Tiết kiệm an sinh:",
@@ -208,7 +208,7 @@
         "Từ 12 tháng trở lên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 4 Quyết định 1717/QĐ-NHNo-NCPT ngày 23/11/2015"
     },
     {
       "question": "Công thức tính ngày đến hạn thực tế của tài khoản tiết kiệm học đường:",
@@ -219,7 +219,7 @@
         "Ngày đến hạn gốc + (Số ngày gửi góp muộn - Số ngày gửi góp sớm)/Tổng số kỳ gửi góp"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 10 Điều 4 Quyết định 1430/QĐ-NHNo-NCPT ngày 22/12/2014"
     },
     {
       "question": "Sản phẩm nào sau đây áp dụng lãi suất thả nổi?",
@@ -230,7 +230,7 @@
         "Tiết kiệm học đường"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 4 Quyết định 1430/QĐ-NHNo-NCPT ngày 22/12/2014"
     },
     {
       "question": "Sản phẩm tiền gửi tiết kiệm nào sau đây khách hàng gửi tiền 1 lần, lĩnh lãi theo định kỳ:",
@@ -241,7 +241,7 @@
         "Tiết kiệm có kỳ hạn trả lãi sau toàn bộ"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 20 Quyết định 2236/QyĐ-NHNo-KHCN ngày 31/7/2024"
     },
     {
       "question": "Tài khoản thanh toán chung có được sử dụng để thực hiện các giao dịch Tiền gửi Trực tuyến không?",
@@ -252,7 +252,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 3 Quyết định 1705/QĐ-NHNo-NCPT ngày 08/8/2018"
     },
     {
       "question": "Hình thức trả lãi của sản phẩm Tiền gửi trực tuyến là gì?",
@@ -263,7 +263,7 @@
         "Lãi trả định kỳ hàng quý"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết e Điểm 1.2 Khoản 1 Điều 5 Quyết định 1705/QĐ-NHNo-NCPT ngày 08/8/2018"
     },
     {
       "question": "Cá nhân là người nước ngoài có được phép gửi tiền gửi trực tuyến không",
@@ -274,7 +274,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 1 Quyết định 349/QĐ-NHNo-NCPT ngày 26/02/2020"
     },
     {
       "question": "Đối với sản phẩm tiền gửi tích lũy trực tuyến, lần gửi tích lũy cuối cùng của trước ngày đến hạn của tài khoản tối thiểu bao lâu?",
@@ -285,7 +285,7 @@
         "06 tháng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 7, Điều 4 QĐ 865/QyĐ-NHNo-KHCN ngày 18/4/2023"
     },
     {
       "question": "Thời hạn gửi tiền của sản phẩm Tiền gửi Trực tuyến trả lãi sau định kỳ:",
@@ -296,7 +296,7 @@
         "Từ 06 tháng đến 36 tháng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 4 Quy định số 2751/QyĐ-NHNo-KHCN ngày 09/11/2023."
     },
     {
       "question": "Số tiền gửi tối thiểu của sản phẩm Tiền gửi trực tuyến trả lãi sau định kỳ?",
@@ -307,7 +307,7 @@
         "5.000.000 VND"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 4 Quy định 2751/QyĐ-NHNo-KHCN ngày 09/11/2023"
     },
     {
       "question": "Giá bán vàng miếng cho khách hàng:",
@@ -318,7 +318,7 @@
         "Theo thương lượng với khách hàng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Văn bản số 7041/NHNo-KHCN ngày 29/5/2024"
     },
     {
       "question": "Trường hợp khách hàng cá nhân có nhu cầu sử dụng tài khoản thanh toán, khách hàng có thể thuê, mượn hoặc mua tài khoản thanh toán của cá nhân khác đã mở tại ngân hàng.",
@@ -329,7 +329,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 8 Nghị định 52/2024/NĐ-CP"
     },
     {
       "question": "Khách hàng cá nhân có thể ủy quyền, bán lại cho cá nhân, tổ chức sử dụng tài khoản thanh toán của họ tại ngân hàng.",
@@ -340,7 +340,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 8 Nghị định 52/2024/NĐ-CP"
     },
     {
       "question": "Khách hàng cá nhân mở tài khoản thanh toán tại ngân hàng và có thể thực hiện ủy quyền, cho thuê, cho mượn tài khoản thanh toán.",
@@ -351,7 +351,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 8 Nghị định 52/2024/NĐ-CP"
     },
     {
       "question": "Đối tượng khách hàng có thể mua vàng miếng để tham gia quản lý thị trường",
@@ -362,7 +362,7 @@
         "Không có đối tượng nào"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 1 Mục I văn bản số 7041/NHNo-KHCN ngày 29/5/2024"
     },
     {
       "question": "Loại vàng Agribank đã bán cho khách hàng cá nhân để tham gia quản lý thị trường vàng là :",
@@ -373,7 +373,7 @@
         "Vàng mua từ khách hàng bán"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 2 Mục II văn bản số 7041/NHNo-KHCN ngày 29/5/2024"
     },
     {
       "question": "Mức phí bảo hiểm Bảo an tài khoản (đã bao gồm VAT) là?",
@@ -384,7 +384,7 @@
         "88.000 VNĐ/năm/tài khoản"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Mục 7, Văn bản số 1898/NHNo-KHCN ngày 03/3/2023"
     },
     {
       "question": "Hạn mức trách nhiệm tối đa của giao dịch thanh toán qua Internet sản phẩm bảo hiểm Bảo an tài khoản là bao nhiêu?",
@@ -395,7 +395,7 @@
         "30.000.000 VNĐ/năm bảo hiểm/tài khoản"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Văn bản 16438/HD-NHNo-KHCN ngày 28/12/2023 về Triển khai Hợp đồng đại lý bảo hiểm giữa Agribank và ABIC"
     },
     {
       "question": "Hạn mức trách nhiệm tối đa chi phí khôi phục trộm cắp danh tính trực tuyến của sản phẩm bảo hiểm bảo an tài khoản",
@@ -406,7 +406,7 @@
         "68 triệu đồng/năm bảo hiểm/tài khoản"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Phụ lục 02 Văn bản 16438/HD-NHNo-KHCN ngày 28/12/2023 về Triển khai Hợp đồng đại lý bảo hiểm giữa Agribank và ABIC"
     },
     {
       "question": "Hợp đồng đại lý bảo hiểm là:",
@@ -417,7 +417,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Văn bản 8668/QTr-NHNo-KHCN ngày 28/6/2024 Quy trình giám sát và kiểm soát chất lượng việc thực hiện hoạt động đại lý bảo hiểm của đại lý viên trong hệ thống Agribank"
     },
     {
       "question": "Theo quy định tại Nghị định 46/2023/NĐ-CP, chi nhánh phải đảm bảo tối thiểu bao nhiêu đại lý viên bảo hiểm tại chi nhánh?",
@@ -428,7 +428,7 @@
         "4"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Văn bản 10262/NHNo-KHCN ngày 07/9/2023 về Triển khai Nghị định số 46/2023/NĐ-CP về quy định chi tiết thi hành một số điều của Luật Kinh doanh bảo hiểm"
     },
     {
       "question": "Theo quy định tại Nghị định 46/2023/NĐ-CP, Phòng giao dịch phải đảm bảo tối thiểu bao nhiêu đại lý viên bảo hiểm?",
@@ -439,7 +439,7 @@
         "4"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Văn bản 10262/NHNo-KHCN ngày 07/9/2023 về Triển khai Nghị định số 46/2023/NĐ-CP về quy định chi tiết thi hành một số điều của Luật Kinh doanh bảo hiểm"
     },
     {
       "question": "Theo Văn bản 16438/HD-NHNo-KHCN ngày 28/12/2023, đối với hoạt động giới thiệu khách hàng, chào bán bảo hiểm trường hợp là khách hàng cá nhân, Agribank cung cấp cho ABIC các thông tin tối thiểu nào sau đây?",
@@ -450,7 +450,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Văn bản 16438/HD-NHNo-KHCN ngày 28/12/2023 về Triển khai Hợp đồng đại lý bảo hiểm giữa Agribank và ABIC"
     },
     {
       "question": "Theo Văn bản 16438/ HD-NHNo-KHCN ngày 28/12/2023, đối với hoạt động giới thiệu khách hàng, chào bán bảo hiểm  trường hợp khách hàng là khách hàng tổ chức, Agribank cung cấp cho ABIC các thông tin tối thiểu nào sau đây?",
@@ -461,7 +461,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Văn bản 16438/HD-NHNo-KHCN ngày 28/12/2023 về Triển khai Hợp đồng đại lý bảo hiểm giữa Agribank và ABIC"
     },
     {
       "question": "Theo Văn bản 16438/ HD-NHNo-KHCN ngày 28/12/2023, đối với hoạt động thu xếp việc giao kết Hợp đồng bảo hiểm, Agribank cung cấp cho ABIC thông tin tối thiểu nào sau đây:",
@@ -472,7 +472,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Văn bản 16438/HD-NHNo-KHCN ngày 28/12/2023 về Triển khai Hợp đồng đại lý bảo hiểm giữa Agribank và ABIC"
     },
     {
       "question": "Theo Văn bản 16438/ HD-NHNo-KHCN ngày 28/12/2023,  đối với hoạt động thu phí bảo hiểm, Agribank cung cấp cho ABIC thông tin tối thiểu nào sau đây:",
@@ -483,7 +483,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Văn bản 16438/HD-NHNo-KHCN ngày 28/12/2023 về Triển khai Hợp đồng đại lý bảo hiểm giữa Agribank và ABIC"
     },
     {
       "question": "Agribank đang triển khai bán sản phẩm bảo hiểm nào trên ứng dụng Agribank Plus?",
@@ -494,7 +494,7 @@
         "Cả 2 và 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Văn bản số 9919/NHNo-KHCN ngày 30/8/2023"
     },
     {
       "question": "Có bao nhiêu hình thức khuyến mại được quy định trong Luật Xúc tiến thương mại?",
@@ -505,7 +505,7 @@
         "10 hình thức"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Nghị định 81/2018/NĐ-CP ngày 22/05/2018"
     },
     {
       "question": "Tổng giá trị hàng hóa , dịch vụ dùng để khuyến mại thương nhân thực hiện trong một chương trình khuyến mại theo quy định của Luật Xúc tiến thương mại là bao nhiêu?\r\nLưu ý:  Loại trừ trường hợp Đối với các chương trình khuyến mại tập trung và trong khuôn khổ các chương trình hoạt động xúc tiến thương mại do Thủ tướng Chính phủ quyết định, hạn mức tối đa là 100%",
@@ -516,7 +516,7 @@
         "không được vượt quá 70%"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 6 và Khoản 4, 5 Điều 6 Nghị định 81/2018/NĐ-CP ngày 22/05/2018"
     },
     {
       "question": "Tổng thời gian thực hiện khuyến mại bằng hình thức giảm giá đối với một loại nhãn hiệu hàng hóa, dịch vụ được quy định tối đa bao nhiêu ngày trong một năm theo Luật Xúc tiến thương mại?",
@@ -527,7 +527,7 @@
         "Tối đa 120 ngày"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 9 Nghị định 81/2018/NĐ-CP ngày 22/05/2018"
     },
     {
       "question": "Luật thương mại quy định thời gian triển khai tối đa đối với một chương trình khuyến mại là bao lâu?",
@@ -538,7 +538,7 @@
         "Không quy định"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Nghị định 81/2018/NĐ-CP ngày 22/05/2018"
     },
     {
       "question": "Nêu các trường hợp thương nhân không phải thực hiện thủ tục hành chính thông báo thực hiện khuyến mại?",
@@ -549,7 +549,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "khoản 2 Điều 1 Nghị định 128/2024/NĐ-CP ngày 10/10/2024"
     },
     {
       "question": "Thời hạn thương nhân thực hiện khuyến mại công bố kết quả trúng thưởng và trao giải thưởng của Chương trình khuyến mại kèm phiếu dự thi hoặc mang tính may rủi là bao nhiêu ngày theo quy định?",
@@ -560,7 +560,7 @@
         "90 ngày"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 21  Nghị định 81/2018/NĐ-CP ngày 22/05/2018"
     },
     {
       "question": "Thời hạn báo cáo kết quả thực hiện khuyến mại của Chương trình khuyến mại kèm phiếu dự thi hoặc mang tính may rủi là bao nhiêu ngày theo quy định?",
@@ -571,7 +571,7 @@
         "90 ngày kể từ ngày hết thời hạn trao giải thưởng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 21  Nghị định 81/2018/NĐ-CP ngày 22/05/2018"
     },
     {
       "question": "Các dịch vụ không làm thay đổi số dư tài khoản thanh toán của khách hàng cá nhân trên các kênh ngân hàng điện tử của Agribank là dịch vụ gì?",
@@ -582,7 +582,7 @@
         "Dịch vụ phi tài chính"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 2 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Dịch vụ  cho phép khách hàng sử dụng các tiện ích không liên quan đến giao dịch chuyển khoản hay thanh toán trên kênh điện tử của Agribank là dịch vụ gì?",
@@ -593,7 +593,7 @@
         "Đáp án 2 và 3 đúng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 2 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Hiện nay, để thay đổi số điện thoại sử dụng dịch vụ SMS Banking, khách hàng cần thực hiện?",
@@ -604,7 +604,7 @@
         "Đăng ký trực tuyến trên Internet hoặc Mobile Banking."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 3 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Đối với khách hàng tổ chức khi thay đổi/bổ sung số điện thoại sử dụng dịch vụ SMS Banking của Agribank, khách hàng có thể làm bằng cách nào?",
@@ -615,7 +615,7 @@
         "Đến bất kỳ điểm giao dịch nào Agribank để thay đổi."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 3 QĐ 2736 QĐ/NHNo-KHCN"
     },
     {
       "question": "Khách hàng cá nhân phải làm gì để hủy dịch vụ Agribank Plus?",
@@ -626,7 +626,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 3 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Dịch vụ đặt vé máy bay, vé xe, vé tàu, phòng khách sạn, mua vé xem phim, thanh toán qua QR Code trên ứng dụng Agribank Plus là dịch vụ gì?",
@@ -637,7 +637,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm b Khoản 1 Điều 4 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Đơn vị nào sau đây hỗ trợ xử lý khiếu nại về dịch vụ phi tài chính, VNTopup chuyển khoản trong hệ thống trên hệ thống ngân hàng điện tử?",
@@ -648,7 +648,7 @@
         "Trung tâm thanh toán."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm d Khoản 4 Điều 13 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Loại tiền được áp dụng khi sử dụng dịch vụ tài chính qua dịch vụ ngân hàng điện tử của Agribank là gì?",
@@ -659,7 +659,7 @@
         "VND và các loại tiền tệ khác triển khai khi có thông báo của Tổng Giám đốc."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 8 Quyết định số 1228/QyĐ-NHNo-KHCN ngày 21/05/2024"
     },
     {
       "question": "Loại tiền được áp dụng khi sử dụng dịch vụ phi tài chính qua dịch vụ ngân hàng điện tử của Agribank là gì?",
@@ -670,7 +670,7 @@
         "Ngoại tệ."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 8 Quyết định số 1228/QyĐ-NHNo-KHCN ngày 21/05/2024"
     },
     {
       "question": "Agribank tạm ngừng cung cấp dịch vụ ngân hàng điện tử cho khách hàng trong trường hợp nào?",
@@ -681,7 +681,7 @@
         "Ngày cuối tuần."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 8 Quyết định số 1228/QyĐ-NHNo-KHCN ngày 21/05/2024"
     },
     {
       "question": "Agribank có yêu cầu gì đối với tên đăng nhập của dịch vụ Agribank Plus?",
@@ -692,7 +692,7 @@
         "Là số điện thoại di động khách hàng đăng ký sử dụng dịch vụ."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 10 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Hiện nay, Agribank áp dụng loại xác thực nào để xác thực giao dịch tài chính đối với khách hàng cá nhân sử dụng dịch vụ Agribank eBanking?",
@@ -703,7 +703,7 @@
         "Token OTP, Soft OTP, Sinh trắc học"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 33 QĐ 2613/QĐ-NHNo-NCPT"
     },
     {
       "question": "Agribank có yêu cầu gì đối với tên đăng nhập của dịch vụ SMS Banking?",
@@ -714,7 +714,7 @@
         "Là số điện thoại đăng ký dịch vụ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 10 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Bảo mật sinh trắc học được áp dụng đối với dịch vụ nào sau đây?",
@@ -725,7 +725,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 10 QĐ 1228 QĐ/NHNo-KHCN"
     },
     {
       "question": "Số tiền gửi tối thiểu của sản phẩm Tiền gửi trực tuyến rút gốc linh hoạt?",
@@ -736,7 +736,7 @@
         "1.000 USD"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 1 Quy định 3640/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Agribank nơi mở tài khoản thực hiện đóng tài khoản trong trường hợp nào sau đây?",
@@ -747,7 +747,7 @@
         "Tài khoản thanh toán ở trạng thái tài khoản không hoạt động vượt quá 60 tháng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm e Khoản 1 Điều 21 Quy định số 3325/QyĐ-NHNo-TCKT ngày 30/9/2024"
     },
     {
       "question": "Bà A ủy quyền cho con gái (Bà B) thực hiện rút tiền nhiều lần từ Thẻ tiết kiệm đứng tên bà A, từ lần giao dịch thứ hai trở đi, Agribank nơi giao dịch thu lại bản gốc Giấy ủy quyền lưu cùng chứng từ chi tiền",
@@ -758,7 +758,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm c Khoản 7 Điều 20 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Sản phẩm nào sau đây không được tham gia Chương trình tiết kiệm dự thưởng",
@@ -769,7 +769,7 @@
         "Tiết kiệm có kỳ hạn trả lãi sau toàn bộ"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 16 Quy định 2236/QyĐ-NHNo-KHCN ngày 31/7/2024"
     },
     {
       "question": "Bà A và ông B gửi tiền gửi tiết kiệm chung, thỏa thuận tất cả người gửi tiền thực hiện giao dịch tất toán thẻ tiết kiệm. Tuy nhiên vào ngày đến hạn, bà A vắng mặt, Bà A có thể ủy quyền cho người khác thực hiện giao dịch rút tiền gửi tiết kiệm chung được không?",
@@ -780,7 +780,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm 1.4 Khoản 1 Điều 19 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Theo Điều kiện điều khoản mở và sử dụng tài khoản thanh toán, Agribank trả lãi theo định kỳ hàng tháng vào TKTT của khách hàng như thế nào?",
@@ -791,7 +791,7 @@
         "Cả 3 đáp án"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 6 Phụ lục III, Quyết định số 1032/QĐ-NHNo-KHCN ngày 31/3/2025"
     },
     {
       "question": "Số dư tối thiểu cần duy trì trong tài khoản thanh toán cá nhân tại mọi thời điểm, bắt đầu từ khi TKTT chính thức hoạt động theo quy định của Agribank là bao nhiêu?",
@@ -802,7 +802,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 6 Phụ lục III, Quyết định số 1032/QĐ-NHNo-KHCN ngày 31/3/2025"
     },
     {
       "question": "Việc đăng ký thông tin khách hàng, mở, sử dụng tài khoản thanh toán và dịch vụ bao gồm nhiều nội dung, chi nhánh bố trí 01 Giao dịch viên hướng dẫn khách hàng đăng ký theo các Mẫu và thực hiện thủ tục ký hợp đồng/thỏa thuận, tổ chức luân chuyển chứng từ, Mẫu, giấy tờ hồ sơ trong nội bộ phù hợp với quy trình giao dịch một cửa, hạn chế tối đa việc khách hàng phải qua nhiều phòng nghiệp vụ để đăng ký và sử dụng tài khoản thanh toán và các dịch vụ gia tăng",
@@ -813,7 +813,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 1 mục VII Phụ lục II, Quyết định số 1032/QĐ-NHNo-KHCN ngày 31/3/2025"
     },
     {
       "question": "Dịch vụ thanh toán qua tài khoản thanh toán của khách hàng, bao gồm:",
@@ -824,7 +824,7 @@
         "Cả 3 đáp án"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 điều 17 nghị định số 52/2024/NĐ-CP ngày 15/5/2024"
     },
     {
       "question": "Đối với khách hàng cá nhân lần đầu tiên giao dịch tại ngân hàng, có nhu cầu mở tài khoản thanh toán, chi nhánh hướng dẫn khách hàng thực hiện",
@@ -835,7 +835,7 @@
         "Tất cả các nội dung trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Mục I Phụ lục II, Quyết định số 1032/QĐ-NHNo-KHCN ngày 31/3/2025"
     },
     {
       "question": "Các hành vi bị cấm trong quy định không dùng tiền mặt",
@@ -846,7 +846,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 8 nghị định số 52/2024/NĐ-CP ngày 15/5/2024"
     },
     {
       "question": "Để ủy quyền trong sử dụng tài khoản thanh toán của cá nhân, chủ tài khoản phải cung cấp những gì đến tổ chức cung ứng dịch vụ thanh toán nơi mở tài khoản?",
@@ -857,7 +857,7 @@
         "Không có đáp án nào đúng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 5 Thông tư 17/2024/TT-NHNN ngày 28/6/2024"
     },
     {
       "question": "Theo Điều kiện điều khoản mở và sử dụng tài khoản thanh toán, khách hàng đồng ý rằng Agribank được phép sử dụng thông tin khách hàng để thực hiện:",
@@ -868,7 +868,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 9 Phụ lục III, Quyết định số 1032/QĐ-NHNo-KHCN ngày 31/3/2025"
     },
     {
       "question": "Theo Điều kiện điều khoản mở và sử dụng tài khoản thanh toán, Agribank tiếp nhận yêu cầu tra soát, khiếu nại của khách hàng bằng các hình thức:",
@@ -879,7 +879,7 @@
         "Cả 3 đáp án"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 13 Phụ lục III, Quyết định số 1032/QĐ-NHNo-KHCN ngày 31/3/2025"
     },
     {
       "question": "Điều kiện đối với đại lý viên trong hoạt động đại lý bảo hiểm?",
@@ -890,7 +890,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Văn bản 8668/QTr-NHNo-KHCN ngày 28/6/2024 Quy trình giám sát và kiểm soát chất lượng việc thực hiện hoạt động đại lý bảo hiểm của đại lý viên trong hệ thống Agribank"
     },
     {
       "question": "Cơ chế phối hợp giữa các chi nhánh Agribank trong việc cho vay KHCN mua nhà ở tại dự án nhà ở do Agribank cho vay thực hiện theo nguyên tắc nào?",
@@ -901,7 +901,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 24  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Thẩm quyền cấp tín dụng đối với KHCN vay vốn mua nhà ở thương mại của Giám đốc chi nhánh loại II:",
@@ -912,7 +912,7 @@
         "Tối đa không vượt quá 85% thẩm quyền cấp tín dụng của Giám đốc chi nhánh loại I"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Mục III Phụ lục 02/TQCVNO, quy định số 3639/QyĐ-NHNo-KHCN"
     },
     {
       "question": "Theo Quy định tại QĐ số 3639/QyĐ-NHNo-KHCN ngày 30/10/2024  thì Agribank nơi cho vay xem xét quyết định áp dụng thời gian ân hạn trả nợ gốc tương ứng với thời gian chủ đầu tư hỗ trợ lãi suất tiền vay cho khách hàng mua nhà ở, phù hợp với nguồn tiền trả nợ của khách hàng tối đa bao nhiêu tháng?",
@@ -923,7 +923,7 @@
         "36 tháng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 10,  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Agribank nơi cho vay thực hiện giải ngân vốn vay đối với KHCN vay vốn mua nhà ở thương mại thực hiện theo quy định nào sau đây?",
@@ -934,7 +934,7 @@
         "Việc sử dụng các phương tiện thanh toán để giải ngân vốn cho vay thực hiện theo quy định của Agribank."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 14  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "KHCN vay vốn mua nhà ở thương mại tại Agribank được nhận tiền vay hoặc trả nợ bằng đồng tiền nào sau đây?",
@@ -945,7 +945,7 @@
         "Đồng tiền cho vay, trả nợ bằng đồng Việt Nam (viết tắt là VND)."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 13  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Khi vay vốn mua nhà ở thương mại tại Agribank, khách hàng và bên bảo đảm được thực hiện nội dung nào sau đây:",
@@ -956,7 +956,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 17  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Những trường hợp được giải chấp tài sản đảm bảo khi cho vay KHCN mua nhà ở thương mại tại Agribank:",
@@ -967,7 +967,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 19  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Theo quy định của Agribank khi cho vay KHCN mua nhà ở thương mại: Thời hạn kiểm tra sử dụng vốn vay tại Agribank nơi cho vay thực hiện như thế nào?",
@@ -978,7 +978,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 20  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Việc kiểm tra tài sản thế chấp của Agribank nơi cho vay đối với KHCN mua nhà ở thương mại được thực hiện như thế nào?",
@@ -989,7 +989,7 @@
         "Thực hiện theo thỏa thuận giữa Agribank nơi cho vay và khách hàng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 21  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Trong quá trình kiểm tra tài sản thế chấp đối với KHCN vay vốn mua nhà ở thương mại, Agribank nơi cho vay phát hiện khách hàng chưa thực hiện đúng theo thỏa thuận về bảo quản, sử dụng TSTC, có nguy cơ ảnh hưởng thiệt hại TSTC, giảm sút giá trị TSTC (trừ giảm giá trị tự nhiên), chi nhánh đề nghị khách hàng thực hiện phương án nào sau đây:",
@@ -1000,7 +1000,7 @@
         "Đề nghị khách hàng đàm phán bổ sung tài sản có giá trị cao hơn."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3, Điều 21  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Việc xử lý tài sản bảo đảm đối với KHCN/bên bảo đảm vay vốn mua nhà ở thương mại vi phạm một trong các nghĩa vụ đã thoả thuận tại HĐTD, HĐBĐ, chi nhánh thực hiện các biện pháp xử lý TSBĐ theo quy định nào sau đây?",
@@ -1011,7 +1011,7 @@
         "Xem xét trách nhiệm của Người có liên quan đến khoản vay do KH vi phạm nghĩa vụ thoả thuận."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 23  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Agribank nơi cho vay yêu cầu khách hàng mua bảo hiểm tài sản đối với TSBĐ là quyền tài sản phát sinh từ HĐMB (nhà chung cư) đã được chủ đầu tư bàn giao, đưa vào sử dụng, khi vay vốn mua nhà ở thương mại?",
@@ -1022,7 +1022,7 @@
         "Mua bảo hiểm theo đề nghị của khách hàng và được Agribank nơi cho vay chấp luận."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 25 Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Tổ vay vốn của Agribank được thành lập khi có tối thiểu bao nhiêu thành viên tham gia?",
@@ -1033,7 +1033,7 @@
         "20 người"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 4 QĐ 5199/QĐ-NHNo-HSX ngày 30/12/2016"
     },
     {
       "question": "Việc thành lập Tổ vay vốn của Agribank phải được đơn vị nào xác nhận cho phép hoạt động?",
@@ -1044,7 +1044,7 @@
         "Đáp án 1 và 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 4 QĐ 5199/QĐ-NHNo-HSX ngày 30/12/2016"
     },
     {
       "question": "Tổ trưởng tổ vay vốn được thu lãi tiền vay mà không cần ủy quyền của Tổ viên?",
@@ -1055,7 +1055,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 11 QĐ 5199/QĐ-NHNo-HSX ngày 30/12/2016"
     },
     {
       "question": "Tổ trưởng tổ vay vốn sẽ không được tiếp tục giao nhiệm vụ khi số phiếu tín nhiệm của tổ viên không đạt đa số:",
@@ -1066,7 +1066,7 @@
         "Trên 95%"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4, Điều 14 QĐ 5199/QĐ-NHNo-HSX ngày 30/12/2016"
     },
     {
       "question": "Tổ cho vay lưu động của Agribank thực hiện các nhiệm vụ nào sau đây?",
@@ -1077,7 +1077,7 @@
         "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 18 QĐ 5199/QĐ-NHNo-HSX ngày 30/12/2016"
     },
     {
       "question": "Người lao động Agribank vay vốn sử dụng vào mục đích nào sau đây là phù hợp?",
@@ -1088,7 +1088,7 @@
         "Cả 3 đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 6 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025."
     },
     {
       "question": "Phương thức cho vay đối với Người lao động Agribank áp dụng:",
@@ -1099,7 +1099,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 7 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025"
     },
     {
       "question": "Theo quy định số 359/QyĐ-NHNo-KHCN, dư nợ cho vay được áp dụng LSCV đối với Người lao động Agribank gồm:",
@@ -1110,7 +1110,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 9 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025."
     },
     {
       "question": "Tổng dư nợ cho vay tối đa đối với người lao động được Agribank áp dụng:",
@@ -1121,7 +1121,7 @@
         "Theo phân nhóm người lao động và xếp hạng chi nhánh theo tháng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 9 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025."
     },
     {
       "question": "Để tránh rủi ro về lãi suất khi cho vay Người lao động, Agribank nơi cho vay thực hiện nội dung nào sau đây:",
@@ -1132,7 +1132,7 @@
         "Chủ động điều chỉnh LSCV phù hợp với quy định về lãi suất huy động tiền gửi tiết kiệm của Tổng Giám đốc"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 10 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025."
     },
     {
       "question": "Trường hợp Người lao động, Agribank chấm dứt HĐLĐ hoặc chuyển công tác ra khỏi hệ thống Agribank nơi cho vay thực hiện:",
@@ -1143,7 +1143,7 @@
         "Giao Giám đốc Agribank nơi cho vay xem xét quyết định"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 10 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025."
     },
     {
       "question": "Agribank áp dụng thời hạn cho vay tối đa đối với Người lao động:",
@@ -1154,7 +1154,7 @@
         "Tối đa không vượt quá 20 năm"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 13 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025."
     },
     {
       "question": "Tài sản bảo đảm Agribank áp dụng cho vay đối với Người lao động?",
@@ -1165,7 +1165,7 @@
         "Theo quy định về bảo đảm trong hoạt động cấp tín dụng của Hội đồng tín dụng Agribank nơi cho vay."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 14 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025."
     },
     {
       "question": "Agribank nơi cho vay xử lý vi phạm qua kiểm tra, giám sát khi Người lao động vay vốn vi phạm:",
@@ -1176,7 +1176,7 @@
         "Giao Giám đốc  và Hội đồng kỷ luật của Agribank nơi cho vay quyết định"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 15 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025"
     },
     {
       "question": "Agribank nơi cho vay được xem xét quyết định miễn, giảm những loại phí nào sau đây khi cho người lao động vay vốn?",
@@ -1187,7 +1187,7 @@
         "Được xem xét quyết định miễn, giảm các loại phí trả nợ trước hạn, phí dịch vụ chuyển tiền vay đối với người lao động trong thời gian tối đa không quá 02 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 11 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025"
     },
     {
       "question": "Agribank áp dụng Chương trình cho vay người lao động đối với:",
@@ -1198,7 +1198,7 @@
         "Người lao động tại Công ty con do Agribank nắm giữ cổ phần; người đại diện chuyên trách của Agribank tại doanh nghiệp, công ty liên kết của Agribank."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 2 Quy định số 359/QyĐ-NHNo-KHCN ngày 21/02/2025"
     },
     {
       "question": "Trước khi thực hiện bất kỳ giao dịch liên quan đến tiền gửi tiết kiệm, cán bộ Agribank thực hiện kiểm tra:",
@@ -1209,7 +1209,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 6 Quyết định số 2209/QĐ-NHNo-KHNV ngày 18/10/2019."
     },
     {
       "question": "Lãi suất tiền gửi tiết kiệm được quy định và niêm yết %/năm (lãi suất năm) trên cơ sở một năm có bao nhiêu ngày?",
@@ -1220,7 +1220,7 @@
         "366"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 4 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Đối với thủ tục gửi tiền gửi tiết kiệm thông qua người đại diện theo pháp luật, người đại diện theo pháp luật cần xuất trình các giấy tờ gì?",
@@ -1231,7 +1231,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 12 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Trường hợp nào sau đây, khách hàng được phép ủy quyền cho người khác thực hiện giao dịch thay mình?",
@@ -1242,7 +1242,7 @@
         "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 20 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Trường hợp người gửi tiền tại Agribank không đọc được thì khi rút tiền phải có mấy người làm chứng?",
@@ -1253,7 +1253,7 @@
         "04 người"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 13 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Người gửi tiền có thể ủy quyền cho người khác đến rút tiền gốc, lãi tiền gửi tiết kiệm thay mình, đúng hay sai?",
@@ -1264,7 +1264,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 20 Quyết định số 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Agribank cấp lại Thẻ tiết kiệm cho người gửi tiền trong thời gian bao lâu kể từ ngày người gửi tiền hoàn tất thủ tục báo mất Thẻ tiết kiệm (trường hợp các thông tin được xác định đúng, đầy đủ, không có tranh chấp, khiếu kiện)?",
@@ -1275,7 +1275,7 @@
         "Sau 10 ngày làm việc"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 23 Quyết định 2209/QĐ-NHNo-KHNV ngày 18/10/2019"
     },
     {
       "question": "Đối tượng áp dụng là KHCN vay vốn tại Agribank mua nhà ở thương mại, bao gồm các trường hợp nào sau đây:",
@@ -1286,7 +1286,7 @@
         "Cả 1, 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 điều 2 quy định số 3639/QyĐ-NHNo-KHCN"
     },
     {
       "question": "Agribank nơi cho vay bổ sung nội dung tại Hợp đồng tín dụng về cam kết của khách hàng đối với HĐMB, gồm các nội dung nào sau đây: (áp dụng đối với KHCN  vay vốn mua nhà ở thương mại)",
@@ -1297,7 +1297,7 @@
         "Cả 1 và 2 đều  đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 điều 5 Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Mức cho vay đối  với khách hàng cá nhân  mua nhà ở thương mại có TSBĐ là Quyền tài sản phát sinh từ HĐMB nhà ở hình thành trong tương lại của chính nhà ở đó được quy định tối đa là bao nhiêu?",
@@ -1308,7 +1308,7 @@
         "Tối đa 90% giá trị HĐMB/HĐCN HĐMB nhà ở"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2,  điều 7; điểm c khoản 1 điều 15 Quy định 3639/QyĐ-NHNo-KHCN"
     },
     {
       "question": "Agribank quy định tại Văn bản số 3639/QyĐ-NHNo-KHCN ngày 30/10/2024 mức cho vay đối với khách hàng cá nhân mua nhà được quy định tối đa là bao nhiêu?",
@@ -1319,7 +1319,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "điều 7 Quy định 3639/QyĐ-NHNo-KHCN"
     },
     {
       "question": "Thời hạn cho vay đối với khách hàng cá nhân có quốc tịch Việt Nam mua nhà ở thương mại tối đa là bao nhiêu năm?",
@@ -1330,7 +1330,7 @@
         "Tối đa 20 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 điều 8 Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Thời hạn cho vay đối với khách hàng cá nhân có quốc tịch nước ngoài cư trú hợp pháp tại Việt Nam mua nhà ở thương mại tối đa là bao nhiêu năm?",
@@ -1341,7 +1341,7 @@
         "Tối đa 25 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 điều 8 Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Thời hạn cho vay đối với khách hàng cá nhân mua nhà ở thương mại được xác định tối đa là bao nhiêu năm?",
@@ -1352,7 +1352,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 8 Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Cho vay ngoài địa bàn đối với KHCN mua nhà ở thương mại,  Agribank nơi cho vay được cho vay các trường hợp nào sau đây:",
@@ -1363,7 +1363,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a, điểm b, điểm c khoản 1 Điều 12 Quy định 3639/QyĐ-NHNo-KHCN"
     },
     {
       "question": "Cho vay ngoài địa bàn đối với KHCN mua nhà ở thương mại, Agribank nơi cho vay được cho vay các trường hợp nào sau đây:",
@@ -1374,7 +1374,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm d, điểm đ, điểm e Điều 12 Quy định 3639/QyĐ-NHNo-KHCN"
     },
     {
       "question": "Cho vay ngoài địa bàn đối với KHCN mua nhà ở thương mại, Agribank nơi cho vay được cho vay các trường hợp nào sau đây:",
@@ -1385,7 +1385,7 @@
         "Cả đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm g, điểm h Điều 12 Quy định 3639/QyĐ-NHNo-KHCN"
     },
     {
       "question": "Chi nhánh nhận TSBĐ đối với khoản vay mua nhà ở thương mại thuộc các trường hợp nào sau đây:",
@@ -1396,7 +1396,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 15  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Chi nhánh nhận thế chấp Quyền tài sản phát sinh từ HĐMB/HĐCN HĐMB và HĐMB   nhà ở HTTTL trong dự án nhà ở làm TSBĐ phải đáp ứng các điều kiện nào sau đây:",
@@ -1407,7 +1407,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 15  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Chi nhánh không nhận TSBĐ là quyền tài sản phát sinh từ HĐMB nhà ở Quy định tại QĐ 3639/QyĐ-NHNo-KHCN ngày 30/10/2024  đối với trường hợp nào sau đây:",
@@ -1418,7 +1418,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 15  Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Agribank xem xét quyết định thu hồi nợ trước hạn đối với KHCN vay vốn mua nhà ở thương mại trong các trường hợp nào sau đây:",
@@ -1429,7 +1429,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 22 Quy định 3639/QyĐ-NHNo-KHCN ngày 30/10/2024"
     },
     {
       "question": "Thương nhân thực hiện thủ tục hành chính đăng ký hoạt động khuyến mại phải được xác nhận của cơ quan quản lý nhà nước có thẩm quyền nào?",
@@ -1440,7 +1440,7 @@
         "Cả 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 19 Nghị định 81/2018/NĐ-CP ngày 22/05/2018"
     },
     {
       "question": "Phê duyệt cho vay vượt thẩm quyền gồm những cấp nào?",
@@ -1451,7 +1451,7 @@
         "Hội đồng thành viên, Tổng giám đốc, Trưởng ban Thẩm định/Giám đốc TTPD, Giám đốc Chi nhánh loại I, loại II."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 28 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 1546/QC-HĐTV-TD"
     },
     {
       "question": "Agribank không được cấp tín dụng đối với trường hợp nào?",
@@ -1462,7 +1462,7 @@
         "Cả 1 và 2."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5, 6 Điều 22 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 579/QC-HĐTV-TD"
     },
     {
       "question": "Đối với khoản nợ vay có một hoặc một số kỳ hạn bị quá hạn, Agribank thực hiện thu nợ theo thứ tự như thế nào?",
@@ -1473,7 +1473,7 @@
         "Thu nợ gốc và lãi theo thỏa thuận với khách hàng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 10 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Theo quy định hiện hành của Agribank, Thời hạn trả nợ được quy định như thế nào?",
@@ -1484,7 +1484,7 @@
         "Thời hạn trả nợ là khoảng thời gian xác định trong thời hạn cho vay được tính từ ngày bắt đầu nhận nợ đầu tiên cho đến ngày trả nợ cuối cùng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 17 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Theo quy định hiện hành của Agribank, Thỏa thuận cho vay được quy định như thế nào?",
@@ -1495,7 +1495,7 @@
         "Thỏa thuận cho vay được ký kết bởi người đại diện của Agribank và khách hàng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 17 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Agribank xem xét quyết định việc cơ cấu lại thời hạn trả nợ trên cơ sở nào?",
@@ -1506,7 +1506,7 @@
         "Đề nghị của Người quản lý nợ và khả năng tài chính của khách hàng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 40 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Một trong các tiêu chí về có khả năng tài chính để trả nợ của khách hàng vay là gì?",
@@ -1517,7 +1517,7 @@
         "Không có nợ xấu ở Agribank và các TCTD khác tại thời điểm thẩm định, quyết định cho vay."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 4 Điều 19 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Quy định miễn, giảm lãi tiền vay, phí vay vốn của Agribank như thế nào?",
@@ -1528,7 +1528,7 @@
         "Agribank có quyền xem xét quyết định miễn, giảm lãi tiền vay, phí cho khách hàng vay vốn theo quy định của Chủ tịch Hội đồng thành viên Agribank"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 16 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Theo quy định hiện hành của Agribank, mức cho vay tối đa được quy định như thế nào?",
@@ -1539,7 +1539,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2, 3, 4 Điều 21 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Khách hàng vay vốn của Agribank phải thực hiện nguyên tắc vay vốn như thế nào?",
@@ -1550,7 +1550,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 4 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 579/QC-HĐTV-TD"
     },
     {
       "question": "Agribank cho vay theo hạn mức dự phòng đối với khách hàng được quy định như thế nào?",
@@ -1561,7 +1561,7 @@
         "Agribank và khách hàng thỏa thuận áp dụng cho vay đối với nhu cầu vốn có chu kỳ hoạt động kinh doanh không quá 09 tháng."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 31 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Theo quy định hiện hành của Agribank, khách hàng phải đáp ứng các điều kiện nào để được vay vốn tại Agribank?",
@@ -1572,7 +1572,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, 2, 3, 4 Điều 19 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 579/QC-HĐTV-TD"
     },
     {
       "question": "Nội dung nào sau đây là quy định của Agribank về cấp phê duyệt và quyết định cơ cấu lại thời hạn trả nợ?",
@@ -1583,7 +1583,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3, điểm c Khoản 4 Điều 40 QC 656/QC-NHNo-TD được sửa đổi, bổ sung tại QC1546/QC-NHNo-TD"
     },
     {
       "question": "Cấp nào phê duyệt và quyết định gia hạn nợ cho khách hàng?",
@@ -1594,7 +1594,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Khoản 4 Điều 40 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 1546/QC-HĐTV- TD"
     },
     {
       "question": "Thế nào là điều chỉnh kỳ hạn trả nợ?",
@@ -1605,7 +1605,7 @@
         "Là việc Agribank chấp thuận kéo dài thêm một khoảng thời gian trả nợ nợ gốc của kỳ hạn trả nợ đã thoả thuận (bao gồm cả trường hợp không thay đổi về số kỳ hạn trả nợ đã thỏa thuận), thời hạn cho vay không thay đổi."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a Khoản 8 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Agribank chuyển nợ quá hạn đối với dư nợ gốc trong trường hợp nào?",
@@ -1616,7 +1616,7 @@
         "Agribank chuyển nợ quá hạn đối với số dư nợ gốc/lãi mà khách hàng không trả được nợ theo thỏa thuận và không được Agribank chấp thuận cơ cấu lại thời hạn trả nợ."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 14 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Người phê duyệt cho vay được Agribank quy định như thế nào?",
@@ -1627,7 +1627,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 25 Điều 2 QĐ 656/QyĐ-NHNo- TD được sửa đổi, bổ sung tại QC1546/QC-NHNo-TD"
     },
     {
       "question": "Quyền của Agribank nơi cho vay đối với khách hàng như thế nào?",
@@ -1638,7 +1638,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 36 QC 656/QC-NHNo- TD"
     },
     {
       "question": "Nhiệm vụ, trách nhiệm của Người kiểm tra khoản vay vượt thẩm quyền là gì?",
@@ -1649,7 +1649,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 51 QC 656/QC-NHNo- TD"
     },
     {
       "question": "Theo quy định của Agribank, cho vay phục vụ nhu cầu đời sống là như thế nào?",
@@ -1660,7 +1660,7 @@
         "Agribank cho vay đối với khách hàng là cá nhân để thanh toán các chi phí cho mục đích kinh doanh của cá nhân, gia đình của cá nhân đó."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Agribank nơi cho vay phải giải ngân cho khách hàng nhận nợ bắt buộc để thực hiện nghĩa vụ bảo lãnh thì?",
@@ -1671,7 +1671,7 @@
         "Số dư nợ gốc khách hành nhận nợ bắt buộc đó là chuyển  sang xử lý rủi ro."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 31 Điều 1 QĐ 4466/QyĐ-NHNo-TD sửa đổi, bổ sung QĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Kiểm tra của Agribank nơi phê duyệt vượt thẩm quyền gồm các nội dung gì?",
@@ -1682,7 +1682,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 65 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại Agribank nơi cho vay, thời gian kiểm tra tình hình hoạt động kinh doanh của khách hàng cá nhân là?",
@@ -1693,7 +1693,7 @@
         "Ít nhất 1 lần trong vòng 12 tháng kể từ ngày kiểm tra gần nhất."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết ii Điểm b Khoản 1 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nội dung kiểm tra tình hình hoạt động kinh doanh tại Agribank nơi cho vay gồm các nội dung nào?",
@@ -1704,7 +1704,7 @@
         "Dư nợ vay, số lãi phải trả đến ngày kiểm tra; Tình hình tài chính; đánh giá tiến độ và khả năng trả nợ; Biện pháp tổ chức triển khai và tiến độ thực hiện dự án, phương án; đánh giá phương án sử dụng vốn và khả năng trả nợ của khách hàng; Thu thập thông tin xếp hạng khách hàng theo quy định của Agribank; Các nội dung khác (nếu có)."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Giám sát tại Agribank nơi cho vay gồm các nội dung gì?",
@@ -1715,7 +1715,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 64 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khách hàng là Doanh nghiệp tư nhân được đánh giá có tài chính minh bạch, lành mạnh để áp dụng lãi suất cho vay tối đa theo quy định của NHNN phải đáp ứng các tiêu chí nào?",
@@ -1726,7 +1726,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Mục 2 PL số 02/TCMB-QĐ theo QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khi giải ngân vốn vay Agribank nơi cho vay phải thực hiện nhiệm vụ gì?",
@@ -1737,7 +1737,7 @@
         "Mỗi lần giải ngân vốn vay, Agribank nơi cho vay phải rà soát, đánh giá nhu cầu vay vốn, hồ sơ giải ngân đáp ứng các điều kiện theo quy định hiện hành."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 19 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhiệm vụ của Người thẩm định lại khi lập Báo cáo thẩm định lại tại Agribank nơi phê duyệt vượt thẩm quyền là chi nhánh loại I?",
@@ -1748,7 +1748,7 @@
         "Người thẩm định lại lập, ký tắt các trang Báo cáo thẩm định lại, nêu ý kiến đề xuất phê duyệt/không phê duyệt vượt thẩm quyền (trường hợp không đồng ý phải nêu rõ lý do), ký và ghi rõ họ tên vào phần Người thẩm định lại trên Báo cáo thẩm định lại."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 43 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với cho vay trung, dài hạn thực hiện đầu tư phục vụ hoạt động kinh doanh, giải ngân vốn đối ứng là giá trị ngày công tự làm, tài sản khác của khách hàng cá nhân tham gia thực hiện như thế nào?",
@@ -1759,7 +1759,7 @@
         "Chi phí ngày công, tài sản khác thực hiện theo tiến độ kế hoạch, phần vốn đối ứng còn lại giải ngân sau khi giải ngân vốn vay."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 56 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Trường hợp Chi nhánh loại II/PGD được phân công thực hiện nghiệp vụ giải ngân và quản lý nợ cho vay không cùng cân đối với chi nhánh trực tiếp quản lý, điều hành, Nơi nào khai báo và phê duyệt đơn xin vay trên hệ thống IPCAS?",
@@ -1770,7 +1770,7 @@
         "Việc khai báo và phê duyệt đơn xin vay trên hệ thống IPCAS được thực hiện tại phòng thẩm định chi nhánh loại II/PGD"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b, Khoản 29 Điều 1 QyĐ 4466/QyĐ-NHNo-TD sửa đổi, bổ sung QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy cho biết, thời điểm kiểm tra của Agribank nơi phê duyệt vượt thẩm quyền đối với khách hàng vay vốn lưu động?",
@@ -1781,7 +1781,7 @@
         "Kiểm tra một năm ít nhất 01 (một) lần."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 65 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Thời điểm kiểm tra của Agribank nơi phê duyệt vượt thẩm quyền đối với khách hàng vay vốn đầu tư dự án đang triển khai?",
@@ -1792,7 +1792,7 @@
         "Kiểm tra tối thiểu sau 12 tháng kể từ ngày giải ngân đầu tiên và một năm ít nhất 01 (một) lần đối với các lần kiểm tra tiếp theo."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 65 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối tượng chi phí thuộc đầu tư tài sản cố định chưa đi vào sử dụng, Agribank nơi cho vay được cho vay ngắn hạn, trung hạn, dài hạn nếu thời gian đã sử dụng vốn để được cho vay bù đắp tài chính không quá bao nhiêu tháng kể từ ngày phát sinh sử dụng vốn đến ngày khách hàng đề nghị vay vốn?",
@@ -1803,7 +1803,7 @@
         "Không quá 06 tháng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 4 Điều 34 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Người quyết định cho vay tại Agribank nơi cho vay quyết định cho vay hay không cho vay theo thẩm quyền căn cứ vào hồ sơ, tài liệu nào?",
@@ -1814,7 +1814,7 @@
         "Ý kiến đề xuất của Người quan hệ khách hàng, Người thẩm định, Báo cáo thẩm định lại của Người thẩm định lại (nếu có), Biên bản họp/Bảng tổng hợp ý kiến Hội đồng tín dụng (nếu có)."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 15 Điều 1 QĐ 4466/QyĐ-NHNo-TD sửa đổi, bổ sung QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Thẩm định lại tại nơi phê duyệt vượt thẩm quyền gồm các nội dung nào?",
@@ -1825,7 +1825,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 43 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại Agribank nơi phê duyệt vượt thẩm quyền, một trong các nội dung thẩm định lại khoản vay là gì?",
@@ -1836,7 +1836,7 @@
         "Thẩm định lại một số nội dung về khoản vay do người có thẩm quyền tại Agribank nơi phê duyệt vượt thẩm quyền quyết định."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm c Khoản 3 Điều 43 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hồ sơ trình HĐTV phê duyệt khoản vay theo thẩm quyền bao gồm những tài liệu nào?",
@@ -1847,7 +1847,7 @@
         "Tờ trình của chi nhánh; Biên bản họp/Bảng tổng hợp ý kiến của Hội đồng tín dụng Trụ sở chính; Tờ trình của Tổng Giám đốc; Hồ sơ, tài liệu khác (nếu có)."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết (i) điểm a Khoản 3  Điều 50 QyĐ 2268/QyĐ-NHNo-TD sửa đổi, bổ sung tại QĐ 4466/QyĐ-NHNo-TD"
     },
     {
       "question": "Xử lý như thế nào khi Người quản lý nợ phát hiện khách hàng sử dụng vốn sai mục đích, vi phạm các thỏa thuận tại HĐTD và/hoặc HĐBĐ?",
@@ -1858,7 +1858,7 @@
         "Chi nhánh tiếp tục giải ngân vì nếu dừng giải ngân thì dự án dở dang và thiệt hại có thể xảy ra nhiều hơn."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm a Khoản 27  Điều 1 QyĐ 4466/QyĐ-NHNo-TD sửa đổi, bổ sung QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Giám sát của Agribank nơi phê duyệt vượt thẩm quyền gồm các công cụ nào?",
@@ -1869,7 +1869,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 66 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Ai là người tham gia thực hiện cơ cấu lại thời hạn trả nợ tại Agribank nơi cho vay?",
@@ -1880,7 +1880,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 61 QyĐ 2268/QyĐ-NHNo-TD được sửa đổi , bổ sung tại QyĐ 4466/QyĐ-NHNo-TD"
     },
     {
       "question": "Người có thẩm quyền tại Agribank nơi cho vay quyết định cơ cấu/không cơ cấu lại thời hạn trả nợ đối với khách hàng căn cứ vào tài liệu nào?",
@@ -1891,7 +1891,7 @@
         "Hồ sơ cơ cấu lại thời hạn trả nợ, biên bản kiểm tra tài sản bảo đảm khách hàng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết i Điểm c Khoản 1 Điều 61 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo quy định hiện hành của Agribank, địa bàn cho vay đặc thù được cho vay trong các trường hợp nào?",
@@ -1902,7 +1902,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 7 QĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Văn bản ủy quyền của các thành viên trong gia đình vay vốn sử dụng vào mục đích chung ủy quyền cho 1 thành viên là đại diện vay vốn phải được thực hiện như thế nào?",
@@ -1913,7 +1913,7 @@
         "Văn bản ủy quyền phải được chứng nhận tại cơ quan có chức năng công chứng hoặc chứng thực tại cơ quan có thẩm quyền theo quy định của pháp luật."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm b Khoản 3 Điều 4 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Việc xác định thời hạn cho vay, kỳ hạn trả nợ theo  hạn mức quy mô nhỏ đối với khách hàng cá nhân?",
@@ -1924,7 +1924,7 @@
         "Theo từng lần giải ngân trên Báo cáo đề xuất giải ngân kiêm giấy nhận nợ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 24 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Thời gian duy trì hạn mức đối với cho vay theo hạn mức quy mô nhỏ đối với khách hàng cá nhân là bao nhiêu?",
@@ -1935,7 +1935,7 @@
         "Tối đa 48 tháng."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 24 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với cho vay theo hạn mức, Agribank quy định điều kiện xem xét gia hạn thời gian duy trì hạn mức tín dụng như thế nào?",
@@ -1946,7 +1946,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 20 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với cho vay theo hạn mức,  thẩm quyền gia hạn thời gian duy trì hạn mức được quy định như thế nào?",
@@ -1957,7 +1957,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm c Khoản 2 Điều 20 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tổng mức dư nợ cấp tín dụng đối với một khách hàng, đối với một khách hàng và người có liên quan của Agribank từ ngày 01/01/2027 đến trước ngày 01/01/2028 không được vượt quá bao nhiêu phần trăm vốn tự có của Agribank?",
@@ -1968,7 +1968,7 @@
         "12% vốn tự có đối với một khách hàng; 19% vốn tự có đối với một khách hàng và người có liên quan của khách hàng đó"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm c Khoản 1 Điều 25 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 579/QC-HĐTV-TD"
     },
     {
       "question": "Tổng mức dư nợ cấp tín dụng đối với một khách hàng, đối với một khách hàng và người có liên quan của Agribank từ ngày 01/01/2026 đến trước ngày 01/01/2027 không được vượt quá bao nhiêu phần trăm vốn tự có của Agribank?",
@@ -1979,7 +1979,7 @@
         "12% vốn tự có đối với một khách hàng; 19% vốn tự có đối với một khách hàng và người có liên quan của khách hàng đó"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 1 Điều 25 QC 656/QC-HĐTV-TD được sửa đổi, bổ sung tại QC 579/QC-HĐTV-TD"
     },
     {
       "question": "Công ty A đề nghị vay vốn thực hiện dự án đầu tư  mua máy móc thiết bị với tổng mức đầu tư 15 tỷ đồng, thời hạn vay vốn 5 năm, vậy công ty A phải có vốn đối ứng tối thiểu tham gia vào dự án là bao nhiêu?",
@@ -1990,7 +1990,7 @@
         "4,75 tỷ đồng."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Tiết i điểm b Khoản 2 Điều 21 QC 656/QC-NHNo- TD"
     },
     {
       "question": "Nhiệm vụ quyết định của Hội đồng tín dụng Chi nhánh loại I được quy định như thế nào?",
@@ -2001,7 +2001,7 @@
         "Quyết định cấp tín dụng đối với một khách hàng, một khách hàng và người có liên quan có tổng mức dư nợ cấp tín dụng thuộc thẩm quyền của HĐTD Chi nhánh loại I; quyết định cơ cấu lại thời hạn trả nợ/gia hạn thời gian duy trì hạn mức/thay đổi nội dung phê duyệt đối với khoản cấp tín dụng đã được HĐTD Chi nhánh loại I quyết định cấp tín dụng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 4 Quy chế 1548/QC-HĐTV-TD"
     },
     {
       "question": "Khi nào quyết định của Hội đồng tín dụng được thông qua?",
@@ -2012,7 +2012,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 5 Quy chế 1548/QC-HĐTV-TD"
     },
     {
       "question": "Công ty A có dự án kinh doanh với tổng nhu cầu vốn là 8 tỷ đồng, thời hạn xin vay 4 năm để thực hiện dự án thì vốn đối ứng tối thiểu tham gia vào dự án là bao nhiêu?",
@@ -2023,7 +2023,7 @@
         "4 tỷ đồng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết i Điểm b Khoản 2 Điều 21 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Công ty A có dự án kinh doanh với tổng nhu cầu vốn là 18 tỷ đồng, thời hạn thực hiện dự án 13 năm, thì vốn đối ứng tối thiểu tham gia vào dự án là bao nhiêu?",
@@ -2034,7 +2034,7 @@
         "5,8 tỷ đồng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Tiết ii Điểm b Khoản 2 Điều 21 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Công  ty A có tỷ lệ vốn đối ứng tham gia Phương án sử dụng vốn (dự án vay vốn trung hạn) là 50% và đã giải ngân 25% vốn đối ứng cho dự án (có đủ tài liệu chứng minh), vậy ngân hàng sẽ giải ngân vốn vay như thế nào?",
@@ -2045,7 +2045,7 @@
         "Sau khi Khách hàng đã giải ngân vốn đối ứng bằng tỷ lệ tối thiểu theo quy định là 25%, việc giải ngân vốn vay và phần còn lại vốn đối ứng do Tổng Giám đốc Agribank quyết định."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 56 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Trường hợp giao tài sản cầm cố cho bên thứ ba cất giữ tài sản thì bên thứ ba phải đáp ứng các điều kiện nào?",
@@ -2056,7 +2056,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 26 QC 879/QC-HĐTV-TD"
     },
     {
       "question": "Các biện pháp bảo đảm cấp tín dụng được quy định tại Agribank bao gồm?",
@@ -2067,7 +2067,7 @@
         "Thế chấp tài sản, Cầm cố tài sản, Ký quỹ, Bảo lãnh"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 31, 32, 33, 34, 35 Điều 3 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Vật chính là gì?",
@@ -2078,7 +2078,7 @@
         "Là vật trực tiếp phục vụ cho việc khai thác công dụng cho chủ sử dụng."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a Khoản 14 Điều 3 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Đối với hợp đồng bảo đảm được ký kết trước khi pháp nhân được tổ chức lại mà vẫn còn hiệu lực thì các bên thực hiện như thế nào?",
@@ -2089,7 +2089,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 24 QC 879/QC-HĐTV-TD"
     },
     {
       "question": "Tài sản bảo đảm được quy định tại Agribank bao gồm?",
@@ -2100,7 +2100,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 7 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế 879/QC-HĐTV-TD, hợp đồng bảo đảm bị vô hiệu hoặc bị hủy bỏ, bị đơn phương chấm dứt thực hiện thì?",
@@ -2111,7 +2111,7 @@
         "Không làm chấm dứt Hợp đồng cấp tín dụng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 22 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế số 879/QC-HĐTV-TD: Trường hợp hợp đồng cấp tín dụng bị vô hiệu hoặc bị hủy bỏ, bị đơn phương chấm dứt thực hiện mà các bên đã thực hiện một phần thì (nếu có Hợp đồng bảo đảm)?",
@@ -2122,7 +2122,7 @@
         "Hợp đồng bảo đảm không vô hiệu"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 22 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Thẩm quyền xử lý tài sản bảo đảm trong trường hợp số tiền thu được từ xử lý tài sản bảo đảm thực hiện đủ nghĩa vụ được bảo đảm thuộc thẩm quyền của ai?",
@@ -2133,7 +2133,7 @@
         "Agribank nơi phê duyệt cấp tín dụng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a khoản 1 Điều 42 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Đâu là tài liệu để làm căn cứ xác định giá trị tài sản bảo đảm?",
@@ -2144,7 +2144,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 11 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế 879/QC-HĐTV-TD, Bên bảo lãnh cam kết với Agribank sẽ thực hiện nghĩa vụ thay cho khách hàng, bên bảo lãnh phải có các điều kiện nào?",
@@ -2155,7 +2155,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, 2, 3 Điều 33 QC 879/QC-HĐTV-TD"
     },
     {
       "question": "Đất nông nghiệp được nhà nước giao trong hạn mức thì thành viên hộ gia đình, cá nhân được thế chấp như thế nào?",
@@ -2166,7 +2166,7 @@
         "Không được thế chấp quyền sử dụng đất, tài sản thuộc sở hữu của mình gắn liền với đất."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 8 QyĐ 2929/QyĐ-NHNo-TD được sửa đổi, bổ sung tại QyĐ 3838/QyĐ-NHNo-TD"
     },
     {
       "question": "Việc kiểm tra đối với tài sản thế chấp là quyền đòi nợ được thực hiện như thế nào?",
@@ -2177,7 +2177,7 @@
         "12 tháng kiểm tra tối thiểu 01 lần"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 43 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Trường hợp tài sản bảo đảm cho toàn bộ nghĩa vụ thì việc rút bớt TSBĐ phải thông qua Hội đồng xử lý TSBĐ đối với các khách hàng nào?",
@@ -2188,7 +2188,7 @@
         "Khách hàng có dư nợ từ 06 tỷ đồng trở lên, trừ trường hợp Hội đồng tín dụng Chi nhánh loại I là người quyết định nhận TSBĐ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm c Khoản 2 Điều 39 Quy định 2929/QyĐ-NHNo-TD được sửa đổi, bổ sung tại QyĐ 3838/QyĐ-NHNo-TD"
     },
     {
       "question": "Agribank xác định giá trị tài sản bằng phương pháp nào?",
@@ -2199,7 +2199,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 30 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại một chi nhánh loại I (bao gồm cả chi nhánh loại II, Phòng giao dịch do chi nhánh loại I quản lý), mức cấp tín dụng tối đa đối với một mã cổ phiếu tại thời điểm cấp tín dụng được quy định như thế nào?",
@@ -2210,7 +2210,7 @@
         "Không vượt quá giá trị của 05 lần khối lượng giao dịch bình quân/ngày của 90 phiên giao dịch gần nhất trước ngày HĐBĐ có hiệu lực."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết i điểm b khoản 3 Điều 26 QyĐ 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Thỏa thuận cấp bảo lãnh là gì?",
@@ -2221,7 +2221,7 @@
         "Là văn bản thỏa thuận giữa Agribank với khách hàng và các bên liên quan khác về việc phát hành bảo lãnh ngân hàng cho khách hàng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 26 Điều 3 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế 346/QC-HĐTV-TD về bảo lãnh ngân hàng, người thẩm định lại là?",
@@ -2232,7 +2232,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 32 Điều 3 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế 346/QC-HĐTV-TD về bảo lãnh ngân hàng, người kiểm soát bảo lãnh là?",
@@ -2243,7 +2243,7 @@
         "Trưởng/Phó trưởng Phòng Khách hàng, Trưởng/Phó trưởng Ban thuộc Ban TĐPD, Trưởng/Phó trưởng phòng phê duyệt thuộc TTPD."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 33 Điều 3 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế 346/QC-HĐTV-TD về bảo lãnh ngân hàng: Đối với trường hợp đồng tiền bảo lãnh là ngoại tệ, phí bảo lãnh được quy định thu như thế nào?",
@@ -2254,7 +2254,7 @@
         "Các bên thỏa thuận thu phí bảo lãnh bằng ngoại tệ hoặc quy đổi ra đồng Việt Nam theo tỷ giá bán của Agribank."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 23 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế 346/QC-HĐTV-TD về bảo lãnh ngân hàng, nghĩa vụ bảo lãnh của Agribank chấm dứt trong các trường hợp nào?",
@@ -2265,7 +2265,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 28  Quy chế 346/QC-HĐTV-TD"
     },
     {
       "question": "Số dư bảo lãnh đối với một khách hàng hoặc một khách hàng và người có liên quan bao gồm?",
@@ -2276,7 +2276,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 7 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Yêu cầu đối với khách hàng khi được Agribank nơi cấp bảo lãnh xem xét, quyết định cấp bảo lãnh, bảo lãnh đối ứng, bảo lãnh trên cơ sở bảo lãnh đối ứng, xác nhận bảo lãnh?",
@@ -2287,7 +2287,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 13 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Đối với bảo lãnh nhà ở hình thành trong tương lai, Thư bảo lãnh có hiệu lực kể từ thời điểm phát hành cho đến thời điểm ít nhất sau bao nhiêu ngày kể từ thời hạn chủ đầu tư phải thực hiện nghĩa vụ tài chính đối với bên mua?",
@@ -2298,7 +2298,7 @@
         "60 ngày"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm a khoản 4 điều 16 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Cấp quyết định bảo lãnh tại Agribank nơi cấp bảo lãnh gồm?",
@@ -2309,7 +2309,7 @@
         "Giám đốc chi nhánh loại I, loại II, phòng giao dịch"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 21 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Trường hợp nào thì Agribank nơi cấp bảo lãnh không bắt buộc phải ký Thỏa thuận cấp bảo lãnh?",
@@ -2320,7 +2320,7 @@
         "Phát hành bảo lãnh bảo đảm chất lượng sản phẩm."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 18 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Giám đốc chi nhánh loại II được quyết định cấp bảo lãnh đối với  loại bảo lãnh nào?",
@@ -2331,7 +2331,7 @@
         "Đáp án 1 và 2."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết (i), (vii) Điểm c Khoản 5 Điều 21 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Theo quy định hiện hành của Agribank, Agribank xem xét, quyết định cấp bảo lãnh cho chủ đầu tư đối với bảo lãnh nhà ở hình thành trong tương lai khi nào?",
@@ -2342,7 +2342,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 13 và Khoản 1 Điều 16 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế 346/QC-HĐTV-TD, Agribank nơi cấp bảo lãnh chỉ thực hiện phát hành Cam kết bảo lãnh dưới hình thức nào?",
@@ -2353,7 +2353,7 @@
         "Thỏa thuận cấp bảo lãnh."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 19 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế 346/QC-HĐTV-TD, Thư bảo lãnh được phát hành bao gồm (trừ trường hợp phát hành theo phương tiện điện tử)?",
@@ -2364,7 +2364,7 @@
         "01 bản chính và 03 bản sao y."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 4 Điều 19 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Trong trường hợp bảo lãnh ngân hàng (trừ trường hợp bảo lãnh đối ứng, xác nhận bảo lãnh), thời hạn Agribank thực hiện nghĩa vụ bảo lãnh khi nhận được đủ hồ sơ yêu cầu thực hiện nghĩa vụ bảo lãnh hợp lệ trong vòng bao nhiêu ngày?",
@@ -2375,7 +2375,7 @@
         "10 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết a Khoản 3 Điều 26 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Theo quy định của Agribank, Người phê duyệt bảo lãnh là ai?",
@@ -2386,7 +2386,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 38 Điều 3 QC 346/QC-HĐTV-TD"
     },
     {
       "question": "Thời hạn quyết định cấp bảo lãnh tối đa kể từ ngày nhận đủ hồ sơ, thông tin hợp lệ tại Agribank nơi cấp bảo lãnh đối với khoản bảo lãnh trung hạn?",
@@ -2397,7 +2397,7 @@
         "Tối đa 5 (năm) ngày làm việc; Các khoản cấp bảo lãnh thông qua Hội đồng tín dụng được cộng thêm tối đa 3 (ba) ngày làm việc."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 1, Khoản 3 Điều 10 QyĐ 1981 /QyĐ-NHNo-TD"
     },
     {
       "question": "Nhiệm vụ của người quan hệ khách hàng tại Agribank nơi cấp bảo lãnh?",
@@ -2408,7 +2408,7 @@
         "Đáp án 2 và 3."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 14 QyĐ 1981 /QyĐ-NHNo-TD"
     },
     {
       "question": "Thời hạn phê duyệt cấp bảo lãnh tối đa kể từ ngày nhận đủ hồ sơ, thông tin hợp lệ tại Agribank nơi phê duyệt vượt thẩm quyền đối với khoản bảo lãnh trung, dài hạn?",
@@ -2419,7 +2419,7 @@
         "Tối đa 7 (bảy) ngày làm việc; Các khoản cấp bảo lãnh thông qua Hội đồng tín dụng được cộng thêm tối đa 5 (năm) ngày làm việc."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 10 QyĐ 1981 /QyĐ-NHNo-TD"
     },
     {
       "question": "Tại chi nhánh có Phòng Thẩm định và khoản bảo lãnh phải qua Phòng Thẩm định, Người quan hệ khách hàng gồm bao nhiêu người?",
@@ -2430,7 +2430,7 @@
         "Tối đa 02 (hai) người trong đó có lãnh đạo Phòng Khách hàng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 10 Điều 14 Quy định 1981/QyĐ-NHNo-TD được sửa đổi, bổ sung QyĐ 4469/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, \"Nợ xấu\" là gì?",
@@ -2441,7 +2441,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 9 Điều 3 Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, Tỷ lệ khấu trừ tối đa đối với tài sản bảo đảm là Chứng khoán do các tổ chức tín dụng khác phát hành được niêm yết trên Sở giao dịch chứng khoán?",
@@ -2452,7 +2452,7 @@
         "0.7"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm d, Khoản 1, Điều 11, Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, tỷ lệ khấu trừ tối đa đối với tài sản bảo đảm là Chứng khoán do doanh nghiệp (trừ tổ chức tín dụng) phát hành được niêm yết trên Sở giao dịch chứng khoán?",
@@ -2463,7 +2463,7 @@
         "0.8"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm đ, Khoản 1, Điều 11, Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, số tiền trích lập dự phòng đối với các khoản cho vay ngoại tệ được thực hiện bằng đồng Việt Nam theo tỷ giá quy đổi tại thời điểm nào?",
@@ -2474,7 +2474,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 8, Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, Khoản nợ nào sau đây được phân loại nợ Nhóm 2?",
@@ -2485,7 +2485,7 @@
         "Khoản nợ quá hạn từ 181 đến 360 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 6,  Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, Khoản nợ nào sau đây được phân loại nợ Nhóm 3?",
@@ -2496,7 +2496,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 6,  Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, Khoản nợ nào sau đây được phân loại nợ Nhóm 4?",
@@ -2507,7 +2507,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 6,  Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, Khoản nợ nào sau đây được phân loại nợ Nhóm 5?",
@@ -2518,7 +2518,7 @@
         "Khoản nợ quá hạn từ 91 ngày đến 180 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 6,  Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, tỷ lệ trích lập dự phòng cụ thể đối với nợ Nhóm 1 là bao nhiêu?",
@@ -2529,7 +2529,7 @@
         "0.5"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 9 Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, tỷ lệ trích lập dự phòng cụ thể đối với nợ Nhóm 2 là bao nhiêu?",
@@ -2540,7 +2540,7 @@
         "1"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 9 Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, tỷ lệ trích lập dự phòng cụ thể đối với nợ Nhóm 3 là bao nhiêu?",
@@ -2551,7 +2551,7 @@
         "1"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 9 Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, tỷ lệ trích lập dự phòng cụ thể đối với nợ Nhóm 4 là bao nhiêu?",
@@ -2562,7 +2562,7 @@
         "0.5"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 9 Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, tỷ lệ trích lập dự phòng cụ thể đối với nợ Nhóm 5 là bao nhiêu?",
@@ -2573,7 +2573,7 @@
         "1"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 9 Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, khoản nợ thuộc nhóm nào không phải trích lập dự phòng chung?",
@@ -2584,7 +2584,7 @@
         "Nhóm 5"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 12, Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, Agribank sử dụng dự phòng để xử lý rủi ro trong trường hợp:",
@@ -2595,7 +2595,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 17 Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Theo Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024, việc xử lý rủi ro phải được thực hiện trên nguyên tắc nào?",
@@ -2606,7 +2606,7 @@
         "Người quản lý nợ cho vay, người kiểm soát khoản vay, người quyết định cấp tín dụng không tham gia quá trình xử lý rủi ro của khoản cấp tín dụng đó."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 17 Quy chế số 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Nợ nhóm 1 theo phương pháp định tính bao gồm",
@@ -2617,7 +2617,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 7 Quy chế 910/QC-HĐTV-RRTD ngày 31/07/2024"
     },
     {
       "question": "Chọn đáp án đúng nhất: đối tượng phải thực hiện theo Quy trình số 2232/QTr-NHNo-RRTD ngày 31/7/2024 về phân loại nợ, trích lập dự phòng rủi ro và sử dụng dự phòng để xử lý rủi ro trong hoạt động của Agribank",
@@ -2628,7 +2628,7 @@
         "Trụ sở chính, Chi nhánh loại I, loại II, phòng giao dịch và cá nhân có liên quan thuộc Agribank; không áp dụng đối với Chi nhánh Agribank ở nước ngoài"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 2 Quy trình số 2232/QTr-NHNo-RRTD ngày 31/7/2024"
     },
     {
       "question": "Chi nhánh thực hiện hạch toán trích lập, hoàn nhập dự phòng khi nào?",
@@ -2639,7 +2639,7 @@
         "Trụ sở chính không quy định thời hạn thực hiện"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 13 Quy trình 2232/QTr-NHNo-RRTD ngày 31/07/2024"
     }
   ]
 }

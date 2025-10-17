@@ -1,5 +1,5 @@
 {
-  "originalDisplayName": "9. Kiểm ngân",
+  "originalDisplayName": "9. Kiểm ngân",
   "questions": [
     {
       "question": "Tại chi nhánh, cuối ngày giao dịch, Giao dịch viên quầy loại 2 kiểm tra, đối chiếu, xử lý tiền mặt như thế nào?",
@@ -10,7 +10,7 @@
         "Phối hợp cùng Giao dịch viên quỹ đối chiếu tiền mặt thực tế tại quỹ với số dư tiền mặt trên IPCAS, đảm bảo khớp đúng và nộp về quỹ chính."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a khoản 4 Điều 4 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
     },
     {
       "question": "Tại chi nhánh, cuối ngày giao dịch, thủ quỹ quầy giao dịch loại 1 thực hiện:",
@@ -21,7 +21,7 @@
         "Đối chiếu số dư tồn quỹ tiền mặt, ấn chỉ quan trọng, giấy tờ có giá… trên hệ thống IPCAS với tồn quỹ tiền mặt thực tế tại bộ phận quỹ đảm bảo khớp đúng trước khi khóa sổ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b khoản 4 Điều 4 Quy trình số 169/QTr-NHNo-TCKT ngày 29/01/2024"
     },
     {
       "question": "Cán bộ hậu kiểm được hậu kiểm các giao dịch do chính mình đã thực hiện giao dịch trong trường hợp nào?",
@@ -32,7 +32,7 @@
         "Theo yêu cầu của Trưởng phòng Tổng hợp."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 8, Quy trình 169/QTr-NHNo-TCKT ngày 29/1/2024"
     },
     {
       "question": "Đầu ngày giao dịch, bộ phận nào tiếp quỹ tiền mặt, giao ấn chỉ quan trọng cho giao dịch viên để thực hiện giao dịch với khách hàng?",
@@ -43,7 +43,7 @@
         "Bộ phận kế hoạch."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 4, 169/QTr-NHNo-TCKT ngày 29/1/2024"
     },
     {
       "question": "Trường hợp thủ quỹ quầy giao dịch thu chi tiền mặt cho nhiều giao dịch viên, tại bất kỳ thời điểm nào trong ngày giao dịch, số dư tồn quỹ tiền mặt thực tế của thủ quỹ phải:",
@@ -54,7 +54,7 @@
         "Không cần đối chiếu khớp đúng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 4 QTr 169/Qtr-NHNo-TCKT ngày 29/01/2024"
     },
     {
       "question": "Thời điểm nào trong ngày giao dịch, số dư tiền mặt thực tế của Giao dịch viên quầy giao dịch loại 2 phải khớp đúng với số dư tồn quỹ tiền mặt của Giao dịch viên đó trên IPCAS?",
@@ -65,7 +65,7 @@
         "Đầu giờ giao dịch buổi chiều."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 4, QTr số 169/QTr-NHNo-TCKT ngày 29/1/2024"
     },
     {
       "question": "Theo quy định của Agribank, hành vi nào của giao dịch viên bị nghiêm cấm khi giao dịch?",
@@ -76,7 +76,7 @@
         "Nộp tiền mặt về bộ phận quỹ khi chưa vượt hạn mức tồn quỹ tiền mặt."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 4 Quy trình 169/QTr-NHNo-TCKT"
     },
     {
       "question": "Đầu ngày giao dịch, Giao dịch viên được tiếp quỹ tiền mặt, nhận ấn chỉ quan trọng từ bộ phận nào để thực hiện giao dịch với khách hàng?",
@@ -87,7 +87,7 @@
         "Bộ phận kế hoạch."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 4, 169/QTr-NHNo-TCKT ngày 29/1/2024"
     },
     {
       "question": "Thời hạn bảo quản tài sản, cho thuê tủ/két an toàn do khách hàng và chi nhánh Agribank thỏa thuận tối đa không quá bao nhiêu lâu?",
@@ -98,7 +98,7 @@
         "03 năm"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 1 Quyết định số 529/QĐ-NHNo-TTKQ 02/04/2019"
     },
     {
       "question": "Có được giao chìa khóa két sắt, chìa khóa thùng chở tiền xe ô tô chuyên dùng cho Lái xe quản lý và sử dụng không?",
@@ -109,7 +109,7 @@
         "Có, nếu được Tổ trưởng Tổ cho vay lưu động đồng ý"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm c, khoản 2, Điều 6 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Chìa khóa cửa xe khoang chứa thùng chở tiền xe ô tô chuyên dùng do ai giữ?",
@@ -120,7 +120,7 @@
         "Trưởng phòng Tổng hợp."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm b, Khoản 2, Điều 6 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Chìa khóa và mã số sử dụng hàng ngày của thùng xe chở tiền xe ô tô chuyên dùng được giao cho ai bảo quản?",
@@ -131,7 +131,7 @@
         "Trưởng phòng Kế toán"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm b, khoản 2, Điều 6 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Chìa khóa két sắt trang bị cho tổ cho vay lưu động tối thiểu có mấy ổ khóa?",
@@ -142,7 +142,7 @@
         "04 ổ khóa"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm a, Khoản 2, Điều 6 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Thành phần Tổ điều chuyển áp tải hàng đặc biệt tối thiểu bao nhiêu thành viên ?",
@@ -153,7 +153,7 @@
         "5 thành viên"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm  a, khoản 1, Điều 5 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Khi vận chuyển hàng đặc biệt phải đáp ứng điều kiện nào?",
@@ -164,7 +164,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "điểm b khoản 1 Điều 5  VB 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Chọn các đáp án đúng sau đây?",
@@ -175,7 +175,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 3 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Khi gặp sự cố trong quá trình vận chuyển, tổ vận chuyển có thể liên hệ với các đơn vị nào sau đây để hỗ trợ?",
@@ -186,7 +186,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "điểm a Khoản 3 Điều 7 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Giao dịch viên có được chi cho khách hàng bó tiền còn nguyên niêm phong tên của Agribank không? (trừ trường hợp kiểm đếm sau)",
@@ -197,7 +197,7 @@
         "Có, nếu Giao dịch viên thỏa thuận được với khách hàng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm d, Khoản 1, Điều 3 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Giao dịch viên có được chi cho khách hàng túi tiền còn nguyên niêm phong tên của Agribank không?",
@@ -208,7 +208,7 @@
         "Có, nếu Giao dịch viên thỏa thuận được với khách hàng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm d, Khoản 1, Điều 3 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Giao dịch viên có được chi cho khách hàng bao tiền còn nguyên niêm phong tên của Agribank không?",
@@ -219,7 +219,7 @@
         "Có, nếu Giao dịch viên thỏa thuận được với khách hàng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm d, Khoản 1, Điều 3 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Giao nhận tiền mặt (tiền giấy) giữa Chi nhánh với Tổ cho vay lưu động và ngược lại thực hiện như thế nào?",
@@ -230,7 +230,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 4 Văn bản số 980/QĐ-NHNo-TTKQ ngày 13/6/2017"
     },
     {
       "question": "Việc ghi hình của hệ thống Camera trước cửa kho tiền, hành lang, gian đệm kho tiền, khu vực xung quanh kho tiền phải đảm bảo liên tục trong bao nhiêu giờ?",
@@ -241,7 +241,7 @@
         "Liên tục 8/8 giờ trong giờ hành chính."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1, văn bản 985/NHNo-TTKQ ngày 24/02/2017"
     },
     {
       "question": "Việc ghi hình của hệ thống camera đối với khu vực quầy quỹ, quầy giao dịch tối thiểu là bao lâu theo quy định tại văn bản 985/NHNo-TTKQ",
@@ -252,7 +252,7 @@
         "7/7 ngày."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1, văn bản 985/NHNo-TTKQ ngày 24/02/2017"
     },
     {
       "question": "Yêu cầu cơ bản đối với việc ghi hình của hệ thống Camera:",
@@ -263,7 +263,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, văn bản 985/NHNo-TTKQ ngày 24/02/2017"
     },
     {
       "question": "Thời gian lưu trữ dữ liệu hình ảnh Camera đối với nghiệp vụ kho quỹ tối thiểu bao nhiêu ngày?",
@@ -274,7 +274,7 @@
         "365 ngày."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2, văn bản số 985/NHNo-TTKQ ngày 24/02/2017"
     },
     {
       "question": "Khi cung cấp dữ liệu của Camera cho người có nhiệm vụ khai thác hoặc cơ quan điều tra phải được sự đồng ý của ai?",
@@ -285,7 +285,7 @@
         "Trưởng phòng Kế toán và Ngân quỹ."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 văn bản 985/NHNo-TTKQ ngày 24/02/2017"
     },
     {
       "question": "Ai là người Quyết định, phân công cán bộ quản lý, vận hành hệ thống Camera tại chi nhánh?",
@@ -296,7 +296,7 @@
         "Giám đốc chi nhánh."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3, văn bản 985/NHNo-TTKQ ngày 24/02/2017"
     },
     {
       "question": "Đâu không phải là nhiệm vụ của người được giao quản lý, vận hành hệ thống Camera tại Chi nhánh?",
@@ -307,7 +307,7 @@
         "Định kỳ kiểm tra, bảo dưỡng kỹ thuật."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3, văn bản 985/NHNo-TTKQ ngày 24/02/2017"
     },
     {
       "question": "Người được giao nhiệm vụ quản lý, vận hành Camera chịu trách nhiệm:",
@@ -318,7 +318,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3, văn bản số 985/NHNo-TTKQ ngày 24/02/2017"
     },
     {
       "question": "Theo quy định quản lý và sử dụng công cụ hỗ trợ trong hệ thống Agribank, người được giao sử dụng Công cụ hỗ trợ phải đảm bảo điều kiện nào sau đây?",
@@ -329,7 +329,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 10 văn bản số 1339/QĐ-NHNo-VP ngày 09/7/2021."
     },
     {
       "question": "Theo quy định quản lý và sử dụng công cụ hỗ trợ trong hệ thống Agribank, Người được giao sử dụng Công cụ hỗ trợ có trách nhiệm nào sau đây?",
@@ -340,7 +340,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 10 văn bản số 1339/QĐ-NHNo-VP ngày 09/7/2021."
     },
     {
       "question": "Theo quy định quản lý và sử dụng công cụ hỗ trợ trong hệ thống Agribank, các hành vi bị nghiêm cấm:",
@@ -351,7 +351,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5,6,10 Điều 4 văn bản số 1339/QĐ-NHNo-VP ngày 09/7/2021."
     },
     {
       "question": "Công cụ hỗ trợ không áp dụng đối với những đối tượng nào sau đây?",
@@ -362,7 +362,7 @@
         "Chi nhánh Agribank ở nước ngoài."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 2 Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Công cụ hỗ trợ để thi hành nhiệm vụ bảo vệ khi có sự cố xảy ra bao gồm:",
@@ -373,7 +373,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 3 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Giấy tờ tùy thân đối với cán bộ, nhân viên bảo vệ được giao nhiệm vụ quản lý và sử dụng công cụ hỗ trợ trong hệ thống Agribank?",
@@ -384,7 +384,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 8 Điều 3 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Hành vi nào nghiêm cấm đối với Công cụ hỗ trợ trong hệ thống Agribank?",
@@ -395,7 +395,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 4 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Nguyên tắc khi quản lý, sử dụng công cụ hỗ trợ trong hệ thống Agribank?",
@@ -406,7 +406,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 5 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Quy định nào sau đây nằm trong nguyên tắc quản lý, sử dụng công cụ hỗ trợ trong hệ thống Agribank?",
@@ -417,7 +417,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 5 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Công cụ hỗ trợ hết hạn sử dụng, không còn nhu cầu sử dụng xử lý thế nào?",
@@ -428,7 +428,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 7 Điều 5 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Agribank đăng ký mua sắm công cụ hỗ trợ gửi cơ quan nào phê duyệt?",
@@ -439,7 +439,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 6 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Việc điều chuyển, thu hồi công cụ hỗ trợ được sự chấp thuận của cơ quan nào?",
@@ -450,7 +450,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 7 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Người được giao sử dụng công cụ hỗ trợ có trách nhiệm như thế nào?",
@@ -461,7 +461,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 10 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Người được giao sử dụng công cụ hỗ trợ đảm bảo những điều kiện nào sau đây?",
@@ -472,7 +472,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 10 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Các đơn vị được trang bị công cụ hỗ trợ gửi báo cáo lên Trụ sở chính định kỳ mấy lần trong năm?",
@@ -483,7 +483,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 11 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Người được giao quản lý Công cụ hỗ trợ làm mất công cụ hỗ trợ hoặc giấy phép sử dụng Công cụ hỗ trợ phải báo cáo cho ai?",
@@ -494,7 +494,7 @@
         "Báo cáo cho người đứng đầu đơn vị; Người đứng đầu đơn vị báo cáo bằng văn bản cho cơ quan Công an sở tại nơi mất, cơ quan đã cấp phép, giấy xác nhận để có biện pháp xử lý theo quy định."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 13 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Người được giao quản lý kho, nơi cất giữ Công cụ hỗ trợ phải bảo đảm đủ điều kiện nào sau đây?",
@@ -505,7 +505,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 15 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Khi nào thì thu hồi giấy phép, giấy xác nhận, chứng nhận, chứng chỉ về quản lý, sử dụng công cụ hỗ trợ?",
@@ -516,7 +516,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 16 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Nguyên tắc bảo quản, cất giữ công cụ hỗ trợ trong hệ thống Agribank?",
@@ -527,7 +527,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 17 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Một số nguyên tắc và điều kiện bảo quản, cất giữ Công cụ hỗ trợ?",
@@ -538,7 +538,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 17 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày 09/07/2021"
     },
     {
       "question": "Quy định về quản lý, theo dõi Công cụ hỗ trợ tại các đơn vị?",
@@ -549,7 +549,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, khoản 2, Điều 11 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày  09/7/2021"
     },
     {
       "question": "Trách nhiệm và quyền hạn của các đơn vị khi sử dụng Công cụ hỗ trợ:",
@@ -560,7 +560,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 20 Quyết định số Quyết định số 1339/QĐ-NHNo-VP ngày  09/7/2021"
     },
     {
       "question": "Đối tượng được bồi dưỡng độc hại bằng hiện vật là những ai?",
@@ -571,7 +571,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm 1.3, Khoản 1, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Mức bồi dưỡng độc hại bằng hiện vật của thủ kho tiền, thủ quỹ, kiểm ngân được tính theo ngày làm việc mức chi tối đa bao nhiêu tiền?",
@@ -582,7 +582,7 @@
         "Tối đa 30.000 đồng/người/ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết a, Điểm 1.4, Khoản 1, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Mức bồi dưỡng độc hại bằng hiện vật của Cán bộ làm công tác lưu trữ chứng từ (xếp, đánh số, đóng quyển…) được tính theo 01 ngày làm việc mức chi tối đa bao nhiêu tiền?",
@@ -593,7 +593,7 @@
         "Tối đa 20.000 đồng/người/ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết b, Điểm 1.4, Khoản 1, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Cán bộ thủ quỹ, kiểm ngân, thủ kho…khi tham gia bốc xếp tiền được hưởng mức bồi dưỡng như thế nào?",
@@ -604,7 +604,7 @@
         "40.000 đồng/tấn"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm 2.1, Khoản 2, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Mức chi bồi dưỡng kiểm đếm, đóng bó, niêm phong tiền đã qua lưu thông như thế nào?",
@@ -615,7 +615,7 @@
         "- Vượt định mức trong và ngoài giờ hành chính: 10.000 đồng/bó\r\n- Ngày nghỉ, ngày lễ: 30.000 đồng/bó"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm 3.2, Khoản 3, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Mức chi bồi dưỡng tiêu hủy ấn chỉ quan trọng, chứng từ cho thành viên Hội đồng tiêu hủy và bộ phận giúp việc mức chi tối đa là bao nhiêu?",
@@ -626,7 +626,7 @@
         "Tối đa 300.000đồng/ngày/người"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 5, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Mức chi bồi dưỡng độc hại bằng hiện vật của thành viên Ban quản lý kho tiền (trừ thủ kho tiền) được tính tối đa bao nhiêu tiền?",
@@ -637,7 +637,7 @@
         "Tối đa 10.000 đồng/người/ngày"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết b, Điểm 1.4, Khoản 1, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Mức chi bồi dưỡng độc hại bằng hiện vật của thủ kho vật tư, thủ kho chứng từ được tính như thế nào?",
@@ -648,7 +648,7 @@
         "Tối đa 15.000 đồng/người/ngày"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm 1.4, Khoản 1, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Định mức công việc để chi bồi dưỡng kiểm đếm, đóng bó, niêm phong tiền đã qua lưu thông đối với kiểm ngân chuyên trách là bao nhiêu bó/người/ngày?",
@@ -659,7 +659,7 @@
         "30 bó/người/ngày"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm 3.1, Khoản 3, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Định mức công việc để chi bồi dưỡng kiểm đếm, đóng bó, niêm phong tiền đã qua lưu thông đối với kiểm ngân kiêm nhiệm (kiểm ngân kiêm phụ kho) là bao nhiêu bó/người/ngày?",
@@ -670,7 +670,7 @@
         "30 bó/người/ngày"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm 3.1, Khoản 3, Điều 13 Quy định 2668/QĐ-NHNo-TCKT ngày 11/12/2019"
     },
     {
       "question": "Tỷ lệ (phần %) tiền 500.000 vnđ chi ra lưu thông chiếm bao nhiêu (phần %) trên tổng số tiền là đúng quy định?",
@@ -681,7 +681,7 @@
         "Không vượt quá 30%"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "VB 3373/NHNo-TTKQ ngày 15/4/2021 và VB 2834/NHNo-TTKQ ngày 13/4/2022"
     },
     {
       "question": "Trong quá trình kiểm đếm/ giao nhận tiền mặt với đơn vị làm dịch vụ ngân quỹ, tỷ lệ (phần %) tiền không đủ tiêu chuẩn lưu thông trong 1 bó tiền được phép là:",
@@ -692,7 +692,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Mục 5.4 VB 2834/NHNo-TTKQ ngày 13/4/2022"
     },
     {
       "question": "Báo cáo công tác tuyển chọn, phân loại tiền không đủ tiêu chuẩn lưu thông được báo cáo theo định kỳ:",
@@ -703,7 +703,7 @@
         "Định kỳ 6 tháng 1 lần (trước ngày 03/7 và 03/01)"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Mục 6, VB 2834/NHNo-TTKQ ngày 13/4/2022"
     },
     {
       "question": "Trong trường hợp phải thực hiện chuyển hàng đặc biệt sang phương tiện khác do phương tiện vận chuyển đang sử dụng gặp sự cố không thể tiếp tục hành trình của Điểm giao dịch lưu động, cần phải thực hiện những biện pháp nào sau đây?",
@@ -714,7 +714,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 7, Điều 8 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Yêu cầu nào sau đây là đúng trong khi vận chuyển hàng đặc biệt đối với Điểm giao dịch lưu động?",
@@ -725,7 +725,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 6 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Két sắt ô tô chuyên dùng (trang bị năm 2017) dùng cho Điểm giao dịch lưu động có mấy ổ khóa?",
@@ -736,7 +736,7 @@
         "04 ổ khóa"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm a Khoàn 2 Điều 7 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Chìa khóa dự phòng két sắt ô tô chuyên dùng của Điểm giao dịch lưu động được bảo quản ở đâu?",
@@ -747,7 +747,7 @@
         "Két sắt Giám đốc"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Khoàn 2 Điều 7 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Cuối ngày, chìa khóa sử dụng hàng ngày két sắt ô tô chuyên dùng của Điểm giao dịch lưu động được bảo quản tại đâu?",
@@ -758,7 +758,7 @@
         "Két sắt Giám đốc"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm b Khoàn 2 Điều 7 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Trong trường hợp xe ô tô của Điểm giao dịch lưu động bị tai nạn có thể xử lý ngay, cần phải thực hiện những biện pháp nào sau đây?",
@@ -769,7 +769,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoàn 5 Điều 8 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Nguyên tắc nào sau đây là sai khi vận chuyển hàng đặc biệt giữa Chi nhánh và Điểm giao dịch lưu động:",
@@ -780,7 +780,7 @@
         "Tuyệt đối giữ bí mật các thông tin về thời gian, hành trình, loại hàng đặc biệt…theo quy định bảo vệ bí mật Nhà nước."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoàn 1 Điều 6 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Văn bản quy định về giao nhận, bảo quản, vận chuyển tiền mặt, giấy tờ có giá của Điểm giao dịch lưu động bằng ô tô chuyên dùng trong hệ thống Agribank là văn bản nào sau đây?",
@@ -791,7 +791,7 @@
         "985/NHNo-TTKQ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Văn bản 3336/QĐ-NHNo-TTKQ quy định về giao nhận, bảo quản, vận chuyển tiền mặt, giấy tờ có giá của Điểm giao dịch lưu động bằng ô tô chuyên dùng không áp dụng với đối tượng nào sau đây?",
@@ -802,7 +802,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 1 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Việc giao nhận giấy tờ có giá giữa chi nhánh với Điểm giao dịch lưu động thực hiện như thế nào?",
@@ -813,7 +813,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 4, Điều 5 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Việc giao nhận ấn chỉ quan trọng giữa chi nhánh với Điểm giao dịch lưu động thực hiện như thế nào?",
@@ -824,7 +824,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 4, Điều 5 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Tổ vận chuyển của Điểm giao dịch lưu động phải có tối thiểu bao nhiêu thành viên?",
@@ -835,7 +835,7 @@
         "4 thành viên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm b Khoản 1 Điều 6 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Người áp tải của Điểm giao dịch lưu động là thành viên nào sau đây?",
@@ -846,7 +846,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 1 Điều 6 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Chi nhánh phải cử ít nhất mấy cán bộ lãnh đạo để trực tiếp hỗ trợ Điểm giao dịch lưu động trong công tác chuẩn bị?",
@@ -857,7 +857,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 6 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Cuối ngày làm việc, toàn bộ tiền mặt của Điểm giao dịch lưu động được nộp về đâu ngay trong ngày làm việc?",
@@ -868,7 +868,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm e, Khoản 1, Điều 7 Văn bản số 3336/QĐ-NHNo-TTKQ ngày 24/11/2017"
     },
     {
       "question": "Kiểm ngân không có trách nhiệm nào sau đây?",
@@ -879,7 +879,7 @@
         "Theo dõi đề xuất lãnh đạo về việc trang bị, sửa chữa, cải tạo nâng cấp kho tiền."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 18 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Kiểm tra toàn diện công tác đảm bảo an toàn kho quỹ và tổng kiểm kê tiền mặt, tài sản mỗi năm được thực hiện mấy lần?",
@@ -890,7 +890,7 @@
         "04 lần (0 giờ ngày 01 đầu các Quý)."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 52 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Kiểm tra, kiểm kê đột xuất tiền mặt, tài sản trong các trường hợp nào sau đây?",
@@ -901,7 +901,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 52 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT, điều chuyển tiền mặt, tài sản quý, giấy tờ có giá, ấn chỉ quan trọng giữa các chi nhánh loại I trong hệ thống Lệnh điều chuyển vốn thanh toán (mẫu số 04/TTKQ) do ai ký?",
@@ -912,7 +912,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "điểm a Khoản 3 Điều 41 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Màu mực in giấy niêm phong bó tiền của Agribank là màu nào?",
@@ -923,7 +923,7 @@
         "Xanh Coban."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Mục 1 Phần II Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Mỗi ổ khóa cửa kho tiền có mấy chìa khóa",
@@ -934,7 +934,7 @@
         "Mỗi ổ khóa có 3 chìa khóa: 2 chìa sử dụng hàng ngày và 1 chìa dự phòng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 24 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Một bao tiền giấy gồm bao nhiêu bó tiền cùng mệnh giá, cùng chất liệu?",
@@ -945,7 +945,7 @@
         "20"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Mục 3 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Một bó tiền polymer được đóng từ bao nhiêu thếp tiền?",
@@ -956,7 +956,7 @@
         "20 thếp tiền polymer cùng mệnh giá."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b mục 2 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Một thếp tiền cotton, polymer gồm bao nhiêu tờ tiền cùng mệnh giá?",
@@ -967,7 +967,7 @@
         "500"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Mục 1 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Một thỏi tiền kim loại gồm bao nhiêu miếng tiền kim loại?",
@@ -978,7 +978,7 @@
         "50"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Mục 4 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Một thùng tiền kim loại gồm bao nhiêu túi tiền cùng mệnh giá?",
@@ -989,7 +989,7 @@
         "50 túi"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm c mục 4 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Một túi tiền kim loại gồm bao nhiêu miếng tiền kim loại cùng mệnh giá?",
@@ -1000,7 +1000,7 @@
         "Gồm 5.000 (năm nghìn)."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Mục 4 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Một túi tiền kim loại gồm bao nhiêu thỏi tiền?",
@@ -1011,7 +1011,7 @@
         "20"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Mục 4 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Nếu có yêu cầu làm việc ngoài giờ tại trụ sở làm việc kiêm kho tiền, ít nhất phải có mấy người, được Trưởng đơn vị cho phép bằng văn bản và phải thông báo cho bộ phận bảo vệ biết?",
@@ -1022,7 +1022,7 @@
         "05 người."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 37  Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Người nào phải chịu trách nhiệm về bó, túi, bao, hộp, thùng tiền đã niêm phong?",
@@ -1033,7 +1033,7 @@
         "Giao dịch viên."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Mục 3 Phần II Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Nhiệm vụ gì Giao dịch viên quỹ không được thực hiện?",
@@ -1044,7 +1044,7 @@
         "Cuối ngày làm việc phải thực hiện đối chiếu với Thủ quỹ chính/Thủ quỹ để đảm bảo khớp đúng giữa tiền mặt, tài sản quý, giấy tờ có giá, ấn chỉ quan trọng tồn quỹ thực tế với tồn quỹ trên cân đối, sổ sách"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết (i) điểm b Khoản 2 Điều 17 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Những người tổ chức và tham gia vận chuyển hàng đặc biệt phải tuyệt đối giữ bí mật các thông tin gì sau đây?",
@@ -1055,7 +1055,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 44 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Phòng giao dịch không có kho tiền, cuối ngày giao dịch phải nộp tiền mặt, ngoại tệ tiền mặt về Chi nhánh quản lý theo hình thức nào?",
@@ -1066,7 +1066,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết (ii) điểm b Khoản 3 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Phương án bảo vệ trên đường vận chuyển khi phải vận chuyển hàng đặc biệt bằng máy bay đối với chi nhánh có trụ sở đóng tại vùng hải đảo do ai phê duyệt?",
@@ -1077,7 +1077,7 @@
         "Trưởng Phòng Kế toán và Ngân quỹ."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 43 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Phương thức giao nhận các loại tiền mới in, đúc giữa đơn vị Agribank với Ngân hàng Nhà nước?",
@@ -1088,7 +1088,7 @@
         "Giao nhận theo bao, hộp, thùng nguyên niêm phong của cơ sở in, đúc tiền hoặc của Ngân hàng Nhà nước."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b, Khoản 1, Điều 8 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Phương thức giao nhận tiền mặt (tiền giấy) giữa các Chi nhánh loại II do Chi nhánh loại I trực tiếp quản lý?",
@@ -1099,7 +1099,7 @@
         "Giao nhận theo tờ tiền."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 8 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Phương thức giao nhận tiền mặt (tiền giấy) giữa Chi nhánh Agribank với Ngân hàng Nhà nước?",
@@ -1110,7 +1110,7 @@
         "Giao nhận theo tờ tiền."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 8 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Phương thức giao nhận tiền mặt (tiền giấy) giữa Chi nhánh Agribank với Tổ chức tín dụng khác?",
@@ -1121,7 +1121,7 @@
         "Giao nhận theo tờ tiền."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 8 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Quy định số 4368/QyĐ-NHNo-TCKT không áp dụng với đối tượng nào sau đây?",
@@ -1132,7 +1132,7 @@
         "Công ty con"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 1 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Quy định số 4368/QyĐ-NHNo-TCKT quy định Lực lượng bảo vệ hoặc công an bảo vệ hàng đặc biệt có trách nhiệm gì sau đây?",
@@ -1143,7 +1143,7 @@
         "Tất cả các phương án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 49 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Quy định về giấy niêm phong bó tiền của Agribank (được chấp thuận của NHNN)",
@@ -1154,7 +1154,7 @@
         "Giấy mỏng màu trắng, mực in màu tím, kích thước phù hợp với từng loại tiền, các yếu tố ghi theo mẫu quy định."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Mục 1 Phần II Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Quy trình vận chuyển hàng đặc biệt được thực hiện như thế nào?",
@@ -1165,7 +1165,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 40 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, quyền lợi của cán bộ, nhân viên làm công tác kho quỹ:",
@@ -1176,7 +1176,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 60 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Sau khi hoàn thành nhiệm vụ, người áp tải phải bàn giao lại chìa khóa thùng xe chở tiền cho ai quản lý?",
@@ -1187,7 +1187,7 @@
         "Trưởng phòng Tổng hợp."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết (iii) điểm b mục 1 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Sau khi hoàn thành thu, chi tiền mặt với khách hàng, Bảng kê nộp/chi phải có chữ ký của ai?",
@@ -1198,7 +1198,7 @@
         "Chữ ký của khách hàng, giao dịch viên hoặc thủ kho tiền/thủ quỹ và kiểm soát viên."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 5 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Tại Chi nhánh có kho tiền, tiền mặt, tài sản phải được bảo quản tại đâu khi hết giờ làm việc hàng ngày?",
@@ -1209,7 +1209,7 @@
         "Két sắt của Trưởng phòng Tổng hợp."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a Khoản 3 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Tại chi nhánh, ai là người phải chịu trách nhiệm về công tác tổ chức quản lý, đảm bảo an toàn bí mật hoạt động của kho tiền?",
@@ -1220,7 +1220,7 @@
         "Thủ quỹ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 14 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Tại Chi nhánh, người chịu trách nhiệm quản lý, hướng dẫn, thực hiện, kiểm tra, giám sát việc xuất/nhập và bảo quản tiền mặt, tài sản và kho tiền là ai trong các đối tượng sau?",
@@ -1231,7 +1231,7 @@
         "Thủ kho tiền"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 15 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Tại Chi nhánh, Thủ kho tiền nghỉ phép, đi công tác, đi họp, đi học phải được sự chấp thuận của ai?",
@@ -1242,7 +1242,7 @@
         "Trưởng phòng Khách hàng Doanh nghiệp."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 4, Điều 23 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Tại đơn vị ai có quyền được kiểm kê, tổng kiểm kê đột xuất tiền mặt, tài sản bất kỳ thời điểm nào?",
@@ -1253,7 +1253,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 7 Điều 52 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Thành phần Ban Quản lý ATM tại Chi nhánh bao gồm những ai?",
@@ -1264,7 +1264,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 22 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Thành phần Ban Quản lý kho tiền của Chi nhánh gồm những ai?",
@@ -1275,7 +1275,7 @@
         "Giám đốc, Giao dịch viên quầy loại 2 có uy tín, Thủ kho tiền."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 21 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Thành phần nào là người phụ trách chung, chỉ huy trên đường vận chuyển, chịu trách nhiệm đảm bảo an toàn tiền mặt, tài sản; tổ chức thực hiện giao nhận, vận chuyển, áp tải?",
@@ -1286,7 +1286,7 @@
         "Công an."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 48 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Thành phần tham gia vận chuyển hàng đặc biệt tối thiểu phải có lực lượng nào sau đây?",
@@ -1297,7 +1297,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 48 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Thành viên giữ chìa khóa cửa kho tiền phải bảo quản chìa khóa sử dụng hàng ngày như thế nào?",
@@ -1308,7 +1308,7 @@
         "Tại két sắt chung của phòng kế toán."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Tiết (i) điểm a Mục 1 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, có được giao chìa khóa thùng xe chở tiền cho Lái xe quản lý và sử dụng không?",
@@ -1319,7 +1319,7 @@
         "Có, nếu được Tổ trưởng Tổ cho vay lưu động đồng ý"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết (iii), điểm b Mục 1 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, sổ sách kho quỹ hiện nay có bao nhiêu loại?",
@@ -1330,7 +1330,7 @@
         "Gồm 14 loại."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 61 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, tiền mặt được hiểu như thế nào?",
@@ -1341,7 +1341,7 @@
         "Là các loại tiền giấy, tiền kim loại do Ngân hàng Nhà nước phát hành."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 2 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Thếp tiền polymer được quấn bằng loại vật dụng nào dưới đây?",
@@ -1352,7 +1352,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a Mục 2 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Thiếu, mất tiền mặt, tài sản quý có giá trị tương đương từ giá trị bao nhiêu phải điện báo ngay về Trụ sở chính Agribank và Chi nhánh NHNN trên địa bàn trong 24 giờ?",
@@ -1363,7 +1363,7 @@
         "Từ 500 triệu đồng trở lên."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 57 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Việc giao nhận tiền mặt là tiền giả/ tiền nghi giả giữa các đơn vị trong hệ thống Agribank được:",
@@ -1374,7 +1374,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 8 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo quy định của Agribank, Thủ kho tiền không có trách nhiệm nào trong các trách nhiệm sau?",
@@ -1385,7 +1385,7 @@
         "Tổ chức hạch toán tiền mặt, giấy tờ có giá theo chế độ kế toán"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 16 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Thu tiền mặt theo túi niêm phong áp dụng cho các đối tượng khách hàng nào sau đây?",
@@ -1396,7 +1396,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 7 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024 có hiệu lực thi hành từ ngày, tháng, năm nào?",
@@ -1407,7 +1407,7 @@
         "Kể từ ngày 15/02/2025"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 63 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024 thay thế các Quy định nào?",
@@ -1418,7 +1418,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 63 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024 trước khi vào và sau khi ra khỏi kho tiền, các thành viên Ban quản lý kho tiền phải làm gì?",
@@ -1429,7 +1429,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 34 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo quy định của Agribank, Tiền giấy bao gồm?",
@@ -1440,7 +1440,7 @@
         "Tiền  cotton và tiền polymer, vàng, kim khí quý, đá quý, ngoại tệ tiền mặt do Ngân hàng nhà nước phát hành."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 2 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, Phòng giao dịch nhận tiền mặt từ chi nhánh quản lý phải thực hiện như thế nào?",
@@ -1451,7 +1451,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "điểm b Khoản 2 Điều 9 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Tổ chức kiểm đếm sau khi giao nhận tiền mặt giữa Chi nhánh Agribank với NHNN, đơn vị nhận và đơn vị giao phải thực hiện những công việc gì?",
@@ -1462,7 +1462,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm c Khoản 1 Điều 9 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trách nhiệm của cán bộ được giao nhiệm vụ quản lý, sử dụng chìa khoá kho tiền, két sắt",
@@ -1473,7 +1473,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 28 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024, trường hợp chìa khóa két ATM, chìa khóa thùng xe chở tiền khi sử dụng xong phải mang về bảo quản ở đâu?",
@@ -1484,7 +1484,7 @@
         "Bảo quản tại phòng bảo vệ của cơ quan theo quy định"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 28 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trách nhiệm của Giám đốc Phòng giao dịch có kho tiền chịu trách nhiệm gì trong công tác tổ chức quản lý, giám sát đảm bảo an toàn tiền mặt, tài sản và kho tiền?",
@@ -1495,7 +1495,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 14 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trách nhiệm của Thủ kho tiền trong công tác kiểm tra, kiểm kê không bao gồm nội dung nào?",
@@ -1506,7 +1506,7 @@
         "Xuất trình đầy đủ hiện vật, chứng từ, sổ sách có liên quan phục vụ cho kiểm tra, kiểm kê…"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 53 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trên bề mặt tờ niêm phong bó, bao, túi, hộp, thùng tiền phải có đầy đủ, rõ ràng các yếu tố nào?",
@@ -1517,7 +1517,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Mục 2 Phần II Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trong các câu sau, câu nào là quy định đúng về đóng bó tiền cotton, tiền polymer?",
@@ -1528,7 +1528,7 @@
         "Buộc 3 vòng ngang song song, cách đều và 1 vòng chạy giữa chiều dọc bó tiền"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b mục 1 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trong các trường hợp nào sau đây được mở hộp chìa khoá dự phòng?",
@@ -1539,7 +1539,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 26 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trong Lệnh điều chuyển vận chuyển hàng đặc biệt phải nêu rõ những nội dung gì?",
@@ -1550,7 +1550,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoàn 5 Điều 41 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trong thời gian giao dịch, Giao dịch viên phải bảo quản tiền mặt, tài sản tại quầy giao dịch như thế nào?",
@@ -1561,7 +1561,7 @@
         "Sắp xếp từng loại gọn gàng, ngăn nắp trong rổ nhựa."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm c Khoản 1 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trong thủ tục  niêm phong chìa khóa dự phòng cửa kho tiền, yếu tố nào ghi trên bảng kê?",
@@ -1572,7 +1572,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết (ii) điểm a mục 2 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trưởng đơn vị gửi ủy quyền cho mấy thành viên tham gia giữ chìa khóa cửa kho tiền đến đơn vị nhận gửi để nhận lại hộp chìa khóa dự phòng?",
@@ -1583,7 +1583,7 @@
         "4 thành viên"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 26 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trường hợp chìa khóa đang dùng hàng ngày bị mất, đơn vị phải thực hiện thay khóa mới trong vòng thời gian bao lâu?",
@@ -1594,7 +1594,7 @@
         "48 giờ kể từ thời điểm phát hiện mất chìa khóa"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 30 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trường hợp chìa khoá kho tiền, két sắt đang dùng hàng ngày bị mất người làm mất chìa khoá phải báo ngay với ai bằng văn bản?",
@@ -1605,7 +1605,7 @@
         "Công an."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 30 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trường hợp cửa kho tiền, két sắt có ổ khóa không sử dụng (thừa). Ai là người có trách nhiệm tổ chức lập biên bản niêm phong ổ khóa không sử dụng?",
@@ -1616,7 +1616,7 @@
         "Trưởng đơn vị"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 24 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trường hợp ổ khoá hoặc chìa khoá cửa kho tiền, két sắt tại chi nhánh bị hỏng cần sửa chữa, thay thế phải có văn bản báo cáo và được sự chấp thuận của ai?",
@@ -1627,7 +1627,7 @@
         "Trưởng Phòng Kế toán và Ngân quỹ."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 27 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trường hợp thiếu tiền mặt, tài sản quý, ấn chỉ quan trọng, giấy tờ có giá theo biên bản của Hội đồng kiểm kê/Hội đồng kiểm đếm, phân loại tiền, ai phải chịu trách nhiệm bồi thường 100% giá trị tài sản thiếu?",
@@ -1638,7 +1638,7 @@
         "Người có tên trên niêm phong bó, túi, hộp, bao, thùng tiền mặt, tài sản quý, giấy tờ có giá, ấn chỉ quan trọng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 56 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trường hợp vận chuyển hàng đặc biệt bằng máy bay, số thành viên trong Tổ vận chuyển được quy định là?",
@@ -1649,7 +1649,7 @@
         "Ít nhất 10 người."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 48 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trưởng phòng Kế toán và Ngân quỹ ủy quyền cho cấp phó tham gia Ban quản lý kho tiền phải được sự chấp thuận của ai?",
@@ -1660,7 +1660,7 @@
         "Trưởng phòng Khách hàng doanh nghiệp."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm c Khoản 2 Điều 23 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Việc Ban hành văn bản giao trách nhiệm cho các thành viên giữ chìa khóa két sắt 03 ổ khóa tại Phòng giao dịch không có kho tiền do ai ban hành?",
@@ -1671,7 +1671,7 @@
         "Giám đốc chi nhánh quản lý."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Việc kiểm đếm tiền trong quá trình tiếp quỹ ATM bắt buộc phải được giám sát như thế nào?",
@@ -1682,7 +1682,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm g Khoản 1 Điều 22 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Việc quản lý kho tiền, giám sát xuất, nhập, bảo quản tiền mặt, tài sản; quản lý và giữ chìa khóa, mã số cửa kho tiền là trách nhiệm và nhiệm vụ của ai?",
@@ -1693,7 +1693,7 @@
         "Thành viên ban quản lý kho tiền."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 21  Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Yêu cầu chung đối với người lao động làm công tác tiền tệ kho quỹ trong hệ thống Agribank là gì?",
@@ -1704,7 +1704,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 19 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Yêu cầu về nghiệp vụ của cán bộ làm công tác Tiền tệ Kho quỹ trong hệ thống Agribank gồm những gì?",
@@ -1715,7 +1715,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 19 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trách nhiệm của Agribank khi thu tiền của khách hàng như thế nào?",
@@ -1726,7 +1726,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "điểm a Khoản 1 mục IV Phụ lục II Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Trách nhiệm của Agribank khi chi tiền cho khách hàng như thế nào?",
@@ -1737,7 +1737,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "điểm b Khoản 1 mục IV Phụ lục II Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo quy định của Agribank, sổ sách kho quỹ lập thủ công bao nhiêu sổ?",
@@ -1748,7 +1748,7 @@
         "12 sổ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm b Khoản 1 Điều 61 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Sổ sách kho quỹ in từ hệ thống IPCAS gồm những mẫu sổ nào?",
@@ -1759,7 +1759,7 @@
         "Sổ 01/TTKQ đến Sổ 05/TTKQ"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "điểm a Khoản 1 Điều 61 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo quy định của Agribank, hộp chìa khóa dự phòng két ATM được quy định gửi tại đâu?",
@@ -1770,7 +1770,7 @@
         "Gửi tại két sắt của Trưởng phòng KT&NQ"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 mục II Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Hàng tháng chi nhánh có phải thực hiện kiểm tra định kỳ, đột xuất hồ sơ liên quan đến việc gửi hộp chìa khóa dự phòng cửa kho tiền chi nhánh loại II, PGD phụ thuộc không?",
@@ -1781,7 +1781,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 mục III Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Đơn vị nhận bảo quản hộp chìa khóa dự phòng có trách nhiệm gì?",
@@ -1792,7 +1792,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 mục III Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo quy định số 4368/QyĐ-NHNo-TCKT, hàng đặc biệt gồm những loại nào?",
@@ -1803,7 +1803,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "điểm m Khoản 2 Điều 2 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Niêm phong theo quy định về giao nhận, bảo quản, vận chuyển tiền mặt, tài sản quý, giấy tờ có giá, ấn chỉ quan trọng, tài sản khác là gì?",
@@ -1814,7 +1814,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "điểm g Khoản 2 Điều 2 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT tài sản khác gồm những loại nào?",
@@ -1825,7 +1825,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "tiết iv điểm đ Khoản 2 Điều 2 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT giấy tờ có giá gồm những loại nào?",
@@ -1836,7 +1836,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "tiết ii điểm đ Khoản 2 Điều 2 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT tài sản quý gồm những loại nào?",
@@ -1847,7 +1847,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "tiết i điểm đ Khoản 2 Điều 2 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT người lĩnh tiền mặt, ngoại tệ tiền mặt, giấy tờ có giá, ấn chỉ quan trọng có phải kiểm đếm trước khi rời khỏi quầy giao dịch không?",
@@ -1858,7 +1858,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 6 Quy định số 4368/QyĐ-NHNo-TCKT"
     },
     {
       "question": "Khi vận chuyển hàng đặc biệt bằng máy bay đến chi nhánh đóng tại vùng hải đảo, cần đảm bảo điều kiện gì sau đây?",
@@ -1869,7 +1869,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 43 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Khi vận chuyển hàng đặc biệt theo đường dài hoặc qua đêm cần nghỉ dọc đường, không được để xe chở hàng đặc biệt tại những nơi nào sau đây?",
@@ -1880,7 +1880,7 @@
         "Khách sạn."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 45 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Khi vận chuyển ngoại tệ tiền mặt của Chi nhánh đầu mối (được Tổng Giám đốc ủy quyền mở TK thanh toán biên mậu) tại khu vực biên giới để thực hiện thanh toán biên mậu do ai ký Lệnh điều chuyển kiêm giấy ủy quyền áp tải hàng đặc biệt?",
@@ -1891,7 +1891,7 @@
         "Giám đốc Chi nhánh đầu mối"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 41 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo quy định của Agribank, khi vào kho tiền, thành viên nào vào kho tiền đầu tiên?",
@@ -1902,7 +1902,7 @@
         "Kiểm ngân"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 34 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Không được mang theo vào quầy giao dịch tiền mặt, kho tiền những vật dụng nào sau đây?",
@@ -1913,7 +1913,7 @@
         "Tư trang, túi xách, tiền mặt, tài sản của cá nhân"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 36 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Kiểm đếm tiền giao nhận với khách hàng phải kiểm đếm như thế nào?",
@@ -1924,7 +1924,7 @@
         "Kiểm đếm theo tờ tiền (đối với tiền giấy) hoặc kiểm đếm theo miếng (đối với tiền kim loại)."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 7 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Kiểm kê tiền mặt, tài sản bảo quản trong kho tiền hàng tháng vào thời gian nào?",
@@ -1935,7 +1935,7 @@
         "Thời điểm 0 giờ ngày 31 hàng tháng (nếu trùng vào ngày nghỉ thì chuyển sang ngày làm việc tiếp theo)."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 52 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Kiểm ngân có những trách nhiệm gì?",
@@ -1946,7 +1946,7 @@
         "Thực hiện việc xuất - nhập tiền mặt, tài sản quý, giấy tờ có giá, tài sản và/hoặc giấy tờ tài sản bảo đảm tiền vay."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 18 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Các trường hợp nào sau đây được vào kho tiền?",
@@ -1957,7 +1957,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 33 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Giám đốc Chi nhánh phải trực tiếp tham gia kiểm kê tiền mặt, tài sản bảo quản trong kho tiền tối thiểu bao nhiêu lần trong tháng?",
@@ -1968,7 +1968,7 @@
         "04 lần trong tháng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm e Khoản 1 Điều 14 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Văn bản nào sau đây không nằm trong Bộ chứng từ điều chuyển khi chi nhánh loại II thực hiện vận chuyển  tiền mặt lĩnh tại chi nhánh loại I quản lý?",
@@ -1979,7 +1979,7 @@
         "Quyết định chức danh của Thủ kho/thủ quỹ."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết (ii) điểm c Khoản 3 Điều 41 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Các khoản thu, chi ngoại tệ tiền mặt giữa Agribank với khách hàng, giữa các chi nhánh trong hệ thống, giữa Agribank với sở GD NHNN, NHNN khu vực, NHNN chi nhánh hoặc TCTD khác phải thực hiện như thế nào?",
@@ -1990,7 +1990,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 10 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Đối với chi nhánh có kho tiền và có Ban quản lý kho thì toàn bộ tiền mặt, tài sản cuối ngày giao dịch bảo quản tại đâu?",
@@ -2001,7 +2001,7 @@
         "Két sắt của Trưởng phòng Tổng hợp."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a Khoản 3 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Một bó tiền cotton khi đóng gồm bao nhiêu thếp?",
@@ -2012,7 +2012,7 @@
         "20 thếp tiền cotton cùng mệnh giá."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b mục 1 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Quy định về mở các ổ khóa cửa kho tiền theo thứ tự nào sau đây?",
@@ -2023,7 +2023,7 @@
         "Thủ kho tiền, Giám đốc, Trưởng phòng/bộ phận kế toán/Tổ trưởng tổ Kế toán ngân quỹ."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 34 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Ai là người ban hành văn bản giao trách nhiệm đối với các thành viên giữ chìa khóa, mã số két sắt 3 ổ khóa tại Phòng giao dịch không có kho tiền?",
@@ -2034,7 +2034,7 @@
         "Giám đốc chi nhánh quản lý."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Ai là người có trách nhiệm ban hành quyết định về các chức danh kho quỹ, bao gồm: Thủ kho tiền, Thủ quỹ chính, Thủ quỹ, Kiểm ngân?",
@@ -2045,7 +2045,7 @@
         "Trưởng phòng Khách hàng Doanh nghiệp."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3, Điều 19 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Ai là người có trách nhiệm mở và quản lý các loại sổ sách kho quỹ?",
@@ -2056,7 +2056,7 @@
         "Thủ kho tiền."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 16 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Ai là người có trách nhiệm quyết định cử người giúp Thủ kho tiền trong việc kiểm đếm, đóng gói, bốc xếp, vận chuyển tiền mặt, tài sản?",
@@ -2067,7 +2067,7 @@
         "Trưởng phòng Khách hàng Doanh nghiệp."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm i Khoản 1 Điều 14 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Ai là người có trách nhiệm quyết định trang bị hệ thống thiết bị đảm bảo an toàn kho quỹ lắp đặt tại kho tiền?",
@@ -2078,7 +2078,7 @@
         "Trưởng phòng Khách hàng Doanh nghiệp."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a, Khoản 1, Điều 14 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Ai là người ký ban hành Phương án Phòng chống lụt bão, thiên tai tại  Phòng giao dịch phụ thuộc?",
@@ -2089,7 +2089,7 @@
         "Trưởng Phòng Kế toán và Ngân quỹ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm n Khoản 1 Điều 14 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Ai là người quản lý, giữ chìa khóa một ổ khóa của lớp cánh trong cửa kho tiền?",
@@ -2100,7 +2100,7 @@
         "Phó phòng Kế toán và Ngân quỹ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4, Điều 16 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Anh/ chị cho biết khi xảy ra trường hợp thiếu tiền mặt, tài sản quý, giấy tờ có giá theo biên bản của Hội đồng kiểm kê/ Hội đồng kiểm đếm thì người có tên trên niêm phong bó, túi, hộp, bao, thùng tiền mặt, tài sản quý, giấy tờ có giá phải bồi thường bao nhiêu?",
@@ -2111,7 +2111,7 @@
         "Bồi thường 100%"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 56  Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT việc thanh toán xử lý các trường hợp thừa/thiếu tiền tại đơn vị giao tiền cần những giấy tờ gì?",
@@ -2122,7 +2122,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 56  Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Ban quản lý kho tiền tại Chi nhánh gồm những ai?",
@@ -2133,7 +2133,7 @@
         "Giám đốc, Trưởng phòng Kế toán và Ngân quỹ, Kiểm ngân."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 21 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Bó tiền được buộc như thế nào?",
@@ -2144,7 +2144,7 @@
         "Buộc 3 vòng ngang song song, cách đều và 2 vòng chạy giữa chiều dọc bó tiền."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm b mục 1 Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Các đối tượng nào được vào kho tiền để thực hiện kiểm kê định kỳ, đột xuất?",
@@ -2155,7 +2155,7 @@
         "Thủ kho tiền"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 10 Điều 32 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Các đối tượng nào sau đây được vào kho tiền khi thực hiện nhiệm vụ?",
@@ -2166,7 +2166,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 và Khoản 5 Điều 32 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Quy định số 4368/QyĐ-NHNo-TCKT giao nhận Giấy tờ có giá, Ấn chỉ quan trọng giữa các Chi nhánh trong hệ thống được thực hiện như thế nào?",
@@ -2177,7 +2177,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 10 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Các nội dung trên giấy niêm phong bó tiền phải được ghi bằng loại bút nào?",
@@ -2188,7 +2188,7 @@
         "Bút bi."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a mục 2 Phần II Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Các thành viên giữ chìa khoá kho tiền cần kiểm tra gì trước khi ra khỏi cửa kho tiền?",
@@ -2199,7 +2199,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 35 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Các trường hợp nào sau đây không được bố trí làm cán bộ quản lý kho quỹ của Agribank?",
@@ -2210,7 +2210,7 @@
         "Anh, chị, em ruột (kể cả anh, chị, em ruột vợ hoặc chồng) của Trưởng phòng Kiểm tra giám sát nội bộ."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 20 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Chi nhánh Agribank nhận được thông báo xe vận chuyển hàng đặc biệt của ngành ngân hàng gặp sự cố trên đường, thuộc địa phương mình thì phải thông báo cho ai?",
@@ -2221,7 +2221,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 46 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024."
     },
     {
       "question": "Chìa khóa của hộp tôn bảo quản chìa khóa dự phòng cửa kho tiền được Giám đốc, Thủ kho tiền bảo quản như thế nào?",
@@ -2232,7 +2232,7 @@
         "Bảo quản tại két sắt chung trang bị cho phòng nghiệp vụ."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết (iii) điểm a mục 2 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Chìa khóa thùng xe chở tiền do Lãnh đạo phòng/bộ phận kế toán/ PGD giữ và được giao cho ai sử dụng để thực hiện nhiệm vụ theo Lệnh điều chuyển hàng đặc biệt?",
@@ -2243,7 +2243,7 @@
         "Công an/Bảo vệ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết (iii), điểm a Mục 1 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Chủ tịch Hội đồng kiểm kê tiền mặt, tài sản là ai?",
@@ -2254,7 +2254,7 @@
         "Thủ quỹ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 1 Điều 55 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Có thể chi lại các bó tiền đã thu của Giao dịch viên, Phòng giao dịch cho chính Giao dịch viên, Phòng giao dịch đó trong trường hợp nào?",
@@ -2265,7 +2265,7 @@
         "Giao dịch viên, Phòng giao dịch đã kiểm đếm, niêm phong, bàn giao theo bao tiền theo quy định."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm c Khoản 2 Điều 8 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Công tác tổng kiểm kê tiền mặt, tài sản được thực hiện vào thời điểm nào trong năm?",
@@ -2276,7 +2276,7 @@
         "0 giờ các ngày 01/01; 01/6."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 52 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Cuối giờ giao dịch buổi sáng, ai là người chứng kiến Giao dịch viên cho tiền mặt, ấn chỉ quan trọng vào thùng/hòm/túi niêm phong trước khi gửi bảo quản theo quy định?",
@@ -2287,7 +2287,7 @@
         "Lãnh đạo phòng/tổ Kế toán và Ngân quỹ/Phòng giao dịch"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Cuối ngày làm việc chìa khóa két sắt/tủ sắt sử dụng hàng ngày của GDV gửi bảo quản tại đâu?",
@@ -2298,7 +2298,7 @@
         "Két sắt của Giám đốc chi nhánh."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Tiết (iv) điểm b Mục 1 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT hộp bảo quản chìa khóa dự phòng cửa kho tiền có mấy ổ khóa?",
@@ -2309,7 +2309,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết (iii) Điểm a Khoản 2 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Điều kiện thực hiện tổ chức kiểm đếm sau giao nhận giữa các Chi nhánh loại II trong cùng Chi nhánh loại I quản lý, đơn vị nhận và đơn vị giao phải thực hiện những công việc gì?",
@@ -2320,7 +2320,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết (ii) điểm a Khoản 2 Điều 9 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Định kỳ kiểm tra, kiểm kê tiền mặt, tài sản tại đơn vị phải thực hiện khi nào?",
@@ -2331,7 +2331,7 @@
         "Cả 1, 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Khoản 2 Điều 52 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Khi thực hiện nhiệm vụ, đối tượng nào không được vào kho tiền?",
@@ -2342,7 +2342,7 @@
         "Kiểm ngân được Giám đốc cho phép vào ra kho tiền bằng văn bản"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 32 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo quy định của Agribank, đối tượng nào sau đây được bố trí làm Thủ kho tiền, Thủ quỹ chính, Thủ quỹ?",
@@ -2353,7 +2353,7 @@
         "Cán bộ có phẩm chất đạo đức tốt và không có quan hệ nhân thân với Trưởng đơn vị, Phó trưởng đơn vị."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 20 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo quy định của Agribank, đối tượng nào sau đây không được bố trí làm Thủ kho/Thủ quỹ?",
@@ -2364,7 +2364,7 @@
         "Anh, chị, em họ của Trưởng Phòng Kế Toán và Ngân quỹ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 20 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Đối với những nơi có đường giao thông khó khăn, hoặc vùng sông nước … không thể đi xe ô tô thì số tiền vận chuyển một lần không được vượt quá bao nhiêu?",
@@ -2375,7 +2375,7 @@
         "1 tỷ đồng."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 4, Điều 43 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Đối với Phòng giao dịch không có kho tiền, phải bảo quản tiền mặt và tài sản trong giờ nghỉ buổi trưa ở trong két sắt có mấy ổ khóa?",
@@ -2386,7 +2386,7 @@
         "04 ổ khóa."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Tiết (ii) điểm b Khoản 2 Điều 12 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Đối với số tiền nhận theo túi niêm phong và đã ghi có vào tài khoản khách hàng, đơn vị thực hiện như thế nào?",
@@ -2397,7 +2397,7 @@
         "Hạch toán ghi Có vào Tk của khách hàng ngay trong ngày, thực hiện phong tỏa số tiền ghi Có và tổ chức kiểm đếm ngay vào ngày làm việc tiếp theo"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 7 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Giám đốc Phòng giao dịch ủy quyền cho Phó Giám đốc tham gia Ban quản lý kho tiền phải được cấp thẩm quyền nào phê duyệt?",
@@ -2408,7 +2408,7 @@
         "Trưởng ban Kiểm soát Agribank."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a khoản 1 Điều 23 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT các khoản giao dịch thu, chi tiền mặt, ngoại tệ tiền mặt, giấy tờ có giá phải được thực hiện như thế nào?",
@@ -2419,7 +2419,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3, Điều 4 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo Quy định số 4368/QyĐ-NHNo-TCKT, Giao dịch viên có những trách nhiệm gì ?",
@@ -2430,7 +2430,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết (ii)(iii)(iv) điểm a Khoản 2 Điều 17 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Hình thức kiểm đếm tiền mặt giao nhận giữa Chi nhánh Agribank với NHNN?",
@@ -2441,7 +2441,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 9 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Hình thức tổ chức kiểm kê khi có sự thay thế Thủ kho tiền?",
@@ -2452,7 +2452,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 54 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Hộp chìa khóa dự phòng cửa kho tiền có 02 ổ khóa do ai giữ?",
@@ -2463,7 +2463,7 @@
         "Trưởng phòng Kế toán & Ngân quỹ và Giao dịch viên."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết (iii) điểm a mục 2 Phần I Phụ lục V Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Kẹp chì trong niêm phong túi, bao tiền là gì?",
@@ -2474,7 +2474,7 @@
         "là việc sử dụng kìm chuyên dùng kẹp hai đầu dây đã buộc miệng túi, bao, thùng tiền qua viên chì."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm h Khoản 2 Điều 2 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Khi có công việc phải nghỉ phép, Thủ kho tiền được ủy quyền nhiệm vụ trong Ban quản lý kho tiền cho đối tượng nào?",
@@ -2485,7 +2485,7 @@
         "Kiểm ngân."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 23 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Khi đóng thếp tiền cotton, băng giấy được quấn ở vị trí nào?",
@@ -2496,7 +2496,7 @@
         "ở vị trí 1/2 chiều dài thếp tiền."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a mục 1  Phần I Phụ lục I Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Theo quy định của Agribank, khi ra khỏi kho tiền, ai là người ra cuối cùng ?",
@@ -2507,7 +2507,7 @@
         "Thủ kho tiền"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 34 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Khi tổ chức tiếp nhận hàng đặc biệt vận chuyển đến nơi nhận, trách nhiệm của đơn vị nhận hàng là gì?",
@@ -2518,7 +2518,7 @@
         "Tổ chức tiếp nhận sau 03 ngày làm việc."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 47 Quy định số 4368/QyĐ-NHNo-TCKT ngày 25/12/2024"
     },
     {
       "question": "Dịch vụ bảo quản tài sản, cho thuê tủ két an toàn bao gồm các tài sản gì?",
@@ -2529,7 +2529,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 4 Quyết định số 5039/QĐ-NHNo-TTKQ 29/12/2016"
     },
     {
       "question": "Khi chấm dứt Hợp đồng trước hạn đối với dịch vụ bảo quản tài sản, Agribank phải thông báo cho khách hàng trước bao nhiêu ngày?",
@@ -2540,7 +2540,7 @@
         "05 ngày làm việc"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 6 Quyết định số 5039/QĐ-NHNo-TTKQ ngày 29/12/2016"
     },
     {
       "question": "Các chi nhánh được làm dịch vụ bảo quản tài sản, cho thuê tủ/két an toàn và các dịch vụ ngân quỹ khác cho khách hàng, thực hiện theo quy định tại văn bản nào của Agribank?",
@@ -2551,7 +2551,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Quyết định số 5039/QĐ-NHNo-TTKQ ngày 29/12/2016"
     },
     {
       "question": "Điều kiện đối với tài sản trong thực hiện dịch vụ bảo quản tài sản, cho thuê tủ két/an toàn?",
@@ -2562,7 +2562,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 4 Quyết định số 5039/QĐ-NHNo-TTKQ  ngày 29/12/2016"
     },
     {
       "question": "Khi thực hiện cung ứng dịch vụ bảo quản tài sản, cho thuê tủ/két sắt an toàn chi nhánh có phải ký kết hợp đồng không?",
@@ -2573,7 +2573,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 5  Quyết định số 5039/QĐ-NHNo-TTKQ  ngày 29/12/2016"
     },
     {
       "question": "Diện tích kho tiền tối thiểu đối với chi nhánh loại I theo quy định là bao nhiêu?",
@@ -2584,7 +2584,7 @@
         "40 m2."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm a, Khoản 1, mục I văn bản 6132/NHNo-TCKT ngày 09/5/2024"
     },
     {
       "question": "Diện tích kho tiền tối thiểu đối với Phòng giao dịch theo quy định là bao nhiêu?",
@@ -2595,7 +2595,7 @@
         "13 m2."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a, Khoản 1, mục I văn bản 6132/NHNo-TCKT ngày 09/5/2024"
     },
     {
       "question": "Loại đèn chiếu sáng nào được lắp đặt trong kho tiền?",
@@ -2606,7 +2606,7 @@
         "Đèn chùm trang trí."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a, Khoản 1, mục II văn bản 6132/NHNo-TCKT ngày 09/5/2024"
     },
     {
       "question": "Tiêu chuẩn cửa gian kho bên trong kho tiền?",
@@ -2617,7 +2617,7 @@
         "Cửa làm bằng gỗ đặc dày 30 mm."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm a, Khoản 2, mục I văn bản 6132/NHNo-TCKT ngày 09/5/2024"
     },
     {
       "question": "Nội quy quy định việc theo dõi và xử lý các tình huống khi nhận tín hiệu sự cố xảy ra đối với hệ thống thiết bị an toàn kho quỹ do ai ban hành?",
@@ -2628,7 +2628,7 @@
         "Giám đốc chi nhánh."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a, Khoản 2, mục II văn bản 6132/NHNo-TCKT ngày 09/5/2024"
     },
     {
       "question": "Việc ban hành Nội quy, Quy định việc theo dõi và xử lý các tình huống khi nhận tín hiệu sự cố xảy ra đối với các thiết bị an toàn kho quỹ quy định tại văn bản nào?",
@@ -2639,7 +2639,7 @@
         "Văn bản số 7260/NHNo-TTKQ ngày 27/07/2018"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "điểm a, mục 2, Phần II Văn bản số 6132/NHNo-TCKT  ngày 09/5/2024"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "originalDisplayName": "5. Thanh toán quốc tế và Tài trợ thương mại",
+  "originalDisplayName": "5. Thanh toán quốc tế và Tài trợ thương mại",
   "questions": [
     {
       "question": "Đối với điện giao dịch nhận từ ngoài hệ thống qua SWIFT nhận sau 18h00 sẽ được Trung tâm Thanh toán xử lý vào thời gian nào?",
@@ -10,7 +10,7 @@
         "Không muộn hơn 8h30 ngày làm việc tiếp theo."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm b Khoản 3 Điều 13 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Thời gian để Chi nhánh phản hồi cho khách hàng sau khi tiếp nhận đầy đủ chứng từ giao dịch TTQT (bao gồm các thủ tục đảm bảo nguồn vốn – nếu cần) nếu hồ sơ chưa đầy đủ, chưa hợp lệ?",
@@ -21,7 +21,7 @@
         "Trong vòng (04) giờ làm việc."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 điều 13 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Mọi giao dịch TTQT khi thực hiện được kiểm tra, lưu trữ hồ sơ, chứng từ phù hợp liên quan đến thông tin nhận biết về (các) đối tượng nào sau đây?",
@@ -32,7 +32,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 4 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Theo Quy trình TTQT, ngôn ngữ thể hiện trên chứng từ giao dịch TTQT được quy định như thế nào?",
@@ -43,7 +43,7 @@
         "Bằng bất cứ ngôn ngữ nào và Chi nhánh phải yêu cầu cung cấp bản dịch công chứng sang tiếng Việt"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 7 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Agribank có quyền từ chối thực hiện giao dịch trong trường hợp nào?",
@@ -54,7 +54,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 16 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Khách hàng sẽ phải hoàn trả lại bảo lãnh nhận hàng gốc trong vòng bao nhiều ngày kể từ ngày Khách hàng nhận được bộ chứng từ và vận đơn đường biển do chi nhánh ký hậu?",
@@ -65,7 +65,7 @@
         "60 ngày"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 24 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Loại giấy tờ nào sau đây được coi là hợp đồng ngoại thương?",
@@ -76,7 +76,7 @@
         "Cả đáp án (1) và (2) đều sai"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 11 Điều 3 VB 3748/HD-NHNo-TTTM ngày 29/03/2024"
     },
     {
       "question": "Đối với các chi nhánh TTQT tập trung: Trung tâm TTTM thống kê các khoản phí, lãi thực thu của tháng trước theo chi nhánh và thực hiện hạch toán chia sẻ lãi, phí dịch vụ qua tài khoản thu chi điều tiết nội bộ để chuyển trả 100% lãi, phí thu được (sau khi đã khấu trừ thuế) chậm nhất vào thời gian nào?",
@@ -87,7 +87,7 @@
         "Ngày 07 hàng tháng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a Khoản 5 Điều 12 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Việc thu phí, lãi của khách hàng đối với giao dịch TTQT phải được thực hiện khi nào?",
@@ -98,7 +98,7 @@
         "Theo đề nghị của khách hàng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3, Điều 12 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Ngân hàng phát hành L/C đóng vai trò gì trong một giao dịch L/C?",
@@ -109,7 +109,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 2 - UCP600"
     },
     {
       "question": "Người nhập khẩu yêu cầu hàng hóa đảm bảo chất lượng như thỏa thuận trong khi người xuất khẩu muốn đảm bảo chắc chắn việc thanh toán thì nên sử dụng phương thức thanh toán nào sau đây?",
@@ -120,7 +120,7 @@
         "L/C trả ngay không xác nhận yêu cầu giấy chứng nhận chất lượng của bên thứ ba"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Specimen paper A, LIBF 2021"
     },
     {
       "question": "Loại thư tín dụng nào mà người thụ hưởng được nhận tài trợ từ người mua trước khi giao hàng?",
@@ -131,7 +131,7 @@
         "Transferable (Thư tín dụng có thể chuyển nhượng)."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "CDCS 2021 20.4"
     },
     {
       "question": "L/C quy định \"UCP latest version\" là dẫn chiếu đến ấn bản nào hiện hành?",
@@ -142,7 +142,7 @@
         "UCP 700"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Các ấn bản UCP của ICC"
     },
     {
       "question": "Ấn bản mới nhất Các điều khoản thương mại quốc tế (INCOTERMS) hiện nay là?",
@@ -153,7 +153,7 @@
         "Incoterms 2023"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Các ấn bản Incoterms của ICC"
     },
     {
       "question": "Ấn bản mới nhất Các Quy tắc thống nhất về Nhờ thu (The Uniform Rules for Collections) hiện hành là ấn bản nào sau đây?",
@@ -164,7 +164,7 @@
         "URC 522"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Các ấn bản URC của ICC"
     },
     {
       "question": "Anh/Chị hãy cho biết hiện nay Agribank đang áp dụng những loại nhờ thu kèm chứng từ nào?",
@@ -175,7 +175,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 35, VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Anh/Chị hãy cho biết hiện nay Agribank từ chối thanh toán Nhờ thu khi nào?",
@@ -186,7 +186,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 4, Điều 36, VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Khi Khách hàng Nhờ thu xuất khẩu đáp ứng điều kiện ứng trước tiền của Agribank, số tiền ứng trước tối đa cho khách hàng là bao nhiêu?",
@@ -197,7 +197,7 @@
         "90% x (trị giá bộ chứng từ nhờ thu xuất khẩu sau khi trừ số tiền ngân hàng dự kiến thu các chi phí phát sinh)"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết a, khoản 4, Điều 37, VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Anh/Chị hãy cho biết hiện nay Agribank quy định thời hạn ứng trước tối đa đối với bộ chứng từ Nhờ thu xuất khẩu D/P là bao lâu?",
@@ -208,7 +208,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết a, khoản 5, Điều 37, VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Khi là Ngân hàng thu hộ (Collecting Bank), Agribank sẽ không chịu trách nhiệm nào sau đây?",
@@ -219,7 +219,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2, 3, Điều 35, VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Theo nghiệp vụ Nhờ thu tại Agribank, chỉ dẫn giao chứng từ cho Người trả tiền trên cơ sở chấp nhận thanh toán của Người trả tiền là loại nhờ thu nào sau đây?",
@@ -230,7 +230,7 @@
         "D/OT"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm c, Khoản 1, Điều 35, VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Đối với Nhờ thu xuất khẩu, sau bao nhiêu ngày kể từ ngày đến hạn mà bộ chứng từ nhờ thu vẫn chưa được thanh toán, Đơn vị tác nghiệp lập thông báo gửi Người đòi tiền và làm thủ tục đóng hồ sơ Nhờ thu?",
@@ -241,7 +241,7 @@
         "30 ngày"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3, Điều 35, VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Khi là Ngân hàng thu hộ (Collecting Bank), Agribank từ chối thu hộ đối với các trường hợp nào sau đây?",
@@ -252,7 +252,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3, Điều 36, VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Anh/Chị hãy cho biết hiện nay Agribank quy định thời hạn ứng trước tối đa đối với bộ chứng từ Nhờ thu xuất khẩu D/A là bao lâu?",
@@ -263,7 +263,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Tiết b, Khoản 5, Điều 37, VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Theo quy định tại quy trình thanh toán quốc tế, chỉ dẫn nhờ thu phải dẫn chiếu tuân thủ theo quy tắc nào?",
@@ -274,7 +274,7 @@
         "ISBP"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết a, Khoản 3, Điều 36, Quy trình 699/QTr-NHNo-TTTM"
     },
     {
       "question": "Khách hàng từ chối nhận bộ chứng từ hoặc không có ý kiến trả lời bằng văn bản trong vòng mười (10) ngày làm việc kể từ ngày gửi thông báo chứng từ Nhờ thu, thì Agribank có quyền từ chối thu hộ không?",
@@ -285,7 +285,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết d, Khoản 3, Điều 36, Quy trình 699/QTr-NHNo-TTTM"
     },
     {
       "question": "Khi là ngân hàng thu hộ, Agribank sẽ được miễn trách trong trường hợp đã thực hiện theo chỉ thị Nhờ thu và quy tắc Quốc tế mà bộ chứng từ Nhờ thu không được thanh toán hoặc thanh toán chậm, đúng hay sai?",
@@ -296,7 +296,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3, Điều 35, Quy trình 699/QTr-NHNo-TTTM"
     },
     {
       "question": "Trong các điều kiện đối với chỉ dẫn đặc biệt trên chỉ thị Nhờ thu Nhập khẩu, sau bao nhiêu ngày kể từ khi gửi thông báo không nhận được chỉ thị từ bên gửi chứng từ thì Chi nhánh chuyển trả lại bộ chứng từ cho bên gửi?",
@@ -307,7 +307,7 @@
         "5 ngày"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 36, Quy trình 699/QTr-NHNo-TTTM"
     },
     {
       "question": "Chi nhánh nhận được bộ chứng từ nhờ thu trả ngay đòi tiền trị giá USD200,000.00 .Tuy nhiên, khách hàng chỉ đồng ý thanh toán USD150,000.00 và đề nghị Agribank giải tỏa bộ chứng từ. Trong trường hợp này, Chi nhánh sẽ xử lý như thế nào?",
@@ -318,7 +318,7 @@
         "Cả 2 và 3"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Tiết a, Khoản 1, Điều 36, Quy trình 699/QTr-NHNo-TTTM"
     },
     {
       "question": "Trong trường hợp các chỉ dẫn nhờ thu ghi sai hoặc không ghi đầy đủ địa chỉ người trả tiền hoặc nơi xuất trình chứng từ, ngân hàng thu hộ có thể cố gắng xác định địa chỉ thích hợp và chịu hoàn toàn trách nhiệm về phía mình, đúng hay sai?",
@@ -329,7 +329,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 11, Điều 4, URC 522"
     },
     {
       "question": "Ngân hàng chuyển (Remitting Bank) chuyển bộ chứng từ theo yêu cầu của nhà xuất khẩu sang cho ngân hàng thu hộ (Collecting Bank) nhờ thu tiền bên nhập khẩu. Tranh chấp xảy ra khi bộ chứng từ bị thất lạc, vậy ai là người sẽ chịu trách nhiệm về việc thất lạc chứng từ như trên?",
@@ -340,7 +340,7 @@
         "Bên nhập khẩu"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản a, Điều 14 và Khoản a, Điều 11 URC 522"
     },
     {
       "question": "Theo URC 522, chứng từ nào dưới đây là chứng từ tài chính ?",
@@ -351,7 +351,7 @@
         "Hối phiếu"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 2, URC 522"
     },
     {
       "question": "Ngân hàng thu hộ Y sau khi nhận được chỉ thị nhờ thu từ Ngân hàng chuyển chứng từ X, thấy mình không có tài khoản của nhà nhập khẩu nên tự ý nhờ ngân hàng Z xuất trình chứng từ nhờ thu. Hành động trên của Ngân hàng Y đúng hay sai?",
@@ -362,7 +362,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản f, Điều 5, URC 522"
     },
     {
       "question": "Trong trường hợp Khách hàng không chỉ định ngân hàng thu hộ thì Agribank chọn NHĐL phù hợp, có uy tín làm ngân hàng thu hộ và Agribank có được miễn trách về sự lựa chọn đó hay không?",
@@ -373,7 +373,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b, Khoản 7, Điều 37, Quy trình 699/QTr-NHNo-TTTM"
     },
     {
       "question": "Quy định của Agribank về thoái hối trong giao dịch chuyển tiền đến là gì?",
@@ -384,7 +384,7 @@
         "Không thoái hối trực tiếp với ngân hàng nước ngoài mà phải thực hiện qua Trung tâm thanh toán"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 42 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Hồ sơ chuyển ngoại tệ ra nước ngoài để thanh toán cho các tổ chức ở nước ngoài đối với phí hội viên KHÔNG BẮT BUỘC bao gồm những chứng từ gì?",
@@ -395,7 +395,7 @@
         "Giấy tờ chứng minh khách hàng đã sử dụng dịch vụ phát sinh phí"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 28 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Khi khách hàng tổ chức là người không cư trú thực hiện giao dịch chuyển tiền ra nước ngoài số ngoại tệ có trên tài khoản ngoại tệ của khách hàng, khách hàng cần xuất trình giấy tờ nào?",
@@ -406,7 +406,7 @@
         "Giấy tờ chứng minh mục đích sử dụng số tiền chuyển"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 44 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Khách hàng là người không cư trú chỉ được sử dụng tài khoản thanh toán bằng ngoại tệ để thực hiện các giao dịch thu chuyển khoản từ nước ngoài vì mục đích chuyển vốn. Nhận định trên là đúng hay sai?",
@@ -417,7 +417,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 8 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Phương thức thanh toán quốc tế chứa đựng rủi ro nhiều nhất đối với nhà nhập khẩu là gì?",
@@ -428,7 +428,7 @@
         "Nhờ thu (Collection)"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Specimen paper A, LIBF 2021"
     },
     {
       "question": "Ngày hiệu lực của Lệnh chuyển tiền được xác định cùng ngày với ngày nào sau đây?",
@@ -439,7 +439,7 @@
         "Ngày giao dịch trên cơ sở khách hàng xuất trình chứng từ đầy đủ và hợp lệ theo quy định, đảm bảo nguồn thanh toán và trước giờ giới hạn giao dịch đối với từng loại ngoại tệ nhận điện của Chi nhánh tại Trung tâm thanh toán"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2, Điều 39 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Hồ sơ chuyển tiền đi bao gồm những chứng từ gì?",
@@ -450,7 +450,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 39 VB 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Thông tư 12/2022/TT-NHNN ngày 30/09/2022 quy định về vấn đề gì?",
@@ -461,7 +461,7 @@
         "Hướng dẫn việc mở và sử dụng tài khoản vốn đầu tư gián tiếp"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Thông tư 12/2022/TT-NHNN ngày 30/09/2022"
     },
     {
       "question": "Theo quy định tại Thông tư 20/2022/TT-NHNN  ngày 30/12/2022, trường hợp nào KHÔNG thuộc mục đích mua chuyển ngoại tệ ra nước ngoài để tài trợ, viện trợ của tổ chức?",
@@ -472,7 +472,7 @@
         "Mua chuyển ngoại tệ ra nước ngoài để phân bổ tiền tài trợ cho các thành viên ở nước ngoài tham gia thực hiện dự án nghiên cứu khoa học ở nước ngoài."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 4 Thông tư 20/2022/TT-NHNN ngày 30/12/2022"
     },
     {
       "question": "Theo quy định tại Thông tư 20/2022/TT-NHNN  ngày 30/12/2022, câu nào sau đây KHÔNG đúng?",
@@ -483,7 +483,7 @@
         "Mức ngoại tệ mua, chuyển ra nước ngoài để tài trợ cho các quỹ, dự án căn cứ vào số tiền ghi trên giấy tờ, chứng từ liên quan nhưng tối đa không vượt quá 30.000USD (Ba mươi ngàn đô la Mỹ) hoặc tương đương"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 8 Thông tư 20/2022/TT-NHNN ngày 30/12/2022"
     },
     {
       "question": "Theo quy định tại Thông tư 12/2022/TT-NHNN ngày 30/09/2022, câu nào sau đây KHÔNG đúng?",
@@ -494,7 +494,7 @@
         "Các giao dịch chuyển tiền trả nợ (gốc, lãi), trả phí liên quan đến khoản vay nước ngoài dưới hình thức nhập khẩu hàng hóa trả chậm không bắt buộc thực hiện qua tài khoản vay, trả nợ nước ngoài."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 4 Thông tư 12/2022/TT-NHNN ngày 30/09/2022"
     },
     {
       "question": "Theo Thông tư 12/2022/TT-NHNN ngày 30/09/2022, quy định đối với bên đi vay là doanh nghiệp có vốn đầu tư trực tiếp nước ngoài là gì?",
@@ -505,7 +505,7 @@
         "Trường hợp đồng tiền vay không phải là đồng tiền của tài khoản vốn đầu tư trực tiếp, bên đi vay được mở tài khoản vay, trả nợ nước ngoài để thực hiện khoản vay nước ngoài tại ngân hàng khác."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2,3 Điều 26 Thông tư 12/2022/TT-NHNN ngày 30/09/2022"
     },
     {
       "question": "Hàng hóa xuất khẩu, nhập khẩu tại chỗ gồm những gì?",
@@ -516,7 +516,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 16 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Doanh nghiệp có vốn đầu tư trực tiếp nước ngoài là những doanh nghiệp nào?",
@@ -527,7 +527,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 7 Điều 3 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024 và văn bản số 8497/NHNo-TTTM ngày 18/06/2025"
     },
     {
       "question": "Tài khoản nào sau đây KHÔNG là tài khoản chuyên dùng?",
@@ -538,7 +538,7 @@
         "Tài khoản thực hiện bảo lãnh cho người không cư trú"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 23 Điều 3 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Hồ sơ chứng từ để chuyển ngoại tệ ra nước ngoài để trả lại đối tác nước ngoài tiền ứng trước do thanh lý hợp đồng ngoại thương trong trường hợp thiếu lượng hàng hóa xuất khẩu gồm những gì?",
@@ -549,7 +549,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 18 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Theo quy định tại Thông tư 20/2022/TT-NHNN, nguồn ngoại tệ chuyển, mang ra nước ngoài cho các mục đích chuyển tiền một chiều của tổ chức  bao gồm những nguồn nào?",
@@ -560,7 +560,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 5 Thông tư 20/2022/TT-NHNN ngày 30/12/2022"
     },
     {
       "question": "Theo quy định tại Thông tư 08/2023/TT-NHNN ngày 30/6/2023, bên đi vay vay nước ngoài dưới hình thức nhập khẩu hàng hóa trả chậm có phải tuân thủ các điều kiện vay nước ngoài không được chính phủ bảo lãnh không?",
@@ -571,7 +571,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 5 Thông tư 08/2023/TT-NHNN ngày 30/6/2023"
     },
     {
       "question": "Theo quy định tại Thông tư 08/2023/TT-NHNN ngày 30/6/2023, trường hợp khoản vay đã được rút vốn nhưng tạm thời chưa sử dụng cho các mục đích vay nước ngoài hợp pháp, bên đi vay có thể sử dụng nguồn tiền này để gửi tiền có kỳ hạn tại các TCTD với kỳ hạn bao lâu?",
@@ -582,7 +582,7 @@
         "Không quá 06 tháng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 6 Thông tư 08/2023/TT-NHNN ngày 30/6/2023"
     },
     {
       "question": "Theo quy định tại Thông tư 08/2023/TT-NHNN ngày 30/6/2023, nội dung cơ bản của Phương án sử dụng vốn vay nước ngoài trong trường hợp bên đi vay không là TCTD?",
@@ -593,7 +593,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 7 Thông tư 08/2023/TT-NHNN ngày 30/6/2023"
     },
     {
       "question": "Đối với chuyển ngoại tệ ra nước ngoài để thanh toán các chi phí trong trường hợp tạm xuất, tái nhập hàng hóa, khách hàng chuyển tiền trước khi hoàn thành thủ tục hải quan phải xuất trình bổ sung tờ khai hải quan không muộn hơn bao nhiêu ngày sau ngày hàng hóa được thông quan?",
@@ -604,7 +604,7 @@
         "40 ngày"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm d Khoản 1 Điều 15 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Thời hạn tạm xuất khẩu hàng hóa để tham gia hội chợ, triển lãm thương mại ở nước ngoài là bao lâu kể từ ngày hàng hóa được tạm xuất khẩu?",
@@ -615,7 +615,7 @@
         "1 năm"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 15 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Nguồn tài trợ là nguồn tiền của tổ chức tài trợ, mức ngoại tệ chuyển ra nước ngoài căn cứ vào số tiền ghi trên giấy tờ, chứng từ có liên quan nhưng tối đa không vượt qua 50.000 USD (Năm mươi ngàn Đôla Mỹ) hoặc các loại ngoại tệ có giá trị tương đương một lần chuyển tiền là đúng hay sai?",
@@ -626,7 +626,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 37 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Khách hàng mua ngoại tệ tại Agribank từ nguồn thu nhập hợp pháp bằng VND từ hoạt động đầu tư trực tiếp tại Việt Nam thì thời hạn chuyển ra nước ngoài là bao lâu?",
@@ -637,7 +637,7 @@
         "60 ngày làm việc kể từ ngày mua được ngoại tệ tại Agribank"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm i Khoản 1 Điều 45 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Nhà đầu tư trực tiếp nước ngoài vào Việt Nam có được phép chuyển ra nước ngoài số tiền đã chuyển vào Việt Nam để thực hiện hoạt động chuẩn bị đầu tư và tiền lãi phát sinh (nếu có) sau khi trừ đi chi phí hợp pháp đã phát sinh tại Việt Nam liên quan đến hoạt động chuẩn bị đầu tư tại Việt Nam do không được cơ quan có thẩm quyền cấp Giấy chứng nhận đăng ký đầu tư hay không?",
@@ -648,7 +648,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 45 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Đối với mục đích kinh doanh chuyển khẩu hàng hóa, khách hàng phải cam kết sẽ nhận tiền thanh toán theo hợp đồng bán hàng hóa kinh doanh chuyển khẩu về tài khoản của chính khách hàng tại Agribank. Nhận định trên là đúng hay sai?",
@@ -659,7 +659,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm g  Khoản 3 Điều 13 và Mục II Phụ lục II Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Đơn vị nào đầu mối hướng dẫn thu, chi đối với các tài khoản chuyên dùng trong hệ thống Agribank?",
@@ -670,7 +670,7 @@
         "Trung tâm Công nghệ thông tin"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 76 Văn bản 3748/HD-NHNo-TTTM ngày 28/03/2024"
     },
     {
       "question": "Theo quy định tại Thông tư 08/2023/TT-NHNN ngày 30/6/2023 và Thông tư sửa đổi, bổ sung một số điều của Thông tư số 08/2023/TT-NHNN, bên đi vay không phải là TCTD chỉ được vay nước ngoài trung, dài hạn để làm gì?",
@@ -681,7 +681,7 @@
         "Đáp án (1) và (3) đều đúng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 17 Thông tư 08/2023/TT-NHNN ngày 30/6/2023"
     },
     {
       "question": "Lãi suất quá hạn trong giao dịch UPAS L/C được quy định như thế nào?",
@@ -692,7 +692,7 @@
         "Không vượt quá 150% mức lãi UPAS L/C áp dụng cho Khách hàng tại thời điểm chuyển nợ quá hạn, đồng thời không thấp hơn mức lãi suất phạt Agribank phải trả cho Ngân hàng tài trợ."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a, Khoản 2, Điều 8, QĐ 4486/QyĐ-NHNo-TTTM"
     },
     {
       "question": "Việc phân bổ lãi, phí dịch vụ UPAS L/C được thực hiện như thế nào?",
@@ -703,7 +703,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 5, Điều 8, QĐ 4486/QyĐ-NHNo-TTTM"
     },
     {
       "question": "Agribank thực hiện tác nghiệp tập trung các nghiệp vụ nào đối với giao dịch bảo lãnh ngân hàng thông qua hệ thống SWIFT?",
@@ -714,7 +714,7 @@
         "Cả 3 đáp án đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a, khoản 1, Điều 1 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Trách nhiệm của Chi nhánh đối với giao dịch phát hành bảo lãnh có yếu tố nước ngoài qua hệ thống SWIFT là gì?",
@@ -725,7 +725,7 @@
         "Đáp án (1) và (2) đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 3 và điểm c, khoản 12, Điều 24  Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Nghiệp vụ phát hành bảo lãnh trong nước thông qua hệ thống SWIFT được thực hiện tại đâu?",
@@ -736,7 +736,7 @@
         "Tất cả các đơn vị trên"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 5, Điều 3 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Cam kết bảo lãnh có yếu tố  nước ngoài được phát hành dưới hình thức nào?",
@@ -747,7 +747,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3, Điều 5 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Nội dung thư bảo lãnh trong nước qua SWIFT do Phòng Khách hàng tại Chi nhánh in trên ấn chỉ thư bảo lãnh gồm mấy bản?",
@@ -758,7 +758,7 @@
         "01 bản gốc và 03 bản chính"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a, khoản 2, Điều 12 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Đối với giao dịch phát hành thư bảo lãnh có yếu tố nước ngoài qua SWIFT, ngày bắt đầu có hiệu lực của thư bảo lãnh được quy định như thế nào?",
@@ -769,7 +769,7 @@
         "Cả 3 đáp án (1), (2), (3) đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết (i), điểm g, khoản 2, Điều 13 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Ngày hết hạn hiệu lực của bảo lãnh đối ứng do Agribank phát hành phải muộn hơn tối thiểu bao nhiêu ngày so với ngày hết hạn hiệu lực của thư bảo lãnh do Bên bảo lãnh phát hành?",
@@ -780,7 +780,7 @@
         "7 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b, khoản 3, Điều 13 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Trong trường hợp phát sinh nghĩa vụ bảo lãnh theo bảo lãnh đối ứng, Bên bảo lãnh gửi Yêu cầu thực hiện nghĩa vụ theo bảo lãnh đối ứng tới Agribank qua phương thức nào?",
@@ -791,7 +791,7 @@
         "Gửi đồng thời qua điện SWIFT xác thực và qua thư"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm c, khoản 3, Điều 13 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Thư bảo lãnh có yếu tố nước ngoài qua SWIFT có phải in trên ấn chỉ thư bảo lãnh sử dụng trong hệ thống Agribank hay không?",
@@ -802,7 +802,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm d, khoản 4, Điều 13 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Trong trường hợp thông báo sửa đổi thư bảo lãnh có nội dung thay đổi Người thụ hưởng, Agribank chỉ thực hiện thông báo thư bảo lãnh và sửa đổi cho Người thụ hưởng mới khi nào?",
@@ -813,7 +813,7 @@
         "Khi Người thụ hưởng trước đó đã gửi chấp nhận sửa đổi thư bảo lãnh bằng văn bản và chuyển trả lại bản gốc thư bảo lãnh và các sửa đổi (nếu có) về Agribank."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 17 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Agribank từ chối thông báo bảo lãnh trong các trường hợp nào sau đây?",
@@ -824,7 +824,7 @@
         "Cả 3 đáp án đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a, khoản 6, Điều 17 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Agribank có trách nhiệm như thế nào trong việc gửi hồ sơ Yêu cầu thực hiện nghĩa vụ bảo lãnh của Khách hàng đối với các thư bảo lãnh do Agribank thông báo?",
@@ -835,7 +835,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a, khoản 1, Điều 18 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Điều kiện về giới hạn tài trợ thương mại của các TCTD phát hành thư bảo lãnh đối ứng tới Agribank, bao gồm những nội dung nào?",
@@ -846,7 +846,7 @@
         "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 20 Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Khách hàng đề nghị phát hành bảo lãnh thực hiện hợp đồng, bên thụ hưởng bảo lãnh ở nước ngoài, Chi nhánh tư vấn khách hàng phát hành thư bảo lãnh dưới hình thức nào sau đây?",
@@ -857,7 +857,7 @@
         "Có thể phát hành Thư bảo lãnh giấy hoặc điện SWIFT tùy nhu cầu của khách hàng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 3 VB 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Khách hàng đề nghị phát hành bảo lãnh thanh toán, bên thụ hưởng bảo lãnh ở nước ngoài, dẫn chiếu áp dụng luật nước ngoài/quy định cơ quan giải quyết tranh chấp ở nước ngoài, Agribank cần làm gì?",
@@ -868,7 +868,7 @@
         "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm m, Khoản 2, Điều 13 VB\r\n 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Khách hàng đề nghị phát hành thư \r\nbảo lãnh không theo mẫu của Agribank mà theo mẫu của Bên nhận bảo lãnh thì Chi nhánh cần yêu cầu và kiểm tra những gì?",
@@ -879,7 +879,7 @@
         "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 và Điểm b, Khoản 4, Điều 13 \r\nVB 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Khách hàng đề nghị Agribank phát hành thư bảo lãnh vô điều kiện, không hủy ngang thì hồ sơ yêu cầu thực hiện nghĩa vụ bảo lãnh gồm những chứng từ nào và dưới hình thức nào?",
@@ -890,7 +890,7 @@
         "Đáp án (1) hoặc Đáp án (2) là đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 13 \r\nVB 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Theo quy định thanh toán biên giới Việt Nam - Trung Quốc tại Agribank, khi khách hàng có nhu cầu thanh toán xuất nhập khẩu bằng đồng CNY thì có thể thực hiện tại Chi nhánh nào?",
@@ -901,7 +901,7 @@
         "Chi nhánh ủy thác"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Quyết định 1735/QĐ-NHNo-ĐCTC ngày 21/08/2019"
     },
     {
       "question": "Theo quy định thanh toán biên giới Việt Nam - Trung Quốc tại Agribank, quy định nào sau đây là đúng?",
@@ -912,7 +912,7 @@
         "Đồng tiền thanh toán trong hoạt động mua bán, trao đổi hàng hóa, dịch vụ qua biên giới Việt Nam - Trung Quốc của thương nhân chỉ bao gồm ngoại tệ tự do chuyển đổi hoặc CNY."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 13 Quyết định 1735/QĐ-NHNo-ĐCTC ngày 21/08/2019"
     },
     {
       "question": "Nguyên tắc nào sau đây trong giao dịch thanh toán biên giới là KHÔNG đúng?",
@@ -923,7 +923,7 @@
         "Trường hợp chuyển tiền đến, Chi nhánh ủy thác được hưởng 100% phí dịch vụ."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1, khoản 4 Điều 10,  Quyết định 1735/QĐ-NHNo-ĐCTC ngày 21/08/2019 và Khoản 7 Điều 1 Quy định 1777/QyĐ-NHNo-TTTM ngày 26/06/2025"
     },
     {
       "question": "Hãy cho biết định nghĩa của \"Chợ biên giới\" tại Quy định về thanh toán biên giới Việt Nam - Trung Quốc trong hệ thống Agribank?",
@@ -934,7 +934,7 @@
         "chợ hoặc khu, điểm chợ, chợ trong các khu kinh tế cửa khẩu nằm trên địa bàn các tỉnh biên giới, đồng thời có hoạt động xuất khẩu, nhập khẩu, mua bán, trao đổi hàng hóa của thương nhân và cư dân biên giới."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 13 Điều 2 Quyết định 1735/QĐ-NHNo-ĐCTC ngày 21/08/2019"
     },
     {
       "question": "Khách hàng Việt Nam là thương nhân có hoạt động kinh doanh tại chợ biên giới được sử dụng tài khoản thanh toán bằng đồng CNY tại Chi nhánh đầu mối để thực hiện các giao dịch nào dưới đây?",
@@ -945,7 +945,7 @@
         "Cả 2 đáp án (1) và (3) đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 6 Quyết định 1735/QĐ-NHNo-ĐCTC ngày 21/08/2019"
     },
     {
       "question": "Định nghĩa Thỏa thuận chi tiết trong hoạt động thanh toán thương mại biên giới Việt - Trung của Agribank là gì?",
@@ -956,7 +956,7 @@
         "là Thỏa thuận hợp tác Internetbanking với ngân hàng đối tác"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết a Khoản 1 Điều 1 Quy định 1777/QyĐ-NHNo-TTTM ngày 26/06/2025"
     },
     {
       "question": "Cho biết quy định về tỷ lệ chia sẻ phí dịch vụ thanh toán thương mại biên giới (TTBG) với ngân hàng đối tác Trung Quốc?",
@@ -967,7 +967,7 @@
         "Tỷ lệ chia sẻ phí giữa Chi nhánh biên giới và ngân hàng đối tác là: Chi nhánh hưởng 60% và ngân hàng đối tác hưởng 40%"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 10 Quyết định 1735/QĐ-NHNo-ĐCTC ngày 21/08/2019"
     },
     {
       "question": "Cho biết đơn vị thực hiện ký kết Biên bản ghi nhớ, Thỏa thuận hợp tác Thanh toán biên giới cấp trung ương với Ngân hàng đối tác là đơn vị nào tại Agribank?",
@@ -978,7 +978,7 @@
         "Chi nhánh ủy thác"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 3 QĐ 1735/QĐ-NHNo-ĐCTC ngày 21/08/2019"
     },
     {
       "question": "Theo Incoterms 2010, đối với giá CIF, tại thời điểm nào rủi ro được chuyển giao từ người bán sang người mua?",
@@ -989,7 +989,7 @@
         "Trên tàu tại cảng dỡ hàng."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Incoterms 2010"
     },
     {
       "question": "Theo Incoterms 2010, các điều kiện giao hàng nào sau đây mà người bán có nghĩa vụ mua bảo hiểm cho hàng hóa?",
@@ -1000,7 +1000,7 @@
         "CPT, CIF, CIP, DDP"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Incoterms 2010"
     },
     {
       "question": "Theo Incoterms 2010, đối với giá EXW, ai là người phải chịu tất cả các chi phí vận chuyển, thuế, và làm các thủ tục hải quan xuất khẩu?",
@@ -1011,7 +1011,7 @@
         "Tất cả các bên đều có trách nhiệm như nhau."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Incoterms 2010"
     },
     {
       "question": "Theo Incoterms 2010, đối với giá DDP, bên nào có trách nhiệm mua bảo hiểm hàng hóa?",
@@ -1022,7 +1022,7 @@
         "Người bán hoặc người mua."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Incoterms 2010"
     },
     {
       "question": "Theo Incoterms 2010, đối với giá CIF, giá trị bảo hiểm tối thiểu được tính như thế nào?",
@@ -1033,7 +1033,7 @@
         "theo giá quy định tại hợp đồng cộng thêm 100%."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Incoterms 2010"
     },
     {
       "question": "Theo Incoterms 2010, đối với giá FOB và CIF, bên nào chịu trách nhiệm trả phí vận chuyển?",
@@ -1044,7 +1044,7 @@
         "FOB – người  bán / CIF – người  bán."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Incoterms 2020"
     },
     {
       "question": "Theo UCP 600, đối với giá FOB, vận đơn đường biển phải thể hiện nội dung nào sau đây?",
@@ -1055,7 +1055,7 @@
         "\"Received for shipment and freight payable at destination\"."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Incoterms 2020 & UCP600"
     },
     {
       "question": "Giá \"CIF\" trong Incoterms 2010 là viết tắt của từ nào?",
@@ -1066,7 +1066,7 @@
         "\"Charges, insurance and freight\"."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Incoterms 2010"
     },
     {
       "question": "Chọn từ chính xác nhất để hoàn thành câu sau:\r\n\"Đối với giá EXW, trách nhiệm ít nhất thuộc về….. \"",
@@ -1077,7 +1077,7 @@
         "Ngân hàng phát hành."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Incoterms 2010 & 2020"
     },
     {
       "question": "Điều kiện thương mại quốc tế Incoterms 2020 được sử dụng cho mục đích nào sau đây?",
@@ -1088,7 +1088,7 @@
         "Xác định cảng hoặc địa điểm mà người mua phải thanh toán."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Incoterms 2020"
     },
     {
       "question": "Trong Incoterms 2020, điều kiện CPT là viết tắt cho cụm từ nào?",
@@ -1099,7 +1099,7 @@
         "Delivered at Terminal"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Incoterms 2020"
     },
     {
       "question": "Theo điều kiện CIP (Incoterms 2020), người bán phải mua bảo hiểm với mức tương đương Điều khoản bảo hiểm hàng hóa nào?",
@@ -1110,7 +1110,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều kiện CIP,Incoterms 2020"
     },
     {
       "question": "Trong Incoterms 2020, điều kiện CIP là viết tắt cho cụm từ nào?",
@@ -1121,7 +1121,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Incoterms 2020, CIP"
     },
     {
       "question": "Trong Incoterms 2020, điều kiện EXW là viết tắt cho cụm từ nào?",
@@ -1132,7 +1132,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Incoterms 2020, EXW"
     },
     {
       "question": "Theo giá FAS (Incoterm 2020), rủi ro về mất mát hoặc hư hỏng của hàng hóa di chuyển khi hàng hóa đang ở dọc mạn tàu, và người mua chịu mọi chi phí và rủi ro kể từ thời điểm này. Nhận định trên có đúng không?",
@@ -1143,7 +1143,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Incoterms 2020"
     },
     {
       "question": "Hoàn thành nhận định sau đây: \"Ngân hàng phát hành có trách nhiệm thanh toán không hủy ngang kể từ khi ….\"",
@@ -1154,7 +1154,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản b Điều 7 UCP600"
     },
     {
       "question": "Bill of Lading phải chỉ rõ tên của người chuyên chở và được ký bởi ai?",
@@ -1165,7 +1165,7 @@
         "Người chuyên chở hoặc Thuyền trưởng hoặc đại lý đích danh của hoặc thay mặt cho thuyền trưởng hoặc Đại lý đích danh của hoặc thay mặt người chuyên chở"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản a (i) Điều 20 UCP600"
     },
     {
       "question": "Câu nào sau đây đúng với Charter Party Bill of Lading?",
@@ -1176,7 +1176,7 @@
         "L/C phải quy định yêu cầu xuất trình các hợp đồng thuê tàu."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản b Điều 22 UCP600"
     },
     {
       "question": "Nếu chứng từ bảo hiểm ghi rõ là đã được phát hành nhiều hơn một bản gốc, thì phải xuất trình bao nhiêu bản?",
@@ -1187,7 +1187,7 @@
         "Xuất trình 01 bản gốc và 01 bản sao"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản b Điều 28 UCP600"
     },
     {
       "question": "Nếu L/C yêu cầu bảo hiểm \"All risks\" thì chứng từ bảo hiểm phải đảm bảo điều kiện nào sau đây?",
@@ -1198,7 +1198,7 @@
         "Chứng từ bảo hiểm xuất trình phải có tiêu đề và có điều khoản \"All risks\" hoặc ghi chú \"All risks\"."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản h Điều 28 UCP600"
     },
     {
       "question": "Câu nào sau đây là đúng?",
@@ -1209,7 +1209,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản e Điều 14 UCP600"
     },
     {
       "question": "UCP 600 quy định về ngày của các chứng từ xuất trình như thế nào?",
@@ -1220,7 +1220,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản i Điều 14 UCP600"
     },
     {
       "question": "Câu nào sau đây là sai?",
@@ -1231,7 +1231,7 @@
         "Một chứng từ có thể ghi ngày trước ngày phát hành thư tín dụng, nhưng không được ghi sau ngày xuất trình chứng từ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 14 UCP600"
     },
     {
       "question": "Câu nào sau đây không đúng khi việc xuất trình chứng từ được xác định là phù hợp với L/C?",
@@ -1242,7 +1242,7 @@
         "Khi một ngân hàng phát hành quyết định việc xuất trình là phù hợp, thì ngân hàng có thể xem xét việc thanh toán"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 15 UCP600"
     },
     {
       "question": "Theo UCP 600, nội dung nào dưới đây mô tả chính xác nhất về \"negotiation\"?",
@@ -1253,7 +1253,7 @@
         "Là việc gửi bộ chứng từ thanh toán của ngân hàng được chỉ định đến ngân hàng phát hành."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 2 UCP600"
     },
     {
       "question": "Nhận định nào dưới đây là đúng về 'a clean credit'?",
@@ -1264,7 +1264,7 @@
         "A clean credit must contain an inoperative clause."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "UCP600 (Tài liệu thi CDCS, Section 20.3)"
     },
     {
       "question": "Thư tín dụng mô tả số lượng hàng hóa là \"5,000 cases of widgets\" mà không có nội dung nào khác liên quan, thì dung sai tối đa cho phép là bao nhiêu?",
@@ -1275,7 +1275,7 @@
         "0.1"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 30b UCP600"
     },
     {
       "question": "Xuất trình phù hợp là việc xuất trình chứng từ tuân thủ:",
@@ -1286,7 +1286,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 2 UCP 600"
     },
     {
       "question": "Trong phương thức L/C, những chứng từ nào phải được xuất trình cho ngân hàng phát hành để thanh toán?",
@@ -1297,7 +1297,7 @@
         "Tùy thuộc vào L/C yêu cầu những chứng từ nào phải xuất trình"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 2 UCP 600"
     },
     {
       "question": "Các chứng từ nào sau đây bắt buộc phải ghi ngày tháng cho dù L/C không quy định?",
@@ -1308,7 +1308,7 @@
         "Bill of Lading; Insurance Policy; Certificate of Origin"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "A11 ISBP"
     },
     {
       "question": "Trong phương thức thanh toán bằng thư tín dụng (L/C) ngân hàng giao dịch dựa vào yếu tố nào?",
@@ -1319,7 +1319,7 @@
         "Thỏa thuận giữa bên mua với bên bán"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 5 UCP"
     },
     {
       "question": "L/C quy định phí thông báo là do người thụ hưởng chịu. Trường hợp Ngân hàng thông báo không thu được phí từ người thụ hưởng, ngân hàng thông báo sẽ đòi phí từ ai?",
@@ -1330,7 +1330,7 @@
         "Ngân hàng chiết khấu"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 37 UCP 600"
     },
     {
       "question": "Thư tín dụng là gì?",
@@ -1341,7 +1341,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 2 UCP 600"
     },
     {
       "question": "Nếu ngân hàng  phát hành quyết định xuất trình là không phù hợp với quy định của L/C và từ chối thanh toán thì:",
@@ -1352,7 +1352,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 16 UCP 600"
     },
     {
       "question": "Khi quyết định thông báo L/C, Ngân hàng thông báo chịu trách nhiệm nào sau đây?",
@@ -1363,7 +1363,7 @@
         "Đáp án (1) và (2)"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 9 UCP 600"
     },
     {
       "question": "Nếu một ngân hàng được yêu cầu xác nhận L/C nhưng từ chối xác nhận thì phải làm gì?",
@@ -1374,7 +1374,7 @@
         "Đáp án (1) và (2)"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 8 UCP 600"
     },
     {
       "question": "Một L/C yêu cầu xuất trình Giấy chứng nhận chất lượng được phát hành bởi một bên kiểm tra độc lập (independent) và có uy tín (well known), chứng từ này có thể được phát hành bởi bất cứ ai, trừ đối tượng nào?",
@@ -1385,7 +1385,7 @@
         "Người vận chuyển"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 3 UCP 600"
     },
     {
       "question": "Một L/C yêu cầu “Commercial Invoice in 4 copies”, người thụ hưởng  phải xuất trình bao nhiêu bản?",
@@ -1396,7 +1396,7 @@
         "2 bản gốc số còn lại là bản sao"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 17 UCP 600"
     },
     {
       "question": "Một Ngân hàng đã xác nhận L/C thì có được phép từ chối xác nhận sửa đổi L/C không?",
@@ -1407,7 +1407,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 10 UCP 600"
     },
     {
       "question": "Các chứng từ nào sau đây không bắt buộc phải  ký?",
@@ -1418,7 +1418,7 @@
         "Insurance policy"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "C11 ISBP 821; Điều 18 Khoản a Điểm iv UCP600"
     },
     {
       "question": "L/C yêu cầu C/O do người thụ hưởng cấp, C/O xuất trình do Phòng thương mại cấp, Ngân hàng sẽ chấp nhận hay không?",
@@ -1429,7 +1429,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "L3 ISBP 821"
     },
     {
       "question": "Trong số những chứng từ bảo hiểm sau, chứng từ bảo hiểm nào được chấp nhận theo UCP?",
@@ -1440,7 +1440,7 @@
         "Insurance Certificate and Insurance Policy, Declaration under an open cover"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 28 UCP 600"
     },
     {
       "question": "Sửa đổi L/C được Người thụ hưởng chấp nhận khi nào?",
@@ -1451,7 +1451,7 @@
         "Đáp án (1) và (2) đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản c Điều 10 UCP 600"
     },
     {
       "question": "Ngân hàng phát hành gửi một điện thông báo sơ bộ L/C. Câu nào sau đây là đúng?",
@@ -1462,7 +1462,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản b Điều 11 UCP 600"
     },
     {
       "question": "UCP 600 do ai ban hành?",
@@ -1473,7 +1473,7 @@
         "Liên hợp quốc (UN)"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "UCP 600"
     },
     {
       "question": "Một hối phiếu quy định ngày đến hạn như sau: “10 days from bill of lading date”; Bill of lading date: 1/5/2022. Ngày đến hạn hối phiếu là ngày nào?",
@@ -1484,7 +1484,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "B2 ISBP821; Điều 3 UCP 600"
     },
     {
       "question": "Trường hợp nào sau đây cho phép áp dụng dung sai +/-5% về số lượng hàng hóa?",
@@ -1495,7 +1495,7 @@
         "Số lượng hàng hóa tăng thêm 5% nhưng số tiền yêu cầu thanh toán vượt quá số tiền của L/C gốc."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "C14 ISBP 821"
     },
     {
       "question": "Khi L/C yêu cầu xuất trình một vận đơn đường biển (B/L), chứng từ xuất trình B/L có nội dung “phụ thuộc vào hợp đồng thuê tàu (Charter party)\", ngân hàng sẽ:",
@@ -1506,7 +1506,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 20 Khoản a Điểm vi UCP 600"
     },
     {
       "question": "L/C quy định cấm chuyển tải (transhipment is not allowed), chứng từ xuất trình B/L có nội dung: transhipment may take place, Ngân hàng sẽ:",
@@ -1517,7 +1517,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 20 Khoản c điểm ii UCP 600."
     },
     {
       "question": "Những trường hợp nào sau đây dù được dẫn chiếu đến trong L/C nhưng ngân hàng không có nghĩa vụ kiểm tra?",
@@ -1528,7 +1528,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 22 Khoản b UCP 600; Điều 23 Khoản a điểm vi UCP 600; Điều 4 UCP 600"
     },
     {
       "question": "Trường hợp ngày phát hành của Giấy chứng nhận bảo hiểm muộn hơn ngày giao hàng, Ngân hàng phát hành L/C sẽ:",
@@ -1539,7 +1539,7 @@
         "Chấp nhận và coi ngày hiệu lực của bảo hiểm tính từ ngày giao hàng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 28 Khoản e UCP 600"
     },
     {
       "question": "Giấy chứng nhận xuất xứ (C/O) được xuất trình theo L/C thể hiện người xuất khẩu không phải là người thụ hưởng L/C, Ngân hàng sẽ:",
@@ -1550,7 +1550,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "L6 ISBP 821"
     },
     {
       "question": "Giấy chứng nhận xuất xứ (C/O) được xuất trình theo L/C thể hiện người xuất khẩu không phải là người thụ hưởng L/C, tuy nhiên C/O thể hiện thông tin về số và ngày hóa đơn khác so với dữ liệu của Commercial Invoice xuất trình cùng bộ chứng từ đó, Ngân hàng sẽ:",
@@ -1561,7 +1561,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "L8 ISBP 821"
     },
     {
       "question": "L/C yêu cầu “Air waybill: Full set of original”, chứng từ xuất trình thể hiện “original for consignor”, Ngân hàng sẽ:",
@@ -1572,7 +1572,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 23 Khoản a điểm v UCP 600"
     },
     {
       "question": "Bộ chứng từ được xuất trình tới ngân hàng được chỉ định vào sáng thứ Ba, ngày 29 tháng 5. Ngày nào là ngày muộn nhất để ngân hàng quyết định bộ chứng từ xuất trình có phù hợp hay không?",
@@ -1583,7 +1583,7 @@
         "Thứ Ba, ngày 5 tháng 6"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 14 Khoản b UCP 600"
     },
     {
       "question": "Chọn phương án sai:\r\nThư tín dụng chuyển nhượng phải phản ánh chính xác các điều kiện và điều khoản của tín dụng, bao gồm cả xác nhận (nếu có), ngoại trừ:",
@@ -1594,7 +1594,7 @@
         "Ngày giao hàng muộn nhất"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 38 khoản g UCP 600"
     },
     {
       "question": "Theo UCP 600, ngân hàng có nghĩa vụ tiếp nhận một xuất trình  ngoài giờ làm việc của mình không?",
@@ -1605,7 +1605,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 33 UCP 600"
     },
     {
       "question": "Một biên lai chuyển phát (courier receipt), cho dù có tên gọi như thế nào, là bằng chứng cho việc nhận hàng để chở, phải thể hiện yếu tố nào?",
@@ -1616,7 +1616,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 25a UCP 600"
     },
     {
       "question": "Chứng từ nào dưới đây không phải chứng từ sở hữu hàng hóa?",
@@ -1627,7 +1627,7 @@
         "Short form bill of lading"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "UCP 600 và thông lệ quốc tế"
     },
     {
       "question": "Hóa đơn thương mại phải đảm bảo điều kiện nào sau đây?",
@@ -1638,7 +1638,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 18 UCP 600"
     },
     {
       "question": "Nếu L/C yêu cầu xuất trình một chứng từ mà không quy định người phát hành hoặc nội dung dữ liệu thì các ngân hàng sẽ chấp nhận chứng từ như đã xuất trình nếu nội dung của nó đáp ứng được chức năng của chứng từ được yêu cầu, ngoại trừ chứng từ nào sau đây?",
@@ -1649,7 +1649,7 @@
         "Giấy chứng nhận số lượng/ chất lượng hàng hóa"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 14 khoản f UCP 600"
     },
     {
       "question": "Một chứng từ vận tải đường bộ phải thể hiện là bản gốc dành cho đối tượng nào?",
@@ -1660,7 +1660,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 24.b.i UCP600"
     },
     {
       "question": "Chứng từ bảo hiểm thể hiện nội dung nào sau đây là có thể được chấp nhận?",
@@ -1671,7 +1671,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 28 UCP600"
     },
     {
       "question": "Chứng từ vận tải thể hiện nội dung nào sau đây có thể được chấp nhận?",
@@ -1682,7 +1682,7 @@
         "Có điều khoản tuyên bố rằng  hàng hóa  có thể được xếp trên boong tàu hoặc Có điều khoản ghi chú \"shipper's load and count\" và \"said by shipper to contain\" hoặc Có ghi chú bằng cách đóng dấu hoặc hình thức khác đối với chi phí bổ sung so với cước phí"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 26 UCP600"
     },
     {
       "question": "Một chứng từ xuất trình nhưng tín dụng không yêu cầu thì ngân hàng có cần phải kiểm tra hay không?",
@@ -1693,7 +1693,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 14g UCP 600"
     },
     {
       "question": "Phiên bản UCP nào sau đây còn hiệu lực đến thời điểm hiện tại?",
@@ -1704,7 +1704,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Phiên bản sau không phủ nhận tính chất pháp lý của phiên bản trước. Khi dẫn chiếu áp dụng cần chỉ rõ số hiệu phiên bản UCP nào."
     },
     {
       "question": "Một L/C quy định như sau:\r\nDate and Place of Expiry: 240330 IN JAPAN\r\nLastest date of shipment: 240315\r\nPeriod for Presentation in Days: 14/DAYS AFTER SHIPPING DATE\r\nVậy nếu giao hàng ngày 15/03/2024 thì ngày muộn nhất để xuất trình chứng từ là ngày nào?",
@@ -1715,7 +1715,7 @@
         "Thứ Sáu, ngày 31/03/2024"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 3 UCP 600"
     },
     {
       "question": "Theo UCP 600, mỗi ngân hàng có tối đa bao nhiêu ngày tiếp theo ngày xuất trình để quyết định xem xuất trình có phù hợp hay không?",
@@ -1726,7 +1726,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 14 UCP 600"
     },
     {
       "question": "Ngân hàng phát hành bị ràng buộc không hủy ngang thực hiện thanh toán kể từ thời điểm thư tín dụng được phát hành?",
@@ -1737,7 +1737,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 7 b UCP600"
     },
     {
       "question": "Theo UCP600, honour (thanh toán) nghĩa là:",
@@ -1748,7 +1748,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 2 UCP 600"
     },
     {
       "question": "Các từ “khoảng (about)” hoặc “ước chừng (approximately)” được sử dụng có liên quan đến số tiền của tín dụng hoặc số lượng hoặc đơn giá ghi trong tín dụng được hiểu là cho phép một dung sai hơn hoặc kém bao nhiêu phần trăm của số tiền hoặc số lượng hoặc đơn giá được đề cập?",
@@ -1759,7 +1759,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 30 UCP 600"
     },
     {
       "question": "Điền từ còn thiếu lần lượt vào chỗ trống:\r\nNgân hàng ... là ngân hàng tiến hành thông báo tín dụng theo yêu cầu của Ngân hàng …",
@@ -1770,7 +1770,7 @@
         "Chỉ định/Phát hành"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 2 UCP 600"
     },
     {
       "question": "Nếu trong một thư tín dụng, không quy định IRREVOCABLE (không thể hủy ngang) ở trường 40A thì thư tín dụng đó có được phép hủy ngang hay không?",
@@ -1781,7 +1781,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 2 UCP 600"
     },
     {
       "question": "Theo UCP 600, nếu một chứng từ được ký, thì chữ ký có thể được ký bằng hình thức nào?",
@@ -1792,7 +1792,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 3 UCP 600"
     },
     {
       "question": "Theo UCP600, cụm từ \"on or about\" được hiểu như thế nào?",
@@ -1803,7 +1803,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 3 UCP 600"
     },
     {
       "question": "Theo UCP600, các từ \"to\", \"until\", \"till\", “from” and “between” nếu được dùng để quy định thời hạn giao hàng thì có bao gồm cả ngày hoặc những ngày đó không?",
@@ -1814,7 +1814,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 3 UCP 600"
     },
     {
       "question": "Theo UCP 600, khi Thư tín dụng chứng từ không quy định về giao hàng từng phần thì hiểu như thế nào?",
@@ -1825,7 +1825,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 31a UCP600"
     },
     {
       "question": "Ngân hàng Thông báo là gì?",
@@ -1836,7 +1836,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 2 UCP600"
     },
     {
       "question": "Agribank là ngân hàng phục vụ người hưởng lợi và L/C quy định ngày xuất trình muộn nhất là ngày 10/05/2025 (thứ Bảy). Vậy Agribank cần tư vấn cho khách hàng như thế nào để xuất trình không bị muộn?",
@@ -1847,7 +1847,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 29 UCP600"
     },
     {
       "question": "Theo UCP 600, việc từ chối chứng từ phải được thông báo tối đa trong vòng bao nhiêu ngày tiếp theo ngày xuất trình?",
@@ -1858,7 +1858,7 @@
         "5 ngày"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 16(d) UCP600"
     },
     {
       "question": "Một hợp đồng bảo hiểm có thể được chấp nhận thay cho chứng từ bảo hiểm nào?",
@@ -1869,7 +1869,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 28d - UCP600"
     },
     {
       "question": "Người giao hàng hoặc người gửi hàng ghi trên các chứng từ có nhất thiết là người thụ hưởng của Thư tín dụng không?",
@@ -1880,7 +1880,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 15k UCP600"
     },
     {
       "question": "Khi L/C KHÔNG quy định ngôn ngữ của chứng từ xuất trình, chứng từ phải phát hành như thế nào?",
@@ -1891,7 +1891,7 @@
         "Chứng từ xuất trình có thể phát hành bởi bất kỳ ngôn ngữ nào."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "A21, ISBP821"
     },
     {
       "question": "L/C yêu cầu xuất trình \"invoice in 03 copies\".Yêu cầu nào sau đây là bắt buộc để bộ chứng từ xuất trình là phù hợp?",
@@ -1902,7 +1902,7 @@
         "Ít nhất một trong ba bản \"invoice\" phải là bản gốc"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "A29, ISBP821"
     },
     {
       "question": "Theo ISBP745, hóa đơn  phải thể hiện nội dung nào sau đây?",
@@ -1913,7 +1913,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "C6, ISBP821"
     },
     {
       "question": "Yêu cầu nào sau đây đúng đối với chứng từ vận tải đa phương thức?",
@@ -1924,7 +1924,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "D15, ISBP821"
     },
     {
       "question": "Đối với B/L được phát hành bởi thuyền trưởng, tên của thuyền trưởng có bắt buộc phải chỉ rõ trên B/L không?",
@@ -1935,7 +1935,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "E5, ISBP821"
     },
     {
       "question": "L/C không quy định trị giá phải mua bảo hiểm, trường hợp xuất trình chứng từ bảo hiểm nào sau đây thì được chấp nhận?",
@@ -1946,7 +1946,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "K12, ISBP821"
     },
     {
       "question": "B/L được phát hành \"to order\" hoặc \"to order of the shipper\", việc ký hậu B/L được thực hiện như thế nào?",
@@ -1957,7 +1957,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "E13, ISBP821"
     },
     {
       "question": "A GSP Form A is an official type of which document?",
@@ -1968,7 +1968,7 @@
         "Inspection certificate."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "L2, ISBP821"
     },
     {
       "question": "Một vận đơn đường biển (B/L) “shipped on board” được phát hành ngày 01/4/2023;  đồng thời có ghi chú “shipped on board” ngày 03/4/2023, ngày giao hàng thực tế là ngày nào?",
@@ -1979,7 +1979,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "E6, ISBP 821"
     },
     {
       "question": "Khi  tín dụng chứng từ (L/C) yêu cầu xuất trình hóa đơn thì hóa đơn không được thể hiện là hóa đơn nào sau đây?",
@@ -1990,7 +1990,7 @@
         "Hóa đơn thuế (Tax Invoice)"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "C1, ISBP 821"
     },
     {
       "question": "Một hối phiếu phải đáp ứng yêu cầu nào sau đây?",
@@ -2001,7 +2001,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "B8, B14, ISBP 821"
     },
     {
       "question": "Khi tín dụng chứng từ (L/C) quy định xuất trình hối phiếu mà không có mô tả gì thêm, việc sửa chữa và thay thế dữ liệu trên hối phiếu phải đáp ứng yêu cầu nào?",
@@ -2012,7 +2012,7 @@
         "Không được phép sửa chữa và thay thế dữ liệu trên hối phiếu"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "B16, B17, ISBP 821"
     },
     {
       "question": "Khi  tín dụng chứng từ (L/C) yêu cầu xuất trình một giấy chứng nhận xuất xứ (C/O)  thì C/O phải đáp ứng yêu cầu nào?",
@@ -2023,7 +2023,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "L1, ISBP 821"
     },
     {
       "question": "Mô tả hàng hóa, dịch vụ trong chứng từ nào sau đây phải phù hợp với mô tả trong tín dụng chứng từ (L/C)?",
@@ -2034,7 +2034,7 @@
         "Giấy chứng nhận xuất xứ"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "C3 ISBP 821"
     },
     {
       "question": "Một hóa đơn phải đáp ứng yêu cầu nào sau đây?",
@@ -2045,7 +2045,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "C6 ISBP 821"
     },
     {
       "question": "Một hóa đơn KHÔNG cần phải đáp ứng yêu cầu nào?",
@@ -2056,7 +2056,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "C11 ISBP 821"
     },
     {
       "question": "Khi tín dụng chứng từ (L/C) quy định điều kiện thương mại \"CIF Singapore\", hóa đơn có thể ghi như thế nào?",
@@ -2067,7 +2067,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "C9 ISBP 821"
     },
     {
       "question": "Chứng từ được phát hành nhiều hơn một bản gốc được đánh dấu như thế nào?",
@@ -2078,7 +2078,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "A28 ISBP 821"
     },
     {
       "question": "Tín dụng chứng từ (L/C) yêu cầu xuất trình nào sau đây thì sẽ được hiểu là yêu cầu một bản gốc hóa đơn?",
@@ -2089,7 +2089,7 @@
         "Đáp án (1) và (2)"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "A29 ISBP 821"
     },
     {
       "question": "Chữ ký của người hoặc tổ chức đích danh được thể hiện bằng cách nào sau đây?",
@@ -2100,7 +2100,7 @@
         "Đáp án (1), (2) đều sai"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "A36 ISBP 821"
     },
     {
       "question": "Khi tín dụng chứng từ (L/C) thể hiện khu vực địa lý liên quan đến cảng dỡ hàng (ví dụ \"Any European Port\"), vận đơn đường biển phải thể hiện nội dung nào?",
@@ -2111,7 +2111,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "E10, ISBP 821"
     },
     {
       "question": "Nhận định nào sau đây là sai về vận đơn đường biển gốc (B/L)?",
@@ -2122,7 +2122,7 @@
         "B/L phải được ký theo quy định của UCP 600 và chỉ tõ tên của người chuyên chở, được nhận dạng như là người chuyên chở"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "E5, E8, E11, ISBP 821"
     },
     {
       "question": "Vận đơn hoàn hảo (Clean B/L) là gì?",
@@ -2133,7 +2133,7 @@
         "Đáp án (1), (2) đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "E20, ISBP 821"
     },
     {
       "question": "Chứng từ nào dưới đây phải ký?",
@@ -2144,7 +2144,7 @@
         "Weight specification"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "A3, C11, L1, ISBP821"
     },
     {
       "question": "Những thông tin như tên, địa chỉ và thông tin liên hệ của người yêu cầu mở L/C trên hóa đơn có bắt buộc phải được xác định bằng tiêu đề \"Applicant\" hay không?",
@@ -2155,7 +2155,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "A17 ISBP 821"
     },
     {
       "question": "Các thuật ngữ nào sau đây có nghĩa chung là \"đã bốc hàng lên tàu (shipped on board)\"?",
@@ -2166,7 +2166,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "D11 ISBP 821"
     },
     {
       "question": "Nếu thư tín dụng có dùng từ viết tắt “Ltd” thay cho “Limited”, thì chứng từ có thể thể hiện như thế nào?",
@@ -2177,7 +2177,7 @@
         "Không được ghi khác với từ trong L/C"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "ISBP821 - A1"
     },
     {
       "question": "Nếu một điều kiện trong L/C ghi “Red/Black/Blue” mà không có giải thích thêm, điều này được hiểu là:",
@@ -2188,7 +2188,7 @@
         "Có thể chọn một hoặc nhiều trong số các màu đó"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "ISBP821 - A2"
     },
     {
       "question": "Theo ISBP 821, việc sử dụng dấu phẩy để liệt kê các cảng như “Hamburg, Rotterdam, Antwerp” trong một thư tín dụng có thể dẫn đến cách hiểu nào sau đây được chấp nhận, nếu không có ngữ cảnh rõ ràng?",
@@ -2199,7 +2199,7 @@
         "Là sai sót của thư tín dụng, cần phải sửa lại"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "ISBP821 - A2"
     },
     {
       "question": "Theo ISBP 821, khi thư tín dụng yêu cầu một giấy chứng nhận, giấy xác nhận, bản tuyên bố hoặc bản cam kết thì chứng từ đó có bắt buộc phải ký không?",
@@ -2210,7 +2210,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "ISBP821 - A3"
     },
     {
       "question": "URC 522 quy định những chứng từ nào là chứng từ thương mại?",
@@ -2221,7 +2221,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản b. Điều 2. URC 522"
     },
     {
       "question": "Theo URC 522, chứng từ tài chính là chứng từ nào sau đây?",
@@ -2232,7 +2232,7 @@
         "Chứng từ bảo hiểm"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản b, Điều 2, URC 522"
     },
     {
       "question": "Đối với phương thức từ nhờ thu bộ chứng từ, ngân hàng đóng vai trò gì?",
@@ -2243,7 +2243,7 @@
         "xác định bộ chứng từ xuất trình phù hợp với hợp đồng ngoại thương."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 10. Điều 12. URC 522"
     },
     {
       "question": "Theo URC 522, \"Nhờ thu\" là việc ngân hàng xử lý bộ chứng từ theo chỉ dẫn nhận được trên cơ sở nào?",
@@ -2254,7 +2254,7 @@
         "Tất cả đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản a. Điều 2. URC 522"
     },
     {
       "question": "Theo URC 522, \"nhờ thu chứng từ\" là phương thức nhờ thu các chứng từ gồm?",
@@ -2265,7 +2265,7 @@
         "Đáp án (1) và (2)"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản d. Điều 2. URC 522"
     },
     {
       "question": "Nếu một ngân hàng, vì một lý do nào dó không thực hiện nhờ thu hoặc bất cứ các chỉ thị liên quan nào mà ngân hàng này nhận được thì ngân hàng này cần:",
@@ -2276,7 +2276,7 @@
         "Đáp án (2) và (3)"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản c. Điều 1. URC 522"
     },
     {
       "question": "Tham chiếu URC 522, ngân hàng thu hộ (Collecting Bank) nhận được chỉ thị nhờ thu (điều kiện D/P) từ ngân hàng nhờ thu (Remitting Bank), nhờ thu hộ cho bên xuất khẩu Việt Nam. Trong quá trình thực hiện chỉ thị nhờ thu, ngân hàng thu hộ nhận được chỉ thị bổ sung trực tiếp từ người xuất khẩu Việt Nam, trong đó yêu cầu ngân hàng thu hộ thực hiện thu hộ theo điều kiện D/A. Vậy, ngân hàng thu hộ sẽ tiến hành thu hộ theo điều kiện D/P hay D/A ?",
@@ -2287,7 +2287,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản a3, điều 4, URC 522"
     },
     {
       "question": "Nếu các chứng từ không được liệt kê trong bản chỉ thị nhờ thu thì ngân hàng nhờ thu (Remitting Bank) sẽ không liên can đến tranh chấp về loại và số lượng các chứng từ giao cho ngân hàng thu hộ (Collecing Bank) là đúng hay sai?",
@@ -2298,7 +2298,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản b, Điều 12, URC 522"
     },
     {
       "question": "URC 522 có tất cả bao nhiêu điều khoản?",
@@ -2309,7 +2309,7 @@
         "22"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "URC 522"
     },
     {
       "question": "Theo URC 522, ngân hàng xuất trình (Presenting Bank) có trách nhiệm đối với tính xác thực của bất cứ chữ ký nào hoặc với sự ủy quyền của bất cứ bên ký nào để ký nhận trên hối phiếu hay không?",
@@ -2320,7 +2320,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 22, URC 522"
     },
     {
       "question": "Theo URC 522, sau bao nhiêu ngày kể từ khi gửi thông báo về việc không thanh toán và/ hoặc không chấp nhận thanh toán mà ngân hàng xuất trình (Presenting Bank) vẫn không nhận được những chỉ thị về cách xử lý các chứng từ thì các chứng từ sẽ được chuyển trả lại ngân hàng đã gửi đến và không chịu trách nhiệm gì thêm?",
@@ -2331,7 +2331,7 @@
         "50"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản c3, điều 26, URC 522"
     },
     {
       "question": "Trong URC 522, thanh toán từng phần có thể được áp dụng cho các phương thức Nhờ thu nào?",
@@ -2342,7 +2342,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 19, URC 522"
     },
     {
       "question": "Ngân hàng Nhờ thu có nghĩa vụ phải kiểm tra các chứng từ để thực hiện các chỉ thị, đúng hay sai?",
@@ -2353,7 +2353,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản a2, điều 4, URC 522"
     },
     {
       "question": "Theo URC 522, Ngân hàng thu hộ (Collecting Bank) có thể từ chối sự ủy thác nhờ thu của ngân hàng khác mà không cần thông báo lại cho họ về sự từ chối đó hay không?",
@@ -2364,7 +2364,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản c, điều 1, URC 522"
     },
     {
       "question": "Anh/ chị hãy cho biết trong trường hợp Ngân hàng thu hộ nhận được các chứng từ không được liệt kê trong chỉ thị Nhờ thu thì Ngân hàng thu hộ cần phải làm gì?",
@@ -2375,7 +2375,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản a, điều 12, URC 522"
     },
     {
       "question": "Theo URC 522, trường hợp nào ngân hàng thu hộ được phép thực hiện theo chỉ dẫn của một bên khác ngoài ngân hàng nhờ thu hoặc bên đã gửi chỉ thị nhờ thu?",
@@ -2386,7 +2386,7 @@
         "Khi bên xuất khẩu đưa ra chỉ thị bổ sung."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản a3, Điều 4, URC522"
     },
     {
       "question": "Trong trường hợp nhận được bản sao Thư tín dụng từ Ngân hàng phát hành, Ngân hàng hoàn trả phải hành động như thế nào?",
@@ -2397,7 +2397,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản b (i), Điều 6, URR 725"
     },
     {
       "question": "Nếu Ngân hàng hoàn trả được yêu cầu chấp nhận và thanh toán hối phiếu kỳ hạn, Ủy quyền hoàn trả có bắt buộc phải thể hiện người ký hối phiếu không?",
@@ -2408,7 +2408,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản e (ii), Điều 6, URR 725"
     },
     {
       "question": "ISP98 quy định trách nhiệm của Người phát hành như thế nào?",
@@ -2419,7 +2419,7 @@
         "Chấp nhận thanh toán  cho bộ chứng từ xuất trình phù hợp trên bề mặt"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Quy tắc 2.01. ISP 98"
     },
     {
       "question": "Theo ISP98, ngôn ngữ của tất cả chứng từ do Người hưởng lợi phát hành được quy định như thế nào?",
@@ -2430,7 +2430,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Quy tắc 4.04. ISP 98"
     },
     {
       "question": "Theo URDG 758, một bảo lãnh được coi là đã được phát hành khi nào?",
@@ -2441,7 +2441,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản a Điều 4. URDG 758"
     },
     {
       "question": "Theo URDG 758, một bảo lãnh đối ứng có thể được chuyển nhượng không?",
@@ -2452,7 +2452,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản a. Điều 33. URDG 758"
     },
     {
       "question": "Theo URDG 758, khi một bảo lãnh đã được phát hành và không chỉ rõ là không thể hủy ngang thì bảo lãnh đó có thể hủy ngang hay không?",
@@ -2463,7 +2463,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản b Điều 4. URDG 758"
     },
     {
       "question": "Theo URDG 758, Agribank có bắt buộc phải phát hành một sửa đổi bảo lãnh theo chỉ thị của Khách hàng khi đã phát hành bảo lãnh trước đó không?",
@@ -2474,7 +2474,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản a. Điều 11. URDG 758"
     },
     {
       "question": "Khách hàng mục tiêu của Dịch vụ L/C Discounting là đối tượng nào?",
@@ -2485,7 +2485,7 @@
         "Đáp án (2), (3) đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Mục 1 Văn bản số 20136/NHNo-TTTM ngày 30/12/2024"
     },
     {
       "question": "Loại tiền nào áp dụng trong Dịch vụ L/C Discounting?",
@@ -2496,7 +2496,7 @@
         "EUR"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm c Mục 1 Văn bản số 20136/NHNo-TTTM ngày 30/12/2024"
     },
     {
       "question": "Kỳ hạn tối đa áp dụng trong Dịch vụ L/C Discounting là bao lâu?",
@@ -2507,7 +2507,7 @@
         "3 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm d Mục 1 Văn bản số 20136/NHNo-TTTM ngày 30/12/2024"
     },
     {
       "question": "Mức phí phát hành L/C tối thiểu đối với giao dịch L/C Discounting là bao nhiêu?",
@@ -2518,7 +2518,7 @@
         "1,5%/năm"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm đ Mục 1 Văn bản số 20136/NHNo-TTTM ngày 30/12/2024"
     },
     {
       "question": "Trong trường hợp chuyển đổi L/C trả chậm thông thường thành L/C Discounting, Khách hàng/giao dịch phải đáp ứng các điều kiện nào?",
@@ -2529,7 +2529,7 @@
         "Cả 3 đáp án đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Mục 6 Văn bản số 20136/NHNo-TTTM ngày 30/12/2024"
     },
     {
       "question": "Hồ sơ pháp lý của Khách hàng được thu thập khi nào?",
@@ -2540,7 +2540,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm b khoản 1 Điều 5 Quy trình 699/QTr-NHNo-TTTM ngày 15/04/2022"
     },
     {
       "question": "Thư tín dụng dự phòng (Standby L/C) là gì?",
@@ -2551,7 +2551,7 @@
         "Một khoản vay trung hạn"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 9, Điều 2, Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Khi Chi nhánh tiếp nhận hồ sơ yêu cầu thực hiện nghĩa vụ bảo lãnh từ ngân hàng của Bên nhận bảo lãnh, Chi nhánh phải thực hiện bước nào dưới đây?",
@@ -2562,7 +2562,7 @@
         "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a, Khoản 3, Điều 15, Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Thời hạn xử lý giao dịch bảo lãnh qua SWIFT tại Trung tâm TTTM trong trường hợp hồ sơ đủ điều kiện và nhận được từ Chi nhánh trước 16h30 là khi nào?",
@@ -2573,7 +2573,7 @@
         "Sau khi có chỉ thị từ Ngân hàng nước ngoài"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết ii, Điểm b, Khoản 4, Điều 5, Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Luật áp dụng để giải quyết tranh chấp được quy định như thế nào trong thư bảo lãnh có yếu tố nước ngoài",
@@ -2584,7 +2584,7 @@
         "Do Ngân hàng quyết định"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 8, Quy trình 2245/QTr-NHNo-TTTM"
     },
     {
       "question": "Khi có nhu cầu làm Chi nhánh đầu mối hoặc chỉ định Chi nhánh loại II là Chi nhánh đầu mối, Chi nhánh biên giới lập Phương án đề xuất thực hiện dịch vụ thanh toán thương mại biên giới trực tiếp gửi Tổng Giám đốc qua Ban/Trung tâm nào?",
@@ -2595,7 +2595,7 @@
         "Trung tâm Tài trợ thương mại"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 1 Quy định 1777/QĐ-NHNo-TTTM ngày 26/06/2025"
     },
     {
       "question": "Căn cứ Quy định số 1777/QyĐ-NHNo-TTTM ngày 26/06/2025, đâu là chi nhánh biên giới trong hoạt động thanh toán thương mại biên giới Việt Nam - Trung Quốc?",
@@ -2606,7 +2606,7 @@
         "Đáp án 1 và 2 là sai"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm d Khoản 1 Điều 1 Quy định 1777/QyĐ-NHNo-TTTM ngày 26/06/2025"
     },
     {
       "question": "Căn cứ Quy định 1777/QyĐ-NHNo-TTTM ngày 26/06/2025, Đơn vị nào tại Trụ sở chính có trách nhiệm báo cáo định kỳ hoặc đột xuất tình hình hoạt động cung ứng dịch vụ thanh toán thương mại biên giới trong hệ thống Agribank?",
@@ -2617,7 +2617,7 @@
         "Trung tâm Công nghệ thông tin"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 10 Điều 1 Quy định 1777/QyĐ-NHNo-TTTM ngày 26/06/2025"
     },
     {
       "question": "Trong quá trình xuất, nhập khẩu CNY tiền mặt và VND tiền mặt, Chi nhánh đầu mối có trách nhiệm gì",
@@ -2628,7 +2628,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 16 Quyết định 1735/QĐ-NHNo-ĐCTC"
     },
     {
       "question": "Hoạt động xuất nhập khẩu tiền mặt CNY và  VND giữa Việt Nam và Trung Quốc được thực hiện qua khu vực nào?",
@@ -2639,7 +2639,7 @@
         "Các cửa khẩu phụ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 16 Quyết định 1735/QĐ-NHNo-ĐCTC"
     }
   ]
 }

@@ -1,9 +1,33 @@
-/* global confetti */
-
 import * as dom from './dom-elements.js';
 import * as state from './state.js';
 import * as config from './config.js';
 import * as ui from './ui-helpers.js';
+
+const CONFETTI_SRC = 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js';
+let confettiLoaderPromise = null;
+
+function ensureConfetti() {
+    if (typeof window !== 'undefined' && typeof window.confetti === 'function') {
+        return Promise.resolve(window.confetti);
+    }
+    if (!confettiLoaderPromise) {
+        confettiLoaderPromise = new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = CONFETTI_SRC;
+            script.async = true;
+            script.onload = () => {
+                if (typeof window.confetti === 'function') {
+                    resolve(window.confetti);
+                } else {
+                    reject(new Error('Confetti script loaded but function missing.'));
+                }
+            };
+            script.onerror = () => reject(new Error('Không thể tải hiệu ứng confetti.'));
+            document.head.appendChild(script);
+        });
+    }
+    return confettiLoaderPromise;
+}
 
 // --- Utility Functions ---
 export function shuffleArray(array) {
@@ -88,6 +112,7 @@ export function startQuiz(wasShuffledOrRestarted = false) {
 }
 
 export function displayQuestion(index) {
+    ui.hideQuestionSkeleton();
     state.updateQuizState({ currentQuestionIndex: index });
 
     if (index < 0 || !state.quizData || index >= state.quizData.length || !state.quizData[index]) {
@@ -266,16 +291,26 @@ export function handleAnswerSelection(selectedButton) {
 export function showResults() {
     console.log("[Mode] Showing Results. Display Name:", state.currentQuizDisplayName);
     if (!state.isReviewMode) {
-        if (typeof confetti === 'function') {
-            confetti({ particleCount: 150, spread: 90, origin: { y: 0.6 }, zIndex: 1050 });
-        } else {
-            console.warn("[Effect] Confetti function not found.");
-        }
+        ensureConfetti()
+            .then(confettiFn => {
+                confettiFn({ particleCount: 150, spread: 90, origin: { y: 0.6 }, zIndex: 1050 });
+            })
+            .catch(error => {
+                console.warn("[Effect] Confetti unavailable:", error);
+            });
     }
     state.updateQuizState({ isReviewMode: false, reviewWrongOnly: false });
     clearAutoAdvanceTimer();
     ui.showResultsSectionView();
-    if (dom.finalScoreText) dom.finalScoreText.textContent = `Điểm cuối cùng: ${state.score} / ${state.quizData.length}`;
+    const totalQuestions = Array.isArray(state.quizData) ? state.quizData.length : 0;
+    const answeredCount = state.questionsAnswered ? Object.keys(state.questionsAnswered).length : 0;
+    ui.updateResultsSummary({
+        totalQuestions,
+        correctCount: state.score,
+        answeredCount,
+        autoAdvanceMs: state.autoAdvanceDuration
+    });
+    if (dom.finalScoreText) dom.finalScoreText.textContent = `Điểm cuối cùng: ${state.score} / ${totalQuestions}`;
     state.saveState();
 }
 
