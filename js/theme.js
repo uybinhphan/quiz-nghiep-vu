@@ -1,4 +1,4 @@
-import { bodyElement } from './dom-elements.js';
+import { bodyElement, themeToggleButton } from './dom-elements.js';
 
 export function applyInitialTheme() {
     const savedTheme = localStorage.getItem('theme');
@@ -19,6 +19,9 @@ export function toggleTheme() {
 
 // The icon is handled by CSS, but this function could be used for other UI updates if needed.
 export function updateThemeToggleButton() {
-    // Example: if themeToggleButton text needed to change, do it here.
-    // For now, it just ensures consistency if we add more to it later.
+    if (!themeToggleButton) return;
+    const isDark = bodyElement.classList.contains('dark-theme');
+    themeToggleButton.textContent = isDark ? '🌙' : '☀️';
+    themeToggleButton.setAttribute('aria-label', isDark ? 'Chuyển sang giao diện sáng' : 'Chuyển sang giao diện tối');
+    themeToggleButton.title = isDark ? 'Chuyển sang giao diện sáng' : 'Chuyển sang giao diện tối';
 } 

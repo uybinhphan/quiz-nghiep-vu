@@ -1,5 +1,5 @@
 {
-  "originalDisplayName": "1. Tín dụng khách hàng doanh nghiệp",
+  "originalDisplayName": "1. Tín dụng khách hàng doanh nghiệp",
   "questions": [
     {
       "question": "Hãy chọn phương án đúng.",
@@ -10,7 +10,7 @@
         "Chi nhánh loại II được phê duyệt vượt thẩm quyền khi được Giám đốc Chi nhánh loại I chấp thuận"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 1 QC 1546 sửa đổi QC 656"
     },
     {
       "question": "Tổ chức nào không phải là pháp nhân?",
@@ -21,7 +21,7 @@
         "Liên hiệp hợp tác xã"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 19 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Đâu không phải là cấp phê duyệt cho vay vượt thẩm quyền tại Agribank?",
@@ -32,7 +32,7 @@
         "Tổng Giám đốc"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 1 QC 1546/QC- NHNo-TD sửa đổi QC 656"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về Điều chỉnh kỳ hạn trả nợ?",
@@ -43,7 +43,7 @@
         "Điều chỉnh kỳ hạn trả nợ là việc Agribank chấp thuận kéo dài thêm một khoảng thời gian trả nợ nợ gốc của kỳ hạn trả nợ đã thoả thuận (bao gồm cả trường hợp không thay đổi về số kỳ hạn trả nợ đã thỏa thuận), thời hạn cho vay không thay đổi;"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 8 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Ân hạn là gì?",
@@ -54,7 +54,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Chọn đáp án đúng nhất:",
@@ -65,7 +65,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 16 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất liên quan đến Đồng tiền cho vay?",
@@ -76,7 +76,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 7 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Chọn đáp án đúng nhất:",
@@ -87,7 +87,7 @@
         "Mọi trường hợp phát hiện khách hàng sử dụng vốn không đúng mục đích, Agribank nơi cho vay được quyền và có trách nhiệm ngừng giải ngân để xử lý theo Thỏa thuận cho vay đã ký"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 30 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Các phương thức cho vay bao gồm:",
@@ -98,7 +98,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 31 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Agribank có quyền gì khi cho vay?",
@@ -109,7 +109,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 36 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhiệm vụ, trách nhiệm của Người kiểm tra vượt thẩm quyền là gì?",
@@ -120,7 +120,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 51 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất?",
@@ -131,7 +131,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 37 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhiệm vụ, trách nhiệm của Người giám sát khoản vay vượt thẩm quyền là gì?",
@@ -142,7 +142,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 51 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhiệm vụ, trách nhiệm của Người quản lý nợ là gì?",
@@ -153,7 +153,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 52 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Cấp có thẩm quyền được xem xét phê duyệt mức cho vay tối đa cao hơn quy định đối với cho vay trung hạn, dài hạn thực hiện dự án hoạt động kinh doanh là cấp nào?",
@@ -164,7 +164,7 @@
         "Hội đồng thành viên/Tổng Giám đốc/Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt theo thẩm quyền cấp tín dụng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 21 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Công ty B đề nghị vay vốn thời hạn 5 năm để đầu tư máy móc thiết bị, tổng mức đầu tư 10 tỷ đồng, vốn đối ứng tối thiểu của công ty B tham gia vào dự án là bao nhiêu?",
@@ -175,7 +175,7 @@
         "03 tỷ đồng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 21 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất?",
@@ -186,7 +186,7 @@
         "Cả 1 và 2 sai"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 13 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Trước khi xác lập Thỏa thuận cho vay, Agribank nơi cho vay có trách nhiệm cung cấp cho khách hàng đầy đủ các thông tin gì?",
@@ -197,7 +197,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 8 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về lãi suất cho vay?",
@@ -208,7 +208,7 @@
         "Cả 1 và 3 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 11 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về nhiệm vụ của Người kiểm soát khoản vay?",
@@ -219,7 +219,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 49 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về Người thẩm định lại tại Agribank nơi cho vay?",
@@ -230,7 +230,7 @@
         "Cả 1 và 2"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 46 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về Người thẩm định?",
@@ -241,7 +241,7 @@
         "Cả 1 và 2"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 46 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Người chuẩn bị hồ sơ, tài liệu cung cấp cho Hội đồng tín dụng (đối với khoản vay phải thông qua Hội đồng tín dụng) là người nào?",
@@ -252,7 +252,7 @@
         "Cả 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 45 và điểm e khoản 3 Điều 46 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Chọn phương án đúng nhất về Cho vay theo ủy thác tại Agribank",
@@ -263,7 +263,7 @@
         "Cả 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 33 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Trong cho vay quay vòng, khách hàng được sử dụng dư nợ gốc của chu kỳ hoạt động kinh doanh trước cho chu kỳ kinh doanh tiếp theo nhưng thời hạn cho vay không vượt quá bao nhiêu tháng?",
@@ -274,7 +274,7 @@
         "5 tháng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 7 Điều 31 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Trong cho vay lưu vụ, Agribank nơi cho vay và khách hàng thỏa thuận dư nợ gốc của chu kỳ trước tiếp tục được sử dụng cho chu kỳ sản xuất tiếp theo nhưng không vượt quá thời gian của mấy chu kỳ sản xuất liên tiếp?",
@@ -285,7 +285,7 @@
         "4"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 31 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng đối với Cho vay phục vụ nhu cầu đời sống?",
@@ -296,7 +296,7 @@
         "Agribank cho vay đối với khách hàng là cá nhân để thanh toán các chi phí cho mục đích kinh doanh của cá nhân, gia đình của cá nhân đó."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Khi thực hiện tạm ngừng cho vay, chấm dứt cho vay, thu hồi nợ trước hạn Agribank nơi cho vay thông báo cho khách hàng tối thiểu nội dung gì?",
@@ -307,7 +307,7 @@
         "Các loại phí áp dụng đối với khoản vay"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 3 Điều 62 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khi chuyển nợ quá hạn, Agribank nơi cho vay thông báo cho khách hàng nội dung tối thiểu nào?",
@@ -318,7 +318,7 @@
         "Tất cả đáp án đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Khoản 3 Điều 62 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại Agribank nơi cho vay, Người kiểm soát khoản vay đôn đốc, giám sát việc thực hiện kiểm tra của Người quản lý nợ. Người kiểm soát khoản vay:",
@@ -329,7 +329,7 @@
         "Không được giám sát khách hàng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại Agribank nơi cho vay, thời gian kiểm tra tình hình hoạt động kinh doanh của khách hàng cá nhân là:",
@@ -340,7 +340,7 @@
         "Ít nhất 1 lần trong vòng 12 tháng kể từ ngày kiểm tra gần nhất."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết ii Điểm b Khoản 1 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Việc kiểm tra sử dụng vốn vay đối với pháp nhân phải được thực hiện chậm nhất trong vòng:",
@@ -351,7 +351,7 @@
         "30 ngày kể từ ngày giải ngân vốn vay."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Tiết i Khoản 1 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Trong thời gian duy trì hạn mức, khách hàng có nhu cầu điều chỉnh hạn mức thì ?",
@@ -362,7 +362,7 @@
         "Gọi điện và gửi thông báo đến Agribank nơi cho vay."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 20 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Agribank phải kiểm tra sau khi khách hàng nhận tiền vay gồm các nội dung nào?",
@@ -373,7 +373,7 @@
         "Kiểm tra tình hình hoạt động kinh doanh và đánh giá khả năng trả nợ, kiểm tra tài sản bảo đảm, đối chiếu dư nợ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nội dung kiểm tra tình hình hoạt động kinh doanh tại Agribank nơi cho vay gồm các nội dung nào?",
@@ -384,7 +384,7 @@
         "Dư nợ vay, số lãi phải trả đến ngày kiểm tra; Tình hình tài chính; đánh giá tiến độ và khả năng trả nợ; Biện pháp tổ chức triển khai và tiến độ thực hiện dự án, phương án; đánh giá phương án sử dụng vốn và khả năng trả nợ của khách hàng; Thu thập thông tin xếp hạng khách hàng theo quy định của Agribank; Các nội dung khác (nếu có)."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo quy định hiện hành của Tổng giám đốc, Agribank nơi cho vay phải thực hiện đối chiếu dư nợ đối với khách hàng pháp nhân như thế nào?",
@@ -395,7 +395,7 @@
         "100% khách hàng pháp nhân có dư nợ từ 15 tỷ đồng trở lên."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 5 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo quy định của Tổng giám đốc, Agribank nơi cho vay phải thực hiện đối chiếu dư nợ đối với khách hàng cá nhân như thế nào?",
@@ -406,7 +406,7 @@
         "Tất cả các đáp án trên..."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 5 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo quy định hiện hành của Tổng giám đốc, việc đối chiếu trực tiếp phải thực hiện theo nguyên tắc nào?",
@@ -417,7 +417,7 @@
         "Người quan hệ khách hàng và Người quản lý nợ trực tiếp đối chiếu khoản vay đó."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 5 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối chiếu xác nhận nợ vay hiện hành theo các hình thức nào?",
@@ -428,7 +428,7 @@
         "Đối chiếu bằng Thư qua bưu điện để bảo đảm bí mật, khách quan."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm c Khoản 5 Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Người quản lý nợ tại Agribank nơi cho vay thực hiện những công việc nào sau đây?",
@@ -439,7 +439,7 @@
         "Đôn đốc khách hàng trả nợ, giám sát, quyết định xử lý qua giám sát."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 1 Điều 60; Điều 64 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khách hàng là Doanh nghiệp tư nhân được đánh giá có tài chính minh bạch, lành mạnh để áp dụng lãi suất cho vay tối đa theo quy định của NHNN phải đáp ứng các tiêu chí nào?",
@@ -450,7 +450,7 @@
         "Tất cả các đáp án trên..."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Mục 2 PL số 02/TCMB-QĐ theo QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nợ có vấn đề là gì?",
@@ -461,7 +461,7 @@
         "Nợ có vấn đề là các khoản nợ của khách hàng không thu hồi được, khoản nợ cơ cấu lại thời hạn trả nợ được giữ nguyên nhóm nợ, khoản nợ đã được xử lý rủi ro bằng nguồn dự phòng của Agribank, khoản nợ đã bán cho VAMC thanh toán bằng trái phiếu đặc biệt (nếu có)."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 14 Điều 3 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy chọn phương án đúng về\r\nKiểm soát viên",
@@ -472,7 +472,7 @@
         "Kiểm soát viên là người được giao nhiệm vụ kiểm tra, kiểm soát, phê duyệt giao dịch. Kiểm soát viên có thể là Lãnh đạo chi nhánh hoặc nhân viên có đủ năng lực tại Agribank nơi cho vay."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 12 Điều 3 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy chọn phương án đúng nhất về Bộ hồ sơ vay vốn phân theo các khâu thuộc quy trình cho vay",
@@ -483,7 +483,7 @@
         "Tất cả các đáp án trên..."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 13 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với cho vay theo hạn mức, hãy chỉ ra căn cứ xác định hạn mức.",
@@ -494,7 +494,7 @@
         "Nhu cầu sử dụng vốn, bảo lãnh, mở L/C và các hình thức cấp tín dụng khác; vốn đối ứng của khách hàng; Khả năng tài chính của khách hàng; Giá trị TSBĐ (trường hợp cho vay có bảo đảm bằng tài sản); Các giới hạn cấp tín dụng và khả năng nguồn vốn của Agribank."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 17 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về giải ngân vốn vay?",
@@ -505,7 +505,7 @@
         "Mỗi lần giải ngân vốn vay, Agribank nơi cho vay phải rà soát, đánh giá nhu cầu vay vốn, hồ sơ giải ngân đáp ứng các điều kiện theo quy định hiện hành."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 19 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về giải ngân vốn đối ứng là giá trị ngày công tự làm, tài sản khác của khách hàng cá nhân tham gia?",
@@ -516,7 +516,7 @@
         "Chi phí ngày công, tài sản khác thực hiện theo tiến độ kế hoạch, phần vốn đối ứng còn lại giải ngân sau khi giải ngân vốn vay."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 56 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy chỉ ra nhiệm vụ của Người thẩm định lại khi lập Báo cáo thẩm định lại tại Agribank nơi phê duyệt vượt thẩm quyền tại chi nhánh loại I?",
@@ -527,7 +527,7 @@
         "Người thẩm định lại lập, ký tắt các trang Báo cáo thẩm định lại nêu ý kiến đề xuất phê duyệt/không phê duyệt vượt thẩm quyền (trường hợp không đồng ý phải nêu rõ lý do), ký và ghi rõ họ tên vào phần Người thẩm định lại trên Báo cáo thẩm định lại."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 43 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy chọn phương án đúng về thời điểm kiểm tra của Agribank nơi phê duyệt vượt thẩm quyền đối với khách hàng vay vốn lưu động.",
@@ -538,7 +538,7 @@
         "Kiểm tra một năm ít nhất 01 (một) lần."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 65 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy chọn phương án đúng về thời điểm kiểm tra của Agribank nơi phê duyệt vượt thẩm quyền đối với khách hàng vay vốn đầu tư dự án đang triển khai.",
@@ -549,7 +549,7 @@
         "Kiểm tra tối thiểu sau 12 tháng kể từ ngày giải ngân đầu tiên và một năm ít nhất 01 (một) lần đối với các lần kiểm tra tiếp theo."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 65 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Kiểm tra của Agribank nơi phê duyệt vượt thẩm quyền gồm các nội dung gì?",
@@ -560,7 +560,7 @@
         "Tất cả các đáp án trên..."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 65 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Giám sát của Agribank nơi phê duyệt vượt thẩm quyền gồm các công cụ nào?",
@@ -571,7 +571,7 @@
         "Tất cả các đáp án trên..."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 1 QyĐ 1799 sửa đổi QyĐ 2268"
     },
     {
       "question": "Hãy tìm phương án đúng về\r\nthời gian duy trì hạn mức đối với cho vay theo hạn mức quy mô nhỏ đối với khách hàng cá nhân.",
@@ -582,7 +582,7 @@
         "Tối đa 48 tháng."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 24 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy chọn phương án đúng về việc xác định thời hạn cho vay, kỳ hạn trả nợ theo  hạn mức quy mô nhỏ đối với khách hàng cá nhân.",
@@ -593,7 +593,7 @@
         "Theo từng lần giải ngân trên Báo cáo đề xuất giải ngân kiêm giấy nhận nợ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 24 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với Cho vay trả nợ trước hạn tổ chức tín dụng khác, ngoài việc đáp ứng đầy đủ các điều kiện về cho vay theo quy định của Agribank, khoản vay phải đáp ứng thêm điều kiện nào?",
@@ -604,7 +604,7 @@
         "Khoản vay chưa thực hiện cơ cấu lại thời hạn trả nợ."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 8 điều 1 QC 4466/QyĐ-NHNo-TD sửa đổi, bổ sung QC 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng về mức cho vay bù đắp tài chính tối đa?",
@@ -615,7 +615,7 @@
         "Đáp án 2 và 3."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 34 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối tượng chi phí thuộc đầu tư tài sản cố định chưa đi vào sử dụng, Agribank nơi cho vay được cho vay ngắn hạn, trung hạn, dài hạn nếu thời gian đã sử dụng vốn để được cho vay bù đắp tài chính không quá bao nhiêu tháng kể từ ngày phát sinh sử dụng vốn đến ngày khách hàng đề nghị vay vốn?",
@@ -626,7 +626,7 @@
         "Không quá 06 tháng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 4 Điều 34 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tài liệu về việc đã sử dụng vốn để cho vay bù đắp tài chính được quy định như thế nào?",
@@ -637,7 +637,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 5, Điều 34 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại Agribank nơi cho vay, ai là người có nhiệm vụ tiếp nhận và khảo sát nhu cầu vay vốn, hướng dẫn khách hàng quy định về điều kiện vay vốn, hồ sơ, thủ tục, lãi suất cho vay, các loại sản phẩm và chính sách khách hàng của Agribank?",
@@ -648,7 +648,7 @@
         "Giao dịch viên."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 38 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại Agribank nơi cho vay, ai là  người có nhiệm vụ thu thập và cập nhật thông tin khách hàng trên hệ thống xếp hạng tín dụng nội bộ?",
@@ -659,7 +659,7 @@
         "Người quản lý nợ"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 38 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại Agribank nơi cho vay, ai là người có nhiệm vụ thu thập thông tin, hồ sơ, tài liệu về khách hàng vay vốn, phương án sử dụng vốn, tài sản bảo đảm (nếu áp dụng cho vay có bảo đảm bằng tài sản)?",
@@ -670,7 +670,7 @@
         "Người quản lý nợ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2, Điều 38 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại Agribank nơi cho vay, ai là người có nhiệm vụ thu thập thông tin về quan hệ tín dụng của khách hàng từ CIC?",
@@ -681,7 +681,7 @@
         "Người quản lý nợ"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 38 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Người thẩm định thực hiện thẩm định khoản vay trên cơ sở nào?",
@@ -692,7 +692,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 39 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Việc kiểm tra, rà soát tính đầy đủ, hợp lệ của hồ sơ trình phê duyệt của Chi nhánh loại II với danh mục hồ sơ theo quy định thuộc nhiệm vụ của ai tại Chi nhánh loại I?",
@@ -703,7 +703,7 @@
         "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 3 Điều 43 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Thẩm định lại tại nơi phê duyệt vượt thẩm quyền gồm các nội dung nào?",
@@ -714,7 +714,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 43 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tại Agribank nơi phê duyệt vượt thẩm quyền, một trong các nội dung thẩm định lại khoản vay là gì?",
@@ -725,7 +725,7 @@
         "Thẩm định lại một số nội dung về khoản vay do người có thẩm quyền tại Agribank nơi phê duyệt vượt thẩm quyền quyết định."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm c Khoản 3 Điều 43 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khi hạch toán thế chấp/cầm cố tài sản bảo đảm, Giao dịch viên bàn giao giấy chứng nhận quyền sử dụng, sở hữu tài sản bảo đảm cho ai?",
@@ -736,7 +736,7 @@
         "Cho Người quản lý nợ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết ii Điểm a Khoản 2 Điều 58 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng?",
@@ -747,7 +747,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết (i) Điểm b Khoản 2 Điều 55 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Công  ty A có tỷ lệ vốn đối ứng tham gia Phương án sử dụng vốn (dự án vay vốn trung hạn) là 50% và đã giải ngân 25% vốn đối ứng cho dự án (có đủ tài liệu chứng minh), vậy ngân hàng sẽ giải ngân vốn vay như thế nào?",
@@ -758,7 +758,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 56 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy cho biết quy định về quản lý chứng từ chứng minh mục đích sử dụng vốn.",
@@ -769,7 +769,7 @@
         "Trường hợp chứng từ chứng minh mục đích sử dụng vốn là hóa đơn, tờ khai hải quan điện tử thì khách hàng phải cam kết số tiền giải ngân theo hóa đơn, tờ khai này chưa vay và sẽ không vay tại TCTD khác. Việc cam kết thực hiện bằng văn bản riêng hoặc tại giấy nhận nợ khi thực hiện thủ tục giải ngân vốn vay."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 6 Điều 58 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Việc đăng ký/ đăng ký điều chỉnh kỳ hạn trả nợ trên hệ thống IPCAS do ai thực hiện?",
@@ -780,7 +780,7 @@
         "Người thẩm định lại"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 59 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Ai là người đôn đốc khách hàng trả nợ?",
@@ -791,7 +791,7 @@
         "Giao dịch viên."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 60 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khách hàng đang có dư nợ cho vay theo hạn mức quy mô nhỏ, nếu có nhu cầu vay vốn để thực hiện phương án sử dụng vốn khác, Agribank nơi cho vay:",
@@ -802,7 +802,7 @@
         "Được cho vay thêm 1 hạn mức quy mô nhỏ khác."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 25 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với khoản nợ bị quá hạn trả nợ, việc thu nơ thực hiện theo thứ tự nào?",
@@ -813,7 +813,7 @@
         "Nợ lãi quá hạn thu trước; gốc quá hạn, phí sau."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết iii Điểm a Khoản 2 Điều 60 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Ai là người thực hiện thu nợ đối với khách hàng?",
@@ -824,7 +824,7 @@
         "Người quản lý nợ."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 60 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Xác nhận giao dịch cuối ngày liên quan đến thu nợ cho vay do ai thực hiện?",
@@ -835,7 +835,7 @@
         "Người quyết định cho vay"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 60 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Người có thẩm quyền tại Agribank nơi cho vay quyết định cơ cấu/không cơ cấu lại thời hạn trả nợ đối với khách hàng căn cứ vào tài liệu nào?",
@@ -846,7 +846,7 @@
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết i Điểm c Khoản 1 Điều 61 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Ai là người thực hiện kiểm tra tại Agribank nơi cho vay?",
@@ -857,7 +857,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 63 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Ai là người tham gia thực hiện cơ cấu lại thời hạn trả nợ tại Agribank nơi cho vay?",
@@ -868,7 +868,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 61 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khi phát hiện khách hàng cung cấp thông tin sai sự thật, Agribank nơi cho vay có quyền gì?",
@@ -879,7 +879,7 @@
         "Yêu cầu làm rõ thông tin."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 62 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khách hàng là cá nhân vay vốn tại Agribank bao gồm khách hàng nào sau đây?",
@@ -890,7 +890,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 2 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khách hàng vi phạm thỏa thuận trong hợp đồng tín dụng và hoặc hợp đồng bảo đảm tiền vay, Agribank nơi cho vay có quyền gì? (chọn đáp án đúng nhất)",
@@ -901,7 +901,7 @@
         "Xem xét, quyết định tạm ngừng cho vay, yêu cầu khách hàng bổ sung tài sản bảo đảm."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 1 Điều 62 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Ngày 01/07/2023, Ông Nguyễn Văn A mua 1 căn nhà trị giá 2 tỷ đồng để ở (trong đó có vay của bà Nguyễn Thị B số tiền 500 triệu đồng, hẹn chậm nhất 30/11/2023 trả toàn bộ tiền vay). Ngày 05/11/2023, Ông A có nhu cầu vay Agribank số tiền 500 triệu đồng để trả nợ bà B. Theo anh (chị), nhận định nào sau đây là đúng?",
@@ -912,7 +912,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1, Khoản 2 Điều 34 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khách hàng là pháp nhân vay vốn tại Agribank bao gồm khách hàng nào sau đây?",
@@ -923,7 +923,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2, Điều 2 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo quy định hiện hành của Agribank, rủi ro tín dụng là gì?",
@@ -934,7 +934,7 @@
         "Đáp án 1 hoặc 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 17 Điều 3 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo Quy định của Agribank, phí trả nợ trước hạn là gì?",
@@ -945,7 +945,7 @@
         "Khoản phí khách hàng phải trả cho Agribank khi khách hàng trả nợ gốc tại một thời điểm sớm hơn so với thời hạn cho vay được ghi trên HĐTD."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 12 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khi các cá nhân vay vốn chung, chủ thể vay vốn giao kết Thỏa thuận cho vay theo cách thức nào?",
@@ -956,7 +956,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 4 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng về chủ thể giao kết Thỏa thuận cho vay trong trường hợp các cá nhân vay vốn chung?",
@@ -967,7 +967,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 3 Điều 4 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về địa bàn cho vay đặc thù? (chọn đáp án đúng nhất)",
@@ -978,7 +978,7 @@
         "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 1 QyĐ 1799 sửa đổi QĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Trường hợp các thành viên trong gia đình vay vốn sử dụng vào mục đích chung ủy quyền cho 1 thành viên là đại diện vay vốn tại Agribank, nhận định nào sau đây là đúng? (chọn đáp án đúng nhất)",
@@ -989,7 +989,7 @@
         "Văn bản ủy quyền phải được chứng nhận tại cơ quan có chức năng công chứng hoặc chứng thực tại cơ quan có thẩm quyền theo quy định của pháp luật."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm b Khoản 3 Điều 4 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây đúng nhất về Trường hợp Chi nhánh loại I, loại II, PGD có trụ sở tại khu công nghiệp, khu chế xuất, cụm Công nghiệp nằm trên nhiều địa bàn cấp xã thì :",
@@ -1000,7 +1000,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm 4  khoản 3 Điều 1  QyĐ 1799 sửa đổi QĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Tổng Giám đốc quy định lãi suất cho vay từng thời kỳ căn cứ vào cơ sở nào?",
@@ -1011,7 +1011,7 @@
         "Mức độ rủi ro của ngành nghề kinh doanh"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 10 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng?",
@@ -1022,7 +1022,7 @@
         "Mọi trường hợp đều phải áp dụng lãi suất cho vay cố định"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 10 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Trường hợp áp dụng lãi suất cho vay điều chỉnh phải thỏa thuận các yếu tố làm căn cứ để xác định lãi suất điều chỉnh. Trường hợp các yếu tố xác định lãi suất điều chỉnh dẫn đến có nhiều mức lãi suất cho vay khác nhau thì Agribank nơi cho vay áp dụng mức lãi suất nào sau đây?",
@@ -1033,7 +1033,7 @@
         "Mức lãi suất cho vay cao nhất"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 10 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Khách hàng đáp ứng đủ các tiêu chí đánh giá có tình hình tài chính minh bạch, lành mạnh theo quy định của Agribank, hoạt động trong lĩnh vực nào sau đây được thỏa thuận về mức lãi suất cho vay ngắn hạn bằng đồng Việt Nam nhưng không vượt quá mức lãi suất cho vay tối đa theo quy định của Ngân hàng nhà nước?",
@@ -1044,7 +1044,7 @@
         "Phục vụ lĩnh vực phát triển nhiệt điện, thủy điện"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 11 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "TGĐ Agribank ban hành biểu phí liên quan đến hoạt động cho vay đúng quy định NHNN, bao gồm các loại phí nào sau đây?",
@@ -1055,7 +1055,7 @@
         "Phí trả nợ trước hạn; Phí thu xếp cho vay hợp vốn; Phí cam kết rút vốn; Các loại phí khác liên quan đến hoạt động cho vay được quy định tại văn bản quy phạm pháp luật liên quan."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 12 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Sau khi khoản vay được quyết định/phê duyệt, tại Agribank nơi cho vay việc bàn giao hồ sơ được quy định như thế nào?",
@@ -1066,7 +1066,7 @@
         "Người thẩm định bàn giao cho Người kiểm soát khoản vay"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a, b Khoản 2 Điều 14 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng?",
@@ -1077,7 +1077,7 @@
         "Sau khi khoản vay được quyết định/phê duyệt, việc bàn giao hồ sơ giữa các cá nhân/ bộ phận nghiệp vụ, việc lập/không lập Phiếu giao nhận hồ sơ do Agribank nơi cho vay quy định."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 14 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Agribank quy định về Sổ vay vốn như thế nào?",
@@ -1088,7 +1088,7 @@
         "Sổ vay vốn áp dụng đối với khách hàng cá nhân vay vốn theo hạn mức quy mô nhỏ, cho vay không có bảo đảm bằng tài sản theo chính sách của Chính phủ. Việc áp dụng hay không áp dụng sổ vay vốn do Giám đốc Agribank nơi cho vay quyết định."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 15 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Cho vay theo hạn mức là gì?",
@@ -1099,7 +1099,7 @@
         "Là việc Agribank xác định và thỏa thuận với khách hàng hạn mức cho vay tối thiểu duy trì trong một khoảng thời gian nhất định."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 16 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất?",
@@ -1110,7 +1110,7 @@
         "Hạn mức cấp tín dụng bằng đô la Mỹ (USD)."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 16 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy chọn phương án đúng nhất đối với cho vay theo hạn mức.",
@@ -1121,7 +1121,7 @@
         "Thời hạn cho vay, kỳ hạn trả nợ, thời hạn hiệu lực của cam kết bảo lãnh, thời hạn hiệu lực L/C xác định theo từng lần giải ngân trên giấy nhận nợ."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 18 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với cho vay theo hạn mức, Agribank quy định thời hạn duy trì hạn mức như thế nào?",
@@ -1132,7 +1132,7 @@
         "Tối đa 48 tháng."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 18 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với cho vay theo hạn mức, Agribank quy định điều kiện xem xét gia hạn thời gian duy trì hạn mức tín dụng như thế nào?",
@@ -1143,7 +1143,7 @@
         "Khách hàng đáp ứng đủ các điều kiện cấp tín dụng theo quy định hiện hành; sử dụng vốn vay đúng mục đích; khách hàng không bị giảm xếp hạng tín dụng nội bộ theo quy định của Agribank so với thời điểm xác định hạn mức cho vay hiện hành."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 20 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với cho vay theo hạn mức,  thẩm quyền gia hạn thời gian duy trì hạn mức được quy định như thế nào?",
@@ -1154,7 +1154,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm c Khoản 2 Điều 20 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất?",
@@ -1165,7 +1165,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 22 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đối với cho vay theo hạn mức, hãy chỉ ra quy định về việc ký kết hợp đồng hạn mức mới.",
@@ -1176,7 +1176,7 @@
         "Tất cả các phương án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 21 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Agribank quy định cho vay theo hạn mức quy mô nhỏ đối với một khách hàng cá nhân là bao nhiêu tiền?",
@@ -1187,7 +1187,7 @@
         "Tối đa không vượt quá 500 triệu đồng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 22 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Cho vay theo hạn mức quy mô nhỏ áp dụng đối với cá nhân gồm loại cho vay nào?",
@@ -1198,7 +1198,7 @@
         "Cho vay trung hạn và dài hạn."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 22 QyĐ 2268/QyĐ-NHNo-TD"
     },
     {
       "question": "Đâu là tài liệu để làm căn cứ xác định giá trị tài sản bảo đảm?",
@@ -1209,7 +1209,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 11 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Trường hợp nào sau đây thì một tài sản có thể được dùng để bảo đảm thực hiện nhiều nghĩa vụ? (Chọn đáp án đúng nhất)",
@@ -1220,7 +1220,7 @@
         "Giá trị tài sản đó tại thời điểm xác lập biện pháp bảo đảm lớn hơn tổng giá trị các nghĩa vụ được bảo đảm, trừ trường hợp có thỏa thuận khác hoặc pháp luật có quy định khác."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 4 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Agribank nơi cấp tín dụng được quyết định xử lý TSBĐ trong trường hợp nào sau đây?",
@@ -1231,7 +1231,7 @@
         "Cả 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 42 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Biện pháp cầm cố chấm dứt khi nào?",
@@ -1242,7 +1242,7 @@
         "Từ sau ngày bên mua tài sản, bên nhận thay thế tài sản, bên nhận tặng cho tài sản xác lập quyền chiếm hữu đối với tài sản cầm cố."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 28 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Mức cấp tín dụng tối đa so với giá trị TSBĐ là trái phiếu chính phủ (bằng đồng Việt Nam) có thời hạn thanh toán còn lại trên 01 năm?",
@@ -1253,7 +1253,7 @@
         "Mức cấp tín dụng tối đa 75% mệnh giá."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết i điểm b Khoản 3 Điều 10 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Trường hợp hợp đồng cấp tín dụng bị vô hiệu hoặc bị hủy bỏ, bị đơn phương chấm dứt thực hiện thì giải quyết thế nào?",
@@ -1264,7 +1264,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 22 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Theo Quy chế số 879/QC-HĐTV-TD, điều kiện của bên bảo lãnh là?",
@@ -1275,7 +1275,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 33 Quy chế 879/QĐ-HĐTV-TD"
     },
     {
       "question": "Mức cấp tín dụng tối đa đối với TSBĐ là trái phiếu chính phủ (bằng đồng Việt Nam) thời hạn thanh toán còn lại trên 01 năm là",
@@ -1286,7 +1286,7 @@
         "80% mệnh giá."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Tiết i điểm b Khoản 3 Điều 10 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Đơn vị tổ chức nào không được bảo đảm bằng tín chấp tại Agribank?",
@@ -1297,7 +1297,7 @@
         "Hội Cựu chiến binh Việt Nam."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 37 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Trường hợp giao tài sản cầm cố cho bên thứ ba giữ tài sản thì bên thứ ba phải đáp ứng các điều kiện gì sau đây?",
@@ -1308,7 +1308,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 26 QC 879/QC-HĐTV-TD"
     },
     {
       "question": "Đối với hợp đồng bảo đảm được ký kết trước khi pháp nhân được tổ chức lại mà vẫn còn hiệu lực thì? (Chọn đáp án đúng nhất)",
@@ -1319,7 +1319,7 @@
         "Các bên bắt buộc phải ký kết lại hợp đồng bảo đảm đó sau khi pháp nhân được tổ chức lại."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 24 Quy chế 879/QC-HĐTV-TD"
     },
     {
       "question": "Việc kiểm tra đối với tài sản thế chấp là quyền đòi nợ được thực hiện",
@@ -1330,7 +1330,7 @@
         "12 tháng kiểm tra tối thiểu 01 lần."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 43 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Chi phí XLTSBĐ được khấu trừ từ tiền thu được từ XLTSBĐ như thế nào?",
@@ -1341,7 +1341,7 @@
         "Tùy thuộc vào thỏa thuận giữa các bên."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 60 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Trường hợp không có thỏa thuận về xử lý TSBĐ, thời hạn mà Agribank nơi cho vay gửi thông báo về việc xử lý TSBĐ cho bên bảo đảm là?",
@@ -1352,7 +1352,7 @@
         "Trước ít nhất 45 ngày đối với động sản hoặc trước ít nhất 60 ngày đối với bất động sản tính đến thời điểm xử lý TSBĐ"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 46 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Agribank xác định giá trị tài sản bằng phương pháp nào?",
@@ -1363,7 +1363,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 30 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Agribank nơi cấp tín dụng được thỏa thuận với bên bảo đảm để bán tài sản trong trường hợp nào sau đây? (chọn đáp án đúng nhất)",
@@ -1374,7 +1374,7 @@
         "TSBĐ đang bán đấu giá nhưng không thành thì trong thời gian bắt buộc giữa hai lần bán đấu giá theo quy định (10 ngày đối với động sản và 30 ngày đối với bất động sản) mà có người mua tài sản với mức giá thấp hơn giá của kỳ đấu giá không thành gần nhất"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm c Khoản 1 Điều 57 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Các nội dung chủ yếu của văn bản thông báo về việc xử lý TSBĐ gồm?",
@@ -1385,7 +1385,7 @@
         "Lý do xử lý TSBĐ; Nghĩa vụ được bảo đảm; Mô tả tài sản; Thời gian, địa điểm xử lý TSBĐ."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 46 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Người có thẩm quyền quyết định giao dịch bảo đảm và ký kết Hợp đồng bảo đảm là?",
@@ -1396,7 +1396,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 33 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Thành phần Hội đồng xử lý TSBĐ tại Trụ sở chính bao gồm?",
@@ -1407,7 +1407,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 55 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Xác định giá khởi điểm bán đấu giá TSBĐ theo thỏa thuận tại Agribank nơi cấp tín dụng?",
@@ -1418,7 +1418,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 56 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Phiếu nhập kho Giấy chứng nhận TSBĐ, hồ sơ bảo đảm phải có chữ ký của những người nào sau đây?",
@@ -1429,7 +1429,7 @@
         "Cả 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 21 Điều 1 QĐ 3838/QyĐ-NHNo-TD"
     },
     {
       "question": "Trường hợp bên thế chấp không có khả năng hoàn thành nghĩa vụ đối với bên cầm giữ thì:",
@@ -1440,7 +1440,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 45 Quy định số 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Các trường hợp được giải chấp TSBĐ:",
@@ -1451,7 +1451,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 42 Quyết định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo Quy định số 969/QyĐ-NHNo-TD: Thẩm quyền cơ cấu lại thời hạn trả nợ và giữ nguyên nhóm nợ thực hiện theo quy định của?",
@@ -1462,7 +1462,7 @@
         "Agribank nơi phê duyệt cho vay"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 9 Quy định số 969/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo Quy định số 969/QyĐ-NHNo-TD: Căn cứ để Agribank nơi cho vay quyết định và thỏa thuận với khách hàng về thời gian cơ cấu lại thời hạn trả nợ?",
@@ -1473,7 +1473,7 @@
         "Tình hình sản xuất kinh doanh và khả năng trả nợ của khách hàng sau khi cơ cấu lại thời hạn trả nợ."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 6 Quy định số 969/QyĐ-NHNo-TD"
     },
     {
       "question": "Thời gian cơ cấu lại thời hạn trả nợ theo Quy định số 969/QyĐ-NHNo-TD?",
@@ -1484,7 +1484,7 @@
         "Tối đa 6 tháng kể từ ngày đến hạn của số dư nợ được cơ cấu lại thời hạn trả nợ"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 6 Quy định số 969/QyĐ-NHNo-TD"
     },
     {
       "question": "Số dư nợ của khoản nợ được cơ cấu lại thời hạn trả nợ còn trong hạn hoặc quá hạn bao nhiêu ngày kể từ ngày đến hạn thanh toán, thời hạn trả nợ theo hợp đồng, thỏa thuận?",
@@ -1495,7 +1495,7 @@
         "20 ngày"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 5 Quy định số 969/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo Quy định 1007/QyĐ-NHNo-KHDN về sửa đổi, bổ sung Quy định số 612/QyĐ-NHNo-KHDN  về cho vay dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp/Cum công nghiệp, Agribank có thể cho vay tối đa 70% chi phí đền bù giải phóng mặt bằng khi:",
@@ -1506,7 +1506,7 @@
         "Khách hàng có vốn chủ sở hữu tham gia vào dự án tối thiểu 60% tổng mức đầu tư"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 1 Quy định số 1007/QyĐ-NHNo-KHDN ngày 23/4/2024"
     },
     {
       "question": "Theo Quy định 1007/QyĐ-NHNo-KHDN về sửa đổi, bổ sung Quy định số 612/QyĐ-NHNo-KHDN  về cho vay dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp/Cum công nghiệp thì Khách hàng vay vốn thực hiện dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghiệp/cụm công nghiệp phải đáp ứng điều kiện gì?",
@@ -1517,7 +1517,7 @@
         "Tất cả đáp án đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 1 Quy định số 1007/QyĐ-NHNo-KHDN ngày 23/4/2024"
     },
     {
       "question": "Theo Quy định 1007/QyĐ-NHNo-KHDN về sửa đổi, bổ sung Quy định số 612/QyĐ-NHNo-KHDN  về cho vay dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp/Cum công nghiệp, Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghiệp/cụm công nghiệp gồm những dự án nào?",
@@ -1528,7 +1528,7 @@
         "Tất cả đáp án đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 1 Quy định số 1007/QyĐ-NHNo-KHDN ngày 23/4/2024"
     },
     {
       "question": "Theo Quy định 1007/QyĐ-NHNo-KHDN về sửa đổi, bổ sung Quy định số 612/QyĐ-NHNo-KHDN  về cho vay dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp/Cum công nghiệp,Tại giai đoạn giải phóng mặt bằng khi cho vay dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghiệp/cụm công nghiệp, Agribank được xem xét nhận tài sản bảo đảm nào?",
@@ -1539,7 +1539,7 @@
         "Tất cả đáp án đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 1 Quy định số 1007/QyĐ-NHNo-KHDN ngày 23/4/2024"
     },
     {
       "question": "Theo Quy định 2929/QyĐ-NHNo-TD về Bảo đảm trong hoạt động cấp tín dụng thì Hàng hóa trong kho, bãi được áp dụng làm tài sản bảo đảm cho khoản vay nào của khách hàng?",
@@ -1550,7 +1550,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 24 Quy định số 2929/QyĐ-NHNo-TD ngày 31/12/2021"
     },
     {
       "question": "Theo Quy định 2986/QyĐ-NHNo-TD, Bất động sản đưa vào kinh doanh gồm",
@@ -1561,7 +1561,7 @@
         "Tất cả đáp án đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 2 Quy định số  2986/QyĐ-NHNo-TD"
     },
     {
       "question": "Dư nợ của một khách hàng bao gồm?",
@@ -1572,7 +1572,7 @@
         "Dư nợ nội bảng, bảo lãnh"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 3 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Người có liên quan của khách hàng là? (chọn đáp án đúng nhất)",
@@ -1583,7 +1583,7 @@
         "Tổ chức, cá nhân có quan hệ với khách hàng theo quy định của pháp luật từng thời kỳ được cấp tín dụng tại Agribank."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 3 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Thẩm quyền cấp tín dụng tối đa đối với 01 khách hàng và người có liên quan của Tổng Giám đốc?",
@@ -1594,7 +1594,7 @@
         "23% vốn tự có của Agribank"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 1 Điều 6 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Theo Quy định 996/QyĐ-HĐTV-TD, Thẩm quyền cấp tín dụng không áp dụng biện pháp bảo đảm tối đa của Tổng Giám đốc là bao nhiêu?",
@@ -1605,7 +1605,7 @@
         "3.000 tỷ đồng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 7 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Theo Quy định 996/QyĐ-HĐTV-TD, Thẩm quyền cấp tín dụng không áp dụng biện pháp bảo đảm tối đa đối với một khách hàng là pháp nhân của Trưởng ban Thẩm định, Giám đốc TTPD?",
@@ -1616,7 +1616,7 @@
         "25 tỷ đồng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 7 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Theo Quy định 996/QyĐ-HĐTV-TD, thẩm quyền cấp tín dụng tối đa của Hội đồng tín dụng Chi nhánh loại I hạng 1 tại KV Hà Nội đối với một khách hàng là pháp nhân xếp hạng A4 là bao nhiêu?",
@@ -1627,7 +1627,7 @@
         "40 tỷ đồng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm đ Khoản 1 Điều 6 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Theo Quy định 996/QyĐ-HĐTV-TD, thẩm quyền cấp tín dụng tối đa của Hội đồng tín dụng Chi nhánh loại I hạng 2 tại KV Hồ Chí Minh đối với một khách hàng là pháp nhân xếp hạng B1 là bao nhiêu?",
@@ -1638,7 +1638,7 @@
         "30 tỷ đồng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm đ Khoản 1 Điều 6 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Theo Quy định 996/QyĐ-HĐTV-TD, thẩm quyền cấp tín dụng tối đa của Giám đốc Chi nhánh loại I hạng 1 tại KV Hà Nội đối với một khách hàng là pháp nhân xếp hạng A8 là bao nhiêu?",
@@ -1649,7 +1649,7 @@
         "35 tỷ đồng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm e Khoản 1 Điều 6 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Theo Quy định 996/QyĐ-HĐTV-TD, thẩm quyền cấp tín dụng của Giám đốc Chi nhánh loại I hạng 1 (trừ KV TP Hà Nội và TP Hồ Chí Minh) đối với một khách hàng là pháp nhân xếp hạng A1 là bao nhiêu?",
@@ -1660,7 +1660,7 @@
         "25 tỷ đồng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm e Khoản 1 Điều 6 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Theo Quy định 996/QyĐ-HĐTV-TD, thẩm quyền cấp tín dụng tối đa của Giám đốc Chi nhánh loại I hạng 1 (trừ KV TP Hà Nội và TP Hồ Chí Minh) đối với một khách hàng là pháp nhân xếp hạng B1 là bao nhiêu?",
@@ -1671,7 +1671,7 @@
         "30 tỷ đồng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm e Khoản 1 Điều 6 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Theo Quy định 996/QyĐ-HĐTV-TD, thẩm quyền cấp tín dụng tối đa của Trưởng ban Thẩm định, Giám đốc TTPD đối với một khách hàng pháp nhân có bảo đảm 100% (cả gốc và lãi phát sinh) bằng số dư tiền gửi tại Agribank và/hoặc giấy tờ có giá trong suốt thời gian cấp tín dụng là bao nhiêu?",
@@ -1682,7 +1682,7 @@
         "250 tỷ đồng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 6 Quy định 996/QyĐ-HĐTV-TD"
     },
     {
       "question": "Thời hạn cho vay tối đa đối với dự án xây dựng trang trại nuôi lợn để cho thuê là bao nhiêu năm?",
@@ -1693,7 +1693,7 @@
         "Tối đa 10 năm"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điều 8 Quy định 639/QyĐ-NHNo-KHDN ngày 03/4/2023"
     },
     {
       "question": "Trong văn bản \"Hướng dẫn cho vay khách hàng pháp nhân trả nợ trước hạn khoản vay tại Tổ chức tín dụng khác\" quy trình thực hiện chuyển TSBĐ gốc để đảm bảo cho khoản vay tại Agribank gồm mấy bước thực hiện?",
@@ -1704,7 +1704,7 @@
         "8"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1, Điều 10 Văn bản số 12868/HD-NHNo-KHDNngày 02/11/2023"
     },
     {
       "question": "Trong văn bản \"Hướng dẫn cho vay khách hàng pháp nhân trả nợ trước hạn khoản vay tại Tổ chức tín dụng khác\" quy định thời gian tối đa hoàn thiện thủ tục bảo đảm tiền vay đối với TSBĐ gốc thực hiện biện pháp bảo đảm cầm cố chứng khoán niêm yết bao nhiêu ngày kể từ ngày giải ngân?",
@@ -1715,7 +1715,7 @@
         "30 ngày"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm ii, phần b, bước 8, khoản 1, Điều 10 Văn bản số 12868/HD-NHNo-KHDN ngày 02/11/2023"
     },
     {
       "question": "Trong văn bản \"Hướng dẫn cho vay khách hàng pháp nhân trả nợ trước hạn khoản vay tại Tổ chức tín dụng khác\" quy định thời hạn cho vay như thế nào?",
@@ -1726,7 +1726,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điều 7 Văn bản số 12868/HD-NHNo-KHDN  ngày 02/11/2023"
     },
     {
       "question": "Theo Quy định 2986/QyĐ-NHNo-TD, thời hạn cấp tín dụng tối đa để đầu tư kinh doanh cổ phiếu, trái phiếu doanh nghiệp ?",
@@ -1737,7 +1737,7 @@
         "4 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 4 Quy định 2986/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo Quy định 2986/QyĐ-NHNo-TD, điều kiện cấp tín dụng đối với khách hàng trong trường hợp thực hiện dự án bất động sản thông qua đấu thầu lựa chọn nhà đầu tư là gì?",
@@ -1748,7 +1748,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm a Khoản 2 Điều 6  Quy định 2986/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo Quy định 2986/QyĐ-NHNo-TD, điều kiện cấp tín dụng đối với khách hàng trong trường hợp thực hiện dự án bất động sản theo chấp thuận nhà đầu tư của cơ quan có thẩm quyền là gì?",
@@ -1759,7 +1759,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 6  Quy định 2986/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo quy định 2986/QyĐ-NHNo-TD, Agribank nơi cấp tín dụng trình HĐTV, TGĐ xem xét, phê duyệt theo thẩm quyền cấp tín dụng đối với các dự án BOT giao thông đã và đang triển khai thuộc các trường hợp nào?",
@@ -1770,7 +1770,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 9 Quy định  2986/QyĐ-NHNo-TD"
     },
     {
       "question": "Thời gian ân hạn gốc tối đa đối với dự án xây dựng trang trại nuôi lợn để cho thuê là bao nhiêu tháng?",
@@ -1781,7 +1781,7 @@
         "Không quy định"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 1 điều 12 Quy định 639/QyĐ-NHNo-KHDN"
     },
     {
       "question": "Trước khi xác lập Thỏa thuận cho vay, Agribank nơi cho vay có trách nhiệm cung cấp cho khách hàng đầy đủ các thông tin gì?",
@@ -1792,7 +1792,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 8 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Căn cứ nào để Agribank nơi cho vay xác định thời hạn cho vay, kỳ hạn trả nợ đối với cho vay phục vụ hoạt động kinh doanh?",
@@ -1803,7 +1803,7 @@
         "Cả 2 và 3"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a Khoản 1 Điều 10 QC số 656/QC-HĐTV-TD"
     },
     {
       "question": "Phương thức trả nợ gốc và lãi tiền vay đối với khoản vay bị quá hạn trả nợ là gì?",
@@ -1814,7 +1814,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 10 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Agribank có quyền quyết định tạm dừng, chấm dứt cho vay, thu hồi nợ trước hạn theo nội dung đã thỏa thuận trong các trường hợp nào?",
@@ -1825,7 +1825,7 @@
         "Đáp án 1 và 3 đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 15 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Chọn đáp án đúng nhất:",
@@ -1836,7 +1836,7 @@
         "Agribank chuyển nợ quá hạn đối với số dư nợ gốc/lãi mà khách hàng không trả được nợ theo thỏa thuận và không được Agribank chấp thuận cơ cấu lại thời hạn trả nợ"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 14 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Trong văn bản Hướng dẫn cho vay khách hàng pháp nhân trả nợ trước hạn khoản vay tại Tổ chức tín dụng khác quy định thời gian tối đa hoàn thiện thủ tục bảo đảm tiền vay đối với TSBĐ gốc thực hiện biện pháp bảo đảm cầm cố bao nhiêu ngày kể từ ngày giải ngân?",
@@ -1847,7 +1847,7 @@
         "20"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm i, phần b, bước 8, khoản 1, Điều 10 Văn bản số 12868/HD-NHNo-KHDN  ngày 02/11/2023"
     },
     {
       "question": "Trong văn bản Hướng dẫn cho vay khách hàng pháp nhân trả nợ trước hạn khoản vay tại Tổ chức tín dụng khác quy định thời gian tối đa hoàn thiện thủ tục bảo đảm tiền vay đối với TSBĐ gốc thực hiện biện pháp bảo đảm thế chấp bao nhiêu ngày kể từ ngày giải ngân?",
@@ -1858,7 +1858,7 @@
         "30"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm ii, phần b, bước 8, khoản 1, Điều 10 Văn bản số 12868/HD-NHNo-KHDN  ngày 02/11/2023"
     },
     {
       "question": "Trường hợp giao tài sản cầm cố cho Bên thứ ba giữ thì bên thứ ba phải đáp ứng điều kiện nào sau đây?",
@@ -1869,7 +1869,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 26 QC 879/QC-HĐTV-TD"
     },
     {
       "question": "Nhiệm vụ của Hội đồng xử lý TSBĐ?",
@@ -1880,7 +1880,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 54 Quy định 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo Quy định số 969/QyĐ-NHNo-TD: Đối tượng khách hàng nào của Agribank được cơ cấu lại thời hạn trả nợ, giữ nguyên nhóm nợ? (chọn đáp án đúng nhất)",
@@ -1891,7 +1891,7 @@
         "Đáp án 1 và 3"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 2 Quy định số 969/QyĐ-NHNo-TD"
     },
     {
       "question": "Theo Quy định 1486/QyĐ-NHNo-TD  về sửa đổi, bổ sung một số điều của Quy định số 969/QyĐ-NHNo-TD, việc cơ cấu lại thời hạn trả nợ cho khách hàng theo quy định tại Quy định này được thực hiện trong khoảng thời gian nào?",
@@ -1902,7 +1902,7 @@
         "Từ ngày 24/4/2023 đến  ngày 30/5/2024"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 1 Quy định số 1486/QyĐ-NHNo-TD"
     },
     {
       "question": "Việc cơ cấu lại thời hạn trả nợ theo Quy định 1486/QyĐ-NHNo-TD  về sửa đổi, bổ sung một số điều của Quy định số 969/QyĐ-NHNo-TD được thực hiện đến hết ngày nào?",
@@ -1913,7 +1913,7 @@
         "31/12/2023"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 1 Quy định số 1486/QyĐ-NHNo-TD"
     },
     {
       "question": "Cấp phê duyệt cho vay vượt thẩm quyền gồm những cấp nào?",
@@ -1924,7 +1924,7 @@
         "Hội đồng thành viên, Tổng giám đốc, Trưởng ban Thẩm định/Giám đốc TTPD, Giám đốc Chi nhánh loại I, loại II."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 1 QC 1546 sửa đổi QC 656"
     },
     {
       "question": "Nội dung nào sau đây là quy định của Agribank về cấp phê duyệt và quyết định cơ cấu lại thời hạn trả nợ?",
@@ -1935,7 +1935,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3, Khoản 4 Điều 40 QC 656/QC-NHNo-TD\r\nKhoản 4 Điều 1 QC 1546 Sửa đổi QC 656"
     },
     {
       "question": "Nhận định nào sau đây là đúng về Người phê duyệt cho vay?",
@@ -1946,7 +1946,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 1 Quy chế 1546/QC-HĐTV-TD sửa đổi bổ sung quy chế 656"
     },
     {
       "question": "Chọn đáp án đúng nhất:",
@@ -1957,7 +1957,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm a, Khoản 4 Điều 1 Quy chế 1546/QC-HĐTV-TD sửa đổi bổ sung quy chế 656"
     },
     {
       "question": "Nhận định nào sau đây là đúng về Người quyết định cho vay?",
@@ -1968,7 +1968,7 @@
         "Người quyết định cho vay phải quyết định cho vay nếu cấp trên đã phê duyệt cho vay và chịu trách nhiệm về quyết định của mình."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "điểm b Khoản 1 Điều 48 Quy chế 1546/QC-HĐTV-TD sửa đổi bổ sung quy chế 656"
     },
     {
       "question": "Nhận định nào sau đây là đúng về Người phê duyệt cho vay?",
@@ -1979,7 +1979,7 @@
         "Người phê duyệt cho vay Căn cứ vào Tờ trình của Tổng Giám đốc/Giám đốc chi nhánh, đề xuất tại Báo cáo thẩm định lại, Biên bản họp hoặc Bảng tổng hợp ý kiến Hội đồng tín dụng (nếu có) xem xét phê duyệt hoặc không phê duyệt cho vay theo thẩm quyền; ký văn bản phê duyệt cho vay hoặc từ chối cho vay (nếu có)."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 1 Quy chế 1546/QC-HĐTV-TD sửa đổi bổ sung quy chế 656"
     },
     {
       "question": "Theo Quy định số 612/QyĐ-NHNo-KHDN  về cho vay dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghiệp/cụm công nghiệp, Agribank nơi cho vay được xem xét cho vay tối đa không quá 70% tổng mức đầu tư khi đáp ứng một trong các trường hợp sau:",
@@ -1990,7 +1990,7 @@
         "Tất cả các đáp án trên.."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 điều 8 QĐ  612/QyĐ-NHNo-KHDN"
     },
     {
       "question": "Theo Quy định số 612/QyĐ-NHNo-KHDN  về cho vay dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghiệp/cụm công nghiệp, Agribank nơi cho vay giải ngân đối với chi phí đền bù, GPMB như thế nào?",
@@ -2001,7 +2001,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "điểm b khoản 3 điều 10 QĐ 612/QyĐ-NHNo-KHDN"
     },
     {
       "question": "Người quyết định cho vay tại Agribank nơi cho vay quyết định cho vay hay không cho vay căn cứ vào hồ sơ, tài liệu nào?",
@@ -2012,7 +2012,7 @@
         "Ý kiến đề xuất của Người quan hệ khách hàng, Người thẩm định, Báo cáo thẩm định lại của Người thẩm định lại (nếu có), Biên bản họp/Bảng tổng hợp ý kiến Hội đồng tín dụng (nếu có)."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 15 Điều 1 QyĐ 4466/QyĐ-NHNo-TD"
     },
     {
       "question": "Người phê duyệt cho vay tại Chi nhánh loại I phê duyệt cho vay/không phê duyệt cho vay căn cứ vào hồ sơ, tài liệu nào? Chọn phương án đúng nhất.",
@@ -2023,7 +2023,7 @@
         "Tờ trình của Chi nhánh loại II; Báo cáo thẩm định lại của Phòng Thẩm định/bộ phận Thẩm định."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 19 Điều 1 QyĐ 4466/QyĐ-NHNo-TD"
     },
     {
       "question": "Hồ sơ trình Hội đồng thành viên phê duyệt khoản vay theo thẩm quyền bao gồm những tài liệu nào?",
@@ -2034,7 +2034,7 @@
         "Tờ trình của chi nhánh; Biên bản họp/Bảng tổng hợp ý kiến của Hội đồng tín dụng Trụ sở chính; Tờ trình của Tổng Giám đốc; Hồ sơ, tài liệu khác (nếu có)."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 24 Điều 1 QyĐ 4466/QyĐ-NHNo-TD"
     },
     {
       "question": "Xử lý như thế nào khi Người quản lý nợ phát hiện khách hàng sử dụng vốn sai mục đích, vi phạm các thỏa thuận tại HĐTD và/hoặc HĐBĐ?",
@@ -2045,7 +2045,7 @@
         "Chi nhánh tiếp tục giải ngân vì nếu dừng giải ngân thì dự án dở dang và thiệt hại có thể xảy ra nhiều hơn."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm a khoản 27 Điều 1 QyĐ 4466/QyĐ-NHNo-TD"
     },
     {
       "question": "Các trường hợp khác, việc giải ngân vốn đối ứng thực hiện theo văn bản chấp thuận của cấp có thẩm quyền nào?",
@@ -2056,7 +2056,7 @@
         "Tổng Giám đốc/Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt/Giám đốc Agribank nơi cho vay theo thẩm quyền cấp tín dụng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 28 Điều 1 QyĐ 4466/QyĐ-NHNo-TD"
     },
     {
       "question": "Các chi nhánh loại I đóng tại địa bàn hành chính Thành phố trực thuộc Trung ương có được cho vay đối với pháp nhân có địa chỉ kinh doanh tại địa bàn các huyện ngoại thành thuộc Thành phố hay không ?",
@@ -2067,7 +2067,7 @@
         "Chỉ được cho vay trong 1 số trường hợp nhất định."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 1 QyĐ 4466/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy chỉ ra quy định về địa bàn cho vay đối với trường hợp có nhiều chi nhánh loại I cùng đóng tại địa bàn hành chính tỉnh.",
@@ -2078,7 +2078,7 @@
         "Các chi nhánh loại I được cho vay khách hàng pháp nhân, cá nhân có địa chỉ kinh doanh tại địa bàn hành chính tỉnh đó"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 1 QyĐ 4466/QyĐ-NHNo-TD"
     },
     {
       "question": "Hãy chọn đáp án đúng nhất về điều kiện đối với TSBĐ?",
@@ -2089,7 +2089,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 8 Quy chế 879/QC-HĐTV-TD và Khoản 3 điều 1 QC 1551/QC-HDTV-TD về sửa đổi QC 879"
     },
     {
       "question": "Điều kiện khách hàng pháp nhân được cấp tín dụng 100% không có tài sản bảo đảm",
@@ -2100,7 +2100,7 @@
         "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 6 điều 1 Quy chế số 1551/QC-HĐTV-TD ngày 27/12/2024 về sửa đổi, bổ sung một số điều của Quy chế số 879/QC-HĐTV-TD ngày 28/12/2021 của HĐTV về bảo đảm trong hoạt động cấp tín dụng"
     },
     {
       "question": "Những trường hợp nào phải đăng ký biện pháp bảo đảm?",
@@ -2111,7 +2111,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 20 Điều 1 QĐ3838 sửa đổi QĐ 2929"
     },
     {
       "question": "Theo Quy định số 3838/QyĐ-NHNo-TD ngày 15/11/2024 về sửa đổi bổ sung một số điều của Quy định số 2929/QyĐ-NHNo-TD ngày 31/12/2021 của Tổng giám đốc về bảo đảm trong hoạt động cấp tín dụng, trong trường hợp tài sản bảo đảm cho toàn bộ nghĩa vụ thì việc rút bớt TSBĐ phải thông qua Hội đồng xử lý TSBĐ đối với các khách hàng nào:",
@@ -2122,7 +2122,7 @@
         "Đối với khách hàng \r\ncó dư nợ trên 50 tỷ đồng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "điểm a khoản 23 Điều 1 QĐ 3838 sửa đổi  QĐ 2929"
     },
     {
       "question": "Thành phần Hội đồng XLTSBĐ tại Chi nhánh loại I, loại II gồm?",
@@ -2133,7 +2133,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 25 Điều 1 QĐ 3838 sửa đổi QĐ 2929 và Khoản 2 Điều 39 QQD 2929"
     },
     {
       "question": "Trường hợp nào sau đây phải thông qua Tổ thẩm định TSBĐ?",
@@ -2144,7 +2144,7 @@
         "Đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 18 điều 1 QyĐ 3838 sửa đổi QyĐ 2929"
     },
     {
       "question": "Tài sản bảo đảm bắt buộc phải được thẩm định giá bởi tổ chức có chức năng thẩm định giá (trừ các TSHTTTL, tài sản luân chuyển trong quá trình sản xuất kinh doanh; trái phiếu Chính phủ, trái phiếu Chính phủ bảo lãnh; cổ phiếu, chứng chỉ quỹ đã được niêm yết chính thức trên Sở Giao dịch chứng khoán; số dư trên tài khoản thanh toán, số dư tiền gửi tiết kiệm, số dư tiền gửi có kỳ hạn, giấy tờ có giá do các ngân hàng thương mại, chi nhánh ngân hàng nước ngoài phát hành):",
@@ -2155,7 +2155,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 19 Điều 1 QĐ 3838/QyĐ-NHNo-TD ngày 15/11/2024 về sửa đổi một số điều của QĐ 2929/QyĐ-NHNo-TD"
     },
     {
       "question": "Từ ngày 01/7/2024 đến trước ngày 01/01/2026, Tổng mức dư nợ cấp tín dụng của Agribank đối với một khách hàng không được vượt quá bao nhiêu % vốn tự có của Agribank?",
@@ -2166,7 +2166,7 @@
         "0.05"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 7 Điều 1 QC 579 sửa đổi QC 656"
     },
     {
       "question": "Từ ngày 01/7/2024 đến trước ngày 01/01/2026, Tổng mức dư nợ cấp tín dụng của Agribank đối với một khách hàng và người có liên quan không được vượt quá bao nhiêu % vốn tự có của Agribank?",
@@ -2177,7 +2177,7 @@
         "0.05"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 7 Điều 1 QC 579 sửa đổi QC 656"
     },
     {
       "question": "Agribank không được cấp tín dụng đối với đối tượng nào sau đây?",
@@ -2188,7 +2188,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 1 QC 579 sửa đổi QC 656"
     },
     {
       "question": "Agribank xem xét cho vay đối với khách hàng nào sau đây?",
@@ -2199,7 +2199,7 @@
         "Thành viên Ban kiểm soát Agribank."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "khoản 5 Điều 1 QC 579 sửa đổi QC 656"
     },
     {
       "question": "Trường hợp nào sau đây là người có liên quan của khách hàng?",
@@ -2210,7 +2210,7 @@
         "Tất cả các đáp án đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điểm b khoản 1 Điều 1 QC 579/QC-HĐTV-TD về sửa đổi QC 656"
     },
     {
       "question": "Trong trường hợp tại thời điểm đề nghị cho vay, khách hàng có tổng mức dư nợ cấp tín dụng lớn hơn hoặc bằng 0,1% vốn tự có của Agribank, thông tin về người có liên quan của khách hàng là tổ chức bao gồm?",
@@ -2221,7 +2221,7 @@
         "Tên, mã số doanh nghiệp, số Giấy chứng nhận đăng ký doanh nghiệp hoặc giấy tờ pháp lý tương đương, người đại diện theo pháp luật, mối quan hệ với khách hàng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 1 QC 579/QC-HĐTV-TD"
     },
     {
       "question": "Agribank không được cho vay đối tượng nào sau đây?",
@@ -2232,7 +2232,7 @@
         "Chủ doanh nghiệp tư nhân."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 1 QC 579 sửa đổi QC 656"
     },
     {
       "question": "Nguyên tắc vay vốn là gì?",
@@ -2243,7 +2243,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 1 QC 579-HĐTV-TD sửa đổi QC 656"
     },
     {
       "question": "Agribank xem xét phê duyệt, quyết định cho vay khi khách hàng có phương án sử dụng vốn khả thi (không bắt buộc đối với khoản cho vay có mức giá trị nhỏ) thông qua các tiêu chí cơ bản nào?",
@@ -2254,7 +2254,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 19 QC 656/QC-HĐTV-TD, Khoản 4 Điều 1 QC 579/QC-HĐTV-TD"
     },
     {
       "question": "Theo quy chế 656/QC-HĐTV-TD về cho vay đối với khách hàng trong hệ thống Agribank và các văn bản sửa đổi bổ sung, Khách hàng vay vốn Agribank có nghĩa vụ gì?",
@@ -2265,7 +2265,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoàn 9 Điều 1 QC 579 sửa đổi QC 656"
     },
     {
       "question": "Agribank cho vay phải có bảo đảm bằng tài sản và không cho vay với những điều kiện ưu đãi về lãi suất, về mức cho vay đối với đối tượng nào?",
@@ -2276,7 +2276,7 @@
         "Cả 2 và 3"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 1 QC 579 sửa đổi QC 656"
     },
     {
       "question": "Khách hàng phải đáp ứng điều kiện nào sau đây để được vay vốn tại Agribank?",
@@ -2287,7 +2287,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 4 điều 1 QC 579 sửa đổi QC 656"
     },
     {
       "question": "Khách hàng vay vốn của Agribank không bao gồm:",
@@ -2298,7 +2298,7 @@
         "Công ty Cổ phần bảo hiểm Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (ABIC)."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 7 Điều 22 QC 656/QC-HĐTV-TD, Khoản 5 Điều 1 QC 579 sửa đổi QC 656"
     },
     {
       "question": "Agribank phải lưu giữ hồ sơ nào?",
@@ -2309,7 +2309,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 11 điều 1 của QC 579 sửa đổi QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Agribank có quyền dừng, chấm dứt cho vay, thu hồi nợ trước hạn theo nội dung đã thỏa thuận đối với trường hợp nào sau đây?",
@@ -2320,7 +2320,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 15 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Khi thực hiện tạm dừng, chấm dứt cho vay, thu hồi nợ trước hạn, Agribank thông báo cho khách hàng những nội dung gì?",
@@ -2331,7 +2331,7 @@
         "Tất cả đáp án trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 15 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất đối với Phương thức cho vay theo hạn mức?",
@@ -2342,7 +2342,7 @@
         "Cả 1 và 2 đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 4 Điều 31 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Trường hợp khách hàng có nợ quá hạn thì Agribank thu nợ theo thứ tự như thế nào?",
@@ -2353,7 +2353,7 @@
         "Thu nợ gốc và lãi theo thỏa thuận với khách hàng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điểm b Khoản 2 Điều 10 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng?",
@@ -2364,7 +2364,7 @@
         "Người quyết định cơ cấu lại thời hạn trả nợ đồng thời là người quyết định cho vay đối với khoản vay đó."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 4 Điều 40 QC 656/QC-HĐTV-TD và điểm b khoản 4 Điều 1 QC 1546 sửa đổi QC 656"
     },
     {
       "question": "Agribank xem xét quyết định cơ cấu lại thời hạn trả nợ cho khách hàng khi:",
@@ -2375,7 +2375,7 @@
         "Khách hàng có đề nghị cơ cấu lại thời hạn trả nợ và kết quả đánh giá khả năng trả nợ của khách hàng theo thời hạn được cơ cấu lại thời hạn trả nợ."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 40 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Đồng tiền trả nợ của khoản vay được áp dụng như thế nào?",
@@ -2386,7 +2386,7 @@
         "Đồng tiền trả nợ là đồng tiền Chính phủ Việt Nam chấp nhận, cho phép sử dụng trên lãnh thổ Việt Nam."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 2 Điều 7 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Căn cứ nào sau đây xác định thời hạn cho vay, kỳ hạn trả nợ đối với cho vay phục vụ hoạt động kinh doanh?",
@@ -2397,7 +2397,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Tiết ii Điểm a Khoản 1 Điều 10 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhiệm vụ, trách nhiệm trong xét duyệt cho vay của Người quan hệ khách hàng là gì?  (Chọn đáp án đúng nhất)",
@@ -2408,7 +2408,7 @@
         "Lập Báo cáo đề xuất cho vay. Chịu trách nhiệm về tính hợp pháp của bộ hồ sơ vay vốn; tính chính xác của nội dung Báo cáo đề xuất cho vay và chịu trách nhiệm về đề xuất của mình."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 5 Điều 45 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về Người quan hệ khách hàng?",
@@ -2419,7 +2419,7 @@
         "Cả 1 và 2."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 21 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về Thời hạn trả nợ?",
@@ -2430,7 +2430,7 @@
         "Thời hạn trả nợ là khoảng thời gian xác định trong thời hạn cho vay được tính từ ngày bắt đầu nhận nợ đầu tiên cho đến ngày trả nợ cuối cùng."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 17 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng nhất về Thỏa thuận cho vay?",
@@ -2441,7 +2441,7 @@
         "Thỏa thuận cho vay được ký kết bởi người đại diện của Agribank và khách hàng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 17 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Agribank xem xét quyết định việc cơ cấu lại thời hạn trả nợ trên cơ sở nào?",
@@ -2452,7 +2452,7 @@
         "Đề nghị của Người quản lý nợ và khả năng tài chính của khách hàng."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 40 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Agribank nơi cho vay báo cáo nơi phê duyệt vượt thẩm quyền đối với các khoản vay vượt thẩm quyền khi thực hiện cơ cấu lại thời hạn trả nợ vào thời điểm nào?",
@@ -2463,7 +2463,7 @@
         "Không yêu cầu phải báo cáo."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Khoản 6 Điều 40 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Theo quy định hiện hành của Agribank, Thời hạn trả nợ được quy định như thế nào?",
@@ -2474,7 +2474,7 @@
         "Thời hạn trả nợ là khoảng thời gian xác định trong thời hạn cho vay được tính từ ngày bắt đầu nhận nợ đầu tiên cho đến ngày trả nợ cuối cùng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 17 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Vốn đối ứng của khách hàng tham gia vào phương án sử dụng vốn bao gồm?",
@@ -2485,7 +2485,7 @@
         "Tiền, giá trị tài sản đảm bảo, chi phí nhân công khi khách hàng trực tiếp tham gia phương án, dự án."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 20 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Việc quyết định cơ cấu lại thời hạn trả nợ đối với các khoản vay phân công cho Giám đốc Phòng giao thực hiện một, một số khâu thuộc trách nhiệm của Agribank nơi cho vay thuộc thẩm quyền của ai?",
@@ -2496,7 +2496,7 @@
         "Tất cả đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Điểm c khoản 4 Điều 40 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Một trong các tiêu chí về có khả năng tài chính để trả nợ của khách hàng vay là gì?",
@@ -2507,7 +2507,7 @@
         "Không có nợ xấu ở Agribank và các TCTD khác tại thời điểm thẩm định, quyết định cho vay."
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Điểm b Khoản 4 Điều 19 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng về việc miễn, giảm lãi tiền vay, phí vay vốn?",
@@ -2518,7 +2518,7 @@
         "Agribank có quyền và nghĩa vụ xem xét quyết định miễn, giảm lãi tiền vay, phí cho khách hàng vay vốn theo quy định của Ngân hàng Nhà nước và Chính phủ."
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Điều 16 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Thỏa thuận cho vay là văn bản giao kết giữa Agribank và khách hàng dưới hình thức gì?",
@@ -2529,7 +2529,7 @@
         "Hợp đồng tín dụng/Sổ vay vốn/Giấy nhận nợ hoặc các hình thức khác mà pháp luật không cấm"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 11 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Nhận định nào sau đây là đúng về Thời hạn cho vay?",
@@ -2540,7 +2540,7 @@
         "Khoảng thời gian được tính từ ngày tiếp theo của ngày Agribank giải ngân vốn vay cho khách hàng cho đến thời điểm khách hàng phải trả hết nợ gốc và lãi tiền vay theo thỏa thuận của Agribank và khách hàng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 13 Điều 2 QC số 656/QC-HĐTV-TD"
     },
     {
       "question": "Người thẩm định phải độc lập với ai?",
@@ -2551,7 +2551,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 3 Điều 4 QC số 656/QC-HĐTV-TD"
     },
     {
       "question": "Lựa chọn phương án đúng:",
@@ -2562,7 +2562,7 @@
         "Một người có thể vừa là Người thẩm định vừa là Người thẩm định lại trong cùng một khoản vay"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 31 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Người quan hệ khách hàng có thể là người nào sau đây?",
@@ -2573,7 +2573,7 @@
         "Người kiểm soát khoản vay"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Khoản 31 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Tại đâu không có Người giám sát khoản vay vượt thẩm quyền?",
@@ -2584,7 +2584,7 @@
         "Cả 2 và 3 đều đúng"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Khoản 30 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Vốn đối ứng của khách hàng được hiểu là gì? (chọn dáp án đúng nhất)",
@@ -2595,7 +2595,7 @@
         "Vốn khách hàng tham gia vào phương án sử dụng vốn. Vốn đối ứng có thể bằng tiền, giá trị tài sản; đối với cá nhân vay vốn đáp ứng nhu cầu hoạt động kinh doanh, giá trị vốn đối ứng có thể tính cả chi phí nhân công khi khách hàng trực tiếp tham gia phương án, dự án."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 20 Điều 2 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Trước khi xác lập thỏa thuận cho vay, Agribank nơi cho vay có trách nhiệm cung cấp cho khách hàng thông tin nào sau đây?",
@@ -2606,7 +2606,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 8 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Agribank và khách hàng thỏa thuận áp dụng loại phí nào liên quan đến hoạt động cho vay?",
@@ -2617,7 +2617,7 @@
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Điều 12 QC 656/QC-HĐTV-TD"
     },
     {
       "question": "Căn cứ nào để Agribank nơi cho vay xác định mức cho vay?",
@@ -2628,7 +2628,7 @@
         "Phương án sử dụng vốn vay; khả năng tài chính của khách hàng; giá trị tài sản bảo đảm (đối với khoản vay phải bảo đảm bằng tài sản); các giới hạn cấp tín dụng và khả năng nguồn vốn của Agribank."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Khoản 1 Điều 21 QC số 656/QC-HĐTV-TD"
     },
     {
       "question": "Cho vay trung hạn thực hiện Dự án kinh doanh, mức cho vay tối đa là:",
@@ -2639,7 +2639,7 @@
         "85% Tổng nhu cầu vốn"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Tiết i Điểm b Khoản 2 Điều 21 QC 656/QC-HĐTV-TD"
     }
   ]
 }

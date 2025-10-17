@@ -1,66 +1,66 @@
 [
   {
-    "name": "1. Tín dụng khách hàng doanh nghiệp",
+    "name": "1. Tín dụng khách hàng doanh nghiệp",
     "file": "./data/1-tin-dung-khach-hang-doanh-nghiep.json"
   },
   {
-    "name": "2. Thẩm định",
+    "name": "2. Thẩm định",
     "file": "./data/2-tham-dinh.json"
   },
   {
-    "name": "3. Tín dụng khách hàng cá nhân",
+    "name": "3. Tín dụng khách hàng cá nhân",
     "file": "./data/3-tin-dung-khach-hang-ca-nhan.json"
   },
   {
-    "name": "4. Xử lý nợ",
+    "name": "4. Xử lý nợ",
     "file": "./data/4-xu-ly-no.json"
   },
   {
-    "name": "5. Thanh toán quốc tế và Tài trợ thương mại",
+    "name": "5. Thanh toán quốc tế và Tài trợ thương mại",
     "file": "./data/5-thanh-toan-quoc-te-va-tai-tro-thuong-mai.json"
   },
   {
-    "name": "7. Kế toán giao dịch nội bộ ",
+    "name": "7. Kế toán giao dịch nội bộ ",
     "file": "./data/7-ke-toan-giao-dich-noi-bo.json"
   },
   {
-    "name": "8. Kế toán giao dịch khách hàng",
+    "name": "8. Kế toán giao dịch khách hàng",
     "file": "./data/8-ke-toan-giao-dich-khach-hang.json"
   },
   {
-    "name": "9. Kiểm ngân",
+    "name": "9. Kiểm ngân",
     "file": "./data/9-kiem-ngan.json"
   },
   {
-    "name": "11. Công nghệ thông tin",
+    "name": "11. Công nghệ thông tin",
     "file": "./data/11-cong-nghe-thong-tin.json"
   },
   {
-    "name": "12. Nhân sự - Tiền lương",
+    "name": "12. Nhân sự - Tiền lương",
     "file": "./data/12-nhan-su-tien-luong.json"
   },
   {
-    "name": "13. Pháp chế",
+    "name": "13. Pháp chế",
     "file": "./data/13-phap-che.json"
   },
   {
-    "name": "14. Xây dựng cơ bản, quản trị hành chính",
+    "name": "14. Xây dựng cơ bản, quản trị hành chính",
     "file": "./data/14-xay-dung-co-ban-quan-tri-hanh-chinh.json"
   },
   {
-    "name": "15. Văn thư, lễ tân",
+    "name": "15. Văn thư, lễ tân",
     "file": "./data/15-van-thu-le-tan.json"
   },
   {
-    "name": "17a. Kiến thức chung",
+    "name": "17a. Kiến thức chung",
     "file": "./data/17a-kien-thuc-chung.json"
   },
   {
-    "name": "17b. Quản lý cấp phòng",
+    "name": "17b. Quản lý cấp phòng",
     "file": "./data/17b-quan-ly-cap-phong.json"
   },
   {
-    "name": "17c. Tiêu chuẩn tác phong GDV",
+    "name": "17c. Tiêu chuẩn tác phong GDV",
     "file": "./data/17c-tieu-chuan-tac-phong-gdv.json"
   }
 ]
