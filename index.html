@@ -262,19 +262,184 @@
             transition: background-color 0.3s ease, border-color 0.3s ease;
          }
          #quiz-file-list {
-            display: flex; flex-direction: column; gap: 10px; margin-bottom: 15px; min-height: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+         }
+         #select-toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+         }
+         #resume-last-btn {
+             background-color: var(--primary-color);
+             color: white;
+             border: none;
+             border-radius: 6px;
+             padding: 10px 18px;
+             font-size: 0.95em;
+             cursor: pointer;
+             display: flex;
+             align-items: center;
+             gap: 6px;
+             transition: transform 0.2s ease, filter 0.2s ease;
+         }
+         #resume-last-btn:hover {
+             filter: brightness(1.05);
+             transform: translateY(-1px);
+         }
+         #resume-last-btn:disabled {
+             background-color: var(--disabled-bg-color);
+             color: var(--disabled-text-color);
+             cursor: not-allowed;
+             transform: none;
+         }
+         .select-search {
+             flex: 1 1 260px;
+             position: relative;
+         }
+         .select-search input {
+             width: 100%;
+             padding: 10px 14px 10px 36px;
+             border-radius: 6px;
+             border: 1px solid var(--card-border-color);
+             background-color: var(--button-default-bg);
+             color: var(--text-color);
+             font-size: 0.95em;
+             transition: border-color 0.2s ease, box-shadow 0.2s ease;
+         }
+         .select-search::before {
+             content: '🔍';
+             position: absolute;
+             left: 10px;
+             top: 50%;
+             transform: translateY(-50%);
+             font-size: 1em;
+             opacity: 0.7;
+         }
+         .select-search input:focus {
+             outline: none;
+             border-color: var(--primary-color);
+             box-shadow: 0 0 0 3px rgba(67, 56, 202, 0.1);
+         }
+         #tag-filter-row {
+             display: flex;
+             flex-direction: column;
+             gap: 8px;
+             margin-bottom: 10px;
+         }
+         #active-filter-indicator {
+             font-size: 0.85em;
+             color: var(--secondary-color);
+         }
+         #quiz-tag-filter {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 8px;
+         }
+         .tag-filter-btn {
+             padding: 6px 14px;
+             border-radius: 20px;
+             border: 1px solid var(--card-border-color);
+             background-color: var(--button-default-bg);
+             color: var(--secondary-color);
+             cursor: pointer;
+             font-size: 0.85em;
+             transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+         }
+         .tag-filter-btn.active {
+             background-color: var(--primary-color);
+             border-color: var(--primary-color);
+             color: #ffffff;
+             font-weight: 600;
+         }
+         #quiz-card-grid {
+             display: grid;
+             grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+             gap: 16px;
+         }
+         .quiz-card {
+             border: 1px solid var(--card-border-color);
+             border-radius: 12px;
+             background-color: var(--card-bg-color);
+             padding: 18px;
+             display: flex;
+             flex-direction: column;
+             gap: 12px;
+             cursor: pointer;
+             text-align: left;
+             font: inherit;
+             color: inherit;
+             transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+         }
+         .quiz-card:hover,
+         .quiz-card:focus-within {
+             transform: translateY(-3px);
+             box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+             border-color: var(--primary-color);
+         }
+         .quiz-card:focus-visible {
+             outline: 3px solid var(--primary-color);
+             outline-offset: 3px;
+         }
+         .quiz-card-title {
+             font-size: 1.05em;
+             font-weight: 600;
+             color: var(--text-color);
+             line-height: 1.4;
+             word-break: break-word;
+         }
+         .quiz-card-meta {
+             font-size: 0.85em;
+             color: var(--secondary-color);
+             display: flex;
+             flex-wrap: wrap;
+             gap: 8px;
+         }
+         .quiz-card-meta span {
+             display: inline-flex;
+             align-items: center;
+             gap: 4px;
+         }
+         .quiz-card-tags {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 8px;
+         }
+         .quiz-card-tag {
+             padding: 4px 10px;
+             border-radius: 12px;
+             background-color: var(--source-bg);
+             color: var(--secondary-color);
+             font-size: 0.75em;
+         }
+         #no-quiz-results {
+             text-align: center;
+             font-size: 0.95em;
+             color: var(--secondary-color);
+         }
+         #mobile-select-wrapper {
+             display: none;
+             flex-direction: column;
+             gap: 6px;
+         }
+         #mobile-select-wrapper label {
+             font-size: 0.85em;
+             color: var(--secondary-color);
          }
          #quiz-file-select {
              width: 100%;
              padding: 10px 15px;
              font-size: 1em;
              border: 1px solid var(--card-border-color);
-             border-radius: 5px;
+             border-radius: 6px;
              background-color: var(--button-default-bg);
              color: var(--text-color);
              cursor: pointer;
              transition: border-color 0.3s ease;
-             margin-bottom: 15px;
              -webkit-appearance: none;
              -moz-appearance: none;
              appearance: none;
@@ -538,6 +703,10 @@
              }
 
              #question-text { font-size: 1.1em; }
+             #quiz-card-grid { grid-template-columns: 1fr; }
+             #mobile-select-wrapper { display: flex; }
+             #select-toolbar { flex-direction: column; align-items: stretch; }
+             .select-search { flex: 1 1 auto; }
              .answer-btn {
                  font-size: 1.05em;
                  padding: 16px 18px;
@@ -620,12 +789,27 @@
 
         <div id="select-section">
              <h2>Chọn Bộ Câu Hỏi</h2>
-             <div id="quiz-file-list">
-                 <select id="quiz-file-select">
-                     <option value="">Đang tải danh sách bộ câu hỏi...</option>
-                 </select>
+             <div id="select-toolbar">
+                 <button id="resume-last-btn" class="hidden" type="button">Tiếp tục lần trước</button>
+                 <div class="select-search">
+                     <input type="search" id="quiz-search-input" placeholder="Tìm kiếm theo tên hoặc chủ đề" autocomplete="off">
+                 </div>
              </div>
-             <p id="status-message"></p>
+             <div id="tag-filter-row" class="hidden">
+                 <p id="active-filter-indicator" class="hidden"></p>
+                 <div id="quiz-tag-filter"></div>
+             </div>
+             <div id="quiz-file-list">
+                 <div id="quiz-card-grid" aria-live="polite"></div>
+                 <p id="no-quiz-results" class="hidden">Không tìm thấy bộ câu hỏi phù hợp. Hãy thử từ khóa khác.</p>
+                 <p id="status-message"></p>
+                 <div id="mobile-select-wrapper">
+                     <label for="quiz-file-select">Danh sách nhanh (di động):</label>
+                     <select id="quiz-file-select">
+                         <option value="">Đang tải danh sách bộ câu hỏi...</option>
+                     </select>
+                 </div>
+             </div>
              <div id="shuffle-option">
                  <input type="checkbox" id="shuffle-checkbox">
                  <label for="shuffle-checkbox">Xáo trộn câu hỏi</label>
