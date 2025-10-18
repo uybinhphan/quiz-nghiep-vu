@@ -144,16 +144,6 @@ function createQuizCard(item) {
     meta.appendChild(attemptSpan);
     card.appendChild(meta);
 
-    const tagsRow = document.createElement('div');
-    tagsRow.className = 'quiz-card-tags';
-    item.tags.forEach((tag) => {
-        const tagEl = document.createElement('span');
-        tagEl.className = 'quiz-card-tag';
-        tagEl.textContent = tag;
-        tagsRow.appendChild(tagEl);
-    });
-    card.appendChild(tagsRow);
-
     card.addEventListener('click', () => {
         if (dom.quizFileSelect) {
             dom.quizFileSelect.value = item.candidatePaths[0] || '';
