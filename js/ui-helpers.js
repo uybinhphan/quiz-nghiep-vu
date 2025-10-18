@@ -14,8 +14,16 @@ import {
     reviewControls,
     shuffleCheckbox,
     quizFileListContainer,
+    quizFileSelect,
     statusMessage,
-    updateQuizFileSelectElement
+    updateQuizFileSelectElement,
+    resumeLastBtn,
+    quizSearchInput,
+    quizTagFilter,
+    quizCardGrid,
+    noQuizResultsMessage,
+    tagFilterRow,
+    activeFilterIndicator
 } from './dom-elements.js';
 import * as state from './state.js';
 
@@ -88,14 +96,19 @@ export function showSelectScreenView(preventClear = false) {
     }
 
     if (quizFileListContainer) {
-        quizFileListContainer.innerHTML = '';
-        const newSelect = document.createElement('select');
-        newSelect.id = 'quiz-file-select';
-        newSelect.innerHTML = '<option value="">Đang tải danh sách...</option>';
-        newSelect.disabled = true;
-        quizFileListContainer.appendChild(newSelect);
+        if (quizCardGrid) quizCardGrid.innerHTML = '';
+        if (noQuizResultsMessage) noQuizResultsMessage.classList.add('hidden');
+        if (tagFilterRow) tagFilterRow.classList.add('hidden');
+        if (quizTagFilter) quizTagFilter.innerHTML = '';
         updateQuizFileSelectElement();
     }
+    if (quizFileSelect) {
+        quizFileSelect.innerHTML = '<option value="">Đang tải danh sách...</option>';
+        quizFileSelect.disabled = true;
+    }
+    if (quizSearchInput) quizSearchInput.value = '';
+    if (resumeLastBtn) resumeLastBtn.classList.add('hidden');
+    if (activeFilterIndicator) activeFilterIndicator.classList.add('hidden');
     if (statusMessage) statusMessage.textContent = '';
     if (errorMessage) { errorMessage.textContent = ''; errorMessage.classList.add('hidden'); }
 }

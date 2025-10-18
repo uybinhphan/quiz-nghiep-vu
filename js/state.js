@@ -15,6 +15,7 @@ export let wrongAnswerIndices = [];
 export let currentWrongAnswerReviewIndex = 0;
 export let currentQuizDisplayName = "";
 export let loadedQuizzes = {}; // Cache for loaded quiz JSON data
+export let currentQuizId = "";
 
 export function getQuizState() {
     return {
@@ -31,11 +32,13 @@ export function getQuizState() {
         currentWrongAnswerReviewIndex,
         autoAdvanceDuration,
         shuffleChecked: shuffleCheckbox.checked,
+        quizId: currentQuizId
     };
 }
 
 export function updateQuizState(newState) {
     currentQuizDisplayName = newState.currentQuizDisplayName !== undefined ? newState.currentQuizDisplayName : currentQuizDisplayName;
+    currentQuizId = newState.currentQuizId !== undefined ? newState.currentQuizId : currentQuizId;
     originalQuizData = newState.originalQuizData !== undefined ? newState.originalQuizData : originalQuizData;
     quizData = newState.quizData !== undefined ? newState.quizData : quizData;
     currentQuestionIndex = newState.currentQuestionIndex !== undefined ? newState.currentQuestionIndex : currentQuestionIndex;
@@ -65,6 +68,7 @@ export function resetQuizState() {
     wrongAnswerIndices = [];
     currentWrongAnswerReviewIndex = 0;
     currentQuizDisplayName = "";
+    currentQuizId = "";
     // loadedQuizzes cache is usually cleared when going back to select screen entirely
 }
 
@@ -98,7 +102,8 @@ export function saveState() {
         wrongAnswerIndices: wrongAnswerIndices,
         currentWrongAnswerReviewIndex: currentWrongAnswerReviewIndex,
         autoAdvanceDuration: autoAdvanceDuration,
-        shuffleChecked: shuffleCheckbox.checked
+        shuffleChecked: shuffleCheckbox.checked,
+        quizId: currentQuizId
     };
     try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(stateToSave));
@@ -144,6 +149,7 @@ export function loadState() {
         autoAdvanceDuration = savedState.autoAdvanceDuration || 500; // Use default if not in saved state
         autoAdvanceTimer = null;
         shuffleCheckbox.checked = savedState.shuffleChecked || false;
+        currentQuizId = savedState.quizId || "";
 
 
         if (quizData.length === 0 && savedState.view !== 'select') {

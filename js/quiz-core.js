@@ -4,6 +4,7 @@ import * as dom from './dom-elements.js';
 import * as state from './state.js';
 import * as config from './config.js';
 import * as ui from './ui-helpers.js';
+import { recordAttemptForQuiz, upsertMetaForQuiz } from './quiz-metadata.js';
 
 // --- Utility Functions ---
 export function shuffleArray(array) {
@@ -276,6 +277,19 @@ export function showResults() {
     clearAutoAdvanceTimer();
     ui.showResultsSectionView();
     if (dom.finalScoreText) dom.finalScoreText.textContent = `Điểm cuối cùng: ${state.score} / ${state.quizData.length}`;
+    if (state.currentQuizId) {
+        const totalQuestions = Array.isArray(state.originalQuizData) && state.originalQuizData.length > 0
+            ? state.originalQuizData.length
+            : state.quizData.length;
+        if (typeof totalQuestions === 'number' && totalQuestions > 0) {
+            upsertMetaForQuiz(state.currentQuizId, { questionCount: totalQuestions });
+        }
+        recordAttemptForQuiz(state.currentQuizId, {
+            displayName: state.currentQuizDisplayName,
+            lastScore: state.score,
+            totalQuestions
+        });
+    }
     state.saveState();
 }
 
