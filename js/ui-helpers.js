@@ -19,11 +19,8 @@ import {
     updateQuizFileSelectElement,
     resumeLastBtn,
     quizSearchInput,
-    quizTagFilter,
     quizCardGrid,
-    noQuizResultsMessage,
-    tagFilterRow,
-    activeFilterIndicator
+    noQuizResultsMessage
 } from './dom-elements.js';
 import * as state from './state.js';
 
@@ -98,8 +95,6 @@ export function showSelectScreenView(preventClear = false) {
     if (quizFileListContainer) {
         if (quizCardGrid) quizCardGrid.innerHTML = '';
         if (noQuizResultsMessage) noQuizResultsMessage.classList.add('hidden');
-        if (tagFilterRow) tagFilterRow.classList.add('hidden');
-        if (quizTagFilter) quizTagFilter.innerHTML = '';
         updateQuizFileSelectElement();
     }
     if (quizFileSelect) {
@@ -108,7 +103,6 @@ export function showSelectScreenView(preventClear = false) {
     }
     if (quizSearchInput) quizSearchInput.value = '';
     if (resumeLastBtn) resumeLastBtn.classList.add('hidden');
-    if (activeFilterIndicator) activeFilterIndicator.classList.add('hidden');
     if (statusMessage) statusMessage.textContent = '';
     if (errorMessage) { errorMessage.textContent = ''; errorMessage.classList.add('hidden'); }
 }

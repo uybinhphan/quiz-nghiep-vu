@@ -325,37 +325,6 @@
              border-color: var(--primary-color);
              box-shadow: 0 0 0 3px rgba(67, 56, 202, 0.1);
          }
-         #tag-filter-row {
-             display: flex;
-             flex-direction: column;
-             gap: 8px;
-             margin-bottom: 10px;
-         }
-         #active-filter-indicator {
-             font-size: 0.85em;
-             color: var(--secondary-color);
-         }
-         #quiz-tag-filter {
-             display: flex;
-             flex-wrap: wrap;
-             gap: 8px;
-         }
-         .tag-filter-btn {
-             padding: 6px 14px;
-             border-radius: 20px;
-             border: 1px solid var(--card-border-color);
-             background-color: var(--button-default-bg);
-             color: var(--secondary-color);
-             cursor: pointer;
-             font-size: 0.85em;
-             transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
-         }
-         .tag-filter-btn.active {
-             background-color: var(--primary-color);
-             border-color: var(--primary-color);
-             color: #ffffff;
-             font-weight: 600;
-         }
          #quiz-card-grid {
              display: grid;
              grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -794,10 +763,6 @@
                  <div class="select-search">
                      <input type="search" id="quiz-search-input" placeholder="Tìm kiếm theo tên hoặc chủ đề" autocomplete="off">
                  </div>
-             </div>
-             <div id="tag-filter-row" class="hidden">
-                 <p id="active-filter-indicator" class="hidden"></p>
-                 <div id="quiz-tag-filter"></div>
              </div>
              <div id="quiz-file-list">
                  <div id="quiz-card-grid" aria-live="polite"></div>
