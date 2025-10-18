@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.5.1...v1.5.2) (2025-10-18)
+
+
+### Bug Fixes
+
+* **ui:** remove quiz card tag pills ([770dfde](https://github.com/uybinhphan/quiz-nghiep-vu/commit/770dfde57a345da0dc3ec9fadd089f01ef836447))
+
 ## [1.5.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.5.0...v1.5.1) (2025-10-18)
 
 
