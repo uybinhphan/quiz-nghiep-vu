@@ -17,7 +17,6 @@ import {
 let quizSelectionChangeListener = null;
 const DEFAULT_TAG = 'Chung';
 let enrichedQuizItems = [];
-let activeTagFilter = 'all';
 let searchTerm = '';
 let searchHandlersAttached = false;
 let metadataCacheBuster = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
@@ -117,66 +116,6 @@ function buildEnrichedQuizItem(quiz) {
     };
 }
 
-function createTagButton(label, value) {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'tag-filter-btn';
-    button.dataset.filterValue = value;
-    button.textContent = label;
-    button.addEventListener('click', () => {
-        activeTagFilter = value;
-        updateTagButtonStates();
-        renderQuizCards();
-    });
-    return button;
-}
-
-function updateTagButtonStates() {
-    if (!dom.quizTagFilter) return;
-    const buttons = dom.quizTagFilter.querySelectorAll('.tag-filter-btn');
-    const normalizedActive = normalizeText(activeTagFilter);
-    buttons.forEach((button) => {
-        const value = button.dataset.filterValue || '';
-        const isActive = (value === 'all' && activeTagFilter === 'all') ||
-            (value !== 'all' && normalizeText(value) === normalizedActive);
-        button.classList.toggle('active', isActive);
-    });
-    if (dom.activeFilterIndicator) {
-        if (activeTagFilter === 'all') {
-            dom.activeFilterIndicator.classList.add('hidden');
-            dom.activeFilterIndicator.textContent = '';
-        } else {
-            dom.activeFilterIndicator.textContent = `Đang lọc theo: ${activeTagFilter}`;
-            dom.activeFilterIndicator.classList.remove('hidden');
-        }
-    }
-}
-
-function renderTagFilters() {
-    if (!dom.quizTagFilter || !dom.tagFilterRow) return;
-    const uniqueTags = Array.from(new Set(enrichedQuizItems.flatMap(item => item.tags))).filter(Boolean);
-    uniqueTags.sort((a, b) => a.localeCompare(b, 'vi'));
-
-    if (uniqueTags.length <= 1) {
-        dom.tagFilterRow.classList.add('hidden');
-        if (dom.activeFilterIndicator) dom.activeFilterIndicator.classList.add('hidden');
-        dom.quizTagFilter.innerHTML = '';
-        activeTagFilter = 'all';
-        return;
-    }
-
-    dom.tagFilterRow.classList.remove('hidden');
-    dom.quizTagFilter.innerHTML = '';
-
-    const allButton = createTagButton('Tất cả', 'all');
-    dom.quizTagFilter.appendChild(allButton);
-    uniqueTags.forEach((tag) => {
-        const button = createTagButton(tag, tag);
-        dom.quizTagFilter.appendChild(button);
-    });
-    updateTagButtonStates();
-}
-
 function createQuizCard(item) {
     const card = document.createElement('button');
     card.type = 'button';
@@ -230,11 +169,8 @@ function renderQuizCards() {
     dom.quizCardGrid.innerHTML = '';
 
     const normalizedSearch = searchTerm.trim();
-    const normalizedTag = normalizeText(activeTagFilter);
 
     const filteredItems = enrichedQuizItems.filter((item) => {
-        const matchesTag = activeTagFilter === 'all' || item.tagsNormalized.includes(normalizedTag);
-        if (!matchesTag) return false;
         if (!normalizedSearch) return true;
         const matchesName = item.displayNameNormalized.includes(normalizedSearch);
         const matchesTags = item.tagsNormalized.some(tag => tag.includes(normalizedSearch));
@@ -505,7 +441,6 @@ export function displayQuizOptions(quizList) {
     ui.hideError();
 
     enrichedQuizItems = [];
-    activeTagFilter = 'all';
     searchTerm = '';
     if (dom.quizSearchInput) dom.quizSearchInput.value = '';
     if (dom.noQuizResultsMessage) dom.noQuizResultsMessage.classList.add('hidden');
@@ -515,7 +450,6 @@ export function displayQuizOptions(quizList) {
         attachQuizSelectListenerInternal();
         if (dom.quizFileSelect) dom.quizFileSelect.disabled = true;
         if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = true;
-        renderTagFilters();
         renderQuizCards();
         updateResumeButton();
         return;
@@ -537,7 +471,6 @@ export function displayQuizOptions(quizList) {
     if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = enrichedQuizItems.length === 0;
 
     setupSearchAndFilterInteractions();
-    renderTagFilters();
     renderQuizCards();
     updateResumeButton();
     hydrateQuestionCounts(enrichedQuizItems);
