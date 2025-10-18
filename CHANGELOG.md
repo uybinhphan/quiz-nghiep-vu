@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.3...v1.4.0) (2025-10-18)
+
+
+### Features
+
+* add searchable quiz grid with metadata caching and improved status UX ([34c651c](https://github.com/uybinhphan/quiz-nghiep-vu/commit/34c651ca178716d053e463b78cad0dba054c8404))
+
 ## [1.3.3](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.3.2...v1.3.3) (2025-10-16)
 
 
