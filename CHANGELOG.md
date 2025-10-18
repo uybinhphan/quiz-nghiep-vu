@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.5.0...v1.5.1) (2025-10-18)
+
+
+### Bug Fixes
+
+* **ui:** remove quiz tag filter support ([16b6a56](https://github.com/uybinhphan/quiz-nghiep-vu/commit/16b6a56ecefb563002d2e7e5192194f6c5cf872a))
+
 ## [1.5.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.4.0...v1.5.0) (2025-10-18)
 
 
