@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.5.2...v1.6.0) (2025-10-21)
+
+
+### Features
+
+* add offline single-file build pipeline ([#74](https://github.com/uybinhphan/quiz-nghiep-vu/issues/74)) ([58ce459](https://github.com/uybinhphan/quiz-nghiep-vu/commit/58ce459992ba9692a7ec5a8dd4161a567a349492))
+
 ## [1.5.2](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.5.1...v1.5.2) (2025-10-18)
 
 
