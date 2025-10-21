@@ -78,7 +78,7 @@ function deriveTagsFromQuiz(quiz) {
     }
     const name = typeof quiz?.name === 'string' ? quiz.name : '';
     if (!name) return [DEFAULT_TAG];
-    const stripped = name.replace(/^\d+[\.\-]?\s*/, '').trim();
+    const stripped = name.replace(/^\d+[.-]?\s*/, '').trim();
     if (!stripped) return [DEFAULT_TAG];
     const firstSegment = stripped.split(',')[0] || stripped;
     const beforeDash = firstSegment.split(' - ')[0];

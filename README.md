@@ -101,6 +101,11 @@ quiz-nghiep-vu/
 6. **Analytics:** Includes GoatCounter for privacy-friendly analytics.
 7. **Swipe Gesture Support:** Enhances mobile UX with touch-based navigation.
 
+## Offline Bundle
+- Run `npm run build:offline` to generate a single-file version at `dist/quiz-offline.html`.
+- All JavaScript modules and quiz data are inlined, so the file works completely offline (no network requests).
+- The offline build automatically disables GoatCounter analytics and replaces the CDN confetti script with a lightweight inline fallback.
+
 ## Data Format and Conversion
 
 ### Excel Input Format
