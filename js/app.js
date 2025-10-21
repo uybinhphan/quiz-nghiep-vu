@@ -1,5 +1,4 @@
 import * as dom from './dom-elements.js';
-import * as config from './config.js';
 import * as state from './state.js';
 import * as theme from './theme.js';
 import * as ui from './ui-helpers.js';
