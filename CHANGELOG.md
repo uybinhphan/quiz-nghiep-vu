@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.6.0...v1.7.0) (2026-03-16)
+
+
+### Features
+
+* Cập đợt thi mới 2026 đợt 1 ([#76](https://github.com/uybinhphan/quiz-nghiep-vu/issues/76)) ([2cf7012](https://github.com/uybinhphan/quiz-nghiep-vu/commit/2cf701208e79a6ab9a47485677b34dc615b2d879))
+
 ## [1.6.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.5.2...v1.6.0) (2025-10-21)
 
 
