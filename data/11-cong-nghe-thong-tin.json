@@ -1,5 +1,5 @@
 {
-  "originalDisplayName": "11. Công nghệ thông tin",
+  "originalDisplayName": "11. Công nghệ thông tin",
   "questions": [
     {
       "question": "Khách hàng đang có dư nợ thấu chi và hợp đồng thấu chi chưa hết hạn nhưng muốn tất toán và dừng sử dụng hợp đồng thấu chi Giao dịch viên thực hiện trên IPCAS?",
@@ -145,223 +145,36 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định, các linh kiện/ thiết bị phần cứng được thay thế trong kỳ bảo trì cuối cùng của hợp đồng bảo trì phải được bảo hành theo tiêu chuẩn của hãng trong thời gian tối thiểu bao lâu kể từ ngày thay thế?",
+      "question": "Trình tự phát triển phần mềm nghiệp vụ  KHÔNG bao gồm bước:",
       "options": [
-        "03 tháng",
-        "04 tháng",
-        "06 tháng",
-        "12 tháng"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Người dùng ngân hàng đăng nhập sai mật khẩu trên Agribank eBanking bao nhiêu lần thì bị khóa user?",
-      "options": [
-        "02 lần",
-        "03 lần",
-        "04 lần",
-        "05 lần"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Đối với hệ thống Agribank eBanking, Người dùng là Quản trị tại đơn vị, Người dùng tại Trụ sở chính khi cần hỗ trợ trong việc cấp phát/thay đổi/thu hồi Mã người dùng cần viết phiếu yêu cầu gửi đến bộ phận nào xử lý?",
-      "options": [
-        "Người Quản trị toàn hệ thống",
-        "Người quản trị tại đơn vị",
-        "Kiểm soát viên",
-        "Cán bộ quản lý nghiệp vụ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Người dùng là Giao dịch viên/Kiểm soát viên trên hệ thống Agribank eBanking khi cần hỗ trợ trong việc cấp phát/thay đổi/thu hồi Mã người dùng cần viết phiếu yêu cầu gửi đến bộ phận nào xử lý?",
-      "options": [
-        "Người quản trị toàn hệ thống",
-        "Người quản trị tại đơn vị",
-        "Kiểm soát viên",
-        "Cán bộ quản lý nghiệp vụ"
+        "Xác định rõ mục đích, yêu cầu; phân tích yêu cầu và nghiên cứu thiết kế phần mềm",
+        "Ghi nhật ký hỗ trợ",
+        "Hỗ trợ vận hành",
+        "Đóng gói bàn giao"
       ],
       "correctAnswerIndex": 1,
       "source": "N/A"
     },
     {
-      "question": "Bao lâu thì đơn vị phải rà soát lại việc cấp phát, thu hồi quyền truy cập hệ thống Agribank eBanking để đảm bảo thu hồi và điều chỉnh quyền truy cập kịp thời?",
+      "question": "Đơn vị nào thực hiện kiểm tra, thử nghiệm?",
       "options": [
-        "03 tháng",
-        "06 tháng",
-        "01 năm",
-        "Không có quy định"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "VPN trong quản lý truy cập mạng từ xa là gì?",
-      "options": [
-        "Virtual public network",
-        "Vip private network",
-        "Virtual private network",
-        "Virtual personal network"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Kết nối truy cập mạng Agribank từ xa qua VPN phải tuân thủ nguyên tắc nào?",
-      "options": [
-        "Kết nối thông qua cổng VPN tập trung do Trung tâm CNTT quản lý",
-        "Kết nối truy cập từ xa qua VPN vào mạng Agribank đều phải được Trung tâm CNTT phê duyệt",
-        "Người dùng chỉ được sử dụng VPN vào đúng mục đích, hệ thống/ứng dụng đã được phê duyệt",
+        "Đơn vị chủ trì CNTT",
+        "Đơn vị chủ trì nghiệp vụ",
+        "Đơn vị sử dụng",
         "Tất cả các phương án"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
     },
     {
-      "question": "Mọi đề nghị cấp, thay đổi, thu hồi liên quan đến việc quản lý tài khoản và kết nối VPN trong nội bộ Agribank phải được lập, xử lý trên hệ thống?",
+      "question": "Kết quả của quá trình kiểm tra, thử nghiệm là:",
       "options": [
-        "eOffice",
-        "iOffice",
-        "Hệ thống ITSM",
-        "Cổng thông tin điện tử của Agribank"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Kết nối VPN Site-to-Site không áp dụng với đối tượng nào?",
-      "options": [
-        "Đơn vị thuộc Agribank có đề nghị kết nối VPN",
-        "Người dùng cá nhân trực tiếp đề nghị kết nối VPN",
-        "Đối tác/Bên thứ ba có hợp đồng, hợp tác với Agribank có đề nghị kết nối VPN",
-        "Chi nhánh, Phòng giao dịch, Điểm giao dịch lưu động của Agribank có đề nghị kết nối VPN"
+        "Tài liệu hướng dẫn cài đặt",
+        "Báo cáo kết quả kiểm tra, thử nghiệm có xác nhận của Thủ trưởng đơn vị",
+        "Tài liệu hướng dẫn sử dụng chương trình",
+        "Các tài liệu kỹ thuật"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Điều kiện nào không đúng để thiết lập kết nối VPN Site-to-Site?",
-      "options": [
-        "Thiết bị đầu cuối VPN phải được Trung tâm Công nghệ Thông tin cung cấp, và thiết lập mã hóa kết nối sử dụng giao thức DES hoặc 3DES",
-        "Đối tác/bên thứ ba phải có và cung cấp thông tin liên hệ của nhân sự đầu mối kỹ thuật quản lý, quản trị, hỗ trợ xử lý sự cố kết nối VPN",
-        "Đối tác/bên thứ ba phải ký cam kết bảo mật thông tin",
-        "Các kết nối truy cập qua kênh VPN phải xác định rõ địa chỉ máy chủ, cổng dịch vụ, ứng dụng thuộc hệ thống thông tin cần truy cập"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Đầu mối phối hợp tổ chức khảo sát nhu cầu, hiện trạng hệ thống thông tin cần thiết để lập phương án kết nối VPN Site-to-Site với các Đối tác/Bên thứ ba?",
-      "options": [
-        "Đơn vị nghiệp vụ đề nghị thiết lập VPN",
-        "Đơn vị chủ quản hệ thống thông tin",
-        "Phòng Mạng truyền thông",
-        "Trung tâm CNTT"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Đầu mối phối hợp tổ chức khảo sát nhu cầu, hiện trạng hệ thống thông tin cần thiết để lập phương án kết nối VPN Site-to-Site với các Đơn vị, Chi nhánh của Agribank?",
-      "options": [
-        "Phòng Mạng truyền thông",
-        "Đơn vị nghiệp vụ đề nghị thiết lập VPN",
-        "Đơn vị chủ quản hệ thống thông tin",
-        "Trung tâm CNTT"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Điều kiện sử dụng kết nối VPN Remote Access?",
-      "options": [
-        "Các Đơn vị, Chi nhánh, Người dùng khi đăng ký phải nêu rõ thời hạn và mục đích sử dụng kết nối truy cập từ xa qua VPN Remote Access",
-        "Tài khoản kết nối VPN Remote Access khi truy cập vào mạng Agribank phải xác thực đa yếu tố",
-        "Các tài khoản VPN Remote Access truy cập để quản trị, xử lý kỹ thuật hệ thống thông tin phải truy cập qua máy chủ quản lý truy cập trung gian PAM/Jump của hệ thống thông tin cần truy cập",
-        "Tất cả các phương án"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Đối với người sử dụng là Khách hàng, thời hạn sử dụng tối đa của tài khoản VPN Remote Access?",
-      "options": [
-        "06 tháng",
-        "03 tháng",
-        "01 năm",
-        "03 năm"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Khi truy cập vào hệ thống mạng của Agribank sử dụng VPN Remote Access, người dùng cần phải xác thực sử dụng phương pháp nào?",
-      "options": [
-        "Mật khẩu riêng được cấp bởi hệ thống VPN",
-        "Xác thực đa yếu tố",
-        "Xác thực sử dụng tài khoản local trên hệ điều hành Windows của người dùng",
-        "Xác thực sử dụng tài khoản Active Directory nội bộ của người dùng"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Với quy trình cấp, thiết lập tài khoản kết nối VPN Remote Access cho Khách hàng, đề nghị cấp xác thực đa yếu tố được thực hiện bởi ai?",
-      "options": [
-        "Khách hàng",
-        "Chi nhánh",
-        "Đơn vị chủ quản hệ thống thông tin",
-        "Đơn vị nghiệp vụ đề nghị thiết lập VPN"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Với kết nối VPN Remote Access, khi phát hiện hoặc nghi ngờ bị mất/lộ tài khoản, mật khẩu, xác thực đa yếu tố thì Người dùng, Khách hàng phải thông báo ngay cho?",
-      "options": [
-        "Phòng An toàn thông tin",
-        "Phòng Mạng truyền thông",
-        "Phòng Hỗ trợ chi nhánh hoặc Trung tâm Chăm sóc Khách hàng",
-        "Tổng đài tiếp nhận sự cố, Số điện thoại: 0243.8687386 hoặc địa chỉ Email: vpnsupport@agribank.com.vn"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Các Đơn vị nghiệp vụ, Đơn vị chủ quản, Chi nhánh thực hiện rà soát nhu cầu, các thay đổi yêu cầu sử dụng, các tài khoản/kết nối VPN không còn nhu cầu sử dụng của các Đối tác/Bên thứ ba, Chi nhánh, Người dùng, Khách hàng khi nào?",
-      "options": [
-        "Định kỳ 03 (ba) tháng",
-        "Khi có yêu cầu đột xuất",
-        "Định kỳ 06 (sáu) tháng hoặc khi Trung tâm CNTT gửi thông báo yêu cầu đột xuất",
-        "Định kỳ hàng năm"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Khi có sự cố xảy ra với kết nối VPN (không kết nối được, đường truyền chậm, không ổn định, v.v…) thì Đối tác/Bên thứ ba, Đơn vị, Chi nhánh, Người dùng, Khách hàng cần thông báo sự cố qua kênh xử lý nào?",
-      "options": [
-        "Phòng Mạng truyền thông",
-        "Tổng đài tiếp nhận sự cố",
-        "Bộ phận hỗ trợ (Service Desk) của hệ thống ITSM",
-        "Tất cả các đáp án đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Các điều cần tuân thủ để đảm bảo an toàn kết nối VPN vào hệ thống mạng Agribank?",
-      "options": [
-        "Thông báo cho Trung tâm CNTT khóa, thu hồi, thay đổi các tài khoản/kết nối VPN khi thay đổi nhân sự hoặc nhu cầu sử dụng",
-        "Không sử dụng các máy tính công cộng hoặc các thiết bị công cộng có chức năng tương tự máy tính để kết nối và truy cập vào hệ thống thông tin của Agribank",
-        "Các máy chủ quản lý truy cập trung gian PAM/Jump của các hệ thống thông tin phải được chuẩn hóa, chỉ cài đặt những phần mềm phục vụ hỗ trợ từ xa, tăng cường các biện pháp bảo mật",
-        "Tất cả các phương án"
-      ],
-      "correctAnswerIndex": 3,
       "source": "N/A"
     },
     {
@@ -387,25 +200,234 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định, Đơn vị phải hoàn thành xây dựng và trình cấp có thẩm quyền phê duyệt phương án bảo trì trước khi hết hạn bảo hành bao lâu?",
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Cán bộ đã có mã người dùng IPCAS và có thay đổi về vị trí công việc, cần làm gì để mã người dùng IPCAS có đủ quyền thực hiện công việc?",
       "options": [
-        "03 tháng",
-        "06 tháng",
-        "09 tháng",
-        ""
+        "Lập yêu cầu cấp mới CSUS/02 - Phiếu yêu cầu về việc cấp mới Người dùng",
+        "Lập yêu cầu đề nghị cấp quyền chức năng cho mã người dùng theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        "Lập yêu cầu đổi mật khẩu CSUS/09 - Phiếu yêu cầu về việc thay đổi mật khẩu của Người dùng trên IPCAS",
+        "Lập phiếu xác nhận mã người dùng theo mẫu CSUS/07 - Bản xác nhận về việc tiếp nhận mã người dùng và mật khẩu truy cập vào IPCAS"
       ],
       "correctAnswerIndex": 1,
       "source": "N/A"
     },
     {
-      "question": "Theo Quy trình bảo hành bảo trì trang thiết bị tin học trong hệ thống Agribank, quy định thời hạn bảo hành như thế nào?",
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Để đảm bảo an toàn bảo mật user, cán bộ trước khi nghỉ phép, được cử đi tập huấn, đi học, đi họp cần thực hiện:",
       "options": [
-        "Tối thiểu 03 năm đối với trang thiết bị dự án nhóm A; 02 năm với dự án nhóm B",
-        "Tối thiểu 02 năm đối với trang thiết bị dự án nhóm A; Tối thiểu 01 năm với dự án nhóm B",
-        "36 tháng",
+        "Lập đề nghị thu hồi tạm thời mã người dùng được cấp theo mẫu CSUS/08 - Phiếu yêu cầu về việc thu hồi mã người dùng",
+        "Giao mã người dùng cho cán bộ khác",
+        "Đề nghị cấp mới thêm mã người dùng",
         ""
       ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Cán bộ cần thay đổi quyền hạch toán sổ cái của mã người dùng trên IPCAS cần thực hiện:",
+      "options": [
+        "Lập yêu cầu Đề nghị cấp quyền hạch toán theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        "Lập yêu cầu đổi mật khẩu CSUS/08 - Phiếu yêu cầu về việc thu hồi mã người dùng",
+        "Lập phiếu xác nhận mã người dùng theo mẫu CSUS/07 - bản xác nhận về việc tiếp nhận mã người dùng và mật khẩu truy cập vào IPCAS",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Cán bộ cần thay đổi thời gian đăng nhập hệ thống IPCAS cần thực hiện:",
+      "options": [
+        "Lập yêu cầu cấp mới theo mẫu CSUS/02 - Phiếu yêu cầu về việc cấp mới Người dùng",
+        "Lập yêu cầu thay đổi thời gian đăng nhập theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        "Lập yêu cầu đổi mật khẩu theo mẫu CSUS/09 - Phiếu yêu cầu về việc thay đổi mật khẩu của Người dùng trên IPCAS",
+        "Lập phiếu xác nhận user theo mẫu CSUS/07 - Bản xác nhận về việc tiếp nhận mã người dùng và mật khẩu truy cập vào IPCAS"
+      ],
       "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Trường hợp user của cán bộ có sử dụng phương thức xác thực đăng nhập bằng thiết bị bảo mật (usb token, smart card) nhưng thiết bị bị hỏng, chứng thư số hết hạn, cán bộ cần đăng nhập IPCAS để giải phóng khách hàng, cán bộ cần thực hiện:",
+      "options": [
+        "Lập yêu cầu đề nghị thay đổi phương thức xác thực đăng nhập chỉ dùng mật khẩu, nêu rõ lý do, sử dụng mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        "Lập yêu cầu mở khóa mã người dùng theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        "Lập yêu cầu đổi địa chỉ MAC theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Mã người dùng của cán bộ được kiểm soát đăng nhập bằng địa chỉ MAC máy tính của cán bộ. Trường hợp cán bộ thay đổi máy tính để đăng nhập IPCAS cần thực hiện:",
+      "options": [
+        "Lập yêu cầu thay đổi địa chỉ MAC theo máy tính mới để được phép đăng nhập, Theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        "Lập yêu cầu đề nghị cấp quyền hạch toán theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        "Lập yêu cầu đổi mật khẩu CSUS/09 - Phiếu yêu cầu về việc thay đổi mật khẩu của Người dùng trên IPCAS",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Trường hợp cán bộ quên mật khẩu đăng nhập cần thực hiện:",
+      "options": [
+        "Lập yêu cầu đề nghị đổi mật khẩu theo mẫu CSUS/09 - Phiếu yêu cầu về việc thay đổi mật khẩu của Người dùng trên IPCAS",
+        "Lập yêu cầu thay đổi địa chỉ MAC theo máy tính mới để được phép đăng nhập, theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        "Lập yêu cầu đề nghị cấp quyền hạch toán theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Trường hợp mã người dùng bị tạm khóa do thao tác nhập liệu vô tình gây sai mật khẩu quá số lần quy định và bị tạm khóa mã người dùng, cán bộ cần làm gì để sử dụng lại được mã người dùng?",
+      "options": [
+        "Lập yêu cầu Mở khóa mã người dùng theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS để được xử lý và sau đó nhập đúng mật khẩu sử dụng",
+        "Lập yêu cầu đổi mật khẩu theo mẫu CSUS/09 - Phiếu yêu cầu về việc thay đổi mật khẩu của Người dùng trên IPCAS",
+        "Lập phiếu xác nhận user theo mẫu CSUS/07 - Bản xác nhận về việc tiếp nhận mã người dùng và mật khẩu truy cập vào IPCAS",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Trường hợp cán bộ được điều động hỗ trợ đơn vị khác trong thời hạn không quá 03 tháng cần thực hiện điều gì?",
+      "options": [
+        "Lập yêu cầu thu hồi tạm thời mã người dùng theo mẫu CSUS/08 - Phiếu yêu cầu về việc thu hồi mã người dùng",
+        "Lập yêu cầu đổi mật khẩu theo mẫu CSUS/09 - Phiếu yêu cầu về việc thay đổi mật khẩu của Người dùng trên IPCAS",
+        "Lập phiếu xác nhận user theo mẫu CSUS/07 - Bản xác nhận về việc tiếp nhận mã người dùng và mật khẩu truy cập vào IPCAS",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Trường hợp cán bộ được điều động hỗ trợ đơn vị khác quá 03 tháng, lãnh đạo quản lý trực tiếp cần làm gì cần thực hiện điều gì?",
+      "options": [
+        "Chỉ đạo Lập yêu cầu thu hồi vĩnh viễn mã người dùng theo mẫu CSUS/08 - Phiếu yêu cầu về việc thu hồi mã người dùng",
+        "Lập yêu cầu đổi mật khẩu theo mẫu CSUS/09 - Phiếu yêu cầu về việc thay đổi mật khẩu của Người dùng trên IPCAS",
+        "Lập phiếu xác nhận user theo mẫu CSUS/07 - Bản xác nhận về việc tiếp nhận mã người dùng và mật khẩu truy cập vào IPCAS",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Cán bộ đang ký hợp đồng thử việc với Agribank có được cấp mã người dùng phần mềm IPCAS không?",
+      "options": [
+        "Không",
+        "Có",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Một cán bộ được cấp bao nhiêu mã người dùng trên một mã cân đối của phần mềm IPCAS",
+      "options": [
+        "01",
+        "02",
+        "03",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Có bao nhiêu loại người dùng?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Người quản trị IPCAS có mấy loại?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Yêu cầu về hợp đồng đối với cán bộ Agribank để được cấp mã người dùng truy cập IPCAS là gì?",
+      "options": [
+        "Hợp đồng thời vụ",
+        "Hợp đồng lao động xác định thời hạn 12 tháng",
+        "Hợp đồng lao động không xác định thời hạn",
+        "Hợp đồng lao động không xác định thời hạn hoặc Hợp đồng lao động xác định thời hạn tối thiểu 12 tháng trở lên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Các văn bản cần thiết cho yêu cầu cấp mới mã người dùng quản trị bao gồm những gì?",
+      "options": [
+        "Quyết định phân công cán bộ quản trị IPCAS",
+        "Mẫu CSUS01 - Phiếu yêu cầu cấp mới, thay đổi thông tin Người quản trị/Người quản trị chức năng nhân sự tại đơn vị",
+        "Tất cả đáp án trên",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Số lượng tối thiểu Người quản trị IPCAS tại đơn vị là bao nhiêu?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Người dùng cần làm gì để sử dụng lại mã người dùng bị thu hồi tạm thời?",
+      "options": [
+        "Lập yêu cầu mở khóa mã người dùng theo mẫu CSUS/03 - Phiếu yêu cầu về việc thay đổi thông tin Người dùng, quyền giao dịch trên IPCAS để được xử lý và sau đó nhập đúng mật khẩu sử dụng",
+        "Lập yêu cầu đổi mật khẩu theo mẫu CSUS/09 - Phiếu yêu cầu về việc thay đổi mật khẩu của Người dùng trên IPCAS",
+        "Lập phiếu xác nhận user theo mẫu CSUS/07 - Bản xác nhận về việc tiếp nhận mã người dùng và mật khẩu truy cập vào IPCAS",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Mã người dùng là gì?",
+      "options": [
+        "Là chuỗi ký tự được cấp duy nhất trên một mã cân đối cho từng cán bộ tham gia vào hệ thống để làm căn cứ tham chiếu đến họ và tên Người dùng",
+        "Mã người dùng có định dạng [CNH][XXXXXXX], trong đó CNH là ký tự viết tắt của đơn vị có độ dài từ 02 đến 03 ký tự, XXXXXXX là ký tự viết tắt của họ và tên của Người dùng có độ dài từ 02 đến 07 ký tự",
+        "Tất cả đáp án trên",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Người dùng là gì?",
+      "options": [
+        "Là cán bộ nhân viên Agribank được cấp mã người dùng và mật khẩu để truy cập vào IPCAS",
+        "Là cán bộ nhân viên Agribank",
+        "Là khách hàng của Agribank được cấp mã người dùng và mật khẩu để truy cập vào IPCAS",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quyết định số 2779/QĐ-NHNo-CNTT. Người dùng tại Trụ sở chính là gì?",
+      "options": [
+        "Là cán bộ nhân viên Agribank được cấp mã người dùng và mật khẩu để truy cập vào IPCAS",
+        "Là cán bộ nhân viên Agribank được cấp mã người dùng và mật khẩu trên mã cân đối của đơn vị để truy cập vào IPCAS",
+        "Là người dùng được cấp trên mã cân đối 1000, 1050",
+        ""
+      ],
+      "correctAnswerIndex": 2,
       "source": "N/A"
     },
     {
@@ -492,116 +514,6 @@
         "Bộ phận hỗ trợ mức 2",
         "Bộ phận hỗ trợ mức 1 (Service Desk)",
         ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Khi người dùng chuyển công tác hoặc nghỉ việc thì cần làm những việc như nào đối với chứng thư số của mình đang sử dụng.",
-      "options": [
-        "Không cần làm gì",
-        "Báo cho bộ phận quản trị CNTT tại chi nhánh",
-        "Bàn giao thiết bị token cho bộ phận quản trị CNTT tại Chi nhánh",
-        "Gửi yêu cầu đề nghị thu hồi chứng thư số của mình"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Khi nghỉ chế độ, nghỉ ốm, nghỉ phép, đi học... hoặc không dùng đến chữ ký số và chứng thư số của mình từ bao nhiêu ngày trở lên. Người dùng cuối phải làm thủ tục để tạm ngưng hoạt động của chứng thư số theo quy định của Ngân hàng nông nghiệp.",
-      "options": [
-        "05 ngày",
-        "10 ngày",
-        "15 ngày",
-        "30 ngày"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Định kỳ bao nhiêu ngày người dùng cần thay đổi PIN của thiết mật khẩu đăng nhập vào thiết bị lưu trữ khóa bí mật (như smartcard, etoken, USB token ...)",
-      "options": [
-        "15 ngày",
-        "30 ngày",
-        "60 ngày",
-        "90 ngày"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Khi dùng thiết bị bảo mật xong hoặc không dùng nữa, người dùng cần làm như nào để đảm bảo an toàn theo quy định của Agribank?",
-      "options": [
-        "Vẫn cắm vào máy tính để tiện sử dụng các lần sau",
-        "Tắt chương trình phần mềm quản lý token trên máy tính",
-        "Tắt chương trình phần mềm quản lý token trên máy tính, sau đó rút thiết bị token ra khỏi máy tính",
-        "Tắt máy tính"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Người dùng sử dụng driver của thiết bị bảo mật (như smartcard, etoken, USB token ...) từ nguồn nào để đảm bảo an toàn theo quy định của Agribank?",
-      "options": [
-        "Người dùng sử dụng phần mềm driver được cung cấp bởi bộ phận quản trị PKI của TTCNTT  phù hợp quy định của Agribank và Bộ Thông tin & Truyền thông",
-        "Người dùng xin phần mềm của cán bộ quản trị CNTT tại Chi nhánh",
-        "Người dùng xin phần mềm driver của những người dùng khác trong cùng Chi nhánh",
-        "Người dùng tìm kiếm driver của thiết bị bảo mật trên Internet theo tên thiết bị"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Tiêu chuẩn cán bộ như nào thì đủ điều kiện để được cấp chứng thư số?",
-      "options": [
-        "Tất cả các các bộ thuộc Agribank",
-        "Là cán bộ trong định biên của NHNo, ký hợp đồng lao động có thời hạn từ\r\n12 tháng trở lên",
-        "Là cán bộ trong định biên của NHNo, ký hợp đồng lao động có thời hạn từ\r\n12 tháng trở lên; Không vi phạm pháp luật, quy định của Ngành",
-        "Là cán bộ trong định biên của NHNo, ký hợp đồng lao động có thời hạn từ\r\n12 tháng trở lên; Không vi phạm pháp luật, quy định của Ngành; Ký đơn đề nghị xin cấp chữ ký số và chứng thư số"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Các chứng thư số như nào thì đủ điều kiện để gửi yêu cầu gia hạn?",
-      "options": [
-        "Các chứng thư số đã hết hạn",
-        "Các chứng thư số bị thu hồi",
-        "Các chứng thư số bị tạm dừng",
-        "Các chứng thư số từ 30 ngày trước khi chứng\r\nthư số hết hạn cho tới 30 ngày sau thời điểm chứng thư số hết hạn"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Khi khóa bí mật của người dùng bị mất/lộ hoặc nghi ngờ bị mất/lộ hoặc không có nhu cầu sử dụng nữa thì người dùng cần làm gì để đảm bảo an toàn theo quy định của Agribank?",
-      "options": [
-        "Người dùng gửi yêu cầu thu hồi chứng thư số",
-        "Người dùng gửi yêu cầu tạm dừng chứng thư số",
-        "Người dùng gửi yêu cầu bỏ tạm dừng chứng thư số",
-        "Người dùng vẫn sử dụng bình thường"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Thời hạn xử lý thu hồi chứng thư số tối đa từ khi nhận được yêu cầu của người dùng cuối là bao lâu?",
-      "options": [
-        "01 ngày",
-        "02 ngày",
-        "03 ngày",
-        "04 ngày"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Khi hệ thống, dịch vụ có ứng dụng PKI có lỗi (do PKI hoặc do thiết bị bảo mật) thì người dùng cuối phải làm những bước nào?",
-      "options": [
-        "Người dùng cuối tự tìm cách sửa các lỗi phát sinh",
-        "Người dùng cuối thông báo cho cán bộ phụ trách CNTT tại chi nhánh",
-        "Người dùng cuối thông báo cho cán bộ phụ trách CNTT tại chi nhánh; Trong trường hợp khẩn cấp (mà không liên lạc được với cán bộ phụ trách CNTT của chi nhánh) người dùng cuối có thể gửi yêu cầu trước đến trung tâm miền để xử lý, rồi phối hợp với cán bộ phụ trách CNTT của chi nhánh hoàn thiện thủ tục gửi trung tâm MPKI miền sau",
-        "Người dùng cuối liên hệ với trung tâm miền để xử lý"
       ],
       "correctAnswerIndex": 2,
       "source": "N/A"
@@ -1971,424 +1883,6 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, nếu phát hiện ra hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân thì công dân có thể phản ánh qua đâu? (chọn đáp án đúng nhất)",
-      "options": [
-        "Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao - Bộ Công an",
-        "Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân",
-        "Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao - Bộ Công an và Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, cơ quan chuyên trách bảo vệ dữ liệu cá nhân là gì?",
-      "options": [
-        "Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao - Bộ Công an",
-        "Cục Cảnh sát quản lý hành chính về Trật tự xã hội",
-        "Cục Thông tin khoa học và công nghệ quốc gia",
-        "Cục Thu thập dữ liệu và Ứng dụng công nghệ thông tin thống kê"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, dữ liệu cá nhân được chia thành mấy loại?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, đâu KHÔNG phải là dữ liệu cá nhân cơ bản?",
-      "options": [
-        "Họ và Tên",
-        "Giới tính",
-        "Thông tin về đặc điểm di truyền",
-        "Tình trạng hôn nhân"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, đâu KHÔNG phải là hành vi bị nghiêm cấm trong bảo vệ dữ liệu cá nhân?",
-      "options": [
-        "Xử lý dữ liệu cá nhân trái với quy định của pháp luật về bảo vệ dữ liệu cá nhân",
-        "Cản trở hoạt động bảo vệ dữ liệu cá nhân của cơ quan có thẩm quyền",
-        "Xử lý dữ liệu cá nhân để tạo ra thông tin, dữ liệu gây ảnh hưởng tới an ninh quốc gia, trật tự an toàn xã hội, quyền và lợi ích hợp pháp của tổ chức, cá nhân khác",
-        "Sử dụng dữ liệu cá nhân để phục vụ công tác điều tra khi có sự đồng ý bằng văn bản của chủ thể dữ liệu"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, sau khi chủ thể dữ liệu đã đồng ý (bằng văn bản) cho phép bên kiểm soát và xử lý dữ liệu sử dụng dữ liệu cá nhân của mình để phục vụ công tác điều tra của bên thứ ba. Theo anh chị, chủ thể dữ liệu có được quyền rút lại sự đồng ý đó không?",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân có hiệu lực thi hành từ thời điểm nào?",
-      "options": [
-        "01/01/2023",
-        "01/7/2023",
-        "01/01/2024",
-        "01/9/2023"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân có áp dụng đối với các Đại sứ quán Việt Nam tại nước ngoài hay không?",
-      "options": [
-        "Không",
-        "Có",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, hình ảnh của cá nhân có phải là dữ liệu cá nhân không?",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, quan điểm chính trị, quan điểm tôn giáo có được coi là dữ liệu cá nhân hay không?",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, cơ quan, tổ chức, cá nhân vi phạm quy định bảo vệ dữ liệu cá nhân tùy theo mức độ có thể bị xử lý như thế nào?",
-      "options": [
-        "Kỷ luật",
-        "Xử phạt vi phạm hành chính",
-        "Xử lý hình sự",
-        "Tất cả các đáp án đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, đâu KHÔNG phải là quyền của chủ thể dữ liệu?",
-      "options": [
-        "Quyền được biết",
-        "Quyền truy cập",
-        "Quyền cung cấp dữ liệu",
-        "Quyền yêu cầu tôn trọng dữ liệu cá nhân của mình"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, chủ thể dữ liệu tự nguyện đồng ý bằng văn bản cho bên thứ 3 sử dụng dữ liệu cá nhân của mình khi biết mục đích sử dụng dữ liệu, đơn vị sử dụng dữ liệu cá nhân đó. Tuy nhiên, chủ thể chưa biết loại dữ liệu cá nhân được sử dụng thì sự đồng ý này có hiệu lực không?",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Gia đình đã mất liên lạc với chị A suốt 48h qua. Gia đình đến cơ quan công an trình báo. Lúc này cơ quan công an và những đơn vị liên quan sử dụng dữ liệu cá nhân của chị A (lúc này chưa có Sự đồng ý của chị) để phục vụ công tác điều tra, tìm kiếm người mất tích. Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, hành động này có được phép không?",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Cháu H.B 8 tuổi, cha mẹ cháu đã đồng ý bằng văn bản cho bên thứ 3 sử dụng dữ liệu cá nhân của cháu nhưng cháu chưa đồng ý. Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân thì sự đồng ý này có hiệu lực không?",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, trong trường hợp khẩn cấp cần phải chuyển dữ liệu của một số cá nhân là công dân Việt Nam sang Đại sứ quán Việt Nam ở nước ngoài thì bên chuyển dữ liệu ra nước ngoài bắt buộc phải lập hồ sơ gì?",
-      "options": [
-        "Phiếu yêu cầu cung cấp dữ liệu cá nhân (dành cho tổ chức, doanh nghiệp)",
-        "Thông báo gửi hồ sơ đánh giá tác động xử lý dữ liệu cá nhân",
-        "Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài",
-        "Thông báo vi phạm về quy định bảo vệ dữ liệu cá nhân"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, cơ quan nào có trách nhiệm xây dựng Tiêu chuẩn bảo vệ dữ liệu cá nhân và các khuyến nghị áp dụng Tiêu chuẩn bảo vệ dữ liệu cá nhân?",
-      "options": [
-        "Bộ Quốc phòng",
-        "Bộ Thông tin và Truyền thông",
-        "Bộ Công an và Bộ Khoa học và Công nghệ",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, trong trường hợp nào thì đơn vị liên quan có thể ĐƯỢC chỉnh sửa dữ liệu cá nhân?",
-      "options": [
-        "Bên Xử lý dữ liệu cá nhân và Bên thứ ba được chỉnh sửa sau khi nhận được Sự đồng ý của Bên Kiểm soát dữ liệu cá nhân bằng văn bản",
-        "Bên Kiểm soát dữ liệu cá nhân được chỉnh sửa sau khi nhận được Sự đồng ý của chủ thể dữ liệu cá nhân đó",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, quyền của chủ thể dữ liệu bao gồm?",
-      "options": [
-        "Quyền hạn chế xử lý dữ liệu",
-        "Quyền cung cấp dữ liệu",
-        "Quyền khiếu nại, tố cáo, khởi kiện",
-        "Tất cả các đáp án đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, sự im lặng hoặc không phải hồi của chủ thể dữ liệu có được coi là sự đồng ý hay không?",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, trong trường hợp có tranh chấp, trách nhiệm chứng minh sự đồng ý của chủ thể dữ liệu thuộc về?",
-      "options": [
-        "Bên kiểm soát dữ liệu cá nhân",
-        "Bên kiểm soát và sự xử dữ liệu cá nhân",
-        "Tất cả các đáp án đều đúng",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, trong các trường hợp thông thường, sau khi có yêu cầu của chủ thể dữ liệu, việc cung cấp dữ liệu cá nhân của chủ thể dữ liệu được thực hiện trong khoảng thời gian bao lâu?",
-      "options": [
-        "24 giờ",
-        "48 giờ",
-        "72 giờ",
-        "96 giờ"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, chủ thể dữ liệu có thể Ủy quyền cho người khác đến trụ sở Bên Kiểm soát dữ liệu cá nhân, Bên kiểm soát và xử lý dữ liệu cá nhân để yêu cầu cung cấp dữ liệu cá nhân hay không",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, việc xử lý dữ liệu cá nhân của trẻ em phải có sự đồng ý của trẻ em trong trường hợp trẻ em từ bao nhiêu tuổi trở lên?",
-      "options": [
-        "6 tuổi",
-        "7 tuổi",
-        "12 tuổi",
-        "15 tuổi"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, đâu KHÔNG phải là trách nhiệm của Bộ Công an?",
-      "options": [
-        "Giúp chính phủ thống nhất thực hiện quản lý nhà nước về bảo vệ dữ liệu cá nhân",
-        "Xây dựng, quản lý, vận hành Cổng thông tin quốc gia  về bảo vệ dữ liệu cá nhân",
-        "Chỉ đạo các cơ quan truyền thông, báo chí, tổ chức và doanh nghiệp thuộc lĩnh vực quản lý thực hiện bảo vệ dữ liệu cá nhân theo quy định",
-        "Đánh giá kết quả công tác bảo vệ dữ liệu cá nhân của cơ quan, tổ chức, cá nhân có liên quan"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, đâu KHÔNG phải là trách nhiệm của bộ Thông tin và Truyền thông?",
-      "options": [
-        "Đánh giá kết quả công tác bảo vệ dữ liệu cá nhân của cơ quan, tổ chức, cá nhân có liên quan",
-        "Chỉ đạo các cơ quan truyền thông, báo chí, tổ chức và doanh nghiệp thuộc lĩnh vực quản lý thực hiện bảo vệ dữ liệu cá nhân theo quy định",
-        "Phối hợp với Bộ công an thanh tra, kiểm tra, xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, đâu KHÔNG phải là trách nhiệm của Bộ Quốc phòng?",
-      "options": [
-        "Quản lý, thanh tra các quy định về bảo vệ dữ liệu cá nhân đối với các cơ quan, tổ chức, cá nhân thuộc phạm vi quản lý của Bộ quốc phòng",
-        "Kiểm tra, giám sát, xử lý vi phạm về bảo vệ dữ liệu cá nhân đối với các cơ quan, tổ chức, cá nhân thuộc phạm vi quản lý của Bộ quốc phòng",
-        "Tiếp nhận hồ sơ, biểu mẫu, thông tin về bảo vệ dữ liệu cá nhân theo quy định",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, đâu KHÔNG phải là trách nhiệm của Bộ Khoa học công nghệ?",
-      "options": [
-        "Phối hợp với Bộ công an trong xây dựng tiêu chuẩn bảo vệ dữ liệu cá nhân",
-        "Nghiên cứu trao đổi với Bộ Công an về các biện pháp bảo vệ dữ liệu cá nhân theo kịp sự phát triển của khoa học công nghệ",
-        "Phối hợp với Bộ công an thanh tra, kiểm tra, xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, trách nhiệm của Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ là gì?",
-      "options": [
-        "Thực hiện quản lý nhà nước đối với bảo vệ dữ liệu cá nhân",
-        "Bổ sung các quy định bảo vệ dữ liệu cá nhân trong xây dựng, triển khai các nhiệm vụ của các bộ ngành",
-        "Bố trí kinh phí phục vụ hoạt động bảo vệ dữ liệu cá nhân theo phân cấp quản lý ngân sách hiện hành",
-        "Tất cả các đáp án đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, đâu KHÔNG phải là trách nhiệm của Bên Kiểm soát dữ liệu cá nhân?",
-      "options": [
-        "Ghi lại và lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân",
-        "Lựa chọn bên Xử lý dữ liệu cá nhân phù hợp với nhiệm vụ rõ ràng và chỉ làm việc với bên xử lý dữ liệu cá nhân có các biện pháp bảo vệ phù hợp",
-        "Giúp chính phủ thống nhất thực hiện quản lý nhà nước về bảo vệ dữ liệu cá nhân",
-        "Chịu trách nhiệm trước chủ thể dữ liệu về các thiệt hại do quá trình xử lý dữ liệu cá nhân gây ra"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, đâu KHÔNG phải là trách nhiệm của Bên Xử lý dữ liệu cá nhân?",
-      "options": [
-        "Chỉ tiếp nhận dữ liệu cá nhân sau khi có hợp đồng hoặc thỏa thuận về xử lý dữ liệu với Bên kiểm soát dữ liệu cá nhân",
-        "Xứ lý dữ liệu cá nhân theo đúng hợp đồng hoặc thỏa thuận ký kết với Bên Kiểm soát dữ liệu cá nhân",
-        "Chịu trách nhiệm trước chủ thể dữ liệu về các thiệt hại do quá trình xử lý dữ liệu cá nhân gây ra",
-        "Ban hành danh mục dữ liệu mở phù hợp với Quy định bảo vệ dữ liệu cá nhân"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, kể từ khi thành lập, Doanh nghiệp nhỏ và vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian bao lâu?",
-      "options": [
-        "1 năm đầu",
-        "2 năm đầu",
-        "3 năm đầu",
-        "5 năm đầu"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, hành vi nào bị nghiêm cấm?",
-      "options": [
-        "Xử lý dữ liệu cá nhân trái với quy định của pháp luật về bảo vệ dữ liệu cá nhân",
-        "Xử lý dữ liệu cá nhân để tạo ra thông tin, dữ liệu nhằm chống lại nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam",
-        "Cản trở hoạt động bảo vệ dữ liệu cá nhân của cơ quan có thẩm quyền",
-        "Tất cả các đáp án đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, quyền của chủ thể dữ liệu là gì?",
-      "options": [
-        "Quyền truy cập",
-        "Quyền rút lại sự đồng ý",
-        "Quyền xóa dữ liệu",
-        "Tất cả các đáp án đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, quyền yêu cầu bồi thường thiệt hại có thuộc Quyền của chủ thể dữ liệu hay không?",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, nghĩa vụ của chủ thể dữ liệu là gì?",
-      "options": [
-        "Tôn trọng, bảo vệ dữ liệu cá nhân của người khác",
-        "Tự bảo vệ dữ liệu cá nhân của mình; yêu cầu các tổ chức, cá nhân khác có liên quan bảo vệ dữ liệu cá nhân của mình",
-        "Tham gia tuyên truyền, phổ biến kỹ năng bảo vệ dữ liệu cá nhân",
-        "Tất cả các đáp án đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, thời gian hoàn thiện hồ sơ dành cho Bên chuyển dữ liệu ra nước ngoài là bao lâu kể từ ngày yêu cầu?",
-      "options": [
-        "3 ngày",
-        "5 ngày",
-        "7 ngày",
-        "10 ngày"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân, việc Chỉ đạo các cơ quan truyền thông, báo chí, tổ chức và doanh nghiệp thuộc lĩnh vực quản lý thực hiện bảo vệ dữ liệu cá nhân theo quy định là trách nhiệm của Bộ nào?",
-      "options": [
-        "Bộ Thông tin và Truyền thông",
-        "Bộ Công an",
-        "Bộ Quốc phòng",
-        "Bộ Khoa học và công nghệ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
       "question": "Địa chỉ IP lớp A có dạng nào?",
       "options": [
         "192.168.x.x",
@@ -2433,6 +1927,39 @@
       "source": "N/A"
     },
     {
+      "question": "MAC address là gì?",
+      "options": [
+        "Địa chỉ IP tĩnh",
+        "Địa chỉ vật lý của thiết bị mạng",
+        "Cổng dịch vụ",
+        "Tên miền"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Wi-Fi hoạt động ở băng tần nào?",
+      "options": [
+        "1GHz",
+        "2.4GHz và 5GHz",
+        "3.5GHz",
+        "6GHz"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Chế độ Full-duplex là?",
+      "options": [
+        "Truyền một chiều",
+        "Ngắt quãng",
+        "Truyền đồng thời hai chiều",
+        "Chỉ gửi không nhận"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
       "question": "Mục đích của mô hình OSI?",
       "options": [
         "Mã hóa dữ liệu",
@@ -2455,61 +1982,6 @@
       "source": "N/A"
     },
     {
-      "question": "Routing Table chứa thông tin gì?",
-      "options": [
-        "Người dùng",
-        "Địa chỉ MAC",
-        "Định tuyến mạng",
-        "Mật khẩu Wi-Fi"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Cáp chéo (crossover) dùng khi nào?",
-      "options": [
-        "Kết nối thiết bị cùng loại",
-        "Kết nối Internet",
-        "Lưu trữ dữ liệu",
-        "Định tuyến"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Ứng dụng để SSH đến server?",
-      "options": [
-        "Word",
-        "Chrome",
-        "Putty",
-        "Excel"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Mạng Peer-to-Peer có đặc điểm gì?",
-      "options": [
-        "Phụ thuộc server",
-        "Không chia sẻ tài nguyên",
-        "Thiết bị ngang hàng",
-        "Bảo mật cao"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Mạng Client-Server có lợi thế gì?",
-      "options": [
-        "Chia sẻ công bằng",
-        "Không cần server",
-        "Quản lý tập trung",
-        "Không yêu cầu mạng"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
       "question": "SSID trong mạng Wi-Fi là gì?",
       "options": [
         "Địa chỉ MAC",
@@ -2518,6 +1990,17 @@
         "Cổng mạng"
       ],
       "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Thiết bị phát Wi-Fi là?",
+      "options": [
+        "Modem",
+        "Switch",
+        "Access Point",
+        "Router"
+      ],
+      "correctAnswerIndex": 2,
       "source": "N/A"
     },
     {
@@ -2554,6 +2037,50 @@
       "source": "N/A"
     },
     {
+      "question": "Giao thức kết nối không tin cậy?",
+      "options": [
+        "TCP",
+        "UDP",
+        "HTTPS",
+        "SSH"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Số lớp mạng trong địa chỉ IP?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Kết nối mạng nhanh nhất?",
+      "options": [
+        "Wi-Fi",
+        "Bluetooth",
+        "Ethernet",
+        "4G"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Switch chuyển tiếp dữ liệu dựa trên?",
+      "options": [
+        "Địa chỉ IP",
+        "Địa chỉ MAC",
+        "Tên thiết bị",
+        "Cổng dịch vụ"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
       "question": "Switch khác Hub ở điểm nào?",
       "options": [
         "Chậm hơn",
@@ -2584,6 +2111,28 @@
         "Tạo DNS"
       ],
       "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "VLAN trên switch giúp?",
+      "options": [
+        "Tăng tốc độ xử lý",
+        "Phân chia mạng logic",
+        "Bảo mật phần mềm",
+        "Giảm nhiễu"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Switch quản lý được gọi là?",
+      "options": [
+        "Managed switch",
+        "Central switch",
+        "Static switch",
+        "Auto switch"
+      ],
+      "correctAnswerIndex": 0,
       "source": "N/A"
     },
     {
@@ -2631,12 +2180,463 @@
       "source": "N/A"
     },
     {
+      "question": "Công nghệ ảo hóa cho phép gì?",
+      "options": [
+        "Tăng dung lượng RAM",
+        "Chạy nhiều hệ điều hành trên cùng phần cứng",
+        "Nén dữ liệu",
+        "Bảo vệ dữ liệu"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
       "question": "Hypervisor loại 1 hoạt động như thế nào?",
       "options": [
         "Cài trên hệ điều hành",
         "Cài trực tiếp trên phần cứng",
         "Trên trình duyệt",
         "Chạy trong container"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Điện toán đám mây là gì?",
+      "options": [
+        "Lưu trữ tạm thời",
+        "Chia sẻ mạng LAN",
+        "Cung cấp tài nguyên CNTT qua Internet",
+        "Mã hóa dữ liệu"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Docker là gì?",
+      "options": [
+        "Hypervisor",
+        "Hệ điều hành",
+        "Công cụ ảo hóa phần cứng",
+        "Công cụ quản lý container"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Kubernetes được dùng để?",
+      "options": [
+        "Lập trình website",
+        "Tự động hóa quản lý container",
+        "Tạo file PDF",
+        "Backup cơ sở dữ liệu"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Tính năng nổi bật của container so với VM là gì?",
+      "options": [
+        "Tốn nhiều tài nguyên hơn",
+        "Khởi động nhanh và nhẹ hơn",
+        "Có GUI",
+        "Yêu cầu GPU"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Kubernetes Node là gì?",
+      "options": [
+        "1 tập lệnh",
+        "Máy tính chạy container",
+        "File cấu hình",
+        "Port mạng"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Public cloud là gì?",
+      "options": [
+        "Hạ tầng nội bộ",
+        "Dịch vụ cloud cung cấp qua internet công cộng",
+        "Cloud riêng tư trong doanh nghiệp",
+        "Hệ thống lưu trữ offline"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Hybrid cloud là gì?",
+      "options": [
+        "Cloud kết hợp giữa Public và Private",
+        "Mạng nội bộ",
+        "Cloud dùng trong lập trình game",
+        "Dạng mạng LAN ảo"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Persistent Volume trong Kubernetes là gì?",
+      "options": [
+        "RAM ảo",
+        "Ổ lưu trữ tạm",
+        "Ổ lưu trữ bền vững",
+        "Log output"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Private cloud thường dùng trong?",
+      "options": [
+        "Doanh nghiệp, tổ chức lớn",
+        "Dịch vụ công cộng",
+        "Website cá nhân",
+        "Blog cá nhân"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Lợi ích của cloud là gì?",
+      "options": [
+        "Tăng chi phí đầu tư",
+        "Mở rộng linh hoạt, trả phí theo mức sử dụng",
+        "Phụ thuộc vào phần cứng",
+        "Giảm hiệu suất"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "SAN là viết tắt của gì?",
+      "options": [
+        "Server Area Network",
+        "System Access Node",
+        "Storage Area Network",
+        "Secure Access Network"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Giao thức phổ biến nhất sử dụng trong SAN là gì?",
+      "options": [
+        "Ethernet",
+        "Fibre Channel",
+        "TCP/IP",
+        "HTTP"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Chức năng chính của SAN-Switch là gì?",
+      "options": [
+        "Phân giải DNS",
+        "Kết nối thiết bị lưu trữ trong SAN",
+        "Chia sẻ Internet",
+        "Gửi email"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Thiết bị nào thường kết nối với SAN-Switch?",
+      "options": [
+        "Máy in",
+        "Máy chủ và Storage (LUN)",
+        "Máy tính cá nhân",
+        "Modem"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Zoning trong SAN có tác dụng gì?",
+      "options": [
+        "Tăng tốc độ CPU",
+        "Phân quyền truy cập trong mạng lưu trữ",
+        "Mã hóa dữ liệu",
+        "Định tuyến IP"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Giao diện cổng kết nối phổ biến trên SAN-Switch là?",
+      "options": [
+        "RJ45",
+        "USB",
+        "SFP/SFP+ (Fibre Channel Port)",
+        "HDMI"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "SAN thường được sử dụng trong?",
+      "options": [
+        "Mạng gia đình",
+        "Văn phòng nhỏ",
+        "Trung tâm dữ liệu và hệ thống doanh nghiệp",
+        "Quán net"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Fabric trong SAN có nghĩa là gì?",
+      "options": [
+        "Tên giao thức",
+        "Mạng liên kết giữa các SAN Switch",
+        "Ổ cứng vật lý",
+        "Loại RAM"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Tính năng VSAN (Virtual SAN) là gì?",
+      "options": [
+        "Lưu trữ cloud",
+        "SAN ảo giúp cô lập lưu lượng",
+        "Sao lưu hệ điều hành",
+        "Mã hóa đĩa"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Firewall có chức năng gì?",
+      "options": [
+        "Lưu trữ dữ liệu",
+        "Bảo vệ mạng khỏi truy cập trái phép",
+        "Tăng tốc CPU",
+        "Phân giải DNS"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Phần mềm độc hại là?",
+      "options": [
+        "Trình duyệt",
+        "Ứng dụng văn phòng",
+        "Malware",
+        "Driver"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Virus máy tính là?",
+      "options": [
+        "Tập tin văn bản",
+        "Tập tin video",
+        "Chương trình có hại tự nhân bản",
+        "Công cụ nén"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "HTTPS khác HTTP ở điểm nào?",
+      "options": [
+        "Không có port riêng",
+        "Không có mã hóa",
+        "Có mã hóa và xác thực",
+        "Dùng trên mạng LAN"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Antivirus dùng để?",
+      "options": [
+        "Phát hiện và loại bỏ phần mềm độc hại",
+        "Tăng hiệu suất máy",
+        "Tối ưu bộ nhớ",
+        "Giảm nhiệt độ CPU"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Tường lửa cá nhân là gì?",
+      "options": [
+        "Bộ định tuyến",
+        "Phần mềm quản lý tài chính",
+        "Phần mềm bảo vệ truy cập",
+        "Trình duyệt"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Cách tốt nhất để bảo vệ mật khẩu là?",
+      "options": [
+        "Chia sẻ với bạn thân",
+        "Ghi trên giấy",
+        "Sử dụng mật khẩu mạnh và không chia sẻ",
+        "Lưu trong email"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Mã hóa dữ liệu là ví dụ của?",
+      "options": [
+        "Tấn công mạng",
+        "Phòng thủ mạng",
+        "Bảo trì hệ thống",
+        "Nén dữ liệu"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Tấn công từ chối dịch vụ (DoS) là gì?",
+      "options": [
+        "Gửi nhiều yêu cầu làm tê liệt hệ thống",
+        "Mã hóa dữ liệu",
+        "Phát tán phần mềm",
+        "Xâm nhập cơ sở dữ liệu"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Phần mềm diệt virus miễn phí là?",
+      "options": [
+        "Photoshop",
+        "Microsoft Word",
+        "Avast",
+        "AutoCAD"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Mã OTP dùng để làm gì?",
+      "options": [
+        "Tăng dung lượng RAM",
+        "Mã xác thực tạm thời",
+        "Khóa USB",
+        "Đổi địa chỉ IP"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Tấn công Zero-Day là?",
+      "options": [
+        "Khai thác lỗ hổng chưa được công bố",
+        "Tấn công vật lý",
+        "Spam email",
+        "Tấn công định kỳ"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "VPN dùng để?",
+      "options": [
+        "Giảm băng thông",
+        "Ẩn danh và mã hóa truy cập internet",
+        "Lưu trữ dữ liệu",
+        "Tăng nhiệt độ máy"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "WPA2 là gì?",
+      "options": [
+        "Giao thức truyền email",
+        "Chuẩn bảo mật mạng không dây",
+        "Cổng truy cập mạng",
+        "Dịch vụ DNS"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Cập nhật hệ điều hành giúp?",
+      "options": [
+        "Tăng tốc card đồ họa",
+        "Khắc phục lỗ hổng bảo mật",
+        "Giảm RAM",
+        "Gỡ ứng dụng"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Backdoor là?",
+      "options": [
+        "Phần mềm chỉnh ảnh",
+        "Cửa hậu để truy cập hệ thống",
+        "Cổng mạng LAN",
+        "Đường truyền phụ"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Quyền admin trong hệ thống cho phép?",
+      "options": [
+        "Xem phim",
+        "Thay đổi cấu hình và toàn quyền truy cập",
+        "In tài liệu",
+        "Sửa lỗi phần cứng"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Tấn công dictionary là?",
+      "options": [
+        "Tấn công bằng từ điển mật khẩu",
+        "Tạo file văn bản",
+        "Xóa dữ liệu",
+        "Làm nóng CPU"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Tấn công SQL injection nhằm vào?",
+      "options": [
+        "Trình duyệt",
+        "Mạng LAN",
+        "Cơ sở dữ liệu",
+        "Bộ xử lý"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Mật khẩu mạnh nên có?",
+      "options": [
+        "Chỉ chữ thường",
+        "Chỉ số",
+        "Tối thiểu 8 ký tự, gồm chữ, số và ký tự đặc biệt",
+        "Họ tên người dùng"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "HTTPS sử dụng giao thức bảo mật nào?",
+      "options": [
+        "FTP",
+        "TLS/SSL",
+        "ICMP",
+        "ARP"
       ],
       "correctAnswerIndex": 1,
       "source": "N/A"

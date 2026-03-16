@@ -1,5 +1,5 @@
 {
-  "originalDisplayName": "13. Pháp chế",
+  "originalDisplayName": "13. Pháp chế",
   "questions": [
     {
       "question": "Nguyên đơn có quyền lựa chọn Tòa án giải quyết tranh chấp về kinh doanh, thương mại trong trường hợp nào?",
@@ -83,54 +83,10 @@
       "options": [
         "Ngày đương sự nộp đơn khởi kiện tại Tòa án.",
         "Ngày được ghi trên dấu của tổ chức dịch vụ bưu chính nơi gửi.",
-        "Tất cả các đáp án trên đều đúng.",
+        "Tất cả các đáp án trên đều đúng",
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Phương án nào sau đây không phải là một trong các biện pháp bảo đảm thi hành án?",
-      "options": [
-        "Phong tỏa tài khoản.",
-        "Tịch thu tài sản.",
-        "Tạm giữ tài sản, giấy tờ.",
-        "Tạm dừng việc đăng ký, chuyển dịch, thay đổi hiện trạng về tài sản."
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Bản án, quyết định dân sự nào sau đây được thi hành theo Luật Thi hành án dân sự 2008, Luật sửa đổi, bổ sung một số điều của Luật Thi hành án dân sự 2014?",
-      "options": [
-        "Bản án, quyết định của Tòa án cấp phúc thẩm.",
-        "Bản án, quyết định dân sự của Tòa án nước ngoài, quyết định của Trọng tài nước ngoài đã được Tòa án Việt Nam công nhận và cho thi hành tại Việt Nam.",
-        "Phán quyết, quyết định của Trọng tài thương mại.",
-        "Tất cả các đáp án trên đều đúng."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Chấp hành viên không được làm những việc nào sau đây?",
-      "options": [
-        "Cố ý thi hành trái nội dung bản án, quyết định",
-        "Trì hoãn hoặc kéo dài thời gian giải quyết việc thi hành án được giao không có căn cứ pháp luật",
-        "Can thiệp trái pháp luật vào việc giải quyết vụ việc thi hành án",
-        "Tất cả các đáp án trên đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Thủ trưởng cơ quan thi hành án dân sự chủ động ra quyết định thi hành án đối với phần bản án, quyết định nào sau đây?",
-      "options": [
-        "Tịch thu sung quỹ nhà nước, tịch thu tiêu hủy vật chứng, tài sản; các khoản thu khác cho Nhà nước",
-        "Yêu cầu thi hành án của người được thi hành án",
-        "Yêu cầu thi hành án của cá nhân, cơ quan, tổ chức phải thực hiện nghĩa vụ trong bản án, quyết định được thi hành",
-        "Tất cả các đáp án trên đều đúng"
-      ],
-      "correctAnswerIndex": 0,
       "source": "N/A"
     },
     {
@@ -171,7 +127,7 @@
       "options": [
         "Lựa chọn tài sản bảo đảm để xử lý.",
         "Xử lý tất cả các tài sản bảo đảm.",
-        "Tất cả các đáp án trên đều đúng.",
+        "Tất cả các đáp án trên đều đúng",
         ""
       ],
       "correctAnswerIndex": 2,
@@ -186,17 +142,6 @@
         "Cả đáp án 1 và 2 đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Cơ quan thi hành án dân sự bao gồm:",
-      "options": [
-        "Cơ quan thi hành án dân sự cấp tỉnh.",
-        "Cơ quan thi hành án cấp quân khu.",
-        "Tất cả các đáp án trên.",
-        ""
-      ],
-      "correctAnswerIndex": 2,
       "source": "N/A"
     },
     {
@@ -365,28 +310,6 @@
       "source": "N/A"
     },
     {
-      "question": "Đâu không phải là hình thức xử lý kỷ luật lao động?",
-      "options": [
-        "Khiển trách",
-        "Cách chức",
-        "Kéo dài thời hạn nâng lương không quá 06 tháng",
-        "Phạt tiền"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Hành vi nào sau đây bị nghiêm cấm khi xử lý kỷ luật lao động?",
-      "options": [
-        "Phạt tiền thay cho việc xử lý kỷ luật lao động",
-        "Cắt lương thay cho việc xử lý kỷ luật lao động",
-        "Xử lý kỷ luật đối với hành vi chưa được quy định trong nội quy lao động",
-        "Tất cả các đáp án trên đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
       "question": "Đâu không phải là thông tin định danh của khách hàng tổ chức?",
       "options": [
         "Quyết định thành lập",
@@ -401,7 +324,7 @@
       "question": "Người quyết định cung cấp thông tin có quyền từ chối cung cấp thông tin khách hàng cho cơ quan, tổ chức, cá nhân đối với:",
       "options": [
         "Yêu cầu cung cấp thông tin khách hàng không đúng quy định của pháp luật",
-        "Yêu cầu cung cấp thông tin khách hàng bị trùng lặp, hết hiệu lực",
+        "Yêu cầu cung cấp thông tin khách hàng bị trùng lắp, hết hiệu lực",
         "Yêu cầu cung cấp thông tin khách hàng không thuộc phạm vi thông tin khách hàng mà Agribank đang lưu giữ theo quy định của pháp luật",
         "Tất cả các đáp án trên"
       ],
@@ -417,17 +340,6 @@
         "Thông tin định danh khách hàng"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Thời hạn Agribank phải có thông báo cho bên yêu cầu cung cấp thông tin trong trường hợp Agribank từ chối cung cấp thông tin khách hàng:",
-      "options": [
-        "Không quá 5 ngày làm việc",
-        "Không quá 7 ngày làm việc",
-        "Không quá 10 ngày làm việc",
-        "Không quá 15 ngày làm việc"
-      ],
-      "correctAnswerIndex": 0,
       "source": "N/A"
     },
     {
@@ -589,30 +501,8 @@
       "options": [
         "Thông tin định danh khách hàng",
         "Thông tin về lãi suất cho vay khách hàng",
-        "Thông tin tên tài khoản, số hiệu tài khoản, số dư tài khoản, thông tin liên quan đến giao dịch nộp tiền, rút tiền, chuyển tiền, nhận tiền của khách hàng",
+        "Thông tin tên tài khoản, số hiệu tài khoản, số dư tài khoản, thông tin liên quan đến giao dịch nộp tiền, rút tiền, chuyển tiền, nhận tiền của khách hàng.",
         "Cả đáp án 1 và 3"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo quy định của Agribank, Tổng Giám đốc quyết định cung cấp thông tin trong các trường hợp nào sau đây?",
-      "options": [
-        "Yêu cầu cung cấp thông tin được gửi đến Trụ sở chính",
-        "Yêu cầu cung cấp thông tin liên quan đến hồ sơ, lý lịch cán bộ đang được lưu giữ tại Trụ sở chính",
-        "Yêu cầu cung cấp thông tin liên quan đến vụ việc giải quyết đơn tố giác người lao động của Agribank có hành vi phạm tội",
-        "Tất cả các đáp án trên đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Người quyết định cung cấp thông tin có trách nhiệm nào sau đây?",
-      "options": [
-        "Cung cấp thông tin khách hàng trung thực, đầy đủ, kịp thời, đúng đối tượng và phạm vi thông tin được cung cấp.",
-        "Đảm bảo an toàn, bí mật thông tin khách hàng trong quá trình cung cấp, quản lý, sử dụng, lưu trữ thông tin khách hàng theo quy định của pháp luật và quy định của Agribank.",
-        "Giải quyết khiếu nại của khách hàng trong việc cung cấp thông tin khách hàng theo quy định của pháp luật.",
-        "Tất cả các đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -633,10 +523,10 @@
       "options": [
         "Tổng Thanh tra Chính Phủ",
         "Kiểm toán trưởng kiểm toán nhà nước khu vực",
-        "Tất cả các đáp án trên đều đúng",
-        ""
+        "Phó Chánh Thanh tra huyện",
+        "Tất cả các đáp án trên đều đúng"
       ],
-      "correctAnswerIndex": 2,
+      "correctAnswerIndex": 3,
       "source": "N/A"
     },
     {
@@ -673,14 +563,14 @@
       "source": "N/A"
     },
     {
-      "question": "Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài có trách nhiệm:",
+      "question": "Điền vào chỗ trống: \"...là xóa bỏ độ mật của bí mật nhà nước\"",
       "options": [
-        "Cung cấp thông tin khách hàng trung thực, đầy đủ, kịp thời, đúng đối tượng và phạm vi thông tin được yêu cầu cung cấp",
-        "Đảm bảo an toàn, bí mật thông tin khách hàng trong quá trình cung cấp, quản lý, sử dụng, lưu trữ thông tin khách hàng. Giải quyết khiếu nại của khách hàng trong việc cung cấp thông tin khách hàng theo quy định của pháp luật",
-        "Tổ chức giám sát, kiểm tra và xử lý vi phạm quy định nội bộ về giữ bí mật, lưu trữ, cung cấp thông tin khách hàng. Chịu trách nhiệm theo quy định của pháp luật đối với trường hợp vi phạm quy định của Nghị định số 17/2018/NĐ-CP ngày 11/9/2018 và pháp luật có liên quan",
-        "Tất cả các đáp án trên"
+        "Điều chỉnh độ mật",
+        "Giải mật",
+        "Chụp tài liệu, vật chứa bí mật nhà nước",
+        "Sao tài liệu bí mật nhà nước"
       ],
-      "correctAnswerIndex": 3,
+      "correctAnswerIndex": 1,
       "source": "N/A"
     },
     {
@@ -747,17 +637,6 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Thẩm quyền ban hành danh mục bí mật nhà nước theo quy định của Luật Bảo vệ bí mật nhà nước thuộc?",
-      "options": [
-        "Thủ tướng Chính phủ",
-        "Quốc hội",
-        "Bộ trưởng Bộ Công an",
-        "Chủ tịch nước"
-      ],
-      "correctAnswerIndex": 0,
       "source": "N/A"
     },
     {
@@ -1003,28 +882,6 @@
       "source": "N/A"
     },
     {
-      "question": "Thời hiệu yêu cầu thi hành án dân sự là bao nhiêu năm?",
-      "options": [
-        "03 năm",
-        "04 năm",
-        "05 năm",
-        "06 năm"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Thời hiệu yêu cầu thi hành án dân sự quy định \"trong thời hạn 05 năm\" kể từ ngày nào sau đây?",
-      "options": [
-        "Kể từ ngày bản án, quyết định có hiệu lực pháp luật",
-        "Kể từ ngày nghĩa vụ đến hạn đối với trường hợp thời hạn thực hiện nghĩa vụ được ấn định trong bản án, quyết định có hiệu lực pháp luật",
-        "Áp dụng cho từng định kỳ, kể từ ngày nghĩa vụ đến hạn đối với bản án, quyết định có  hiệu lực pháp luật thi hành theo định kỳ",
-        "Tất cả các đáp án trên đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
       "question": "Quyền dân sự được xác lập từ các căn cứ nào sau đây?",
       "options": [
         "Hành vi pháp lý đơn phương",
@@ -1047,45 +904,12 @@
       "source": "N/A"
     },
     {
-      "question": "Quyền nào sau đây là quyền của người được thi hành án dân sự?",
-      "options": [
-        "Được thông báo về thi hành án",
-        "Ủy quyền cho người khác thực hiện quyền, nghĩa vụ của mình",
-        "Chuyển giao quyền được thi hành án cho người khác",
-        "Tất cả các đáp án trên đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
       "question": "Quyền sở hữu chấm dứt trong trường hợp nào sau đây?",
       "options": [
         "Chủ sở hữu chuyển quyền sở hữu của mình cho người khác",
         "Tài sản bị kê biên để xử lý để thực hiện nghĩa vụ của chủ sở hữu",
         "Tài sản được dùng để bảo đảm thực hiện nghĩa vụ dân sự của chủ sở hữu",
         "Tài sản được chuyển giao cho người khác sử dụng"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Tài sản nào sau đây của người phải thi hành án là cá nhân không được kê biên?",
-      "options": [
-        "Đồ dùng thờ cúng thông thường theo tập quán ở địa phương",
-        "Kim khí quý, đá quý là đồ lưu niệm, kỷ vật",
-        "Đồ dùng sinh hoạt cần thiết cho người phải thi hành án và gia đình",
-        "Cả đáp án 1 và 3 đều đúng"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Chấp hành viên có quyền kê biên, xử lý tài sản của người phải thi hành án đang cầm cố, thế chấp trong các trường hợp nào sau đây?",
-      "options": [
-        "Người phải thi hành án không còn tài sản nào khác hoặc có tài sản nhưng không đủ để thi hành án đồng thời giá trị của tài sản cầm cố, thế chấp đó lớn hơn nghĩa vụ được bảo đảm và chi phí cưỡng chế thi hành án",
-        "Người phải thi hành án yêu cầu thi hành án tài sản đang cầm cố, thế chấp",
-        "Người được thi hành án yêu cầu thi hành án tài sản đang cầm cố, thế chấp.",
-        "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 0,
       "source": "N/A"
@@ -1531,28 +1355,6 @@
       "source": "N/A"
     },
     {
-      "question": "Các hình thức xử phạt chính theo quy định của pháp luật đối với hành vi vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng là gì?",
-      "options": [
-        "Cảnh cáo",
-        "Phạt tiền",
-        "Phạt tù",
-        "Đáp án 1, 2 đúng"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Công an nhân dân có thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng không?",
-      "options": [
-        "Có",
-        "Không",
-        "",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
       "question": "Theo Bộ luật dân sự 2015, Nghĩa vụ được bảo đảm có thể là nghĩa vụ nào sau đây?",
       "options": [
         "Nghĩa vụ hiện tại",
@@ -1579,8 +1381,8 @@
       "options": [
         "Tài sản bảo đảm phải thuộc quyền sở hữu của bên bảo đảm, trừ trường hợp cầm giữ tài sản, bảo lưu quyền sở hữu.",
         "Tài sản bảo đảm có thể được mô tả chung, nhưng phải xác định được; Tài sản bảo đảm có thể là tài sản hiện có hoặc tài sản hình thành trong tương lai.",
-        "Giá trị của tài sản bảo đảm có thể lớn hơn, bằng hoặc nhỏ hơn giá trị nghĩa vụ được bảo đảm.",
-        "Tất cả các đáp án trên đều đúng."
+        "Giá trị của tài sản bảo đảm có thể lớn hơn, bằng hoặc nhỏ hơn giá trị nghĩa vụ được bảo đảm",
+        "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1677,8 +1479,8 @@
       "question": "Khi nhiều người cùng bảo lãnh một nghĩa vụ thì việc thực hiện nghĩa vụ bảo lãnh được quy định như thế nào?",
       "options": [
         "Tất cả những người cùng bảo lãnh đều phải thực hiện phần nghĩa vụ theo thỏa thuận bảo lãnh đã xác lập",
-        "Khi nhiều người cùng bảo lãnh một nghĩa vụ thì phải liên đới thực hiện việc bảo lãnh, trừ trường hợp có thỏa thuận hoặc pháp luật có quy định bảo lãnh theo các phần độc lập; bên có quyền có thể yêu cầu bất cứ ai trong số những người bảo lãnh liên đới phải thực hiện toàn bộ nghĩa vụ",
-        "Khi một người trong số những người bảo lãnh liên đới đã thực hiện toàn bộ nghĩa vụ thay cho bên được bảo lãnh thì có quyền yêu cầu những người bảo lãnh còn lại phải thực hiện phần nghĩa vụ của họ đối với mình",
+        "Khi nhiều người cùng bảo lãnh một nghĩa vụ thì phải liên đới thực hiện việc bảo lãnh, trừ trường hợp có thỏa thuận hoặc pháp luật có quy định bảo lãnh theo các phần độc lập; bên có quyền có thể yêu cầu bất cứ ai trong số những người bảo lãnh liên đới phải thực hiện toàn bộ nghĩa vụ.",
+        "Khi một người trong số những người bảo lãnh liên đới đã thực hiện toàn bộ nghĩa vụ thay cho bên được bảo lãnh thì có quyền yêu cầu những người bảo lãnh còn lại phải thực hiện phần nghĩa vụ của họ đối với mình.",
         "Cả đáp án 2 và 3 đều đúng"
       ],
       "correctAnswerIndex": 3,
@@ -1710,7 +1512,7 @@
       "question": "Bên được ủy quyền được ủy quyền lại cho người khác trong trường hợp nào sau đây?",
       "options": [
         "Có sự đồng ý của bên ủy quyền",
-        "Do sự kiện bất khả kháng nếu không áp dụng ủy quyền lại thì mục đích xác lập, thực hiện giao dịch dân sự vì lợi ích của người ủy quyền không thể thực hiện được",
+        "Do sự kiện bất khả kháng nếu không áp dụng ủy quyền lại thì mục đích xác lập, thực hiện giao dịch dân sự vì lợi ích của người ủy quyền không thể thực hiện được.",
         "Tất cả các đáp án trên đều đúng",
         ""
       ],
@@ -1734,7 +1536,7 @@
         "Buộc xin lỗi, cải chính công khai.",
         "Buộc thực hiện nghĩa vụ.",
         "Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự của mình.",
-        "Tất cả các đáp án trên."
+        "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1744,7 +1546,7 @@
       "options": [
         "Xác lập do địa thế tự nhiên",
         "Xác lập theo thỏa thuận",
-        "Xác lập theo di chúc",
+        "Xác lập theo di chúc.",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
@@ -1755,7 +1557,7 @@
       "options": [
         "Người phạm tội tuy thấy trước hành vi của mình có thể gây ra hậu quả nguy hại cho xã hội nhưng cho rằng hậu quả đó sẽ không xảy ra hoặc có thể ngăn ngừa được.",
         "Người phạm tội không thấy trước hành vi của mình có thể gây ra hậu quả nguy hại cho xã hội, mặc dù phải thấy trước và có thể thấy trước hậu quả đó.",
-        "Tất cả các đáp án trên.",
+        "Tất cả các đáp án trên",
         ""
       ],
       "correctAnswerIndex": 2,
@@ -1806,7 +1608,7 @@
       "source": "N/A"
     },
     {
-      "question": "Việc từ chối nhận di sản phải được thể hiện tại thời điểm nào?",
+      "question": "Việc từ chối nhận di sản phải được thể hiện tại thời điểm nảo?",
       "options": [
         "Trước thời điểm phân chia di sản",
         "Thời điểm người có tài sản vừa chết",
@@ -1828,28 +1630,6 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định của Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014, đương sự bao gồm?",
-      "options": [
-        "Người được thi hành án",
-        "Người phải thi hành án",
-        "Tất cả các đáp án trên",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo quy định của Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014, người được thi hành án là những đối tượng nào?",
-      "options": [
-        "Người được thi hành án là cá nhân, cơ quan, tổ chức được hưởng quyền, lợi ích trong bản án, quyết định được thi hành",
-        "Người được thi hành án là cá nhân được hưởng quyền, lợi ích trong bản án, quyết định được thi hành",
-        "Người được thi hành án là cơ quan được hưởng quyền, lợi ích trong bản án, quyết định được thi hành",
-        "Người được thi hành án là tổ chức được hưởng quyền, lợi ích trong bản án, quyết định được thi hành"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
       "question": "Cố ý phạm tội là phạm tội trong những trường hợp nào sau đây?",
       "options": [
         "Người phạm tội nhận thức rõ hành vi của mình là nguy hiểm cho xã hội, thấy trước hậu quả của hành vi đó và mong muốn hậu quả xảy ra",
@@ -1861,29 +1641,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định của Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014, người phải thi hành án là những đối tượng nào?",
-      "options": [
-        "Người phải thi hành án là cá nhân, cơ quan, tổ chức phải thực hiện nghĩa vụ trong bản án, quyết định được thi hành",
-        "Người phải thi hành án là cá nhân phải thực hiện nghĩa vụ trong bản án, quyết định được thi hành",
-        "Người phải thi hành án là cơ quan phải thực hiện nghĩa vụ trong bản án, quyết định được thi hành",
-        "Người phải thi hành án là tổ chức phải thực hiện nghĩa vụ trong bản án, quyết định được thi hành"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo quy định của Luật Thi hành án năm 2008, sửa đổi, bổ sung năm 2014, Người có quyền lợi, nghĩa vụ liên quan bao gồm những đối tượng nào?",
-      "options": [
-        "Người có quyền lợi, nghĩa vụ liên quan là cá nhân, cơ quan, tổ chức có quyền lợi, nghĩa vụ liên quan trực tiếp đến việc thực hiện quyền, nghĩa vụ thi hành án của đương sự",
-        "Người có quyền lợi, nghĩa vụ liên quan là cá nhân có quyền lợi, nghĩa vụ liên quan trực tiếp đến việc thực hiện quyền, nghĩa vụ thi hành án của đương sự",
-        "Người có quyền lợi, nghĩa vụ liên quan là cơ quan có quyền lợi, nghĩa vụ liên quan trực tiếp đến việc thực hiện quyền, nghĩa vụ thi hành án của đương sự",
-        "Người có quyền lợi, nghĩa vụ liên quan là tổ chức có quyền lợi, nghĩa vụ liên quan trực tiếp đến việc thực hiện quyền, nghĩa vụ thi hành án của đương sự"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Hãy điền vào chỗ trống: \"... là việc chuyển giao quyền sử dụng đất từ người này sang người khác thông qua hình thức chuyển đổi, chuyển nhượng, thừa kế, tặng cho quyền sử dụng đất, góp vốn bằng quyền sử dụng đất\"?",
+      "question": "Hãy điền vào chỗ trống: \"... là việc chuyển giao quyền sử dụng đất từ người này sang người khác thông qua hình thức chuyển đổi, chuyển nhượng, thừa kế, tặng cho quyền sử dụng đất, góp vốn bằng quyền sử dụng đất\"",
       "options": [
         "Chiếm đất",
         "Chuyển quyền sử dụng đất",
@@ -1918,10 +1676,10 @@
     {
       "question": "Giá đất là?",
       "options": [
-        "Giá trị của quyền sử dụng đất tính bằng tiền trên một đơn vị tính",
-        "Giá trị của quyền chiếm hữu đất tính bằng tiền trên một đơn vị diện tích đất",
-        "Giá quy đổi bằng tiền hoặc hiện vật của quyền sử dụng đất trên một đơn vị diện tích đất",
-        "Giá trị của quyền sử dụng đất tính bằng tiền trên một đơn vị diện tích đất"
+        "giá trị của quyền sử dụng đất tính bằng tiền trên một đơn vị tính",
+        "giá trị của quyền chiếm hữu đất tính bằng tiền trên một đơn vị diện tích đất",
+        "giá quy đổi bằng tiền hoặc hiện vật của quyền sử dụng đất trên một đơn vị diện tích đất",
+        "giá trị của quyền sử dụng đất tính bằng tiền trên một đơn vị diện tích đất"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1929,23 +1687,12 @@
     {
       "question": "Giá trị quyền sử dụng đất là?",
       "options": [
-        "Giá trị bằng tiền của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
-        "Giá trị bằng đá quý của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
-        "Giá trị bằng trái phiếu của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
-        "Giá trị bằng giấy tờ có giá của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định"
+        "giá trị bằng tiền của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
+        "giá trị bằng đá quý của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
+        "giá trị bằng trái phiếu của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định",
+        "giá trị bằng giấy tờ có giá của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Điền vào chỗ trống: \" …là dữ liệu cá nhân gắn liền với quyền riêng tư của cá nhân mà khi bị xâm phạm sẽ gây ảnh hưởng trực tiếp tới quyền và lợi ích hợp pháp của cá nhân\"?",
-      "options": [
-        "Dữ liệu cá nhân tổng hợp",
-        "Dữ liệu cá nhân cơ bản",
-        "Dữ liệu cá nhân nhạy cảm",
-        "Dữ liệu cá nhân sơ cấp"
-      ],
-      "correctAnswerIndex": 2,
       "source": "N/A"
     },
     {
@@ -2039,12 +1786,12 @@
     {
       "question": "Ai có thẩm quyền quyết định giá đất cụ thể?",
       "options": [
-        "Chủ tịch Ủy ban nhân dân cấp tỉnh",
-        "Chủ tịch Ủy ban nhân dân cấp xã",
-        "Chỉ có Chủ tịch Ủy ban nhân dân cấp tỉnh",
-        "Đáp án 1, 2 đúng"
+        "Chủ tịch Ủy ban nhân dân cấp huyện, cấp tỉnh",
+        "Chủ tịch Ủy ban nhân dân cấp huyện, cấp xã",
+        "Chủ tịch Ủy ban nhân dân cấp xã, cấp tỉnh",
+        "Chỉ có Chủ tịch Ủy ban nhân dân cấp tỉnh"
       ],
-      "correctAnswerIndex": 3,
+      "correctAnswerIndex": 0,
       "source": "N/A"
     },
     {
@@ -2063,7 +1810,7 @@
       "options": [
         "Do tổ chức, cá nhân tự xây dựng và được sự chấp thuận của Cơ quan nhà nước trực tiếp cấp giấy chứng nhận",
         "Do từng địa phương xây dựng mẫu phù hợp địa phương mình",
-        "Do Bộ trưởng Bộ Nông nghiệp và Môi trường quy định, mẫu áp dụng thống nhất trong cả nước",
+        "Do Bộ trưởng Bộ Tài nguyên và Môi trường quy định, mẫu áp dụng thống nhất trong cả nước",
         ""
       ],
       "correctAnswerIndex": 2,
@@ -2072,10 +1819,10 @@
     {
       "question": "Ai có thẩm quyền ban hành quyết định cưỡng chế thực hiện quyết định thu hồi đất và tổ chức thực hiện quyết định cưỡng chế?",
       "options": [
+        "Chủ tịch Ủy ban nhân dân cấp huyện",
         "Chủ tịch Ủy ban nhân dân cấp xã",
         "Chủ tịch Ủy ban nhân dân cấp tỉnh",
-        "Thủ tướng chính phủ",
-        ""
+        "Thủ tướng chính phủ"
       ],
       "correctAnswerIndex": 0,
       "source": "N/A"
@@ -2125,7 +1872,7 @@
       "source": "N/A"
     },
     {
-      "question": "Điền vào chỗ trống: \"Hồ sơ dự thầu, hồ sơ đề xuất là toàn bộ tài liệu do ... lập và nộp cho bên mời thầu theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu\"?",
+      "question": "Điền vào chỗ trống: Hồ sơ dự thầu, hồ sơ đề xuất là toàn bộ tài liệu do ... lập và nộp cho bên mời thầu theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu.",
       "options": [
         "Nhà thầu, nhà đầu tư",
         "Bên mời thầu",
@@ -2147,12 +1894,12 @@
       "source": "N/A"
     },
     {
-      "question": "Chọn đáp án đúng nhất về khái niệm \"Gói thầu\" theo quy định của Luật Đấu thầu 2023?",
+      "question": "Chọn đáp án đúng nhất về khái niệm \"Gói thầu\" theo quy định của Luật Đấu thầu 2023",
       "options": [
-        "Là một phần hoặc toàn bộ dự án, dự toán mua sắm, có thể gồm những nội dung mua sắm giống nhau thuộc nhiều dự án hoặc là khối lượng mua sắm một lần, khối lượng mua sắm cho một thời kỳ đối với dự toán mua sắm, mua sắm tập trung",
-        "Là giá do nhà thầu chào trong đơn dự thầu, bao gồm toàn bộ các chi phí để thực hiện gói thầu theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu",
-        "Là một hoặc một số hoạt động dịch vụ bao gồm: lập, đánh giá báo cáo quy hoạch, tổng sơ đồ phát triển, kiến trúc",
-        "Là quá trình lựa chọn nhà thầu để ký kết, thực hiện hợp đồng cung cấp dịch vụ tư vấn, dịch vụ phi tư vấn"
+        "là một phần hoặc toàn bộ dự án, dự toán mua sắm, có thể gồm những nội dung mua sắm giống nhau thuộc nhiều dự án hoặc là khối lượng mua sắm một lần, khối lượng mua sắm cho một thời kỳ đối với dự toán mua sắm, mua sắm tập trung.",
+        "là giá do nhà thầu chào trong đơn dự thầu, bao gồm toàn bộ các chi phí để thực hiện gói thầu theo yêu cầu của hồ sơ mời thầu, hồ sơ yêu cầu",
+        "là một hoặc một số hoạt động dịch vụ bao gồm: lập, đánh giá báo cáo quy hoạch, tổng sơ đồ phát triển, kiến trúc",
+        "là quá trình lựa chọn nhà thầu để ký kết, thực hiện hợp đồng cung cấp dịch vụ tư vấn, dịch vụ phi tư vấn"
       ],
       "correctAnswerIndex": 0,
       "source": "N/A"
@@ -2268,58 +2015,14 @@
       "source": "N/A"
     },
     {
-      "question": "Nhóm đất phi nông nghiệp gồm các loại đất nào sau đây?",
-      "options": [
-        "Đất ở, gồm đất ở tại nông thôn, đất ở tại đô thị",
-        "Đất xây dựng trụ sở cơ quan",
-        "Đất sử dụng vào mục đích quốc phòng, an ninh",
-        "Tất cả các đáp án trên"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Nhóm đất nông nghiệp không bao gồm loại đất sau đây?",
-      "options": [
-        "Đất ở, gồm đất ở tại nông thôn, đất ở tại đô thị",
-        "Đất trồng cây lâu năm",
-        "Đất nuôi trồng thủy sản",
-        "Đất làm muối"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
       "question": "Theo Luật Đất đai, căn cứ vào mục đích sử dụng, đất đai được chia thành những nhóm nào?",
       "options": [
-        "Nhóm đất nông nghiệp",
-        "Nhóm đất phi nông nghiệp",
-        "Nhóm đất chưa sử dụng",
+        "nhóm đất nông nghiệp",
+        "nhóm đất phi nông nghiệp",
+        "nhóm đất chưa sử dụng",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Đất xây dựng công trình sự nghiệp thuộc nhóm đất đai nào?",
-      "options": [
-        "Nhóm đất nông nghiệp",
-        "Nhóm đất phi nông nghiệp",
-        "Nhóm đất chưa sử dụng",
-        "Tất cả các đáp án trên"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Đất trồng cây lâu năm thuộc nhóm đất đai nào?",
-      "options": [
-        "Nhóm đất nông nghiệp",
-        "Nhóm đất phi nông nghiệp",
-        "Nhóm đất chưa sử dụng",
-        ""
-      ],
-      "correctAnswerIndex": 0,
       "source": "N/A"
     },
     {
@@ -2327,21 +2030,10 @@
       "options": [
         "Giấy chứng nhận quyền sử dụng đất",
         "Quyết định giao đất, cho thuê đất",
-        "Quyền của người sử dụng đất",
-        "Đáp án 1, 2 đúng"
+        "quyền của người sử dụng đất",
+        "Đáp án 1,2 đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Quyền sở hữu đất đai thuộc về chủ thể nào? Chọn đáp án đúng nhất",
-      "options": [
-        "Toàn dân",
-        "Nhà nước",
-        "Cá nhân sử dụng đất",
-        "Cá nhân, tổ chức được giao sử dụng đất"
-      ],
-      "correctAnswerIndex": 0,
       "source": "N/A"
     },
     {
@@ -2349,8 +2041,8 @@
       "options": [
         "Công ty cổ phần địa chính",
         "Người sử dụng đất",
-        "Văn phòng đăng ký đất đai",
-        ""
+        "Chủ tịch Ủy ban nhân dân huyện",
+        "Văn phòng đăng ký đất đai"
       ],
       "correctAnswerIndex": 1,
       "source": "N/A"
@@ -2358,10 +2050,10 @@
     {
       "question": "Ký thừa ủy quyền là gì?",
       "options": [
-        "Là việc người đứng đầu đơn vị ủy quyền cho người đứng đầu đơn vị thuộc cơ cấu tổ chức của mình ký thừa ủy quyền một số văn bản mà mình phải ký",
-        "Là việc người đứng đầu thay mặt tập thể lãnh đạo ký các văn bản của đơn vị",
-        "Là việc người đứng đầu đơn vị giao người đứng đầu đơn vị thuộc cơ cấu tổ chức của mình ký thừa lệnh một số loại văn bản",
-        "Là việc người đứng đầu đơn vị giao cấp phó ký thay các văn bản thuộc lĩnh vực được phân công phụ trách và một số văn bản thuộc thẩm quyền của người đứng đầu"
+        "là việc người đứng đầu đơn vị ủy quyền cho người đứng đầu đơn vị thuộc cơ cấu tổ chức của mình ký thừa ủy quyền một số văn bản mà mình phải ký",
+        "là việc người đứng đầu thay mặt tập thể lãnh đạo ký các văn bản của đơn vị",
+        "là việc người đứng đầu đơn vị giao người đứng đầu đơn vị thuộc cơ cấu tổ chức của mình ký thừa lệnh một số loại văn bản",
+        "là việc người đứng đầu đơn vị giao cấp phó ký thay các văn bản thuộc lĩnh vực được phân công phụ trách và một số văn bản thuộc thẩm quyền của người đứng đầu"
       ],
       "correctAnswerIndex": 0,
       "source": "N/A"
@@ -2391,16 +2083,16 @@
     {
       "question": "Hãy chọn đáp án đúng nhất về khái niệm \"Cấp tín dụng\" theo Luật các TCTD?",
       "options": [
-        "Là việc thỏa thuận để tổ chức, cá nhân sử dụng một khoản tiền hoặc cam kết cho phép sử dụng một khoản tiền theo nguyên tắc có hoàn trả bằng nghiệp vụ cho vay, chiết khấu, cho thuê tài chính, bao thanh toán, bảo lãnh ngân hàng, thư tín dụng và các nghiệp vụ cấp tín dụng khác",
-        "Là việc cung ứng phương tiện thanh toán; thực hiện dịch vụ thanh toán séc, lệnh chi, ủy nhiệm chi, nhờ thu, ủy nhiệm thu, thẻ ngân hàng, dịch vụ thanh toán khác cho khách hàng thông qua tài khoản thanh toán của khách hàng",
-        "Là việc tổ chức tín dụng trực tiếp hoặc ủy thác cho tổ chức khác góp vốn cấu thành vốn điều lệ",
-        "Là việc làm trung gian có thu phí môi giới để thu xếp thực hiện hoạt động ngân hàng và hoạt động kinh doanh khác theo quy định của Luật này giữa các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài"
+        "là việc thỏa thuận để tổ chức, cá nhân sử dụng một khoản tiền hoặc cam kết cho phép sử dụng một khoản tiền theo nguyên tắc có hoàn trả bằng nghiệp vụ cho vay, chiết khấu, cho thuê tài chính, bao thanh toán, bảo lãnh ngân hàng, thư tín dụng và các nghiệp vụ cấp tín dụng khác",
+        "là việc cung ứng phương tiện thanh toán; thực hiện dịch vụ thanh toán séc, lệnh chi, ủy nhiệm chi, nhờ thu, ủy nhiệm thu, thẻ ngân hàng, dịch vụ thanh toán khác cho khách hàng thông qua tài khoản thanh toán của khách hàng",
+        "là việc tổ chức tín dụng trực tiếp hoặc ủy thác cho tổ chức khác góp vốn cấu thành vốn điều lệ",
+        "là việc làm trung gian có thu phí môi giới để thu xếp thực hiện hoạt động ngân hàng và hoạt động kinh doanh khác theo quy định của Luật này giữa các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài."
       ],
       "correctAnswerIndex": 0,
       "source": "N/A"
     },
     {
-      "question": "Điền vào chỗ trống: \"...là hình thức cấp tín dụng thông qua việc mua có kỳ hạn hoặc mua có bảo lưu quyền truy đòi các công cụ chuyển nhượng, giấy tờ có giá khác của bên thụ hưởng trước khi đến hạn thanh toán\"?",
+      "question": "Điền vào chỗ trống: \"...là hình thức cấp tín dụng thông qua việc mua có kỳ hạn hoặc mua có bảo lưu quyền truy đòi các công cụ chuyển nhượng, giấy tờ có giá khác của bên thụ hưởng trước khi đến hạn thanh toán\"",
       "options": [
         "Bảo lãnh",
         "Chiết khấu",
@@ -2413,7 +2105,7 @@
     {
       "question": "Hoạt động ngân hàng là việc kinh doanh, cung ứng thường xuyên một hoặc một số nghiệp vụ nào sau đây?",
       "options": [
-        "Nhận tiền gửi",
+        "Nhận tiền gửi;",
         "Cấp tín dụng",
         "Cung ứng dịch vụ thanh toán qua tài khoản",
         "Tất cả đáp án trên đều đúng"
@@ -2459,7 +2151,7 @@
       "options": [
         "Chủ tịch Hội đồng quản trị hoặc Chủ tịch Hội đồng thành viên của tổ chức tín dụng",
         "Tổng giám đốc (Giám đốc) của tổ chức tín dụng",
-        "Đáp án 1, 2 đều đúng",
+        "Đáp án 1,2 đều đúng",
         ""
       ],
       "correctAnswerIndex": 2,
@@ -2468,9 +2160,9 @@
     {
       "question": "Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài có trách nhiệm báo cáo Ngân hàng Nhà nước thông tin liên quan đến nội dung nào? Chọn đáp án đúng nhất",
       "options": [
-        "Hoạt động kinh doanh",
+        "hoạt động kinh doanh",
         "Người đứng đầu tổ chức tín dụng quyết định nội dung phải báo cáo Ngân hàng Nhà nước",
-        "Bất cứ nội dung nào nếu thấy cần thiết",
+        "bất cứ nội dung nào nếu thấy cần thiết",
         ""
       ],
       "correctAnswerIndex": 0,
@@ -2501,10 +2193,10 @@
     {
       "question": "Nhiệm kỳ của Tổng giám đốc (Giám đốc) của tổ chức tín dụng là bao nhiêu năm?",
       "options": [
-        "Không quá 03 năm",
-        "Không quá 05 năm",
-        "Không quá 07 năm",
-        "Không quá 10 năm"
+        "không quá 03 năm",
+        "không quá 05 năm",
+        "không quá 07 năm",
+        "không quá 10 năm"
       ],
       "correctAnswerIndex": 1,
       "source": "N/A"
@@ -2534,8 +2226,8 @@
     {
       "question": "Tổ chức tín dụng có quyền chấm dứt việc cấp tín dụng, thu hồi nợ trước hạn khi?",
       "options": [
-        "Phát hiện khách hàng cung cấp thông tin sai sự thật",
-        "Vi phạm nội dung thỏa thuận trong hợp đồng, thỏa thuận cấp tín dụng, hợp đồng bảo đảm",
+        "phát hiện khách hàng cung cấp thông tin sai sự thật",
+        "vi phạm nội dung thỏa thuận trong hợp đồng, thỏa thuận cấp tín dụng, hợp đồng bảo đảm",
         "Tất cả các đáp án trên đều đúng",
         ""
       ],
@@ -2545,9 +2237,9 @@
     {
       "question": "Tổ chức tín dụng có quyền quyết định miễn, giảm lãi, phí cho khách hàng theo quy định nào?",
       "options": [
-        "Quy định chung của các tổ chức tín dụng",
-        "Quy định nội bộ của tổ chức tín dụng",
-        "Thỏa thuận với khách hàng",
+        "quy định chung của các tổ chức tín dụng",
+        "quy định nội bộ của tổ chức tín dụng",
+        "thỏa thuận với khách hàng",
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 1,
@@ -2590,7 +2282,7 @@
       "question": "Nhận định nào sau đây là đúng về nguyên tắc sửa đổi, bổ sung, thay thế, bãi bỏ, đình chỉ thi hành văn bản định chế?",
       "options": [
         "Văn bản định chế chỉ được sửa đổi, bổ sung, thay thế, bãi bỏ bằng văn bản định chế của cấp thẩm quyền đã ban hành văn bản định chế đó hoặc cấp thẩm quyền khác theo quy định của pháp luật và Agribank",
-        "Văn bản định chế có thể được ban hành để sửa đổi và bổ sung, thay thế, bãi bỏ các loại văn bản xử lý công việc cụ thể khác",
+        "VBĐC có thể được ban hành để sửa đổi và bổ sung, thay thế, bãi bỏ các loại văn bản xử lý công việc cụ thể khác",
         "Hình thức của văn bản định chế sửa đổi, bổ sung, thay thế không nhất thiết phải phù hợp với hình thức của văn bản định chế được sửa đổi, bổ sung, thay thế",
         "Văn bản định chế chỉ bị đình chỉ thi hành, bãi bỏ bằng văn bản của cơ quan Nhà nước có thẩm quyền"
       ],
@@ -2620,18 +2312,7 @@
       "source": "N/A"
     },
     {
-      "question": "Nhận định nào sau đây không đúng đối với văn bản định chế (VBĐC) quy định, hướng dẫn chi tiết văn bản định chế của cấp thẩm quyền cao hơn?",
-      "options": [
-        "VBĐC quy định chi tiết chỉ quy định nội dung được giao",
-        "VBĐC quy định, hướng dẫn chi tiết không quy định lặp lại nội dung của VBĐC giao quy định chi tiết",
-        "Cấp thẩm quyền được giao ban hành văn bản quy định chi tiết không được phân công cho cấp phó ký thay",
-        "Cấp thẩm quyền được giao ban hành văn bản quy định chi tiết không được ủy quyền tiếp cho các cấp dưới"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Văn bản định chế không được quy định hiệu lực trở về trước trong trường hợp nào sau đây?",
+      "question": "VBĐC không được quy định hiệu lực trở về trước trong trường hợp nào sau đây?",
       "options": [
         "Quy định trách nhiệm nặng hơn",
         "Quy định trách nhiệm mới đối với hành vi vào thời điểm thực hiện hành vi đó không quy định trách nhiệm",
@@ -2639,6 +2320,325 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Người đại diện theo pháp luật của cá nhân là:",
+      "options": [
+        "Cha, mẹ đối với con chưa thành niên",
+        "Người giám hộ đối với người được giám hộ",
+        "Người do Tòa án chỉ định đối với người bị hạn chế năng lực hành vi dân sự",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhận định nào sau đây về tài sản thế chấp là đúng nhất?",
+      "options": [
+        "Tài sản thế chấp có thể do một trong hai bên giữ hoặc ủy quyền cho bên thứ ba giữ.",
+        "Tài sản thế chấp do bên thế chấp giữ hoặc các bên có thể thỏa thuận giao cho người thứ ba giữ.",
+        "Tài sản thế chấp do bên nhận thế chấp giữ.",
+        "Tài sản thế chấp giao cho người thứ ba giữ."
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Một tài sản có thể được dùng để bảo đảm nhiều nghĩa vụ phải thỏa mãn điều kiện gì?",
+      "options": [
+        "Giá trị tài sản tại thời điểm xác lập giao dịch bảo đảm lớn hơn giá trị nghĩa vụ được bảo đảm.",
+        "Giá trị tài sản tại thời điểm xác lập giao dịch bảo đảm lớn hơn tổng giá trị các nghĩa vụ được bảo đảm, trừ trường hợp có thỏa thuận khác hoặc pháp luật có quy định khác",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Thế chấp tài sản phát sinh hiệu lực đối kháng với người thứ ba từ thời điểm nào?",
+      "options": [
+        "Từ khi có đề nghị giao kết hợp đồng.",
+        "Từ khi chuyển giao tài sản thế chấp cho bên thứ ba giữ.",
+        "Từ thời điểm đăng ký biện pháp bảo đảm hoặc bên nhận bảo đảm nắm giữ  hoặc chiếm giữ tài sản.",
+        "Từ thời điểm giao kết."
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhận định nào sau đây không đúng về tài sản chung của vợ chồng?",
+      "options": [
+        "Vợ/chồng thỏa thuận hoặc ủy quyền cho nhau chiếm hữu, sử dụng, định đoạt tài sản chung",
+        "Tài sản chung của vợ chồng có thể được phân chia theo thỏa thuận",
+        "Tài sản chung của vợ chồng là tài sản không thể phân chia",
+        "Tài sản chung của vợ chồng có thể được phân chia theo quyết định của Tòa"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo quy định của Bộ luật Dân sự 2015, quyền sở hữu tài sản bao gồm:",
+      "options": [
+        "Quyền chiếm hữu, quyền sử dụng, quyền định đoạt.",
+        "Quyền chiếm hữu, quyền hưởng dụng, quyền tặng cho.",
+        "Quyền chiếm giữ, sử dụng, quyền tặng cho.",
+        "Quyền sử dụng, quyền định đoạt."
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo quy định của Bộ luật Dân sự 2015, quyền sử dụng:",
+      "options": [
+        "Là quyền khai thác công dụng, hưởng hoa lợi, lợi tức từ tài sản.",
+        "Có thể được chuyển giao cho người khác theo thỏa thuận hoặc theo quy định của pháp luật.",
+        "Tất cả các đáp án trên đều đúng",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo quy định của Bộ luật Dân sự 2015, đâu là phương thức xử lý tài sản thế chấp?",
+      "options": [
+        "Bán đấu giá tài sản.",
+        "Bên nhận bảo đảm tự bán tài sản.",
+        "Bên nhận bảo đảm nhận chính tài sản để thay thế cho việc thực hiện nghĩa vụ của bên bảo đảm.",
+        "Tất cả các đáp án trên đều đúng."
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo quy định của Bộ luật Dân sự 2015, quyền sử dụng đất thuộc loại tài sản nào?",
+      "options": [
+        "Vật.",
+        "Giấy tờ có giá.",
+        "Quyền tài sản.",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Trường hợp nào sau đây làm chấm dứt quan hệ đại diện theo ủy quyền?",
+      "options": [
+        "Hết thời hạn ủy quyền",
+        "Người được đại diện chết",
+        "Công việc được ủy quyền đã hoàn thành",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Các chủ thể nào sau đây có thể phải thực hiện giao dịch dân sự thông qua người đại diện?",
+      "options": [
+        "Người bị hạn chế năng lực hành vi dân sự",
+        "Người chưa thành niên",
+        "Người mất năng lực hành vi dân sự",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhận định nào sau đây về phạt vi phạm và bồi thường thiệt hại là đúng nhất?",
+      "options": [
+        "Khi đã bị phạt vi phạm thì không phải bồi thường thiệt hại",
+        "Khi đã bị bồi thường thiệt hại thì không phải chịu phạt vi phạm",
+        "Theo thỏa thuận của các bên trong hợp đồng",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhận định nào sau đây là đúng về hậu quả \r\npháp lý của việc hủy bỏ hợp đồng?",
+      "options": [
+        "Hợp đồng không có hiệu lực từ thời điểm giao kết, các bên không phải thực hiện nghĩa vụ đã thỏa thuận, trừ thỏa thuận về phạt vi phạm, bồi thường thiệt hại và thỏa thuận về giải quyết tranh chấp.",
+        "Hợp đồng không có hiệu lực từ thời điểm giao kết, mọi thỏa thuận đều không còn giá trị pháp lý với các bên.",
+        "Hợp đồng không có hiệu lực từ thời điểm hợp đồng bị hủy bỏ.",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhận định nào sau đây về sửa đổi hợp đồng là đúng?",
+      "options": [
+        "Các bên không được sửa đổi hợp đồng khi hợp đồng đã được thực hiện",
+        "Hợp đồng sửa đổi phải tuân theo hình thức của hợp đồng ban đầu",
+        "Các bên chỉ được sửa đổi hợp đồng tại địa điểm đã giao kết hợp đồng",
+        "Hợp đồng sửa đổi phải được công chứng, chứng thực tại cơ quan có chức năng về công chứng"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Khi hợp đồng bị đơn phương chấm dứt thực hiện thì hợp đồng chấm dứt kể từ thời điểm nào?",
+      "options": [
+        "Bên đơn phương chấm dứt hợp đồng thông báo cho bên kia về việc chấm dứt hợp đồng.",
+        "Bên kia nhận được thông báo chấm dứt hợp đồng của bên đơn phương chấm dứt hợp đồng.",
+        "Sau 05 ngày làm việc kể từ ngày bên đơn phương chấm dứt hợp đồng thông báo cho bên kia.",
+        "Sau 07 ngày kể từ ngày bên đơn phương chấm dứt hợp đồng thông báo cho bên kia."
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Hợp đồng nào sau đây có thể bị tuyên vô hiệu?",
+      "options": [
+        "Các bên giao kết hợp đồng  nhằm trốn tránh nghĩa vụ với người thứ 3",
+        "Giao kết hợp đồng bằng lời nói",
+        "Giao kết hợp đồng thông qua người được ủy quyền là người dưới 18 tuổi",
+        "Giao kết hợp đồng vì lợi ích của người thứ 3"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Chọn đáp án đúng về hiệu lực của hợp đồng?",
+      "options": [
+        "Khi hợp đồng có hiệu lực các bên phải thực hiện đúng nội dung đã thỏa thuận không được sửa đổi, bổ sung hợp đồng",
+        "Hợp đồng được giao kết hợp pháp có hiệu lực từ thời điểm giao kết, trừ trường hợp có thỏa thuận khác hoặc luật liên quan có quy định khác",
+        "Hợp đồng bằng văn bản có hiệu lực kể từ thời điểm được công chứng, chứng thực",
+        "Khi hợp đồng có hiệu lực các bên không được đơn phương chấm dứt thực hiện hợp đồng"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Thời hiệu khởi kiện về hợp đồng là bao lâu kể từ ngày người có quyền yêu cầu biết hoặc phải biết quyền và lợi ích hợp pháp của mình bị xâm phạm?",
+      "options": [
+        "01 năm.",
+        "02 năm.",
+        "03 năm.",
+        "05 năm."
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Nhận định nào sau đây về trách nhiệm dân sự của pháp nhân là sai?",
+      "options": [
+        "Pháp nhân phải chịu trách nhiệm dân sự về việc thực hiện quyền, nghĩa vụ dân sự do người đại diện xác lập, thực hiện nhân danh pháp nhân",
+        "Pháp nhân chịu trách nhiệm dân sự bằng tài sản của mình",
+        "Pháp nhân phải chịu trách nhiệm thay cho người của pháp nhân đối với nghĩa vụ dân sự do người của pháp nhân xác lập, thực hiện không nhân danh pháp nhân",
+        "Pháp nhân phải chịu trách nhiệm dân sự về việc thực hiện quyền, nghĩa vụ dân sự do người đại diện theo ủy quyền của pháp nhân xác lập, thực hiện nhân danh pháp nhân"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Tiền bán tài sản thế chấp được ưu tiên để thanh toán nghĩa vụ cho bên nhận thế chấp sau khi trừ:",
+      "options": [
+        "Chi phí bảo quản",
+        "Chi phí thu giữ và xử lý tài sản thế chấp",
+        "Tất cả các đáp án trên",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Thời điểm phát sinh quyền và nghĩa vụ của người thừa kế bắt đầu từ lúc nào?",
+      "options": [
+        "Từ thời điểm có yêu cầu phân chia di sản thừa kế",
+        "Từ thời điểm để lại di chúc",
+        "Từ thời điểm mở thừa kế",
+        "Từ thời điểm di chúc được công bố"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Thời hiệu yêu cầu Tòa án tuyên bố vô hiệu đối với giao dịch dân sự nào sau đây không bị hạn chế?",
+      "options": [
+        "Giao dịch dân sự vi phạm điều cấm của luật, trái đạo đức xã hội.",
+        "Giao dịch dân sự do người chưa thành niên xác lập, thực hiện.",
+        "Giao dịch dân sự được xác lập có sự nhầm lẫn.",
+        "Giao dịch dân sự không tuân thủ quy định về hình thức."
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Người đang giữ tài sản bảo đảm khi thuộc một trong các trường hợp xử lý tài sản bảo đảm có nghĩa vụ gì?",
+      "options": [
+        "Thông báo về việc đang giữ tài sản bảo đảm cho bên nhận bảo đảm để xử lý",
+        "Giao tài sản bảo đảm cho bên nhận bảo đảm để xử lý",
+        "Giao tài sản bảo đảm cho bên  bảo đảm để xử lý",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Bên bảo đảm có quyền nhận lại tài sản bảo đảm trước thời điểm xử lý tài sản bảo đảm với điều kiện nào?",
+      "options": [
+        "Khi bên bảo đảm thực hiện đầy đủ chi phí phát sinh do chậm thực hiện nghĩa vụ",
+        "Khi bên bảo đảm có yêu cầu bằng văn bản gửi bên nhận bảo đảm",
+        "Trước thời điểm xử lý tài sản bảo đảm mà bên bảo đảm thực hiện đầy đủ nghĩa vụ của mình đối với bên nhận bảo đảm và thanh toán chi phí phát sinh do việc chậm thực hiện nghĩa vụ thì có quyền nhận lại tài sản đó, trừ trường hợp luật có quy định khác",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Trường hợp các bên không có thỏa thuận về phương thức xử lý tài sản cầm cố, thế chấp thì tài sản bảo đảm được xử lý theo phương thức nào?",
+      "options": [
+        "Tài sản được bán đấu giá, trừ trường hợp luật có quy định khác",
+        "Bên nhận bảo đảm tự bán tài sản",
+        "Bên nhận bảo đảm nhận chính tài sản để thay thế cho việc thực hiện nghĩa vụ của bên bảo đảm",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Bên bảo đảm và bên nhận bảo đảm có quyền thỏa thuận một trong các phương thức xử lý tài sản cầm cố, thế chấp sau nào sau đây?",
+      "options": [
+        "Bán đấu giá tài sản;",
+        "Bên nhận bảo đảm tự bán tài sản",
+        "Bên nhận bảo đảm nhận chính tài sản để thay thế cho việc thực hiện nghĩa vụ của bên bảo đảm",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Trường hợp nào Bên nhận bảo đảm được quyền nhận chính tài sản bảo đảm để thay thế cho việc thực hiện nghĩa vụ của bên bảo đảm?",
+      "options": [
+        "Trường hợp các bên có thỏa thuận về việc Bên nhận bảo đảm có quyền nhận chính tài sản bảo đảm để thay thế cho việc thực hiện nghĩa vụ  khi xác lập giao dịch bảo đảm",
+        "Trường hợp các bên không có thỏa thuận thì bên nhận bảo đảm chỉ được nhận chính tài sản bảo đảm để thay thế cho việc thực hiện nghĩa vụ khi bên bảo đảm đồng ý bằng văn bản",
+        "Tất cả đáp án trên đều đúng",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Yêu cầu đối với việc định giá tài sản bảo đảm được quy định như thế nào?",
+      "options": [
+        "Việc định giá tài sản bảo đảm phải bảo đảm khách quan, phù hợp với giá thị trường",
+        "Việc định giá tài sản bảo đảm phải bảo đảm tính công khai, minh bạch",
+        "Việc định giá tài sản bảo đảm phải bảo đảm tính trung thực, công khai",
+        "Việc định giá tài sản bảo đảm phải bảo đảm tính minh bạch, liêm khiết"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo quy định của Agribank, Văn bản xác định độ mật của vật chứa bí mật nhà nước là?",
+      "options": [
+        "việc ghi lại bằng hình ảnh tài liệu, vật chứa bí mật nhà nước.",
+        "văn bản xác định độ mật đối với vật, địa điểm, lời nói, hoạt động, hình thức khác chứa bí mật nhà nước",
+        "thông tin có nội dung quan trọng do người có thẩm quyền xác định căn cứ vào quy định của Luật Bảo vệ bí mật nhà nước và các quy định khác liên quan, chưa công khai, nếu bị lộ, bị mất có thể gây nguy hại đến lợi ích quốc gia, dân tộc",
+        "việc đơn vị, cơ quan, tổ chức, cá nhân sử dụng lực lượng, phương tiện, biện pháp để phòng, chống xâm phạm bí mật nhà nước"
+      ],
+      "correctAnswerIndex": 1,
       "source": "N/A"
     }
   ]
