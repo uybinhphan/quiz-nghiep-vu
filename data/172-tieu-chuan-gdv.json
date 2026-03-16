@@ -1,0 +1,115 @@
+{
+  "originalDisplayName": "17.2. Tiêu chuẩn GDV",
+  "questions": [
+    {
+      "question": "Quy định \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\" áp dụng cho đối tượng nào?",
+      "options": [
+        "Trụ sở chính",
+        "Chi nhánh loại I, chi nhánh loại II, Phòng giao dịch",
+        "Chi nhánh nước ngoài",
+        "Cả 3 đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định 999/QyĐ-NHNo-TTh ngày 27/4/2023, \"Không gian bên ngoài cây ATM\" phải thực hiện  theo nội dung nào?",
+      "options": [
+        "Không có vật dụng che khuất, cản trở lối vào; Đảm bảo đầy đủ ánh sáng. Bật đèn theo quy định",
+        "Không có vật dụng che khuất, cản trở lối vào; Biển hiệu tại cây ATM không bị che khuất, biển sạch sẽ, không phai màu, nứt vỡ; Đảm bảo đầy đủ ánh sáng. Bật đèn theo quy định",
+        "Đảm bảo đầy đủ ánh sáng. Bật đèn theo quy định",
+        "Biển hiệu tại cây ATM không bị che khuất, biển sạch sẽ, không phai màu, nứt vỡ"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Quy định về Camera giám sát bên trong điểm giao dịch như thế nào theo \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\"?",
+      "options": [
+        "Có Camera giám sát theo quy định của Agribank",
+        "Không bắt buộc phải có Camera giám sát",
+        "Tuỳ tài chính của chi nhánh để thực hiện lắp đặt Camera",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Quy định về Hòm thư góp ý, hoặc đường dây hotline bên trong điểm giao dịch như thế nào theo \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\"?",
+      "options": [
+        "Tuỳ không gian bên trong điểm giao dịch, không bắt buộc phải đặt hòm thư góp ý",
+        "Có hòm thư góp ý, hoặc đường dây hotline",
+        "Đặt hòm thư góp ý tại Phòng bảo vệ",
+        "Đáp án 2 và 3"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Tác phong của nhân viên giao dịch được quy định như thế nào theo \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\"?",
+      "options": [
+        "Thái độ làm việc nghiêm túc, không tụ tập nói chuyện, cười đùa, làm việc riêng trong giờ làm việc",
+        "Tư thế ngồi làm việc ngay ngắn; Tác phong đi lại, làm việc nhanh nhẹn, khẩn trương, không kéo lê giày dép trên sàn",
+        "Để điện thoại ở chế độ im lặng đảm bảo không ảnh hưởng đến khách hàng giao dịch và những người xung quanh",
+        "Tất cả các đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định 999/QyĐ-NHNo-TTh, không để khách hàng chờ đợi quá bao nhiêu phút trước khi đến lượt giao dịch?",
+      "options": [
+        "30 phút",
+        "15 phút",
+        "10 phút",
+        "20 phút"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định 999/QyĐ-NHNo-TTh, tiêu chuẩn Nhân viên giao dịch quy định thế nào khi kết thúc giao dịch?",
+      "options": [
+        "Cảm ơn và cúi chào khách hàng",
+        "Cảm ơn và hẹn gặp lại khách hàng khi kết thúc giao dịch",
+        "Nhắc nhở khách hàng kiểm tra lại tiền, giấy tờ (nếu có) trước khi rời quầy giao dịch. Cảm ơn và hẹn gặp lại khách hàng khi kết thúc giao dịch",
+        "Nhắc nhở khách hàng kiểm tra lại tiền, giấy tờ (nếu có) trước khi rời quầy giao dịch. Cảm ơn  khách hàng"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định 999/QyĐ-NHNo-TTh, để cán bộ, nhân viên thực hiện đúng quy định về \"Tiêu chuẩn phục vụ khách hàng trong hệ thống Agribank\", Giám đốc Chi nhánh có trách nhiệm gì?",
+      "options": [
+        "Tổ chức tập huấn quán triệt việc thực hiện nội dung Quy định này tới các đơn vị trực thuộc",
+        "Tổ chức phát động phong trào thi đua thực hiện nội dung Quy định này tới các đơn vị trực thuộc",
+        "Tổ chức tuyên truyền, nâng cao ý thức thực hiện nội dung Quy định này tới các đơn vị trực thuộc",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định 999/QyĐ-NHNo-TTh, Giám đốc  Chi nhánh cần làm gì để đảm bảo yêu cầu nâng cao  chất lượng phục vụ khách hàng tại đơn vị?",
+      "options": [
+        "Tổ chức tự đánh giá, kiểm tra hàng ngày việc tuân thủ Quy định 999/QyĐ-NHNo-TTh tại đơn vị",
+        "Bổ sung thêm danh mục nội dung cần đánh giá ngoài Phiếu đánh giá kèm Quy định 999/QyĐ-NHNo-TTh tại đơn vị",
+        "Cả đáp án 1 và 2",
+        "Đề xuất thuê bên thứ ba độc lập tổ chức kiểm tra việc tuân thủ Quy định 999/QyĐ-NHNo-TTh tại đơn vị"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy định 999/QyĐ-NHNo-TTh, đơn vị nào tại TSC là đầu mối phối hợp các ban/đơn vị liên quan tham mưu, đề xuất thuê bên thứ ba độc lập tổ chức kiểm tra việc tuân thủ Quy định này tại các chi nhánh trong toàn hệ thống?",
+      "options": [
+        "Ban Truyền thông",
+        "Ban Tổ chức nhân sự",
+        "Văn phòng Trụ sở chính",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    }
+  ]
+}

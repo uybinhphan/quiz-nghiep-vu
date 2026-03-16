@@ -1,5 +1,5 @@
 {
-  "originalDisplayName": "14. Xây dựng cơ bản, quản trị hành chính",
+  "originalDisplayName": "14. Xây dựng cơ bản, quản trị hành chính",
   "questions": [
     {
       "question": "Việc giám sát đánh giá đầu tư đối với các dự án đầu tư xây dựng sử dụng vốn đầu tư công, vốn nhà nước ngoài đầu tư công căn cứ vào các quy định nào?",
@@ -10,7 +10,7 @@
         "Pháp luật về đầu tư công, pháp luật về xây dựng và pháp luật khác có liên quan."
       ],
       "correctAnswerIndex": 3,
-      "source": "Phần căn cứ của Nghị định 29/2021/NĐ-CP ngày 26/3/2021"
+      "source": "N/A"
     },
     {
       "question": "Đối với công trình cấp II và cấp III, quy định về thời gian thẩm định thiết kế xây dựng triển khai sau thiết kế cơ sở của cơ quan chuyên môn về xây dựng tính từ ngày nhận đủ hồ sơ hợp lệ như thế nào là đúng sau đây?",
@@ -21,7 +21,7 @@
         "Không quá 45 ngày."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 9, Điều 47 Nghị định số: 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Những công tác nào được liệt kê dưới đây thuộc giai đoạn chuẩn bị dự án?",
@@ -32,18 +32,7 @@
         "Đáp án 1 và 2 đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1, Điều 4, Nghị định số: 175/2024/NĐ-CP ngày 30/12/2024"
-    },
-    {
-      "question": "Công trình Trụ sở làm việc của Agribank có tổng diện tích sàn từ bao nhiêu mét vuông trở lên thì thuộc diện phải thẩm định thiết kế về Phòng cháy và chữa cháy?",
-      "options": [
-        "Tổng diện tích sàn từ 3000 m2 trở lên",
-        "Tổng diện tích sàn từ 6000 m2 trở lên",
-        "Tổng diện tích sàn từ 7000 m2 trở lên",
-        "Tổng diện tích sàn từ 9000 m2 trở lên"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Mục số 7, Phụ lục III, Nghị định 105/2025/NĐ-CP ngày 15/5/2025"
+      "source": "N/A"
     },
     {
       "question": "Công trình Trụ sở làm việc của Agribank chiều cao tầng như thế nào thì thuộc diện phải thẩm định thiết kế về Phòng cháy và chữa cháy?",
@@ -54,7 +43,7 @@
         "Từ 10 tầng trở lên"
       ],
       "correctAnswerIndex": 0,
-      "source": "Mục số 7, Phụ lục III, Nghị định 105/2025/NĐ-CP ngày 15/5/2025"
+      "source": "N/A"
     },
     {
       "question": "Đối tượng chịu sự kiểm tra, giám sát trong quá trình thực hiện quản lý đầu tư xây dựng theo Quy định của Agribank gồm đối tượng nào?",
@@ -65,7 +54,7 @@
         "Tất cả các đối tượng trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2,  Điều 9, Quy định 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Mục tiêu của kiểm tra giám sát tiến độ thực hiện dự án công trình là gì?",
@@ -76,7 +65,7 @@
         "Kiểm soát chi phí và ngăn ngừa lãng phí"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1,  Điều 9, Quy định 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của pháp luật về xây dựng, hợp đồng trong hoạt động xây dựng theo hình thức giá có những loại nào?",
@@ -87,7 +76,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản  2, Điều 3 Nghị định số: 37/2015/NĐ-CP ngày 22/4/2015"
+      "source": "N/A"
     },
     {
       "question": "Hồ sơ trình thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng không bao gồm tài liệu nào dưới đây?",
@@ -98,7 +87,7 @@
         "Hồ sơ khảo sát xây dựng được duyệt"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản  2, Điều 17 Nghị định số: 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Công tác nào sau đây không nằm trong giai đoạn thực hiện dự án đầu tư xây dựng?",
@@ -109,7 +98,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1, Điều 4, Nghị định số: 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật xây dựng, những cá nhân nào dưới đây không bắt buộc phải có chứng chỉ hành nghề hoạt động xây dựng?",
@@ -120,7 +109,7 @@
         "Cán bộ tư vấn giám sát thi công xây dựng."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản  3, Điều 148 Luật xây dựng số: 50/2014/QH13"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật xây dựng, số bước thiết kế xây dựng do ai quyết định?",
@@ -131,29 +120,18 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản  2, Điều 78 Luật xây dựng số: 50/2014/QH13"
+      "source": "N/A"
     },
     {
       "question": "Chủ thể nào có thẩm quyền phê duyệt điều chỉnh dự án đầu tư xây dựng?",
       "options": [
         "Người quyết định đầu tư",
-        "Chủ đầu tư",
-        "Ban quản lý dự án",
+        "Chủ đầu tư.",
+        "Ban quản lý dự án.",
         "Ban điều hành"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản  2, 3 Điều 61 Luật xây dựng số: 50/2014/QH13"
-    },
-    {
-      "question": "Căn cứ mức độ quan trọng và quy mô, dự án đầu tư xây dựng được phân thành những loại nào?",
-      "options": [
-        "Dự án quan trọng quốc gia, nhóm A, B và C",
-        "Nhóm A, B và C",
-        "Nhóm A, B, C và D",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Khoản 8 Điều 1 Luật Xây dựng sửa đổi 2020"
+      "source": "N/A"
     },
     {
       "question": "Sơ bộ tổng mức đầu tư xây dựng là một nội dung của Báo cáo nào?",
@@ -164,7 +142,7 @@
         "Báo cáo lập dự án đầu tư xây dựng"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1, Điều 4, Nghị định số: 10/2021/NĐ-CP ngày 09/2/2021"
+      "source": "N/A"
     },
     {
       "question": "Khi sử dụng phương pháp đánh giá dự án bằng giá trị hiện tại thuần (Net Present Value), quyết định chấp nhận dự án nếu?",
@@ -175,18 +153,7 @@
         "NPV có thể lớn hơn hoặc nhỏ hơn 0 nhưng IRR của dự án lớn hơn lãi suất cho vay"
       ],
       "correctAnswerIndex": 2,
-      "source": "Chỉ số NPV càng cao chứng tỏ dự án càng đem về nhiều lợi nhuận cho nhà đầu tư."
-    },
-    {
-      "question": "Theo Quyết định 409/QĐ-BXD ngày 11/4/2025, suất vốn đầu tư xây dựng không bao gồm những nội dung nào sau đây?",
-      "options": [
-        "Chi phí xây dựng; chi phí thiết bị.",
-        "Chi phí tư vấn đầu tư xây dựng.",
-        "Chi phí dự phòng và chi phí thực hiện một số loại công việc theo yêu cầu riêng của dự án, công trình.",
-        "Chi phí quản lý dự án."
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Khoản 2, mục I phần 1, Quyết định 409/QĐ-BXD ngày 11/4/2025"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định số: 10/2021/NĐ-CP, phí thẩm định dự án đầu tư xây dựng công trình thuộc khoản mục chi phí nào trong Tổng mức đầu tư dự án theo phương án trả lời dưới đây là đúng?",
@@ -197,7 +164,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm e, khoản 2, Điều 5, Nghị định số: 10/2021/NĐ-CP ngày 09/2/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Thông tư số 11/2021/TT-BXD, chi phí chung của chi phí xây dựng gồm những chi phí nào sau đây?",
@@ -208,7 +175,7 @@
         "Cả 3 đáp án 1, 2, 3 đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Mục II Phụ lục III Thông tư số 11/2021/TT-BXD ngày 31/8/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 37/2015/NĐ-CP, việc thanh toán hợp đồng xây dựng được thực hiện như thế nào là đúng sau đây?",
@@ -219,7 +186,7 @@
         "Đáp án 1 và 2 đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 19 Nghị định 37/2015/NĐ-CP ngày 22/4/2015"
+      "source": "N/A"
     },
     {
       "question": "Theo Thông tư 12/2021-BXD ngày 31/8/2021, dự án đầu tư xây dựng công trình Trụ sở làm việc lập tháng 11/2021 gồm có 1 tòa nhà làm việc cao 7 tầng ngoài ra còn đường nội bộ, cổng hàng rào và nhà bảo vệ. Hỏi chi phí tư vấn thiết kế bản vẽ thi công tính thế nào là đúng?",
@@ -230,29 +197,18 @@
         "Tra định mức chi phí tỷ lệ cho từng công trình theo giá trị chi phí xây dựng trước thuế của từng hạng mục. Cộng các chi phí tư vấn thiết kế của tất cả các hạng mục tính được chi phí tư vấn thiết kế của dự án. Chi phí tư vấn thiết kế tính ra như trên đã có thuế giá trị gia tăng."
       ],
       "correctAnswerIndex": 2,
-      "source": "Mục 3 Chương II Thông tư 12/2021-BXD ngày 31/8/2021"
-    },
-    {
-      "question": "Theo Quyết định số: 409/QĐ-BXD ngày 11/4/2025, phát biểu nào dưới đây về Suất vốn đầu tư do Bộ Xây dựng công bố là đúng?",
-      "options": [
-        "Suất vốn đầu tư bao gồm các chi phí: xây dựng, thiết bị, quản lý dự án đầu tư xây dựng, tư vấn đầu tư xây dựng, các khoản chi phí khác và chi phí dự phòng. Suất vốn đầu tư tính toán đã bao gồm thuế giá trị gia tăng cho các chi phí nêu trên.",
-        "Suất vốn đầu tư bao gồm các chi phí: xây dựng, thiết bị, quản lý dự án đầu tư xây dựng, tư vấn đầu tư xây dựng và các khoản chi phí khác. Suất vốn đầu tư tính toán chưa bao gồm thuế giá trị gia tăng cho các chi phí nêu trên.",
-        "Suất vốn đầu tư xây dựng chưa bao gồm chi phí dự phòng và chi phí thực hiện một số loại công việc theo yêu cầu riêng của dự án, công trình cụ thể như Chi phí bồi thường, hỗ trợ và tái định cư; Lãi vay trong thời gian thực hiện đầu tư xây dựng; Vốn lưu động ban đầu; Một số chi phí có tính chất riêng biệt theo từng dự án,...",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Mục 2 phần 1 Quyết định số: 409/QĐ-BXD ngày 11/4/2025"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định số:  10/2021/NĐ-CP, Dự án đầu tư xây dựng phải thực hiện quyết toán vốn đầu tư xây dựng trong trường hợp nào sau đây?",
       "options": [
         "Sau khi công trình của dự án được hoàn thành bàn giao đưa vào sử dụng.",
         "Dự án bị dừng thực hiện vĩnh viễn khi cấp có thẩm quyền có văn bản dừng hoặc cho phép chấm dứt thực hiện dự án.",
-        "Đáp án 1 và 2 đúng.",
+        "Đáp án 1 và 2 đúng",
         "Khi người quyết định đầu tư yêu cầu."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 35 Nghị định số:  10/2021/NĐ-CP ngày 09/02/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định số:  10/2021/NĐ-CP, có bao nhiêu khoản mục chi phí trong tổng mức đầu tư xây dựng?",
@@ -263,7 +219,7 @@
         "8 khoản mục."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 4 Nghị định số:  10/2021/NĐ-CP ngày 09/02/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định số:  37/2015/NĐ-CP, quy định nào sau đây về thu hồi tiền tạm ứng là đúng?",
@@ -274,7 +230,7 @@
         "Bắt buộc thu hồi tạm ứng từ lần thanh toán đầu tiên theo tỷ lệ phần trăm tiền tạm ứng và đảm bảo thu hồi hết khi giá trị thanh toán khối lượng hoàn thành đạt 95% giá trị hợp đồng."
       ],
       "correctAnswerIndex": 0,
-      "source": "Tiết đ khoản 5 Điều18 Nghị định số:  37/2015/NĐ-CP ngày 22/4/2015"
+      "source": "N/A"
     },
     {
       "question": "Theo Thông tư số 11/2021/TT-BXD, chi phí mua bảo hiểm trách nhiệm nghề nghiệp tư vấn thiết kế xây dựng của công trình từ cấp II trở lên thuộc khoản mục chi phí nào của dự toán gói thầu tư vấn đầu tư xây dựng?",
@@ -285,7 +241,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Phụ lục 4 Thông tư số 11/2021/TT-BXD"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 10/2021/NĐ-CP, chi phí xây dựng công trình phụ trợ phục vụ thi công thuộc chi phí nào trong tổng mức đầu tư của dự án đầu tư xây dựng công trình?",
@@ -296,7 +252,7 @@
         "Chi phí dự phòng."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 5 Nghị định 10/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo pháp luật xây dựng, trình tự đầu tư xây dựng được chia thành mấy giai đoạn?",
@@ -307,18 +263,7 @@
         "4 giai đoạn gồm giai đoạn tiền đầu tư; giai đoạn chuẩn bị đầu tư; giai đoạn thực hiện đầu tư; giai đoạn kết thúc đầu tư."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 50 Luật Xây dựng 2014"
-    },
-    {
-      "question": "Theo Quyết định 409/QĐ-BXD ngày 11/4/2025, trong Suất vốn đầu tư do Bộ Xây dựng công bố gồm nội dung nào?",
-      "options": [
-        "Chưa bao gồm thuế giá trị gia tăng.",
-        "Đã bao gồm thuế giá trị gia tăng.",
-        "Chưa bao gồm thuế giá trị gia tăng nhưng đã có chi phí dự phòng.",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Mục 2  phần 1 Quyết định 409/QĐ-BXD ngày 11/4/2025"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 10/2021/NĐ-CP, vì sao chi phí dự phòng trong dự án đầu tư xây dựng lớn và phức tạp cần cao hơn chi phí dự phòng trong các dự án khác?",
@@ -329,7 +274,7 @@
         "Tất cả các ý trên đều đúng."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 7 Điều 12 Nghị định 10/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Trong quá trình lựa chọn nhà thầu, trường hợp thương thảo không thành công, Bên mời thầu thực hiện nhiệm vụ gì?",
@@ -340,7 +285,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 9, Điều 28, Quy định 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 175/2024/NĐ-CP, dự án đầu tư xây dựng được phân thành loại và nhóm A, B, C đối với các nguồn vốn nào?",
@@ -351,7 +296,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 5 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 175/2024/NĐ-CP, công tác nào sau đây ở giai đoạn thực hiện dự án?",
@@ -362,7 +307,7 @@
         "Tất cả các công tác trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 4 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Thông tư 06/2021/TT-BXD, việc phân cấp công trình xây dựng theo quy định của pháp luật về xây dựng trên cơ sở tiêu chí nào?",
@@ -373,7 +318,7 @@
         "Do chủ đầu tư quy định."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 2 Thông tư 06/2021/TT-BXD"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật Xây dựng sửa đổi số 62/2020/QH14, các dự án đầu tư xây dựng có quy mô nhóm nào yêu cầu phải lập Báo cáo nghiên cứu tiền khả thi để trình cấp có thẩm quyền quyết định hoặc chấp thuận chủ trương đầu tư?",
@@ -384,7 +329,7 @@
         "Cả 3 đáp án 1, 2, 3 đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 10 Điều 1 Luật Xây dựng sửa đổi số 62/2020/QH14"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật Xây dựng sửa đổi số 62/2020/QH14, Đối với dự án đầu tư xây dựng sử dụng vốn nhà nước ngoài đầu tư công, cơ quan chuyên môn về xây dựng thẩm định báo cáo nghiên cứu khả thi đối với dự án nào sau đây?",
@@ -395,7 +340,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 14, khoản 15 Điều 1 Luật Xây dựng sửa đổi số 62/2020/QH14"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 175/2024/NĐ-CP, đối với các Dự án đầu tư xây dựng điều chỉnh, cơ quan chuyên môn về xây dựng thẩm định Báo cáo nghiên cứu khả thi điều chỉnh trong trường hợp nào sau đây?",
@@ -406,7 +351,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2 Điều 23 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật Xây dựng sửa đổi số 62/2020/QH14, đối với dự án sử dụng vốn đầu tư công, dự án sử dụng vốn nhà nước ngoài đầu tư công chỉ cần lập Báo cáo kinh tế - kỹ thuật, người quyết định đầu tư thẩm định những nội dung nào sau đây?",
@@ -417,7 +362,7 @@
         "Tất cả các nội dung ở đáp án 1, 2, 3."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 14 Điều 1 Luật Xây dựng sửa đổi số 62/2020/QH14"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật Xây dựng sửa đổi số 62/2020/QH14, đối với công trình xây dựng sử dụng vốn đầu tư công, công trình xây dựng sử dụng vốn nhà nước ngoài đầu tư công, chủ đầu tư thẩm định thiết kế xây dựng triển khai sau thiết kế cơ sở đối với các nội dung nào sau đây?",
@@ -428,7 +373,7 @@
         "Bao gồm tất cả các nội dung ở dáp án 1, 2, 3."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 25 Điều 1 Luật Xây dựng sửa đổi số 62/2020/QH14"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 06/2021/NĐ-CP, chủ thể nào có trách nhiệm thực hiện bảo hành công trình xây dựng?",
@@ -439,7 +384,7 @@
         "Nhà thầu giám sát thi công"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 28 Nghị định 06/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 37/2015/NĐ-CP, trường hợp công việc chưa đủ điều kiện để xác định chính xác về số lượng hoặc khối lượng thì nên áp dụng hình thức hợp đồng nào là thích hợp nhất?",
@@ -450,18 +395,18 @@
         "Hợp đồng theo tỷ lệ phần trăm."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 5 Điều 15 Nghị định 37/2015/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 37/2015/NĐ-CP, bên giao thầu có quyền chấm dứt hợp đồng trong các trường hợp nào sau đây?",
       "options": [
         "Bên nhận thầu bị phá sản, giải thể hoặc chuyển nhượng hợp đồng xây dựng cho người hoặc tổ chức mà không có sự chấp thuận của bên giao thầu.",
-        "Bên nhận thầu từ chối thực hiện công việc theo hợp đồng hoặc 56 ngày liên tục không thực hiện công việc theo hợp đồng, dẫn đến vi phạm tiến độ thực hiện theo thỏa thuận hợp đồng, trừ trường hợp được phép của bên giao thầu.",
+        "Bên nhận thầu từ chối thực hiện công việc theo hợp đồng hoặc 56 ngày liên tục không thực hiệncông hiện công việc theo hợp đồng, dẫn đến vi phạm tiến độ thực hiện theo thỏa thuận hợp đồng, trừ trường hợp được phép của bên giao thầu.",
         "Bao gồm các đáp án 1 và 2.",
         "Việc chấm dứt hợp đồng là do bên giao thầu quyết định."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 7 Điều 41 Nghị định 37/2015/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 175/2024/NĐ-CP, bản vẽ thiết kế xây dựng trong hồ sơ đề nghị cấp giấy phép xây dựng là bản vẽ của bước thiết kế nào?",
@@ -472,7 +417,7 @@
         "Thiết kế sơ bộ."
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 55 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Luật Xây dựng sửa đổi số 62/2020/QH14, khi khởi công xây dựng công trình yêu cầu phải có các điều kiện nào dưới đây?",
@@ -483,7 +428,7 @@
         "Chỉ cần đáp ứng điều kiện tại đáp án 1 hoặc 2."
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 39 Điều 1 Luật Xây dựng sửa đổi số 62/2020/QH14"
+      "source": "N/A"
     },
     {
       "question": "Theo Thông tư 11/2021/TT-BXD ngày  31/8/2021, đối với công trình dân dụng, thu nhập chịu thuế tính trước được tính bằng bao nhiêu phần trăm (%) trên chi phí trực tiếp và chi phí gián tiếp trong dự toán chi phí xây dựng?",
@@ -494,7 +439,7 @@
         "0.1"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản III, Phụ lục III, Thông tư 11/2021/TT-BXD ngày  31/8/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 37/2015/NĐ-CP ngày 22/4/2015, hợp đồng thi công xây dựng công trình được thanh lý khi nào?",
@@ -505,7 +450,7 @@
         "Khi bên giao thầu và bên nhận thầu đã hoàn thành tất cả các nghĩa vụ theo hợp đồng xây dựng đã ký."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3, Điều 147, Luật Xây dựng số 50/2014/QH13"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, thời gian thực hiện dự án tính từ thời điểm phê duyệt dự án cho đến khi bàn giao công trình đưa vào sử dụng đối với công trình trụ sở có tổng mức đầu tư dưới 15 tỷ đồng tối đa là bao lâu?",
@@ -516,7 +461,7 @@
         "02 năm"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm c, Khoản 1, Điều 10 Quy định 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Chủ thể nào sau đây có trách nhiệm lập bản vẽ hoàn công công trình?",
@@ -527,7 +472,7 @@
         "Nhà thầu tư vấn giám sát"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 13 Điều 13 Nghị định 06/2021/NĐ-CP ngày 26/01/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, thời gian lập hồ sơ quyết toán dự án hoàn thành (tính từ thời điểm bàn giao đưa công trình vào sử dụng) đối với công trình có tổng mức đầu tư dưới 45 tỷ đồng tối đa bao nhiêu tháng?",
@@ -538,7 +483,7 @@
         "7 tháng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b, Khoản 2, Điều 10 Quy định 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, thời gian thẩm tra, phê duyệt quyết toán dự án hoàn thành đối với công trình có tổng mức đầu tư dưới 45 tỷ đồng tối đa bao nhiêu tháng kể từ khi nhận đủ hồ sơ?",
@@ -549,7 +494,7 @@
         "6 tháng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b, Khoản 2, Điều 14 Quy định 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024, đối với các dự án xây dựng trong hệ thống Agribank do Tổng Giám đốc làm Chủ đầu tư trừ những dự án do Ban quản lý dự án đầu tư xây dựng khu vực thực hiện, ai là người được phép lựa chọn nhà thầu đối với các gói thầu tư vấn có giá trị dưới 0,5 tỷ đồng?",
@@ -560,7 +505,7 @@
         "Đơn vị kế hoạch hoặc Tổng Giám đốc tùy theo Tổng mức đầu tư từng dự án."
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm k, khoản 2 Điều 5 Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024, mức tạm ứng hợp đồng tư vấn tối thiểu là bao nhiêu?",
@@ -571,7 +516,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm a, Khoản 2 Điều 36 Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024, thời gian bảo hành công trình tối thiểu được quy định như thế nào?",
@@ -582,7 +527,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2, Điều 48 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Nội dung nào thuộc Quyền và nghĩa vụ của nhà thầu thi công xây dựng",
@@ -593,18 +538,18 @@
         "Cung cấp thông tin dữ liệu của dự án theo yêu cầu của cơ quan quản lý nhà nước; phối hợp hoặc tổ chức thu thập thông tin, dữ liệu liên quan đến chi phí đầu tư xây dựng theo yêu cầu của cơ quan quản lý nhà nước."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 5, Điều 39 Nghị định 10/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Chủ thể nào sau đây có trách nhiệm lập tiến độ chi tiết thi công xây dựng công trình?",
       "options": [
         "Chủ đầu tư",
         "Nhà thầu thiết kế xây dựng",
-        "Nhà thầu thi công xây dựng xây dựng",
+        "Nhà thầu thi công xây dựng",
         "Nhà thầu tư vấn giám sát"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 13 Điều 13 Nghị định 06/2021/NĐ-CP ngày 26/01/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 06/2021/NĐ-CP ngày 26/01/2021, nội dung nhật ký thi công xây dựng bao gồm các thông tin chủ yếu nào sau đây?",
@@ -615,7 +560,7 @@
         "Tất cả các nội dung trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Phụ lục IIa Nghị định 06/2021/NĐ-CP ngày 26/01/2021"
+      "source": "N/A"
     },
     {
       "question": "Cá nhân được cấp chứng chỉ hành nghề định giá xây dựng được chủ trì thực hiện các công việc về quản lý chi phí đầu tư xây dựng nào sau đây?",
@@ -626,7 +571,7 @@
         "Cả 3 đáp án trên đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 84 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Quyết định phê duyệt dự án đầu tư xây dựng công trình không bao gồm nội dung nào sau đây?",
@@ -637,7 +582,7 @@
         "Số bước thiết kế"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 22 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Quyết định phê duyệt dự án đầu tư xây dựng công trình bao gồm nội dung nào sau đây?",
@@ -648,7 +593,7 @@
         "Cả 3 đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3 Điều 22 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Quyết định phê duyệt thiết kế xây dựng triển khai sau thiết kế cơ sở của chủ đầu tư không bao gồm nội dung nào sau đây?",
@@ -659,7 +604,7 @@
         "Địa điểm xây dựng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 48 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Quyết định phê duyệt thiết kế xây dựng triển khai sau thiết kế cơ sở của chủ đầu tư bao gồm nội dung nào sau đây?",
@@ -670,7 +615,7 @@
         "Cả 3 đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 48 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Chi phí thẩm tra thiết kế xây dựng xác định theo định mức (chưa bao gồm thuế GTGT) tối thiểu không nhỏ hơn giá trị bao nhiêu?",
@@ -681,7 +626,7 @@
         "Không nhỏ hơn 10.000.000 đồng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Bảng 2.16 Phụ lục VIII Thông tư 12/2021/TT-BXD ngày 31/8/2021"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp dự án có yêu cầu phải thẩm tra thiết kế công nghệ của dự án thì chi phí thẩm tra thiết kế công nghệ bổ sung bằng bao nhiêu phần trăm (%) của chi phí thẩm tra báo cáo nghiên cứu khả thi?",
@@ -692,7 +637,7 @@
         "0.5"
       ],
       "correctAnswerIndex": 0,
-      "source": "Bảng 2.15 Phụ lục VIII Thông tư 12/2021/TT-BXD ngày 31/8/2021"
+      "source": "N/A"
     },
     {
       "question": "Chi phí lập Hồ sơ mời thầu bằng bao nhiêu phần trăm (%) chi phí lập hồ sơ mời thầu, đánh giá hồ sơ dự thầu mua sắm vật tư thiết bị tính theo định mức trong thông tư 12/2021/TT-BXD?",
@@ -703,7 +648,7 @@
         "0.7"
       ],
       "correctAnswerIndex": 0,
-      "source": "Bảng 2.20 Phụ lục VIII Thông tư 12/2021/TT-BXD ngày 31/8/2021"
+      "source": "N/A"
     },
     {
       "question": "Chi phí đánh giá hồ sơ dự thầu bằng bao nhiêu phần trăm (%) chi phí lập hồ sơ mời thầu, đánh giá hồ sơ dự thầu mua sắm vật tư thiết bị tính theo định mức trong thông tư 12/2021/TT-BXD?",
@@ -714,7 +659,7 @@
         "0.7"
       ],
       "correctAnswerIndex": 0,
-      "source": "Bảng 2.20 Phụ lục VIII Thông tư 12/2021/TT-BXD ngày 31/8/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định hiện hành, Phương án kỹ thuật khảo sát xây dựng bao gồm nội dung nào sau đây?",
@@ -725,7 +670,7 @@
         "Tất cả các đáp án 1, 2 và 3 đều dúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2, Điều 31 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định hiện hành, Nhiệm vụ khảo sát xây dựng bao gồm nội dung nào sau đây?",
@@ -736,7 +681,7 @@
         "Tất cả các đáp án 1, 2 và 3 đều dúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 4, Điều 30 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định hiện hành, Nhiệm vụ khảo sát xây dựng không bao gồm nội dung nào sau đây?",
@@ -747,18 +692,18 @@
         "Phạm vi khảo sát xây dựng"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 4 Điều 30 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Chủ thể nào sau đây có trách nhiệm lập nhật ký thi công xây dựng công trình?",
       "options": [
         "Chủ đầu tư",
         "Nhà thầu thiết kế xây dựng",
-        "Nhà thầu thi công xây dựng xây dựng",
+        "Nhà thầu thi công xây dựng",
         "Nhà thầu tư vấn giám sát"
       ],
       "correctAnswerIndex": 2,
-      "source": "Phụ lục IIa Nghị định 06/2021/NĐ-CP ngày 26/01/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024, diện tích sử dụng của kho tiền (chưa bao gồm gian đệm) đối với Chi nhánh trong hệ thống Agribank được quy định như thế nào?",
@@ -769,7 +714,7 @@
         "Tối thiểu 25 m²"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm 1 , mục I Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024, diện tích sử dụng của kho tiền (chưa bao gồm gian đệm) đối với Phòng Giao dịch trong hệ thống Agribank được quy định như thế nào?",
@@ -780,7 +725,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm 1 , mục I Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024, diện tích kho tiền trong hệ thống Agribank được quy định như thế nào sau đây là đúng?",
@@ -791,7 +736,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm 1 , mục I Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024, tiêu chuẩn kỹ thuật của kho tiền đối với Phòng Giao dịch trong hệ thống Agribank được quy định như thế nào sau đây là đúng?",
@@ -802,7 +747,7 @@
         "Đáp án 1 và 2 đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Phụ lục số 01/KQ Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024, bê tông cốt thép tường kho tiền đối với Phòng giao dịch trong hệ thống Agribank mác bao nhiêu?",
@@ -813,7 +758,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Phụ lục số 01/KQ Văn bản số 6132/NHNo-TTKQ ngày 09/5/2024"
+      "source": "N/A"
     },
     {
       "question": "Luật Xây dựng số 50/2014/QH13 ban hành ngày 18/6/2014 có hiệu lực từ ngày nào?",
@@ -824,7 +769,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 167 Luật Xây dựng ngày 18/6/2014"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 4277/QĐ-NHNo-QLĐT ngày 17/12/2024 của Tổng Giám đốc, đối với Hợp đồng tư vấn giám sát, tư vấn quản lý dự án thanh toán trên cơ sở  nào?",
@@ -835,7 +780,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b, Khoản 3 Điều 37  Quy định 4277/QĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định 4277/QĐ-NHNo-QLĐT ngày 17/12/2024 của Tổng Giám đốc, đối với Hợp đồng thi công xây dựng, lắp đặt thiết bị, sau khi nhà thầu hoàn thành toàn bộ khối lượng gói thầu, chủ đầu tư thanh toán đến bao nhiêu % giá trị khối lượng hoàn thành theo hợp đồng đã được nghiệm thu, sau khi đã giảm trừ tiền tạm ứng?",
@@ -846,7 +791,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm a Khoản 3 Điều 37  Quy định 4277/QĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Tờ trình gửi cơ quan chuyên môn về xây dựng để trình thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng bao gồm nội dung nào sau đây?",
@@ -857,7 +802,7 @@
         "Cả 3 đáp án 1, 2, 3 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Mẫu số 01 Phụ lục I Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Hồ sơ gửi kèm Tờ trình gửi cơ quan chuyên môn về xây dựng để trình thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng bao gồm nội dung nào sau đây?",
@@ -868,7 +813,7 @@
         "Cả 3 đáp án 1, 2, 3 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2, Điều 17 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Tờ trình gửi cơ quan chuyên môn về xây dựng để trình thẩm định thiết kế xây dựng triển khai sau thiết kế cơ sở bao gồm nội dung nào sau đây?",
@@ -879,7 +824,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Mẫu số 08 Phụ lục I Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Hồ sơ gửi kèm Tờ trình gửi cơ quan chuyên môn về xây dựng để trình thẩm định thiết kế xây dựng triển khai sau thiết kế cơ sở bao gồm nội dung nào sau đây?",
@@ -890,7 +835,7 @@
         "Đáp án 1 và 2 đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 45 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024, Trường hợp phải xin cấp phép xây dựng, đơn vị nào thực hiện xin cấp phép xây dựng?",
@@ -901,7 +846,7 @@
         "Ban Quản lý đầu tư nội ngành"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2, Điều 23, Quy định 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Thời gian thẩm định thiết kế xây dựng triển khai sau thiết kế cơ sở của cơ quan chuyên môn về xây dựng tính từ ngày nhận đủ hồ sơ hợp lệ được quy định như thế nào là đúng trong các trường hợp dưới đây?",
@@ -912,7 +857,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 9 Điều 47 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Đối với công trình cấp I và cấp đặc biệt, quy định về thời gian thẩm định thiết kế xây dựng triển khai sau thiết kế cơ sở của cơ quan chuyên môn về xây dựng tính từ ngày nhận đủ hồ sơ hợp lệ như thế nào là đúng trong các trường hợp dưới đây?",
@@ -923,10 +868,10 @@
         "Không quá 90 ngày"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 9 Điều 47 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
-      "question": "Theo Nghị định số: 10/2021/NĐ-CP, chi phí giám sát thi công xây dựng, lắp đặt thiết bị thuộc khoản mục chi phí nào trong Tổng mức đầu tư dự án?",
+      "question": "Theo Nghị định số: 10/2021/NĐ-CP, chi phí giám sát thi công xây dựng, lắp đặt thiết bị thuộc khoản mục chi phí nào trong Tổng mức đầu tư dự án? theo phương án trả lời nào dưới đây là đúng?",
       "options": [
         "Chi phí quản lý dự án.",
         "Chi phí tư vấn đầu tư xây dựng công trình.",
@@ -934,7 +879,7 @@
         "Chi phí xây dựng."
       ],
       "correctAnswerIndex": 1,
-      "source": "Điều 31 Nghị định 10/2021/NĐ-CP ngày 09/02/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định số: 10/2021/NĐ-CP, chi phí thẩm tra thiết kế xây dựng công trình, dự toán xây dựng thuộc khoản mục chi phí nào trong Tổng mức đầu tư dự án?",
@@ -945,7 +890,7 @@
         "Chi phí xây dựng."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 31 Nghị định 10/2021/NĐ-CP ngày 09/02/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định số: 10/2021/NĐ-CP, chi phí thực hiện khảo sát xây dựng thuộc khoản mục chi phí nào trong Tổng mức đầu tư dự án?",
@@ -956,7 +901,7 @@
         "Chi phí tư vấn đầu tư xây dựng công trình."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 31 Nghị định 10/2021/NĐ-CP ngày 09/02/2021"
+      "source": "N/A"
     },
     {
       "question": "Trong hoạt động xây dựng, đối với cá nhân có trình độ đại học, có trình độ chuyên môn phù hợp, có thời gian kinh nghiệm tham gia công việc phù hợp với nội dung đề nghị cấp chứng chỉ hành nghề sau thời gian bao nhiêu được cấp chứng chỉ hành nghề hạng III?",
@@ -967,7 +912,7 @@
         "Từ 07 năm trở lên"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 79  Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Trong hoạt động xây dựng, đối với cá nhân có trình độ cao đẳng, chuyên môn phù hợp, có thời gian kinh nghiệm tham gia công việc phù hợp với nội dung đề nghị cấp chứng chỉ hành nghề thì thời gian bao lâu được cấp chứng chỉ hành nghề hạng III?",
@@ -978,7 +923,7 @@
         "Từ 07 năm trở lên"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 79  Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Trong hoạt động xây dựng, đối với cá nhân có  trình độ đại học thuộc chuyên ngành phù hợp, có thời gian kinh nghiệm tham gia công việc phù hợp với nội dung đề nghị cấp chứng chỉ hành nghề thì sau thời gian từ bao nhiêu năm trở lên được cấp chứng chỉ hành nghề hạng I?",
@@ -989,7 +934,7 @@
         "10 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 79  Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định, trong hoạt động xây dựng, chứng chỉ hành nghề Khảo sát xây dựng, Thiết kế xây dựng, Giám sát thi công xây dựng có mấy hạng?",
@@ -1000,18 +945,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Căn cứ Điều 80,82,83 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
-    },
-    {
-      "question": "Đối với dự án đầu tư xây dựng sử dụng vốn nhà nước ngoài đầu tư công, cơ quan chuyên môn về xây dựng thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng đối với dự án nào sau đây?",
-      "options": [
-        "Dự án có quy mô nhóm B trở lên.",
-        "Dự án có công trình ảnh hưởng lớn đến an toàn, lợi ích cộng đồng.",
-        "Tất cả các nội dung trên.",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "Khoản 2, Điều 16 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định về thực hiện bảo trì công trình xây dựng, sửa chữa công trình bao gồm?",
@@ -1022,7 +956,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 4, Điều 33  Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ"
+      "source": "N/A"
     },
     {
       "question": "Đối với công trình từ cấp II trở lên, sử dụng vốn đầu tư công hoặc vốn nhà nước ngoài đầu tư công, chủ đầu tư chỉ được phép quyết toán hợp đồng thi công xây dựng khi nào?",
@@ -1033,7 +967,7 @@
         "Được Chủ đầu tư, tư vấn giám sát, tư vấn quản lý dự án nghiệm thu."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3, Điều 23  Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ và Phụ lục III Nghị định 144/2025/NĐ-CP ngày 12/6/2025"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ và quản lý chất lượng công trình xây dựng, quản lý tiến độ thi công xây dựng gồm nội dung nào?",
@@ -1044,7 +978,7 @@
         "Tất cả các nội dung trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 18 Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, Tổng Giám đốc thực hiện quyền và trách nhiệm của Chủ đầu tư đối với dự án có tổng mức đầu tư với giá trị bao nhiêu?",
@@ -1055,7 +989,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 7, Điều 15 Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định số 4277/QyĐ-NHNo-QLĐT ngày 12/12/2024, Agribank thu hồi hết giá trị tạm ứng khi giá trị thanh toán đạt bao nhiêu % giá hợp đồng đã ký kết?",
@@ -1066,7 +1000,7 @@
         "95%"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 36 Quy định số 4277/QyĐ-NHNo-QLĐT ngày 12/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ và quản lý chất lượng công trình xây dựng, quản lý khối lượng thi công xây dựng gồm nội dung nào?",
@@ -1077,7 +1011,7 @@
         "Tất cả các nội dung trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 17 Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ và quản lý chất lượng công trình xây dựng, các chủ thể có liên quan trực tiếp đến hoạt động xây dựng công trình bao gồm chủ thể nào?",
@@ -1088,18 +1022,7 @@
         "Bao gồm các chủ thể trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 7 Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ"
-    },
-    {
-      "question": "Trong quá trình thực hiện hợp đồng, trường hợp nhà thầu có đề nghị thay đổi các hàng hóa có phiên bản sản xuất, năm sản xuất mới hơn so với hàng hóa ghi trong hợp đồng thì căn cứ nhu cầu sử dụng, chủ đầu tư được chấp thuận đề xuất của nhà thầu nếu đáp ứng đầy đủ các điều kiện nào sau đây?",
-      "options": [
-        "Được nhà thầu thông báo bằng văn bản cho chủ đầu tư, Hàng hóa thay thế và hàng hóa ghi trong hợp đồng thuộc cùng hãng sản xuất và có cùng xuất xứ, Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng, Phù hợp với nhu cầu sử dụng, Đơn giá của hàng hóa không vượt đơn giá ghi trong hợp đồng.",
-        "Hàng hóa thay thế và hàng hóa ghi trong hợp đồng không cần thuộc cùng hãng sản xuất và có cùng xuất xứ.",
-        "Các vật liệu, sản phẩm, cấu kiện, thiết bị được thay thế phải được chủ đầu tư chấp thuận, phê duyệt theo quy định của hợp đồng.",
-        "Đơn vị thi công, tư vấn giám sát, đơn vị tư vấn quản lý dự án tự thay đổi."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "Khoản 6 Điều 12 Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ và Khoản 27 Điều 140 Nghị định 214/2025/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ và quản lý chất lượng công trình xây dựng, đâu là nội dung đúng, đủ về Hồ sơ hoàn thành công trình?",
@@ -1110,7 +1033,7 @@
         "Hồ sơ hoàn thành công trình là quyết toán giá trị hoàn thành công trình."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 5 Điều 2 Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ và quản lý chất lượng công trình xây dựng, đâu là nội dung đúng, đủ về Thời hạn sử dụng theo thiết kế của công trình (tuổi thọ thiết kế)?",
@@ -1121,7 +1044,7 @@
         "Thời hạn sử dụng theo thiết kế của công trình (tuổi thọ thiết kế) là thời gian chủ đầu tư quy định khi bàn giao đưa vào sử dụng."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 15 Điều 2 Nghị định  số 06/2021/NĐ-CP ngày 26 tháng 01 năm 2021 của Chính phủ"
+      "source": "N/A"
     },
     {
       "question": "Theo Quyết định 4277/QĐ-HĐTV-QLĐT ngày 17/12/2020, đối với các dự án có tổng mức đầu tư từ 15 tỷ đồng trở lên, chủ thể nào có trách nhiệm phê duyệt hồ sơ thanh toán?",
@@ -1132,7 +1055,7 @@
         "Đơn vị kế hoạch"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 5 Điều 36  4277/QĐ-HĐTV-QLĐT ngày 17/12/2020"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định về pháp luật xây dựng, thiết kế xây dựng công trình phải đáp ứng các yêu cầu gì?",
@@ -1143,7 +1066,7 @@
         "Cả 3 đáp án đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 79 Luật Xây dựng số 50/2014/QH13"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định về pháp luật xây dựng, Chủ đầu tư có trách nhiệm nào sau đây?",
@@ -1154,7 +1077,7 @@
         "Cả 3 đáp án đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 12 Luật Kiến trúc số 40/2019/QH14; Khoản 27 Điều 1 Luật số 62/2020/QH14 sửa đổi, bổ sung Điều 85 Luật Xây dựng số 50/2014/QH13"
+      "source": "N/A"
     },
     {
       "question": "Cơ quan nào có trách nhiệm lấy ý kiến của các cơ quan quản lý Nhà nước về những lĩnh vực có liên quan đến dự án đầu tư xây dựng trong quá trình thẩm định?",
@@ -1165,7 +1088,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Các khoản 13, 14, 15, 24 Điều 1 Luật số 62/2020/QH14 sửa đổi, bổ sung các Điều 56, 57, 58, 82 Luật Xây dựng số 50/2014/QH13"
+      "source": "N/A"
     },
     {
       "question": "Trước khi trình cơ quan chuyên môn về xây dựng thẩm định thiết kế, chủ đầu tư có cần phải lựa chọn tổ chức, cá nhân có đủ điều kiện năng lực theo quy định để thẩm tra các nội dung cần thiết không?",
@@ -1176,7 +1099,7 @@
         "Có, nhưng theo yêu cầu của cơ quan chuyên môn về xây dựng  Luật Xây dựng và quy định của Chính phủ"
       ],
       "correctAnswerIndex": 3,
-      "source": "Các khoản 24, 27, 28 Điều 1 Luật số 62/2020/QH14 sửa đổi, bổ sung các điều 82, 85, 87 Luật Xây dựng số 50/2014/QH13"
+      "source": "N/A"
     },
     {
       "question": "Hồ sơ thiết kế kiến trúc cơ sở là nội dung kiến trúc trong bước thiết kế xây dựng nào sau đây?",
@@ -1187,7 +1110,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 2 Thông tư 03/2020/TT-BXD quy định về hồ sơ thiết kế kiến trúc và mẫu chứng chỉ hành nghề kiến trúc"
+      "source": "N/A"
     },
     {
       "question": "Cơ quan nào chủ trì tổ chức thẩm định thiết kế xây dựng triển khai sau thiết kế cơ sở đối với công trình thuộc dự án sử dụng vốn đầu tư công, vốn nhà nước ngoài đầu tư công?",
@@ -1198,7 +1121,7 @@
         "Ban quản lý dự án đầu tư xây dựng chuyên ngành"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 1 Luật số 62/2020/QH14 sửa đổi, bổ sung các Điều 82, 83a, 87 Luật Xây dựng số 50/2014/QH13"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định pháp luật hiện hành về xây dựng, công tác nào sau đây ở giai đoạn thực hiện đầu tư xây dựng?",
@@ -1209,7 +1132,7 @@
         "Tất cả các công tác trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 50 của Luật Xây dựng số 50/2014/QH13; Khoản 1 Điều 4 Nghị định 175/2024/NĐ-CP ngày 30/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Đối với nhà hành chính ≤ 10 tầng và khối tích ≤ 25.000 m3, một họng chữa cháy vách tường phải chữa cháy liên tục trong 3 giờ thì dung tích dự trữ (hay còn gọi là thể tích bể chứa PCCC dự kiến) là bao nhiêu m3?",
@@ -1220,7 +1143,7 @@
         "36m3"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 5.2 Hệ thống họng nước chữa cháy trong nhà của Quy chuẩn kỹ thuật quốc gia QCVN 06:2022/BXD về An toàn cháy cho nhà và công trình"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật PCCC và cứu nạn, cứu hộ năm 2024, công trình xây dựng trong quá trình thi công phải bảo đảm điều kiện an toàn về phòng cháy như thế nào?",
@@ -1231,7 +1154,7 @@
         "Bao gồm tất cả các nội dung trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 19 Luật PCCC năm 2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy  chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, đối với các dự án có tổng mức đầu tư từ 100 tỷ đồng đến dưới 800 tỷ đồng, chủ thể nào thực hiện thẩm quyền, trách nhiệm phê duyệt chủ trương đầu tư theo quy định của pháp luật và Agribank hoặc trong trường hợp cần thiết do người quyết định đầu tư xem xét, quyết định?",
@@ -1242,7 +1165,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3, Điều 14; khoản 1, Điều 5 Quy  chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, đối với dự án sử dụng vốn điều lệ,  hàng năm, đơn vị kế hoạch phải lập báo cáo đề xuất nhu cầu đầu tư, kế hoạch vốn gửi Ban Quản lý đầu tư nội ngành trước ngày nào?",
@@ -1253,7 +1176,7 @@
         "31/12"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 7 Quy  chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, đối với dự án sử dụng vốn sửa chữa tài sản cố định hạch toán chi phí,  hàng năm,  đơn vị kế hoạch phải lập báo cáo đề xuất nhu cầu đầu tư, kế hoạch vốn gửi Ban Tài chính Kế toán trước ngày nào hàng năm?",
@@ -1264,10 +1187,10 @@
         "25/12"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 2 Điều 7 Quy  chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
-      "question": "Theo Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, đối với dự án có tính cấp bách do thiên tai, động đất, bão lũ, lụt..., Tổng Giám đốc phê duyệt bổ sung danh mục dự án có tổng mức đầu tư  bao nhiêu?",
+      "question": "Theo Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, đối với dự án có tính cấp bách do thiên tai, động đất, bão lũ, lụt ...Tổng Giám đốc phê duyệt bổ sung danh mục dự án có tổng mức đầu tư  bao nhiêu?",
       "options": [
         "Dưới 20 tỷ đồng",
         "Dưới 45 tỷ đồng",
@@ -1275,7 +1198,7 @@
         "Dưới 15 tỷ đồng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a, Khoản 3, Điều 15 Quy  chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024, tổng diện tích sàn xây dựng Nhà làm việc chính thuộc trụ sở Phòng giao dịch được quy định tối đa bao nhiêu?",
@@ -1286,7 +1209,7 @@
         "1.500 m²"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a, Khoản 1, Điều 8 Quy  chế 1399/QĐ-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 99/2021/NĐ-CP, Thời gian tối đa thẩm tra quyết toán đối với dự án nhóm B trong bao nhiêu lâu?",
@@ -1297,7 +1220,7 @@
         "04 tháng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 47 Nghị định 99/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 99/2021/NĐ-CP, Thời gian tối đa phê duyệt quyết toán đối với dự án nhóm B trong bao nhiêu lâu?",
@@ -1308,7 +1231,7 @@
         "60 ngày"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 47 Nghị định 99/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định tại Nghị định 37/2015/NĐ-CP ngày 22/4/2015, việc điều chỉnh đơn giá thực hiện hợp đồng chỉ áp dụng đối với loại hợp đồng nào?",
@@ -1319,7 +1242,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm a, Khoản 2 Điều 38 Nghị định 37/2015/NĐ-CP ngày 22/4/2015"
+      "source": "N/A"
     },
     {
       "question": "Theo Quyết định 1500/QĐ-NHNN ngày 20/9/2021, Ngân hàng Nhà nước yêu cầu doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ có trách nhiệm báo cáo tình hình thực hiện các dự án đầu tư, đầu tư xây dựng, mua sắm tài sản cố định của doanh nghiệp có giá trị từ mức vốn của dự án?",
@@ -1330,7 +1253,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 15 Quyết định 1500/QĐ-NHNN ngày 20/9/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Quyết định 1500/QĐ-NHNN ngày 20/9/2021, Ngân hàng Nhà nước yêu cầu doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ định kỳ báo cáo Ngân hàng nhà nước báo cáo giám sát tài chính?",
@@ -1341,7 +1264,7 @@
         "06 tháng và Hàng năm"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 15 Quyết định 1500/QĐ-NHNN ngày 20/9/2021"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 99/2021/NĐ-CP, Thời gian tối đa để chủ đầu tư lập hồ sơ quyết toán trình phê duyệt đối với dự án nhóm B?",
@@ -1352,7 +1275,7 @@
         "12 tháng"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 47 Nghị định 99/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Phân loại kỹ thuật về cháy đối với công trình được thực hiện theo các tiêu chí sau?",
@@ -1363,18 +1286,7 @@
         "Bao gồm tất cả các tiêu chí 1,2,3."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm 2.3.2 Quy chuẩn xây dựng 03-2022"
-    },
-    {
-      "question": "Trong việc thiết kế xây dựng công trình, chủ đầu tư có nghĩa vụ gì?",
-      "options": [
-        "Lựa chọn nhà thầu thiết kế xây dựng trong trường hợp không tự thực hiện thiết kế xây dựng",
-        "Lưu trữ hồ sơ thiết kế xây dựng",
-        "Trình thẩm định, phê duyệt thiết kế, dự toán xây dựng và nộp phí thẩm định thiết kế, dự toán xây dựng",
-        "Bao gồm tất cả các nội dung 1,2,3"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "Điều 85 Luật Xây dựng 2014 (được sửa đổi, bổ sung bởi khoản 27 Điều 1 Luật số 62/2020/QH14)"
+      "source": "N/A"
     },
     {
       "question": "Tính pháp lý của hợp đồng xây dựng gồm các nội dung nào?",
@@ -1385,7 +1297,7 @@
         "Bao gồm tất cả các nội dung 1,2,3."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 3, Điều 6 Nghị định số 37/2015/NĐ-CP ngày 22/4/2015 của Chính phủ về HĐ Xây dựng"
+      "source": "N/A"
     },
     {
       "question": "Thông tin về hợp đồng xây dựng phải được ghi trong hợp đồng, bao gồm nội dung nào?",
@@ -1396,18 +1308,7 @@
         "Bao gồm tất cả các nội dung 1,2,3."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 8 Nghị định số 37/2015/NĐ-CP ngày 22/4/2015 của Chính phủ về HĐ Xây dựng"
-    },
-    {
-      "question": "Ai có trách nhiệm lập và trình chủ đầu tư chấp thuận kế hoạch tổng hợp về an toàn lao động trước khi khởi công xây dựng công trình?",
-      "options": [
-        "Ban quản lý dự án",
-        "Nhà thầu thi công xây dựng công trình",
-        "Nhà thầu tư vấn giám sát",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "Điều 13 Nghị định số 06/2021/NĐ-CP ngày 26/01/2021"
+      "source": "N/A"
     },
     {
       "question": "Quá trình thực hiện hợp đồng xây dựng, Bên nhận thầu có quyền chấm dứt hợp đồng xây dựng trong các trường hợp nào sau đây?",
@@ -1418,7 +1319,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a, khoản 7, Điều 41 Nghị định số 37/2015/NĐ-CP ngày 22/4/2015 của Chính phủ về HĐ Xây dựng"
+      "source": "N/A"
     },
     {
       "question": "Bậc chịu lửa của công trình được phân thành mấy cấp và phụ thuộc vào yếu tố nào?",
@@ -1429,7 +1330,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm 2.3.3 Quy chuẩn xây dựng 03-2022"
+      "source": "N/A"
     },
     {
       "question": "Cấp nguy hiểm cháy kết cấu của công trình được phân thành mấy cấp, theo tính nguy hiểm cháy của gì?",
@@ -1440,7 +1341,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm 2.3.4 Quy chuẩn xây dựng 03-2022"
+      "source": "N/A"
     },
     {
       "question": "Kết cấu của công trình phải được thiết kế theo tiêu chuẩn lựa chọn áp dụng nhằm đảm bảo độ bền lâu tương ứng với thời hạn sử dụng theo thiết kế của công trình, có xét đến các yếu tố nào sau đây?",
@@ -1451,7 +1352,7 @@
         "Bao gồm tất cả các yếu tố 1,2,3."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm 2.2.3 Quy chuẩn xây dựng 03-2022"
+      "source": "N/A"
     },
     {
       "question": "Theo tiêu chuẩn quốc gia về Đóng và ép cọc - thi công và nghiệm thu: Lực ép nhỏ nhất (Pep)min (The minimum jacking load) là gì?",
@@ -1462,7 +1363,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm 3.5 TCVN 9394-2012"
+      "source": "N/A"
     },
     {
       "question": "Theo tiêu chuẩn quốc gia về Đóng và ép cọc - thi công và nghiệm thu: Lực ép lớn nhất (Pep)max (The maximum jacking load) là gì?",
@@ -1473,10 +1374,10 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm 3.6 TCVN 9394-2012"
+      "source": "N/A"
     },
     {
-      "question": "Lựa chọn thiết bị ép cọc cần thoả mãn các yêu cầu sau:",
+      "question": "Lựa chọn thiết bị ép cọc cần thoả mãn các yêu cầu sau?",
       "options": [
         "Công suất của thiết bị không nhỏ hơn 1,4 lần lực ép lớn nhất do thiết kế quy định.",
         "Lực ép của thiết bị phải đảm bảo tác dụng đúng dọc trục tâm cọc khi ép từ đỉnh cọc và tác dụng đều lên các mặt bên cọc khi ép ôm, không gây ra lực ngang lên cọc.",
@@ -1484,7 +1385,7 @@
         "Bao gồm tất cả các yêu cầu 1,2,3."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm 7.1 TCVN 9394-2012"
+      "source": "N/A"
     },
     {
       "question": "Chọn đáp án đúng cho: Quyền và trách nhiệm của người quyết định đầu tư trong quản lý chi phí đầu tư?",
@@ -1495,7 +1396,7 @@
         "Quyết định duyệt dự toán xây dựng và mua sắm lắp đặt thiết bị."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 36, Nghị định 10/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Dự toán gói thầu được xác định cho các gói thầu nào sau đây?",
@@ -1506,7 +1407,7 @@
         "Tất cả các gói thầu trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1, Điều 16 Nghị định 10/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy chế Quản lý đầu tư xây dựng số 1399/QC-HĐTV-QLĐT ngày 02/12/2024, Nội dung báo cáo đề xuất nhu cầu đầu tư dự án mới  trong kế hoạch đầu tư xây dựng gồm nội dung nào?",
@@ -1517,7 +1418,7 @@
         "Tất cả các nội dung trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2, Điều 7 Quy chế Quản lý đầu tư xây dựng số 1399/QC-HĐTV-QLĐT ngày 02/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy chế Quản lý đầu tư xây dựng số 1399/QC-HĐTV-QLĐT ngày 02/12/2024, Ban Quản lý dự án đầu tư xây dựng khu vực được Tổng Giám đốc giao thực hiện quyền và trách nhiệm cụ thể của Người quyết định đầu tư, chủ đầu tư Dự án tại trụ sở chính đối với tổng mức đầu tư có giá trị bao nhiêu?",
@@ -1528,7 +1429,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2, Điều 20 Quy chế Quản lý đầu tư xây dựng số 1399/QC-HĐTV-QLĐT ngày 02/12/2025"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2025, đối với dự án có tổng mức đầu tư dưới 15 tỷ đồng, người đứng đầu đơn vị hoạch chọn thành phần nào là thành viên Ban Điều hành?",
@@ -1539,7 +1440,7 @@
         "Cán bộ phòng Kế toán, Tổng hợp của đơn vị kế hoạch."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b Khoản 1, Điều 6 Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2025"
+      "source": "N/A"
     },
     {
       "question": "Đơn vị kế hoạch, Ban Quản lý dự án đầu tư xây dựng khu vực tổ chức lập, thẩm định, phê duyệt nhiệm vụ thiết kế đối với dự án được Tổng Giám đốc giao thực hiện có tổng mức đầu tư bao nhiêu?",
@@ -1550,7 +1451,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm c Khoản 2, Điều 12 Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2026"
+      "source": "N/A"
     },
     {
       "question": "Theo Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2025, đơn vị nào ký và sử dụng con dấu để trình đề nghị cấp phép xây dựng?",
@@ -1561,7 +1462,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2, Điều 23 Quy định số 4277/QyĐ-NHNo-QLĐT ngày 17/12/2027"
+      "source": "N/A"
     },
     {
       "question": "Ai phê duyệt báo cáo kết quả khảo sát xây dựng đối với dự án do Tổng Giám đốc làm chủ đầu tư giao Đơn vị kế hoạch làm đại diện Chủ đầu tư?",
@@ -1572,7 +1473,7 @@
         "Ban Quản lý đầu tư nội ngành"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 5,  Điều 14, Quy định 4277/QyĐ-NHNo-QLĐT ngày 17/12/2024"
+      "source": "N/A"
     },
     {
       "question": "Quy chế Quản lý đầu tư xây dựng số 1399/QC-HĐTV-QLĐT ngày 02/12/2024, hướng dẫn, kiểm tra giám sát việc thực hiện tạm ứng, thanh toán, nhập tài sản cố định dự án đầu tư xây dựng tại các đơn vị liên quan do đơn vị nào thực hiện?",
@@ -1583,7 +1484,7 @@
         "Ban Quản lý đầu tư nội ngành"
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 4, Điều 18 Quy chế Quản lý đầu tư xây dựng số 1399/QC-HĐTV-QLĐT ngày 02/12/2025"
+      "source": "N/A"
     },
     {
       "question": "Theo quy định của Luật Xây dựng: Chủ đầu tư phải gửi thông báo về ngày khởi công xây dựng đến cơ quan quản lý Nhà nước về xây dựng tại địa phương trước thời điểm khởi công xây dựng ít nhất bao nhiêu ngày?",
@@ -1594,7 +1495,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 107 Luật Xây dựng 2014 (được sửa đổi bởi khoản 39 Điều 1 Luật Xây dựng sửa đổi 2020"
+      "source": "N/A"
     },
     {
       "question": "Loại công tác xây dựng nào trong định mức dự toán được áp dụng bổ sung định mức bốc xếp vận chuyển vật liệu lên cao?",
@@ -1605,7 +1506,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Phần thuyết minh trong Định mức dự toán xây dựng công trình ban hành kèm theo TT 12/2021/TT-BXD ngày 31/8/2024"
+      "source": "N/A"
     },
     {
       "question": "Theo pháp luật về xây dựng: Khi phát hiện nhà thầu thi công không bảo đảm chất lượng, nhà thầu giám sát thi công thực hiện nghĩa vụ gì?",
@@ -1616,7 +1517,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 122 Luật Xây dựng 2014"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đầu tư công, Dự án nhóm B thuộc lĩnh vực xây dựng dân dụng (trừ xây dựng khu nhà ở) là dự án có tổng mức đầu tư trong khoảng bao nhiêu tỷ đồng?",
@@ -1627,7 +1528,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 4 Điều 10 Luật đầu tư công số 58/2024/QH15"
+      "source": "N/A"
     },
     {
       "question": "Nhà thầu thiết kế có nghĩa vụ gì sau đây trong quá trình thi công xây dựng?",
@@ -1638,7 +1539,7 @@
         "Tính toán dự toán thay đổi thiết kế"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm d, khoản 2 Điều 86 Luật Xây dựng"
+      "source": "N/A"
     },
     {
       "question": "Đối với gói thầu xây lắp, mẫu hồ sơ nào được sử dụng để lập E-HSMT áp dụng hình thức đấu thầu rộng rãi, đấu thầu hạn chế theo phương thức một giai đoạn hai túi hồ sơ?",
@@ -1649,7 +1550,7 @@
         "Mẫu số 4C"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b Khoản 3 Điều 4  Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 4389/NHNo-TCKT, chọn đáp án đúng đối với thuê tài chính tài sản cố định?",
@@ -1660,7 +1561,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm g Khoản 1 Mục II Phần 2 Văn bản số 4389/NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 4389/NHNo-TCKT ngày 21/6/2013 thời gian Agribank áp dụng trích khấu hao đối với tài sản cố định là Nhà làm việc cấp II là bao nhiêu năm?",
@@ -1671,7 +1572,7 @@
         "35 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Phụ lục 01 văn bản số 4389/NHNo-TCKT ngày 21/6/2013"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 4389/NHNo-TCKT, những nội dung nào về Quyền sử dụng đất không được ghi nhận là tài sản cố định vô hình?",
@@ -1682,7 +1583,7 @@
         "Cả 3 đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm c khoản 3.2 phần II Văn bản số 4389"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 4389/NHNo-TCKT, thời gian Agribank áp dụng trích khấu hao tài sản cố định đối với máy phát điện là bao nhiêu năm?",
@@ -1693,7 +1594,7 @@
         "10 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Phụ lục 1 Văn bản số 4389/NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 4389/NHNo-TCKT, thời gian Agribank áp dụng trích khấu hao tài sản cố định đối với máy ATM là bao nhiêu năm?",
@@ -1704,7 +1605,7 @@
         "8 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Phụ lục 1 Văn bản số 4389/NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 4389/NHNo-TCKT, thời gian Agribank áp dụng trích khấu hao tài sản cố định đối với phương tiện vận tải đường bộ là bao lâu?",
@@ -1715,7 +1616,7 @@
         "8 năm"
       ],
       "correctAnswerIndex": 2,
-      "source": "Phụ lục 1 Văn bản số 4389/NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 4389/NHNo-TCKT, thời gian Agribank áp dụng trích khấu hao tài sản cố định đối với nhà làm việc cấp III là bao nhiêu năm?",
@@ -1726,7 +1627,7 @@
         "30 năm"
       ],
       "correctAnswerIndex": 2,
-      "source": "Phụ lục 1 Văn bản số 4389/NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 4389/NHNo-TCKT, chọn đáp án đúng đối với Giá trị quyền sử dụng đất và tài sản hình thành từ quỹ phúc lợi?",
@@ -1737,7 +1638,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Mục III Phần 2 Văn bản số 4389/NHNo-TCKT"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản 4389/NHNo-TCKT ngày 21/6/2013, Nguyên giá tài sản phải được xác định một cách tin cậy và có giá trị?",
@@ -1748,7 +1649,7 @@
         "Từ 35 triệu đồng trở lên"
       ],
       "correctAnswerIndex": 2,
-      "source": "Ý c Điểm 1 mục I phần 2 Văn bản 4389/NHNo-TCKT ngày 21/6/2013 về hướng dẫn quản lý sử dụng và trích khấu hao tài sản cố định"
+      "source": "N/A"
     },
     {
       "question": "Theo Văn bản số 4389/NHNo-TCKT ngày 21/6/2013 thời gian Agribank áp dụng trích khấu hao đối với tài sản cố định là máy photocopy?",
@@ -1759,7 +1660,7 @@
         "10 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Phụ lục 01 văn bản số 4389/NHNo-TCKT ngày 21/6/2013"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 99/2021/NĐ-CP, chi phí kiểm toán độc lập trong quyết toán dự án hoàn thành là?",
@@ -1770,7 +1671,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 46 Nghị định 99/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 99/2021/NĐ-CP, chi phí thẩm tra quyết toán tối thiểu là?",
@@ -1781,7 +1682,7 @@
         "Tối thiểu là 3 triệu đồng cộng thêm thuế giá trị gia tăng."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm c, Khoản 1 Điều 46 Nghị định 99/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 99/2021/NĐ-CP, quy định về vốn đầu tư được quyết toán nào sau đây là đúng?",
@@ -1792,7 +1693,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 31 Nghị định 99/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 99/2021/NĐ-CP, Báo cáo quyết toán vốn đầu tư công dự án hoàn thành phải xác định đẩy đủ, chính xác các nội dung nào?",
@@ -1803,7 +1704,7 @@
         "Bao gồm tất cả các đáp án"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1, Điều 33 Nghị định 99/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 99/2021/NĐ-CP, chi phí kiểm toán độc lập tối thiểu là?",
@@ -1814,7 +1715,7 @@
         "5 triệu đồng cộng với thuế giá trị gia tăng."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản b, Điểm 1 Điều 46 Nghị định 99/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 99/2021/NĐ-CP, các khoản chi phí đầu tư nào sau đây không tính vào giá trị tài sản?",
@@ -1825,7 +1726,7 @@
         "Bao gồm tất cả đáp án"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 41 Nghị định số 99/2021/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 72/2023/NĐ-CP, giá mua xe ô tô 1 cầu phục vụ công tác chung của doanh nghiệp nhà nước (đã bao gồm các loại thuế phải nộp theo quy định của pháp luật; chưa bao gồm lệ phí trước bạ, lệ phí cấp biển số xe, phí bảo hiểm, phí đăng kiểm, phí bảo trì đường bộ liên quan đến việc sử dụng xe) tối đa là?",
@@ -1836,7 +1737,7 @@
         "1.000 triệu đồng/xe"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1 Điều 15 Nghị định 72/2023/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 72/2023/NĐ-CP, giá mua xe ô tô 2 cầu phục vụ công tác chung của doanh nghiệp nhà nước (đã bao gồm các loại thuế phải nộp theo quy định của pháp luật; chưa bao gồm lệ phí trước bạ, lệ phí cấp biển số xe, phí bảo hiểm, phí đăng kiểm, phí bảo trì đường bộ liên quan đến việc sử dụng xe) tối đa là?",
@@ -1847,7 +1748,7 @@
         "1.750 triệu đồng/xe"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 15 Nghị định 72/2023/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Nghị định 72/2023/NĐ-CP, xe ô tô phục vụ công tác chung của doanh nghiệp nhà nước được thanh lý khi đáp ứng điều kiện nào?",
@@ -1858,7 +1759,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 3 Nghị định 72/2023/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, mức bảo đảm dự thầu đối với gói thầu xây lắp, hỗn hợp có giá gói thầu không quá 20 tỷ đồng là bao nhiêu?",
@@ -1869,10 +1770,10 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 4 Điều 14 Luật đấu thầu 22/2023/QH15"
+      "source": "N/A"
     },
     {
-      "question": "Theo quy định về đấu thầu, gói thầu dịch vụ phi tư vấn thông dụng, đơn giản có giá trị bao nhiêu được áp dụng chào hàng cạnh tranh?",
+      "question": "Theo Luật đấu thầu, gói thầu dịch vụ phi tư vấn thông dụng, đơn giản có giá trị bao nhiêu được áp dụng chào hàng cạnh tranh?",
       "options": [
         "8 tỷ đồng",
         "5 tỷ đồng",
@@ -1880,7 +1781,7 @@
         "Tất cả các đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 81 Nghị định số 214/2025/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Quy định nào về giá dự thầu dưới đây là đúng?",
@@ -1891,7 +1792,7 @@
         "Là giá được ghi trong quyết định phê duyệt kết quả lựa chọn nhà thầu."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 12 Điều  4 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, mua sắm trực tiếp được thực hiện khi đáp ứng các điều kiện nào sau đây?",
@@ -1902,10 +1803,10 @@
         "Cả 3 đáp án"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 25 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
-      "question": "Theo quy định về đấu thầu, Chào hàng cạnh tranh áp dụng đối với Gói thầu mua sắm hàng hóa thông dụng, sẵn có trên thị trường với đặc tính kỹ thuật được tiêu chuẩn hóa và tương đương nhau về chất lượng có giá trị bao nhiêu?",
+      "question": "Theo Luật đấu thầu, Chào hàng cạnh tranh áp dụng đối với Gói thầu mua sắm hàng hóa thông dụng, sẵn có trên thị trường với đặc tính kỹ thuật được tiêu chuẩn hóa và tương đương nhau về chất lượng có giá trị bao nhiêu?",
       "options": [
         "Không quá 10 tỷ đồng",
         "Không quá 15 tỷ đồng",
@@ -1913,7 +1814,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 81  Nghị định số 214/2025/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Chào hàng cạnh tranh áp dụng đối với Gói thầu xây lắp công trình đơn giản đã có thiết kế bản vẽ thi công được phê duyệt có giá trị là bao nhiêu?",
@@ -1924,7 +1825,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 81  Nghị định số 214/2025/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Chào hàng cạnh tranh được áp dụng đối với gói thầu có giá gói thầu không quá 10 tỷ đồng thuộc một trong các trường hợp nào sau đây?",
@@ -1935,7 +1836,7 @@
         "Cả 3 đáp án đều đúng."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 81  Nghị định số 214/2025/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Những hành vi nào dưới đây là thông thầu?",
@@ -1946,7 +1847,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 3 Điều 16 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, có mấy phương thức lựa chọn nhà thầu?",
@@ -1957,7 +1858,7 @@
         "7"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 30, 31, 32, 33 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Hồ sơ yêu cầu là toàn bộ tài liệu sử dụng cho hình thức nào?",
@@ -1968,18 +1869,18 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 22 Điều 4 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Người có thẩm quyền là:",
       "options": [
-        "Người có thẩm quyền là người quyết định đầu tư đối với dự án hoặc người đứng đầu cơ quan, đơn vị cấp trên trực tiếp của chủ đầu tư đối với dự toán mua sắm theo quy định của pháp luật. Trường hợp lựa chọn nhà đầu tư, người có thẩm quyền là người đứng đầu cơ quan có thẩm quyền chấp thuận chủ trương đầu tư theo quy định của pháp luật về đầu tư hoặc cơ quan có thẩm quyền quyết định tổ chức đấu thầu lựa chọn nhà đầu tư.",
+        "Người có thẩm quyền là người quyết định đầu tư đối với dự án hoặc người đứng đầu cơ quan, đơn vị cấp trên trực tiếp của chủ đầu tư đối với dự toán mua sắm theo quy định của pháp luật. Trường hợp lựa chọn nhà đầu tư, người có thẩm quyền là người đứng đầu cơ quan có thẩm quyền chấp thuận chủ trương đầu tư theo quy định của pháp luật về đầu tư hoặc cơ quan có thẩm quyền quyết định tổ chức đấu thầu lựa chọn nhà đầu tư",
         "Người quyết định phê duyệt dự án.",
         "Người quyết định mua sắm theo quy định của pháp luật.",
         "Người đứng đầu cơ quan nhà nước có thẩm quyền theo quy định của pháp luật."
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm d, khoản 3, Điều 1  Luật đấu thầu số 90/2025/QH15"
+      "source": "N/A"
     },
     {
       "question": "Theo luật đầu thầu, Đối với đấu thầu quốc tế Hồ sơ mời thầu, hồ sơ yêu cầu phải quy định về đồng tiền dự thầu trong hồ sơ dự thầu, hồ sơ đề xuất nhưng không quá?",
@@ -1990,7 +1891,7 @@
         "06 loại tiền tệ"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm a, Khoản 2, Điều 13 Luật đấu thầu 22/2023/QH15"
+      "source": "N/A"
     },
     {
       "question": "Theo luật đấu thầu, Bảo đảm dự thầu được áp dụng trong các trường hợp sau đây?",
@@ -2001,7 +1902,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 2, Điều 14 Luật đấu thầu 22/2023/QH15"
+      "source": "N/A"
     },
     {
       "question": "Theo luật đấu thầu, Dịch vụ phi tư vấn là?",
@@ -2012,7 +1913,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 5 Điều 4 Luật đấu thầu 22/2023/QH15"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, mức bảo đảm dự thầu đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn có giá gói thầu không quá 10 tỷ đồng là bao nhiêu?",
@@ -2023,7 +1924,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 4 Điều 14 Luật đấu thầu 22/2023/QH15"
+      "source": "N/A"
     },
     {
       "question": "Các hành vi bị cấm trong hoạt động đấu thầu, gian lận là hành vi nào sau đây?",
@@ -2034,7 +1935,7 @@
         "Cản trở cơ quan có thẩm quyền giám sát, kiểm tra, thanh tra, kiểm toán đối với hoạt động đấu thầu"
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm b Khoản 4 Điều 16 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Các hành vi bị cấm trong hoạt động đấu thầu, cản trở là hành vi nào sau đây?",
@@ -2045,7 +1946,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm a Khoản 5 Điều 16 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Các hành vi bị cấm trong hoạt động đấu thầu, không bảo đảm công bằng, minh bạch là hành vi nào sau đây?",
@@ -2056,18 +1957,18 @@
         "Bao gồm cả 3 đáp án."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a, b, c Khoản 6 Điều 16 Luật đấu thầu 22/2023/QH15"
+      "source": "N/A"
     },
     {
       "question": "Các hành vi bị cấm trong hoạt động đấu thầu, Cản trở là hành vi nào sau đây?",
       "options": [
         "Tham dự thầu với tư cách là nhà thầu, nhà đầu tư đối với gói thầu, dự án đầu tư kinh doanh do mình làm bên mời thầu, chủ đầu tư hoặc thực hiện nhiệm vụ của bên mời thầu, chủ đầu tư không đúng quy định của luật này.",
         "Tham gia đánh giá hồ sơ dự thầu, hồ sơ đề xuất đồng thời tham gia thẩm định kết quả lựa chọn nhà thầu, nhà đầu tư đối với cùng một gói thầu, dự án đầu tư kinh doanh.",
-        "Có hành vi vi phạm pháp luật về an toàn, an ninh mạng nhằm can thiệp, cản trở việc đấu thầu qua mạng.",
+        "Có hành vi vi phạm pháp luật về an toàn, an ninh mạng nhằm can thiệp, cản trở việc đấu thầu qua mạng",
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm đ Khoản 5 Điều 16 Luật đấu thầu 22/2023/QH15"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Trường hợp gói thầu gồm nhiều phần riêng biệt?",
@@ -2078,7 +1979,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 1, khoản 2 Điều 39 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Theo luật đấu thầu, thời gian thực hiện gói thầu là?",
@@ -2089,7 +1990,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 7 Điều 39 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy định được tính như thế nào?",
@@ -2100,7 +2001,7 @@
         "Tối thiểu là 05 ngày làm việc kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng thầu"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 7 Điều 18 Nghị định 214/2025/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Có mấy phương pháp đánh giá hồ sơ dự thầu đối với gói thầu cung cấp dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp, hỗn hợp?",
@@ -2111,7 +2012,7 @@
         "06 Phương pháp"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điều 58 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Đối với gói thầu cung cấp dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp, hỗn hợp áp dụng phương pháp đánh giá kết hợp giữa kỹ thuật và giá, sử dụng phương pháp chấm điểm để xây dựng tiêu chuẩn đánh giá về kỹ thuật, phải quy định mức điểm yêu cầu tối thiểu về kỹ thuật không thấp hơn tổng số điểm về kỹ thuật bao nhiêu %?",
@@ -2122,7 +2023,7 @@
         "Mức điểm yêu cầu tối thiểu về kỹ thuật không thấp hơn 85% tổng số điểm về kỹ thuật"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4 Điều 58 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Có mấy Phương pháp đánh giá hồ sơ dự thầu đối với gói thầu cung cấp dịch vụ tư vấn?",
@@ -2133,7 +2034,7 @@
         "07 Phương pháp"
       ],
       "correctAnswerIndex": 2,
-      "source": "Điều 59 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Nhà thầu cung cấp dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp, hỗn hợp được xem xét, đề nghị trúng thầu khi?",
@@ -2144,7 +2045,7 @@
         "Có giá trị phần sai lệch thiếu không quá 18% giá dự thầu"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm d, khoản 1, Điều 61 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Căn cứ quy mô, tính chất của gói thầu, giá trị bảo đảm thực hiện hợp đồng được quy định trong hồ sơ mời thầu, hồ sơ yêu cầu là bao nhiêu?",
@@ -2155,7 +2056,7 @@
         "3% đến 11% giá hợp đồng"
       ],
       "correctAnswerIndex": 2,
-      "source": "Khoản 4 Điều 68 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Nhà thầu không được hoàn trả bảo đảm thực hiện hợp đồng trong các trường hợp nào sau đây?",
@@ -2166,7 +2067,7 @@
         "Cả 3 đáp án trên đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 6 Điều 68 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Trách nhiệm của tổ chuyên gia bao gồm?",
@@ -2177,7 +2078,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 80 Luật đấu thầu 22/2023/QH"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Hàng hóa gồm?",
@@ -2185,10 +2086,10 @@
         "Máy móc, thiết bị, nguyên liệu, nhiên liệu, vật liệu, vật tư, phụ tùng",
         "Sản phẩm; phương tiện; hàng tiêu dùng",
         "Thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế; phần mềm thương mại",
-        "Tất cả các đáp án"
+        "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 17 Điều 4 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Quy định nào về Giá hợp đồng dưới đây là đúng?",
@@ -2199,7 +2100,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 14 Điều  4 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Quy định nào về Giá đề nghị trúng thầu dưới đây là đúng?",
@@ -2210,7 +2111,7 @@
         "Là giá do nhà thầu chào trong đơn dự thầu."
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 13 Điều  4 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, giá trị tối đa bảo đảm dự thầu được quy định trong HSMT của gói thầu có giá 100 tỷ đồng là bao nhiêu?",
@@ -2221,7 +2122,7 @@
         "3 tỷ đồng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm b Khoản 4 Điều 14 Luật đấu thầu số 22/2023 (Từ 1,5% đến 3% giá gói thầu)."
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Tổ chức/cá nhân nào có trách nhiệm thành lập tổ chuyên gia trong trường hợp không thuê đơn vị tư vấn lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu; đánh giá hồ sơ quan tâm, hồ sơ dự sơ tuyển, hồ sơ dự thầu, hồ sơ đề xuất?",
@@ -2232,7 +2133,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Điểm a khoản 19 Điều 4 Luật số 57/2024/QH15 và điểm d khoản 38 Điều 1 Luật số 90/2025/QH15"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, tổ chức/cá nhân nào có trách nhiệm ký kết hoặc ủy quyền ký kết và quản lý việc thực hiện hợp đồng với nhà thầu?",
@@ -2243,7 +2144,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Điều 78 Luật đấu thầu số 22/2023."
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, đáp án nào sau đây đúng khi nói về hợp đồng trọn gói?",
@@ -2254,7 +2155,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm c Khoản 1 Điều 64 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Thành viên tổ chuyên gia, tổ thẩm định phải có tối thiểu bao nhiêu năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu, dự án đầu tư kinh doanh?",
@@ -2265,7 +2166,7 @@
         "Tối thiểu 06 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 19 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Bảo đảm dự thầu được thực hiện bằng các biện pháp?",
@@ -2276,7 +2177,7 @@
         "Cả 3 đáp án đều đúng"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1, Điều 14 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, yêu cầu cụ thể về nhãn hiệu, xuất xứ hàng hóa trong hồ sơ mời thầu đối với gói thầu mua sắm hàng hóa, xây lắp hoặc gói thầu hỗn hợp khi áp dụng hình thức đấu thầu rộng rãi, đấu thầu hạn chế là hành vi?",
@@ -2287,7 +2188,7 @@
         "Không bảo đảm công bằng, minh bạch"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm i, Khoản 6, Điều 16 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Tổ chức, cá nhân nào chịu trách nhiệm trong việc Thương thảo và hoàn thiện hợp đồng với nhà thầu, quản lý thực hiện hợp đồng?",
@@ -2298,7 +2199,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "điểm e khoản 38 Điều 1 Luật số 90/2025/QH15"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, việc đánh giá nhà thầu đang trong thời gian bị cấm tham dự thầu thuộc nội dung đánh giá về?",
@@ -2309,7 +2210,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm e, Khoản 1 Điều 5  Luật đấu thầu 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Hồ sơ hợp đồng với nhà thầu bao gồm các tài liệu nào sau đây?",
@@ -2320,7 +2221,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 1 Điều 65  Luật đấu thầu 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Việc Tham gia đánh giá hồ sơ dự thầu, hồ sơ đề xuất đồng thời tham gia thẩm định kết quả lựa chọn nhà thầu, nhà đầu tư đối với cùng một gói thầu, dự án đầu tư kinh doanh thuộc hành vi nào bị cấm theo Luật đấu thầu?",
@@ -2331,7 +2232,7 @@
         "Cản trở"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm c Khoản 6 Điều 16 Luật đấu thầu  số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Hợp đồng trọn gói được áp dụng đối với gói thầu nào?",
@@ -2342,7 +2243,7 @@
         ""
       ],
       "correctAnswerIndex": 2,
-      "source": "Điểm a khoản 1 Điều 64 Luật đấu thầu  số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Chủ đầu tư là?",
@@ -2350,10 +2251,10 @@
         "Cơ quan, tổ chức sở hữu vốn, vay vốn hoặc được giao trực tiếp quản lý, sử dụng vốn, quản lý quá trình thực hiện dự án",
         "Đơn vị sử dụng ngân sách; đơn vị dự toán trực tiếp sử dụng dự toán mua sắm ngoài ngân sách nhà nước",
         "Đơn vị mua sắm tập trung",
-        "Cả 3 đáp án"
+        "Cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 2 Điều 4 Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Dịch vụ tư vấn là một hoặc một số hoạt động dịch vụ nào sau đây?",
@@ -2364,7 +2265,7 @@
         "Tất cả các nội dung trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 4, Điều 4 Luật Đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp hủy thầu, thời hạn lưu trữ toàn bộ hồ sơ liên quan là bao nhiêu năm kể từ ngày quyết định hủy thầu được ban hành?",
@@ -2375,7 +2276,7 @@
         "15 năm"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 4, Điều 9 Luật Đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Đối với gói thầu mua sắm hàng hóa có biến động về giá liên tục theo thị trường, có dự toán được duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu thì dự toán được duyệt phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn tối thiểu bao nhiêu ngày trước ngày có thời điểm đóng thầu?",
@@ -2386,7 +2287,7 @@
         "12 ngày trước ngày có thời điểm đóng thầu"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 13 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật Đấu thầu 2023, điều kiện ký kết hợp đồng phải thỏa mãn nội dung nào sau đây?",
@@ -2397,7 +2298,7 @@
         "Tất cả các nội dung trên."
       ],
       "correctAnswerIndex": 3,
-      "source": "Điều 66 Luật Đấu thầu 2023"
+      "source": "N/A"
     },
     {
       "question": "Theo Luật đấu thầu, Thời gian có hiệu lực của bảo đảm dự thầu được quy định trong hồ sơ mời thầu bằng thời gian có hiệu lực của hồ sơ dự thầu cộng thêm bao nhiêu ngày?",
@@ -2408,7 +2309,7 @@
         "60 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 5, Điều 14, Luật đấu thầu số 22/2023"
+      "source": "N/A"
     },
     {
       "question": "Trường hợp gói thầu có dự toán được duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu thì dự toán được duyệt phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn tối thiểu bao nhiêu ngày trước ngày có thời điểm đóng thầu?",
@@ -2419,7 +2320,7 @@
         "12 ngày trước ngày có thời điểm đóng thầu"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 3 Điều 13 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Danh sách nhà thầu đáp ứng về kỹ thuật đối với đấu thầu không qua mạng được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn bao nhiêu ngày làm việc kể từ ngày phê duyệt?",
@@ -2430,7 +2331,7 @@
         "10 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm d Khoản 1 Điều 21 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Quyết định hủy thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn bao nhiêu ngày làm việc kể từ ngày ký quyết định?",
@@ -2441,7 +2342,7 @@
         "10 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b Khoản 1 Điều 21 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Biên bản mở thầu đối với đấu thầu không qua mạng được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn bao nhiêu giờ kể từ thời điểm mở thầu?",
@@ -2452,7 +2353,7 @@
         "60 giờ kể từ thời điểm mở thầu"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 1 Điều 21 Thông tư số79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Chủ đầu tư đăng tải kết quả lựa chọn nhà thầu trên Hệ thống mạng đấu thầu quốc gia trong vòng bao nhiêu ngày kể từ ngày phê duyệt kết quả lựa chọn nhà thầu?",
@@ -2463,7 +2364,7 @@
         "Chậm nhất là 05 ngày làm việc"
       ],
       "correctAnswerIndex": 3,
-      "source": "Điểm a Khoản 2 Điều 20 Thông tư số79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Danh sách nhà thầu nước ngoài trúng thầu tại Việt Nam được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn bao nhiêu ngày kể từ ngày hợp đồng ký kết với nhà thầu nước ngoài có hiệu lực?",
@@ -2474,7 +2375,7 @@
         "21 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm e Khoản 1 Điều 21 Thông tư số79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Chủ đầu tư tiếp nhận nội dung yêu cầu làm rõ của nhà thầu và trả lời yêu cầu làm rõ hồ sơ mời thầu, E-HSMT, điều khoản tham chiếu trên Hệ thống trong thời hạn bao nhiêu ngày?",
@@ -2485,7 +2386,7 @@
         "Tối thiểu 05 ngày làm việc trước ngày có thời điểm đóng thầu"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b Khoản 3, Điều 18 Thông tư số79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Đối với lựa chọn nhà thầu không qua mạng, trường hợp cần làm rõ hồ sơ mời thầu, nhà thầu phải gửi đề nghị làm rõ đến chủ đầu tư thông qua Hệ thống mạng đấu thầu quốc gia trong thời hạn tối thiểu bao nhiêu ngày?",
@@ -2496,7 +2397,7 @@
         "Tối thiểu 06 ngày làm việc (đối với đấu thầu trong nước) trước ngày có thời điểm đóng thầu để xem xét, xử lý"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a khoản 3 Điều 18 Thông tư số79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Đối với lựa chọn nhà thầu qua mạng, trường hợp cần làm rõ E-HSMT, điều khoản tham chiếu, nhà thầu phải gửi đề nghị làm rõ đến chủ đầu tư thông qua Hệ thống trong thời hạn tối thiểu bao nhiêu ngày làm việc trước ngày có thời điểm đóng thầu để xem xét, xử lý?",
@@ -2507,18 +2408,18 @@
         "Tối thiểu 06 ngày làm việc"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a khoản 3 Điều 18 Thông tư số79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
-      "question": "Đối với lựa chọn nhà thầu không qua mạng, trường hợp cần làm rõ hồ sơ mời thầu, nhà thầu phải gửi đề nghị làm rõ đến chủ đầu tư thông qua Hệ thống mạng đấu thầu quốc gia trong thời hạn tối thiểu bao nhiêu ngày làm việc (đối với đấu thầu trong nước) trước ngày có thời điểm đóng thầu để xem xét, xử lý?",
+      "question": "Đối với Gói thầu xây lắp có quy mô, tính chất tương tự với gói thầu trước đó đã tổ chức đấu thầu rộng rãi, đấu thầu hạn chế mà nhà thầu đã thực hiện đáp ứng tiến độ, bảo đảm chất lượng, hiệu quả trong thời gian 05 năm kể từ thời điểm nhà thầu ký hợp đồng trước đó đến ngày phê duyệt kế hoạch lựa chọn nhà thầu; trong quá trình hoàn thiện hợp đồng, chủ đầu tư và nhà thầu thương thảo về giá, bảo đảm tiết kiệm tối thiểu bao nhiêu % giá gói thầu?",
       "options": [
-        "Tối thiểu 03 ngày làm việc",
-        "Tối thiểu 06 ngày làm việc",
-        "Tối thiểu 07 ngày làm việc",
-        "Tối thiểu 08 ngày làm việc"
+        "Tối thiểu 5%",
+        "Tối thiểu 6%",
+        "Tối thiểu 7%",
+        "Tối thiểu 10%"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 3 Điều 18 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Đối với gói thầu dịch vụ tư vấn, phi tư vấn, mua sắm hàng hóa, xây lắp hai túi hồ sơ, nội dung nào sau đây phải có trong báo cáo thẩm định danh sách nhà thầu đáp ứng yêu cầu về kỹ thuật?",
@@ -2529,7 +2430,7 @@
         ""
       ],
       "correctAnswerIndex": 1,
-      "source": "Khoản 3 Điều 136 Nghị định 214/2025/NĐ-CP"
+      "source": "N/A"
     },
     {
       "question": "Đối với gói thầu mua sắm hàng hóa mẫu hồ sơ nào được sử dụng để lập E-HSMT áp dụng hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh theo phương thức một giai đoạn một túi hồ sơ?",
@@ -2540,18 +2441,18 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 4 Điều 4 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
-      "question": "Đối với gói thầu áp dụng phương thức một giai đoạn hai túi hồ sơ, chủ đầu tư phải tiến hành mở E-HSĐXKT và công khai biên bản mở E-HSĐXKT trên hệ thống đấu thầu quốc gia trong thời hạn bao nhiêu giờ kể từ thời điểm đóng thầu?",
+      "question": "Đối với gói thầu áp dụng phương thức một giai đoạn hai túi hồ sơ, bên mời thầu phải tiến hành mở E-HSĐXKT và công khai biên bản mở E-HSĐXKT trên hệ thống đấu thầu quốc gia trong thời hạn bao nhiêu giờ kể từ thời điểm đóng thầu?",
       "options": [
-        "Không quá 02 giờ kể từ thời điểm đóng thầu",
+        "02 giờ kể từ thời điểm đóng thầu",
         "Không quá 03 giờ kể từ thời điểm đóng thầu",
         "Không quá 04 giờ kể từ thời điểm đóng thầu",
-        "Không quá 05 giờ kể từ thời điểm đóng thầu"
+        "05 giờ kể từ thời điểm đóng thầu"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 2 Điều 29 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Đối với gói thầu dịch vụ tư vấn, mẫu hồ sơ nào được sử dụng để lập E-HSMT áp dụng hình thức đấu thầu rộng rãi, đấu thầu hạn chế theo phương thức một giai đoạn hai túi hồ sơ?",
@@ -2562,7 +2463,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 6, Điều 4 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Đối với gói thầu mua sắm hàng hóa mẫu hồ sơ nào được sử dụng để lập E-HSMT áp dụng hình thức đấu thầu rộng rãi, đấu thầu hạn chế theo phương thức một giai đoạn hai túi hồ sơ?",
@@ -2573,18 +2474,18 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm b Khoản 4 Điều 4 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Đối với gói thầu áp dụng phương thức một giai đoạn một túi hồ sơ, chủ đầu tư phải tiến hành mở thầu và công khai biên bản mở thầu trên hệ thống đấu thầu quốc gia trong thời hạn bao nhiêu giờ kể từ thời điểm đóng thầu?",
       "options": [
-        "Không quá 02 giờ kể từ thời điểm đóng thầu",
+        "02 giờ kể từ thời điểm đóng thầu",
         "Không quá 03 giờ kể từ thời điểm đóng thầu",
         "Không quá 04 giờ kể từ thời điểm đóng thầu",
         "Không quá 05 giờ kể từ thời điểm đóng thầu"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 1 Điều 29 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Các thông tin chủ yếu của hợp đồng bao gồm?",
@@ -2592,10 +2493,10 @@
         "Số hiệu hợp đồng, chủ thể hợp đồng, giá hợp đồng, loại hợp đồng",
         "Thời gian thực hiện gói thầu theo quy định, thời gian thực hiện hợp đồng (được tính từ ngày hợp đồng có hiệu lực đến ngày các bên hoàn thành nghĩa vụ theo quy định trong hợp đồng)",
         "Thời điểm hợp đồng bắt đầu có hiệu lực, danh sách nhà thầu phụ (nếu có), phạm vi công việc của hợp đồng, các thông tin khác (nếu có)",
-        "Bao gồm cả 3 đáp án"
+        "Bao gồm cả 3 đáp án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 1 Điều 12 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Chủ đầu tư có trách nhiệm cung cấp thông tin chủ yếu của hợp đồng chậm nhất bao nhiêu ngày làm việc kể từ ngày hợp đồng có hiệu lực theo quy định?",
@@ -2606,7 +2507,7 @@
         "Chậm nhất là 08 ngày làm việc"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 12 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Chủ đầu tư đăng tải danh sách ngắn trên Hệ thống mạng đấu thầu quốc gia trong thời hạn bao nhiêu ngày làm việc kể từ ngày danh sách ngắn được ban hành?",
@@ -2617,7 +2518,7 @@
         "08 ngày"
       ],
       "correctAnswerIndex": 0,
-      "source": "Khoản 2 Điều 16 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Đối với lựa chọn nhà thầu không qua mạng, trường hợp cần làm rõ hồ sơ mời thầu, nhà thầu phải gửi đề nghị làm rõ đến chủ đầu tư thông qua Hệ thống mạng đấu thầu quốc gia trong thời hạn tối thiểu bao nhiêu ngày làm việc (đối với đấu thầu quốc tế) trước ngày có thời điểm đóng thầu để xem xét, xử lý?",
@@ -2628,7 +2529,7 @@
         "Tối thiểu 08 ngày làm việc"
       ],
       "correctAnswerIndex": 0,
-      "source": "Điểm a Khoản 3 Điều 18 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
     },
     {
       "question": "Gói thầu mua sắm hàng hóa phải công khai chi tiết thông tin về các hạng mục hàng hóa trúng thầu, bao gồm các nội dung nào sau đây?",
@@ -2639,7 +2540,106 @@
         "Bao gồm cả 3 đáp án."
       ],
       "correctAnswerIndex": 3,
-      "source": "Khoản 4 Điều 20 Thông tư số 79/2025/TT-BTC"
+      "source": "N/A"
+    },
+    {
+      "question": "Báo cáo thẩm định hồ sơ mời thầu bao gồm các nội dung nào sau đây?",
+      "options": [
+        "Khái quát nội dung chính của dự án, dự toán mua sắm, gói thầu, cơ sở pháp lý để lập hồ sơ mời thầu",
+        "Nhận xét và ý kiến của đơn vị thẩm định về cơ sở pháp lý, việc tuân thủ quy định của pháp luật về đấu thầu và pháp luật khác có liên quan; ý kiến thống nhất hoặc không thống nhất về nội dung dự thảo hồ sơ mời thầu",
+        "Đề xuất và kiến nghị của đơn vị thẩm định về việc phê duyệt hồ sơ mời thầu; về biện pháp xử lý đối với trường hợp phát hiện hồ sơ mời thầu không tuân thủ quy định của pháp luật về đấu thầu và pháp luật khác có liên quan; về biện pháp giải quyết đối với những trường hợp chưa đủ cơ sở phê duyệt hồ sơ mời thầu",
+        "Bao gồm cả 3 đáp án"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Nội dung nào sau đây phải có trong báo cáo thẩm định hồ sơ mời thầu?",
+      "options": [
+        "Nhận xét và ý kiến của đơn vị thẩm định về sự bảo đảm cạnh tranh, công bằng, minh bạch trong quá trình mời quan tâm, tổ chức sơ tuyển;",
+        "Đề xuất và kiến nghị của đơn vị thẩm định về kết quả đánh giá hồ sơ quan tâm, hồ sơ dự sơ tuyển",
+        "Đề xuất và kiến nghị của đơn vị thẩm định về việc phê duyệt hồ sơ mời thầu; về biện pháp xử lý đối với trường hợp phát hiện hồ sơ mời thầu không tuân thủ quy định của pháp luật về đấu thầu và pháp luật khác có liên quan; về biện pháp giải quyết đối với những trường hợp chưa đủ cơ sở phê duyệt hồ sơ mời thầu",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Căn cứ xác định Giá gói thầu là?",
+      "options": [
+        "Kết quả thẩm định giá của tổ chức có chức năng cung cấp dịch vụ thẩm định giá hoặc của hội đồng thẩm định giá theo quy định của pháp luật (nếu có)",
+        "Kết quả thẩm định giá của tổ chức không có chức năng cung cấp dịch vụ thẩm định giá",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Nội dung nào sau đây phải có trong báo cáo thẩm định hồ sơ mời thầu?",
+      "options": [
+        "Sự bảo đảm cạnh tranh, công bằng, minh bạch trong quá trình mời quan tâm, tổ chức sơ tuyển;",
+        "Nhận xét và ý kiến của đơn vị thẩm định về cơ sở pháp lý, việc tuân thủ quy định của pháp luật về đấu thầu và pháp luật khác có liên quan; ý kiến thống nhất hoặc không thống nhất về nội dung dự thảo hồ sơ mời thầu",
+        "Đề xuất và kiến nghị của đơn vị thẩm định về kết quả đánh giá hồ sơ quan tâm, hồ sơ dự sơ tuyển",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Quy trình chi tiết Đánh giá hồ sơ dự thầu đối với phương thức một giai đoạn một túi hồ sơ bao gồm bước nào?",
+      "options": [
+        "Kiểm tra, đánh giá tính hợp lệ của hồ sơ dự thầu",
+        "Đánh giá chi tiết hồ sơ dự thầu và xếp hạng nhà thầu (nếu có nhiều hơn 01 nhà thầu)",
+        "Trình kết quả đánh giá hồ sơ dự thầu",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Quy trình chi tiết Chuẩn bị lựa chọn nhà thầu đối với phương thức một giai đoạn một túi hồ sơ bao gồm bước nào?",
+      "options": [
+        "Lựa chọn danh sách ngắn (nếu cần thiết);\r\nLập hồ sơ mời thầu;\r\nThẩm định (nếu có) và phê duyệt hồ sơ mời thầu.",
+        "Lựa chọn danh sách ngắn (nếu cần thiết).",
+        "Lập hồ sơ mời thầu.",
+        "Thẩm định và phê duyệt hồ sơ mời thầu."
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Quy trình chi tiết Tổ chức lựa chọn nhà thầu đối với phương thức một giai đoạn một túi hồ sơ bao gồm bước nào?",
+      "options": [
+        "Mời thầu;\r\nPhát hành, sửa đổi, làm rõ hồ sơ mời thầu;\r\nChuẩn bị, nộp, tiếp nhận, quản lý, sửa đổi, rút hồ sơ dự thầu;\r\nMở thầu",
+        "Mời thầu",
+        "Phát hành, sửa đổi, làm rõ hồ sơ mời thầu",
+        "Chuẩn bị, nộp, tiếp nhận, quản lý, sửa đổi, rút hồ sơ dự thầu"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Bước nào sau đây thuộc giai đoạn chuẩn bị lựa chọn nhà thầu đối với phương thức một giai đoạn một túi hồ sơ?",
+      "options": [
+        "Thẩm định (nếu có) và phê duyệt hồ sơ mời thầu",
+        "Mở thầu",
+        "Hoàn thiện hợp đồng",
+        "Quản lý thực hiện hợp đồng"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Bước nào sau đây thuộc giai đoạn Tổ chức lựa chọn nhà thầu đối với phương thức một giai đoạn một túi hồ sơ?",
+      "options": [
+        "Chuẩn bị, nộp, tiếp nhận, quản lý, sửa đổi, rút hồ sơ dự thầu",
+        "Lập hồ sơ mời thầu",
+        "Đánh giá chi tiết hồ sơ dự thầu",
+        "Quản lý thực hiện hợp đồng"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
     }
   ]
 }

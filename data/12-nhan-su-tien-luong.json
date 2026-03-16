@@ -1,96 +1,8 @@
 {
-  "originalDisplayName": "12. Nhân sự - Tiền lương",
+  "originalDisplayName": "12. Nhân sự - tiền lương",
   "questions": [
     {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, nhân viên làm việc tại Agribank có thời gian công tác liên tục từ tháng 01/2000 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 10.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "Ít hơn 40.000.000đ",
-        "Nhiều hơn 40.000.000đ",
-        "40.000.000đ",
-        "Không đủ điều kiện hưởng chế độ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Trưởng phòng Chi nhánh loại I tại Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 19.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "4.750.000đ",
-        "7.600.000đ",
-        "76.000.000đ",
-        "81.000.000đ"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Trưởng phòng Chi nhánh loại II tại Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 13.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "3.250.000đ",
-        "5.200.000đ",
-        "52.000.000đ",
-        "55.000.000đ"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Giám đốc Chi nhánh loại I có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 25.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "6.250.000đ",
-        "10.000.000đ",
-        "100.000.000đ",
-        "110.000.000đ"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Giám đốc Chi nhánh loại II có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 19.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "4.750.000đ",
-        "7.600.000đ",
-        "76.000.000đ",
-        "81.000.000đ"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Trưởng phòng Chi nhánh loại I tại Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi chấm dứt HĐLĐ để bảo lưu thời gian đóng BHXH được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 19.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "4.750.000đ",
-        "7.600.000đ",
-        "76.000.000đ",
-        "Không thuộc đối tượng hưởng mức hỗ trợ chung"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Phó Trưởng phòng Chi nhánh loại II có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi chấm dứt HĐLĐ để bảo lưu thời gian đóng BHXH được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 13.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "3.250.000đ",
-        "5.200.000đ",
-        "52.000.000đ",
-        "Không thuộc đối tượng hưởng mức hỗ trợ chung"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Giám đốc Chi nhánh loại I có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi chấm dứt HĐLĐ để bảo lưu thời gian đóng BHXH được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 25.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "6.250.000đ",
-        "10.000.000đ",
-        "100.000.000đ",
-        "Không thuộc đối tượng hưởng mức hỗ trợ chung"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo quy định tại Quy chế số 388/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, Việc nhập thông tin trên hệ thống dữ liệu về nhân sự, phục vụ yêu cầu quản lý lao động đối với chức danh Giám đốc Chi nhánh loại II được xếp hạng do đơn vị/bộ phận nào thực hiện?",
+      "question": "Theo quy định tại Quy chế số 388/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, việc nhập thông tin trên hệ thống dữ liệu về nhân sự, phục vụ yêu cầu quản lý lao động đối với chức danh Giám đốc Chi nhánh loại II được xếp hạng do đơn vị/bộ phận nào thực hiện?",
       "options": [
         "Ban Tổ chức nhân sự",
         "Phòng Tổng hợp Chi nhánh loại I",
@@ -123,7 +35,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Văn bản số 8386/NHNo-TCTL ngày 27/9/2021, Agribank được quyền đơn phương chấm dứt hợp đồng lao động với người lao động theo quy định tại các văn bản nội bộ của Agribank và Bộ Luật lao động trong trường hợp nào?",
+      "question": "Theo Văn bản số 8386/NHNo-TCTL ngày 27/9/2021, Agribank được quyền đơn phương chấm dứt hợp đồng lao động với người lao động theo quy định tại các văn bản nội bộ của Agribank và Bộ luật lao động trong trường hợp nào?",
       "options": [
         "Người lao động không có mặt tại nơi làm việc sau 15 ngày kể từ ngày hết thời hạn tạm hoãn thực hiện hợp đồng lao động",
         "Người lao động tự ý bỏ việc mà không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên",
@@ -167,7 +79,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quyết định 306/QĐ-HĐTV-TCTL, Hệ số mức độ hoàn thành công việc do ai quy định?",
+      "question": "Theo Quyết định 306/QĐ-HĐTV-TCTL, hệ số mức độ hoàn thành công việc do ai quy định?",
       "options": [
         "Hội đồng lương đơn vị quy định cụ thể căn cứ vào mức độ hoàn thành nhiệm vụ được giao, việc chấp hành nội quy lao động, số ngày công trong tháng",
         "Trưởng phòng Tổng hợp của Chi nhánh",
@@ -189,7 +101,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quyết định số 703/QĐ-HĐTV-TCTL ngày 31/7/2017, Hệ số thu hút V2 đối với người lao động làm công tác Tín dụng là:",
+      "question": "Theo Quyết định số 703/QĐ-HĐTV-TCTL ngày 31/7/2017, hệ số thu hút V2 đối với người lao động làm công tác Tín dụng là:",
       "options": [
         "1,0",
         "0,5",
@@ -215,7 +127,7 @@
       "options": [
         "Phụ cấp độc hại, nguy hiểm; Phụ cấp trách nhiệm",
         "Phụ cấp chức vụ; Phụ cấp khu vực",
-        "Phụ cấp thâm niên vượt khung, phụ cấp ưu đãi nghề",
+        "Phụ cấp thâm niên vượt khung; Phụ cấp ưu đãi nghề",
         "Cả đáp án 1 và 2"
       ],
       "correctAnswerIndex": 3,
@@ -269,7 +181,7 @@
       "question": "Theo Quyết định số 703/QĐ-HĐTV-TCTL ngày 31/7/2017, đối tượng nào được hưởng phụ cấp độc hại, nguy hiểm?",
       "options": [
         "Thủ kho, trưởng quỹ, Thủ quỹ, kiểm ngân",
-        "Người lao động trực tiếp thực hiện thu - chi tiền mặt;  Người lao động thường xuyên sử dụng đèn cực tím để phát hiện tiền giả, ngân phiếu thanh toán giả",
+        "Người lao động trực tiếp thực hiện thu - chi tiền mặt; Người lao động thường xuyên sử dụng đèn cực tím để phát hiện tiền giả, ngân phiếu thanh toán giả",
         "Thành viên Ban Quản lý kho quỹ Chi nhánh loại I",
         "Tất cả các đáp án trên"
       ],
@@ -277,7 +189,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế quản lý lao động trong hệ thống Agribank, cấp có thẩm quyền quyết định  xếp loại lao động đối với chức danh Giám đốc Chi nhánh loại I là:",
+      "question": "Theo Quy chế quản lý lao động trong hệ thống Agribank, cấp có thẩm quyền quyết định xếp loại lao động đối với chức danh Giám đốc Chi nhánh loại I là:",
       "options": [
         "Hội đồng thành viên",
         "Chủ tịch Hội đồng thành viên",
@@ -285,105 +197,6 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Phó Giám đốc Chi nhánh loại I của Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 22.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "88.000.000đ",
-        "8.800.000đ",
-        "9.500.000đ",
-        "95.000.000đ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Phó Trưởng phòng Chi nhánh loại I của Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 16.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "64.000.000đ",
-        "6.400.000đ",
-        "6.700.000đ",
-        "67.000.000đ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Phó Giám đốc Chi nhánh loại II của Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 16.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "64.000.000đ",
-        "6.400.000đ",
-        "6.700.000đ",
-        "67.000.000đ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Giám đốc Phòng giao dịch Chi nhánh loại II của Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 16.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "64.000.000đ",
-        "6.400.000đ",
-        "6.700.000đ",
-        "67.000.000đ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Giám đốc Phòng giao dịch Chi nhánh loại I của Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 16.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "64.000.000đ",
-        "6.400.000đ",
-        "6.700.000đ",
-        "67.000.000đ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Phó Giám đốc Phòng giao dịch Chi nhánh loại I của Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 13.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "52.000.000đ",
-        "5.500.000đ",
-        "5.200.000đ",
-        "55.000.000đ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Phó Giám đốc Chi nhánh loại I tại Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi chấm dứt HĐLĐ để bảo lưu thời gian đóng BHXH được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 22.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "95.000.000đ",
-        "8.800.000đ",
-        "88.000.000đ",
-        "Không thuộc đối tượng hưởng mức hỗ trợ chung"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Phó Trưởng phòng Chi nhánh loại I tại Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi chấm dứt HĐLĐ để bảo lưu thời gian đóng BHXH được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 16.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "67.000.000đ",
-        "6.400.000đ",
-        "64.000.000đ",
-        "Không thuộc đối tượng hưởng mức hỗ trợ chung"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Giám đốc Phòng giao dịch Chi nhánh loại I tại Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi chấm dứt HĐLĐ để bảo lưu thời gian đóng BHXH được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 16.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "67.000.000đ",
-        "6.400.000đ",
-        "64.000.000đ",
-        "Không thuộc đối tượng hưởng mức hỗ trợ chung"
-      ],
-      "correctAnswerIndex": 3,
       "source": "N/A"
     },
     {
@@ -453,7 +266,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định tại Quy chế số 388/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, \"Từ chức\"  là:",
+      "question": "Theo quy định tại Quy chế số 388/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, \"Từ chức\" là:",
       "options": [
         "Là việc cấp có thẩm quyền quyết định cho nhân sự thôi giữ chức vụ khi chưa hết nhiệm kỳ hoặc chưa hết thời hạn bổ nhiệm do không đáp ứng được yêu cầu công việc, uy tín giảm sút",
         "Là việc nhân sự tự nguyện xin thôi giữ chức danh, chức vụ khi chưa hết nhiệm kỳ hoặc chưa hết thời hạn bổ nhiệm và được cấp có thẩm quyền chấp nhận",
@@ -530,7 +343,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định tại Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, đối tượng luân chuyển bao gồm?",
+      "question": "Theo quy định tại Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, đối tượng luân chuyển bao gồm:",
       "options": [
         "Nhân sự có phẩm chất, năng lực, triển vọng, trong quy hoạch",
         "Nhân sự hết thời hạn giữ chức vụ tối đa theo quy định",
@@ -541,22 +354,11 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định tại Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, tiêu chuẩn, điều kiện của nhân sự luân chuyển bao gồm?",
+      "question": "Theo quy định tại Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, tiêu chuẩn, điều kiện của nhân sự luân chuyển bao gồm:",
       "options": [
         "Có lập trường, tư tưởng chính trị vững vàng, phẩm chất đạo đức tốt; có năng lực và triển vọng phát triển",
         "Được quy hoạch ở vị trí lãnh đạo, quản lý cao hơn",
-        "Có trình độ chuyên môn phù hợp, đáp ứng được yêu cầu nhiệm vụ của vị trí luân chuyển; cơ bản đáp ứng tiêu chuẩn, điều kiện cụ thể của chức vụ luân chuyển đến theo quy định.",
-        "Tất cả các đáp án trên"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Thời gian người lao động làm việc tại Agribank (N1) để tính mức hỗ trợ chung theo quy định về chế độ đối với cán bộ Agribank nghỉ hưu, chấm dứt hợp đồng lao động (Theo Văn bản số 1519/HĐQT-LĐTL ngày 11/12/2008) KHÔNG bao gồm:",
-      "options": [
-        "Thời gian công tác trong ngân hàng trước tháng 3/1988",
-        "Thời gian công tác tại Tổng công ty Vàng bạc đá quý, Tổng công ty lương thực",
-        "Thời gian công tác tại các Công ty khác",
+        "Có trình độ chuyên môn phù hợp, đáp ứng được yêu cầu nhiệm vụ của vị trí luân chuyển; cơ bản đáp ứng tiêu chuẩn, điều kiện cụ thể của chức vụ luân chuyển đến theo quy định",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
@@ -565,10 +367,10 @@
     {
       "question": "Theo Quy chế quản lý lao động trong hệ thống Agribank, đáp án nào sau đây là đúng khi nói về việc lựa chọn hình thức tuyển dụng?",
       "options": [
-        "Giám đốc Chi nhánh loại I quyết định lựa chọn hình thức tuyển dụng.",
-        "Chủ tịch Hội đồng thành viên xem xét, quyết định lựa chọn hình thức tuyển dụng phù hợp đảm bảo chất lượng, hiệu quả.",
-        "Tổng Giám đốc xem xét, quyết định lựa chọn hình thức tuyển dụng phù hợp đảm bảo chất lượng, hiệu quả.",
-        "Theo nhu cầu lao động từng thời kỳ, Chủ tịch Hội đồng thành viên và Tổng Giám đốc xem xét, thống nhất, quyết định lựa chọn hình thức tuyển dụng phù hợp đảm bảo chất lượng, hiệu quả."
+        "Giám đốc Chi nhánh loại I quyết định lựa chọn hình thức tuyển dụng",
+        "Chủ tịch Hội đồng thành viên xem xét, quyết định lựa chọn hình thức tuyển dụng phù hợp đảm bảo chất lượng, hiệu quả",
+        "Tổng Giám đốc xem xét, quyết định lựa chọn hình thức tuyển dụng phù hợp đảm bảo chất lượng, hiệu quả",
+        "Theo nhu cầu lao động từng thời kỳ, Chủ tịch Hội đồng thành viên và Tổng Giám đốc xem xét, thống nhất, quyết định lựa chọn hình thức tuyển dụng phù hợp đảm bảo chất lượng, hiệu quả"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -582,17 +384,6 @@
         "Cả đáp án 1 và 2"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, nhân viên tại Chi nhánh của Agribank có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi chấm dứt HĐLĐ để bảo lưu thời gian đóng BHXH được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 10.000.000đ, hệ số điều chỉnh K = 4)?",
-      "options": [
-        "40.000.000đ",
-        "4.000.000đ",
-        "2.500.000đ",
-        "Không thuộc đối tượng hưởng mức hỗ trợ chung"
-      ],
-      "correctAnswerIndex": 3,
       "source": "N/A"
     },
     {
@@ -651,28 +442,6 @@
       "source": "N/A"
     },
     {
-      "question": "Tính tổng số tiền đóng BHXH, BHYT, BHTN tháng 3/2025 của bà A, biết tiền lương đóng bảo hiểm xã hội bắt buộc của bà A là 8.630.400đ?",
-      "options": [
-        "906.192đ",
-        "900.000đ",
-        "905.000đ",
-        "910.000đ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Tính tổng số tiền đóng BHXH, BHYT, BHTN tháng 3/2025 mà Agribank phải đóng cho bà B, biết tiền lương đóng bảo hiểm xã hội bắt buộc của bà B là 7.787.200đ?",
-      "options": [
-        "1.700.000đ",
-        "1.600.000đ",
-        "1.674.248đ",
-        "1.650.000đ"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, Quy trình quy hoạch gồm: (chọn đáp án đúng nhất)",
       "options": [
         "Xây dựng quy hoạch nhiệm kỳ kế tiếp từ nguồn nhân sự tại chỗ",
@@ -708,9 +477,9 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, nguyên tắc xác định đối tượng nguồn giới thiệu quy hoạch được quy định như thế nào?(chọn đáp án đúng nhất)",
       "options": [
-        "Là nhân sự giữ chức vụ liền kề với chức danh quy hoạch",
-        "Là nhân sự giữ chức vụ liền kề với chức danh đối tượng 1",
-        "Là nhân sự giữ chức vụ liền kề với chức danh đối tượng 1 và đã có quyết định phê duyệt quy hoạch chức danh đối tượng 1",
+        "là nhân sự giữ chức vụ liền kề với chức danh quy hoạch",
+        "là nhân sự giữ chức vụ liền kề với chức danh đối tượng 1",
+        "là nhân sự giữ chức vụ liền kề với chức danh đối tượng 1 và đã có quyết định phê duyệt quy hoạch chức danh đối tượng 1",
         "- Đối tượng 1: là nhân sự giữ chức vụ liền kề với chức danh quy hoạch\r\n- Đối tượng 2: là nhân sự giữ chức vụ liền kề với chức danh đối tượng 1 và đã có quyết định phê duyệt quy hoạch chức danh đối tượng 1"
       ],
       "correctAnswerIndex": 3,
@@ -719,8 +488,8 @@
     {
       "question": "Nguyên tắc xác định đối tượng nguồn giới thiệu quy hoạch khi quy hoạch nhân sự từ nơi khác (chọn đáp án đúng nhất):",
       "options": [
-        "Là nhân sự giữ chức vụ liền kề với chức danh quy hoạch",
-        "Là nhân sự giữ chức vụ liền kề với chức danh đối tượng 1",
+        "là nhân sự giữ chức vụ liền kề với chức danh quy hoạch",
+        "là nhân sự giữ chức vụ liền kề với chức danh đối tượng 1",
         "Nhân sự giữ các chức vụ tương đương đối tượng 1, đối tượng 2 của chức danh quy hoạch và phải được quy hoạch cấp ủy theo quy định",
         ""
       ],
@@ -731,7 +500,7 @@
       "question": "Theo quy định tại Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, chế độ chính sách đối với nhân sự luân chuyển bao gồm:",
       "options": [
         "Được tiếp tục duy trì trong danh sách quy hoạch nhân sự nếu vẫn đáp ứng đủ điều kiện, tiêu chuẩn quy định",
-        "Được hưởng các quyền lợi như nhân sự của đơn vị/bộ phận nơi luân chuyển đến",
+        "Được hưởng các quyền lợi như nhân sự của đơn vị/bộ phận nơi luân chuyển đến.",
         "Đơn vị/bộ phận nơi đến thực hiện chế độ, chính sách, bố trí nơi ở, hỗ trợ đi lại, sinh hoạt phí theo quy định của Agribank đối với nhân sự luân chuyển (nếu có)",
         "Tất cả các đáp án trên"
       ],
@@ -741,8 +510,8 @@
     {
       "question": "Căn cứ Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, xác định Đối tượng 1 khi giới thiệu quy hoạch chức danh Trưởng phòng tại Chi nhánh loại I đối với nguồn nhân sự tại chỗ là:",
       "options": [
-        "Người lao động tại phòng",
-        "Người lao động tại đơn vị",
+        "người lao động tại phòng",
+        "người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
         "Phó Trưởng phòng"
       ],
@@ -752,8 +521,8 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, xác định Đối tượng 1 khi giới thiệu quy hoạch chức danh Phó Giám đốc tại Chi nhánh loại I đối với nguồn nhân sự tại chỗ là:",
       "options": [
-        "Người lao động tại phòng",
-        "Người lao động tại đơn vị",
+        "người lao động tại phòng",
+        "người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
         "Trưởng phòng"
       ],
@@ -763,7 +532,7 @@
     {
       "question": "Căn cứ Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, xác định Đối tượng 1 khi giới thiệu quy hoạch chức danh Giám đốc tại Chi nhánh loại I đối với nguồn nhân sự tại chỗ là:",
       "options": [
-        "Người lao động tại đơn vị",
+        "người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
         "Trưởng nghiệp vụ",
         "Phó Giám đốc"
@@ -774,8 +543,8 @@
     {
       "question": "Căn cứ Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, xác định Đối tượng 1 khi giới thiệu quy hoạch chức danh Trưởng phòng tại Chi nhánh loại II đối với nguồn nhân sự tại chỗ là:",
       "options": [
-        "Người lao động tại phòng",
-        "Người lao động tại đơn vị",
+        "người lao động tại phòng",
+        "người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
         "Phó Trưởng phòng"
       ],
@@ -785,8 +554,8 @@
     {
       "question": "Căn cứ Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, xác định Đối tượng 1 khi giới thiệu quy hoạch chức danh Phó Giám đốc tại Chi nhánh loại II đối với nguồn nhân sự tại chỗ là:",
       "options": [
-        "Người lao động tại phòng",
-        "Người lao động tại đơn vị",
+        "người lao động tại phòng",
+        "người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
         "Trưởng phòng"
       ],
@@ -796,7 +565,7 @@
     {
       "question": "Căn cứ Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, xác định Đối tượng 1 khi giới thiệu quy hoạch chức danh Giám đốc tại Chi nhánh loại II đối với nguồn nhân sự tại chỗ là:",
       "options": [
-        "Người lao động tại đơn vị",
+        "người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
         "Trưởng nghiệp vụ",
         "Phó Giám đốc"
@@ -807,8 +576,8 @@
     {
       "question": "Căn cứ Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, xác định Đối tượng 2 khi giới thiệu quy hoạch chức danh Trưởng phòng tại Chi nhánh loại II đối với nguồn nhân sự tại chỗ là:",
       "options": [
-        "Người lao động tại phòng",
-        "Người lao động tại đơn vị",
+        "người lao động tại phòng",
+        "người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
         "Phó Trưởng phòng"
       ],
@@ -831,7 +600,7 @@
       "options": [
         "Người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
-        "Trưởng Phòng và phải được quyhoạch chức danh đối tượng 1",
+        "Trưởng phòng và phải được quy hoạch chức danh đối tượng 1.",
         "Phó Giám đốc"
       ],
       "correctAnswerIndex": 2,
@@ -840,7 +609,7 @@
     {
       "question": "Căn cứ Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, xác định Đối tượng 2 khi giới thiệu quy hoạch chức danh Trưởng phòng tại Chi nhánh loại I đối với nguồn nhân sự tại chỗ là:",
       "options": [
-        "Người lao động tại phòng và phải được quy hoạch chức danh đối tượng 1",
+        "Người lao động tại phòng và phải được quy hoạch chức danh đối tượng 1.",
         "Người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
         "Phó Trưởng phòng"
@@ -853,7 +622,7 @@
       "options": [
         "Người lao động tại phòng",
         "Người lao động tại đơn vị",
-        "Phó Trưởng phòng và phải được quy hoạch chức danh đối tượng 1",
+        "Phó Trưởng phòng và phải được quy hoạch chức danh đối tượng 1.",
         "Trưởng phòng"
       ],
       "correctAnswerIndex": 2,
@@ -864,7 +633,7 @@
       "options": [
         "Người lao động tại đơn vị",
         "Phó Trưởng nghiệp vụ",
-        "Trưởng Phòng và phải được quy hoạch chức danh đối tượng 1",
+        "Trưởng Phòng và phải được quy hoạch chức danh đối tượng 1.",
         "Phó Giám đốc"
       ],
       "correctAnswerIndex": 2,
@@ -895,9 +664,9 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, việc thực hiện quy trình bổ nhiệm vào chức danh quy hoạch được thực hiện sau khi được phê duyệt quy hoạch ít nhất mấy tháng?",
       "options": [
-        "Được thực hiện ngay sau khi phê duyệt quy hoạch",
-        "Ít nhất 03 tháng",
-        "Ít nhất 05 tháng",
+        "được thực hiện ngay sau khi phê duyệt quy hoạch",
+        "ít nhất 03 tháng",
+        "ít nhất 05 tháng",
         ""
       ],
       "correctAnswerIndex": 1,
@@ -906,10 +675,10 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, \"Quy hoạch mở\" là gì?",
       "options": [
-        "Là 01 chức danh quy hoạch một số người hoặc 01 người có thể quy hoạch vào một số chức danh",
-        "Là 01 người có thể quy hoạch vào một số chức danh",
-        "Là quy hoạch được định kỳ rà soát bổ sung, điều chỉnh hàng năm",
-        "Là không khép kín trong từng đơn vị/bộ phận mà cần mở rộng nguồn nhân sự từ nơi khác để đưa vào quy hoạch những nhân sự đáp ứng tiêu chuẩn, điều kiện và yêu cầu nhiệm vụ của đơn vị"
+        "là 01 chức danh quy hoạch một số người hoặc 01 người có thể quy hoạch vào một số chức danh",
+        "là 01 người có thể quy hoạch vào một số chức danh",
+        "là quy hoạch được định kỳ rà soát bổ sung, điều chỉnh hàng năm",
+        "là không khép kín trong từng đơn vị/bộ phận mà cần mở rộng nguồn nhân sự từ nơi khác để đưa vào quy hoạch những nhân sự đáp ứng tiêu chuẩn, điều kiện và yêu cầu nhiệm vụ của đơn vị"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -917,10 +686,10 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên,\"Quy hoạch động\" là gì?",
       "options": [
-        "Là quy hoạch được định kỳ rà soát, bổ sung hàng năm",
-        "Là quy hoạch được định kỳ rà soát điều chỉnh hàng năm",
-        "Là quy hoạch được định kỳ rà soát, bổ sung, điều chỉnh hàng năm",
-        "Là định kỳ rà soát, bổ sung, điều chỉnh để đưa ra khỏi quy hoạch những trường hợp không còn đủ tiêu chuẩn, điều kiện, không hoàn thành nhiệm vụ, vi phạm quy định của Đảng, pháp luật của Nhà nước hoặc uy tín thấp và kịp thời bổ sung vào quy hoạch nhân sự có phẩm chất, năng lực, uy tín, triển vọng phát triển"
+        "là quy hoạch được định kỳ rà soát, bổ sung hàng năm",
+        "là quy hoạch được định kỳ rà soát điều chỉnh hàng năm",
+        "là quy hoạch được định kỳ rà soát, bổ sung, điều chỉnh hàng năm",
+        "là định kỳ rà soát, bổ sung, điều chỉnh để đưa ra khỏi quy hoạch những trường hợp không còn đủ tiêu chuẩn, điều kiện, không hoàn thành nhiệm vụ, vi phạm quy định của Đảng, pháp luật của Nhà nước hoặc uy tín thấp và kịp thời bổ sung vào quy hoạch nhân sự có phẩm chất, năng lực, uy tín, triển vọng phát triển"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -928,16 +697,16 @@
     {
       "question": "Quy hoạch chức danh Bí thư cấp ủy để làm cơ sở quy hoạch chức danh gì?",
       "options": [
-        "Để quy hoạch chức danh Bí thư Chi bộ",
-        "Để quy hoạch chức danh Phó Bí thư Chi bộ",
-        "Để quy hoạch chức danh cấp phó đơn vị",
-        "Để làm cơ sở quy hoạch cấp Trưởng đơn vị đối với các đơn vị có tổ chức đảng cấp cơ sở"
+        "để quy hoạch chức danh Bí thư Chi bộ",
+        "để quy hoạch chức danh Phó Bí thư Chi bộ",
+        "để quy hoạch chức danh cấp phó đơn vị",
+        "để làm cơ sở quy hoạch cấp Trưởng đơn vị đối với các đơn vị có tổ chức đảng cấp cơ sở"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
     },
     {
-      "question": "Các chức danh thuộc thẩm quyền phê duyệt quy hoạch của Hội đồng thành viên? (chọn phương án đầy đủ nhất)",
+      "question": "Các chức danh thuộc thẩm quyền phê duyệt quy hoạch của Hội đồng thành viên (chọn phương án đầy đủ nhất)?",
       "options": [
         "Giám đốc Chi nhánh loại I; Phó Giám đốc Chi nhánh loại I",
         "Giám đốc Chi nhánh loại I; Giám đốc Chi nhánh Agribank tại nước ngoài",
@@ -948,18 +717,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định tại Quy chế số 388/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, trường hợp KHÔNG thực hiện trong công tác nhân sự là: (chọn đáp án đúng nhất)",
-      "options": [
-        "Không bố trí người có quan hệ gia đình của cấp trưởng, cấp phó đơn vị giữ chức vụ quản lý về tổ chức nhân sự, kế toán, làm thủ quỹ, thủ kho trong đơn vị hoặc giao dịch, mua bán hàng hóa, dịch vụ, ký kết hợp đồng cho đơn vị đó",
-        "Không phân công, giao nhiệm vụ những người có quan hệ gia đình trong cùng một quy trình nghiệp vụ để xử lý từng nhiệm vụ cụ thể về tín dụng, nhân sự, kế toán, kho quỹ, mua, bán vật tư, hàng hóa, dịch vụ nhằm tránh xung đột lợi ích theo quy  định của pháp luật, Nhà nước và Agribank",
-        "Tất cả các đáp án trên",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Các chức danh thuộc thẩm quyền phê duyệt quy hoạch của Tổng Giám đốc  là: (chọn phương án đầy đủ nhất)",
+      "question": "Các chức danh thuộc thẩm quyền phê duyệt quy hoạch của Tổng Giám đốc là: (chọn phương án đầy đủ nhất)",
       "options": [
         "Phó Giám đốc Chi nhánh loại I",
         "Giám đốc, Phó Giám đốc Chi nhánh loại I hạng 2",
@@ -994,10 +752,10 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, thời điểm rà soát, bổ sung quy hoạch hàng năm là thời gian nào?",
       "options": [
-        "Trước 30/4 hàng năm",
-        "Trước Quý I hàng năm",
-        "Trước Quý II hàng năm",
-        "Trong Quý I hàng năm"
+        "trước 30/4 hàng năm",
+        "trước Quý I hàng năm",
+        "trước Quý II hàng năm",
+        "trong Quý I hàng năm"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1016,10 +774,10 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, điều kiện để nhân sự lần đầu tiên được xem xét, đưa vào quy hoạch được quy định như thế nào? (chọn phương án đầy đủ nhất)",
       "options": [
-        "Có thời gian công tác ở Agribank ít nhất 01 năm",
-        "Có thời gian công tác ở Agribank ít nhất 01 năm (không kể thời gian tập sự, thử việc)",
-        "Có thời gian công tác ở Agribank ít nhất 02 năm (tính cả thời gian tập sự, thử việc, nghỉ không hưởng lương, nghỉ ốm hưởng BHXH)",
-        "Có thời gian công tác ở Agribank ít nhất 02 năm (không kể thời gian tập sự, thử việc, nghỉ không hưởng lương, nghỉ ốm hưởng BHXH), trừ các trường hợp đang giữ chức danh, chức vụ tại Agribank"
+        "có thời gian công tác ở Agribank ít nhất 01 năm",
+        "có thời gian công tác ở Agribank ít nhất 01 năm (không kể thời gian tập sự, thử việc)",
+        "có thời gian công tác ở Agribank ít nhất 02 năm (tính cả thời gian tập sự, thử việc, nghỉ không hưởng lương, nghỉ ốm hưởng BHXH)",
+        "có thời gian công tác ở Agribank ít nhất 02 năm (không kể thời gian tập sự, thử việc, nghỉ không hưởng lương, nghỉ ốm hưởng BHXH), trừ các trường hợp đang giữ chức danh, chức vụ tại Agribank."
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1041,18 +799,18 @@
         "Phải đáp ứng điều kiện tuổi bổ nhiệm lần đầu theo quy định cộng với ít nhất 12 tháng.",
         "Phải đáp ứng điều kiện tuổi bổ nhiệm lần đầu theo quy định cộng với ít nhất 24 tháng.",
         "Phải đáp ứng điều kiện tuổi bổ nhiệm lần đầu theo quy định cộng với ít nhất 1 nhiệm kỳ (60 tháng).",
-        "- Đối tượng 1: Phải đáp ứng điều kiện tuổi bổ nhiệm lần đầu theo quy định cộng với ít nhất 12 tháng.\r\n- Đối tượng 2: Phải đáp ứng điều kiện tuổi bổ nhiệm lần đầu theo quy định cộng với ít nhất 1 nhiệm kỳ (60 tháng)."
+        "- Đối tượng 1: Phải đáp ứng điều kiện tuổi bổ nhiệm lần đầu theo quy định cộng với ít nhất 12 tháng.\r\n- Đối tượng 2: Phải đáp ứng điều kiện tuổi bổ nhiệm lần đầu theo quy định cộng với ít nhất 1 nhiệm kỳ (60 tháng)"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên. thời điểm tính tuổi quy hoạch đối với nhiệm kỳ 2026 - 2031 là:",
+      "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên. thời điểm tính tuổi quy hoạch đối với nhiệm kỳ 2026 - 2031 là?",
       "options": [
-        "Tháng 5/2026",
-        "Tháng 02/2026",
-        "Tháng 3/2026",
-        "Tháng 01/2026"
+        "tháng 5/2026",
+        "tháng 02/2026",
+        "tháng 3/2026",
+        "tháng 01/2026"
       ],
       "correctAnswerIndex": 0,
       "source": "N/A"
@@ -1060,10 +818,10 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, thời điểm tính tuổi quy hoạch đối với rà soát, bổ sung quy hoạch nhiệm kỳ hiện tại là?",
       "options": [
-        "Ngày 01/01 của năm hiện tại",
-        "Ngày 31/12 của năm hiện tại",
-        "Thời điểm bộ phận tham mưu nhận được tờ trình theo quy định",
-        "Thời điểm bộ phận tham mưu nhận được tờ trình và hồ sơ nhân sự theo quy định"
+        "ngày 01/01 của năm hiện tại",
+        "ngày 31/12 của năm hiện tại",
+        "thời điểm bộ phận tham mưu nhận được tờ trình theo quy định",
+        "thời điểm bộ phận tham mưu nhận được tờ trình và hồ sơ nhân sự theo quy định."
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1071,10 +829,10 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, anh/chị hãy cho biết quy định về số lượng nhân sự quy hoạch đối với mỗi vị trí chức danh?",
       "options": [
-        "Tối thiểu 03 người, tối đa không quá 03 lần số lượng nhân sự thực tế đang giữ chức danh",
-        "Tối thiểu 03 người, tối đa 05 người",
-        "Tối đa không quá 02 lần tổng số lượng nhân sự được bổ nhiệm đối với mỗi vị trí chức danh",
-        "Không quá 03 người"
+        "tối thiểu 03 người, tối đa không quá 03 lần số lượng nhân sự thực tế đang giữ chức danh",
+        "tối thiểu 03 người, tối đa 05 người",
+        "tối đa không quá 02 lần tổng số lượng nhân sự được bổ nhiệm đối với mỗi vị trí chức danh",
+        "không quá 03 người"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1082,7 +840,7 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, cơ cấu quy hoạch phấn đấu tỷ lệ nữ chiếm bao nhiêu phần trăm?",
       "options": [
-        "Từ 25% trở lên",
+        "từ 25% trở lên",
         "24%",
         "23%",
         "22%"
@@ -1179,11 +937,11 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định tại Thông tư 32/2024/TT-NHNN, giải thích từ ngữ \"Người đứng đầu\" là: (chọn đáp án đầy đủ nhất)?",
+      "question": "Theo quy định tại Thông tư 32/2024/TT-NHNN, giải thích từ ngữ \"Người đứng đầu\" là? (chọn đáp án đầy đủ nhất)?",
       "options": [
-        "Giám đốc chi nhánh, Giám đốc phòng giao dịch hoặc chức danh tương đương, người đứng đầu văn phòng đại diện",
-        "Giám đốc chi nhánh, Giám đốc phòng giao dịch",
-        "Người đứng đầu văn phòng đại diện",
+        "là Giám đốc chi nhánh, Giám đốc phòng giao dịch hoặc chức danh tương đương, người đứng đầu văn phòng đại diện",
+        "là Giám đốc chi nhánh, Giám đốc phòng giao dịch",
+        "là người đứng đầu văn phòng đại diện",
         ""
       ],
       "correctAnswerIndex": 0,
@@ -1236,9 +994,9 @@
     {
       "question": "Theo quy định tại Quy chế số 388/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, cấp có thẩm quyền chủ trì thực hiện quy trình bổ nhiệm đối với trường hợp nào sau đây?",
       "options": [
-        "Trường hợp thực hiện quy trình bổ nhiệm mà thời điểm đó nội bộ lãnh đạo đơn vị mất đoàn kết, nhiều người vi phạm kỷ luật, nếu thực hiện quy trình bổ nhiệm sẽ thiếu khách quan.",
-        "Trường hợp vì thiên tai, tai nạn hoặc vì các lý do bất khả kháng khác mà đơn vị không còn người lãnh đạo, quản lý.",
-        "Tất cả các đáp án trên.",
+        "Trường hợp thực hiện quy trình bổ nhiệm mà thời điểm đó nội bộ lãnh đạo đơn vị mất đoàn kết, nhiều người vi phạm kỷ luật, nếu thực hiện quy trình bổ nhiệm sẽ thiếu khách quan",
+        "Trường hợp vì thiên tai, tai nạn hoặc vì các lý do bất khả kháng khác mà đơn vị không còn người lãnh đạo, quản lý",
+        "Tất cả các đáp án trên",
         ""
       ],
       "correctAnswerIndex": 2,
@@ -1302,7 +1060,7 @@
     {
       "question": "Theo quy định tại Quy chế số 388/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, hồ sơ cá nhân của nhân sự dự kiến tuyển dụng, bổ nhiệm từ ngoài Agribank KHÔNG yêu cầu có hồ sơ nào?",
       "options": [
-        "Sơ yếu lý lịch do cá nhân tự khai, được chính quyền địa phương nơi nhân sự sinh sống xác nhận, có dán ảnh màu khổ 4x6 cm, chụp trong thời gian không quá 06 tháng",
+        "Sơ yếu lý lịch do cá nhân tự khai, được chính quyền địa phương nơi nhân sự sinh sống xác nhận, có dán ảnh màu khổ 4x6 cm, chụp trong thời gian không quá 06 tháng.",
         "Thẻ Bảo hiểm y tế",
         "Giấy chứng nhận sức khỏe của cơ sở y tế có thẩm quyền cấp (trong vòng 30 ngày tính đến ngày nộp hồ sơ)",
         "Bản sao chứng minh nhân dân hoặc căn cước công dân/Hộ chiếu"
@@ -1326,7 +1084,7 @@
       "options": [
         "Bố, mẹ, con, anh, chị, em ruột/dâu/rể theo quy định của pháp luật",
         "Vợ/chồng; bố, mẹ, người trực tiếp nuôi dưỡng hoặc bố, mẹ người trực tiếp nuôi dưỡng vợ/chồng; con đẻ, con nuôi, con dâu, con rể; anh, chị, em ruột; anh, chị, em ruột của vợ/chồng; anh, chị, em dâu/rể của bản thân hoặc vợ/chồng theo quy định của pháp luật",
-        "Bố, mẹ, người trực tiếp nuôi dưỡng; con đẻ, con nuôi, con dâu, con rể; anh, chị, em ruột",
+        "Bố, mẹ, người trực tiếp nuôi dưỡng; con đẻ, con nuôi, con dâu, con rể; anh, chị, em ruột.",
         "Bố, mẹ, con đẻ, con nuôi, anh, chị, em ruột/dâu/rể theo quy định của pháp luật"
       ],
       "correctAnswerIndex": 1,
@@ -1421,7 +1179,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS  ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, thời gian cho một đợt đi công tác, học tập ngắn hạn ở nước ngoài là bao lâu?",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, thời gian cho một đợt đi công tác, học tập ngắn hạn ở nước ngoài là bao lâu?",
       "options": [
         "Dưới 30 ngày",
         "Dưới 45 ngày",
@@ -1432,7 +1190,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS  ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, hồ sơ trình về việc cử cán bộ đi công tác, học tập tại nước ngoài bao gồm:",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, hồ sơ trình về việc cử cán bộ đi công tác, học tập tại nước ngoài bao gồm:",
       "options": [
         "Tờ trình về việc cử cán bộ ra nước ngoài công tác, học tập",
         "Thư mời/văn bản của đối tác, công văn yêu cầu của cấp trên",
@@ -1443,7 +1201,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS  ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, một trong các điều kiện đối với người được cử đi học tập dài hạn ở nước ngoài bằng chi phí của Agribank hoặc từ tiêu chuẩn của Agribank là:",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, một trong các điều kiện đối với người được cử đi học tập dài hạn ở nước ngoài bằng chi phí của Agribank hoặc từ tiêu chuẩn của Agribank là:",
       "options": [
         "Có bản cam kết trở về làm việc tối thiểu 20 năm cho Agribank",
         "Có bản cam kết trở về làm việc tối thiểu 03 năm cho Agribank",
@@ -1454,7 +1212,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS  ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, đơn vị đầu mối tiếp nhận, xử lý hồ sơ trình thành lập các đoàn đi công tác, học tập ở nước ngoài thuộc thẩm quyền của Chủ tịch Hội đồng thành viên là:",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, đơn vị đầu mối tiếp nhận, xử lý hồ sơ trình thành lập các đoàn đi công tác, học tập ở nước ngoài thuộc thẩm quyền của Chủ tịch Hội đồng thành viên là:",
       "options": [
         "Trường Đào tạo cán bộ",
         "Ban Tổ chức nhân sự",
@@ -1465,18 +1223,18 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS  ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, trách nhiệm của người quản lý, người lao động Agribank được cử đi công tác, học tập tại nước ngoài là:",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, trách nhiệm của người quản lý, người lao động Agribank được cử đi công tác, học tập tại nước ngoài là:",
       "options": [
         "Phải tuân thủ các quy định nội bộ của Agribank, pháp luật Việt Nam và nước sở tại",
         "Phải trở về cơ quan đúng thời hạn",
-        "Nếu tự ý ở lại hoặc không về nước sẽ bị xem xét, xử lý kỷ luật theo quy định của Pháp luật và Agribank",
+        "Nếu tự ý ở lại hoặc không về nước sẽ bị xem xét, xử lý kỷ luật theo quy định của pháp luật và Agribank",
         "Tất cả các đáp án trên"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS  ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, Giám đốc các Chi nhánh giáp biên và Giám đốc Chi nhánh Campuchia được quyết định việc đi công tác, học tập dưới bao nhiêu ngày ở các nước giáp biên đối với người lao động thuộc định biên của Chi nhánh?",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, Giám đốc các Chi nhánh giáp biên và Giám đốc Chi nhánh Campuchia được quyết định việc đi công tác, học tập dưới bao nhiêu ngày ở các nước giáp biên đối với người lao động thuộc định biên của Chi nhánh?",
       "options": [
         "04 ngày",
         "05 ngày",
@@ -1487,7 +1245,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS  ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, cấp nào có thẩm quyền cử cán bộ đi nước ngoài công tác, học tập dài hạn (trên 90 ngày)?",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, cấp nào có thẩm quyền cử cán bộ đi nước ngoài công tác, học tập dài hạn (trên 90 ngày)?",
       "options": [
         "Hội đồng thành viên",
         "Chủ tịch Hội đồng thành viên",
@@ -1498,7 +1256,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS  ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, KHÔNG cử người lao động ra nước ngoài công tác, học tập đối với trường hợp nào sau đây?",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, KHÔNG cử người lao động ra nước ngoài công tác, học tập đối với trường hợp nào sau đây?",
       "options": [
         "Người lao động đang bị Agribank xem xét kỷ luật, trong thời hạn kỷ luật",
         "Người lao động thuộc đối tượng pháp luật Việt Nam cấm ra nước ngoài",
@@ -1613,7 +1371,7 @@
         "Có hành vi bao che, thông đồng, không ngăn chặn, không tố giác, biết mà không báo cáo kịp thời đối với người có thẩm quyền những vi phạm của người khác",
         "Truy cập, thay đổi, giả mạo, sao chép, tiết lộ, gửi, hủy trái phép hồ sơ, tài liệu lưu trữ điện tử",
         "Tạo ra hoặc phát tán chương trình phần mềm làm rối loạn, thay đổi phá hoại hoặc có hành vi khác nhằm phá hoại hệ thống quản lý hồ sơ, tài liệu lưu trữ điện tử",
-        "Đáp án 2, 3 đều đúng"
+        "Đáp án 2, 3 đều đúng."
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1641,7 +1399,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế Quản lý lao động trong hệ thống Agribank, nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động xác định thời hạn hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết  trở thành loại hợp đồng có hình thức nào dưới đây?",
+      "question": "Theo Quy chế Quản lý lao động trong hệ thống Agribank, nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động xác định thời hạn hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết trở thành loại hợp đồng có hình thức nào dưới đây?",
       "options": [
         "Hợp đồng lao động không xác định thời hạn",
         "Hợp đồng lao động có thời hạn 36 tháng",
@@ -1663,50 +1421,6 @@
       "source": "N/A"
     },
     {
-      "question": "Tính tổng tiền lương V1, V2 tháng 03/2025 của ông Y, cán bộ Chi nhánh  thuộc địa bàn vùng II (theo Nghị định số 74/2024/NĐ-CP ngày 30/6/2024 của Chính phủ), biết: ông Y hiện hưởng lương V1 bậc 1/6, hệ số 1,4  và V2 bậc 1/3, hệ số 4,53; Hệ số mức độ hoàn thành công việc là 1,0 và đi làm đủ ngày công; Giá trị 1 hệ số V2 là 1.000.000đ?",
-      "options": [
-        "10.704.000đ",
-        "11.000.000đ",
-        "10.700.000đ",
-        "10.600.000đ"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Tính tổng tiền lương V1, V2 tháng 3/2025 của ông D, cán bộ tín dụng Chi nhánh thuộc địa bàn vùng I (theo Nghị định số 74/2024/NĐ-CP ngày 30/6/2024 của Chính phủ), biết: Ông D hiện hưởng lương V1 bậc 3/6, hệ số 1,74 và V2 bậc 2/3, hệ số 6,1; Hệ số mức độ hoàn thành công việc là 1,0 và đi làm đủ ngày công; Hệ số thu hút là 1,0; Giá trị 1 hệ số V2 là 1.000.000đ?",
-      "options": [
-        "15.300.000đ",
-        "15.200.000đ",
-        "15.600.000đ",
-        "15.730.400đ"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Tính tổng tiền lương V1, V2 tháng 3/2025 của ông T, Giám đốc Chi nhánh loại II hạng 3 thuộc địa bàn vùng III (theo Nghị định số 74/2024/NĐ-CP ngày 30/6/2024  của Chính phủ), biết: Ông T hiện hưởng lương V1 bậc 3/3, hệ số 3,56 và V2 bậc 3/3, hệ số 18,2; Hệ số mức độ hoàn thành công việc là 1,0 và đi làm đủ ngày công; Giá trị 1 hệ số V2 là 1.000.000đ?",
-      "options": [
-        "31.800.000đ",
-        "31.941.600đ",
-        "31.200.000đ",
-        "31.300.000đ"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Tính tổng tiền lương V1, V2 tháng 3/2025 của bà N, cán bộ kế toán Chi nhánh thuộc địa bàn vùng II (theo Nghị định số 74/2024/NĐ-CP ngày 30/6/2024  của Chính phủ), biết: Bà N hiện hưởng lương V1 bậc 1/6, hệ số 1,4 và V2 bậc 1/3, hệ số 4,53; Hệ số mức độ hoàn thành công việc là 0,9 và đi làm 19/21 ngày công; Giá trị 1 hệ số V2 là 1.000.000đ?",
-      "options": [
-        "8.000.000đ",
-        "8.100.000đ",
-        "8.500.000đ",
-        "8.716.114 đ"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
       "question": "Ông X là nhân viên tại Agribank. Tính số tiền ông X phải đóng BHXH bắt buộc trong tháng 3/2025, biết tiền lương đóng BHXH bắt buộc của ông X là 6.944.000đ?",
       "options": [
         "729.120đ",
@@ -1723,7 +1437,7 @@
         "5.000.000đ",
         "10.000.000đ",
         "15.000.000đ",
-        "Ông A không được thanh toán trợ cấp thôi việc"
+        "Ông A không được thanh toán trợ cấp thôi việc."
       ],
       "correctAnswerIndex": 1,
       "source": "N/A"
@@ -1734,7 +1448,7 @@
         "5.000.000đ",
         "10.000.000đ",
         "15.000.000đ",
-        "Ông B không được thanh toán trợ cấp thôi việc"
+        "Ông B không được thanh toán trợ cấp thôi việc."
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1745,7 +1459,7 @@
         "5.000.000đ",
         "10.000.000đ",
         "15.000.000đ",
-        "Ông C không đủ điều kiện để hưởng trợ cấp thôi việc"
+        "Ông C không đủ điều kiện để hưởng trợ cấp thôi việc."
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1756,7 +1470,7 @@
         "2.500.000đ",
         "5.000.000đ",
         "10.000.000đ",
-        "Ông D không đủ điều kiện để hưởng trợ cấp thôi việc"
+        "Ông D không đủ điều kiện để hưởng trợ cấp thôi việc."
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1795,7 +1509,7 @@
       "source": "N/A"
     },
     {
-      "question": "Tính tổng tiền lương V1, V2 tháng 12/2024 của bà N, cán bộ kế toán Chi nhánh thuộc địa bàn vùng I (theo Nghị định số 74/2024/NĐ-CP ngày 30/6/2024  của Chính phủ), biết: Bà N hiện hưởng lương V1 bậc 1/6, hệ số 1,4 và V2 bậc 1/3, hệ số 4,53; Hệ số mức độ hoàn thành công việc là 1 và đi làm 19/22 ngày công; Giá trị 1 hệ số V2 là 1.000.000đ?",
+      "question": "Tính tổng tiền lương V1, V2 tháng 12/2024 của bà N, cán bộ kế toán Chi nhánh thuộc địa bàn vùng I (theo Nghị định số 74/2024/NĐ-CP ngày 30/6/2024 của Chính phủ), biết: Bà N hiện hưởng lương V1 bậc 1/6, hệ số 1,4 và V2 bậc 1/3, hệ số 4,53; Hệ số mức độ hoàn thành công việc là 1 và đi làm 19/22 ngày công; Giá trị 1 hệ số V2 là 1.000.000đ?",
       "options": [
         "9.960.000đ",
         "9.860.000đ",
@@ -1821,7 +1535,7 @@
       "options": [
         "Có lập trường, tư tưởng chính trị vững vàng, phẩm chất đạo đức tốt, có năng lực và triển vọng phát triển",
         "Được quy hoạch ở vị trí lãnh đạo, quản lý cao hơn; đáp ứng điều kiện về độ tuổi luân chuyển theo quy định của Agribank",
-        "Có trình độ chuyên môn phù hợp, đáp ứng được yêu cầu nhiệm vụ của vị trí luân chuyển; cơ bản đáp ứng tiêu chuẩn, điều kiện cụ thể của chức vụ luân chuyển đến theo quy định",
+        "Có trình độ chuyên môn phù hợp, đáp ứng được yêu cầu nhiệm vụ của vị trí luân chuyển; cơ bản đáp ứng tiêu chuẩn, điều kiện cụ thể của chức vụ luân chuyển đến theo quy định.",
         "Tất cả đáp án trên"
       ],
       "correctAnswerIndex": 3,
@@ -1905,72 +1619,6 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy định tại Thông tư 32/2024/TT-NHNN, mạng lưới hoạt động của ngân hàng thương mại bao gồm?",
-      "options": [
-        "Chi nhánh, phòng giao dịch, văn phòng đại diện, đơn vị sự nghiệp ở trong nước",
-        "Chi nhánh, văn phòng đại diện, ngân hàng con ở nước ngoài của ngân hàng thương mại theo quy định của pháp luật",
-        "Tất cả các đáp án trên",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo quy định tại Thông tư 32/2024/TT-NHNN, Chi nhánh là:",
-      "options": [
-        "Đơn vị phụ thuộc ngân hàng thương mại, hạch toán phụ thuộc, có con dấu, có nhiệm vụ thực hiện một hoặc một số chức năng của ngân hàng thương mại theo phân cấp của ngân hàng thương mại và phù hợp với quy định của pháp luật",
-        "Đơn vị phụ thuộc ngân hàng thương mại có nhiệm vụ thực hiện một hoặc một số chức năng của ngân hàng thương mại",
-        "Đơn vị phụ thuộc ngân hàng thương mại có nhiệm vụ thực hiện một hoặc một số chức năng của ngân hàng thương mại theo phân cấp của ngân hàng thương mại",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo quy định tại Thông tư 32/2024/TT-NHNN, Phòng giao dịch là:",
-      "options": [
-        "Loại hình chi nhánh, được quản lý bởi một chi nhánh ở trong nước của ngân hàng thương mại, hạch toán báo số, có con dấu, có địa điểm đặt trụ sở trên địa bàn tỉnh, thành phố trực thuộc Trung ương nơi đặt trụ sở chi nhánh quản lý",
-        "Loại hình chi nhánh, được quản lý bởi một chi nhánh của ngân hàng thương mại",
-        "Loại hình chi nhánh, được quản lý bởi một chi nhánh ở trong nước của ngân hàng thương mại",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo quy định tại Thông tư 32/2024/TT-NHNN, Phòng giao dịch không được thực hiện:",
-      "options": [
-        "Phê duyệt, quyết định cấp tín dụng cho một khách hàng vượt quá hai (02) tỷ đồng Việt Nam hoặc ngoại tệ quy đổi tương đương, trừ trường hợp khoản cấp tín dụng được đảm bảo toàn bộ bằng tiền, thẻ tiết kiệm, giấy tờ có giá do chính ngân hàng thương mại phát hành, trái phiếu chính phủ, tín phiếu kho bạc nhà nước",
-        "Cung cấp dịch vụ thanh toán, chuyển tiền quốc tế",
-        "Tất cả các đáp án trên đều đúng",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo quy định tại Thông tư 32/2024/TT-NHNN, Chi nhánh, phòng giao dịch ở trong nước của ngân hàng thương mại bị xem xét chấm dứt hoạt động khi nào?",
-      "options": [
-        "Có bằng chứng chứng minh hồ sơ đề nghị thành lập chi nhánh, phòng giao dịch, văn phòng đại diện, đơn vị sự nghiệp có thông tin sai sự thật dẫn đến việc đánh giá sai lệch việc đáp ứng điều kiện thành lập chi nhánh, phòng giao dịch, văn phòng đại diện, đơn vị sự nghiệp của ngân hàng thương mại",
-        "Hoạt động không đúng nội dung hoạt động được phép theo quy định của pháp luật",
-        "Tất cả các đáp án trên đều đúng.",
-        ""
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo quy định tại Thông tư 32/2024/TT-NHNN, Chi nhánh ở trong nước của ngân hàng thương mại bị bắt buộc chấm dứt hoạt động trong trường hợp nào?",
-      "options": [
-        "Chi nhánh có chênh lệch thu chi trong 03 năm liên tiếp âm (trừ trường hợp theo quy định của pháp luật)",
-        "Chi nhánh có chênh lệch thu chi trong 10 năm liên tiếp âm",
-        "Chi nhánh có chênh lệch thu chi trong 04 năm liên tiếp âm",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
       "question": "Hội đồng thành viên quyết định công tác nhân sự đối với chức danh chức vụ nào sau đây?",
       "options": [
         "Phó Giám đốc Chi nhánh loại I hạng đặc biệt",
@@ -1987,7 +1635,7 @@
         "Tín dụng, kế toán, kho quỹ",
         "Nhân sự",
         "Mua, bán vật tư, hàng hóa, dịch vụ",
-        "Tất cả các đáp án trên"
+        "Tất cả các đáp án trên."
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -1997,7 +1645,7 @@
       "options": [
         "Phó Giám đốc Chi nhánh loại I hạng 2",
         "Phó Giám đốc Chi nhánh loại II",
-        "Giám đốc Chi nhánh loại II, trừ các trường hợp Tổng Giám đốc ủy quyền cho Giám đốc Chi nhánh loại I",
+        "Giám đốc Chi nhánh loại II, trừ các trường hợp Tổng Giám đốc ủy quyền cho Giám đốc Chi nhánh loại I.",
         ""
       ],
       "correctAnswerIndex": 2,
@@ -2128,7 +1776,7 @@
       "question": "Theo quy định tại Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, chuyển đổi vị trí công tác bao gồm những phương thức nào?",
       "options": [
         "Chuyển đổi nơi làm việc; chuyển đổi phạm vi công việc",
-        "Chuyển đổi vị trí công việc/nghiệp vụ chuyên môn tại đơn vị/bộ phận",
+        "Chuyển đổi vị trí công việc/nghiệp vụ chuyên môn tại đơn vị/bộ phận;",
         "Tất cả các đáp án trên",
         ""
       ],
@@ -2158,12 +1806,12 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế quản lý lao động trong hệ thống Agribank, Giám đốc Chi nhánh loại I thực hiện quyền của người sử dụng lao động trong quyết định các hình thức kỷ luật đối với người lao động vi phạm kỷ luật thuộc quyền quản lý KHÔNG bao gồm chức danh nào sau đây?",
+      "question": "Theo Quy định số 26/Qy Đ-HĐTV-TCNS ngày 27/01/2026, công thức tính trợ cấp chung khi nghỉ hưu, số tiền trợ cấp chung = M x K1 x N1/T, trong đó:",
       "options": [
-        "Phó Giám đốc Chi nhánh loại I",
-        "Nhân viên Phòng kế toán và ngân quỹ",
-        "Nhân viên Phòng kế hoạch và quản lý rủi ro",
-        "Cả đáp án 1 và 2"
+        "Nam T =384 tháng, Nữ T = 360 tháng",
+        "Nam T =400 tháng, Nữ T = 360 tháng",
+        "Nam T =380 tháng, Nữ T = 360 tháng",
+        "Nam T =390 tháng, Nữ T = 360 tháng"
       ],
       "correctAnswerIndex": 0,
       "source": "N/A"
@@ -2180,29 +1828,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Tổ phó Phòng giao dịch thuộc Chi nhánh loại I có thời gian công tác liên tục từ tháng 3/1988 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 13.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "3.250.000đ",
-        "5.200.000đ",
-        "52.000.000đ",
-        "55.000.000đ"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản 1519/HĐQT-LĐTL ngày 11/12/2008, Tổ phó Phòng giao dịch thuộc Chi nhánh loại II có thời gian công tác liên tục từ tháng 12/1987 đến nay, khi nghỉ hưu được nhận mức hỗ trợ chung là bao nhiêu? (biết mức trợ cấp M = 13.000.000đ, hệ số điều chỉnh K = 4)",
-      "options": [
-        "3.250.000đ",
-        "5.200.000đ",
-        "52.000.000đ",
-        "Nhiều hơn 60.000.000đ"
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Theo Văn bản số 8386/NHNo-TCTL ngày 27/9/2021, người thử việc được hưởng tối thiểu bao nhiêu% so với mức lương khởi điểm áp dụng đối với công việc đảm nhiệm?",
+      "question": "Theo Văn bản số 8386/NHNo-TCTL ngày 27/9/2021, người thử việc được hưởng tối thiểu bao nhiêu % so với mức lương khởi điểm áp dụng đối với công việc đảm nhiệm?",
       "options": [
         "0.75",
         "0.85",
@@ -2224,7 +1850,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo quy chế quản lý lao động trong hệ thống Agribank, cấp có thẩm quyền quyết định xếp loại lao động đối với chức danh Trưởng phòng Khách hàng doanh nghiệp tại Chi nhánh loại I là:",
+      "question": "Theo Quy chế quản lý lao động trong hệ thống Agribank, cấp có thẩm quyền quyết định xếp loại lao động đối với chức danh Trưởng phòng Khách hàng doanh nghiệp tại Chi nhánh loại I là:",
       "options": [
         "Chủ tịch Hội đồng thành viên",
         "Tổng Giám đốc",
@@ -2257,7 +1883,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế quản lý lao động trong hệ thống Agribank, cấp có thẩm quyền quyết định xếp loại lao động đối với chức danh Giám đốc Chi nhánh loại II  hạng 2?",
+      "question": "Theo Quy chế quản lý lao động trong hệ thống Agribank, cấp có thẩm quyền quyết định xếp loại lao động đối với chức danh Giám đốc Chi nhánh loại II hạng 2?",
       "options": [
         "Hội đồng thành viên",
         "Chủ tịch Hội đồng thành viên",
@@ -2270,10 +1896,10 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, phiếu giới thiệu quy hoạch hợp lệ là:",
       "options": [
-        "Phiếu đánh dấu (X) vào cả hai ô “Đồng ý” và “Không đồng ý” đối với một nhân sự nguồn giới thiệu quy hoạch",
-        "Phiếu đánh dấu (X) vào vị trí không xác định được ý kiến đồng ý hay không đồng ý đối với một nhân sự nguồn giới thiệu quy hoạch (tính phiếu không hợp lệ đối với nhân sự tương ứng)",
-        "Phiếu không do ban tổ chức phát ra",
-        "Là phiếu do ban tổ chức phát ra, được đánh dấu (X) vào 1 trong 2 ô “Đồng ý” hoặc “Không đồng ý” hoặc là phiếu trắng (phiếu không đánh dấu cả hai ô “Đồng ý” và “Không đồng ý”) đối với một nhân sự nguồn giới thiệu quy hoạch (tính phiếu hợp lệ đối với nhân sự tương ứng)"
+        "Phiếu đánh dấu (X) vào cả hai ô “Đồng ý” và “Không đồng ý” đối với một nhân sự nguồn giới thiệu quy hoạch;",
+        "Phiếu đánh dấu (X) vào vị trí không xác định được ý kiến đồng ý hay không đồng ý đối với một nhân sự nguồn giới thiệu quy hoạch (tính phiếu không hợp lệ đối với nhân sự tương ứng).",
+        "Phiếu không do ban tổ chức phát ra.",
+        "là phiếu do ban tổ chức phát ra, được đánh dấu (X) vào 1 trong 2 ô “Đồng ý” hoặc “Không đồng ý” hoặc là phiếu trắng (phiếu không đánh dấu cả hai ô “Đồng ý” và “Không đồng ý”) đối với một nhân sự nguồn giới thiệu quy hoạch (tính phiếu hợp lệ đối với nhân sự tương ứng)"
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -2281,10 +1907,10 @@
     {
       "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, phiếu giới thiệu quy hoạch không hợp lệ là:",
       "options": [
-        "Phiếu trắng (phiếu không đánh dấu cả hai ô “Đồng ý” và “Không đồng ý”)",
+        "là phiếu trắng (phiếu không đánh dấu cả hai ô “Đồng ý” và “Không đồng ý”)",
         "Phiếu do ban tổ chức phát ra",
-        "Phiếu đánh dấu (X) vào 1 trong 2 ô \"Đồng ý\" hoặc \"Không đồng ý\"",
-        "- Phiếu đánh dấu (X) vào cả hai ô “Đồng ý” và “Không đồng ý” đối với một nhân sự nguồn giới thiệu quy hoạch; hoặc đánh dấu (X) vào vị trí không xác định được ý kiến đồng ý hay không đồng ý đối với một nhân sự nguồn giới thiệu quy hoạch (tính phiếu không hợp lệ đối với nhân sự tương ứng)"
+        "Phiếu đánh dấu (X) vào 1 trong 2 ô \"Đồng ý\" hoặc \"Không đồng ý\".",
+        "- Phiếu đánh dấu (X) vào cả hai ô “Đồng ý” và “Không đồng ý” đối với một nhân sự nguồn giới thiệu quy hoạch; hoặc đánh dấu (X) vào vị trí không xác định được ý kiến đồng ý hay không đồng ý đối với một nhân sự nguồn giới thiệu quy hoạch (tính phiếu không hợp lệ đối với nhân sự tương ứng)."
       ],
       "correctAnswerIndex": 3,
       "source": "N/A"
@@ -2301,7 +1927,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, thời điểm có thể bắt đầu thực hiện quy trình bổ nhiệm vào chức danh quy hoạch đối với nhân sự được phê duyệt quy hoạch ngày 01/09/2025 kể từ ngày:",
+      "question": "Theo Quy chế số 269/QC-HĐTV-UBNS ngày 28/4/2023 của Hội đồng thành viên, thời điểm có thể bắt đầu thực hiện quy trình bổ nhiệm vào chức danh quy hoạch đối với nhân sự được phê duyệt quy hoạch ngày 01/09/2025 kể từ ngày?",
       "options": [
         "01/9/2025",
         "01/10/2025",
@@ -2334,7 +1960,7 @@
       "source": "N/A"
     },
     {
-      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS  ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, cấp có thẩm quyền quyết định thành lập các đoàn đi nước ngoài do Giám đốc Chi nhánh loại I làm Trưởng đoàn là:",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, cấp có thẩm quyền quyết định thành lập các đoàn đi nước ngoài do Giám đốc Chi nhánh loại I làm Trưởng đoàn là:",
       "options": [
         "Chủ tịch Hội đồng thành viên",
         "Tổng Giám đốc",
@@ -2356,7 +1982,7 @@
       "source": "N/A"
     },
     {
-      "question": "Tính tổng tiền lương V1, V2 tháng 12/2024 của bà N, cán bộ kế toán Chi nhánh thuộc địa bàn vùng III (theo Nghị định số 74/2024/NĐ-CP ngày 30/6/2024  của Chính phủ), biết: Bà N hiện hưởng lương V1 bậc 1/6, hệ số 1,4 và lương V2 bậc 1/3, hệ số 4,53; Hệ số mức độ hoàn thành công việc là 1 và đi làm 20/22 ngày công; Giá trị 1 hệ số V2 là 1.000.000đ?",
+      "question": "Tính tổng tiền lương V1, V2 tháng 12/2024 của bà N, cán bộ kế toán Chi nhánh thuộc địa bàn vùng III (theo Nghị định số 74/2024/NĐ-CP ngày 30/6/2024 của Chính phủ), biết: Bà N hiện hưởng lương V1 bậc 1/6, hệ số 1,4 và lương V2 bậc 1/3, hệ số 4,53; Hệ số mức độ hoàn thành công việc là 1 và đi làm 20/22 ngày công; Giá trị 1 hệ số V2 là 1.000.000đ?",
       "options": [
         "9.030.909đ",
         "9.060.000đ",
@@ -2587,58 +2213,432 @@
       "source": "N/A"
     },
     {
-      "question": "Mức hỗ trợ đối với trường hợp chấm dứt hợp đồng lao động do người lao động chết theo Văn bản số 1519/HĐQT-LĐTL ngày 11/12/2008 là:",
+      "question": "Theo Quy chế số 414/QĐ-HĐTV-UBNS ngày 31/5/2019 của Hội đồng thành viên về Người quản lý, người lao động Agribank đi công tác, học tập tại nước ngoài, cấp có thẩm quyền phê duyệt việc đi công tác, học tập ngắn hạn tại nước ngoài đối với Giám đốc Chi nhánh loại I là:",
       "options": [
-        "01 tháng lương V1 cho mỗi năm công tác tại Agribank tính đến thời điểm chấm dứt hợp đồng lao động",
-        "02 tháng lương V1 cho mỗi năm công tác tại Agribank tính đến thời điểm chấm dứt hợp đồng lao động",
-        "03 tháng lương V1 cho mỗi năm công tác tại Agribank tính đến thời điểm chấm dứt hợp đồng lao động",
-        "Không có chế độ hỗ trợ với trường hợp này"
+        "Chủ tịch Hội đồng thành viên",
+        "Tổng Giám đốc",
+        "Chủ nhiệm Ủy ban Nhân sự",
+        "Giám đốc Chi nhánh loại I"
       ],
       "correctAnswerIndex": 0,
       "source": "N/A"
     },
     {
-      "question": "Theo Văn bản số 1519/HĐQT-LĐTL ngày 11/12/2008, người lao động đủ điều kiện nghỉ hưu trước tuổi có thể nhận thêm hỗ trợ nào khác của Agribank ngoài mức hỗ trợ chung theo quy định về chế độ đối với cán bộ Agribank nghỉ hưu, chấm dứt hợp đồng lao động không?",
+      "question": "Phòng Kiểm tra, giám sát nội bộ khu vực Thành phố Hồ Chí Minh thuộc cơ cấu tổ chức của đơn vị nào?",
       "options": [
-        "Chỉ có mức hỗ trợ chung giống với các trường hợp nghỉ hưu đủ tuổi",
-        "Hỗ trợ thêm mỗi năm nghỉ trước tuổi (tối đa 10 năm) 01 tháng lương V1 tại thời điểm nghỉ hưu",
-        "Hỗ trợ thêm mỗi năm nghỉ trước tuổi (tối đa 10 năm) 02 tháng lương V1 tại thời điểm nghỉ hưu",
-        "Hỗ trợ thêm mỗi năm nghỉ trước tuổi (tối đa 10 năm) 03 tháng lương V1 tại thời điểm nghỉ hưu"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Ông A bị suy giảm khả năng lao động 70% nên đã chấm dứt hợp đồng lao động tại Agribank và hưởng trợ cấp BHXH một lần. Vậy ông A có đủ điều kiện hưởng chế độ hỗ trợ của Agribank về chấm dứt hợp đồng lao động theo Văn bản số 1519/HĐQT-LĐTL ngày 11/12/2008 không?",
-      "options": [
-        "Hoàn toàn đủ điều kiện",
-        "Đủ điều kiện nếu ông A có thời gian đóng BHXH dưới 20 năm",
-        "Đủ điều kiện nếu ông A có thời gian đóng BHXH từ đủ 20 năm trở lên",
-        "Không đủ điều kiện do tỉ lệ suy giảm khả năng lao động của ông A chưa đủ 81%"
+        "Ban Kiểm soát",
+        "Ban Kiểm tra, giám sát nội bộ",
+        "Văn phòng Đại diện khu vực miền Nam",
+        ""
       ],
       "correctAnswerIndex": 1,
       "source": "N/A"
     },
     {
-      "question": "Ông B (48 tuổi) chấm dứt hợp đồng lao động tại Agribank để bảo lưu thời gian đóng BHXH. Ông B cần có các điều kiện gì để được hưởng chế độ hỗ trợ của Agribank khi chấm dứt hợp đồng lao động (theo Văn bản số 1519/HĐQT-LĐTL ngày 11/12/2008)?",
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, cơ cấu các phòng nghiệp vụ tại Chi nhánh loại I hạng 1, hạng 2 bao gồm:",
       "options": [
-        "Đủ 20 năm đóng BHXH trở lên",
-        "Bị suy giảm khả năng lao động từ 61% trở lên",
-        "Tất cả các đáp án trên",
+        "a) Phòng Khách hàng Doanh nghiệp.\r\nb) Phòng Khách hàng Cá nhân.\r\nc) Phòng Kế hoạch và Quản lý rủi ro.\r\nd) Phòng Kế toán và Ngân quỹ.\r\nđ) Phòng Kiểm tra, giám sát nội bộ.\r\ne) Phòng Tổng hợp.",
+        "a) Phòng Kế hoạch Nguồn vốn.\r\nb) Phòng Kế toán và Ngân quỹ.\r\nc) Phòng Kiểm tra, giám sát nội bộ.\r\nd) Phòng Tổng hợp.",
+        "a) Phòng Khách hàng Cá nhân.\r\nb) Phòng Kế hoạch Nguồn vốn.\r\nc) Phòng Kế toán và Ngân quỹ.\r\nd) Phòng Điện toán.",
+        "a) Phòng Khách hàng.\r\nb) Phòng Dịch vụ và Marketing.\r\nc) Phòng Kế toán và Ngân quỹ.\r\nd) Phòng Kiểm tra, kiểm soát nội bộ.\r\nđ) Phòng Tổng hợp."
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, trường hợp nào Giám đốc Chi nhánh loại I quyết định bổ sung tối đa 01 Phó Giám đốc Phòng giao dịch?",
+      "options": [
+        "Phòng giao dịch có đủ cơ cấu Tổ trưởng và có tài chính tốt, đảm bảo đủ lương cho người lao động",
+        "Phòng giao dịch có từ 7 lao động trở lên và có kho tiền đảm bảo theo quy định của NHNN",
+        "Phòng giao dịch duy trì 9 lao động",
+        "Do HĐTV quyết định"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, đối với Phòng giao dịch có kho tiền đủ tiêu chuẩn theo quy định của NHNN, Giám đốc Chi nhánh quản lý Phòng giao dịch được thành lập Tổ Kế toán và Ngân quỹ trong trường hợp:",
+      "options": [
+        "Duy trì từ 05 lao động thực tế trong định biên trở lên",
+        "Duy trì từ 07 lao động thực tế trong định biên trở lên",
+        "Duy trì từ 09 lao động thực tế trong định biên trở lên,",
+        "Duy trì từ 11 lao động thực tế trong định biên trở lên,"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, tỷ lệ lãnh đạo phòng không vượt quá bao nhiêu phần trăm tổng số lao động thực tế trong phòng nghiệp vụ?",
+      "options": [
+        "0.5",
+        "0.1",
+        "0.3",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, Chi nhánh loại I hạng 1 có tối đa bao nhiêu Phó Giám đốc (Bao gồm cả Phó Giám đốc phụ trách điều hành)?",
+      "options": [
+        "Do HĐTV quyết định",
+        "Tối đa 04 Phó Giám đốc",
+        "03",
+        "02"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, đối tượng áp dụng Quy chế tổ chức và hoạt động của Chi nhánh, Phòng giao dịch bao gồm: (Chọn đáp án đúng nhất)",
+      "options": [
+        "Áp dụng đối với các đơn vị, cá nhân thuộc Agribank",
+        "Áp dụng đối với Chi nhánh Agribank tại nước ngoài",
+        "Áp dụng đối với các cá nhân thuộc Agribank",
+        "Áp dụng đối với các đơn vị, cá nhân thuộc Agribank (không bao gồm Chi nhánh Agribank tại nước ngoài)"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, Chi nhánh loại II là:",
+      "options": [
+        "Chi nhánh chịu sự quản lý, điều hành của Chi nhánh loại I trong một số lĩnh vực vụ thể do HĐTV quyết định",
+        "Chi nhánh thuộc sự quản lý, điều hành của Agribank và chịu sự quản lý, điều hành của Chi nhánh loại I theo phân cấp của Agribank",
+        "Chi nhánh hạch toán báo sổ; có nhiệm vụ thực hiện một hoặc một số chức năng của Agribank theo quy định của pháp luật, NHNN, theo phân cấp, ủy quyền của Agribank",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, Chi nhánh loại I hạng 2 có tối đa bao nhiêu Phó Giám đốc (Bao gồm cả Phó Giám đốc phụ trách điều hành)?",
+      "options": [
+        "Do HĐTV quyết định",
+        "04",
+        "Tối đa 03 Phó Giám đốc",
+        "02"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, việc thay đổi địa điểm, địa chỉ (không phát sinh thay đổi địa điểm) đặt trụ sở Chi nhánh, Phòng giao dịch trong phạm vi địa bàn tỉnh, thành phố trực thuộc Trung ương thuộc thẩm quyền xem xét quyết định của ai?",
+      "options": [
+        "Hội đồng thành viên",
+        "Tổng Giám đốc",
+        "Người đại diện theo pháp luật",
         ""
       ],
       "correctAnswerIndex": 2,
       "source": "N/A"
     },
     {
-      "question": "Ông C (56 tuổi) chấm dứt hợp đồng lao động tại Agribank để bảo lưu thời gian đóng BHXH. Ông C cần có các điều kiện gì để được hưởng chế độ hỗ trợ của Agribank khi chấm dứt hợp đồng lao động (theo Văn bản số 1519/HĐQT-LĐTL ngày 11/12/2008)?",
+      "question": "Theo Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, quy trình luân chuyển đối với nhân sự thuộc thẩm quyền Chủ tịch HĐTV, Tổng Giám đốc; trường hợp nhân sự luân chuyển tại Chi nhánh loại I, loại II trong cùng một Chi nhánh loại I, cấp nào thực hiện việc trao đổi, lấy ý kiến và gặp gỡ nhân sự?",
       "options": [
-        "Đủ 20 năm đóng BHXH trở lên",
-        "Bị suy giảm khả năng lao động từ 61% trở lên",
-        "Tất cả các đáp án trên",
+        "Chi nhánh loại I",
+        "Bộ phận tham mưu tại Chi nhánh loại II",
+        "Đại diện Ban lãnh đạo Chi nhánh loại II",
+        "Chi nhánh loại II"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, trong quy trình bố trí công tác đối với nhân sự sau luân chuyển, chậm nhất mấy tháng trước khi đến ngày hết thời hạn luân chuyển, nhân sự làm bản tự nhận xét đánh giá kết quả việc thực hiện nhiệm vụ trong thời gian luân chuyển?",
+      "options": [
+        "3 tháng",
+        "2 tháng",
+        "1 tháng",
+        "6 tháng"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, các hình thức luân chuyển bao gồm: (chọn đáp án đầy đủ nhất)",
+      "options": [
+        "Điều động",
+        "Bổ nhiệm",
+        "Cử người đại diện vốn",
+        "Tất cả các đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 389/QC-HĐTV-UBNS ngày 15/5/2024 của Hội đồng thành viên, điều kiện về độ tuổi của nhân sự điều động để đào tạo, bồi dưỡng kinh nghiệm thực tiễn tại cơ sở là:",
+      "options": [
+        "Có thời gian công tác còn lại đến khi nghỉ hưu ít nhất 05 năm tính từ thời điểm điều động để đào tạo, bồi dưỡng kinh nghiệm thực tiễn tại cơ sở",
+        "Có thời gian công tác còn lại đến khi nghỉ hưu ít nhất 03 năm tính từ thời điểm điều động để đào tạo, bồi dưỡng kinh nghiệm thực tiễn tại cơ sở",
+        "Có thời gian công tác còn lại đến khi nghỉ hưu ít nhất 01 năm tính từ thời điểm điều động để đào tạo, bồi dưỡng kinh nghiệm thực tiễn tại cơ sở",
+        "Có thời gian công tác còn lại đến khi nghỉ hưu ít nhất 02 năm tính từ thời điểm điều động để đào tạo, bồi dưỡng kinh nghiệm thực tiễn tại cơ sở"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Quy chế số 969/QC-HĐTV-TĐKT ngày 19/8/2024 của Hội đồng thành viên về thi đua, khen thưởng của Agribank có hiệu lực từ ngày nào?",
+      "options": [
+        "19/8/2024",
+        "20/8/2024",
+        "21/8/2024",
+        "22/8/2024"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Đối tượng áp dụng tại Quy chế số 969 là:",
+      "options": [
+        "Cá nhân và tập thể trong hệ thống Agribank",
+        "Cá nhân và tập thể ngoài hệ thống Agribank",
+        "Cá nhân và tập thể trong hệ thống Agribank; cá nhân và tập thể ngoài hệ thống Agribank có đóng góp cho hoạt động của Agribank",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, những tập thể nào sau đây được coi là Tập thể cơ sở?",
+      "options": [
+        "Các đơn vị tại Trụ sở chính",
+        "Chi nhánh loại I",
+        "Chi nhánh loại II",
+        "Đáp án 1 và 2 đều đúng"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, cá nhân được xét khen thưởng phải đáp ứng tiêu chuẩn chung nào sau đây?",
+      "options": [
+        "Gương mẫu, chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, quy định, quy chế của ngành Ngân hàng, Agribank và đơn vị",
+        "Có phát minh, sáng chế được ứng dụng mang lại hiệu quả cao, có phạm vi ảnh hưởng và nêu gương ở một trong các lĩnh vực thuộc phạm vi quản lý của ngành Ngân hàng",
+        "Có nhiều đóng góp vào sự phát triển kinh tế - xã hội của đất nước, bảo đảm an sinh xã hội, từ thiện nhân đạo, ứng dụng tiến bộ khoa học, kỹ thuật",
         ""
       ],
       "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, tập thể được xét khen thưởng phải đáp ứng tiêu chuẩn chung nào sau đây?",
+      "options": [
+        "Nội bộ đoàn kết, chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, quy định, quy chế của ngành Ngân hàng, Agribank và đơn vị",
+        "Có thành tích xuất sắc trong phục vụ nhiệm vụ chính trị của Đảng, Nhà nước",
+        "Có đóng góp vào sự phát triển kinh tế - xã hội, quốc phòng, an ninh của đất nước, ứng dụng tiến bộ khoa học, kỹ thuật, công tác xã hội, từ thiện nhân đạo",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, hình thức tổ chức thi đua thường xuyên trong hệ thống Agribank là:",
+      "options": [
+        "Hình thức thi đua căn cứ vào chức năng, nhiệm vụ được giao của cá nhân, tập thể để tổ chức phát động, nhằm thực hiện tốt công việc hằng ngày, hằng tháng, hằng quý, hằng năm của đơn vị và Agribank",
+        "Hình thức thi đua nhằm thực hiện tốt nhiệm vụ trọng tâm hoặc một lĩnh vực cần tập trung (tăng trưởng tín dụng, huy động vốn, …) được xác định trong khoảng thời gian nhất định để phấn đấu hoàn thành nhiệm vụ trọng tâm, cấp bách của đơn vị và Agribank",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, hình thức tổ chức thi đua theo chuyên đề trong hệ thống Agribank là:",
+      "options": [
+        "Hình thức thi đua căn cứ vào chức năng, nhiệm vụ được giao của cá nhân, tập thể để tổ chức phát động, nhằm thực hiện tốt công việc hằng ngày, hằng tháng, hằng quý, hằng năm của đơn vị và Agribank",
+        "Hình thức thi đua nhằm thực hiện tốt nhiệm vụ trọng tâm hoặc một lĩnh vực cần tập trung (tăng trưởng tín dụng, huy động vốn, …) được xác định trong khoảng thời gian nhất định để phấn đấu hoàn thành nhiệm vụ trọng tâm, cấp bách của đơn vị và Agribank",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, thẩm quyền phát động các phong trào thi đua có thời gian thực hiện từ 03 năm trở lên trong toàn hệ thống Agribank?",
+      "options": [
+        "Tổng Giám đốc",
+        "Thủ trưởng đơn vị - Chủ tịch Hội đồng thi đua, khen thưởng cơ sở",
+        "Chủ tịch Hội đồng thành viên - Chủ tịch Hội đồng thi đua, khen thưởng Agribank",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, thẩm quyền phát động các phong trào thi đua có thời gian thực hiện dưới 03 năm trong toàn hệ thống Agribank?",
+      "options": [
+        "Tổng Giám đốc",
+        "Chủ tịch Hội đồng thành viên - Chủ tịch Hội đồng thi đua, khen thưởng Agribank",
+        "Thủ trưởng đơn vị - Chủ tịch Hội đồng thi đua, khen thưởng cơ sở",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, thẩm quyền phát động các phong trào thi đua hoàn thành xuất sắc nhiệm vụ, kế hoạch kinh doanh hằng năm trong toàn hệ thống Agribank?",
+      "options": [
+        "Chủ tịch Hội đồng thành viên - Chủ tịch Hội đồng thi đua, khen thưởng Agribank",
+        "Tổng Giám đốc",
+        "Thủ trưởng đơn vị - Chủ tịch Hội đồng thi đua, khen thưởng cơ sở",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, thẩm quyền phát động các phong trào thi đua theo chuyên đề trong toàn hệ thống Agribank?",
+      "options": [
+        "Chủ tịch Hội đồng thành viên - Chủ tịch Hội đồng thi đua, khen thưởng Agribank",
+        "Tổng Giám đốc",
+        "Thủ trưởng đơn vị - Chủ tịch Hội đồng thi đua, khen thưởng cơ sở",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, thẩm quyền phát động các phong trào thi đua trong đơn vị?",
+      "options": [
+        "Chủ tịch Hội đồng thành viên - Chủ tịch Hội đồng thi đua, khen thưởng Agribank",
+        "Tổng Giám đốc",
+        "Thủ trưởng đơn vị - Chủ tịch Hội đồng thi đua, khen thưởng cơ sở",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, danh hiệu, giải thưởng nào sau đây là của Agribank?",
+      "options": [
+        "Đơn vị hoàn thành xuất sắc, hoàn thành tốt, hoàn thành nhiệm vụ, kế hoạch kinh doanh",
+        "Chi nhánh loại II xuất sắc; Phòng giao dịch xuất sắc",
+        "Tất cả các đáp án trên đều đúng",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, \"Bức trướng của Agribank\" để tặng cho các tập thể cơ sở vào dịp đơn vị tổ chức lễ kỷ niệm ngày thành lập, ngày truyền thống (vào năm tròn theo quy định) và đạt các tiêu chuẩn nào sau đây?",
+      "options": [
+        "Chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, nội bộ đoàn kết",
+        "Hai năm liền kề trước đó được xếp loại hoàn thành tốt nhiệm vụ trở lên",
+        "Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả",
+        "Tất cả các đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, Bức trướng của Agribank để tặng vào những dịp nào?",
+      "options": [
+        "Vào dịp đơn vị là tập thể cơ sở tổ chức lễ kỷ niệm ngày thành lập, ngày truyền thống (vào năm tròn theo quy định)",
+        "Vào dịp Công đoàn Agribank, Đoàn thanh niên Agribank, tập thể phụ nữ Agribank tổ chức các sự kiện quan trọng",
+        "Cả hai đáp án trên",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, Bức trướng của Agribank để tặng cho tập thể cơ sở chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, nội bộ đoàn kết vào dịp đơn vị tổ chức lễ kỷ niệm ngày thành lập, ngày truyền thống (vào năm tròn theo quy định) và đạt các tiêu chuẩn nào sau đây:",
+      "options": [
+        "a) Hai năm liền kề trước đó được xếp loại hoàn thành nhiệm vụ trở lên;\r\nb) Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả.",
+        "a) Hai năm liền kề trước đó được xếp loại hoàn thành tốt nhiệm vụ trở lên;\r\nb) Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả.",
+        "a) Hai năm liền kề trước đó được xếp loại hoàn thành xuất sắc nhiệm vụ trở lên;\r\nb) Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả.",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, thẩm quyền quyết định tặng danh hiệu \"Chiến sĩ thi đua cơ sở\" là:",
+      "options": [
+        "Chủ tịch Hội đồng thành viên",
+        "Tổng Giám đốc",
+        "Người đứng đầu các tập thể cơ sở",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, thẩm quyền quyết định tặng danh hiệu “Tập thể lao động xuất sắc”, “Tập thể lao động tiên tiến” cho tập thể lớn và các tập thể cơ sở trong toàn hệ thống Agribank là:",
+      "options": [
+        "Chủ tịch Hội đồng thành viên",
+        "Tổng Giám đốc",
+        "Người đứng đầu các tập thể cơ sở",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, thẩm quyền quyết định tặng danh hiệu “Tập thể lao động xuất sắc”, “Tập thể lao động tiên tiến” cho các tập thể nhỏ là:",
+      "options": [
+        "Chủ tịch Hội đồng thành viên",
+        "Tổng Giám đốc",
+        "Người đứng đầu các tập thể cơ sở",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế số 969, thẩm quyền quyết định tặng Giấy khen cho các đơn vị đạt Giải Hệ thống là:",
+      "options": [
+        "Chủ tịch Hội đồng thành viên",
+        "Tổng Giám đốc",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Khái niệm sau đây là đúng hay sai: \"Bảo hiểm xã hội là sự bảo đảm thay thế hoặc bù đắp một phần thu nhập của người tham gia bảo hiểm xã hội khi họ bị giảm hoặc mất thu nhập do ốm đau, thai sản, tai nạn lao động, bệnh nghề nghiệp, khi nghỉ hưu hoặc chết, trên cơ sở đóng vào quỹ bảo hiểm xã hội hoặc do ngân sách nhà nước bảo đảm.\"",
+      "options": [
+        "Đúng",
+        "Sai",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 0,
+      "source": "N/A"
+    },
+    {
+      "question": "Theo Quy chế Tổ chức và hoạt động của Chi nhánh, Phòng giao dịch số 1589/QC-HĐTV-TCNS ngày 31/12/2024, thông tin về địa chỉ bao gồm (chọn đáp án đúng nhất)",
+      "options": [
+        "Địa chỉ, website",
+        "Địa chỉ, điện thoại, website",
+        "Địa chỉ, điện thoại, fax, email, website",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "source": "N/A"
+    },
+    {
+      "question": "Phòng Kiểm tra, giám sát nội bộ khu vực Thành phố Hà Nội thuộc cơ cấu tổ chức của đơn vị nào?",
+      "options": [
+        "Ban Kiểm soát",
+        "Ban Kiểm tra, giám sát nội bộ",
+        "Tất cả các đáp án trên đều sai",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "source": "N/A"
+    },
+    {
+      "question": "Trụ sở của Văn phòng đại diện khu vực miền Nam đặt tại tỉnh/thành phố nào?",
+      "options": [
+        "Tỉnh Đồng Nai",
+        "Thành phố Cần Thơ",
+        "Tỉnh Tây Ninh",
+        "Thành phố Hồ Chí Minh"
+      ],
+      "correctAnswerIndex": 3,
       "source": "N/A"
     }
   ]
