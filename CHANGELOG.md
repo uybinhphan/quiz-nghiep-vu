@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.7.0...v1.7.1) (2026-03-18)
+
+
+### Bug Fixes
+
+* Cap nhat bai thi ke toan kiem ngan ([#78](https://github.com/uybinhphan/quiz-nghiep-vu/issues/78)) ([6e0f634](https://github.com/uybinhphan/quiz-nghiep-vu/commit/6e0f6341829335443134fffcfefc1773f3053c5d))
+
 ## [1.7.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.6.0...v1.7.0) (2026-03-16)
 
 
