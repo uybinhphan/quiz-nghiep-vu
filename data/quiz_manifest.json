@@ -35,6 +35,16 @@
     "size": 117535
   },
   {
+    "name": "8. Kế toán giao dịch khách hàng",
+    "file": "./data-compressed/8-ke-toan-giao-dich-khach-hang.json",
+    "size": 125751
+  },
+  {
+    "name": "9. Kiểm ngân",
+    "file": "./data-compressed/9-kiem-ngan.json",
+    "size": 103452
+  },
+  {
     "name": "10. Kiểm tra giám sát nội bộ",
     "file": "./data-compressed/10-kiem-tra-giam-sat-noi-bo.json",
     "size": 164156
