@@ -2,91 +2,91 @@
   {
     "name": "1. Tín dụng KHDN",
     "file": "./data-compressed/1-tin-dung-khdn.json",
-    "size": 176957
+    "size": 174565
   },
   {
     "name": "2. Thẩm định",
     "file": "./data-compressed/2-tham-dinh.json",
-    "size": 139410
+    "size": 162203
   },
   {
     "name": "3. Tín dụng KHCN",
     "file": "./data-compressed/3-tin-dung-khcn.json",
-    "size": 134533
+    "size": 157550
   },
   {
     "name": "4. Xử lý nợ",
     "file": "./data-compressed/4-xu-ly-no.json",
-    "size": 139219
+    "size": 157136
   },
   {
     "name": "5. Thanh toán quốc tế và Tài trợ thương mại",
     "file": "./data-compressed/5-thanh-toan-quoc-te-va-tai-tro-thuong-mai.json",
-    "size": 111595
+    "size": 118527
   },
   {
     "name": "6. Kế hoạch và quản lý rủi ro",
     "file": "./data-compressed/6-ke-hoach-va-quan-ly-rui-ro.json",
-    "size": 116850
+    "size": 117379
   },
   {
     "name": "7. Kế toán giao dịch nội bộ",
     "file": "./data-compressed/7-ke-toan-giao-dich-noi-bo.json",
-    "size": 117521
+    "size": 139330
   },
   {
     "name": "8. Kế toán giao dịch khách hàng",
     "file": "./data-compressed/8-ke-toan-giao-dich-khach-hang.json",
-    "size": 125723
+    "size": 147098
   },
   {
     "name": "9. Kiểm ngân",
     "file": "./data-compressed/9-kiem-ngan.json",
-    "size": 103438
+    "size": 124491
   },
   {
     "name": "10. Kiểm tra giám sát nội bộ",
     "file": "./data-compressed/10-kiem-tra-giam-sat-noi-bo.json",
-    "size": 164022
+    "size": 183255
   },
   {
     "name": "11. Công nghệ thông tin",
     "file": "./data-compressed/11-cong-nghe-thong-tin.json",
-    "size": 102081
+    "size": 83348
   },
   {
     "name": "12. Nhân sự - Tiền lương",
     "file": "./data-compressed/12-nhan-su-tien-luong.json",
-    "size": 137852
+    "size": 157499
   },
   {
     "name": "13. Pháp chế",
     "file": "./data-compressed/13-phap-che.json",
-    "size": 113723
+    "size": 128643
   },
   {
     "name": "14. Xây dựng cơ bản, quản trị hành chính",
     "file": "./data-compressed/14-xay-dung-co-ban-quan-tri-hanh-chinh.json",
-    "size": 131736
+    "size": 141044
   },
   {
     "name": "15. Văn thư lễ tân",
     "file": "./data-compressed/15-van-thu-le-tan.json",
-    "size": 113006
+    "size": 119464
   },
   {
     "name": "17.1. Kiến thức chung",
     "file": "./data-compressed/171-kien-thuc-chung.json",
-    "size": 96662
+    "size": 131913
   },
   {
     "name": "17.2. Tiêu chuẩn GDV",
     "file": "./data-compressed/172-tieu-chuan-gdv.json",
-    "size": 5355
+    "size": 5990
   },
   {
     "name": "17.3. Kỹ năng quản lý cấp phòng",
     "file": "./data-compressed/173-ky-nang-quan-ly-cap-phong.json",
-    "size": 20869
+    "size": 26181
   }
 ]
