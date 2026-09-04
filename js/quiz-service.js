@@ -2,7 +2,7 @@ import { MANIFEST_PATH } from './config.js';
 import * as dom from './dom-elements.js';
 import * as ui from './ui-helpers.js';
 import * as state from './state.js';
-import { startQuiz, shuffleArray } from './quiz-core.js'; // shuffleArray will also be in quiz-core for now
+import { startQuiz, shuffleArray, resumeQuizView } from './quiz-core.js'; // shuffleArray will also be in quiz-core for now
 import {
     ensureQuestionCount,
     getQuizId,
@@ -116,11 +116,51 @@ function buildEnrichedQuizItem(quiz) {
     };
 }
 
+function createQuizCardBadge(item) {
+    const badge = document.createElement('div');
+    badge.className = 'quiz-card-badge';
+    const label = document.createElement('span');
+    const attempt = item.lastAttempt;
+
+    const isInProgress = attempt
+        && attempt.status === 'in-progress'
+        && typeof attempt.answeredCount === 'number'
+        && typeof attempt.totalQuestions === 'number'
+        && attempt.totalQuestions > 0;
+
+    const isCompleted = attempt
+        && attempt.status !== 'in-progress'
+        && typeof attempt.lastScore === 'number'
+        && typeof attempt.totalQuestions === 'number'
+        && attempt.totalQuestions > 0;
+
+    if (isInProgress) {
+        const pct = Math.round((attempt.answeredCount / attempt.totalQuestions) * 100);
+        badge.classList.add('in-progress');
+        badge.style.setProperty('--card-pct', pct);
+        label.textContent = `${pct}%`;
+        badge.title = `Đang làm dở: câu ${attempt.currentQuestionIndex + 1}/${attempt.totalQuestions}`;
+    } else if (isCompleted) {
+        const pct = Math.round((attempt.lastScore / attempt.totalQuestions) * 100);
+        badge.style.setProperty('--card-pct', pct);
+        label.textContent = `${pct}%`;
+        badge.title = `Lần gần nhất: ${attempt.lastScore}/${attempt.totalQuestions} (${pct}%)`;
+    } else {
+        badge.classList.add('is-new');
+        label.textContent = 'Mới';
+        badge.title = 'Chưa làm bộ câu hỏi này';
+    }
+    badge.appendChild(label);
+    return badge;
+}
+
 function createQuizCard(item) {
     const card = document.createElement('button');
     card.type = 'button';
     card.className = 'quiz-card';
     card.dataset.quizId = item.id;
+
+    card.appendChild(createQuizCardBadge(item));
 
     const title = document.createElement('div');
     title.className = 'quiz-card-title';
@@ -136,8 +176,11 @@ function createQuizCard(item) {
     meta.appendChild(questionCountSpan);
 
     const attemptSpan = document.createElement('span');
-    if (item.lastAttempt && typeof item.lastAttempt.lastScore === 'number' && typeof item.lastAttempt.totalQuestions === 'number') {
-        attemptSpan.textContent = `Lần gần nhất: ${item.lastAttempt.lastScore}/${item.lastAttempt.totalQuestions}`;
+    const attempt = item.lastAttempt;
+    if (attempt && attempt.status === 'in-progress' && typeof attempt.currentQuestionIndex === 'number' && typeof attempt.totalQuestions === 'number') {
+        attemptSpan.textContent = `Đang làm dở: câu ${attempt.currentQuestionIndex + 1}/${attempt.totalQuestions}`;
+    } else if (attempt && typeof attempt.lastScore === 'number' && typeof attempt.totalQuestions === 'number') {
+        attemptSpan.textContent = `Lần gần nhất: ${attempt.lastScore}/${attempt.totalQuestions}`;
     } else {
         attemptSpan.textContent = 'Chưa làm';
     }
@@ -148,10 +191,42 @@ function createQuizCard(item) {
         if (dom.quizFileSelect) {
             dom.quizFileSelect.value = item.candidatePaths[0] || '';
         }
-        loadQuizFromJson(item.candidatePaths, item.displayName);
+        selectQuiz(item);
     });
 
     return card;
+}
+
+// Resumes the exact saved session when it matches this quiz (same position, answers, score);
+// otherwise falls back to loading the quiz fresh from question 1. Uses peekSavedSession()
+// first so a non-matching quiz never pollutes in-memory state with a stale session.
+function selectQuiz(item) {
+    const peeked = state.peekSavedSession();
+    if (peeked && peeked.view === 'quiz' && peeked.quizId === item.id) {
+        console.log('[Select] Resuming in-progress session for', item.id);
+        state.loadState();
+        resumeQuizView();
+        return;
+    }
+    loadQuizFromJson(item.candidatePaths, item.displayName);
+}
+
+function renderSkeletonCards(count = 6) {
+    if (!dom.quizCardGrid) return;
+    dom.quizCardGrid.innerHTML = '';
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < count; i++) {
+        const card = document.createElement('div');
+        card.className = 'quiz-card skeleton-card';
+        const title = document.createElement('div');
+        title.className = 'skeleton-line skeleton-title';
+        const meta = document.createElement('div');
+        meta.className = 'skeleton-line skeleton-meta';
+        card.appendChild(title);
+        card.appendChild(meta);
+        fragment.appendChild(card);
+    }
+    dom.quizCardGrid.appendChild(fragment);
 }
 
 function renderQuizCards() {
@@ -258,9 +333,12 @@ function updateResumeButton() {
     }
 
     const payload = latestAttempt.payload || {};
-    const scoreLabel = (typeof payload.lastScore === 'number' && typeof payload.totalQuestions === 'number')
-        ? `Lần trước: ${payload.lastScore}/${payload.totalQuestions}`
-        : 'Tiếp tục lần trước';
+    let scoreLabel = 'Tiếp tục lần trước';
+    if (payload.status === 'in-progress' && typeof payload.currentQuestionIndex === 'number' && typeof payload.totalQuestions === 'number') {
+        scoreLabel = `Đang làm dở: câu ${payload.currentQuestionIndex + 1}/${payload.totalQuestions}`;
+    } else if (typeof payload.lastScore === 'number' && typeof payload.totalQuestions === 'number') {
+        scoreLabel = `Lần trước: ${payload.lastScore}/${payload.totalQuestions}`;
+    }
 
     dom.resumeLastBtn.classList.remove('hidden');
     dom.resumeLastBtn.disabled = false;
@@ -270,7 +348,7 @@ function updateResumeButton() {
         if (dom.quizSearchInput) dom.quizSearchInput.value = '';
         searchTerm = '';
         renderQuizCards();
-        loadQuizFromJson(matchingQuiz.candidatePaths, matchingQuiz.displayName);
+        selectQuiz(matchingQuiz);
     };
 }
 
@@ -389,6 +467,7 @@ export function loadQuizManifest() {
     dom.quizFileSelect.disabled = true;
     if (dom.statusMessage) dom.statusMessage.textContent = "";
     if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = true;
+    renderSkeletonCards();
 
     const cachedManifest = sessionStorage.getItem('quizManifest');
     if (cachedManifest) {
@@ -418,11 +497,12 @@ export function loadQuizManifest() {
         })
         .catch(error => {
             console.error("[Manifest Error]", error);
-            ui.showError(`Không tải được danh sách: ${error.message}`);
+            ui.showError(`Không tải được danh sách: ${error.message}`, () => loadQuizManifest());
             if (dom.quizFileSelect) {
                 dom.quizFileSelect.innerHTML = '<option value="">Lỗi tải danh sách</option>';
             }
             if (dom.statusMessage) dom.statusMessage.textContent = "Lỗi.";
+            if (dom.quizCardGrid) dom.quizCardGrid.innerHTML = '';
         });
 }
 
@@ -513,8 +593,10 @@ export function loadQuizFromJson(jsonFilePathOrList, quizDisplayName) {
         })
         .catch(error => {
             console.error("[Fetch Error] for " + validPaths.join(', '), error);
-            ui.showError(`Lỗi tải "${quizDisplayName}": ${error.message}`);
-            ui.showSelectScreenView(); // Go back to select screen on error
+            if (dom.statusMessage) dom.statusMessage.textContent = '';
+            if (dom.quizFileSelect) dom.quizFileSelect.disabled = false;
+            if (dom.shuffleCheckbox) dom.shuffleCheckbox.disabled = false;
+            ui.showError(`Lỗi tải "${quizDisplayName}": ${error.message}`, () => loadQuizFromJson(validPaths, quizDisplayName));
         });
 }
 

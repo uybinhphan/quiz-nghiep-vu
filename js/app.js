@@ -4,20 +4,30 @@ import * as theme from './theme.js';
 import * as ui from './ui-helpers.js';
 import * as quizService from './quiz-service.js';
 import * as quizCore from './quiz-core.js';
+import * as settings from './settings.js';
 import { initSwipeNavigation } from './swipe.js';
 import { registerServiceWorker } from './service-worker-loader.js';
+
+let restoredSessionView = null; // Tracks the view of the session pending in the resume modal
 
 function handleResumeYes() {
     console.log("[Init] User chose YES (Resume).");
     ui.hideResumeModal();
-    restoreSavedSession(); 
+    restoreSavedSession();
 }
 
 function handleResumeNo() {
     console.log("[Init] User chose NO (Start Fresh).");
     ui.hideResumeModal();
-    state.clearState(); 
-    quizCore.updateTimerDisplayAndControls(); 
+    if (restoredSessionView === 'quiz') {
+        // Preserve both the progress record (for the quiz card) and the actual saved
+        // session, so the card's "in progress" status stays genuinely resumable instead
+        // of falsely advertising a resume that would silently restart from question 1.
+        quizCore.recordInProgressAttempt();
+    } else {
+        state.clearState();
+    }
+    quizCore.updateTimerDisplayAndControls();
     ui.showSelectScreenView(true); // true to prevent another state clear
     quizService.loadQuizManifest(); // Load manifest for fresh start
     if (dom.usageDetails && dom.usageDetails.hasAttribute('open')) {
@@ -42,15 +52,14 @@ function restoreSavedSession() {
     const viewToRestore = savedStateData ? savedStateData.view : null;
 
     if (viewToRestore === 'quiz') {
-        ui.showQuizSectionView();
-        if(dom.jumpToInput) dom.jumpToInput.max = (state.quizData && state.quizData.length > 0) ? state.quizData.length : 1;
-        quizCore.displayQuestion(state.currentQuestionIndex);
+        quizCore.resumeQuizView();
     } else if (viewToRestore === 'results') {
         ui.showResultsSectionView();
         // quizCore.showResults() is implicitly called by showResultsSectionView if needed,
         // or rather, showResults updates score and then calls showResultsSectionView.
         // Let's ensure final score is displayed based on loaded state.
         if (dom.finalScoreText) dom.finalScoreText.textContent = `Điểm cuối cùng: ${state.score} / ${state.quizData.length}`;
+        quizCore.updateResultsSummary();
     } else {
          console.warn("[Restore Error] Could not determine view from saved state, starting fresh.");
          handleResumeNo(); 
@@ -64,8 +73,9 @@ function initializeEventListeners() {
     if (dom.shuffleNowBtn) dom.shuffleNowBtn.addEventListener('click', quizCore.handleShuffleNow);
     if (dom.reloadOriginalBtn) dom.reloadOriginalBtn.addEventListener('click', quizCore.handleReloadOriginal);
     if (dom.backToSelectQuizBtn) dom.backToSelectQuizBtn.addEventListener('click', () => {
-        quizCore.clearAutoAdvanceTimer(); 
-        ui.showSelectScreenView(); 
+        quizCore.clearAutoAdvanceTimer();
+        quizCore.recordInProgressAttempt(); // Preserve progress so the quiz card reflects it instead of showing "Mới"
+        ui.showSelectScreenView(true); // true: keep the saved session so this quiz can actually resume later
         quizService.loadQuizManifest();
     });
     if (dom.exitReviewBtn) dom.exitReviewBtn.addEventListener('click', quizCore.exitReviewMode);
@@ -101,6 +111,13 @@ function initializeEventListeners() {
     if (dom.timerIncreaseBtn) dom.timerIncreaseBtn.addEventListener('click', quizCore.increaseTimer);
     if (dom.settingsBtn) dom.settingsBtn.addEventListener('click', ui.toggleSettingsMenu);
     if (dom.themeToggleButton) dom.themeToggleButton.addEventListener('click', theme.toggleTheme);
+    if (dom.fontSizeDecreaseBtn) dom.fontSizeDecreaseBtn.addEventListener('click', settings.decreaseFontSize);
+    if (dom.fontSizeIncreaseBtn) dom.fontSizeIncreaseBtn.addEventListener('click', settings.increaseFontSize);
+    if (dom.soundToggleCheckbox) {
+        dom.soundToggleCheckbox.addEventListener('change', (event) => {
+            settings.setSoundEnabled(event.target.checked);
+        });
+    }
 
     if (dom.resumeBtnYes) dom.resumeBtnYes.addEventListener('click', handleResumeYes);
     if (dom.resumeBtnNo) dom.resumeBtnNo.addEventListener('click', handleResumeNo);
@@ -126,11 +143,14 @@ function initializeEventListeners() {
 document.addEventListener('DOMContentLoaded', () => {
     console.log("[Init] DOM Loaded.");
     theme.applyInitialTheme();
-    
+    settings.applyInitialFontScale();
+    settings.applyInitialSoundToggle();
+
     const restoredStateSessionData = state.loadState(); // This loads data into the state module
     
     if (restoredStateSessionData) {
        console.log("[Init] Restored state found, attempting to resume.");
+       restoredSessionView = restoredStateSessionData.view;
        const resumeQuizName = restoredStateSessionData.quizDisplayName || "bài làm trước";
        const resumeQuestionNum = (restoredStateSessionData.currentQuestionIndex || 0) + 1;
        const resumeTotalQuestions = restoredStateSessionData.quizData?.length || "?";
