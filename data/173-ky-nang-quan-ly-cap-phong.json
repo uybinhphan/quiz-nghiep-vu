@@ -2,367 +2,455 @@
   "originalDisplayName": "17.3. Kỹ năng quản lý cấp phòng",
   "questions": [
     {
-      "question": "Mô hình lãnh đạo, quản lý hiện đại của thế kỷ 21 cho rằng: Nhà lãnh đạo phải đảm bảo các yếu tố nào?",
+      "question": "Theo định nghĩa của McKinsey, Agile là cách làm việc như thế nào?",
       "options": [
-        "Khả năng tạo tầm nhìn.",
-        "Khả năng gây ảnh hưởng.",
-        "Khả năng truyền cảm hứng.",
-        "Tất cả các đáp án trên."
+        "Là cách làm việc loại bỏ hoàn toàn sự thay đổi",
+        "Là phương pháp quản lý bằng cách lập kế hoạch chi tiết từ đầu năm",
+        "Là công cụ hỗ trợ công nghệ thông tin",
+        "Là cách làm việc khai thác tính tất yếu của sự thay đổi"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Slide 24; Lập và triển khai KH, ứng dụng Agile dành cho QLCP  Năm 2026"
     },
     {
-      "question": "Để giải quyết vấn đề hiệu quả, người lãnh đạo cần tiến hành 02 bước căn bản đầu tiên đó là:",
+      "question": "Những nguyên tắc của Agile là gì?",
       "options": [
-        "Tìm kiếm giải pháp phù hợp và giải quyết vấn đề",
-        "Xác định nguyên nhân và giải quyết vấn đề",
-        "Đánh giá vấn đề và lựa chọn giải pháp",
-        "Nhận ra vấn đề và xác định nguyên nhân chính của vấn đề"
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Trong quá trình làm việc nhóm, tư duy phản biện giúp bạn đạt được điều gì?",
-      "options": [
-        "Bảo vệ được các ý kiến của mình nếu cần thiết hoặc sẽ mang lại hiệu quả cho hoạt động nhóm.",
-        "Mang lại hiệu quả cho hoạt động nhóm.",
-        "Bảo vệ được các ý kiến của mình nếu cảm thấy điều đó là cần thiết.",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Trong những hành vi dưới đây, hành vi nào KHÔNG phải là hành vi tạo động lực?",
-      "options": [
-        "Chế độ đãi ngộ thỏa đáng.",
-        "Tạo ra những cơ hội đào tạo, nâng cao kỹ năng nghề nghiệp cho nhân viên.",
-        "Trao gửi niềm tin đối với nhân viên.",
-        "Đối xử thiên vị với nhân viên luôn biết chấp hành ý kiến của lãnh đạo."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Chức năng của nhà quản lý theo mô hình mới bao gồm chức năng nào?",
-      "options": [
-        "Tổ chức công việc.",
-        "Kiểm tra giám sát.",
-        "Cung cấp dịch vụ công.",
-        "Bao gồm cả 1 và 2."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Mục đích của việc ra quyết định là gì?",
-      "options": [
-        "Chọn phương án tốt nhất và ra quyết định.",
-        "Thảo luận với những người khác và ra quyết định.",
-        "Giải quyết 1 vấn đề.",
-        "Tìm phương án để giải quyết vấn đề."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Đâu là phương pháp phân tích vấn đề trong đó tận dụng khả năng ghi nhận hình ảnh của não bộ để ghi nhớ chi tiết, phân tích, tổng hợp một vấn đề thành một dạng của lược đồ phân nhánh?",
-      "options": [
-        "Sơ đồ tư duy.",
-        "Công não.",
-        "Biểu đồ xương cá.",
-        "5 Whys."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Câu nói của Albert Einstein: “Nếu có một giờ để cứu thế giới, thì sẽ phải dùng 55 phút để xác định vấn đề và chỉ dành 5 phút để tìm giải pháp” nhấn mạnh tầm quan trọng của:",
-      "options": [
-        "Giải quyết vấn đề.",
-        "Xác định giải pháp.",
-        "Nhận diện chính xác vấn đề trước khi đề ra giải pháp.",
-        "Tìm kiếm giải pháp giải quyết vấn đề."
+        "Tập trung vào kết quả, chất lượng và tốc độ",
+        "Tập trung vào quy trình, kiểm soát và đảm bảo",
+        "Tập trung vào khách hàng, cộng tác và chuyển giao giá trị sớm",
+        "Tập trung vào kế hoạch, dự báo và đánh giá"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Slide 25 Lập và triển khai KH, ứng dụng Agile dành cho QLCP  Năm 2026"
     },
     {
-      "question": "Người được giao làm công tác hướng dẫn, kèm cặp nhân viên trong đơn vị phải làm việc gì dưới đây?",
+      "question": "Điểm gì cần đặc biệt lưu ý khi áp dụng Agile tại cấp Phòng?",
       "options": [
-        "Lên kế hoạch hướng dẫn, kèm cặp.",
-        "Đánh giá điểm mạnh, điểm yếu của người lao động.",
-        "Chia sẻ những điểm họ làm tốt và có thể làm tốt hơn.",
-        "Tất cả các đáp án trên."
+        "Có thể lách hoặc bỏ qua các quy định, rào cản nội bộ để đạt được tốc độ phục vụ khách hàng nhanh nhất.",
+        "Chỉ tập trung vào tương tác nội bộ, giảm bớt các bước thẩm định nghiệp vụ để chuyển giao kết quả sớm.",
+        "Áp dụng linh hoạt (chia nhỏ mục tiêu, rà soát thường xuyên...) nhưng cần đảm bảo các tiêu chuẩn nghiệp vụ và các quy định của tổ chức.",
+        "Bê nguyên các công cụ Agile vào ngân hàng mà không cần chỉnh sửa."
       ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
+      "correctAnswerIndex": 2,
+      "source": "Slide 135 Lập và triển khai KH, ứng dụng Agile dành cho QLCP  Năm 2026"
     },
     {
-      "question": "Để công tác hướng dẫn, kèm cặp nhân viên trong đơn vị được hiệu quả, người được giao hướng dẫn, kèm cặp cần làm gì?",
+      "question": "Đâu là một \"Sự hiểu lầm\" cần tránh khi nói về phương pháp Agile?",
       "options": [
-        "Nắm được điểm mạnh, điểm yếu của người lao động.",
-        "Truyền năng lượng tích cực và tạo động lực cho nhân viên.",
-        "Định hướng mục tiêu và biết chịu trách nhiệm.",
-        "Tất cả các đáp án trên."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Lợi ích của hướng dẫn, kèm cặp nhân viên bao gồm:",
-      "options": [
-        "Tăng chất lượng, kết quả lao động.",
-        "Tạo cơ hội gắn kết người lao động với tổ chức.",
-        "Xây dựng bầu không khí và mối quan hệ gắn bó giữa nhà quản lý với nhân viên.",
-        "Tất cả các đáp án trên."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Giúp cho người lao động chuyên nghiệp hơn, trang bị cho người lao động kỹ năng cần thiết để thích nghi với môi trường làm việc là kết quả của quá trình nào dưới đây?",
-      "options": [
-        "Đào tạo tại các trường đại học.",
-        "Trao đổi thông qua các cuộc họp.",
-        "Làm việc trực tiếp.",
-        "Kèm cặp nhân viên."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Nhận định nào về năng lực của người lãnh đạo sau đây KHÔNG đúng?",
-      "options": [
-        "Chỉ có trình độ chuyên môn và hiểu biết về kinh doanh là chưa đủ nếu nhà lãnh đạo đó không thông thạo các kỹ năng liên quan đến con người.",
-        "Kỹ năng tạo lập mối quan hệ trong giao tiếp có vai trò quan trọng giúp nhà quản lý, lãnh đạo thực hiện thành công các kế hoạch và mục tiêu đề ra.",
-        "Khi tạo lập các mối quan hệ, người lãnh đạo hãy biết cách chấp nhận, tôn trọng sự khác biệt.",
-        "Nhà quản lý, lãnh đạo không nhất thiết phải rèn luyện kỹ năng truyền thông."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Bất lợi lớn nhất khi giao tiếp bằng lời nói là gì?",
-      "options": [
-        "Thông điệp được truyền qua càng nhiều người, khả năng bị sai lệch nội dung càng lớn.",
-        "Tốc độ truyền nhận thông tin nhanh.",
-        "Sự phản hồi thông tin nhanh.",
-        "Người tham gia giao tiếp có thể trực tiếp phản hồi thông tin."
+        "Áp dụng Agile đòi hỏi mọi người phải làm nhiều việc hơn",
+        "Agile chia nhỏ mục tiêu và chuyển giao giá trị sớm",
+        "Agile tạo ra sự minh bạch thông tin",
+        "Agile tăng cường tương tác với khách hàng và đội ngũ"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Slide 137 Lập và triển khai KH, ứng dụng Agile dành cho QLCP  Năm 2026"
     },
     {
-      "question": "Cách thức giao tiếp nào của người lãnh đạo với nhân viên dưới đây KHÔNG phù hợp?",
+      "question": "Theo Đạo luật AI của Liên minh châu Âu (EU AI Act), hệ thống chấm điểm tín dụng cá nhân thuộc phân loại mức độ rủi ro nào?",
       "options": [
-        "Chân thành lắng nghe nhân viên.",
-        "Biết im lặng khi nhân viên phát sinh lỗi trong công việc.",
-        "Hỏi làm rõ ý và thấu hiểu tâm tư, tình cảm của nhân viên.",
-        "Kiên nhẫn khi nghe nhân viên trình bày vấn đề."
+        "Không chấp nhận được (Bị cấm hoàn toàn)",
+        "Rủi ro cao (Kiểm soát chặt chẽ, đánh giá bắt buộc trước khi triển khai)",
+        "Rủi ro giới hạn (Yêu cầu minh bạch khi tương tác)",
+        "Rủi ro tối thiểu (Không yêu cầu kiểm soát đặc biệt)"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Chuyên đề 3: Đạo đức và bảo mật trong sử dụng AI\n (Slide 34 & 35:  AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC DÀNH CHO QLCP Năm 2026"
     },
     {
-      "question": "Trong việc xử lý các khiếu nại của nhân viên, nhà quản lý cần tìm hiểu, xác định chính xác nguyên nhân của vấn đề qua hình thức nào?",
+      "question": "Hiện tượng ảo giác (Hallucination) là rủi ro cố hữu  thể hiện qua hành vi nào của AI?",
       "options": [
-        "Nắm chắc quy trình giải quyết nội bộ.",
-        "Làm chủ diễn biến, tâm trạng, cảm xúc bản thân.",
-        "Biết chia sẻ cảm xúc với cá nhân có khiếu nại.",
-        "Tất cả các đáp án trên."
+        "AI đột ngột ngừng hoạt động do quá tải dữ liệu",
+        "AI không thể tóm tắt các tệp tài liệu có định dạng PDF",
+        "AI tạo ra thông tin sai lệch nhưng trình bày với văn phong tự tin, hoàn toàn thuyết phục",
+        ""
       ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
+      "correctAnswerIndex": 2,
+      "source": "Chuyên đề 3: Đạo đức và bảo mật trong sử dụng AI\n- Mục: Rủi ro AI (Slide 31 & 32 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC DÀNH CHO QLCP Năm 2026"
     },
     {
-      "question": "Yêu cầu đối với nhà lãnh đạo khi trình bày vấn đề là:",
+      "question": "Khi nhờ AI soạn thư nhắc nợ gửi khách hàng trên công cụ AI công cộng, cán bộ nên xử lý thông tin định danh như thế nào?",
       "options": [
-        "Giúp nhân viên hiểu rõ được nội dung, thông tin/thông điệp mình muốn truyền đạt, đạt mục tiêu đề ra.",
-        "Giúp nhân viên hiểu rõ chức năng nhiệm vụ.",
-        "Giúp nhân viên nhận thức rõ lợi ích của bản thân khi hoàn thành nhiệm vụ.",
-        "Giúp nhân viên hiểu rõ nghĩa vụ, trách nhiệm của mình."
+        "Giữ nguyên thông tin thật để AI soạn chính xác",
+        "Dán kèm số dư tài khoản thật để AI tự lập bảng",
+        "Thay tên, số CCCD, số điện thoại bằng các placeholder (ví dụ: 'Khách hàng A')",
+        "Sử dụng tên giả nhưng giữ nguyên số CCCD và số tài khoản"
       ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
+      "correctAnswerIndex": 2,
+      "source": "Chuyên đề 3: Đạo đức và bảo mật trong sử dụng AI\n- Mục: Ví dụ thực tế (Slide 39 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC DÀNH CHO QLCP Năm 2026"
     },
     {
-      "question": "Để trình bày vấn đề hiệu quả, nhà quản lý nhất thiết cần lưu ý một trong những nội dung gì dưới đây:",
+      "question": "Loại công cụ AI nào chỉ phân tích tài liệu do người dùng cung cấp (hệ thống đóng) để hạn chế tối đa rủi ro 'ảo giác'?",
       "options": [
-        "Xác định mục tiêu trình bày vấn đề; đối tượng tham dự.",
-        "Trình bày thật nhiều thông tin chi tiết, càng dài càng tốt để tránh bỏ sót.",
-        "Từ ngữ diễn đạt  thật bóng bẩy.",
-        "Sử dụng nhiều thuật ngữ chuyên môn."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Những yêu cầu cần thiết trong giao tiếp, ứng xử của người lãnh đạo, quản lý là:",
-      "options": [
-        "Khẳng định vị thế quản lý, lãnh đạo đối với nhân viên.",
-        "Tôn trọng người giao tiếp với mình, biết lắng nghe và phản hồi phù hợp.",
-        "Tạo khoảng cách cần thiết với nhân viên dưới quyền.",
-        "Phải hỏi kỹ để làm rõ vấn đề và phải đưa ra quyết định theo ý kiến chủ quan của người lãnh đạo."
+        "LLM Chatbot đa năng",
+        "Nền tảng nghiên cứu chuyên sâu (ví dụ: Google NotebookLM)",
+        "Nền tảng tự động hoá no-code",
+        "Hệ thống AI Agent đa tác tử"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Chuyên đề 1: Giới thiệu và trải nghiệm các công cụ AI phổ biến\n- Mục: Công cụ AI -Slide 8 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC DÀNH CHO QLCP Năm 2026"
     },
     {
-      "question": "Khi giao tiếp với cấp trên, người quản lý cần tránh:",
+      "question": "Prompt Engineering được định nghĩa là gì trong kỷ nguyên công nghệ số hiện nay?",
       "options": [
-        "Lắng nghe và phản hồi phù hợp.",
-        "Sử dụng ngôn ngữ phù hợp với đối tượng.",
-        "Thông tin cung cấp trong giao tiếp rõ ràng.",
-        "Báo cáo cấp trên những việc vụn vặt, không cần thiết."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Các biểu hiện của nhà lãnh đạo, quản lý có kỹ năng lắng nghe tích cực:",
-      "options": [
-        "Tập trung, chú ý biểu lộ sự quan tâm bằng ánh mắt, cử chỉ và lời nói khuyến khích nhân viên chia sẻ.",
-        "Thể hiện rõ tâm trạng, cảm xúc bản thân.",
-        "Đặt câu hỏi làm rõ ngay đối với những nội dung chưa rõ.",
-        "Gạt bỏ những điều trái ý kiến chỉ đạo để tập trung vấn đề."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Biểu hiện của nhà lãnh đạo, quản lý thiếu kỹ năng lắng nghe là:",
-      "options": [
-        "Tập trung, chú ý biểu lộ sự quan tâm đến đối tác giao tiếp.",
-        "Kiên nhẫn khi nghe.",
-        "Lắng nghe khi vấn đề liên quan trực tiếp đến lợi ích của lãnh đạo",
-        "Lắng nghe với mong muốn thấu hiểu tâm tư, tình cảm của nhân viên."
-      ],
-      "correctAnswerIndex": 2,
-      "source": "N/A"
-    },
-    {
-      "question": "Để nhận được thiện cảm của đối tác giao tiếp trong lần gặp đầu tiên bạn nên:",
-      "options": [
-        "Tặng món quà ý nghĩa.",
-        "Gọi tên đối tác giao tiếp trong quá trình giao tiếp.",
-        "Sử dụng lời khen ngợi chân thành.",
-        "Tất cả các đáp án trên."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Công nghệ mới đã giúp các ngân hàng có thể loại bỏ bớt yếu tố nào giúp các giao dịch tài chính được thực hiện nhanh hơn, chi phí thấp hơn?",
-      "options": [
-        "Thông tin nội bộ.",
-        "Trung gian tài chính.",
-        "Quy trình.",
-        "Yếu tố minh bạch và an toàn trong giao dịch."
+        "Kỹ thuật lập trình hệ thống AI chuyên sâu",
+        "Cầu nối giữa ý định của người quản lý và năng lực của mô hình AI",
+        "Quy trình làm sạch dữ liệu lớn trước khi đưa vào mô hình học sâu",
+        "Hệ thống bảo mật tường lửa ngăn chặn rò rỉ thông tin của ngân hàng"
       ],
       "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Chuyên đề 2: Kỹ năng Prompt cơ bản\n- Mục: Khái niệm nền tảng Slide 18 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC DÀNH CHO QLCP Năm 2026"
     },
     {
-      "question": "Khi ngày càng nhiều khách hàng sử dụng dịch vụ kỹ thuật số hơn, các ngân hàng cần đầu tư vào hình thức nào để có thể thu hút và giữ chân khách hàng?",
+      "question": "Đặc điểm cốt lõi của \"Tư duy Agile\" (Agile Mindset) là gì?",
       "options": [
-        "Đầu tư vào trải nghiệm.",
-        "Phát triển khách hàng truyền thống.",
-        "Mở rộng khách hàng tiềm năng.",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Quản lý nhân sự trong thời đại 4.0  tập trung vào một trong các vấn đề cốt lõi nào sau đây?",
-      "options": [
-        "Thu hút, xây dựng và phát triển nguồn nhân lực thích ứng với công nghệ và đổi mới sáng tạo",
-        "Xây dựng chương trình hành động.",
-        "Chú trọng tuyển dụng lao động giá rẻ để giảm chi phí.",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Một trong số những phương thức tuyển dụng nổi bật trong thời đại số 4.0 là gì?",
-      "options": [
-        "Tuyển dụng bằng các công cụ trực tuyến, Marketing tuyển dụng.",
-        "Phỏng vấn trực tuyến.",
-        "Tuyển dụng thông qua cổng thông tin online của các trường đại học cung cấp.",
-        ""
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Phân tích công việc là quá trình:",
-      "options": [
-        "Thu thập và đánh giá thông tin liên quan nhân viên.",
-        "Đánh giá những vấn đề tác động đến việc hoàn thành công việc.",
-        "Thu thập và đánh giá một cách có hệ thống các thông tin quan trọng có liên quan đến công việc nhằm làm rõ bản chất công việc.",
-        "Thu thập các thông tin về cơ chế, quy trình."
+        "Tập trung vào việc tuân thủ nghiêm ngặt kế hoạch đã lập từ đầu năm",
+        "Ưu tiên quy trình và công cụ hơn là con người và sự tương tác",
+        "Là cách làm việc khai thác sự thay đổi (coi sự thay đổi là cơ hội để học hỏi và mang lại giá trị tốt hơn cho khách hàng)",
+        "Chỉ thực hiện công việc khi có chỉ thị chi tiết từ cấp trên"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Slide 18 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC VÀ TƯ DUY LINH HOẠT (AGILE) Năm 2026"
     },
     {
-      "question": "Thông qua việc phân tích công việc,  người quản lý xác định được:",
+      "question": "Vai trò quan trọng của một \"Lãnh đạo phụng sự\" (Servant Leader) là gì?",
       "options": [
-        "Các kỳ vọng của mình đối với người lao động.",
-        "Làm cho người lao động hiểu được các nhiệm vụ, nghĩa vụ và trách nhiệm của mình trong công việc.",
-        "Gồm 1 và 2.",
-        "Làm cho người lao động hiểu được các nhiệm vụ."
+        "Giám sát chặt chẽ từng giờ làm việc của nhân viên",
+        "Trực tiếp làm thay công việc của nhân viên khi họ gặp khó khăn",
+        "Tập trung vào việc tháo gỡ các rào cản để nhóm hoàn thành công việc",
+        "Không tin tưởng ai hết, tự mình ra quyết định là tốt nhất"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Slide 28 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC VÀ TƯ DUY LINH HOẠT (AGILE) Năm 2026"
     },
     {
-      "question": "Vì sao các nhà quản lý phải tiến hành phân tích công việc?",
+      "question": "Đâu là điểm chết trong làm việc nhóm?",
       "options": [
-        "Để lập kế hoạch nguồn nhân lực.",
-        "Đánh giá thực hiện công việc.",
-        "Đào tạo nhân viên.",
-        "Tất cả các đáp án trên."
+        "Thiếu cam kết",
+        "Thiếu tin tưởng",
+        "Né tránh trách nhiệm",
+        "Tất cả các phương án trên"
       ],
       "correctAnswerIndex": 3,
-      "source": "N/A"
+      "source": "Slide 71 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC VÀ TƯ DUY LINH HOẠT (AGILE) Năm 2026"
     },
     {
-      "question": "Quá trình lập kế hoạch công việc thực chất là:",
+      "question": "Triết lý \"Cải tiến nhỏ, liên tục\" hướng tới mục tiêu gì?",
       "options": [
-        "Xác định rõ đối tượng thực hiện.",
-        "Xác định đúng nhiệm vụ cần thực hiện.",
-        "Xác định những mục tiêu và biện pháp tốt nhất để thực hiện những mục tiêu đó.",
-        "Định hướng đúng mục tiêu cần thực hiện."
+        "Thay đổi toàn bộ quy trình",
+        "Tích lũy những cải tiến nhỏ hàng ngày để tạo ra kết quả khác biệt trong dài hạn",
+        "Chỉ tập trung vào những thay đổi lớn mang tính đột phá",
+        "Giữ nguyên hiện trạng để đảm bảo sự an toàn tuyệt đối"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "Slide 81 - 83 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC VÀ TƯ DUY LINH HOẠT (AGILE) Năm 2026"
+    },
+    {
+      "question": "Chiến thuật 'nước nổi bèo nổi' trong bối cảnh AI có nghĩa là gì?",
+      "options": [
+        "Chờ đợi AI phát triển xong rồi mới học",
+        "Chỉ học AI khi công ty yêu cầu",
+        "AI tiến đến đâu, người lao động cập nhật kỹ năng đến đó",
+        "Tránh xa AI để giữ công việc hiện tại"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Slide 21 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC VÀ TƯ DUY LINH HOẠT (AGILE) Năm 2026"
     },
     {
-      "question": "Một trong các bước thuộc Quy trình phân tích công việc là:",
+      "question": "Trong quá trình dùng AI, nguyên tắc 'Human-in-the-Loop' có nghĩa là gì?",
       "options": [
-        "Lựa chọn giải pháp và thực thi giải pháp.",
-        "Sắp xếp dữ liệu.",
-        "Lựa chọn các phương pháp thu thập thông tin thích hợp.",
-        "Xác định trưởng nhóm làm việc."
+        "Con người phải làm lại toàn bộ kết quả AI",
+        "Con người phê duyệt trong một số trường hợp, còn lại để AI tự quyết định",
+        "Con người phải phê duyệt cuối cùng, chịu trách nhiệm kết quả và quyết định hành động",
+        "AI làm tự động hoàn toàn, giải phóng con người khỏi công việc"
       ],
       "correctAnswerIndex": 2,
-      "source": "N/A"
+      "source": "Slide 115 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC VÀ TƯ DUY LINH HOẠT (AGILE) Năm 2026"
     },
     {
-      "question": "Việc kiểm soát thực hiện công việc phải tuân thủ đầy đủ các nguyên tắc nào?",
+      "question": "ChatGPT trả lời câu hỏi của bạn quá lan man, không đúng trọng tâm. Nguyên nhân có thể là:",
       "options": [
-        "Nguyên tắc chính xác, khách quan.",
-        "Nguyên tắc công bằng.",
-        "Nguyên tắc bình đẳng.",
-        "Nguyên tắc độc lập."
+        "AI không đủ thông minh",
+        "Prompt không rõ ràng, thiếu tiêu chuẩn đầu ra về độ dài/format",
+        "Do sử dụng ChatGPT vào giờ cao điểm",
+        "File input quá lớn"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "Slide 35-36 AI NÂNG CAO HIỆU SUẤT CÔNG VIỆC VÀ TƯ DUY LINH HOẠT (AGILE) Năm 2026"
+    },
+    {
+      "question": "Khảo sát ý kiến của khách hàng về chất lượng dịch vụ cung cấp của ngân hàng là công việc thuộc nội dung nào trong công tác quản lý chất lượng dịch vụ ngân hàng sau đây?",
+      "options": [
+        "Xây dựng tiêu chuẩn chất lượng dịch vụ",
+        "Tổ chức thực hiện qui trình theo tiêu chuẩn",
+        "Thu thập dữ liệu về chất lượng dịch vụ",
+        "Đánh gía và hoàn thiện dịch vụ"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "Câu 0.4 của CĐ Kỹ năng quản lý chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Tạo không khí làm việc cởi mở, khuyến khích nhân viên chia sẻ ý kiến, quan điểm thuộc nội dung nào trong kỹ năng thiết lập mối quan hệ?",
+      "options": [
+        "Giao tiếp mở",
+        "Lắng nghe tích cực",
+        "Tôn trọng khác biệt",
+        "Tạo cơ chế giải quyết xung đột"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Câu 0.5 của CĐ Kỹ năng quản lý chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Cách mạng công nghiệp 4.0 đã ảnh hưởng đến cơ cấu nhân sự của các ngân hàng như thế nào?",
+      "options": [
+        "Giảm số lượng giao dịch viên, gia tăng nguồn nhân lực chất lượng cao.",
+        "Tăng số lượng nhân viên.",
+        "Giảm trách nhiệm của nhân viên.",
+        "Tất cả đều đúng."
+      ],
+      "correctAnswerIndex": 0,
+      "source": "Câu 0.6 của CĐ Kỹ năng quản lý chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Vai trò của người lãnh đạo là:",
+      "options": [
+        "Phát triển “Tầm nhìn” và chia sẻ tầm nhìn",
+        "Cam kết đạt mục tiêu, giá trị và chuẩn mực",
+        "1 và 2 đúng",
+        "1 và 2 sai"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "Câu 0.7 của CĐ Kỹ năng quản lý chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Trong kỹ năng quản lý căng thẳng, những yếu tố nào sau đây không gây nên Stress?",
+      "options": [
+        "Áp lực công việc: Đặt ra quá nhiều mục tiêu trong thời gian ngắn, khối lượng công việc lớn, áp lực từ khách hàng.",
+        "Các vấn đề của xã hội: biến động chính trị, thay đổi thời tiết",
+        "Mối quan hệ đồng nghiệp: Xung đột, cạnh tranh, thiếu sự hỗ trợ.",
+        "Thay đổi tổ chức: Sáp nhập, tái cấu trúc, thay đổi quy trình làm việc."
+      ],
+      "correctAnswerIndex": 1,
+      "source": "Câu 0.11 của CĐ Kỹ năng quản lý chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Thách thức lớn của Cách mạng công nghiệp 4.0 tới Ngân hàng tại Việt Nam là:",
+      "options": [
+        "Cạnh tranh từ các đối thủ truyền thống",
+        "Sự phát triển của công nghệ",
+        "Xuất hiện các đối thủ cạnh tranh mới (Fintech, Big Tech...)",
+        "Khuôn khổ pháp lý thay đổi"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "Câu 0.15 của CĐ Kỹ năng quản lý chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Lập kế hoạch công việc là:",
+      "options": [
+        "Xác định mục tiêu và biện pháp tốt nhất để đạt mục tiêu",
+        "Xác định các phương án tốt nhất để thực hiện công việc",
+        "Xác định các giải pháp để đạt chỉ tiêu",
+        "Lên phương án nhân sự để thực hiện công việc"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "Câu 0.3 của CĐ Quản lý nhân sự; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Cách để tạo ra sự hài lòng cho nhân viên:",
+      "options": [
+        "Đối xử nhân viên với lòng tôn trọng.",
+        "Khuyến khích nỗ lực tự phát triển của nhân viên.",
+        "Cung cấp phản hồi về đánh giá thành tích của nhân viên",
+        "Cả 3 đáp án trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "Câu 0.8 của CĐ Quản lý nhân sự; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Rào cản sự thay đổi có thể là:",
+      "options": [
+        "Sự thay đổi làm nguy hại đến lợi ích cá nhân",
+        "Sự thay đổi không phù hợp với các giá trị, niềm tin của cá nhân, tổ chức.",
+        "Người lãnh đạo không đáng tin",
+        "Cả 3 nguyên nhân trên"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "Câu 0.9 của CĐ Quản lý nhân sự; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Phân tích công việc là quá trình nào dưới đây?",
+      "options": [
+        "Đào tạo nhân viên mới",
+        "Thu thập và đánh giá thông tin liên quan đến công việc",
+        "Phân công nhiệm vụ cho nhân viên",
+        "Xây dựng kế hoạch kinh doanh"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "Câu 0.11 của CĐ Quản lý nhân sự; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Động lực lao động được hiểu là:",
+      "options": [
+        "Áp lực từ tổ chức đối với nhân viên",
+        "Sự giám sát chặt chẽ của lãnh đạo",
+        "Sự khao khát và tự nguyện nỗ lực để đạt mục tiêu tổ chức",
+        "Sự cạnh tranh giữa nhân viên"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "Câu 0.13 của CĐ Quản lý nhân sự; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Yếu tố nào sau đây giúp giữ chân nhân viên trong tổ chức?",
+      "options": [
+        "Cơ hội thăng tiến và cơ hội thử thách",
+        "Giảm cơ hội đào tạo",
+        "Tăng áp lực công việc",
+        "Hạn chế thăng tiến"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "Câu 0.15 của CĐ Quản lý nhân sự; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "“Dịch vụ không thể cầm nắm được, không có đặc tính vật lý trước khi tiêu dùng” là đặc điểm nào của dịch vụ?",
+      "options": [
+        "Tính vô hình",
+        "Tính không đồng nhất",
+        "Tính không thể dự trữ",
+        "Tính không chuyển quyền sở hữu"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "Câu 0.1 của CĐ Quản lý chất lượng dịch vụ; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Lợi ích nào sau đây là kết quả trực tiếp của việc quản lý tốt chất lượng dịch vụ tại ngân hàng?",
+      "options": [
+        "Giảm số lượng sản phẩm dịch vụ.",
+        "Tăng chi phí hoạt động.",
+        "Thu hút khách hàng mới và giữ chân khách hàng trung thành.",
+        "Giảm tính cạnh tranh trên thị trường."
+      ],
+      "correctAnswerIndex": 2,
+      "source": "Câu 0.3 của CĐ Quản lý chất lượng dịch vụ; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Một khách hàng lựa chọn gửi tiết kiệm tại Agribank vì tin tưởng vào uy tín lâu năm và khả năng thực hiện dịch vụ đúng như đã cam kết một cách nhất quán. Yếu tố nào trong mô hình RATER đã tác động mạnh nhất đến quyết định của khách hàng?",
+      "options": [
+        "Độ tin cậy (Reliability)",
+        "Sự chắc chắn (Assurance)",
+        "Sự thấu cảm (Empathy)",
+        "Phương tiện hữu hình (Tangibles)"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "Câu 0.4 của CĐ Quản lý chất lượng dịch vụ; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Khi giá trị khách hàng nhận được bằng với giá trị họ mong đợi, chất lượng dịch vụ được đánh giá ở mức nào?",
+      "options": [
+        "Cao",
+        "Thấp",
+        "Thỏa mãn",
+        "Vượt trội"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "Câu 0.8 của CĐ Quản lý chất lượng dịch vụ; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Để xây dựng \"Sự sẵn sàng đáp ứng (Responsiveness)\" trong mô hình RATER, ngân hàng cần tập trung vào giải pháp nào sau đây?",
+      "options": [
+        "Thực hiện dịch vụ đúng cam kết và theo quy trình đề ra.",
+        "Đầu tư vào sản phẩm, bao bì, trang web và nhân sự.",
+        "Đảm bảo dịch vụ nhanh chóng và hiệu quả; phản hồi nhanh chóng và giải quyết khiếu nại.",
+        "Luôn lắng nghe và thấu hiểu vấn đề của khách hàng."
+      ],
+      "correctAnswerIndex": 2,
+      "source": "Câu 0.15 của CĐ Quản lý chất lượng dịch vụ; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Đâu là phương án đúng nhất về kì vọng của khách hàng khi sử dụng các sản phẩm dịch vụ ngân hàng số?",
+      "options": [
+        "Chi phí dịch vụ thấp nhất",
+        "Cá nhân hóa các sản phẩm, dịch vụ",
+        "Có nhiều điểm giao dịch để tăng tính thuận tiện",
+        "Cả ba phương án đều chính xác"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "Câu 0.5 của CĐ Chuyển đổi số cho lãnh đạo chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Chiến lược lấy khách hàng làm trung tâm được hiểu là:",
+      "options": [
+        "Khách hàng chủ động tìm đến ngân hàng",
+        "Các ngân hàng thay đổi cách thiết kế sản phẩm, quy trình tùy thuộc vào thói quen, hành vi của khách hàng.",
+        "Sản phẩm được xây dựng dựa trên khẩu vị rủi ro và mong muốn của ngân hàng.",
+        "Tất cả các đáp án đều đúng."
+      ],
+      "correctAnswerIndex": 1,
+      "source": "Câu 0.8 của CĐ Chuyển đổi số cho lãnh đạo chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Trong những yếu tố sau, yếu tố nào được nhấn mạnh là công cụ hỗ trợ để cá nhân hóa sản phẩm dịch vụ và nâng cao trải nghiệm khách hàng?",
+      "options": [
+        "Mở rộng chi nhánh vật lý",
+        "Công nghệ, phân tích dữ liệu",
+        "Tăng số lượng nhân sự giao dịch",
+        "Chuẩn hóa sản phẩm theo một mẫu chung"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "Câu 0.10 của CĐ Chuyển đổi số cho lãnh đạo chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Machine learning được hiểu là:",
+      "options": [
+        "Một công nghệ lưu trữ dữ liệu lớn trên nền tảng đám mây",
+        "Một bộ phận của trí tuệ nhân tạo, dựa trên các kiến thức từ dữ liệu quá khứ để tự xử lý vấn đề và liên tục tối ưu để tạo ra những phương án xử lý mới, hiệu quả hơn qua thời gian.",
+        "Một công nghệ chỉ thực hiện các công việc lặp đi lặp lại theo quy tắc cố định",
+        "Một công nghệ kết nối các thiết bị vật lý với Internet"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "Câu 0.11 của CĐ Chuyển đổi số cho lãnh đạo chi nhánh; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Một trong những vai trò quan trọng của hoạt động truyền thông trong ngân hàng là gì?",
+      "options": [
+        "Chỉ để tăng doanh số bán hàng",
+        "Giảm thiểu tương tác với khách hàng",
+        "Xây dựng và duy trì hình ảnh, uy tín",
+        "Cắt giảm chi phí hoạt động"
+      ],
+      "correctAnswerIndex": 2,
+      "source": "Câu 0.1 của CĐ Quản lý truyền thông và phát triển thương hiệu; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Nguyên tắc đầu tiên và quan trọng nhất khi xử lý khủng hoảng truyền thông là gì?",
+      "options": [
+        "Im lặng để dư luận lắng xuống",
+        "Nhanh chóng và kịp thời",
+        "Đổ lỗi cho đối thủ",
+        "Chỉ cung cấp thông tin cho một số tờ báo thân thiết"
+      ],
+      "correctAnswerIndex": 1,
+      "source": "Câu 0.4 của CĐ Quản lý truyền thông và phát triển thương hiệu; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Một chi nhánh muốn xây dựng kế hoạch truyền thông để ra mắt sản phẩm cho vay ưu đãi cho nông dân. Theo quy trình lập kế hoạch, sau khi đã có mục tiêu kinh doanh, bước quan trọng tiếp theo chi nhánh cần làm là gì?",
+      "options": [
+        "Phân bổ ngân sách ngay lập tức",
+        "Thiết kế thông điệp và banner quảng cáo",
+        "Triển khai chiến dịch trên Facebook",
+        "Phân tích bối cảnh (SWOT, khách hàng, đối thủ)"
+      ],
+      "correctAnswerIndex": 3,
+      "source": "Câu 0.9 của CĐ Quản lý truyền thông và phát triển thương hiệu; Chương trình đào tạo Quản lý loại II"
+    },
+    {
+      "question": "Một trong những giải pháp được đề xuất để tăng cường nhận diện thương hiệu tại chi nhánh là gì?",
+      "options": [
+        "Nâng cao trải nghiệm khách hàng tại chi nhánh",
+        "Chỉ tập trung vào quảng cáo trên TV",
+        "Giảm số lượng nhân viên giao dịch",
+        "Ngừng các hoạt động cộng đồng"
+      ],
+      "correctAnswerIndex": 0,
+      "source": "Câu 0.10 của CĐ Quản lý truyền thông và phát triển thương hiệu; Chương trình đào tạo Quản lý loại II"
     },
     {
       "question": "Tại sao cần phân loại vấn đề theo mức độ quan trọng?",
@@ -373,7 +461,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Chương trình đào tạo trên E-learning năm 2025 \"Kỹ năng giải quyết vấn đề và ra quyết định\" - Bài 1. Vấn đề và phân loại vấn đề"
     },
     {
       "question": "Một trong 5 sai lầm phổ biến khi giải quyết vấn đề là gì?",
@@ -384,7 +472,7 @@
         ""
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Chương trình đào tạo trên E-learning năm 2025 \"Kỹ năng giải quyết vấn đề và ra quyết định\" - Bài 2. Quy trình giải quyết vấn đề"
     },
     {
       "question": "Bước đầu tiên trong quy trình giải quyết vấn đề là gì?",
@@ -395,7 +483,7 @@
         "Đánh giá kết quả"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Chương trình đào tạo trên E-learning năm 2025 \"Kỹ năng giải quyết vấn đề và ra quyết định\" - Bài 2. Quy trình giải quyết vấn đề"
     },
     {
       "question": "Tại sao cần tìm nhiều phương án giải quyết vấn đề?",
@@ -406,7 +494,7 @@
         "Để kiểm tra tính khả thi của mỗi giải pháp"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Chương trình đào tạo trên E-learning năm 2025 \"Kỹ năng giải quyết vấn đề và ra quyết định\" - Bài 6. Tìm kiếm giải pháp"
     },
     {
       "question": "Công cụ nào không dùng để xác định nguyên nhân của vấn đề?",
@@ -417,7 +505,7 @@
         "Hỏi 'Tại sao?' (Why)"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Chương trình đào tạo trên E-learning năm 2025 \"Kỹ năng giải quyết vấn đề và ra quyết định\" - Bài 3. Công cụ xác định nguyên nhân của vấn đề"
     },
     {
       "question": "Phân tích SWOT giúp ích gì trong giải quyết vấn đề?",
@@ -428,7 +516,7 @@
         "Tạo ra nhiều ý tưởng sáng tạo"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Chương trình đào tạo trên E-learning năm 2025 \"Kỹ năng giải quyết vấn đề và ra quyết định\" - Bài 7. Phân tích SWOT"
     },
     {
       "question": "Một môi trường làm việc tốt giúp gì trong việc tạo động lực?",
@@ -439,7 +527,7 @@
         "Tăng thời gian nghỉ ngơi"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Chương trình đào tạo trên E-learning năm 2025 \"Kỹ năng tạo động lực làm việc cho nhân viên\" - Bài số 2. Vai trò của người quản lý trong tạo động lực cho nhân viên"
     },
     {
       "question": "Bước đầu tiên trong quy trình tạo động lực là gì?",
@@ -450,7 +538,7 @@
         "Thay đổi cách quản lý"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
+      "source": "Chương trình đào tạo trên E-learning năm 2025 \"Kỹ năng tạo động lực làm việc cho nhân viên\" - Bài số 3. Quy trình tạo động lực cho nhân việc"
     },
     {
       "question": "Điều gì xảy ra nếu môi trường làm việc thiếu công bằng?",
@@ -461,95 +549,7 @@
         "Nhân viên đòi hỏi mức lương cao hơn"
       ],
       "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Một trong những vai trò quan trọng nhất của người quản lý trong tạo động lực là gì?",
-      "options": [
-        "Xây dựng môi trường làm việc công bằng và hấp dẫn",
-        "Trả lương cao cho nhân viên",
-        "Tăng giờ làm việc để tăng hiệu suất",
-        "Giảm số lượng nhân viên để tối ưu năng suất"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Nhận định nào về nhiệm vụ của người lãnh đạo dưới đây là đúng?",
-      "options": [
-        "Chọn việc đúng để làm.",
-        "Làm đúng việc được giao.",
-        "Hướng đến sự ổn định.",
-        "Quản lý công việc."
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Nhận định nào về nhiệm vụ của người quản lý dưới đây là đúng?",
-      "options": [
-        "Lãnh đạo con người.",
-        "Hướng đến sự đổi mới.",
-        "Quan tâm đến tầm nhìn tương lai.",
-        "Quản lý công việc."
-      ],
-      "correctAnswerIndex": 3,
-      "source": "N/A"
-    },
-    {
-      "question": "Một trưởng phòng khách hàng cá nhân đặt mục tiêu “tăng trưởng dư nợ hộ sản xuất thêm 15% năm 2025”. Đây là ví dụ điển hình cho việc trả lời đầy đủ câu hỏi nào trong 5W1H?",
-      "options": [
-        "Why – Tại sao cần phát triển dư nợ?",
-        "What – Mục tiêu và kết quả cụ thể cần đạt được?",
-        "How – Phương thức tiếp cận hộ sản xuất?",
-        "When – Thời hạn hoàn thành chỉ tiêu đề ra?"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Trong kế hoạch tín dụng xanh, nếu chi nhánh không xác định rõ When, chiến dịch có khả năng gặp rủi ro gì lớn nhất?",
-      "options": [
-        "Lãng phí nguồn vốn vì triển khai quá sớm",
-        "Bỏ lỡ cơ hội thị trường do chậm tiến độ",
-        "Tăng chi phí nhân sự do kéo dài triển khai",
-        ""
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Một trưởng phòng lập kế hoạch huy động vốn nhưng không gắn với chiến lược ngân hàng số do Hội sở đề ra. Hệ quả lớn nhất của sự thiếu nhất quán này là gì?",
-      "options": [
-        "Kế hoạch vẫn khả thi vì phù hợp địa phương",
-        "Kế hoạch dễ trở thành hình thức, thiếu giá trị chiến lược",
-        "Kế hoạch đạt chỉ tiêu nhưng khó đo lường hiệu quả",
-        "Kế hoạch vẫn thực hiện tốt nếu nhân viên nỗ lực"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
-    },
-    {
-      "question": "Trong quá trình phân bổ nguồn lực, trưởng phòng Agribank áp dụng nguyên tắc Pareto 80/20. Điều này có ý nghĩa gì đối với việc lựa chọn khách hàng trọng tâm?",
-      "options": [
-        "Chỉ cần tập trung vào nhóm khách hàng lớn hoặc thân thiết để đạt 80% chỉ tiêu",
-        "Phân bổ đồng đều nguồn lực cho mọi nhóm khách hàng để tránh bỏ sót",
-        "Ưu tiên nhóm khách hàng mới để mở rộng thị phần",
-        "Tập trung vào sản phẩm tín dụng ngắn hạn để tối ưu hóa lợi nhuận"
-      ],
-      "correctAnswerIndex": 0,
-      "source": "N/A"
-    },
-    {
-      "question": "Một trưởng phòng Agribank muốn lập kế hoạch huy động vốn trong bối cảnh chuyển đổi số. Để áp dụng nguyên tắc “AI-first”, đâu là cách tiếp cận hiệu quả nhất?",
-      "options": [
-        "Sử dụng AI như công cụ bổ trợ khi cần, kết hợp với kinh nghiệm cá nhân để lập kế hoạch",
-        "Đặt AI làm trung tâm từ khâu phân tích dữ liệu, dự báo xu hướng thị trường, xác định rủi ro đến đề xuất giải pháp…",
-        "Tập trung trước hết vào truyền thông số, sau đó mới tích hợp AI để tối ưu hóa tiến độ",
-        "Chỉ ứng dụng AI khi kế hoạch đã hoàn thiện nhằm tiết kiệm chi phí triển khai"
-      ],
-      "correctAnswerIndex": 1,
-      "source": "N/A"
+      "source": "Chương trình đào tạo trên E-learning năm 2025 \"Kỹ năng tạo động lực làm việc cho nhân viên\" - Bài số 2. Vai trò của người quản lý trong tạo động lực cho nhân viên"
     }
   ]
 }

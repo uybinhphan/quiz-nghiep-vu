@@ -28,6 +28,14 @@
     "file": "./data/7-ke-toan-giao-dich-noi-bo.json"
   },
   {
+    "name": "8. Kế toán giao dịch khách hàng",
+    "file": "./data/8-ke-toan-giao-dich-khach-hang.json"
+  },
+  {
+    "name": "9. Kiểm ngân",
+    "file": "./data/9-kiem-ngan.json"
+  },
+  {
     "name": "10. Kiểm tra giám sát nội bộ",
     "file": "./data/10-kiem-tra-giam-sat-noi-bo.json"
   },
