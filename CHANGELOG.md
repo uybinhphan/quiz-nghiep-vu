@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.7.1...v1.8.0) (2026-09-04)
+
+
+### Features
+
+* modernize quiz UI/UX and fix in-progress attempt tracking ([#81](https://github.com/uybinhphan/quiz-nghiep-vu/issues/81)) ([40469c5](https://github.com/uybinhphan/quiz-nghiep-vu/commit/40469c51c27d85ca1effb7973348e053cf976ce0))
+
 ## [1.7.1](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.7.0...v1.7.1) (2026-03-18)
 
 
