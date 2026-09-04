@@ -113,6 +113,22 @@ export function saveState() {
     }
 }
 
+// Reads the saved session without mutating the in-memory state module — safe to call
+// speculatively (e.g. to check which quizId a saved session belongs to) before deciding
+// whether to actually restore it via loadState().
+export function peekSavedSession() {
+    try {
+        const savedStateJSON = localStorage.getItem(STORAGE_KEY);
+        if (!savedStateJSON) return null;
+        const savedState = JSON.parse(savedStateJSON);
+        if (!savedState || typeof savedState.view !== 'string') return null;
+        return savedState;
+    } catch (e) {
+        console.warn("[State] Error peeking saved session:", e);
+        return null;
+    }
+}
+
 export function loadState() {
     try {
         const savedStateJSON = localStorage.getItem(STORAGE_KEY);

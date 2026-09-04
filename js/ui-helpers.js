@@ -1,6 +1,8 @@
 // UI helper functions 
 import {
     errorMessage,
+    errorText,
+    errorRetryBtn,
     resumeModalText,
     resumeModalOverlay,
     settingsDialog,
@@ -24,18 +26,31 @@ import {
 } from './dom-elements.js';
 import * as state from './state.js';
 
-export function showError(message) {
+export function showError(message, retryFn) {
     console.error("[UI Error]", message);
     if (errorMessage) {
-        errorMessage.textContent = message;
+        if (errorText) errorText.textContent = message; else errorMessage.textContent = message;
         errorMessage.classList.remove('hidden');
+        if (errorRetryBtn) {
+            if (typeof retryFn === 'function') {
+                errorRetryBtn.classList.remove('hidden');
+                errorRetryBtn.onclick = retryFn;
+            } else {
+                errorRetryBtn.classList.add('hidden');
+                errorRetryBtn.onclick = null;
+            }
+        }
     }
 }
 
 export function hideError() {
     if (errorMessage) {
-        errorMessage.textContent = '';
+        if (errorText) errorText.textContent = ''; else errorMessage.textContent = '';
         errorMessage.classList.add('hidden');
+        if (errorRetryBtn) {
+            errorRetryBtn.classList.add('hidden');
+            errorRetryBtn.onclick = null;
+        }
     }
 }
 
@@ -104,7 +119,7 @@ export function showSelectScreenView(preventClear = false) {
     if (quizSearchInput) quizSearchInput.value = '';
     if (resumeLastBtn) resumeLastBtn.classList.add('hidden');
     if (statusMessage) statusMessage.textContent = '';
-    if (errorMessage) { errorMessage.textContent = ''; errorMessage.classList.add('hidden'); }
+    hideError();
 }
 
 export function showQuizSectionView() {
