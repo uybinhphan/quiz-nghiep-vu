@@ -2,11 +2,9 @@ import { bodyElement } from './dom-elements.js';
 
 export function applyInitialTheme() {
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
-        bodyElement.classList.add('dark-theme');
-    } else {
-        bodyElement.classList.remove('dark-theme');
-    }
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const useDark = savedTheme ? savedTheme === 'dark' : prefersDark;
+    bodyElement.classList.toggle('dark-theme', useDark);
     updateThemeToggleButton();
 }
 

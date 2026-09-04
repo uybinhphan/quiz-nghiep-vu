@@ -5,6 +5,8 @@ import * as state from './state.js';
 import * as config from './config.js';
 import * as ui from './ui-helpers.js';
 import { recordAttemptForQuiz, upsertMetaForQuiz } from './quiz-metadata.js';
+import { isSoundEnabled } from './settings.js';
+import { playCorrectSound, playIncorrectSound } from './sound.js';
 
 // --- Utility Functions ---
 export function shuffleArray(array) {
@@ -88,6 +90,18 @@ export function startQuiz(wasShuffledOrRestarted = false) {
     displayQuestion(state.currentQuestionIndex);
 }
 
+// Restores the quiz view for a session already loaded into the state module (e.g. from a saved session),
+// without resetting progress the way startQuiz(true) would.
+export function resumeQuizView() {
+    clearAutoAdvanceTimer();
+    updateTimerDisplayAndControls();
+    if (dom.jumpToInput) {
+        dom.jumpToInput.max = (state.quizData && state.quizData.length > 0) ? state.quizData.length : 1;
+    }
+    ui.showQuizSectionView();
+    displayQuestion(state.currentQuestionIndex);
+}
+
 export function displayQuestion(index) {
     state.updateQuizState({ currentQuestionIndex: index });
 
@@ -104,6 +118,24 @@ export function displayQuestion(index) {
         dom.sourceDiv.textContent = '';
         dom.sourceDiv.classList.add('hidden');
         dom.sourceDiv.style.display = 'none';
+    }
+
+    if (dom.questionContainer) {
+        dom.questionContainer.classList.remove('question-anim');
+        void dom.questionContainer.offsetWidth; // Force reflow so the animation restarts on every question change
+        dom.questionContainer.classList.add('question-anim');
+    }
+
+    if (dom.progressBarFill) {
+        let pct = 0;
+        if (state.reviewWrongOnly) {
+            pct = state.wrongAnswerIndices.length
+                ? ((state.currentWrongAnswerReviewIndex + 1) / state.wrongAnswerIndices.length) * 100
+                : 0;
+        } else if (state.quizData.length) {
+            pct = ((index + 1) / state.quizData.length) * 100;
+        }
+        dom.progressBarFill.style.width = `${pct}%`;
     }
 
     (currentQuestion.options || []).forEach((option, optionIndex) => {
@@ -167,12 +199,15 @@ export function displayQuestion(index) {
         if (state.reviewWrongOnly) {
             dom.prevBtn.disabled = (state.currentWrongAnswerReviewIndex <= 0);
             dom.nextBtn.disabled = (state.currentWrongAnswerReviewIndex >= state.wrongAnswerIndices.length - 1);
-            dom.nextBtn.textContent = 'Câu sau';
+            dom.nextBtn.textContent = 'Sau ›';
+            dom.nextBtn.classList.remove('nav-btn-primary');
         } else {
             dom.prevBtn.disabled = (index <= 0);
             const isLast = index === state.quizData.length - 1;
             const isAnswered = state.questionsAnswered[index];
-            dom.nextBtn.textContent = (isLast && !state.isReviewMode) ? 'Hoàn thành' : 'Câu sau';
+            const showFinish = isLast && !state.isReviewMode;
+            dom.nextBtn.textContent = showFinish ? 'Hoàn thành ✓' : 'Sau ›';
+            dom.nextBtn.classList.toggle('nav-btn-primary', showFinish);
             dom.nextBtn.disabled = (!state.isReviewMode && !isAnswered) || (state.isReviewMode && isLast);
         }
     }
@@ -233,11 +268,13 @@ export function handleAnswerSelection(selectedButton) {
     if (isCorrectCurrentAnswer) {
         newScore++;
         selectedButton.classList.add('correct');
+        if (isSoundEnabled()) playCorrectSound();
     } else {
         selectedButton.classList.add('incorrect');
         if (allButtons[correctIndex]) {
             allButtons[correctIndex].classList.add('reveal-correct');
         }
+        if (isSoundEnabled()) playIncorrectSound();
     }
     state.updateQuizState({ userAnswers: newUserAnswers, questionsAnswered: newQuestionsAnswered, score: newScore });
 
@@ -249,8 +286,9 @@ export function handleAnswerSelection(selectedButton) {
     if (dom.scoreText) dom.scoreText.textContent = `Điểm: ${state.score}`;
     if (dom.nextBtn) dom.nextBtn.disabled = false;
 
-    if (state.currentQuestionIndex === state.quizData.length - 1) {
-        if (dom.nextBtn) dom.nextBtn.textContent = 'Hoàn thành';
+    if (state.currentQuestionIndex === state.quizData.length - 1 && dom.nextBtn) {
+        dom.nextBtn.textContent = 'Hoàn thành ✓';
+        dom.nextBtn.classList.add('nav-btn-primary');
     }
 
     if (isCorrectCurrentAnswer && state.currentQuestionIndex < state.quizData.length - 1 && state.autoAdvanceDuration > 0) {
@@ -262,6 +300,33 @@ export function handleAnswerSelection(selectedButton) {
         state.updateQuizState({ autoAdvanceTimer: timerId });
     }
     state.saveState();
+}
+
+function getResultTier(pct) {
+    if (pct >= 90) return { label: 'Xuất sắc! 🎉', colorVar: '--success-color' };
+    if (pct >= 70) return { label: 'Tốt lắm! 👍', colorVar: '--success-color' };
+    if (pct >= 50) return { label: 'Khá ổn, cần ôn thêm 💪', colorVar: '--warning-color' };
+    return { label: 'Cần cố gắng hơn 📚', colorVar: '--danger-color' };
+}
+
+export function updateResultsSummary() {
+    const total = state.quizData.length;
+    const correct = state.score;
+    const answered = Object.keys(state.userAnswers).length;
+    const incorrect = Math.max(0, answered - correct);
+    const skipped = Math.max(0, total - answered);
+    const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
+    const tier = getResultTier(pct);
+
+    if (dom.scoreRing) {
+        dom.scoreRing.style.setProperty('--pct', pct);
+        dom.scoreRing.style.setProperty('--ring-color', `var(${tier.colorVar})`);
+    }
+    if (dom.scoreRingPercent) dom.scoreRingPercent.textContent = `${pct}%`;
+    if (dom.resultsTier) dom.resultsTier.textContent = tier.label;
+    if (dom.breakdownCorrectCount) dom.breakdownCorrectCount.textContent = correct;
+    if (dom.breakdownIncorrectCount) dom.breakdownIncorrectCount.textContent = incorrect;
+    if (dom.breakdownSkippedCount) dom.breakdownSkippedCount.textContent = skipped;
 }
 
 export function showResults() {
@@ -277,6 +342,7 @@ export function showResults() {
     clearAutoAdvanceTimer();
     ui.showResultsSectionView();
     if (dom.finalScoreText) dom.finalScoreText.textContent = `Điểm cuối cùng: ${state.score} / ${state.quizData.length}`;
+    updateResultsSummary();
     if (state.currentQuizId) {
         const totalQuestions = Array.isArray(state.originalQuizData) && state.originalQuizData.length > 0
             ? state.originalQuizData.length
@@ -286,11 +352,34 @@ export function showResults() {
         }
         recordAttemptForQuiz(state.currentQuizId, {
             displayName: state.currentQuizDisplayName,
+            status: 'completed',
             lastScore: state.score,
             totalQuestions
         });
     }
     state.saveState();
+}
+
+// Persists a snapshot of an unfinished quiz so the select screen can show accurate
+// "in progress" status instead of silently losing the attempt when the user navigates away.
+export function recordInProgressAttempt() {
+    if (!state.currentQuizId || state.isReviewMode) return;
+    if (!state.quizData || state.quizData.length === 0) return;
+    const answeredCount = Object.keys(state.userAnswers).length;
+    if (answeredCount === 0) return;
+
+    const totalQuestions = Array.isArray(state.originalQuizData) && state.originalQuizData.length > 0
+        ? state.originalQuizData.length
+        : state.quizData.length;
+
+    recordAttemptForQuiz(state.currentQuizId, {
+        displayName: state.currentQuizDisplayName,
+        status: 'in-progress',
+        answeredCount,
+        currentQuestionIndex: state.currentQuestionIndex,
+        totalQuestions,
+        lastScore: state.score
+    });
 }
 
 export function navigatePrevious() {
