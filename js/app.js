@@ -20,10 +20,14 @@ function handleResumeNo() {
     console.log("[Init] User chose NO (Start Fresh).");
     ui.hideResumeModal();
     if (restoredSessionView === 'quiz') {
-        quizCore.recordInProgressAttempt(); // Preserve the declined session's progress for the quiz list
+        // Preserve both the progress record (for the quiz card) and the actual saved
+        // session, so the card's "in progress" status stays genuinely resumable instead
+        // of falsely advertising a resume that would silently restart from question 1.
+        quizCore.recordInProgressAttempt();
+    } else {
+        state.clearState();
     }
-    state.clearState();
-    quizCore.updateTimerDisplayAndControls(); 
+    quizCore.updateTimerDisplayAndControls();
     ui.showSelectScreenView(true); // true to prevent another state clear
     quizService.loadQuizManifest(); // Load manifest for fresh start
     if (dom.usageDetails && dom.usageDetails.hasAttribute('open')) {
