@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.8.0...v1.9.0) (2026-09-04)
+
+
+### Features
+
+* cập nhật bộ câu hỏi Đợt 2 - 2026 và sửa lỗi pipeline convert ([#83](https://github.com/uybinhphan/quiz-nghiep-vu/issues/83)) ([ec23b26](https://github.com/uybinhphan/quiz-nghiep-vu/commit/ec23b262af72edc0f2d82436fc9d2e9aba4ce95a))
+
 ## [1.8.0](https://github.com/uybinhphan/quiz-nghiep-vu/compare/v1.7.1...v1.8.0) (2026-09-04)
 
 
