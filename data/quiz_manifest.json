@@ -2,52 +2,52 @@
   {
     "name": "1. Tín dụng KHDN",
     "file": "./data-compressed/1-tin-dung-khdn.json",
-    "size": 176969
+    "size": 176957
   },
   {
     "name": "2. Thẩm định",
     "file": "./data-compressed/2-tham-dinh.json",
-    "size": 139432
+    "size": 139410
   },
   {
     "name": "3. Tín dụng KHCN",
     "file": "./data-compressed/3-tin-dung-khcn.json",
-    "size": 134539
+    "size": 134533
   },
   {
     "name": "4. Xử lý nợ",
     "file": "./data-compressed/4-xu-ly-no.json",
-    "size": 139251
+    "size": 139219
   },
   {
     "name": "5. Thanh toán quốc tế và Tài trợ thương mại",
     "file": "./data-compressed/5-thanh-toan-quoc-te-va-tai-tro-thuong-mai.json",
-    "size": 111611
+    "size": 111595
   },
   {
     "name": "6. Kế hoạch và quản lý rủi ro",
     "file": "./data-compressed/6-ke-hoach-va-quan-ly-rui-ro.json",
-    "size": 116956
+    "size": 116850
   },
   {
     "name": "7. Kế toán giao dịch nội bộ",
     "file": "./data-compressed/7-ke-toan-giao-dich-noi-bo.json",
-    "size": 117535
+    "size": 117521
   },
   {
     "name": "8. Kế toán giao dịch khách hàng",
     "file": "./data-compressed/8-ke-toan-giao-dich-khach-hang.json",
-    "size": 125751
+    "size": 125723
   },
   {
     "name": "9. Kiểm ngân",
     "file": "./data-compressed/9-kiem-ngan.json",
-    "size": 103452
+    "size": 103438
   },
   {
     "name": "10. Kiểm tra giám sát nội bộ",
     "file": "./data-compressed/10-kiem-tra-giam-sat-noi-bo.json",
-    "size": 164156
+    "size": 164022
   },
   {
     "name": "11. Công nghệ thông tin",
@@ -57,22 +57,22 @@
   {
     "name": "12. Nhân sự - Tiền lương",
     "file": "./data-compressed/12-nhan-su-tien-luong.json",
-    "size": 137914
+    "size": 137852
   },
   {
     "name": "13. Pháp chế",
     "file": "./data-compressed/13-phap-che.json",
-    "size": 113729
+    "size": 113723
   },
   {
     "name": "14. Xây dựng cơ bản, quản trị hành chính",
     "file": "./data-compressed/14-xay-dung-co-ban-quan-tri-hanh-chinh.json",
-    "size": 131762
+    "size": 131736
   },
   {
     "name": "15. Văn thư lễ tân",
     "file": "./data-compressed/15-van-thu-le-tan.json",
-    "size": 113026
+    "size": 113006
   },
   {
     "name": "17.1. Kiến thức chung",
