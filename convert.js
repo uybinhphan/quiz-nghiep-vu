@@ -30,15 +30,40 @@ function slugify(text) {
 }
 
 
+// --- Header normalization: lowercases, collapses whitespace/newlines,
+// and strips a leading "nhập " (some templates prefix answer columns with it) ---
+function normalizeHeader(h) {
+    if (h === null || typeof h === 'undefined') return "";
+    return h.toString().trim().toLowerCase()
+        .replace(/\s+/g, ' ')
+        .replace(/^nhập\s+/, '');
+}
+
 // --- Function to parse Excel data into structured JSON ---
 function parseQuizData(jsonData, sourceFilename) {
     if (!jsonData || jsonData.length < 2) {
         throw new Error(`Excel file '${sourceFilename}' is empty or only has a header row.`);
     }
-     const headers = jsonData[0].map(h => (h ? h.toString().trim().toLowerCase() : ""));
+
+    // Some files have extra rows (e.g. a document letterhead) above the real
+    // header row, so scan for the row containing "câu hỏi" instead of assuming row 0.
+    const maxHeaderScan = Math.min(10, jsonData.length);
+    let headerRowIndex = -1;
+    for (let i = 0; i < maxHeaderScan; i++) {
+        const normalized = (jsonData[i] || []).map(normalizeHeader);
+        if (normalized.includes("câu hỏi")) {
+            headerRowIndex = i;
+            break;
+        }
+    }
+    if (headerRowIndex === -1) {
+        throw new Error(`Could not find a header row containing "Câu hỏi" in the first ${maxHeaderScan} rows of '${sourceFilename}'.`);
+    }
+
+     const headers = jsonData[headerRowIndex].map(normalizeHeader);
      const expectedHeaders = {
          question: "câu hỏi", opt1: "đáp án 1", opt2: "đáp án 2", opt3: "đáp án 3",
-         opt4: "đáp án 4", correct: "đáp án đúng", source: "trích dẫn nguồn"
+         opt4: "đáp án 4", correct: "đáp án đúng"
      };
      const colIndices = {};
      let missingHeaders = [];
@@ -46,10 +71,12 @@ function parseQuizData(jsonData, sourceFilename) {
      Object.keys(expectedHeaders).forEach(key => {
          const index = headers.indexOf(expectedHeaders[key]);
          colIndices[key] = index;
-         if (index === -1 && ['question', 'opt1', 'opt2', 'opt3', 'opt4', 'correct'].includes(key)) {
+         if (index === -1) {
             missingHeaders.push(`"${expectedHeaders[key]}"`);
          }
      });
+     // Source column text varies ("trích dẫn nguồn", "trích dẫn nguồn câu hỏi", ...) so match by prefix.
+     colIndices.source = headers.findIndex(h => h.startsWith("trích dẫn nguồn"));
 
      if (missingHeaders.length > 0) {
          throw new Error(`Missing required columns in '${sourceFilename}': ${missingHeaders.join(', ')} (case-insensitive).`);
@@ -60,21 +87,23 @@ function parseQuizData(jsonData, sourceFilename) {
 
      const parsedQuestions = [];
      let skippedRowCount = 0;
-     for (let i = 1; i < jsonData.length; i++) {
+     for (let i = headerRowIndex + 1; i < jsonData.length; i++) {
          const row = jsonData[i];
          const excelRowNum = i + 1;
          if (!row || row.every(cell => String(cell || "").trim() === '')) continue;
 
          let skipReason = null;
-         const questionText = row[colIndices.question] ? String(row[colIndices.question]).trim() : "";
+         // Use != null (not truthiness) so a legitimate "0" option/answer isn't treated as blank.
+         const cellToString = (v) => (v === null || typeof v === 'undefined') ? "" : String(v).trim();
+         const questionText = cellToString(row[colIndices.question]);
          const options = [
-             row[colIndices.opt1] ? String(row[colIndices.opt1]).trim() : "",
-             row[colIndices.opt2] ? String(row[colIndices.opt2]).trim() : "",
-             row[colIndices.opt3] ? String(row[colIndices.opt3]).trim() : "",
-             row[colIndices.opt4] ? String(row[colIndices.opt4]).trim() : ""
+             cellToString(row[colIndices.opt1]),
+             cellToString(row[colIndices.opt2]),
+             cellToString(row[colIndices.opt3]),
+             cellToString(row[colIndices.opt4])
          ];
-         const correctAnswerRaw = row[colIndices.correct] ? String(row[colIndices.correct]).trim() : "";
-         const sourceText = (colIndices.source !== -1 && row[colIndices.source]) ? String(row[colIndices.source]).trim() : "N/A";
+         const correctAnswerRaw = cellToString(row[colIndices.correct]);
+         const sourceText = (colIndices.source !== -1) ? (cellToString(row[colIndices.source]) || "N/A") : "N/A";
 
          if (!questionText) {
              skipReason = "Missing 'Câu hỏi'";
