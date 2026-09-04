@@ -102,7 +102,7 @@ quiz-nghiep-vu/
 7. **Swipe Gesture Support:** Enhances mobile UX with touch-based navigation.
 
 ## Offline Bundle
-- Run `npm run build:offline` to generate a single-file version at `dist/quiz-offline.html`.
+- Run `pnpm run build:offline` to generate a single-file version at `dist/quiz-offline.html`.
 - All JavaScript modules and quiz data are inlined, so the file works completely offline (no network requests).
 - The offline build automatically disables GoatCounter analytics and replaces the CDN confetti script with a lightweight inline fallback.
 
@@ -190,10 +190,10 @@ Contributions are welcome! Please follow these general steps:
 6. Push to your fork and create a Pull Request.
 
 ### Development Workflow
-1. **Setup**: Clone the repo, run `npm install`.
+1. **Setup**: Clone the repo, run `pnpm install`.
 2. **Develop**: Make code changes. Test by opening `index.html` locally.
-3. **Lint**: Run `npm run lint`.
-4. **Build**: Run `npm run build`.
+3. **Lint**: Run `pnpm run lint`.
+4. **Build**: Run `pnpm run build`.
 5. **Submit PR**.
 
 ## Future Enhancements
